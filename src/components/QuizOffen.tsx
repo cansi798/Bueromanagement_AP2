@@ -66,7 +66,12 @@ export default function QuizOffen({
             </div>
           )}
 
-          <KIBewertung frage={aufgabe.text} loesung={aufgabe.loesung} antwort={antwort} />
+          <KIBewertung
+            frage={aufgabe.text}
+            loesung={aufgabe.loesung}
+            antwort={antwort}
+            punkte={aufgabe.punkte}
+          />
 
           {!bewertet ? (
             <div className="mt-3 flex gap-2">

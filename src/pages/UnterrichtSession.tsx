@@ -68,7 +68,7 @@ export default function UnterrichtSession() {
             )}
           </div>
           <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
-            <MedienSlot medien={thema.medien} />
+            <MedienSlot medien={thema.medien} bereichId={thema.bereich} themaId={thema.id} />
             <Link
               to={`/praesentation/${bereichId}/${thema.id}`}
               className="mt-3 inline-block rounded-lg bg-slate-900 px-4 py-2.5 font-semibold text-white hover:bg-slate-700"

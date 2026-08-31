@@ -4,11 +4,21 @@ import Layout from '../components/Layout'
 import Markdown from '../components/Markdown'
 import Timer from '../components/Timer'
 import KIBewertung from '../components/KIBewertung'
+import Anlage from '../components/Anlage'
 import { ladeAufgaben, ladePruefungen, useDaten } from '../lib/data'
 import { wertungMC } from '../lib/quiz'
 import { heuteISO, merkeErledigt } from '../lib/progress'
 import { terminVonNummer } from '../lib/termine'
+import { ihkNote } from '../lib/noten'
+import {
+  aktuellesModell,
+  bewertePruefungsAufgabe,
+  kiVerfuegbar,
+  type AufgabenBewertung,
+} from '../lib/ki'
 import type { Aufgabe, BereichId } from '../types'
+
+type KIStatus = 'idle' | 'laedt' | 'fertig' | 'fehler'
 
 export default function Simulation() {
   const { bereichId, nr } = useParams<{ bereichId: BereichId; nr: string }>()
@@ -20,6 +30,9 @@ export default function Simulation() {
   const [mcAntworten, setMcAntworten] = useState<Record<string, number[]>>({})
   const [textAntworten, setTextAntworten] = useState<Record<string, string>>({})
   const [selbst, setSelbst] = useState<Record<string, boolean>>({})
+  const [kiStatus, setKiStatus] = useState<KIStatus>('idle')
+  const [kiFortschritt, setKiFortschritt] = useState('')
+  const [kiErgebnisse, setKiErgebnisse] = useState<Record<string, AufgabenBewertung>>({})
 
   const pruefung = pruefungen?.find((p) => p.termin === termin && p.bereich === bereichId)
   const liste: Aufgabe[] = useMemo(() => {
@@ -61,6 +74,43 @@ export default function Simulation() {
   const selbstPunkte = liste
     .filter((a) => a.typ !== 'mc' && selbst[a.id])
     .reduce((s, a) => s + (a.punkte ?? 1), 0)
+
+  // KI-Gesamtbericht: alle offenen Aufgaben nacheinander wie ein Korrektor punkten.
+  const offene = liste.filter((a) => a.typ !== 'mc')
+  const maxPunkteGesamt = liste.reduce((s, a) => s + (a.punkte ?? 1), 0)
+
+  async function kiBerichtErstellen() {
+    setKiStatus('laedt')
+    const ergebnisse: Record<string, AufgabenBewertung> = {}
+    try {
+      for (let i = 0; i < offene.length; i++) {
+        const a = offene[i]
+        const antwort = (textAntworten[a.id] ?? '').trim()
+        setKiFortschritt(`Aufgabe ${i + 1} von ${offene.length} wird korrigiert …`)
+        if (antwort.length < 3) {
+          ergebnisse[a.id] = { punkte: 0, max: a.punkte ?? 1, feedback: 'Keine Antwort abgegeben.' }
+          continue
+        }
+        ergebnisse[a.id] = await bewertePruefungsAufgabe(
+          a.text,
+          a.loesung,
+          antwort,
+          a.punkte ?? 1,
+          (text, prozent) => setKiFortschritt(`Modell lädt: ${prozent} % — ${text.slice(0, 50)}`),
+        )
+        setKiErgebnisse({ ...ergebnisse })
+      }
+      setKiErgebnisse(ergebnisse)
+      setKiStatus('fertig')
+    } catch {
+      setKiStatus('fehler')
+    }
+  }
+
+  const kiOffenePunkte = Object.values(kiErgebnisse).reduce((s, e) => s + e.punkte, 0)
+  const kiGesamt = Math.round((mcPunkte + kiOffenePunkte) * 10) / 10
+  const kiProzent = maxPunkteGesamt > 0 ? (kiGesamt / maxPunkteGesamt) * 100 : 0
+  const note = ihkNote(kiProzent)
 
   if (!gestartet) {
     return (
@@ -106,6 +156,68 @@ export default function Simulation() {
           <p className="text-sm text-slate-600">
             MC automatisch gewertet · offene Aufgaben nach deiner Selbsteinschätzung unten.
           </p>
+
+          {/* KI-Prüfungsbericht mit IHK-Note */}
+          {kiVerfuegbar() && offene.length > 0 && (
+            <div className="mt-3 border-t border-sky-200 pt-3">
+              {kiStatus === 'idle' && (
+                <div>
+                  <button
+                    type="button"
+                    onClick={kiBerichtErstellen}
+                    className="min-h-11 rounded-lg bg-violet-600 px-4 py-2 text-sm font-semibold text-white hover:bg-violet-700"
+                  >
+                    🤖 Komplette Prüfung von der KI korrigieren lassen
+                  </button>
+                  <p className="mt-1.5 text-xs text-slate-500">
+                    Die KI ({aktuellesModell().name}) punktet alle {offene.length} offenen
+                    Aufgaben wie ein Korrektor und errechnet deine Note nach IHK-Schlüssel.
+                  </p>
+                </div>
+              )}
+              {kiStatus === 'laedt' && (
+                <p className="text-sm font-medium text-violet-800">
+                  ⏳ {kiFortschritt} ({Object.keys(kiErgebnisse).length}/{offene.length} fertig)
+                </p>
+              )}
+              {kiStatus === 'fertig' && (
+                <div className="rounded-xl border-2 border-violet-300 bg-white p-4">
+                  <p className="text-xs font-semibold uppercase tracking-wide text-violet-700">
+                    🤖 KI-Prüfungsbericht
+                  </p>
+                  <div className="mt-2 flex flex-wrap items-center gap-4">
+                    <div>
+                      <p className="text-3xl font-black text-slate-900">
+                        Note {note.note}
+                        <span className="ml-2 text-lg font-bold text-violet-700">({note.wort})</span>
+                      </p>
+                      <p className="text-sm text-slate-600">
+                        {kiGesamt} von {maxPunkteGesamt} erfassten Punkten ·{' '}
+                        {Math.round(kiProzent)} % · IHK-Schlüssel
+                      </p>
+                    </div>
+                    <div className="ml-auto text-right text-sm text-slate-500">
+                      <p>MC automatisch: {mcPunkte} P.</p>
+                      <p>Offene (KI): {Math.round(kiOffenePunkte * 10) / 10} P.</p>
+                    </div>
+                  </div>
+                  <p className="mt-2 text-xs text-slate-400">
+                    Einzelfeedback steht unten an jeder Aufgabe. KI-Noten sind eine
+                    Lern-Einschätzung — keine amtliche Bewertung.
+                  </p>
+                </div>
+              )}
+              {kiStatus === 'fehler' && (
+                <p className="text-sm text-red-700">
+                  KI-Korrektur abgebrochen (Modell-Problem).{' '}
+                  <button type="button" onClick={kiBerichtErstellen} className="font-semibold underline">
+                    Nochmal versuchen
+                  </button>
+                </p>
+              )}
+            </div>
+          )}
+
           <Link to={`/${bereichId}/stufe3`} className="mt-2 inline-block text-sm font-medium text-sky-700">
             ← Zurück zu den Aufgabensammlungen
           </Link>
@@ -165,10 +277,20 @@ export default function Simulation() {
                         <Markdown text={a.loesung} />
                       </div>
                     </div>
+                    {kiErgebnisse[a.id] && (
+                      <div className="mt-2 rounded-lg border border-violet-200 bg-violet-50 p-3">
+                        <p className="text-sm font-bold text-violet-800">
+                          🤖 KI-Korrektur: {kiErgebnisse[a.id].punkte} / {kiErgebnisse[a.id].max}{' '}
+                          Punkte
+                        </p>
+                        <p className="mt-1 text-sm text-slate-700">{kiErgebnisse[a.id].feedback}</p>
+                      </div>
+                    )}
                     <KIBewertung
                       frage={a.text}
                       loesung={a.loesung}
                       antwort={textAntworten[a.id] ?? ''}
+                      punkte={a.punkte}
                     />
                     {selbst[a.id] === undefined ? (
                       <div className="mt-2 flex gap-2">
@@ -208,11 +330,8 @@ export default function Simulation() {
                 )}
               </div>
               {a.anlagenText && (
-                <div className="mt-3 rounded-lg border border-slate-200 bg-slate-50 p-3 lg:mt-0">
-                  <p className="mb-1 text-xs font-semibold uppercase tracking-wide text-slate-500">
-                    Anlage
-                  </p>
-                  <Markdown text={a.anlagenText} />
+                <div className="mt-3 lg:mt-0">
+                  <Anlage text={a.anlagenText} />
                 </div>
               )}
             </div>

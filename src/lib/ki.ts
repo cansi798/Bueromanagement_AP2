@@ -82,6 +82,58 @@ export function ladeEngine(
   return enginePromise
 }
 
+export interface AufgabenBewertung {
+  punkte: number
+  max: number
+  feedback: string
+}
+
+// Bewertet EINE Prüfungsaufgabe wie ein IHK-Korrektor: vergibt Punkte + kurzes
+// Feedback. Robustes Textformat statt JSON (kleine Modelle halten JSON schlecht).
+export async function bewertePruefungsAufgabe(
+  frage: string,
+  musterloesung: string,
+  antwort: string,
+  maxPunkte: number,
+  onProgress?: (text: string, prozent: number) => void,
+): Promise<AufgabenBewertung> {
+  const engine = await ladeEngine(onProgress)
+  const res = await engine.chat.completions.create({
+    messages: [
+      {
+        role: 'system',
+        content:
+          'Du bist ein fairer IHK-Korrektor für Büromanagement. Du bewertest AUSSCHLIESSLICH ' +
+          'den Text im Abschnitt SCHÜLERANTWORT — niemals die Musterlösung selbst; sie ist nur ' +
+          'dein Vergleichsmaßstab. Entspricht die Schülerantwort der Musterlösung inhaltlich ' +
+          '(auch in eigenen Worten), gib die VOLLE Punktzahl; fehlen Teile, gib anteilige Punkte; ' +
+          'ist sie falsch oder leer, gib 0. ' +
+          'Antworte GENAU in diesem Format, sonst nichts:\n' +
+          `PUNKTE: <Zahl zwischen 0 und ${maxPunkte}>\n` +
+          'FEEDBACK: <beginne mit einem kurzen wörtlichen Zitat aus der Schülerantwort in ' +
+          'Anführungszeichen, dann max. 35 Wörter: was stimmt, was fehlt>',
+      },
+      {
+        role: 'user',
+        content:
+          `### AUFGABE (${maxPunkte} Punkte)\n${frage}\n\n` +
+          `### MUSTERLÖSUNG (nur Vergleichsmaßstab — NICHT bewerten!)\n${musterloesung}\n\n` +
+          `### SCHÜLERANTWORT (NUR diese bewerten!)\n${antwort}`,
+      },
+    ],
+    temperature: 0.2,
+    max_tokens: 200,
+  })
+  const text = res.choices[0]?.message?.content ?? ''
+  const m = text.match(/PUNKTE:\s*([\d.,]+)/i)
+  let punkte = m ? parseFloat(m[1].replace(',', '.')) : NaN
+  if (!Number.isFinite(punkte)) punkte = 0
+  punkte = Math.max(0, Math.min(maxPunkte, punkte))
+  const feedback =
+    text.replace(/^[\s\S]*?FEEDBACK:\s*/i, '').trim() || text.trim() || 'Kein Feedback erhalten.'
+  return { punkte: Math.round(punkte * 10) / 10, max: maxPunkte, feedback }
+}
+
 export async function bewerteAntwort(
   frage: string,
   musterloesung: string,
@@ -95,13 +147,20 @@ export async function bewerteAntwort(
         role: 'system',
         content:
           'Du bist eine faire, ermutigende Berufsschul-Lehrkraft für Büromanagement. ' +
-          'Bewerte die Schülerantwort im Vergleich zur Musterlösung. Antworte auf Deutsch, ' +
-          'kurz und strukturiert: 1) Note von 1–6 mit einem Satz Begründung, ' +
-          '2) Was war richtig?, 3) Was fehlt oder ist falsch? Maximal 120 Wörter.',
+          'Du bewertest AUSSCHLIESSLICH den Text im Abschnitt SCHÜLERANTWORT — niemals die ' +
+          'Musterlösung selbst; sie ist nur dein Vergleichsmaßstab. Entspricht die ' +
+          'Schülerantwort der Musterlösung inhaltlich (auch in eigenen Worten), sag das klar ' +
+          'und gib Note 1–2. Antworte auf Deutsch, kurz und strukturiert: ' +
+          '1) Beginne mit einem kurzen wörtlichen Zitat aus der SCHÜLERANTWORT in ' +
+          'Anführungszeichen, 2) Note von 1–6 mit einem Satz Begründung, ' +
+          '3) Was war richtig?, 4) Was fehlt oder ist falsch? Maximal 120 Wörter.',
       },
       {
         role: 'user',
-        content: `Aufgabe:\n${frage}\n\nMusterlösung:\n${musterloesung}\n\nSchülerantwort:\n${antwort}`,
+        content:
+          `### AUFGABE\n${frage}\n\n` +
+          `### MUSTERLÖSUNG (nur Vergleichsmaßstab — NICHT bewerten!)\n${musterloesung}\n\n` +
+          `### SCHÜLERANTWORT (NUR diese bewerten!)\n${antwort}`,
       },
     ],
     temperature: 0.3,

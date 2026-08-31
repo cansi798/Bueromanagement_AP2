@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Markdown from './Markdown'
+import Anlage from './Anlage'
 import QuelleBadge from './QuelleBadge'
 import QuizMC from './QuizMC'
 import QuizOffen from './QuizOffen'
@@ -47,15 +47,8 @@ export default function AufgabenKarte({
             >
               {zeigeAnlage ? 'Anlage ausblenden ▲' : 'Anlage anzeigen ▼'}
             </button>
-            <div
-              className={`rounded-lg border border-slate-200 bg-slate-50 p-3 ${
-                zeigeAnlage ? '' : 'hidden lg:block'
-              }`}
-            >
-              <p className="mb-1 text-xs font-semibold uppercase tracking-wide text-slate-500">
-                Anlage
-              </p>
-              <Markdown text={aufgabe.anlagenText} />
+            <div className={zeigeAnlage ? '' : 'hidden lg:block'}>
+              <Anlage text={aufgabe.anlagenText} />
             </div>
           </div>
         </div>

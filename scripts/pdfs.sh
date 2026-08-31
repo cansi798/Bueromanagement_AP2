@@ -22,5 +22,19 @@ for b in wiso kbz buchfuehrung muendlich; do
     --print-to-pdf="public/downloads/praesentation-$b.pdf" "$BASIS/?code=$CODE#/praesentation/$b" 2>/dev/null
 done
 
-ls -la public/downloads/
+# Themen-Handouts (eines pro Thema, alle Bereiche)
+mkdir -p public/downloads/handouts
+node -e '
+const fs=require("fs");
+for (const b of ["wiso","kbz","buchfuehrung","muendlich"]) {
+  for (const t of JSON.parse(fs.readFileSync("public/data/themen/"+b+".json","utf8"))) {
+    console.log(b+" "+t.id);
+  }
+}' | while read -r bereich thema; do
+  echo "→ Handout $thema"
+  "$CHROME" --headless --disable-gpu --no-pdf-header-footer --virtual-time-budget=10000 \
+    --print-to-pdf="public/downloads/handouts/$thema.pdf" "$BASIS/?code=$CODE#/handout/$bereich/$thema" 2>/dev/null
+done
+
+ls public/downloads/ public/downloads/handouts/ | head -50
 echo "Fertig. Danach erneut 'npm run build', damit die PDFs im dist/ landen."

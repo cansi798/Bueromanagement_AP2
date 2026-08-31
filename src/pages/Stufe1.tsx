@@ -70,7 +70,7 @@ function ThemaKarte({ thema }: { thema: Thema }) {
                 </div>
               </div>
             )}
-            <MedienSlot medien={thema.medien} />
+            <MedienSlot medien={thema.medien} bereichId={thema.bereich} themaId={thema.id} />
           </div>
         </div>
       )}

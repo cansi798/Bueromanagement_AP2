@@ -11,6 +11,7 @@ import Landkarte from './pages/Landkarte'
 import Glossar from './pages/Glossar'
 import Suche from './pages/Suche'
 import Skript from './pages/Skript'
+import Handout from './pages/Handout'
 import Praesentation from './pages/Praesentation'
 import Unterricht from './pages/Unterricht'
 import UnterrichtSession from './pages/UnterrichtSession'
@@ -25,6 +26,7 @@ export default function App() {
           <Route path="/suche" element={<Suche />} />
           <Route path="/landkarte/:bereichId" element={<Landkarte />} />
           <Route path="/skript/:bereichId" element={<Skript />} />
+          <Route path="/handout/:bereichId/:themaId" element={<Handout />} />
           <Route path="/praesentation/:bereichId" element={<Praesentation />} />
           <Route path="/praesentation/:bereichId/:themaId" element={<Praesentation />} />
           <Route path="/unterricht/:bereichId" element={<Unterricht />} />

@@ -3,6 +3,7 @@ import Markdown from './Markdown'
 import {
   aktuellesModell,
   bewerteAntwort,
+  bewertePruefungsAufgabe,
   kiGeladen,
   kiVerfuegbar,
   KI_MODELLE,
@@ -13,18 +14,23 @@ type Status = 'idle' | 'laedt' | 'fertig' | 'fehler'
 
 // Bewertet eine Schülerantwort gegen die Musterlösung — lokal im Browser,
 // mit wählbarem Modell (Blitz / Standard / Beste Qualität).
+// Hat die Aufgabe eine Punktzahl, korrigiert die KI wie ein Prüfer und
+// nennt die erreichten Punkte; sonst gibt sie eine Noten-Einschätzung.
 export default function KIBewertung({
   frage,
   loesung,
   antwort,
+  punkte,
 }: {
   frage: string
   loesung: string
   antwort: string
+  punkte?: number
 }) {
   const [status, setStatus] = useState<Status>('idle')
   const [fortschritt, setFortschritt] = useState('')
   const [feedback, setFeedback] = useState('')
+  const [erreicht, setErreicht] = useState<number | null>(null)
   const [modellId, setModellId] = useState(() => aktuellesModell().id)
   const modell = KI_MODELLE.find((m) => m.id === modellId) ?? KI_MODELLE[1]
 
@@ -46,11 +52,17 @@ export default function KIBewertung({
   async function starten() {
     setStatus('laedt')
     setFortschritt(kiGeladen() ? 'Bewerte …' : 'Modell wird geladen …')
+    const fortschrittCb = (text: string, prozent: number) =>
+      setFortschritt(`Modell lädt: ${prozent} % — ${text.slice(0, 60)}`)
     try {
-      const ergebnis = await bewerteAntwort(frage, loesung, antwort, (text, prozent) =>
-        setFortschritt(`Modell lädt: ${prozent} % — ${text.slice(0, 60)}`),
-      )
-      setFeedback(ergebnis)
+      if (punkte !== undefined && punkte > 0) {
+        const r = await bewertePruefungsAufgabe(frage, loesung, antwort, punkte, fortschrittCb)
+        setErreicht(r.punkte)
+        setFeedback(r.feedback)
+      } else {
+        setErreicht(null)
+        setFeedback(await bewerteAntwort(frage, loesung, antwort, fortschrittCb))
+      }
       setStatus('fertig')
     } catch {
       setStatus('fehler')
@@ -102,6 +114,12 @@ export default function KIBewertung({
           <p className="mb-1 text-xs font-semibold uppercase tracking-wide text-violet-700">
             🤖 KI-Feedback ({modell.name})
           </p>
+          {erreicht !== null && punkte !== undefined && (
+            <p className="mb-2 text-2xl font-black text-slate-900">
+              {erreicht} <span className="text-base font-bold text-slate-500">/ {punkte} Punkte</span>
+              {erreicht >= punkte && <span className="ml-2">🎉</span>}
+            </p>
+          )}
           <Markdown text={feedback} />
           <div className="mt-2 flex items-center justify-between gap-2">
             <p className="text-xs text-slate-400">

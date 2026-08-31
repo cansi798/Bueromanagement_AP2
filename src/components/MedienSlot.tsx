@@ -1,4 +1,5 @@
-import type { Medien } from '../types'
+import { Link } from 'react-router-dom'
+import type { BereichId, Medien } from '../types'
 
 function Slot({
   icon,
@@ -34,15 +35,41 @@ function Slot({
   )
 }
 
-export default function MedienSlot({ medien }: { medien?: Medien }) {
-  if (!medien?.video && !medien?.podcast) return null
+export default function MedienSlot({
+  medien,
+  bereichId,
+  themaId,
+}: {
+  medien?: Medien
+  bereichId?: BereichId
+  themaId?: string
+}) {
+  const hatMedien = Boolean(medien?.video || medien?.podcast)
+  const hatHandout = Boolean(bereichId && themaId)
+  if (!hatMedien && !hatHandout) return null
+
   return (
     <div className="space-y-2">
       <p className="text-xs font-semibold uppercase tracking-wide text-slate-500">
         Lernmedien zum Thema
       </p>
-      {medien.video && <Slot icon="🎬" {...medien.video} />}
-      {medien.podcast && <Slot icon="🎧" {...medien.podcast} />}
+      {medien?.video && <Slot icon="🎬" {...medien.video} />}
+      {medien?.podcast && <Slot icon="🎧" {...medien.podcast} />}
+      {hatHandout && (
+        <div className="flex items-center gap-2 rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm font-medium">
+          <span>📄</span>
+          <Link to={`/handout/${bereichId}/${themaId}`} className="text-sky-700 hover:underline">
+            Handout ansehen
+          </Link>
+          <a
+            href={`./downloads/handouts/${themaId}.pdf`}
+            download
+            className="ml-auto rounded-full bg-sky-100 px-2 py-0.5 text-xs font-semibold text-sky-800 hover:bg-sky-200"
+          >
+            ⬇️ PDF
+          </a>
+        </div>
+      )}
     </div>
   )
 }
