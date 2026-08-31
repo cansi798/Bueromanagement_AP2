@@ -3,7 +3,9 @@ dist/
 *.log
 .DS_Store
 
-# Original-Prüfungs-PDFs niemals ins öffentliche Repo
+# Original-Prüfungs-PDFs niemals ins öffentliche Repo …
 *.pdf
 content-pipeline/raw/
 content-pipeline/staging/
+# … aber die selbst erzeugten Download-PDFs (Skripte/Präsentationen) gehören dazu
+!public/downloads/**/*.pdf

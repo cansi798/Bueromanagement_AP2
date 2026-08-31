@@ -3,6 +3,46 @@
 Protokoll aller Auffälligkeiten aus der KI-Extraktion. Jede Extraktion muss
 `npm test` (Schema- + Referenz-Audit) bestehen, bevor sie committet wird.
 
+## GESAMT-ROLLOUT abgeschlossen (2026-08-31)
+
+**Alle 16 Termine (2017 Winter – 2025 Sommer) extrahiert: 1.303 Aufgaben,
+davon 1.186 Originale; 30 Prüfungseinträge (KBZ + WiSo je Termin, soweit
+Material vorhanden).** Extraktion in 3 Wellen à 4–5 parallelen Agenten über
+Staging-Dateien (merge-staging.mjs), jede Welle gegen Schema + Referenzen
+validiert.
+
+### Zentral behobene Formfehler (Welle 1)
+- 134 MC-Aufgaben mit `korrekt` als Zahl statt Array → automatisch gewrappt.
+- 6 Prüfungseinträge ohne termin/bereich/name → aus Staging rekonstruiert.
+- Welle 2+3 danach fehlerfrei (Prompts nachgeschärft).
+
+### Wichtige inhaltliche Vorbehalte (je Termin dokumentiert)
+- **Winter 2021 (Sammlung 9):** Für offene KBZ-Aufgaben existiert NUR der
+  MC-Schlüssel als amtliche Lösung. Die Musterlösungen der offenen Aufgaben
+  sind fachlich fundiert ERGÄNZT und in jeder Aufgabe gekennzeichnet.
+- **Winter 2018 (Sammlung 15):** Lösungen stammen aus U-Form-
+  Lösungserläuterungen (Fachverlag), nicht von der IHK; Standalone-
+  Lösungsbogen war blanko. KBZ 4.5: Beträge 4800/5101 in der Quelle
+  vermutlich vertauscht — korrigiert vermerkt.
+- **Winter 2024 (Sammlung 3):** WiSo-Aufgaben 18–22 fehlen (Seite fehlt im
+  Quell-PDF); 8 Kontierungs-Teilaufgaben nicht als Einzelaufgaben erfasst
+  (Buchungssätze im Audit gelistet).
+- **Sommer 2018 (Sammlung 14):** KBZ 4.5 Entgeltabrechnung: Lohnsteuerwerte
+  in Aufgabensatz und Musterlösung widersprechen sich — dokumentiert.
+- **Winter 2019 (Sammlung 13):** WiSo A28: amtlicher Schlüssel (fristlos)
+  weicht von § 22 BBiG (4-Wochen-Frist) ab — Schlüssel übernommen,
+  Einordnung in der Erklärung.
+- **Sommer 2021 (Sammlung 8):** Kein WiSo-Aufgabenblatt im Ordner (nur
+  Lösungsraster) → kein WiSo für diesen Termin.
+- **2017 Winter:** Datei „W17 18 Losungen" im 2018er-Ordner enthält in
+  Wahrheit die Winter-2018/19-Lösungen (irreführender Name) — korrekt
+  auseinandergehalten.
+- Generell: Reine Tabellen-/Formular-/Erörterungsaufgaben ohne modellierbaren
+  Schlüssel wurden je Termin bewusst weggelassen (Details in den
+  Wellen-Protokollen der Agenten); Punktesummen daher teils < Deckblatt.
+- Rundung gebundener Punkte (2,1739/2,2727/3,33) führt zu Summen wie 144/90 —
+  `punkteGesamt` trägt immer den Deckblattwert.
+
 ## Sommer 2025 (Muster-Extraktion, 2026-08-31)
 
 ### KBZ (Kundenbeziehungsprozesse)

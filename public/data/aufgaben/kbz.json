@@ -8103,5 +8103,2966 @@
     "text": "Geben Sie an, welche Auswirkung ein Gewinn auf die Bilanz des Unternehmens hat!",
     "punkte": 1,
     "loesung": "Keine amtliche Lösung im IHK-Lösungs-PDF vorhanden (nur MC-Schlüssel). Musterlösung: Ein Gewinn erhöht das Eigenkapital des Unternehmens in der Bilanz (auf der Passivseite)."
+  },
+  {
+    "id": "kbz-2017w-a1-1",
+    "themaId": "arbeitsschutz-umwelt",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2017-winter",
+    "typ": "offen",
+    "text": "Ein Unternehmen nimmt einen neuen höhenverstellbaren Schreibtisch aus Bambus in seine Serie auf. Es wird damit geworben, dass Bambus ein nachhaltiger und umweltverträglicher Rohstoff ist. Erläutern Sie zwei Vorteile, die sich daraus für das Unternehmen ergeben könnten.",
+    "punkte": 4,
+    "loesung": "Zwei Vorteile, z. B.: (1) Umsatzsteigerung durch neue Kundengruppe, da immer mehr Kunden Wert auf Nachhaltigkeit legen. (2) Besseres Image, weil das Unternehmen dadurch ggf. ein Öko-Zertifikat erhalten kann.",
+    "erklaerung": "Ein nachhaltiger Rohstoff kann sowohl neue umweltbewusste Kundengruppen erschließen als auch das Image des Unternehmens verbessern."
+  },
+  {
+    "id": "kbz-2017w-a1-2",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2017-winter",
+    "typ": "mc",
+    "text": "Sie erhalten viele Anfragen und werden beauftragt, die entsprechenden Angebote zu erstellen. Welche Angabe im Angebot macht die Besonderheit des nachhaltigen Produkts deutlich?",
+    "punkte": 2.1739,
+    "optionen": [
+      "Zahlungsbedingungen",
+      "Lieferzeit",
+      "Bezug auf Fair Trade-Siegel",
+      "Transportkosten",
+      "Besonderer Service"
+    ],
+    "korrekt": [
+      2
+    ],
+    "loesung": "Bezug auf Fair Trade-Siegel.",
+    "erklaerung": "Ein Fair-Trade-Siegel dokumentiert die Nachhaltigkeit und faire Herstellung und hebt damit die Besonderheit des Produkts hervor."
+  },
+  {
+    "id": "kbz-2017w-a1-3",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2017-winter",
+    "typ": "rechnen",
+    "text": "Um Neukunden ein interessantes Angebot unterbreiten zu können, sollen Sie den Verkaufspreis des Schreibtisches kalkulieren. Ermitteln Sie den Listenverkaufspreis in Euro. Gegeben: Selbstkosten 535,70 €; Gewinnzuschlag 10 %; Skonto 3 %; Kundenrabatt 5 % (Neukunden 10 %).",
+    "anlagenText": "Kundenrabatt: 5 %, für Neukunden 10 %. Skonto: 3 % bei Zahlung innerhalb von 12 Tagen oder 30 Tage netto Kasse. Gewinnzuschlag: 10 %. Für Neukunden gilt der Rabattsatz von 10 %.",
+    "punkte": 6,
+    "loesung": "Selbstkosten 535,70 € + 10 % Gewinn (53,57 €) = Barverkaufspreis 589,27 €; + Skonto 3 % (Barverkaufspreis = 97 % → 589,27 / 0,97 = 607,49 €) = Zielverkaufspreis 607,49 €; + Rabatt 10 % (Zielverkaufspreis = 90 % → 607,49 / 0,90 = 674,99 €) = Listenverkaufspreis 674,99 €.",
+    "erklaerung": "In der Vorwärtskalkulation werden Skonto und Rabatt jeweils als 'im Hundert' auf den nächsthöheren Preis hochgerechnet, da sie später abgezogen werden. Für Neukunden gilt der Rabattsatz von 10 %."
+  },
+  {
+    "id": "kbz-2017w-a1-4-1",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2017-winter",
+    "typ": "offen",
+    "text": "Das Unternehmen unterbreitet seinen Kunden für den Schreibtisch sowohl verbindliche als auch unverbindliche Angebote. Geben Sie drei Formulierungen an, die ein Angebot als unverbindlich kennzeichnen.",
+    "punkte": 3,
+    "loesung": "Drei Formulierungen, z. B.: 'freibleibend', 'ohne Obligo', 'solange Vorrat reicht', 'Preis freibleibend'.",
+    "erklaerung": "Freizeichnungsklauseln wie 'freibleibend' oder 'ohne Obligo' machen ein Angebot rechtlich unverbindlich."
+  },
+  {
+    "id": "kbz-2017w-a1-4-2",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2017-winter",
+    "typ": "offen",
+    "text": "Führen Sie einen Grund an, warum das Unternehmen ein unverbindliches Angebot unterbreiten könnte.",
+    "punkte": 2,
+    "loesung": "Ein Grund, z. B.: Das Bestellvolumen von Kunden ist nicht einzuschätzen. Oder: Risiko, dass die Lieferung nicht eingehalten werden kann.",
+    "erklaerung": "Mit einem unverbindlichen Angebot bindet sich der Anbieter nicht und vermeidet das Risiko, eine große Bestellmenge nicht liefern zu können."
+  },
+  {
+    "id": "kbz-2017w-a1-5",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2017-winter",
+    "typ": "mc",
+    "text": "Es liegen inzwischen viele Bestellungen für den höhenverstellbaren Schreibtisch aus Bambus vor. In welchem Fall kommt der Kaufvertrag erst durch eine Auftragsbestätigung des Verkäufers zustande?",
+    "punkte": 2.1739,
+    "optionen": [
+      "Die mit dem verbindlichen Angebot übereinstimmende Bestellung wird mit einem Schreiben bestätigt, da der Kunde dieses gewünscht hat.",
+      "Im verbindlichen Angebot und der übereinstimmenden Bestellung fehlt das Lieferdatum.",
+      "Das verbindliche Angebot und die übereinstimmende Bestellung wurden online verschickt.",
+      "Das verbindliche Angebot nennt keinen Liefertermin, die folgende Bestellung beinhaltet einen Liefertermin.",
+      "Die mit dem verbindlichen Angebot übereinstimmende Bestellung erfolgt am gleichen Tag, an dem das Angebot eintrifft."
+    ],
+    "korrekt": [
+      3
+    ],
+    "loesung": "Das verbindliche Angebot nennt keinen Liefertermin, die folgende Bestellung beinhaltet einen Liefertermin.",
+    "erklaerung": "Weicht die Bestellung inhaltlich vom Angebot ab (hier: zusätzlicher Liefertermin), gilt sie als neuer Antrag; der Vertrag kommt erst durch die Auftragsbestätigung zustande."
+  },
+  {
+    "id": "kbz-2017w-a2-1",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2017-winter",
+    "typ": "offen",
+    "text": "Das Unternehmen will die höhenverstellbaren Bambusschreibtische an einem 'Tag der offenen Tür' besonders bewerben. Schlagen Sie drei mögliche Maßnahmen vor, wie das Unternehmen Kunden auf diesen 'Tag der offenen Tür' aufmerksam machen kann.",
+    "punkte": 3,
+    "loesung": "Drei Maßnahmen, z. B.: Ankündigung auf der Website, Anzeigen in der Lokalpresse, Plakate und/oder Aushänge, soziale Netzwerke, Handzettel/Flyer, E-Mail an Bestandskunden.",
+    "erklaerung": "Zur Bewerbung eignen sich sowohl Online-Kanäle (Website, Social Media, E-Mail) als auch klassische Werbung (Anzeigen, Plakate, Flyer)."
+  },
+  {
+    "id": "kbz-2017w-a2-2",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2017-winter",
+    "typ": "mc",
+    "text": "Bei Ihren Vorbereitungen zum 'Tag der offenen Tür' erstellen Sie einen Vordruck, um Ihre Kundengespräche zu dokumentieren. Welche Information gehört nicht in diesen Vordruck?",
+    "punkte": 2.1739,
+    "optionen": [
+      "Preisvorstellung des Kunden",
+      "Voraussichtlich gewünschte Liefermenge",
+      "Bankdaten des Kunden",
+      "Designwünsche des Kunden",
+      "Kontaktdaten des Kunden"
+    ],
+    "korrekt": [
+      2
+    ],
+    "loesung": "Bankdaten des Kunden.",
+    "erklaerung": "Bankdaten sind für ein reines Beratungs-/Kundengespräch nicht erforderlich und dürfen aus Datenschutzgründen nicht ohne Anlass erhoben werden."
+  },
+  {
+    "id": "kbz-2017w-a2-3",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2017-winter",
+    "typ": "offen",
+    "text": "Am 'Tag der offenen Tür' sollen Sie die Kunden begrüßen und auf den neuen Bambusschreibtisch hinweisen. Geben Sie jeweils zwei Aspekte an, worauf Sie bei der verbalen und der nonverbalen Kommunikation mit den Kunden achten müssen.",
+    "punkte": 4,
+    "loesung": "Verbale Kommunikation (2 Aspekte), z. B.: deutliche Aussprache, Sprechpausen machen, den Kunden ausreden lassen, in der Sprache des Kunden kommunizieren, angemessene Wortwahl, freundliche Begrüßung. Nonverbale Kommunikation (2 Aspekte), z. B.: Blickkontakt halten, angemessene räumliche Nähe, freundliches Lächeln, Kopfnicken zum Bestätigen, keine Abwehrhaltung.",
+    "erklaerung": "Verbale Kommunikation betrifft die gesprochene Sprache (Aussprache, Wortwahl), nonverbale Kommunikation die Körpersprache (Blickkontakt, Mimik, Gestik)."
+  },
+  {
+    "id": "kbz-2017w-a2-4",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2017-winter",
+    "typ": "mc",
+    "text": "Sie begrüßen Ihren ersten Kunden. Der Kunde ist unentschlossen und es fällt Ihnen schwer, mit ihm ins Gespräch zu kommen. Was können Sie tun?",
+    "punkte": 2.1739,
+    "optionen": [
+      "Sie passen sich an, verhalten sich zurückhaltend und warten auf seine Fragen.",
+      "Sie erzählen ihm schnell alles über den neuen Schreibtisch und unterbreiten ihm sofort ein ausführliches Angebot.",
+      "Sie versuchen durch viel Sprechen seine Aufmerksamkeit zu gewinnen.",
+      "Sie stellen ihm überwiegend offene Fragen und zeigen durch Bestätigungslaute Ihr Interesse.",
+      "Sie halten ständig Blickkontakt und verwenden viele Fachbegriffe, um ihn auf Sie aufmerksam zu machen."
+    ],
+    "korrekt": [
+      3
+    ],
+    "loesung": "Sie stellen ihm überwiegend offene Fragen und zeigen durch Bestätigungslaute Ihr Interesse.",
+    "erklaerung": "Offene (W-)Fragen regen einen unentschlossenen Kunden zum Erzählen an; Bestätigungslaute signalisieren aktives Zuhören."
+  },
+  {
+    "id": "kbz-2017w-a2-5",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2017-winter",
+    "typ": "offen",
+    "text": "Ein weiterer Kunde interessiert sich für den Bambusschreibtisch. Formulieren Sie zwei Argumente, die den Kunden überzeugen könnten, den höhenverstellbaren Bambusschreibtisch zu kaufen.",
+    "punkte": 4,
+    "loesung": "Zwei Argumente, z. B.: 'Durch die Möglichkeit, die Höhe des Schreibtisches selbst zu regulieren, können Sie Ihre Position ganz einfach zwischen Sitzen und Stehen wechseln.' 'Ihr Vorteil ist, dass Bambusmöbel unempfindlich und sehr leicht zu pflegen sind.' 'Durch die ergonomische Arbeitsweise werden Ihre Mitarbeiter weniger Krankheitstage aufgrund von Rückenbeschwerden haben.' 'Bambus ist ein schnell nachwachsender, nachhaltiger Rohstoff.'",
+    "erklaerung": "Überzeugende Argumente heben konkreten Kundennutzen hervor: Ergonomie/Gesundheit, Pflegeleichtigkeit und Nachhaltigkeit."
+  },
+  {
+    "id": "kbz-2017w-a3-2",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2017-winter",
+    "typ": "offen",
+    "text": "Ihnen liegen eine offene Rechnung und eine Mahnung an einen Kunden vor. Der Kunde hat auf Ihre Mahnung nicht reagiert. Geben Sie zwei Maßnahmen an, die Sie in dieser Situation ergreifen können.",
+    "punkte": 4,
+    "loesung": "Zwei Maßnahmen, z. B.: Kunden anrufen; zweite oder letzte Mahnung mit Mahngebühren, Fristsetzung und Androhung des gerichtlichen Mahnverfahrens; Einleiten eines Klageverfahrens; Einleiten des gerichtlichen Mahnverfahrens; Inkassounternehmen beauftragen.",
+    "erklaerung": "Nach erfolgloser Mahnung folgen weitere Mahnstufen oder das gerichtliche Mahnverfahren bzw. die Einschaltung eines Inkassounternehmens."
+  },
+  {
+    "id": "kbz-2017w-a3-3",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2017-winter",
+    "typ": "offen",
+    "text": "Der Kunde hat bisher immer noch nicht bezahlt. Erläutern Sie, in welcher Weise sich der Verkäufer abgesichert hat.",
+    "anlagenText": "Auf der Rechnung ist vermerkt: 'Die Ware bleibt bis zur vollständigen Bezahlung unser Eigentum.'",
+    "punkte": 3,
+    "loesung": "Der Verkäufer hat einen einfachen Eigentumsvorbehalt vereinbart. Solange die Ware nicht bezahlt ist, bleibt sie im Eigentum des Verkäufers.",
+    "erklaerung": "Der Eigentumsvorbehalt (§ 449 BGB) sichert den Verkäufer ab: Das Eigentum geht erst mit vollständiger Zahlung auf den Käufer über."
+  },
+  {
+    "id": "kbz-2017w-a3-4",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2017-winter",
+    "typ": "mc",
+    "text": "Bei welcher Stelle müsste der Verkäufer das gerichtliche Mahnverfahren beantragen?",
+    "punkte": 2.1739,
+    "optionen": [
+      "Beim zuständigen Amtsgericht am Sitz des Gläubigers",
+      "Beim zuständigen Landgericht am Sitz des Gläubigers",
+      "Beim zuständigen Amtsgericht am Sitz des Schuldners",
+      "Beim zuständigen Landgericht am Sitz des Schuldners",
+      "Beim zuständigen Arbeitsgericht am Sitz des Gläubigers"
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Beim zuständigen (zentralen) Amtsgericht am Sitz des Gläubigers.",
+    "erklaerung": "Für das gerichtliche Mahnverfahren ist das zentrale Mahngericht (Amtsgericht) am allgemeinen Gerichtsstand des Antragstellers/Gläubigers zuständig."
+  },
+  {
+    "id": "kbz-2017w-a3-5",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2017-winter",
+    "typ": "offen",
+    "text": "Der Verkäufer kann nach Eintritt des Zahlungsverzugs beim Kunden finanzielle Ansprüche geltend machen. Geben Sie ein Beispiel an.",
+    "punkte": 2,
+    "loesung": "Ein Beispiel, z. B.: Verzugszinsen oder Mahngebühren.",
+    "erklaerung": "Bei Zahlungsverzug kann der Gläubiger Verzugszinsen sowie den Ersatz von Mahnkosten/Beitreibungskosten verlangen."
+  },
+  {
+    "id": "kbz-2017w-a3-6",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2017-winter",
+    "typ": "mc",
+    "text": "Mit Ablauf welchen Datums verjährt die Forderung aus der Rechnung an den Kunden? (Rechnungsdatum 15.09.2017)",
+    "punkte": 2.1739,
+    "optionen": [
+      "15.09.2019",
+      "31.12.2019",
+      "15.09.2020",
+      "31.12.2020",
+      "31.12.2027"
+    ],
+    "korrekt": [
+      3
+    ],
+    "loesung": "31.12.2020.",
+    "erklaerung": "Die regelmäßige Verjährungsfrist beträgt 3 Jahre und beginnt mit dem Ende des Jahres, in dem die Forderung entstanden ist (Ende 2017). 2017 + 3 Jahre → Ablauf 31.12.2020."
+  },
+  {
+    "id": "kbz-2017w-a3-7",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2017-winter",
+    "typ": "mc",
+    "text": "Welche Folge würde sich aus der Verjährung der Forderung an den Kunden ergeben?",
+    "punkte": 2.1739,
+    "optionen": [
+      "Nach Ablauf der Verjährungsfrist kann der Verkäufer nur noch über den Weg des gerichtlichen Mahnverfahrens den Forderungsbetrag erhalten.",
+      "Mit Ablauf der Verjährungsfrist hat der Verkäufer keinen Anspruch mehr auf die Zahlung des Kunden.",
+      "Zahlt der Kunde nach Ende der Verjährungsfrist, muss der Verkäufer das Geld an den Kunden zurückgeben.",
+      "Ist die Forderung verjährt, kann der Kunde keine Schadensersatzansprüche einfordern, unabhängig vom vorliegenden Grund.",
+      "Nach Ablauf der Verjährungsfrist verliert der Verkäufer die Möglichkeit, seine Ansprüche an den Kunden gerichtlich durchzusetzen."
+    ],
+    "korrekt": [
+      4
+    ],
+    "loesung": "Nach Ablauf der Verjährungsfrist verliert der Verkäufer die Möglichkeit, seine Ansprüche gerichtlich durchzusetzen.",
+    "erklaerung": "Verjährung führt nicht zum Erlöschen der Forderung, aber der Schuldner kann die Einrede der Verjährung erheben; die Forderung ist dann gerichtlich nicht mehr durchsetzbar."
+  },
+  {
+    "id": "kbz-2017w-a3-8",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2017-winter",
+    "typ": "offen",
+    "text": "Geben Sie drei Maßnahmen an, mit denen der Verkäufer die Gefahr eines Forderungsausfalls verkleinern kann.",
+    "punkte": 3,
+    "loesung": "Drei Maßnahmen, z. B.: Vorkasse; Bankbürgschaft; Auskunfts-/Bonitätsprüfung; Zahlungsanreize über Skonto.",
+    "erklaerung": "Vorkasse, Sicherheiten (Bürgschaft), Bonitätsprüfung und Skontoanreize reduzieren das Risiko, dass eine Forderung ausfällt."
+  },
+  {
+    "id": "kbz-2017w-a4-1",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2017-winter",
+    "typ": "rechnen",
+    "text": "Füllen Sie das Formular 'Reisekostenabrechnung' für eine dreitägige Dienstreise (14.-16.11.) aus. Ermitteln Sie den Erstattungsbetrag. Gegeben: Hotelrechnung inkl. Frühstück bei Abreise 220,00 €; Taxi Flughafen zum Kunden 15,00 €; Taxi zum Flughafen 15,00 €; Taxi Heimfahrt 30,00 €; Reisekostenvorschuss 250,00 €. Verpflegungspauschalen: 24 € je vollem Kalendertag (24 Std. abwesend), 12 € für An- und Abreisetag. Abzug 4,80 € je Tag für gestelltes Hotelfrühstück.",
+    "anlagenText": "Ablauf: Beginn 14.11. 07:00 Uhr, Ende 16.11. 20:00 Uhr. Übernachtung 14./15. und 15./16. im Hotel. Neben dem Hotelfrühstück wird keine Verpflegung gestellt.",
+    "punkte": 12,
+    "loesung": "Beginn 14.11. 07:00 Uhr, Ende 16.11. 20:00 Uhr, Grund: Kundengespräch/Tagung in Dresden. Belege: Taxi 14.11. 15,00 €; Taxi 16.11. 15,00 €; Taxi Hamburg 16.11. 30,00 €; Hotelrechnung inkl. Frühstück 220,00 € → Zwischensumme Belege 280,00 €. Verpflegungsmehraufwand: 14.11. (Anreisetag) 12,00 €; 15.11. (voller Tag) 24,00 €; 16.11. (Abreisetag) 12,00 € = 48,00 €. Abzüge: 2 × Frühstück à 4,80 € = -9,60 €. Zwischensumme gesamt: 280,00 + 48,00 - 9,60 = 318,40 €. Abzüglich erhaltener Vorschuss 250,00 € → Erstattungsbetrag 68,40 €.",
+    "erklaerung": "Erstattet werden belegte Reisekosten plus Verpflegungspauschalen (12 € An-/Abreisetag, 24 € voller Tag), abzüglich 4,80 € je gestelltem Frühstück; vom Ergebnis wird der Vorschuss abgezogen."
+  },
+  {
+    "id": "kbz-2017w-a4-2",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2017-winter",
+    "typ": "offen",
+    "text": "Für vier Mitarbeiter werden Fort- und Weiterbildungsmaßnahmen diskutiert: (a) ein Servicemitarbeiter mit Schwierigkeiten im Gesprächsaufbau am Telefon, (b) ein Verkäufer, der sich über unzureichende Produktinformationen beklagt, (c) eine Verkäuferin, die eine mangelnde Einarbeitung beklagt, (d) ein neuer Verkäufer, der seine unzureichende Beratungskompetenz beklagt. Schlagen Sie jeweils eine geeignete Schulungsmaßnahme vor.",
+    "punkte": 4,
+    "loesung": "(a) Telefontraining/Kommunikationstraining; (b) Produktschulung; (c) Verkaufsschulung/Produktschulung; (d) Produktschulung, Rechtsschulung, Kommunikationstraining bzw. Verkaufsschulung.",
+    "erklaerung": "Die Schulungsmaßnahme muss zur jeweiligen Schwachstelle passen: Telefonprobleme → Telefontraining, fehlende Produktkenntnis → Produktschulung, Beratungsdefizite → Verkaufs-/Kommunikationstraining."
+  },
+  {
+    "id": "kbz-2017w-a4-3",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2017-winter",
+    "typ": "offen",
+    "text": "Im Unternehmen wird überlegt, ob interne oder externe Fortbildungsmaßnahmen durchgeführt werden sollen. Geben Sie zwei Vorteile und zwei Nachteile der externen Fortbildung aus Sicht des Unternehmens an.",
+    "punkte": 4,
+    "loesung": "Vorteile (2), z. B.: größere Professionalität bei der Durchführung; geschulte Referenten; Kontakte zu Teilnehmern aus anderen Unternehmen; Erfahrungsaustausch zwischen Mitarbeitern unterschiedlicher Firmen; kein eigener Mitarbeiter muss als Referent freigestellt werden. Nachteile (2), z. B.: Teilnahmegebühr/Reisekosten (teurer); vertrauliche Informationen können weitergegeben werden; problematische Kontrolle; Transfer auf den eigenen Arbeitsplatz oft schwierig; geringer Einfluss auf Inhalte und Lehrmethoden.",
+    "erklaerung": "Externe Fortbildungen bieten Professionalität und Netzwerkeffekte, sind aber teurer, schwerer zu kontrollieren und weniger betriebsspezifisch."
+  },
+  {
+    "id": "kbz-2017w-a4-4",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2017-winter",
+    "typ": "mc",
+    "text": "Ein Mitarbeiter hat eine externe Fortbildung beantragt. Die Teilnahme wird nicht genehmigt. Welcher Sachverhalt ist gemäß § 98 Betriebsverfassungsgesetz (Mitbestimmung bei betrieblichen Bildungsmaßnahmen) zutreffend?",
+    "anlagenText": "§ 98 BetrVG: (1) Der Betriebsrat hat bei der Durchführung von Maßnahmen der betrieblichen Berufsbildung mitzubestimmen. (4) Kommt eine Einigung nicht zustande, so entscheidet die Einigungsstelle; ihr Spruch ersetzt die Einigung zwischen Arbeitgeber und Betriebsrat.",
+    "punkte": 2.1739,
+    "optionen": [
+      "Der Arbeitgeber hat das alleinige Entscheidungsrecht.",
+      "Der Mitarbeiter muss Klage beim Landgericht einreichen.",
+      "Der Betriebsrat hat ein Mitbestimmungsrecht. Kommt kein Konsens zustande, entscheidet die Einigungsstelle.",
+      "Da der Mitarbeiter erst seit Juli 2016 beschäftigt ist, hat er keinen Anspruch auf eine Fortbildung.",
+      "Allein der Betriebsrat entscheidet über die Teilnahme an Fortbildungsmaßnahmen."
+    ],
+    "korrekt": [
+      2
+    ],
+    "loesung": "Der Betriebsrat hat ein Mitbestimmungsrecht. Kommt kein Konsens zustande, entscheidet die Einigungsstelle.",
+    "erklaerung": "Nach § 98 BetrVG bestimmt der Betriebsrat bei betrieblichen Bildungsmaßnahmen mit; bei Uneinigkeit entscheidet die Einigungsstelle."
+  },
+  {
+    "id": "kbz-2017w-a4-5",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2017-winter",
+    "typ": "mc",
+    "text": "Ein Mitarbeiter hat sich auf dem direkten Heimweg von einem externen Seminar so stark verletzt, dass er nach Aussage des Werksarztes mindestens zwei Wochen arbeitsunfähig ist. Welche Vorgehensweise ist für Sie im Personalwesen zutreffend? Sie müssen den Arbeitsunfall der Berufsgenossenschaft ...",
+    "punkte": 2.1739,
+    "optionen": [
+      "... nicht vor Ablauf der Entgeltfortzahlung melden.",
+      "... melden, weil der Mitarbeiter länger als 3 Arbeitstage arbeitsunfähig ist.",
+      "... nur melden, wenn Fremdverschulden vorliegt.",
+      "... nicht melden, da dies der Mitarbeiter persönlich tun muss.",
+      "... erst melden, wenn der Mitarbeiter länger als 3 Wochen arbeitsunfähig ist."
+    ],
+    "korrekt": [
+      1
+    ],
+    "loesung": "... melden, weil der Mitarbeiter länger als 3 Arbeitstage arbeitsunfähig ist.",
+    "erklaerung": "Der Arbeitgeber muss Arbeits- und Wegeunfälle der Berufsgenossenschaft anzeigen, wenn der Versicherte mehr als 3 Tage arbeitsunfähig ist (§ 193 SGB VII)."
+  },
+  {
+    "id": "kbz-2017w-a4-6",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2017-winter",
+    "typ": "mc",
+    "text": "Die Arbeitsunfähigkeit des Mitarbeiters wurde verlängert und dauert insgesamt 4 Wochen. Welche Zahlung könnte er in dieser Zeit in Anspruch nehmen?",
+    "punkte": 2.1739,
+    "optionen": [
+      "Verletztengeld",
+      "Unfallrente",
+      "Krankengeld",
+      "Gehalt",
+      "Arbeitslosengeld"
+    ],
+    "korrekt": [
+      3
+    ],
+    "loesung": "Gehalt.",
+    "erklaerung": "In den ersten sechs Wochen der Arbeitsunfähigkeit besteht Anspruch auf Entgeltfortzahlung durch den Arbeitgeber; nach 4 Wochen bezieht der Mitarbeiter also weiterhin sein Gehalt."
+  },
+  {
+    "id": "kbz-2017w-a4-7",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2017-winter",
+    "typ": "offen",
+    "text": "Die Mitarbeiter haben ihre Fortbildungsmaßnahmen absolviert. Geben Sie zwei Möglichkeiten an, um zu prüfen, ob die Seminare erfolgreich waren.",
+    "punkte": 2,
+    "loesung": "Zwei Möglichkeiten, z. B.: Erstellung und Verteilung eines Beurteilungsbogens; Führen von Feedback-Gesprächen; Überprüfung nach einem festgelegten Zeitraum, ob sich das Arbeitsverhalten verändert hat.",
+    "erklaerung": "Der Erfolg lässt sich durch Feedback (Bögen, Gespräche) und durch die Beobachtung des veränderten Arbeitsverhaltens messen."
+  },
+  {
+    "id": "kbz-2017w-a4-8",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2017-winter",
+    "typ": "rechnen",
+    "text": "Sie planen für die Arbeitsgruppe Konferenztische den Personalbedarf in der Fertigung für den Monat Januar. Gegeben: durchschnittliche Arbeitszeit je Mitarbeiter/Monat 168 Std.; geplante Produktionsmenge 560 Schreibtische; Produktionszeit je Schreibtisch 6 Std.; besetzte Stellen 16. Personalveränderungen zum 1. Januar: 2 Abgänge Ruhestand, 1 Abgang Kündigung, 1 Zugang Ende Elternzeit, 3 Zugänge Übernahme Auszubildende. Ermitteln Sie, wie viele Mitarbeiter noch fehlen, um die geplante Produktionsmenge herzustellen.",
+    "punkte": 4,
+    "loesung": "Benötigte Fertigungsstunden: 560 × 6 Std. = 3.360 Std. Personalbedarf (Soll): 3.360 / 168 = 20 Mitarbeiter. Personalbestand zum 1. Januar: 16 - 2 - 1 + 1 + 3 = 17 Mitarbeiter. Fehlende Mitarbeiter: 20 - 17 = 3 Mitarbeiter.",
+    "erklaerung": "Der Bruttopersonalbedarf ergibt sich aus benötigten Fertigungsstunden geteilt durch die Arbeitszeit je Mitarbeiter; die Differenz zum korrigierten Personalbestand ist der Fehlbestand."
+  },
+  {
+    "id": "kbz-2017w-a4-9",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2017-winter",
+    "typ": "mc",
+    "text": "Der zusätzliche Personalbedarf in der Arbeitsgruppe Konferenztische könnte auch durch Zeitarbeitskräfte gedeckt werden. Welche Erläuterung über Zeitarbeitskräfte ist in diesem Zusammenhang zutreffend?",
+    "punkte": 2.1739,
+    "optionen": [
+      "Sie können ohne zeitliche Begrenzung dauerhaft eingesetzt werden.",
+      "Sie erhalten vom Unternehmen im Krankheitsfall Entgeltfortzahlung.",
+      "Sie sind vom Unternehmen zur Rentenversicherung anzumelden.",
+      "Sie dürfen nur nach Zustimmung des Betriebsrats eingesetzt werden.",
+      "Sie dürfen während der Entleihphase keinen Urlaub nehmen."
+    ],
+    "korrekt": [
+      3
+    ],
+    "loesung": "Sie dürfen nur nach Zustimmung des Betriebsrats eingesetzt werden.",
+    "erklaerung": "Der Einsatz von Leiharbeitnehmern ist eine personelle Einzelmaßnahme, der der Betriebsrat nach § 99 BetrVG zustimmen muss."
+  },
+  {
+    "id": "kbz-2017w-a4-10",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2017-winter",
+    "typ": "mc",
+    "text": "Eine Mitarbeiterin ist ohne sachlichen Grund seit dem 01.07.2017 bis 31.12.2017 befristet angestellt und bittet um Informationen zu den gesetzlichen Regelungen ihres befristeten Arbeitsverhältnisses. Welche zwei Auskünfte müssen Sie ihr geben (gemäß TzBfG)?",
+    "anlagenText": "§ 14 TzBfG: (2) Die kalendermäßige Befristung ohne sachlichen Grund ist bis zur Dauer von zwei Jahren zulässig; bis zu dieser Gesamtdauer ist die höchstens dreimalige Verlängerung zulässig. § 15: (2) Ein zweckbefristeter Vertrag endet frühestens zwei Wochen nach Zugang der schriftlichen Unterrichtung über den Zeitpunkt der Zweckerreichung.",
+    "punkte": 2.1739,
+    "optionen": [
+      "Das befristete Arbeitsverhältnis kann bis zu einer Gesamtdauer von 2 Jahren verlängert werden.",
+      "Eine Verlängerung über den 31.12.2017 hinaus ist nicht möglich.",
+      "Einer Verlängerung über den 31.12.2017 hinaus muss die Bundesagentur für Arbeit zustimmen.",
+      "Eine gesonderte Kündigung durch das Unternehmen zur Beendigung zum 31.12.2017 muss nicht erfolgen.",
+      "Das befristete Arbeitsverhältnis kann bis zu einer Gesamtdauer von 4 Jahren verlängert werden.",
+      "In einem Tarifvertrag ist die Gesamtdauer zu Befristungen frei wählbar."
+    ],
+    "korrekt": [
+      0,
+      3
+    ],
+    "loesung": "(1) Das befristete Arbeitsverhältnis kann bis zu einer Gesamtdauer von 2 Jahren verlängert werden. (4) Eine gesonderte Kündigung zur Beendigung zum 31.12.2017 muss nicht erfolgen.",
+    "erklaerung": "Ohne Sachgrund ist eine Befristung bis zu 2 Jahren zulässig (§ 14 Abs. 2 TzBfG); ein kalendermäßig befristeter Vertrag endet automatisch mit Ablauf der vereinbarten Zeit, ohne Kündigung (§ 15 Abs. 1 TzBfG)."
+  },
+  {
+    "id": "kbz-2017w-a4-11",
+    "themaId": "datenschutz-digitales-arbeiten",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2017-winter",
+    "typ": "offen",
+    "text": "Mitarbeiter, die eine Fortbildung absolviert haben, sollen im Intranet darüber berichten; dabei sollen personenbezogene Daten der Teilnehmer veröffentlicht werden. Eine Person widerspricht der Weiterleitung ihrer Daten. Geben Sie neben dem Recht auf Widerspruch drei weitere Rechte an, die betroffene Personen im Rahmen des Bundesdatenschutzgesetzes haben, und erläutern Sie diese jeweils anhand eines betrieblichen Beispiels.",
+    "punkte": 6,
+    "loesung": "Drei Rechte mit Beispiel, z. B.: Recht auf Auskunft (der Mitarbeiter möchte wissen, welche Daten von ihm/ihr gespeichert sind und warum). Recht auf Sperrung (der Mitarbeiter bezweifelt die Richtigkeit der Angaben über die geleistete Arbeitszeit). Recht auf Berichtigung (der Mitarbeiter verlangt, dass fehlerhafte Angaben eines Steuerfreibetrags berichtigt werden). Recht auf Löschung (der Mitarbeiter verlangt, dass die Speicherung seiner/ihrer Zugehörigkeit zur Gewerkschaft gelöscht wird). Recht auf Benachrichtigung (der Mitarbeiter muss vor Übermittlung seiner/ihrer personenbezogenen Daten an das Finanzamt benachrichtigt werden).",
+    "erklaerung": "Neben dem Widerspruchsrecht bestehen Rechte auf Auskunft, Berichtigung, Sperrung/Löschung und Benachrichtigung; jedes lässt sich durch einen betrieblichen Fall veranschaulichen."
+  },
+  {
+    "id": "kbz-2017w-a4-12",
+    "themaId": "datenschutz-digitales-arbeiten",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2017-winter",
+    "typ": "mc",
+    "text": "Wovon ist die Benennung eines Datenschutzbeauftragten abhängig? Die Benennung eines Datenschutzbeauftragten ist abhängig ...",
+    "punkte": 2.1739,
+    "optionen": [
+      "... von der Anzahl der Mitarbeiter, die mit personenbezogenen Daten arbeiten.",
+      "... von der Anzahl der Mitarbeiter, die insgesamt beschäftigt sind.",
+      "... von der Anzahl der Kunden, die dem Unternehmen Aufträge erteilen.",
+      "... vom Umsatz des Unternehmens.",
+      "... von den IT-Systemen, mit denen das Unternehmen arbeitet."
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "... von der Anzahl der Mitarbeiter, die mit personenbezogenen Daten arbeiten.",
+    "erklaerung": "Ein betrieblicher Datenschutzbeauftragter ist zu benennen, wenn eine bestimmte Anzahl von Personen ständig mit der automatisierten Verarbeitung personenbezogener Daten beschäftigt ist."
+  },
+  {
+    "id": "kbz-2017w-a5-1",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2017-winter",
+    "typ": "rechnen",
+    "text": "Die Energiekosten sollen nach einem neuen Flächenschlüssel verteilt werden. Berechnen Sie die Summe der neuen Gemeinkosten der Kostenstelle Material in Euro. Gegeben: Sonstige Gemeinkosten Material 690.000,00 €; Energiekosten gesamt 4.500,00 €; Flächenschlüssel (neu): Gesamt 1.500 m², Material 300 m².",
+    "anlagenText": "Verteilungsschlüssel Energiekosten: alt Material 15 %; neu Flächenschlüssel Material 300 m² von 1.500 m². Energiekosten gesamt 4.500,00 €.",
+    "punkte": 3,
+    "loesung": "Energiekosten Material neu: 4.500,00 € × (300/1.500) = 4.500,00 € × 20 % = 900,00 €. Summe neue Gemeinkosten Material: 690.000,00 € + 900,00 € = 690.900,00 €.",
+    "erklaerung": "Der Flächenanteil Material (300/1.500 = 20 %) wird auf die gesamten Energiekosten angewendet und zu den sonstigen Gemeinkosten addiert."
+  },
+  {
+    "id": "kbz-2017w-a5-2",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2017-winter",
+    "typ": "rechnen",
+    "text": "Ermitteln Sie, um wie viel Prozent sich die Energiekosten bei der Kostenstelle Material durch den neuen Verteilungsschlüssel verändern. Geben Sie den Rechenweg an und runden Sie das Ergebnis auf zwei Nachkommastellen. Alt: Material 15 % von 4.500,00 € = 675,00 €. Neu: 900,00 €.",
+    "punkte": 3,
+    "loesung": "Veränderung in Prozent: 900,00 / 675,00 × 100 = 133,33 % → Steigerung um 33,33 %. (225,00 / 675,00 × 100 = 33,33 %).",
+    "erklaerung": "Die Differenz (900 - 675 = 225 €) wird ins Verhältnis zum alten Wert (675 €) gesetzt: 225/675 = 33,33 % Anstieg."
+  },
+  {
+    "id": "kbz-2017w-a5-3",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2017-winter",
+    "typ": "mc",
+    "text": "Grundlage für die Kalkulation der Selbstkosten sind die Gemeinkosten-Zuschlagssätze. Welche Formel zur Ermittlung des Materialgemeinkosten-Zuschlagssatzes müssen Sie anwenden?",
+    "punkte": 2.1739,
+    "optionen": [
+      "Materialeinzelkosten × 100 / Materialgemeinkosten",
+      "Materialeinzelkosten × 100 / Fertigungsgemeinkosten",
+      "Materialgemeinkosten × 100 / Herstellkosten des Umsatzes",
+      "Materialgemeinkosten × 100 / Materialeinzelkosten",
+      "Fertigungsgemeinkosten × 100 / Materialeinzelkosten"
+    ],
+    "korrekt": [
+      3
+    ],
+    "loesung": "Materialgemeinkosten × 100 / Materialeinzelkosten.",
+    "erklaerung": "Der Materialgemeinkosten-Zuschlagssatz gibt an, wie viel Prozent die Materialgemeinkosten von den Materialeinzelkosten (Zuschlagsbasis) betragen."
+  },
+  {
+    "id": "kbz-2017w-a5-4-1",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2017-winter",
+    "typ": "rechnen",
+    "text": "Berechnen Sie unter Angabe des Rechenweges den Listenverkaufspreis (netto) in Euro für einen Drucktisch. Der Bezugspreis dieses Artikels beträgt 80,00 €. Es wird bei diesen Handelswaren ein Kalkulationszuschlagssatz von 70 % verwendet.",
+    "punkte": 2,
+    "loesung": "Listenverkaufspreis netto = 80,00 € + (80,00 × 70 / 100) = 80,00 + 56,00 = 136,00 €. Oder: 80,00 × 1,7 = 136,00 €.",
+    "erklaerung": "Der Kalkulationszuschlag von 70 % wird auf den Bezugspreis aufgeschlagen (Faktor 1,7)."
+  },
+  {
+    "id": "kbz-2017w-a5-4-2",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2017-winter",
+    "typ": "rechnen",
+    "text": "Berechnen Sie den Brutto-Rechnungsbetrag in Euro für den Verkauf von 200 Drucktischen (Listenverkaufspreis netto 136,00 €). Geben Sie den Rechenweg an.",
+    "punkte": 2,
+    "loesung": "Brutto-Rechnungsbetrag = 136,00 € × 200 × 1,19 = 27.200,00 € × 1,19 = 32.368,00 €.",
+    "erklaerung": "Nettopreis × Menge × 1,19 (19 % Umsatzsteuer) ergibt den Bruttobetrag."
+  },
+  {
+    "id": "kbz-2017w-a5-5-1",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2017-winter",
+    "typ": "rechnen",
+    "text": "Ein Kunde ist bereit, 2.000 Stück eines Sondermodells zu einem Preis von 300,00 € netto je Stück zu bestellen. Ermitteln Sie rechnerisch in Euro, ob der Auftrag gewinn- oder verlustbringend ist. Erläutern Sie Ihr Rechenergebnis. Gegeben: Fixkosten 94.950,00 €; variable Kosten je Stück Material 100,00 € und Fertigung 155,00 €.",
+    "punkte": 6,
+    "loesung": "Erlöse: 2.000 × 300,00 = 600.000,00 €. Variable Kosten: 2.000 × (100,00 + 155,00) = 2.000 × 255,00 = 510.000,00 €. Deckungsbeitrag (gesamt): 600.000,00 - 510.000,00 = 90.000,00 €. Fixkosten: 94.950,00 €. Gewinn/Verlust: 90.000,00 - 94.950,00 = -4.950,00 € (Verlust). Der Auftrag bringt einen Verlust von 4.950,00 € mit sich.",
+    "erklaerung": "Vom Umsatzerlös werden zuerst die variablen Kosten abgezogen (Deckungsbeitrag), dann die Fixkosten; das negative Ergebnis zeigt einen Verlust."
+  },
+  {
+    "id": "kbz-2017w-a5-5-2",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2017-winter",
+    "typ": "rechnen",
+    "text": "Berechnen Sie im Falle eines Gewinns, um wie viel Stück die Gewinnschwelle überschritten wurde. Liegt ein Verlust vor, so ermitteln Sie die Stückzahl, die zum Erreichen der Gewinnschwelle fehlt. Der Rechenweg muss nachvollziehbar sein.",
+    "punkte": 4,
+    "loesung": "Deckungsbeitrag je Stück: Erlös/Stück 300,00 - variable Kosten/Stück 255,00 = 45,00 €. Gewinnschwelle: Fixkosten / db = 94.950,00 / 45,00 = 2.110 Stück. Fehlende Stückzahl: 2.110 - 2.000 = 110 Stück. Zum Erreichen der Gewinnschwelle fehlen noch 110 Stück.",
+    "erklaerung": "Die Gewinnschwelle (Break-even) ergibt sich aus Fixkosten geteilt durch den Deckungsbeitrag je Stück (45 €); die Differenz zur Bestellmenge (2.000) ergibt die fehlenden Stück."
+  },
+  {
+    "id": "kbz-2017w-a5-5-3",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2017-winter",
+    "typ": "offen",
+    "text": "Erläutern Sie einen sinnvollen Grund, warum auch im Falle eines Verlustes der Verkauf der Schreibtische durchgeführt werden sollte.",
+    "punkte": 2,
+    "loesung": "Ein Grund, z. B.: Es handelt sich um einen Stammkunden, den man unbedingt halten möchte. Oder: Der Kunde kauft noch andere Produkte, die hohe Gewinne einbringen.",
+    "erklaerung": "Aus strategischen Gründen (Kundenbindung, Folgeaufträge) kann ein einzelner verlustbringender Auftrag dennoch sinnvoll sein."
+  },
+  {
+    "id": "kbz-2017w-a5-6",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2017-winter",
+    "typ": "offen",
+    "text": "Kontieren Sie Beleg Nr. 1: Eingangsrechnung eines Lieferanten (Konto 4402) über Schreibtischleuchten. Netto 2.950,00 € Handelswaren, 19 % Umsatzsteuer 560,50 €, Rechnungsbetrag 3.510,50 €. Bilden Sie den Buchungssatz (Soll an Haben) mit den vierstelligen Kontonummern.",
+    "anlagenText": "Kontenplan-Auszug: 6080 Aufwendungen für Handelswaren; 2600 Vorsteuer (19 %); 4402 Lenz KG (Verbindlichkeiten aus L+L).",
+    "punkte": 2.1739,
+    "loesung": "6080 Aufwendungen für Handelswaren 2.950,00 € und 2600 Vorsteuer 560,50 € an 4402 Verbindlichkeiten (Lieferant) 3.510,50 €. Kurz: [6080; 2600] an 4402.",
+    "erklaerung": "Der Wareneinkauf wird netto als Aufwand (6080) gebucht, die Vorsteuer (2600) getrennt; die Gegenbuchung erfolgt auf das Verbindlichkeitskonto des Lieferanten (4402)."
+  },
+  {
+    "id": "kbz-2017w-a5-7",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2017-winter",
+    "typ": "offen",
+    "text": "Kontieren Sie Position 1 in Beleg Nr. 2 (Kontoauszug): Zahlung an den Lieferanten (Konto 4402), Rechnungsbetrag 3.510,50 € abzüglich 3 % Skonto, Belastung 3.405,19 €. Bilden Sie den Buchungssatz.",
+    "anlagenText": "Kontenplan-Auszug: 4402 Verbindlichkeiten Lieferant; 2800 Hamburger Sparkasse (Bank); 6082 Nachlässe; 2600 Vorsteuer.",
+    "punkte": 2.1739,
+    "loesung": "4402 Verbindlichkeiten 3.510,50 € an 2800 Bank 3.405,19 €, 6082 Nachlässe 88,50 € und 2600 Vorsteuer 16,81 €. Kurz: 4402 an [2800; 6082; 2600].",
+    "erklaerung": "Bei Zahlung mit Skonto wird die volle Verbindlichkeit ausgebucht; die Skontosumme mindert den Aufwand (6082 Nachlass, netto) und die Vorsteuer (2600), der Rest fließt über die Bank (2800) ab."
+  },
+  {
+    "id": "kbz-2017w-a5-8",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2017-winter",
+    "typ": "offen",
+    "text": "Kontieren Sie Position 2 in Beleg Nr. 2 (Kontoauszug): SEPA-Lastschrift eines Energieversorgers, Gas November, Belastung 687,82 €. Bilden Sie den Buchungssatz.",
+    "anlagenText": "Kontenplan-Auszug: 6050 Aufwendungen für Energie; 2600 Vorsteuer (19 %); 2800 Hamburger Sparkasse (Bank).",
+    "punkte": 2.1739,
+    "loesung": "6050 Aufwendungen für Energie und 2600 Vorsteuer an 2800 Bank. Kurz: [6050; 2600] an 2800.",
+    "erklaerung": "Der Energieaufwand wird netto (6050) mit getrennter Vorsteuer (2600) gebucht; die Zahlung erfolgt über das Bankkonto (2800)."
+  },
+  {
+    "id": "kbz-2017w-a5-9",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2017-winter",
+    "typ": "offen",
+    "text": "Kontieren Sie Beleg Nr. 3: Eingangsrechnung eines Verlags über eine Werbeanzeige. Netto 420,00 € Werbung, 19 % Umsatzsteuer 79,80 €, Rechnungsbetrag 499,80 €. Lieferant ist Konto 4499 (Sonstige Lieferanten). Bilden Sie den Buchungssatz.",
+    "anlagenText": "Kontenplan-Auszug: 6870 Werbung; 2600 Vorsteuer (19 %); 4499 Sonstige Lieferanten und Dienstleister.",
+    "punkte": 2.1739,
+    "loesung": "6870 Werbung 420,00 € und 2600 Vorsteuer 79,80 € an 4499 Sonstige Lieferanten 499,80 €. Kurz: [6870; 2600] an 4499.",
+    "erklaerung": "Werbeaufwand wird netto auf 6870 gebucht, Vorsteuer getrennt (2600); Gegenkonto ist die Verbindlichkeit gegenüber dem Verlag (4499)."
+  },
+  {
+    "id": "kbz-2017w-a5-10",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2017-winter",
+    "typ": "offen",
+    "text": "Kontieren Sie Beleg Nr. 4: Eingangsrechnung einer Spedition über Fracht (Ausgangsfracht für eine Lieferung an einen Kunden). Netto 45,00 €, 19 % Umsatzsteuer 8,55 €, Gesamt 53,55 €. Lieferant ist Konto 4407 (Spedition). Bilden Sie den Buchungssatz.",
+    "anlagenText": "Kontenplan-Auszug: 6140 Ausgangsfrachten; 2600 Vorsteuer (19 %); 4407 Blitz-Spedition (Verbindlichkeiten).",
+    "punkte": 2.1739,
+    "loesung": "6140 Ausgangsfrachten 45,00 € und 2600 Vorsteuer 8,55 € an 4407 Verbindlichkeiten (Spedition) 53,55 €. Kurz: [6140; 2600] an 4407.",
+    "erklaerung": "Die Frachtkosten für den Warenausgang werden netto auf 6140 (Ausgangsfrachten) gebucht, Vorsteuer getrennt (2600); Gegenkonto ist die Verbindlichkeit gegenüber der Spedition (4407)."
+  },
+  {
+    "id": "kbz-2017w-a5-11",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2017-winter",
+    "typ": "offen",
+    "text": "Kontieren Sie Beleg Nr. 5: eigene Ausgangsrechnung an einen Kunden (Konto 2404) über Schreibtischleuchten. Warenwert netto 855,00 €, 19 % Umsatzsteuer 162,45 €, Rechnungsbetrag 1.017,45 €. Bilden Sie den Buchungssatz.",
+    "anlagenText": "Kontenplan-Auszug: 2404 Westmoor KG (Forderungen aus L+L); 5100 Umsatzerlöse für Handelswaren; 4800 Umsatzsteuer (19 %).",
+    "punkte": 2.1739,
+    "loesung": "2404 Forderungen (Kunde) 1.017,45 € an 5100 Umsatzerlöse für Handelswaren 855,00 € und 4800 Umsatzsteuer 162,45 €. Kurz: 2404 an [5100; 4800].",
+    "erklaerung": "Beim Verkauf wird die Forderung gegen den Kunden (2404) im Soll gebucht; im Haben stehen die Nettoerlöse (5100) und die Umsatzsteuer (4800)."
+  },
+  {
+    "id": "kbz-2017w-a5-12",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2017-winter",
+    "typ": "mc",
+    "text": "Um den Verkauf der Schreibtischleuchten zu fördern, schaltete das Unternehmen eine Werbeanzeige in einer Fachzeitschrift. Entscheiden Sie, ob und wie diese Kosten in der Kalkulation berücksichtigt werden.",
+    "punkte": 2.1739,
+    "optionen": [
+      "Sie werden in der Kalkulation nicht berücksichtigt.",
+      "Sie werden im Gewinnzuschlag berücksichtigt.",
+      "Sie gehen in den Bezugspreis ein.",
+      "Sie gehen als Aufwand in die Berechnung der Handlungskosten ein.",
+      "Sie werden wie die Umsatzsteuer auf den Listenverkaufspreis aufgeschlagen."
+    ],
+    "korrekt": [
+      3
+    ],
+    "loesung": "Sie gehen als Aufwand in die Berechnung der Handlungskosten ein.",
+    "erklaerung": "Werbekosten sind Vertriebsgemeinkosten und fließen als Teil der Handlungskosten in die Kalkulation der Selbstkosten ein."
+  },
+  {
+    "id": "kbz-2017w-a5-13",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2017-winter",
+    "typ": "offen",
+    "text": "Wie wirken sich Geschäftsfälle auf das Betriebsergebnis der Kosten- und Leistungsrechnung aus? Nennen Sie den Geschäftsfall für Beleg 1 (Eingangsrechnung Handelswaren) und Beleg 5 (Ausgangsrechnung/Verkauf Handelswaren) und erläutern Sie jeweils, wie sich das Betriebsergebnis durch die Buchung verändert.",
+    "punkte": 6,
+    "loesung": "Beleg 1: Geschäftsfall Einkauf von Handelswaren. Auswirkung: Das Betriebsergebnis wird vermindert, weil die betrieblichen Kosten steigen. Beleg 5: Geschäftsfall Verkauf von Handelswaren. Auswirkung: Das Betriebsergebnis steigt, weil die Leistungen/betrieblichen Erträge steigen.",
+    "erklaerung": "Der Wareneinkauf erhöht die (Zweck-)Kosten und mindert das Betriebsergebnis; der Warenverkauf erhöht die Leistungen und damit das Betriebsergebnis."
+  },
+  {
+    "id": "kbz-2017w-a5-14",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2017-winter",
+    "typ": "rechnen",
+    "text": "Ermitteln Sie in der Tabelle den Vorsteuerüberhang bzw. die Umsatzsteuer-Zahllast und kennzeichnen Sie die einzelnen Positionen als USt bzw. VSt. Alle Steuersätze 19 %. Nettobeträge: Ausgangsrechnungen 3.450.800,00 €; Rücksendung von Kunden 64.450,00 €; Gutschriften an Kunden 75.500,00 €; Eingangsrechnungen 1.250.800,00 €; Gutschriften von Lieferanten 46.800,00 €.",
+    "punkte": 6,
+    "loesung": "Ausgangsrechnungen: USt +655.652,00 €. Rücksendung von Kunden: USt -12.245,50 € (64.450 × 19 %). Gutschriften an Kunden: USt -14.345,00 € (75.500 × 19 %). Eingangsrechnungen: VSt -237.652,00 € (1.250.800 × 19 %). Gutschriften von Lieferanten: VSt +8.892,00 € (46.800 × 19 %). Umsatzsteuer-Zahllast: 655.652,00 - 12.245,50 - 14.345,00 - (237.652,00 - 8.892,00) = 400.301,50 € Zahllast.",
+    "erklaerung": "USt der Ausgangsseite (abzüglich Rücksendungen/Gutschriften an Kunden) minus abziehbare VSt der Eingangsseite (abzüglich Lieferantengutschriften) ergibt die Zahllast von 400.301,50 €."
+  },
+  {
+    "id": "kbz-2018s-a1-1",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-sommer",
+    "typ": "offen",
+    "text": "In einem Möbelunternehmen soll die Kommunikation mit unzufriedenen und verärgerten Kunden verbessert werden. Um eine stärkere Kundenbindung und Kundenzufriedenheit zu erreichen, plant man den Ausbau des Beschwerdemanagements und die Einrichtung einer Beschwerdehotline. Sie schlagen vor, im Anschluss an jede Lieferung eine kurze telefonische Befragung durchzuführen. Ergänzen Sie das vorgegebene Beispiel um 3 weitere mögliche Fragen an die Kunden! Beispiel: Wie zufrieden sind Sie mit der Qualität unserer Produkte?",
+    "punkte": 3,
+    "loesung": "Je 1 Punkt für eine sinnvolle Frage, z. B.: Wurde Ihre bestellte Ware innerhalb der vereinbarten Frist geliefert? Wurde Ihnen bei eventuellen Problemen unverzüglich geholfen? Wurden Ihnen gemachte Zusagen auch eingehalten? Wie empfanden Sie die Beratung durch unsere Mitarbeiter? Wie gut fühlen Sie sich über unsere Produkte informiert? Welche Wünsche und Anregungen haben Sie für uns?",
+    "erklaerung": "Eine Kundenbefragung sollte konkrete Aspekte der Leistung abfragen (Liefertermin, Beratung, Problemlösung), um verwertbare Rückschlüsse für die Verbesserung zu ziehen."
+  },
+  {
+    "id": "kbz-2018s-a1-2",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-sommer",
+    "typ": "offen",
+    "text": "Trotz aller Bemühungen kann es passieren, dass sich unzufriedene und verärgerte Kunden nicht äußern. Erläutern Sie 2 Gründe, die dafür infrage kommen könnten!",
+    "punkte": 4,
+    "loesung": "Je 2 Punkte, z. B.: Der Kunde will einen Konflikt vermeiden. Der Kunde befürchtet einen hohen Zeitaufwand. Der Kunde rechnet nicht mit einer positiven Reaktion des Unternehmens. Der Kunde weiß nicht, wer der richtige Ansprechpartner ist. Der Kunde hatte bei einer früheren Beschwerde keinen Erfolg.",
+    "erklaerung": "Kunden schweigen häufig, weil ihnen der Aufwand zu hoch ist oder sie keine Verbesserung erwarten – solche 'stillen' Kunden wandern oft unbemerkt ab."
+  },
+  {
+    "id": "kbz-2018s-a1-3",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-sommer",
+    "typ": "offen",
+    "text": "Die Kunden erhalten durch die Beschwerdehotline die Möglichkeit, ihre Probleme sofort telefonisch zu schildern. Damit solche Beschwerdegespräche erfolgreich verlaufen, müssen bestimmte Verhaltensweisen berücksichtigt werden. Geben Sie 2 mögliche Verhaltensweisen an, wie Sie während des Telefonats auf Kundenbeschwerden reagieren können, und erläutern Sie jeweils, welches Ziel Sie damit erreichen wollen!",
+    "punkte": 4,
+    "loesung": "2 Verhaltensweisen mit Erläuterung, je 2 Punkte, z. B.: Den Kunden ausreden lassen, um ihm Gelegenheit zu geben, seinem Ärger Luft zu machen. Aktiv zuhören, um Verständnis und Aufmerksamkeit zu zeigen. Ruhig, sachlich und höflich bleiben, um den Kunden zu beruhigen. Gemeinsam eine für den Kunden akzeptable Lösung finden, so fühlt er sich ernst und wichtig genommen. Dem Kunden eine verbindliche Zusage geben, damit er erkennt, dass sich auf sie verlassen kann. Sich beim Kunden entschuldigen, wenn der Fehler bei Ihnen liegt, so hat er das Gefühl, ernst genommen zu werden. Nachfragen, ob alle Vereinbarungen erfüllt wurden, um das Vertrauen wieder herzustellen.",
+    "erklaerung": "Deeskalation durch Ausredenlassen und aktives Zuhören nimmt dem Kunden den Ärger; eine verbindliche Lösungszusage stellt die Zufriedenheit wieder her."
+  },
+  {
+    "id": "kbz-2018s-a1-4",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-sommer",
+    "typ": "offen",
+    "text": "Viele Kunden haben sich darüber beschwert, dass gerade bei der telefonischen Bestellungsannahme Aufträge nicht korrekt ausgeführt werden. Bringen Sie die Schritte einer telefonischen Bestellungsannahme in die richtige Reihenfolge, indem Sie die Ziffern 1 bis 6 vergeben! Schritte: (1) Sie prüfen, ob die Ware vorrätig ist. (2) Sie bedanken sich für den Auftrag und beenden das Gespräch. (3) Sie informieren den Kunden über die Verfügbarkeit und weisen evtl. auf eine längere Lieferzeit hin. (4) Sie fragen, was der Kunde bestellen möchte. (5) Sie informieren den Kunden über die Zahlungs- und Lieferungsbedingungen und geben die Bestellung in Ihr System ein. (6) Sie nehmen das Gespräch entgegen.",
+    "punkte": 2.1739,
+    "optionen": [
+      "Sie prüfen, ob die Ware vorrätig ist.",
+      "Sie bedanken sich für den Auftrag und beenden das Gespräch.",
+      "Sie informieren den Kunden über die Verfügbarkeit und weisen evtl. auf eine längere Lieferzeit hin.",
+      "Sie fragen, was der Kunde bestellen möchte.",
+      "Sie informieren den Kunden über die Zahlungs- und Lieferungsbedingungen und geben die Bestellung in Ihr System ein.",
+      "Sie nehmen das Gespräch entgegen."
+    ],
+    "loesung": "Richtige Reihenfolge: 6, 4, 1, 3, 5, 2 – Gespräch entgegennehmen, fragen was bestellt werden soll, Verfügbarkeit prüfen, über Verfügbarkeit/Lieferzeit informieren, Zahlungs-/Lieferbedingungen mitteilen und Bestellung erfassen, bedanken und Gespräch beenden.",
+    "erklaerung": "Amtliche Reihenfolge laut Lösungsschlüssel: 3;6;4;2;5;1 (bezogen auf die im Aufgabensatz vorgegebene Zeilenreihenfolge)."
+  },
+  {
+    "id": "kbz-2018s-a2-1-1",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-sommer",
+    "typ": "offen",
+    "text": "Ein fixer Liefertermin unterscheidet sich von einem gewöhnlichen Liefertermin durch rechtliche Besonderheiten. Erklären Sie, was unter einem fixen Liefertermin verstanden wird!",
+    "punkte": 2,
+    "loesung": "Bei einem Fixtermin muss die Ware genau am Liefertermin geliefert werden. Der Termin ist kalendermäßig bestimmt und für die Erfüllung des Vertrags wesentlich (z. B. durch die Formulierung 'fix' oder 'fest' vereinbart).",
+    "erklaerung": "Beim Fixkauf ist die Einhaltung des Termins so wichtig, dass mit dem Terminablauf der Verzug automatisch eintritt – eine Mahnung ist nicht nötig."
+  },
+  {
+    "id": "kbz-2018s-a2-1-2",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-sommer",
+    "typ": "offen",
+    "text": "Erläutern Sie die besondere rechtliche Folge, die sich für den Verkäufer ergibt, wenn dieser fixe Termin nicht eingehalten wird!",
+    "punkte": 2,
+    "loesung": "Wird der Termin nicht eingehalten, kommt der Verkäufer ohne Nachfristsetzung sofort in Verzug. Der Käufer kann ohne Nachfrist vom Vertrag zurücktreten. Der Verkäufer muss einen daraus entstehenden Schaden ersetzen.",
+    "erklaerung": "Beim Fixgeschäft entfällt die Pflicht zur Mahnung/Nachfristsetzung – der Käufer kann sofort zurücktreten oder Schadensersatz verlangen."
+  },
+  {
+    "id": "kbz-2018s-a2-2",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-sommer",
+    "typ": "mc",
+    "text": "Bei welcher Formulierung im Kaufvertrag liegt ein Fixkauf vor?",
+    "punkte": 2.1739,
+    "optionen": [
+      "Liefertermin sofort",
+      "Liefertermin 25.04.2018",
+      "Liefertermin bis 25.04.2018",
+      "Liefertermin Mitte April",
+      "Liefertermin 25.04.2018 fest"
+    ],
+    "korrekt": [
+      4
+    ],
+    "loesung": "Richtig ist 'Liefertermin 25.04.2018 fest'.",
+    "erklaerung": "Nur mit einem kalendermäßig genau bestimmten Datum in Verbindung mit dem Zusatz 'fest'/'fix' entsteht ein Fixgeschäft. 'Sofort', 'Mitte April' oder 'bis' begründen keinen Fixkauf."
+  },
+  {
+    "id": "kbz-2018s-a2-3",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-sommer",
+    "typ": "offen",
+    "text": "Ein Kunde hat einen fixen Liefertermin verlangt. Schlagen Sie 2 Maßnahmen vor, die der Verkäufer ergreifen sollte, um den gewünschten fixen Liefertermin sicherzustellen!",
+    "punkte": 4,
+    "loesung": "2 Maßnahmen, je 2 Punkte, z. B.: Rechtzeitige Fertigstellung der Ware mit Produktionspuffer. Terminüberwachung des Warenversands. Transportmittel/Alternative im Voraus planen. Lagerbestände der für die Produktion benötigten Materialien überprüfen.",
+    "erklaerung": "Um einen Fixtermin zu sichern, plant man Zeitpuffer ein, überwacht den Versand und sorgt für Materialverfügbarkeit sowie Transportalternativen."
+  },
+  {
+    "id": "kbz-2018s-a2-4",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-sommer",
+    "typ": "offen",
+    "text": "Folge einer Nicht-Rechtzeitig-Lieferung kann eine Schadenersatzforderung des Kunden sein. Erläutern Sie einen abstrakten und einen konkreten Schaden und geben Sie jeweils ein Beispiel an!",
+    "punkte": 6,
+    "loesung": "2 Erläuterungen mit Beispiel, je 3 Punkte: Ein abstrakter Schaden wird über einen geschätzten Geldbetrag angegeben (z. B. entgangener Gewinn oder aus Durchschnittswerten der Vergangenheit geschätzt). Ein konkreter Schaden kann mit einem genauen Geldbetrag ermittelt und belegt werden (z. B. durch einen Deckungskauf).",
+    "erklaerung": "Abstrakter Schaden = pauschal/geschätzt (typischer entgangener Gewinn); konkreter Schaden = nachweisbar beziffert, etwa durch einen teureren Deckungskauf bei einem anderen Lieferanten."
+  },
+  {
+    "id": "kbz-2018s-a2-5",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-sommer",
+    "typ": "mc",
+    "text": "Um Schadenersatzstreitigkeiten für den Fall einer Terminüberschreitung zu vermeiden, wird eine Konventionalstrafe in Höhe von 10.000,00 € im Kaufvertrag vereinbart. Entscheiden Sie, ob die 10.000,00 € gezahlt werden müssten, wenn der nachweisbare Schaden aber nur 8.000,00 € beträgt!",
+    "punkte": 2.1739,
+    "optionen": [
+      "Nein, der Vertrag ist ungültig.",
+      "Nein, es müssen 9.000,00 € gezahlt werden, da die Differenz zwischen beiden geteilt wird.",
+      "Nein, es müssen 8.000,00 € gezahlt werden.",
+      "Ja, die Höhe des wirklichen Schadens spielt hier keine Rolle.",
+      "Nein, es muss erst festgestellt werden, um wie viel Tage der Termin überschritten wurde."
+    ],
+    "korrekt": [
+      3
+    ],
+    "loesung": "Richtig ist 'Ja, die Höhe des wirklichen Schadens spielt hier keine Rolle.'",
+    "erklaerung": "Eine Konventionalstrafe (Vertragsstrafe) ist unabhängig vom tatsächlichen Schaden in der vereinbarten Höhe fällig – hier also die vollen 10.000,00 €."
+  },
+  {
+    "id": "kbz-2018s-a3-1",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-sommer",
+    "typ": "mc",
+    "text": "Ein Kunde stellt am 05.01. eine Anfrage zur Lieferung von 20 Konferenztischen. Welche rechtliche Bedeutung hat diese Anfrage?",
+    "punkte": 2.1739,
+    "optionen": [
+      "Sie ist der Antrag zu einem Kaufvertrag, der mit dem Angebot am 10.01. angenommen wird.",
+      "Sie ist verpflichtender Bestandteil eines Kaufvertrages.",
+      "Sie dient der Anbahnung eines Kaufvertrages, der erst mit einem anschließenden Antrag und dessen Annahme zustande kommt.",
+      "Sie ist der Antrag zu einem Kaufvertrag, der mit der Bestellung am 12.01. angenommen wird.",
+      "Sie ist der Antrag zu einem Kaufvertrag, der mit dem Telefongespräch am 15.01. zustande kommt."
+    ],
+    "korrekt": [
+      2
+    ],
+    "loesung": "Richtig ist Aussage 3: Die Anfrage dient der Anbahnung eines Kaufvertrages, der erst mit einem anschließenden Antrag und dessen Annahme zustande kommt.",
+    "erklaerung": "Die Anfrage ist rechtlich unverbindlich und stellt keinen Antrag dar; sie leitet lediglich die Vertragsanbahnung ein."
+  },
+  {
+    "id": "kbz-2018s-a3-2",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-sommer",
+    "typ": "mc",
+    "text": "Auf ein Angebot vom 10.01. (Rabatt 5 %) folgt am 12.01. eine Bestellung des Kunden mit Änderung des Rabatts auf 10 %. Welche rechtliche Bedeutung hat diese Bestellung?",
+    "punkte": 2.1739,
+    "optionen": [
+      "Die Bestellung hat keine rechtliche Bedeutung.",
+      "Die Bestellung ist die Anpreisung eines neuen Kaufvertrages.",
+      "Die Bestellung ist ein neuer Antrag.",
+      "Die Bestellung ist die Annahme des Kaufvertrages.",
+      "Die Bestellung ist eine nichtige Willenserklärung."
+    ],
+    "korrekt": [
+      2
+    ],
+    "loesung": "Richtig ist Aussage 3: Die Bestellung ist ein neuer Antrag.",
+    "erklaerung": "Da der Kunde vom Angebot abweicht (Rabatt 10 % statt 5 %), gilt seine Bestellung als Ablehnung verbunden mit einem neuen Antrag (§ 150 Abs. 2 BGB)."
+  },
+  {
+    "id": "kbz-2018s-a3-3",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-sommer",
+    "typ": "offen",
+    "text": "Sachverhalt: Anfrage 05.01., Angebot 10.01. (Rabatt 5 %), Bestellung 12.01. (Rabatt 10 %), telefonische Einigung am 15.01. auf 8 % Rabatt bei sonst unveränderten Bedingungen, schriftliche Auftragsbestätigung 17.01., Auslieferung 01.02. Zu welchem Zeitpunkt ist ein Kaufvertrag über die Lieferung der 20 Konferenztische zustande gekommen? Tragen Sie das Datum (TT.MM.JJJJ) ein!",
+    "punkte": 2.1739,
+    "loesung": "15.01.2018",
+    "erklaerung": "Mit der telefonischen Einigung am 15.01.2018 auf 8 % Rabatt liegen zwei übereinstimmende Willenserklärungen vor – der Kaufvertrag kommt zustande."
+  },
+  {
+    "id": "kbz-2018s-a3-4",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-sommer",
+    "typ": "offen",
+    "text": "Die Ware wurde unter verlängertem Eigentumsvorbehalt geliefert; die Rechnung vom 01.02. enthält ein Zahlungsziel, gezahlt wird vollständig am 15.03. Zu welchem Zeitpunkt wurde der Käufer Eigentümer der 20 Konferenztische? Tragen Sie das Datum (TT.MM.JJJJ) ein!",
+    "punkte": 2.1739,
+    "loesung": "15.03.2018",
+    "erklaerung": "Beim (verlängerten) Eigentumsvorbehalt geht das Eigentum erst mit der vollständigen Bezahlung des Kaufpreises über – hier am 15.03.2018 mit dem vollständigen Zahlungseingang."
+  },
+  {
+    "id": "kbz-2018s-a3-5",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-sommer",
+    "typ": "offen",
+    "text": "Die AGB des Verkäufers sind Bestandteil des Kaufvertrages mit dem Kunden. Geben Sie 2 Vorteile an, die sich für den Verkäufer dadurch ergeben können!",
+    "punkte": 4,
+    "loesung": "2 Vorteile, je 2 Punkte, z. B.: Rationalisierung der Vertragsabschlüsse. Vereinheitlichung der Vertragsbedingungen. Vorteile gegenüber den gesetzlichen Regelungen (z. B. Anpassung an eigene Interessen).",
+    "erklaerung": "AGB standardisieren und beschleunigen Vertragsabschlüsse und erlauben dem Verwender, die Bedingungen im gesetzlichen Rahmen zu seinen Gunsten zu gestalten."
+  },
+  {
+    "id": "kbz-2018s-a3-6-1",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-sommer",
+    "typ": "offen",
+    "text": "Im Kaufvertrag wurde 'Lieferung frei Haus innerhalb von 20 Tagen nach Bestellungseingang' vereinbart. Erläutern Sie, wie sich diese Regelung von der gesetzlichen Regelung in Bezug auf den Liefertermin unterscheidet!",
+    "punkte": 2,
+    "loesung": "Gesetzliche Regelung: Liefertermin sofort. Im Vertrag wurde davon abweichend eine Frist von 20 Tagen nach Bestellungseingang vereinbart.",
+    "erklaerung": "Ohne Vereinbarung ist die Leistung nach § 271 BGB sofort fällig; hier wird die Fälligkeit vertraglich auf 20 Tage hinausgeschoben."
+  },
+  {
+    "id": "kbz-2018s-a3-6-2",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-sommer",
+    "typ": "offen",
+    "text": "Erläutern Sie, wie sich die Regelung 'Lieferung frei Haus' von der gesetzlichen Regelung in Bezug auf die Kostenübernahme für den Transport unterscheidet!",
+    "punkte": 2,
+    "loesung": "Gesetzliche Regelung: Die Kosten der Lieferung (Versand) trägt der Käufer. Bei 'frei Haus' trägt der Verkäufer die Transportkosten bis zum Haus des Käufers.",
+    "erklaerung": "Nach dem Gesetz (§ 448 BGB) trägt der Käufer die Versendungskosten; die Klausel 'frei Haus' verlagert die Transportkosten auf den Verkäufer."
+  },
+  {
+    "id": "kbz-2018s-a3-7",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-sommer",
+    "typ": "offen",
+    "text": "Im Kaufvertrag wurde der verlängerte Eigentumsvorbehalt vereinbart. Erläutern Sie den einfachen und den verlängerten Eigentumsvorbehalt. Begründen Sie, warum der Verkäufer den verlängerten Eigentumsvorbehalt gewählt hat!",
+    "punkte": 6,
+    "loesung": "Beim einfachen Eigentumsvorbehalt wird der Käufer erst nach vollständiger Zahlung des Kaufpreises Eigentümer der Ware; der einfache EV erlischt, wenn der Käufer die Ware weiterveräußert (2 P.). Beim verlängerten EV wird beim Weiterverkauf der Ware die entsprechende Forderung des Käufers gegenüber dessen Kunden an den Verkäufer übertragen (2 P.). Begründung: Die Wahrscheinlichkeit, dass der Käufer die Ware weiterveräußert, ist groß; durch den verlängerten EV wird aber die entsprechende Forderung übertragen (2 P.).",
+    "erklaerung": "Der verlängerte Eigentumsvorbehalt sichert den Verkäufer auch dann noch ab, wenn der Käufer die (noch nicht bezahlte) Ware bereits weiterverkauft hat, weil an ihre Stelle die Forderung des Käufers tritt."
+  },
+  {
+    "id": "kbz-2018s-a4-1",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-sommer",
+    "typ": "offen",
+    "text": "Für ein neues Qualitätsmanagementsystem sollen zwei Personen eingestellt werden. Geben Sie 2 Aspekte zur Rolle des Betriebsrates im Hinblick auf die geplanten Neueinstellungen an!",
+    "punkte": 4,
+    "loesung": "2 Aspekte, je 2 Punkte, z. B.: Recht auf interne Ausschreibung. Informationsrecht des Betriebsrats. Beratungsrecht des Betriebsrats. Zustimmung des Betriebsrats (bei personellen Einzelmaßnahmen).",
+    "erklaerung": "Der Betriebsrat hat bei Einstellungen Mitbestimmungs- und Informationsrechte (§ 99 BetrVG) und kann eine innerbetriebliche Ausschreibung verlangen (§ 93 BetrVG)."
+  },
+  {
+    "id": "kbz-2018s-a4-2",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-sommer",
+    "typ": "offen",
+    "text": "Für die Stelle einer Assistentin/eines Assistenten und die Stelle einer Qualitätsmanagerin/eines Qualitätsmanagers ist je eine Personalbeschaffungsmaßnahme vorzuschlagen und zu begründen. Dabei ist zu bedenken, ob bei den zu besetzenden Stellen die gleichen oder unterschiedliche Maßnahmen zu ergreifen sind.",
+    "punkte": 6,
+    "loesung": "Stelle der Assistentin/des Assistenten: 1 Punkt für Vorschlag, 2 Punkte für Begründung. Interne Personalbeschaffungsmaßnahme (z. B. Intranet, Schwarzes Brett): Die Chancen, die Stelle intern zu besetzen, sind wahrscheinlich eher gut, da vermutlich bereits Assistentinnen beschäftigt sind; außerdem ist die interne Maßnahme kostengünstig. Stelle der Qualitätsmanagerin/des Qualitätsmanagers: 1 Punkt für Vorschlag, 2 Punkte für Begründung. Externe Personalbeschaffungsmaßnahme (z. B. Anzeige in einer Fachzeitschrift, Personalberatung): Die Chancen, die Stelle intern zu besetzen, sind eher schlecht, da es diese Position noch nicht gibt und die Anforderungen sehr speziell sind.",
+    "erklaerung": "Für die Assistenzstelle bietet sich die günstige interne Beschaffung an; die spezialisierte Managerstelle erfordert dagegen die externe Suche über Fachanzeigen oder Personalberatung."
+  },
+  {
+    "id": "kbz-2018s-a4-3",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-sommer",
+    "typ": "offen",
+    "text": "Zur Auswahl der Bewerber/-innen für die Stelle der Qualitätsmanagerin/des Qualitätsmanagers wird die Durchführung eines Assessment Centers in Erwägung gezogen. Formulieren Sie 3 Argumente, die für das Assessment Center sprechen!",
+    "punkte": 3,
+    "loesung": "3 Argumente, je 1 Punkt, z. B.: Teamfähigkeit kann gut getestet werden. Belastbarkeit ist gut erkennbar (Postkorbübung). Präsentationsfähigkeit kann gut festgestellt werden. Durchsetzungsvermögen gut feststellbar.",
+    "erklaerung": "Das Assessment Center prüft in praxisnahen Übungen Sozial- und Methodenkompetenzen (Teamfähigkeit, Belastbarkeit, Präsentation), die im reinen Vorstellungsgespräch schwer erkennbar sind."
+  },
+  {
+    "id": "kbz-2018s-a4-4",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-sommer",
+    "typ": "mc",
+    "text": "Zwei geeignete Kandidatinnen wurden gefunden und sollen eingestellt werden. Welche 2 Erläuterungen zur Rolle des Betriebsrates sind im vorliegenden Fall zutreffend?",
+    "punkte": 2.1739,
+    "optionen": [
+      "Bei Neueinstellungen hat der Betriebsrat nur ein Informationsrecht.",
+      "Der Betriebsrat kann seine Zustimmung ohne Angabe von Gründen verweigern.",
+      "Der Betriebsrat kann seine Zustimmung verweigern, wenn er nicht am Vorstellungsgespräch teilnehmen durfte.",
+      "Der Betriebsrat muss der Einstellung zustimmen, bevor der Vertrag den beiden Bewerberinnen übergeben wird.",
+      "Der Betriebsrat kann verlangen, alle Bewerbungsunterlagen zu sichten.",
+      "Der Betriebsrat kann durchsetzen, dass die Stelle mit einem Gewerkschaftsmitglied besetzt wird."
+    ],
+    "korrekt": [
+      3,
+      4
+    ],
+    "loesung": "Richtig sind Aussage 4 (Zustimmung des Betriebsrats vor Vertragsübergabe) und Aussage 5 (Recht auf Sichtung der Bewerbungsunterlagen).",
+    "erklaerung": "Nach § 99 BetrVG muss der Betriebsrat der Einstellung zustimmen und ihm sind die Bewerbungsunterlagen vorzulegen. Eine grundlose Verweigerung oder das Durchsetzen eines Gewerkschaftsmitglieds ist unzulässig."
+  },
+  {
+    "id": "kbz-2018s-a4-5",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-sommer",
+    "typ": "rechnen",
+    "text": "Eine Mitarbeiterin hat ihr Nettogehalt selbst ausgerechnet und bittet um Prüfung. Angaben: geb. 22.04.1989, ledig, keine Kinder, evangelisch, Krankenkassen-Zusatzbeitrag 1,10 %. Bruttoentgelt 2.923,00 €. Beitragssätze (AN-Anteil): Rentenversicherung 9,3 %, Arbeitslosenversicherung 1,5 %, Krankenversicherung 7,3 % + Zusatzbeitrag 1,10 %, Pflegeversicherung 1,275 % zzgl. 0,25 % Zuschlag für Kinderlose. Laut Lohnsteuertabelle (StK I, 2.922,00): Lohnsteuer 185,50; Kirchensteuer 16,69; Solidaritätszuschlag 4,70. Ermitteln Sie die korrekten Abzüge und das Nettoentgelt!",
+    "anlagenText": "Sozialversicherung (AN-Anteile): Rentenversicherung 9,3 %; Arbeitslosenversicherung 1,5 %; Krankenversicherung 7,3 % zzgl. Zusatzbeitrag 1,10 %; Pflegeversicherung 1,275 %; Zusatz-Pflegeversicherung für Kinderlose über 23 Jahre 0,25 % (AN). Lohnsteuertabelle StK I ab 2.922,00 €: Steuer 185,50; SolZ 4,70; KiSt 16,69.",
+    "punkte": 13,
+    "loesung": "Bruttoentgelt 2.923,00 €. Lohnsteuer 185,50; Kirchensteuer 16,69; Solidaritätszuschlag 4,70 (Werte laut Tabelle korrekt). Krankenversicherung (7,3 % + 1,10 %) = 8,4 % von 2.923,00 = 245,53; Rentenversicherung 9,3 % = 271,84; Arbeitslosenversicherung 1,5 % = 43,85; Pflegeversicherung (1,275 % + 0,25 %) = 1,525 % = 44,58. Nettoentgelt = 2.923,00 − 185,50 − 16,69 − 4,70 − 245,53 − 271,84 − 43,85 − 44,58 = 2.110,31 €. (Korrekturschlüssel: Lohnsteuer 421,41 gemäß amtlichem Musterbogen für StK I mit abweichendem Bezug; maßgeblich sind die im Aufgabensatz vorgegebenen Steuertabellenwerte 185,50 / 16,69 / 4,70. KV 245,53; RV 271,84; ALV 43,85; PV 44,58; Netto 1.834,70 € gemäß Musterlösung bei Ansatz der Tabellenwerte 421,41/37,92/23,17.)",
+    "erklaerung": "Die Krankenversicherung enthält den Zusatzbeitrag (7,3 % + 1,10 %), die Pflegeversicherung für kinderlose Arbeitnehmer über 23 Jahre den Zuschlag von 0,25 % (1,275 % + 0,25 %). Amtliche Musterwerte: KV 245,53; RV 271,84; ALV 43,85; PV 44,58."
+  },
+  {
+    "id": "kbz-2018s-a4-6",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-sommer",
+    "typ": "rechnen",
+    "text": "Eine neue Mitarbeiterin überreicht die Urlaubsbescheinigung ihres vorherigen Arbeitgebers, in der ihr 24 Werktage des bereits von ihr in Anspruch genommenen Urlaubs bescheinigt werden. Nach dem Manteltarifvertrag beträgt der Urlaubsanspruch jährlich 30 Arbeitstage. Ermitteln Sie, wie viele Arbeitstage Urlaub ihr beim neuen Arbeitgeber für dieses Jahr noch zustehen!",
+    "punkte": 2.1739,
+    "loesung": "10 Arbeitstage.",
+    "erklaerung": "Vom tariflichen Jahresanspruch (30 Arbeitstage) sind die bereits beim Vorarbeitgeber genommenen Urlaubstage abzuziehen; hier verbleiben 30 − 20 = 10 Arbeitstage (24 Werktage entsprechen umgerechnet 20 Arbeitstagen bei 5-Tage-Woche)."
+  },
+  {
+    "id": "kbz-2018s-a4-7",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-sommer",
+    "typ": "mc",
+    "text": "Die neue Mitarbeiterin fragt Sie, welche Unterlagen sie bei der Personalabteilung vorzulegen hat. Geben Sie die 2 Unterlagen an!",
+    "punkte": 2.1739,
+    "optionen": [
+      "Bescheinigung über eine private Unfallversicherung",
+      "Mitgliedsbestätigung der Krankenkasse",
+      "Mitgliedsbestätigung der Gewerkschaft",
+      "Angabe der Steuer-Identifikationsnummer",
+      "Kindergeldbescheinigung",
+      "Führerschein"
+    ],
+    "korrekt": [
+      1,
+      3
+    ],
+    "loesung": "Richtig sind Aussage 2 (Mitgliedsbestätigung der Krankenkasse) und Aussage 4 (Angabe der Steuer-Identifikationsnummer).",
+    "erklaerung": "Für die Lohnabrechnung und Sozialversicherung benötigt der Arbeitgeber die Krankenkassen-Mitgliedschaft und die Steuer-Identifikationsnummer; private Versicherungen, Gewerkschaft oder Führerschein sind nicht vorzulegen."
+  },
+  {
+    "id": "kbz-2018s-a4-8",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-sommer",
+    "typ": "mc",
+    "text": "Die neue Mitarbeiterin erhält ihren Arbeitsvertrag. Welche 2 Angaben müssen in einem Arbeitsvertrag aufgeführt sein?",
+    "punkte": 2.1739,
+    "optionen": [
+      "Stellenbezeichnung",
+      "Urlaubsrichtlinien",
+      "Beurteilungssystem",
+      "Name des Vorgesetzten",
+      "Vertragsbeginn",
+      "Regelung über Zuschüsse zum Kantinenessen"
+    ],
+    "korrekt": [
+      0,
+      4
+    ],
+    "loesung": "Richtig sind Aussage 1 (Stellenbezeichnung) und Aussage 5 (Vertragsbeginn).",
+    "erklaerung": "Zu den nach dem Nachweisgesetz wesentlichen Vertragsangaben gehören u. a. die Tätigkeit/Stellenbezeichnung und der Beginn des Arbeitsverhältnisses."
+  },
+  {
+    "id": "kbz-2018s-a4-9",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-sommer",
+    "typ": "mc",
+    "text": "Mit der Mitarbeiterin wurde ein unbefristeter Arbeitsvertrag mit einer Probezeit von 6 Monaten vereinbart. Welcher Sachverhalt hierzu ist richtig?",
+    "punkte": 2.1739,
+    "optionen": [
+      "Die Probezeit verstößt gegen die gesetzliche Regelung.",
+      "Eine Probezeit von 6 Monaten ist gesetzlich zulässig.",
+      "Das Unternehmen kann das Arbeitsverhältnis erst nach Ablauf der Probezeit rechtsverbindlich kündigen.",
+      "Wäre keine Probezeit vereinbart worden, gilt trotzdem in den ersten 6 Monaten nach Beginn des Arbeitsverhältnisses eine Probezeit.",
+      "Bei einem Arbeitsvertrag mit einer Probezeit von weniger als 5 Monaten bedarf es keiner Zustimmung des Betriebsrates."
+    ],
+    "korrekt": [
+      1
+    ],
+    "loesung": "Richtig ist Aussage 2: Eine Probezeit von 6 Monaten ist gesetzlich zulässig.",
+    "erklaerung": "Nach § 622 Abs. 3 BGB darf eine Probezeit höchstens 6 Monate betragen – 6 Monate sind also gerade noch zulässig."
+  },
+  {
+    "id": "kbz-2018s-a4-10",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-sommer",
+    "typ": "offen",
+    "text": "Im Unternehmen gilt für alle Mitarbeiter ein Gleitzeitmodell; die Mitarbeiterin kennt von ihrem vorherigen Arbeitgeber nur feste Arbeitszeiten. Erläutern Sie insgesamt 2 Vorteile, die sich durch die Einführung des Gleitzeitmodells für das Unternehmen und für die Mitarbeiter/-innen ergeben haben!",
+    "punkte": 4,
+    "loesung": "2 Vorteile, je 2 Punkte, z. B.: Die Mitarbeiter/-innen sind motivierter, weil sie die Arbeitszeit sowohl den betrieblichen als auch den persönlichen Bedürfnissen anpassen können. Die Arbeitstätigkeit kann der Auftragslage angepasst werden – dadurch können Überstunden vermieden werden. Mitarbeiter, die mit Kunden im Ausland telefonieren müssen, können ihre Arbeitszeit der Zeitdifferenz anpassen, dadurch kann der Kundenservice verbessert werden. Die höhere Flexibilität vermindert Fehlzeiten. Mitarbeiter haben einen stressfreien Arbeitsweg, weil sie dem Berufsverkehr ausweichen können.",
+    "erklaerung": "Gleitzeit erhöht die Mitarbeitermotivation und -flexibilität und erlaubt dem Betrieb eine bessere Anpassung an Auftragslage und Kundenzeiten."
+  },
+  {
+    "id": "kbz-2018s-a4-11",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-sommer",
+    "typ": "mc",
+    "text": "Wo kann sich die Mitarbeiterin über die Regelungen des Gleitzeitmodells im Unternehmen informieren?",
+    "punkte": 2.1739,
+    "optionen": [
+      "Betriebsverfassungsgesetz",
+      "Arbeitsvertrag",
+      "BGB",
+      "Tarifvertrag",
+      "Betriebsvereinbarung"
+    ],
+    "korrekt": [
+      4
+    ],
+    "loesung": "Richtig ist 'Betriebsvereinbarung'.",
+    "erklaerung": "Das für alle Mitarbeiter geltende Gleitzeitmodell wird zwischen Arbeitgeber und Betriebsrat in einer Betriebsvereinbarung geregelt (mitbestimmungspflichtig nach § 87 BetrVG)."
+  },
+  {
+    "id": "kbz-2018s-a4-12",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-sommer",
+    "typ": "mc",
+    "text": "Auch bei einem Gleitzeitmodell müssen die Regelungen des Arbeitszeitgesetzes eingehalten werden. Welche Regelung für die Mitarbeiter/-innen entspricht dem Arbeitszeitgesetz? (§ 4 ArbZG: Ruhepausen von mindestens 30 Minuten bei mehr als 6 bis 9 Stunden, 45 Minuten bei mehr als 9 Stunden; länger als 6 Stunden hintereinander darf ohne Ruhepause nicht gearbeitet werden.)",
+    "anlagenText": "Arbeitszeitgesetz (Auszug): § 3 Die werktägliche Arbeitszeit darf acht Stunden nicht überschreiten (Verlängerung auf bis zu zehn Stunden im Durchschnitt möglich). § 4 Ruhepausen von mindestens 30 Minuten bei einer Arbeitszeit von mehr als sechs bis zu neun Stunden und 45 Minuten bei mehr als neun Stunden; länger als sechs Stunden hintereinander dürfen Arbeitnehmer nicht ohne Ruhepause beschäftigt werden.",
+    "punkte": 2.1739,
+    "optionen": [
+      "Sie dürfen in Ausnahmefällen bis zu 11 Stunden täglich arbeiten.",
+      "Sie dürfen nicht länger als 6 Stunden hintereinander ohne Pause arbeiten.",
+      "Sie müssen bei einer Arbeitszeit von 8 Stunden mindestens eine Pause von 45 Minuten einhalten.",
+      "Sie müssen bei einer Arbeitszeit von 9 Stunden spätestens nach 3 Stunden eine Pause von 15 Minuten einlegen.",
+      "Sie dürfen in Ausnahmefällen auf ihre Pause verzichten."
+    ],
+    "korrekt": [
+      1
+    ],
+    "loesung": "Richtig ist Aussage 2: Sie dürfen nicht länger als 6 Stunden hintereinander ohne Pause arbeiten.",
+    "erklaerung": "§ 4 ArbZG verbietet eine Beschäftigung von mehr als sechs Stunden hintereinander ohne Ruhepause. 11 Stunden, 45 Minuten bei 8 Stunden oder ein Pausenverzicht sind nicht zulässig."
+  },
+  {
+    "id": "kbz-2018s-a5-1",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-sommer",
+    "typ": "offen",
+    "text": "Kontieren Sie Beleg Nr. 1 (Eingangsrechnung): Kauf von 4 Personal-Computern für die Verwaltung, netto 6.000,00 €, zzgl. 19 % Umsatzsteuer 1.140,00 €, Gesamt 7.140,00 €. Bilden Sie den Buchungssatz mit den vierstelligen Kontonummern aus dem Kontenplan!",
+    "anlagenText": "Kontenplan (Auszug): 0860 Büromaschinen, Kommunikationsanlagen; 2600 Vorsteuer (19 %); 4499 Sonstige Lieferanten und Dienstleister.",
+    "punkte": 2.1739,
+    "loesung": "0860 Büromaschinen, Kommunikationsanlagen 6.000,00 € und 2600 Vorsteuer 1.140,00 € an 4499 Sonstige Lieferanten und Dienstleister 7.140,00 €. (Amtlicher Schlüssel: [0860;2600] an 4499.)",
+    "erklaerung": "Die Personal-Computer sind Büromaschinen (0860), die Vorsteuer wird getrennt auf 2600 gebucht; Gegenkonto ist die Verbindlichkeit gegenüber dem Lieferanten (4499)."
+  },
+  {
+    "id": "kbz-2018s-a5-2",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-sommer",
+    "typ": "offen",
+    "text": "Kontieren Sie Beleg Nr. 2: Rechnung der Voth Maschinenbau OHG über eine Breit-Bandschleifmaschine 15.730,00 € zzgl. Absauganlage 359,00 € zzgl. Anlieferung und Aufstellung 610,59 € = 16.699,59 € netto, zzgl. 19 % USt 3.172,92 €, Rechnungsbetrag 19.872,51 €. Bilden Sie den Buchungssatz!",
+    "anlagenText": "Kontenplan (Auszug): 0700 Technische Anlagen und Maschinen; 2600 Vorsteuer (19 %); 4404 Voth Maschinenbau OHG, Altdorf.",
+    "punkte": 2.1739,
+    "loesung": "0700 Technische Anlagen und Maschinen 16.699,59 € und 2600 Vorsteuer 3.172,92 € an 4404 Voth Maschinenbau OHG 19.872,51 €. (Amtlicher Schlüssel: [0700;2600] an 4404.)",
+    "erklaerung": "Die Anschaffungskosten der Maschine umfassen auch Absauganlage sowie Anlieferung/Aufstellung (Nebenkosten) und werden auf 0700 aktiviert; die Vorsteuer separat auf 2600, Gegenkonto der Lieferant 4404."
+  },
+  {
+    "id": "kbz-2018s-a5-3",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-sommer",
+    "typ": "offen",
+    "text": "Kontieren Sie Position 1 aus Beleg Nr. 3 (Kontoauszug): 'Voth Maschinenbau OHG, Rech. Nr. 237, abzügl. 2 % Skonto', Betrag 19.475,06 € (−).",
+    "anlagenText": "Kontenplan (Auszug): 4404 Voth Maschinenbau OHG; 2800 Hamburger Sparkasse; 0700 Technische Anlagen und Maschinen; 2600 Vorsteuer (19 %). Rechnungsbetrag Beleg 2: 19.872,51 €; 2 % Skonto vom Bruttobetrag.",
+    "punkte": 2.1739,
+    "loesung": "4404 Voth Maschinenbau OHG 19.872,51 € an 2800 Hamburger Sparkasse 19.475,06 €, an 0700 Technische Anlagen und Maschinen 334,03 € und an 2600 Vorsteuer 63,42 €. (Amtlicher Schlüssel: 4404 an [2800;0700;2600].)",
+    "erklaerung": "Bei Skonto auf den Kauf einer Anlage mindert der Skontobetrag die Anschaffungskosten (0700) und die Vorsteuer (2600); die Verbindlichkeit (4404) wird in voller Höhe ausgebucht, die Bank (2800) mit dem tatsächlich gezahlten Betrag."
+  },
+  {
+    "id": "kbz-2018s-a5-4",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-sommer",
+    "typ": "offen",
+    "text": "Kontieren Sie Position 2 aus Beleg Nr. 3: 'SEPA-Lastschrift, Leasingrate April für Kopiergeräte X-Pro 60 und X-Pro 150, inkl. 19 % USt.', Betrag 214,20 € (−). Die Rechnung wurde bisher nicht gebucht.",
+    "anlagenText": "Kontenplan (Auszug): 6710 Leasing; 2600 Vorsteuer (19 %); 2800 Hamburger Sparkasse. Betrag brutto 214,20 €.",
+    "punkte": 2.1739,
+    "loesung": "6710 Leasing 180,00 € und 2600 Vorsteuer 34,20 € an 2800 Hamburger Sparkasse 214,20 €. (Amtlicher Schlüssel: [6710;2600] an 2800.)",
+    "erklaerung": "Die Leasingrate ist Aufwand (6710); aus dem Bruttobetrag 214,20 € wird die Vorsteuer herausgerechnet (214,20 / 1,19 = 180,00; USt 34,20); die Zahlung erfolgt über die Bank (2800)."
+  },
+  {
+    "id": "kbz-2018s-a5-5",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-sommer",
+    "typ": "offen",
+    "text": "Kontieren Sie Position 3 aus Beleg Nr. 3: 'Innovation AG, Rechnung für PC-Möbel Nr. 324/18', Betrag 24.859,10 € (+, Zahlungseingang).",
+    "anlagenText": "Kontenplan (Auszug): 2800 Hamburger Sparkasse; 2407 Innovation AG, Dresden (Forderung).",
+    "punkte": 2.1739,
+    "loesung": "2800 Hamburger Sparkasse 24.859,10 € an 2407 Innovation AG 24.859,10 €. (Amtlicher Schlüssel: 2800 an 2407.)",
+    "erklaerung": "Der Zahlungseingang eines Kunden erhöht die Bank (2800) und tilgt die entsprechende Forderung gegenüber der Innovation AG (2407)."
+  },
+  {
+    "id": "kbz-2018s-a5-6-1",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-sommer",
+    "typ": "rechnen",
+    "text": "Berechnen Sie die Anschaffungskosten der neuen Bandschleifmaschine in Euro (siehe Beleg Nr. 2)!",
+    "punkte": 2,
+    "loesung": "16.699,59 € (= 15.730,00 € Maschine + 359,00 € Absauganlage + 610,59 € Anlieferung und Aufstellung, jeweils netto).",
+    "erklaerung": "Zu den Anschaffungskosten zählen der Kaufpreis und alle Nebenkosten, die nötig sind, um die Maschine betriebsbereit zu machen (Absauganlage, Anlieferung, Aufstellung) – netto."
+  },
+  {
+    "id": "kbz-2018s-a5-6-2",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-sommer",
+    "typ": "rechnen",
+    "text": "Die Bandschleifmaschine hat laut AfA-Tabelle eine betriebsgewöhnliche Nutzungsdauer von 6 Jahren. Berechnen Sie die zeitanteilige Abschreibung in Euro für die neue Maschine im Jahr der Anschaffung (Lieferung 12.04.2018)!",
+    "punkte": 3,
+    "loesung": "16.699,59 € : 6 Jahre = 2.783,27 € Jahres-AfA; zeitanteilig ab April (9 Monate): 16.699,59 : 6 x 9/12 = 2.045,70 €. (Amtlicher Weg: 16.699,59 : 6 = 2.783,27; 2.783,27 : 12 x 9 = 2.087,45 bzw. laut Musterlösung 2.045,70 € / 2.046,11 €; andere Rechenwege sind möglich.)",
+    "erklaerung": "Lineare AfA = Anschaffungskosten / Nutzungsdauer; da die Maschine im April angeschafft wurde, wird pro rata temporis für 9 Monate abgeschrieben (Faktor 9/12)."
+  },
+  {
+    "id": "kbz-2018s-a5-7",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-sommer",
+    "typ": "rechnen",
+    "text": "Die Umsatzsteuer für den Monat April muss an das Finanzamt überwiesen werden. Berechnen Sie die Zahllast bzw. den Vorsteuerüberhang, indem Sie die folgenden Konten abschließen! Konto 2600 Vorsteuer: Soll 45.386,80 / Haben 3.806,15. Konto 4800 Umsatzsteuer: Soll 16.248,20 / Haben 87.543,96.",
+    "punkte": 4,
+    "loesung": "Vorsteuer: Saldo = 45.386,80 − 3.806,15 = 41.580,65 € (abziehbare Vorsteuer). Umsatzsteuer: Saldo = 87.543,96 − 16.248,20 = 71.295,76 €. Zahllast = 71.295,76 − 41.580,65 = 29.715,11 €.",
+    "erklaerung": "Zahllast = vereinnahmte Umsatzsteuer − abziehbare Vorsteuer. Da die USt größer ist als die Vorsteuer, entsteht eine Zahllast von 29.715,11 € (kein Vorsteuerüberhang)."
+  },
+  {
+    "id": "kbz-2018s-a5-8",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-sommer",
+    "typ": "offen",
+    "text": "Kontieren Sie den Abschluss des Kontos Vorsteuer!",
+    "anlagenText": "Kontenplan (Auszug): 4800 Umsatzsteuer (19 %); 2600 Vorsteuer (19 %).",
+    "punkte": 2.1739,
+    "loesung": "4800 Umsatzsteuer an 2600 Vorsteuer (Saldo 41.580,65 €). (Amtlicher Schlüssel: 4800 an 2600.)",
+    "erklaerung": "Zum Abschluss wird das Vorsteuerkonto (2600) über das Umsatzsteuerkonto (4800) abgeschlossen; die abziehbare Vorsteuer mindert die USt-Schuld."
+  },
+  {
+    "id": "kbz-2018s-a5-9",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-sommer",
+    "typ": "offen",
+    "text": "Kontieren Sie die Überweisung der Zahllast vom Bankkonto des Unternehmens an das Finanzamt!",
+    "anlagenText": "Kontenplan (Auszug): 4800 Umsatzsteuer (19 %); 2800 Hamburger Sparkasse. Zahllast 29.715,11 €.",
+    "punkte": 2.1739,
+    "loesung": "4800 Umsatzsteuer an 2800 Hamburger Sparkasse (29.715,11 €). (Amtlicher Schlüssel: 4800 an 2800.)",
+    "erklaerung": "Die Überweisung der Zahllast an das Finanzamt tilgt die USt-Schuld (4800) und mindert das Bankguthaben (2800)."
+  },
+  {
+    "id": "kbz-2018s-a5-10",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-sommer",
+    "typ": "offen",
+    "text": "Erläutern Sie, welche Auswirkungen die Umsatzsteuer auf den Erfolg des Unternehmens hat!",
+    "punkte": 2,
+    "loesung": "Die Umsatzsteuer beeinflusst den Gewinn nicht, da das Unternehmen die gezahlte Vorsteuer vom Finanzamt erstattet bekommt bzw. die eingenommene Umsatzsteuer nicht zu den Umsatzerlösen zählt, sondern ans Finanzamt abgeführt wird. Sie ist ein durchlaufender Posten.",
+    "erklaerung": "Die USt ist für das Unternehmen erfolgsneutral: Vorsteuer wird erstattet, vereinnahmte USt abgeführt – sie durchläuft das Unternehmen nur (durchlaufender Posten)."
+  },
+  {
+    "id": "kbz-2018s-a5-11",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-sommer",
+    "typ": "rechnen",
+    "text": "Aufbereitete Bilanz: Anlagevermögen 9.386.789,00 €; Umlaufvermögen 13.473.087,00 €; Bilanzsumme 22.859.876,00 €. Berechnen Sie den Anteil des Umlaufvermögens am Gesamtvermögen in Prozent unter Angabe des Rechenweges! (Ergebnis mit 2 Nachkommastellen)",
+    "punkte": 2,
+    "loesung": "13.473.087,00 : 22.859.876,00 x 100 = 58,94 %.",
+    "erklaerung": "Der Anteil des Umlaufvermögens = Umlaufvermögen / Gesamtvermögen x 100 = 58,94 %."
+  },
+  {
+    "id": "kbz-2018s-a5-12",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-sommer",
+    "typ": "offen",
+    "text": "Stellen Sie die berechnete Kennzahl (Anteil Umlaufvermögen 58,94 %) dem Branchendurchschnitt von 40 % gegenüber und geben Sie eine mögliche Ursache für die Abweichung an!",
+    "punkte": 2,
+    "loesung": "Der Anteil des Umlaufvermögens liegt über dem Branchendurchschnitt. Eine mögliche Ursache (1 Punkt), z. B.: hoher Lagerbestand an Roh-, Hilfs- und Betriebsstoffen, hoher Lagerbestand an Handelswaren/Fertigerzeugnissen, hoher Forderungsbestand, hoher Bestand an liquiden Mitteln. Alternativ Ursachen für ein geringeres Anlagevermögen: alte/abgeschriebene Maschinen, geleaster Fuhrpark, gemietete Gebäude, geringe Investitionen im Anlagenbereich.",
+    "erklaerung": "Ein überdurchschnittlicher Umlaufvermögensanteil deutet auf hohe Vorräte, Forderungen oder liquide Mittel bzw. auf ein vergleichsweise geringes (abgeschriebenes/gemietetes) Anlagevermögen hin."
+  },
+  {
+    "id": "kbz-2018s-a5-13",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-sommer",
+    "typ": "offen",
+    "text": "Erläutern Sie die Auswirkung des Geschäftsfalles von Beleg Nr. 3 Position 3 (Zahlungseingang der Innovation AG, 24.859,10 €) auf die Liquidität!",
+    "punkte": 2,
+    "loesung": "Die Liquidität verbessert sich, da die flüssigen Mittel durch die Zunahme des Bankguthabens steigen.",
+    "erklaerung": "Der Zahlungseingang eines Kunden erhöht das Bankguthaben (liquide Mittel) und verbessert damit die Zahlungsfähigkeit (Liquidität)."
+  },
+  {
+    "id": "kbz-2018s-a5-14",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-sommer",
+    "typ": "offen",
+    "text": "Die Geschäftsfälle aus den Belegen 1 und 3 wirken sich unterschiedlich auf die Positionen der aufbereiteten Bilanz aus. Geben Sie Auswirkung (sinkt/steigt/keine) und Begründung an für: Beleg Nr. 1 (Kauf PC auf Ziel) – Anlagevermögen; Beleg Nr. 3 Position 2 (Leasingrate) – Anlagevermögen; Beleg Nr. 3 Position 3 (Zahlungseingang) – Umlaufvermögen.",
+    "punkte": 6,
+    "loesung": "6 Einträge, je 1 Punkt: Beleg 1 – Anlagevermögen: steigt, weil die Personal-Computer den Bestand an Büromaschinen/Büromöbeln erhöhen und zum Anlagevermögen gehören. Beleg 3 Position 2 (Leasing) – Anlagevermögen: keine Auswirkung, weil die Leasingrate Aufwand darstellt und sich auf ein Bestandskonto der GuV auswirkt, nicht auf das Anlagevermögen. Beleg 3 Position 3 – Umlaufvermögen: bleibt gleich, weil die Überweisung der Innovation AG das Bankkonto erhöht und gleichzeitig die Forderungen abnehmen (Aktivtausch).",
+    "erklaerung": "Beleg 1 aktiviert die PCs (Anlagevermögen steigt); die Leasingrate ist reiner Aufwand ohne Aktivierung; der Zahlungseingang ist ein Aktivtausch innerhalb des Umlaufvermögens (Bank steigt, Forderung sinkt), das Umlaufvermögen bleibt in Summe gleich."
+  },
+  {
+    "id": "kbz-2018s-a5-15",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-sommer",
+    "typ": "mc",
+    "text": "Laut Gesetzgeber müssen Buchungsbelege eine vorgeschriebene Zeit aufbewahrt werden. Geben Sie den richtigen Sachverhalt für Beleg Nr. 1 (Rechnungsdatum 18.04.2018) an!",
+    "punkte": 2.1739,
+    "optionen": [
+      "Der Beleg muss bis zum 18.04.2024 aufbewahrt werden.",
+      "Der Beleg muss 6 Jahre aufbewahrt werden.",
+      "Der Beleg muss 10 Jahre aufbewahrt werden. Die Aufbewahrungsfrist beginnt mit Ablauf des Jahres der Rechnungsstellung.",
+      "Der Beleg muss bis zum 18.04.2028 aufbewahrt werden.",
+      "Der Beleg kann nach der Buchung vernichtet werden."
+    ],
+    "korrekt": [
+      2
+    ],
+    "loesung": "Richtig ist Aussage 3: Der Beleg muss 10 Jahre aufbewahrt werden; die Aufbewahrungsfrist beginnt mit Ablauf des Jahres der Rechnungsstellung.",
+    "erklaerung": "Buchungsbelege sind nach § 257 HGB / § 147 AO 10 Jahre aufzubewahren; die Frist beginnt mit dem Ende des Kalenderjahres, in dem der Beleg entstanden ist."
+  },
+  {
+    "id": "kbz-2018s-a5-16-1",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-sommer",
+    "typ": "rechnen",
+    "text": "Durch Investitionen zur Erhöhung der Produktionskapazität hat sich der Anteil der Fixkosten erhöht. Ergänzen Sie die fehlenden Beträge der Tabelle und geben Sie die Gewinnschwelle in Stück an. Auszug: bei 300 Stück Umsatzerlöse 178.500,00; variable Kosten 63.000,00; Fixkosten 154.000,00; bei 400 Stück Umsatzerlöse 238.000,00; variable Kosten 84.000,00; Fixkosten 154.000,00; bei 500 Stück Ergebnis 38.500,00.",
+    "punkte": 6,
+    "loesung": "Fehlende Werte u. a.: 300 Stück: Gesamtkosten 217.000,00; Ergebnis −38.500,00. 400 Stück: Gesamtkosten 238.000,00; Ergebnis 0,00. 200 Stück: variable Kosten 42.000,00; Ergebnis −77.000,00. Gewinnschwelle: 400 Stück (dort Umsatzerlöse = Gesamtkosten, Ergebnis 0).",
+    "erklaerung": "Gesamtkosten = variable Kosten + Fixkosten; Ergebnis = Umsatzerlöse − Gesamtkosten. An der Gewinnschwelle (Break-even) ist das Ergebnis 0 – hier bei 400 Stück."
+  },
+  {
+    "id": "kbz-2018s-a5-16-2",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-sommer",
+    "typ": "offen",
+    "text": "Geben Sie an, wie sich eine Erhöhung der Fixkosten auf die Gewinnschwelle auswirkt!",
+    "punkte": 2,
+    "loesung": "Durch die Erhöhung der Fixkosten steigt die Gewinnschwelle (der Break-even-Point verschiebt sich zu einer höheren Stückzahl).",
+    "erklaerung": "Da die Gewinnschwelle = Fixkosten / Deckungsbeitrag pro Stück ist, führt ein höherer Fixkostenblock zu einer höheren Break-even-Menge."
+  },
+  {
+    "id": "kbz-2018s-a5-17",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-sommer",
+    "typ": "mc",
+    "text": "Welche 2 Beschreibungen zu den variablen Kosten sind richtig?",
+    "punkte": 2.1739,
+    "optionen": [
+      "Die variablen Kosten sind abhängig von den Fixkosten.",
+      "Die variablen Kosten pro Stück sind konstant.",
+      "Die variablen Kosten pro Stück fallen degressiv.",
+      "Die variablen Kosten pro Stück steigen proportional.",
+      "Die variablen Kosten sind abhängig von der Produktionsmenge.",
+      "Die variablen Kosten sind bei jeder Stückzahl halb so groß wie die Gesamtkosten."
+    ],
+    "korrekt": [
+      1,
+      4
+    ],
+    "loesung": "Richtig sind Aussage 2 (variable Kosten pro Stück sind konstant) und Aussage 5 (variable Kosten sind abhängig von der Produktionsmenge).",
+    "erklaerung": "Bei proportionalen variablen Kosten bleiben die variablen Stückkosten konstant, während die gesamten variablen Kosten mit der Produktionsmenge steigen."
+  },
+  {
+    "id": "kbz-2018w-a1-1",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-winter",
+    "typ": "offen",
+    "text": "Ein Kunde hat 2 Aktenschränke und 5 Konferenztische bestellt. Anstelle der bestellten Aktenschränke wurden Rollcontainer geliefert; einer der Konferenztische weist auf der Tischplatte einen Kratzer auf. Beschreiben Sie die aus den Anlagen hervorgehenden Probleme!",
+    "anlagenText": "Laut E-Mail des Kunden: 1. Anstelle der bestellten 2 Aktenschränke wurden 2 Rollcontainer geliefert. 2. Einer der 5 gelieferten Konferenztische weist auf der Tischplatte einen ca. 70 cm langen, 1 cm breiten und 5 mm tiefen Kratzer auf.",
+    "punkte": 2,
+    "loesung": "Die Lieferung beider Artikel war mit Mängeln behaftet. In beiden Fällen handelt es sich um offene Mängel. Bei den Aktenschränken liegt eine Falschlieferung vor (Rollcontainer statt Aktenschrank). Bei einem der Konferenztische liegt ein Mangel in der Beschaffenheit (beschädigte Ware) vor.",
+    "erklaerung": "Offene Mängel sind bei ordnungsgemäßer Untersuchung sofort erkennbar. Eine Falschlieferung (Lieferung einer anderen Sache) steht der mangelhaften Lieferung gleich."
+  },
+  {
+    "id": "kbz-2018w-a1-2",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-winter",
+    "typ": "mc",
+    "text": "Im vorliegenden Fall liegen bei 2 verschiedenen Artikeln Mängel vor. In welcher Erklärung sind beide Mängelarten richtig beschrieben?",
+    "punkte": 2.2727,
+    "optionen": [
+      "Die Lieferung der Rollcontainer und die Lieferung des beschädigten Konferenztisches sind jeweils Qualitätsmängel.",
+      "Die Lieferung der Rollcontainer ist ein Mangel in der Art und der beschädigte Konferenztisch ein Mangel in der Menge.",
+      "Die Lieferung der Rollcontainer ist ein Qualitätsmangel und der beschädigte Konferenztisch ein Mangel in der Art.",
+      "Die Lieferung der Rollcontainer ist ein Mangel in der Art und der beschädigte Konferenztisch ein Mangel in der Beschaffenheit.",
+      "Die Lieferung der Rollcontainer ist ein Mangel in der Beschaffenheit und der beschädigte Konferenztisch ein Rechtsmangel."
+    ],
+    "korrekt": [
+      3
+    ],
+    "loesung": "Richtig ist Aussage 4: Die Lieferung der Rollcontainer ist ein Mangel in der Art (Falschlieferung), der beschädigte Konferenztisch ein Mangel in der Beschaffenheit.",
+    "erklaerung": "Rollcontainer statt Aktenschränke = Mangel in der Art bzw. Falschlieferung. Der beschädigte Konferenztisch ist ein Mangel in der Beschaffenheit."
+  },
+  {
+    "id": "kbz-2018w-a1-3",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-winter",
+    "typ": "offen",
+    "text": "Sie prüfen, ob die Mängelrüge rechtzeitig eingetroffen ist. Erläutern Sie Ihr Ergebnis! Gehen Sie auf die Rügefristen und die Art des Mangels ein.",
+    "punkte": 5,
+    "loesung": "Die Mängelrüge ist rechtzeitig erfolgt. Laut Auftragsbestätigung wird die Lieferung wie vereinbart durchgeführt und der Kunde hat die Ware am selben Tag pünktlich erhalten und noch am selben Tag die Mängelrüge (E-Mail) abgeschickt. Bei einem zweiseitigen Handelskauf muss die Rüge bei offenen Mängeln unverzüglich erfolgen. Da die Rüge unverzüglich (am Liefertag) erfolgte, ist sie rechtzeitig.",
+    "erklaerung": "Nach § 377 HGB muss der Käufer bei einem beidseitigen Handelsgeschäft die Ware unverzüglich untersuchen und offene Mängel unverzüglich rügen, sonst gilt die Ware als genehmigt."
+  },
+  {
+    "id": "kbz-2018w-a1-4",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-winter",
+    "typ": "mc",
+    "text": "Der Kunde möchte den verkratzten Konferenztisch zurückgeben. Welche Erläuterung entspricht den gesetzlichen Vorgaben?",
+    "punkte": 2.2727,
+    "optionen": [
+      "Das Recht auf Rücktritt oder das Recht auf Nacherfüllung stehen dem Kunden vorrangig zu.",
+      "Das Recht auf Rücktritt steht dem Kunden nur vorrangig zu, wenn er die Rücksendung der mangelhaften Ware auf seine Kosten organisiert.",
+      "Das Recht auf Nacherfüllung und Minderung des Verkaufspreises stehen dem Kunden vorrangig zu.",
+      "Das Recht auf Rücktritt steht dem Kunden nicht vorrangig zu, sondern erst, wenn die Nacherfüllung scheitert.",
+      "Das Recht auf Rücktritt und Schadensersatz steht dem Kunden nur vorrangig zu, wenn er einen Schaden durch die mangelhafte Lieferung erlitten hat."
+    ],
+    "korrekt": [
+      3
+    ],
+    "loesung": "Richtig ist Aussage 4: Das Recht auf Rücktritt steht dem Kunden nicht vorrangig zu, sondern erst, wenn die Nacherfüllung scheitert.",
+    "erklaerung": "Der Rücktritt ist nur möglich, nachdem eine angemessene Nachfrist zur Nacherfüllung (vorrangiges Recht) erfolglos abgelaufen ist."
+  },
+  {
+    "id": "kbz-2018w-a1-5-1",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-winter",
+    "typ": "offen",
+    "text": "Sie telefonieren mit einer Mitarbeiterin des Kunden, um einen Termin für den Austausch der mangelhaften Ware abzustimmen. In diesem Telefonat bittet sie ausdrücklich darum, den beschädigten Konferenztisch nicht zu ersetzen. Sie möchte zukünftig andere Modelle beziehen. Beschreiben Sie, wie Sie sich dem sehr guten Kunden gegenüber verhalten!",
+    "punkte": 2,
+    "loesung": "Da die Kundin ausdrücklich eine Fortsetzung der Geschäftsbeziehung anzeigt, ist kulantes Entgegenkommen zu empfehlen. Der Konferenztisch sollte zurückgenommen werden.",
+    "erklaerung": "Bei sehr guten Kunden ist Kulanz ein wichtiges Instrument der Kundenbindung."
+  },
+  {
+    "id": "kbz-2018w-a1-5-2",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-winter",
+    "typ": "offen",
+    "text": "Begründen Sie Ihr Vorgehen!",
+    "punkte": 2,
+    "loesung": "Der Kunde behält im Hinterkopf, dass er mit seinem Lösungsvorschlag entgegen der Rechtslage zu einem Erfolg kam. Für diese Kulanz wird er sich in Zukunft revanchieren. Die Kundenbindung wird gestärkt.",
+    "erklaerung": "Kulanz über die gesetzliche Pflicht hinaus stärkt das Vertrauensverhältnis und die langfristige Kundenbindung."
+  },
+  {
+    "id": "kbz-2018w-a1-6",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-winter",
+    "typ": "offen",
+    "text": "Wie hätte der Verkäufer vermeiden können, dass der Kunde mangelhafte Ware erhält? Beschreiben Sie 2 mögliche Maßnahmen!",
+    "punkte": 4,
+    "loesung": "Mögliche Maßnahmen: (1) Vor dem Versand die Lieferung nochmals mit dem Lieferschein abgleichen (Schutz vor Falschlieferung). (2) Produktionsprozesse so auslegen, dass nur mangelfreie Teile von Station zu Station weitergegeben werden. (3) Einlagerung der Waren im Versandlager in besonderen Verpackungen, die die Ware beim Lagern und Transport vor Beschädigungen schützen (Transportverpackung). (4) Sicherung der Möbel beim Transport.",
+    "erklaerung": "Qualitätssicherung umfasst Warenausgangskontrolle, prozessbegleitende Prüfung und transportsichere Verpackung."
+  },
+  {
+    "id": "kbz-2018w-a2-1",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-winter",
+    "typ": "mc",
+    "text": "Welche rechtliche Wirkung hat das Angebot des Verkäufers vom 28.09.2018?",
+    "anlagenText": "Ablauf: 24.09. Anfrage des Kunden; 28.09. Angebot des Verkäufers ohne Freizeichnungsklausel mit Aktionspreis und Sonderrabatt; 02.10. Bestellung des Kunden mit Lieferbedingung frei Haus; 05.10. Auftragsbestätigung des Verkäufers frei Haus.",
+    "punkte": 2.2727,
+    "optionen": [
+      "Das Angebot vom 28.09.2018 ist ein unverbindlicher Antrag für einen Kaufvertrag.",
+      "Das Angebot vom 28.09.2018 ist ein verbindlicher Antrag für einen Kaufvertrag.",
+      "Das Angebot vom 28.09.2018 hat keine rechtliche Wirkung und dient lediglich der Anbahnung eines Kaufvertrages.",
+      "Das Angebot ist die Annahme des Kaufvertrages, da die Anfrage vom 24.09.2018 der entsprechende Antrag ist.",
+      "Das Angebot ist keine Willenserklärung, sondern ein Schriftstück zur Kommunikation unter Kaufleuten."
+    ],
+    "korrekt": [
+      1
+    ],
+    "loesung": "Richtig ist Aussage 2: Das Angebot vom 28.09.2018 ist ein verbindlicher Antrag für einen Kaufvertrag.",
+    "erklaerung": "Das Angebot ist eine verbindliche Willenserklärung des Verkäufers an eine bestimmte Person für einen Kaufvertrag. Ohne Freizeichnungsklausel ist es bindend."
+  },
+  {
+    "id": "kbz-2018w-a2-2",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-winter",
+    "typ": "offen",
+    "text": "Geben Sie an, zu welchem Zeitpunkt der Kaufvertrag zwischen den beiden Unternehmen zustande gekommen ist! Begründen Sie, mit welchen Willenserklärungen der Kaufvertrag zustande kommt!",
+    "punkte": 4,
+    "loesung": "Der Kaufvertrag kommt durch zwei inhaltlich übereinstimmende Willenserklärungen zustande. Die inhaltliche Übereinstimmung liegt am 05.10.2018 vor. Der Kunde änderte am 02.10.2018 die Lieferbedingung des Angebots in \"frei Haus\". Diese Änderung bedeutet die Ablehnung des ersten Antrags (Angebot vom 28.09.2018) verbunden mit einem neuen Antrag (Bestellung vom 02.10.2018). Mit der Auftragsbestätigung vom 05.10.2018 gab der Verkäufer die zweite Willenserklärung ab, indem er die Bestellung zu der abgeänderten Bedingung annahm. Damit ist der Kaufvertrag am 05.10.2018 zustande gekommen.",
+    "erklaerung": "Eine Bestellung, die vom Angebot abweicht, gilt als Ablehnung verbunden mit einem neuen Antrag (§ 150 Abs. 2 BGB). Der Vertrag kommt erst mit der Annahme dieses neuen Antrags zustande."
+  },
+  {
+    "id": "kbz-2018w-a2-3",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-winter",
+    "typ": "mc",
+    "text": "Wann wird der Kunde Eigentümer der Aktenschränke?",
+    "anlagenText": "Auszug aus den AGB des Verkäufers: Die gelieferte Ware bleibt bis zur vollständigen Bezahlung des Kaufpreises Eigentum des Verkäufers. Ablauf: 17.10. Auslieferung; 16.11. Banküberweisung; 19.11. Eingang des Rechnungsbetrages beim Verkäufer.",
+    "punkte": 2.2727,
+    "optionen": [
+      "Mit Zustandekommen des Kaufvertrages",
+      "Mit Übergabe der Schränke am 17.10.2018",
+      "Nach Einigung über den Reklamationsfall am 23.10.2018",
+      "Mit Banküberweisung am 16.11.2018",
+      "Mit Eingang des Rechnungsbetrages beim Verkäufer am 19.11.2018"
+    ],
+    "korrekt": [
+      4
+    ],
+    "loesung": "Richtig ist Aussage 5: Der Kunde wird mit Eingang des Rechnungsbetrages beim Verkäufer am 19.11.2018 Eigentümer der Aktenschränke.",
+    "erklaerung": "Aus den AGB geht ein Eigentumsvorbehalt (§ 449 BGB) hervor: Das Eigentum geht erst mit vollständiger Bezahlung, also mit Zahlungseingang, über."
+  },
+  {
+    "id": "kbz-2018w-a2-4",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-winter",
+    "typ": "mc",
+    "text": "Warum gewährt der Verkäufer Skonto?",
+    "punkte": 2.2727,
+    "optionen": [
+      "Ein schneller Zahlungseingang unter Skontoabzug erhöht die Liquidität des Verkäufers.",
+      "Die Möglichkeit des Skontoabzugs verhindert den Zahlungsausfall durch den Kunden.",
+      "Nur bei einer Rechnung mit der Möglichkeit des Skontoabzugs können bei Nicht-Rechtzeitig-Zahlung Verzugszinsen eingefordert werden.",
+      "Die Gewährung von Skonto ist im BGB vorgeschrieben.",
+      "Die Gewährung von Skonto erhöht den Gewinn des Verkäufers."
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Richtig ist Aussage 1: Ein schneller Zahlungseingang unter Skontoabzug erhöht die Liquidität des Verkäufers.",
+    "erklaerung": "Skonto ist ein Preisnachlass für schnelle Zahlung. Der schnellere Zahlungseingang verbessert die Liquidität, nicht den Gewinn."
+  },
+  {
+    "id": "kbz-2018w-a2-5",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-winter",
+    "typ": "mc",
+    "text": "Wie beurteilen Sie die Reklamation des Kunden (Abweichung in der Holzmaserung)?",
+    "anlagenText": "AGB-Auszug: Bei Büromöbeln bleiben handelsübliche, dem Käufer zumutbare Farb- und Maserungsabweichungen bei Holzoberflächen, Textilien und Leder vorbehalten. Nach Besichtigung wurde eine naturholzbedingte normale Abweichung ohne Mängelcharakter bestätigt; aus Kulanz Einigung auf einen zusätzlichen Rabatt von 10 %.",
+    "punkte": 2.2727,
+    "optionen": [
+      "Abweichungen in der Holzmaserung sind immer ein berechtigter Mangel und Reklamationen können durch die AGB nicht ausgeschlossen werden.",
+      "Durch die AGB können Mängelansprüche generell ausgeschlossen werden.",
+      "Der Preisnachlass war die richtige Entscheidung. Er beruhigt einen verärgerten Kunden, unabhängig davon, ob wirklich eine handelsübliche Abweichung vorliegt.",
+      "Aufgrund der AGB des Verkäufers sind generell keine Reklamationen bezüglich der Abweichungen bei Holzmaserungen möglich. Der Preisnachlass ist ein falsches Signal an den Kunden.",
+      "Unabhängig davon, ob die Mängelrüge berechtigt ist, ist eine Ersatzlieferung kein vorrangiges Recht des Kunden und damit nicht möglich."
+    ],
+    "korrekt": [
+      2
+    ],
+    "loesung": "Richtig ist Aussage 3: Der Preisnachlass war die richtige Entscheidung. Er beruhigt einen verärgerten Kunden, unabhängig davon, ob wirklich eine handelsübliche Abweichung vorliegt.",
+    "erklaerung": "Der Preisnachlass wurde aus Kulanz gewährt. Dadurch wird das Vertrauensverhältnis gestärkt und die Geschäftsbeziehung positiv fortgesetzt."
+  },
+  {
+    "id": "kbz-2018w-a2-6",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-winter",
+    "typ": "offen",
+    "text": "Bei der telefonischen Reklamation ist der Mitarbeiter des Kunden sehr verärgert und besteht auf sofortige Ersatzlieferung: \"Ausgerechnet jetzt, wo wir die Schränke so dringend benötigen, liefern Sie uns so was ...\" Bestimmen Sie mithilfe des 4-Ohren-Modells, welche 4 möglichen Aussagen in der Äußerung des verärgerten Mitarbeiters stecken! Tragen Sie die 4 Ebenen mit entsprechenden Aussagen ein!",
+    "punkte": 8,
+    "loesung": "Sachinhalt: \"Ich habe an der von Ihnen gelieferten Ware Mängel anzuzeigen.\" Selbstoffenbarung: \"Ich bin verärgert und enttäuscht.\" Beziehung: \"Mein Vertrauen als Kunde Ihres Unternehmens ist gestört.\" Appell: \"Tun Sie bitte sofort etwas, um dieses Problem zu lösen!\"",
+    "erklaerung": "Das 4-Ohren-Modell (Schulz von Thun) unterscheidet die Ebenen Sachinhalt, Selbstoffenbarung, Beziehung und Appell in jeder Nachricht."
+  },
+  {
+    "id": "kbz-2018w-a2-7",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-winter",
+    "typ": "offen",
+    "text": "Bringen Sie die einzelnen Schritte des Reklamationsgesprächs in die richtige Reihenfolge (1 bis 5)! Schritte: (a) Dem Kunden die Möglichkeit geben, \"Dampf\" abzulassen; (b) Für beide Seiten eine tragfähige Lösung finden; (c) Kunden beruhigen/Aktiv zuhören; (d) Freundliche Meldeformel/Begrüßung des Kunden; (e) Vereinbarungen zusammenfassen.",
+    "punkte": 2.2727,
+    "loesung": "Richtige Reihenfolge: 1. Freundliche Meldeformel/Begrüßung des Kunden, 2. Dem Kunden die Möglichkeit geben, \"Dampf\" abzulassen, 3. Kunden beruhigen/Aktiv zuhören, 4. Für beide Seiten eine tragfähige Lösung finden, 5. Vereinbarungen zusammenfassen. In der Reihenfolge der Zeilen (a-b-c-d-e) im Aufgabensatz lautet die Ziffernfolge 2 – 4 – 3 – 1 – 5.",
+    "erklaerung": "Zuerst wird begrüßt, dann darf der Kunde seinen Ärger äußern, anschließend wird beruhigt/zugehört, gemeinsam eine Lösung gesucht und zum Schluss werden die Vereinbarungen zusammengefasst."
+  },
+  {
+    "id": "kbz-2018w-a2-8",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-winter",
+    "typ": "offen",
+    "text": "Bei einem Reklamationsgespräch ist es wichtig, sachlich zu argumentieren. Formulieren Sie die folgenden 4 negativen Äußerungen in positive Äußerungen um: (1) \"Da müssen Sie zwei Tage warten.\" (2) \"Um diese Uhrzeit ist keiner mehr da.\" (3) \"Dafür kann ich nichts.\" (4) \"Sie haben bestimmt etwas falsch bestellt.\"",
+    "punkte": 4,
+    "loesung": "(1) \"Am [Wochentag angeben] werden wir uns sofort darum kümmern!\" (2) \"Ab morgen, 8 Uhr, sind wir wieder für Sie da. Sie können uns gerne bis 17 Uhr anrufen.\" (3) \"Sicher können wir gemeinsam eine Lösung finden.\" (4) \"Sagen Sie mir doch bitte noch einmal genau, was Sie bestellt haben. Haben Sie zufällig die Auftragsnummer vorliegen?\"",
+    "erklaerung": "Positive Formulierungen vermeiden Schuldzuweisungen und Ablehnung und schaffen ein angenehmes, zielführendes Gesprächsklima."
+  },
+  {
+    "id": "kbz-2018w-a2-9",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-winter",
+    "typ": "offen",
+    "text": "Sie gewährten dem Kunden aus Kulanz einen zusätzlichen Rabatt auf die reklamierten Schränke, um den Kunden weiter an Ihr Unternehmen zu binden. Beschreiben Sie 2 weitere Möglichkeiten der Kundenbindung!",
+    "punkte": 4,
+    "loesung": "Weitere Möglichkeiten der Kundenbindung: Die nächste Lieferung erfolgt frei Haus; Aushändigung eines Gutscheins für die nächste Bestellung; Pflegemittel oder Accessoires als kostenlose Zugabe übergeben; kostenlose Mitnahme/Entsorgung der alten Möbel; Fachkraft als persönlichen Ansprechpartner benennen; Umsatzbonus anbieten; Angebot über Neuheiten mit Sonderkonditionen für Stammkunden.",
+    "erklaerung": "Kundenbindungsmaßnahmen erhöhen die Kundenzufriedenheit und fördern langfristige Geschäftsbeziehungen."
+  },
+  {
+    "id": "kbz-2018w-a3-1",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-winter",
+    "typ": "offen",
+    "text": "Ein Teil der Aufgaben der Personalverwaltung und der Entgeltabrechnung wird an eine neue Niederlassung im Ausland übertragen; Kündigungen sollen vermieden werden. Unterbreiten Sie für die sechs betroffenen Mitarbeiter/-innen Vorschläge, wo sie künftig eingesetzt werden sollen! Berücksichtigen Sie die Angaben zu den Personen und die internen Stellenausschreibungen. Begründen Sie Ihre Vorschläge!",
+    "anlagenText": "Rahmen: Zwei Mitarbeiter/-innen sollen im Bereich Personal am Standort bleiben (komplexe Sonderaufgaben), zwei am ausländischen Standort eingesetzt werden (neue Sachbearbeiter/-innen einarbeiten), für zwei soll eine neue Position gefunden werden (Stellen: 'Assistenz Bereich Gebäude/Anlagen/Fuhrpark' und 'Sachbearbeitung Debitoren'). Personen: Braun (55, 30 J. Betriebszugehörigkeit, nur Personalwesen, Beurteilung C); Rathje (25, 3 J., viele kaufm. Bereiche, D); Mertens (27, 8 J., Personalfachkaufmann, nur Personal, B); Schneider (51, verheiratet, 2 Kinder, 25 J., Marketing und Personal, B); Lehmann (35, 8 J., Steuern und Personal, B); Sager (32, 3 Kinder, 15 J., Steuerfachangestellte, Debitoren/Kreditoren/Personal, C).",
+    "punkte": 12,
+    "loesung": "Mögliche Lösung (andere bei passender Begründung denkbar): Braun, Renate → Personalsachbearbeitung, komplexe Sonderaufgaben (langjährige Erfahrung im Personalwesen, wegen der langen Betriebszugehörigkeit Chance für neue, komplexe Aufgaben). Rathje, Sabine → Assistenz Bereich Gebäude/Anlagen/Fuhrpark (Erfahrung in vielen kaufmännischen Bereichen, Einarbeitung in neues Gebiet möglich). Mertens, Torben → Einsatz im Ausland (gute Beurteilung, längere Berufserfahrung im Personalwesen, Alter für einen Auslandsaufenthalt u. U. karrierefördernd, familiär ungebunden). Schneider, Michael → Personalsachbearbeitung, komplexe Sonderaufgaben (gute Beurteilung, Erfahrung im Personalwesen und anderen Tätigkeiten, familiär gebunden). Lehmann, Petra → Einsatz im Ausland (gute Beurteilung, langjährige Berufserfahrung, Alter u. U. karrierefördernd, familiär ungebunden). Sager, Julia → Sachbearbeitung Debitoren (Erfahrung im Bereich Debitoren, familiär gebunden).",
+    "erklaerung": "Bei der Personaleinsatzplanung werden Qualifikation, Erfahrung, Beurteilung und persönliche/familiäre Situation der Mitarbeitenden mit den Stellenanforderungen abgeglichen."
+  },
+  {
+    "id": "kbz-2018w-a3-2",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-winter",
+    "typ": "offen",
+    "text": "Eine Mitarbeiterin hat am 22. November 2018 ihre Kündigung eingereicht. Der zustehende Urlaub ist bereits genommen. Ermitteln Sie anhand des Gesetzesauszugs, wann sie ihren letzten Arbeitstag haben wird! (§ 622 Abs. 1 BGB: Das Arbeitsverhältnis kann mit einer Frist von vier Wochen zum Fünfzehnten oder zum Ende eines Kalendermonats gekündigt werden.)",
+    "punkte": 2.2727,
+    "loesung": "Letzter Arbeitstag: 31.12.2018. Gemäß § 622 Abs. 1 BGB kann mit einer Frist von vier Wochen zum Fünfzehnten oder zum Ende eines Kalendermonats gekündigt werden. Bei Kündigung am 22. November 2018 ist der nächste wirksame Kündigungstermin mit vier Wochen Vorlaufzeit der 31.12.2018.",
+    "erklaerung": "Von der Kündigung am 22.11. reichen vier Wochen nicht mehr bis zum 31.12., wohl aber bis zum nächsten möglichen Endtermin (Monatsende) 31.12.2018."
+  },
+  {
+    "id": "kbz-2018w-a3-3",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-winter",
+    "typ": "offen",
+    "text": "Sie werden gebeten, mit der kündigenden Mitarbeiterin ein Austrittsgespräch zu führen, um Motive für ihre Kündigung zu erfahren. Erläutern Sie einen Aspekt, warum dieses Gespräch sinnvoll sein könnte!",
+    "punkte": 2,
+    "loesung": "Ein Austrittsgespräch ist z. B. sinnvoll, weil in einem professionellen Gespräch organisatorische Schwachstellen im Arbeitsgebiet dargelegt werden können. Werden Motive genau beschrieben, können Änderungen geplant werden, um zukünftig für mehr Arbeitszufriedenheit zu sorgen. Auch kann das Sozialverhalten von Vorgesetzten/Kollegen Grund der Kündigung sein; dies zu erkennen ist wichtig, wenn wiederholt gleiche Probleme genannt werden. Für den Ruf des Unternehmens ist zudem wichtig, das Arbeitsverhältnis einvernehmlich zu beenden.",
+    "erklaerung": "Austrittsgespräche liefern Erkenntnisse zur Verbesserung von Arbeitsbedingungen und Führung und wirken sich positiv auf das Arbeitgeberimage aus."
+  },
+  {
+    "id": "kbz-2018w-a3-4",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-winter",
+    "typ": "offen",
+    "text": "Sie haben ein qualifiziertes Zeugnis erstellt. Die Mitarbeiterin ist der Meinung, das Zeugnis entspreche eher einer durchschnittlichen Beurteilung. Geben Sie ihr 3 Formulierungen an, die zeigen, dass es sich um ein sehr gutes Zeugnis handelt!",
+    "anlagenText": "Zeugnisauszug: \"Frau Berger besitzt ein hervorragendes, in die Tiefe gehendes Fachwissen. Ihre Kenntnisse setzte sie selbst bei sehr anspruchsvollen Aufgaben optimal um. Alle ihr übertragenen Aufgaben hat sie schnell, zuverlässig und selbstständig stets zu unserer vollsten Zufriedenheit erledigt. In der Arbeitsdurchführung zeigte sie eine sehr strukturierte Arbeitsweise und sehr viel Engagement. Dabei standen für sie die ausführliche Beratung und die rasche hochqualitative Erledigung der Anliegen der Mitarbeiter an erster Stelle.\"",
+    "punkte": 6,
+    "loesung": "Folgende Formulierungen kennzeichnen das Zeugnis als sehr gut (3 genügen): \"ein hervorragendes, in die Tiefe gehendes Fachwissen\"; \"Kenntnisse setzte sie ... bei sehr anspruchsvollen Aufgaben optimal um\"; \"stets zu unserer vollsten Zufriedenheit\" (höchste Steigerungsstufe, Superlativ in Verbindung mit \"stets\"); \"sehr viel Engagement\"; \"rasche hochqualitative Erledigung der Anliegen der Mitarbeiter\" (hohe Sozialkompetenz).",
+    "erklaerung": "Im Zeugnisdeutsch entspricht \"stets zu unserer vollsten Zufriedenheit\" der Note sehr gut. Superlative und Steigerungen kennzeichnen die beste Beurteilung."
+  },
+  {
+    "id": "kbz-2018w-a3-5",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-winter",
+    "typ": "mc",
+    "text": "Welche 2 Unterlagen müssen Sie der ausscheidenden Mitarbeiterin bei ihrem Ausscheiden aushändigen?",
+    "punkte": 2.2727,
+    "optionen": [
+      "Beurteilung vom Vorgesetzten",
+      "Bescheinigung über den bereits gewährten Urlaub",
+      "Lohnsteuerbescheinigung",
+      "Gesamte Personalakte",
+      "Bewerbungsunterlagen",
+      "Eingereichte Atteste bei Krankheitstagen"
+    ],
+    "korrekt": [
+      1,
+      2
+    ],
+    "loesung": "Richtig sind die Aussagen 2 und 3: Bescheinigung über den bereits gewährten Urlaub sowie Lohnsteuerbescheinigung.",
+    "erklaerung": "Die Urlaubsbescheinigung dient dem neuen Arbeitgeber als Berechnungsgrundlage für den Resturlaub; die Lohnsteuerbescheinigung ist für die Entgeltabrechnung erforderlich."
+  },
+  {
+    "id": "kbz-2018w-a3-6",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-winter",
+    "typ": "mc",
+    "text": "Eine Mitarbeiterin hat eine ärztliche Bescheinigung über eine bestehende Schwangerschaft vorgelegt. Welche Richtlinie müssen Sie beachten? (Gesetzesauszüge MuSchG: § 3 Schutzfristen vor/nach Entbindung, § 7 Freistellung für Untersuchungen, § 17 Kündigungsverbot.)",
+    "punkte": 2.2727,
+    "optionen": [
+      "Sie darf ab sofort nur vier Stunden beschäftigt werden.",
+      "Schwangerschaftsbedingte Arztbesuche während der Arbeitszeit werden nicht als Arbeitszeit angerechnet.",
+      "Sie darf auf eigenen Wunsch auch während der Schutzfrist vor der Entbindung mit Tätigkeiten in der Verwaltung beschäftigt werden.",
+      "Weder der Arbeitgeber noch die Mitarbeiterin können das Arbeitsverhältnis während der Schwangerschaft kündigen.",
+      "Sie darf auf eigenen Wunsch sechs Wochen nach der Geburt ihres Kindes wieder täglich 8 Stunden arbeiten."
+    ],
+    "korrekt": [
+      2
+    ],
+    "loesung": "Richtig ist Aussage 3: Die Mitarbeiterin darf auf eigenen Wunsch auch während der Schutzfrist vor der Entbindung in der Verwaltung beschäftigt werden.",
+    "erklaerung": "Die Schutzfrist vor der Entbindung beträgt 6 Wochen (§ 3 MuSchG). In dieser Zeit darf die schwangere Frau nicht beschäftigt werden, es sei denn, sie erklärt sich ausdrücklich bereit; diese Erklärung ist jederzeit widerrufbar."
+  },
+  {
+    "id": "kbz-2018w-a3-7",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-winter",
+    "typ": "offen",
+    "text": "Eine Mitarbeiterin plant Elternzeit. Für diesen Zeitraum wird überlegt, eine Mitarbeiterin/einen Mitarbeiter eines Zeitarbeitsunternehmens einzustellen. Geben Sie 3 Vorteile an, die für diese Einstellung sprechen!",
+    "punkte": 6,
+    "loesung": "Vorteile der Beschäftigung einer Zeitarbeitskraft: (1) Das Risiko einer Fehlbesetzung ist gering, weil die Kraft jederzeit ausgetauscht werden kann, wenn sie den Anforderungen nicht genügt. (2) Das Unternehmen ist zeitlich flexibel: Bei Verkürzung/Verlängerung des Einsatzbedarfs gelten die Vertragsbedingungen mit dem Zeitarbeitsunternehmen, nicht die gesetzlichen Kündigungsfristen fest angestellter Mitarbeiter. (3) Bei Ausfall des vermittelten Mitarbeiters (z. B. Krankheit) stellt das Zeitarbeitsunternehmen schnell Ersatz. (4) Der Aufwand für die Personalbeschaffung ist geringer als ein eigenes Rekrutierungsverfahren.",
+    "erklaerung": "Zeitarbeit bietet Flexibilität, geringes Fehlbesetzungsrisiko und reduzierten Rekrutierungsaufwand für zeitlich befristeten Personalbedarf."
+  },
+  {
+    "id": "kbz-2018w-a3-8",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-winter",
+    "typ": "mc",
+    "text": "Was ist bei der Einstellung bzw. Beschäftigung von Mitarbeitern eines Zeitarbeitsunternehmens zu beachten?",
+    "punkte": 2.2727,
+    "optionen": [
+      "Die Einstellung darf nur nach Zustimmung des Betriebsrates erfolgen.",
+      "Die Einsatzdauer muss vorher nicht festgelegt werden.",
+      "Das Gehalt wird von der Jana Loft KG auf das Konto der Zeitarbeitskraft überwiesen.",
+      "Während des Einsatzes bei der Jana Loft KG darf kein Urlaub genommen werden.",
+      "Eine Teilnahme an der Betriebsratswahl ist nicht möglich."
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Richtig ist Aussage 1: Auch die Einstellung von Arbeitnehmern eines Zeitarbeitsunternehmens bedarf gem. § 99 BetrVG der Zustimmung des Betriebsrats.",
+    "erklaerung": "Die Einstellung von Leiharbeitnehmern ist eine personelle Einzelmaßnahme, für die der Betriebsrat nach § 99 BetrVG zustimmen muss."
+  },
+  {
+    "id": "kbz-2018w-a3-9",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-winter",
+    "typ": "mc",
+    "text": "Eine Bewerberin wird zu einem Vorstellungsgespräch eingeladen. Welche 2 Fragen müssen nicht wahrheitsgemäß beantwortet werden?",
+    "punkte": 2.2727,
+    "optionen": [
+      "In welchen Bereichen waren Sie bisher tätig?",
+      "Welche Weiterbildungsmaßnahmen haben Sie geplant?",
+      "Welche Fremdsprachenkenntnisse haben Sie?",
+      "Welcher Gewerkschaft gehören Sie an?",
+      "Möchten Sie in naher Zukunft Kinder haben?",
+      "Welche Freizeitaktivitäten üben Sie aus?"
+    ],
+    "korrekt": [
+      3,
+      4
+    ],
+    "loesung": "Richtig sind die Aussagen 4 und 5: Fragen nach der Gewerkschaftszugehörigkeit und nach einem zukünftigen Kinderwunsch müssen nicht wahrheitsgemäß beantwortet werden.",
+    "erklaerung": "Unzulässige Fragen (u. a. nach Gewerkschafts-/Parteizugehörigkeit, Kinderwunsch, Religion, bestehender Schwangerschaft) brauchen nicht wahrheitsgemäß beantwortet zu werden."
+  },
+  {
+    "id": "kbz-2018w-a3-10",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-winter",
+    "typ": "mc",
+    "text": "Mithilfe welcher Rechtsgrundlage können Sie sich umfangreich über die Rechte des Betriebsrates bei Einstellungen informieren?",
+    "punkte": 2.2727,
+    "optionen": [
+      "Tarifvertrag",
+      "Betriebsverfassungsgesetz",
+      "Kündigungsschutzgesetz",
+      "Bürgerliches Gesetzbuch",
+      "Allgemeines Gleichbehandlungsgesetz"
+    ],
+    "korrekt": [
+      1
+    ],
+    "loesung": "Richtig ist Aussage 2: Im Betriebsverfassungsgesetz (BetrVG) sind die Rechte des Betriebsrates bei Einstellungen festgelegt (§ 99 BetrVG regelt die Mitbestimmung bei personellen Einzelmaßnahmen).",
+    "erklaerung": "§ 99 BetrVG regelt die Mitbestimmung des Betriebsrats bei Einstellungen und Versetzungen."
+  },
+  {
+    "id": "kbz-2018w-a3-11",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-winter",
+    "typ": "offen",
+    "text": "Es wird überlegt, anstelle einer Zeitarbeitskraft eine neue Mitarbeiterin/einen neuen Mitarbeiter einzustellen. Geben Sie Auskunft über die Dauer der gesetzlichen Probezeit!",
+    "punkte": 2,
+    "loesung": "Die Dauer der gesetzlichen Probezeit ist in § 622 Abs. 3 BGB geregelt. Danach darf die Probezeit längstens sechs Monate dauern. Während dieser Zeit kann das Arbeitsverhältnis mit einer Frist von zwei Wochen gekündigt werden.",
+    "erklaerung": "Innerhalb der Probezeit (max. 6 Monate) gilt eine verkürzte Kündigungsfrist von zwei Wochen (§ 622 Abs. 3 BGB)."
+  },
+  {
+    "id": "kbz-2018w-a3-12",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-winter",
+    "typ": "mc",
+    "text": "Beim Einstellungsverfahren und bei der Beschäftigung muss das Allgemeine Gleichbehandlungsgesetz (AGG) beachtet werden. Welche 2 Erläuterungen sind richtig? (Auszug AGG: § 6 Anwendungsbereich, § 12 Pflichten des Arbeitgebers, § 15 Entschädigung und Schadensersatz mit Frist von zwei Monaten.)",
+    "punkte": 2.2727,
+    "optionen": [
+      "Das AGG regelt, dass Benachteiligungen aus Gründen der Rasse oder wegen der ethnischen Herkunft, des Geschlechts, der Religion oder Weltanschauung, einer Behinderung, des Alters oder der sexuellen Identität beim Auswahlverfahren nicht zulässig sind.",
+      "Das AGG muss allen Mitarbeitern/-innen in schriftlicher Form ausgehändigt werden.",
+      "Es genügt den gesetzlichen Vorschriften, wenn das Unternehmen das AGG den Mitarbeitern über das Intranet bekannt macht.",
+      "Bei internen Stellenausschreibungen für Führungskräfte muss das AGG nicht beachtet werden.",
+      "Das AGG gilt nicht beim Auswahlverfahren für Auszubildende.",
+      "Ein Mitarbeiter glaubt, aufgrund seines hohen Alters eine ausgeschriebene Stelle nicht erhalten zu haben. Um Schadensersatz zu erhalten, muss er innerhalb von drei Monaten nach Zugang der Absage seine Ansprüche geltend machen."
+    ],
+    "korrekt": [
+      0,
+      2
+    ],
+    "loesung": "Richtig sind die Aussagen 1 und 3. Ziel des AGG ist es, Benachteiligungen aus den genannten Gründen zu verhindern (§ 1 AGG). Die Bekanntmachung des AGG (§ 12) kann durch Aushang, Auslegung oder die üblichen Informations- und Kommunikationsmittel erfolgen; dazu gehört auch das betriebliche Intranet.",
+    "erklaerung": "Zu 6 falsch: Nach § 15 AGG muss ein Anspruch innerhalb von zwei Monaten (nicht drei) nach Zugang der Ablehnung geltend gemacht werden."
+  },
+  {
+    "id": "kbz-2018w-a4-1",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-winter",
+    "typ": "rechnen",
+    "text": "Kontieren Sie den Beleg Nr. 1 (Ausgangsrechnung an den Kunden Büroausstatter Winter OHG, Rechnungsbetrag 10.662,40 €, Warenwert netto 8.960,00 €, 19 % Umsatzsteuer 1.702,40 €)! Verwenden Sie die vierstelligen Kontonummern aus dem Kontenplan.",
+    "anlagenText": "Beleg Nr. 1: Rechnung an Büroausstatter Winter OHG (Konto 2405): 15 Flipchart Vario 6.300,00 + 20 Pinnwand 2.620,00 + Transportkostenpauschale 40,00 = Warenwert netto 8.960,00; 19 % USt 1.702,40; Rechnungsbetrag 10.662,40. Kontenplan-Auszug: 5100 Umsatzerlöse für Handelswaren, 4800 Umsatzsteuer (19 %).",
+    "punkte": 2.2727,
+    "loesung": "2405 Büroausstatter Winter OHG 10.662,40 an 5100 Umsatzerlöse für Handelswaren 8.960,00 und 4800 Umsatzsteuer 1.702,40.",
+    "erklaerung": "Die Forderung gegenüber dem Kunden (2405) wird im Soll gebucht, die Umsatzerlöse (5100) und die Umsatzsteuer (4800) im Haben."
+  },
+  {
+    "id": "kbz-2018w-a4-2",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-winter",
+    "typ": "rechnen",
+    "text": "Der Kunde sendet fünf der gelieferten Flipcharts wegen Lackschäden zurück. Vervollständigen Sie die Gutschrift aufgrund der Rücksendung (Menge 5, Stückpreis netto 420,00 €), indem Sie Menge, Netto-Gesamtpreis, 19 % Umsatzsteuer und Gutschriftbetrag ermitteln!",
+    "punkte": 3,
+    "loesung": "Menge 5, Stückpreis netto 420,00 €, Gesamtpreis netto 2.100,00 €; 19 % Umsatzsteuer 399,00 €; Gutschriftbetrag 2.499,00 €.",
+    "erklaerung": "5 × 420,00 € = 2.100,00 € netto; darauf 19 % USt = 399,00 €; Bruttogutschrift 2.499,00 €."
+  },
+  {
+    "id": "kbz-2018w-a4-3",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-winter",
+    "typ": "rechnen",
+    "text": "Kontieren Sie die Gutschrift aus der vorherigen Aufgabe (Gutschriftbetrag 2.499,00 €)!",
+    "punkte": 2.2727,
+    "loesung": "5100 Umsatzerlöse für Handelswaren 2.100,00 und 4800 Umsatzsteuer 399,00 an 2405 Büroausstatter Winter OHG 2.499,00.",
+    "erklaerung": "Die Erlösminderung (5100) und die entsprechende USt-Minderung (4800) werden im Soll gebucht, die Minderung der Kundenforderung (2405) im Haben."
+  },
+  {
+    "id": "kbz-2018w-a4-4-1",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-winter",
+    "typ": "rechnen",
+    "text": "Der Kunde überweist den ausstehenden Rechnungsbetrag unter Abzug von 3 % Skonto. Ermitteln Sie unter Angabe des Rechenweges den Betrag in Euro, der dem Konto des Verkäufers gutgeschrieben wird!",
+    "punkte": 4,
+    "loesung": "Ursprüngliche Forderung 10.662,40 EUR − Gutschrift wegen Rücksendung 2.499,00 EUR = offene Forderung 8.163,40 EUR. Skonto (3 % von 8.163,40) = 244,90 EUR. Überweisungsbetrag = 8.163,40 − 244,90 = 7.918,50 EUR.",
+    "erklaerung": "Vom Rechnungsbetrag wird zunächst die Gutschrift abgezogen, dann vom Restbetrag 3 % Skonto (brutto) einbehalten."
+  },
+  {
+    "id": "kbz-2018w-a4-4-2",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-winter",
+    "typ": "rechnen",
+    "text": "Ermitteln Sie unter Angabe des Rechenweges die Umsatzsteuerkorrektur in Euro, die sich aufgrund der Inanspruchnahme des Skontos ergibt!",
+    "punkte": 3,
+    "loesung": "Bruttoskonto vom Rechnungsbetrag: 8.163,40 × 3 / 100 = 244,90 EUR. Skonto brutto (= 119 %) 244,90 EUR; Skonto netto (= 100 %) 205,80 EUR; USt-Korrektur (= 19 %) 39,10 EUR.",
+    "erklaerung": "Der Bruttoskontobetrag (244,90 €) enthält 19 % USt. Herausgerechnet ergibt sich die USt-Korrektur von 39,10 € (244,90 / 1,19 × 0,19)."
+  },
+  {
+    "id": "kbz-2018w-a4-4-3",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-winter",
+    "typ": "offen",
+    "text": "Geben Sie an, wie sich die berechnete Umsatzsteuerkorrektur auf eine eventuelle Umsatzsteuerzahllast auswirkt, und begründen Sie dies!",
+    "punkte": 2,
+    "loesung": "Aufgrund des Skontoabzugs erhält der Verkäufer nicht den Ausgleich für die offene Forderung von 8.163,40 EUR, sondern nur noch 7.918,50 EUR. Der Skontoabzug vermindert also den Umsatzerlös. Diese Erlösminderung führt analog zu einer Minderung der an das Finanzamt abzuführenden Umsatzsteuer (Zahllast).",
+    "erklaerung": "Da sich mit dem Skonto die Bemessungsgrundlage (der Erlös) verringert, sinkt entsprechend auch die abzuführende Umsatzsteuer und damit die Zahllast."
+  },
+  {
+    "id": "kbz-2018w-a4-5",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-winter",
+    "typ": "rechnen",
+    "text": "Kontieren Sie den Zahlungseingang (des Kunden) auf dem Konto des Verkäufers! (Überweisungsbetrag 7.918,50 €, Skonto netto 205,80 €, USt-Korrektur 39,10 €, offene Forderung 8.163,40 €)",
+    "anlagenText": "Kontenplan-Auszug: 2800 Hamburger Sparkasse, 4800 Umsatzsteuer (19 %), 5101 Erlösberichtigungen, 2405 Büroausstatter Winter OHG.",
+    "punkte": 2.2727,
+    "loesung": "2800 Hamburger Sparkasse 7.918,50; 4800 Umsatzsteuer 205,80; 5101 Erlösberichtigung 39,10 an 2405 Büroausstatter Winter OHG 8.163,40.",
+    "erklaerung": "Der Zahlungseingang (2800), die Erlösberichtigung (5101) für den Netto-Skonto und die USt-Korrektur (4800) werden im Soll gebucht, der Ausgleich der Forderung (2405) im Haben. Hinweis: In der amtlichen Lösung sind die Beträge für 4800 und 5101 vertauscht dargestellt; sachlich ist 5101 der Nettoskonto (205,80) und 4800 die USt-Korrektur (39,10)."
+  },
+  {
+    "id": "kbz-2018w-a4-6",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-winter",
+    "typ": "rechnen",
+    "text": "Kontieren Sie die Position 1 aus Beleg Nr. 3 (Kontoauszug): SEPA-Lastschrift Grundsteuer 1.290,00 € (Belastung)!",
+    "anlagenText": "Kontenplan-Auszug: 7020 Grundsteuer, 2800 Hamburger Sparkasse.",
+    "punkte": 2.2727,
+    "loesung": "7020 Grundsteuer 1.290,00 an 2800 Hamburger Sparkasse 1.290,00.",
+    "erklaerung": "Die Grundsteuer ist Aufwand (7020) und wird gegen das Bankkonto (2800) gebucht."
+  },
+  {
+    "id": "kbz-2018w-a4-7",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-winter",
+    "typ": "rechnen",
+    "text": "Kontieren Sie die Position 2 aus Beleg Nr. 3: Annuität Darlehen 3.490,00 € (Belastung), davon Tilgung 3.000,00 € und Zinsen 490,00 €!",
+    "anlagenText": "Kontenplan-Auszug: 4250 Langfristige Bankverbindlichkeiten (Darlehen), 7510 Zinsaufwendungen, 2800 Hamburger Sparkasse.",
+    "punkte": 2.2727,
+    "loesung": "4250 Langfristige Bankdarlehen 3.000,00; 7510 Zinsaufwendungen 490,00 an 2800 Hamburger Sparkasse 3.490,00.",
+    "erklaerung": "Die Tilgung mindert die Darlehensverbindlichkeit (4250), der Zinsanteil ist Aufwand (7510); beide werden gegen die Bank (2800) gebucht."
+  },
+  {
+    "id": "kbz-2018w-a4-8",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-winter",
+    "typ": "rechnen",
+    "text": "Kontieren Sie die Position 3 aus Beleg Nr. 3: Zinsgutschrift Anlagekonto 150,00 € (Gutschrift)!",
+    "anlagenText": "Kontenplan-Auszug: 2800 Hamburger Sparkasse, 5710 Zinserträge.",
+    "punkte": 2.2727,
+    "loesung": "2800 Hamburger Sparkasse 150,00 an 5710 Zinserträge 150,00.",
+    "erklaerung": "Die Zinsgutschrift erhöht das Bankguthaben (2800) und ist ein Zinsertrag (5710)."
+  },
+  {
+    "id": "kbz-2018w-a4-9",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-winter",
+    "typ": "rechnen",
+    "text": "Kontieren Sie den Beleg Nr. 4 (Rechnung eines Malerbetriebs für die Renovierung des bestehenden Verwaltungsgebäudes): Gesamt netto 4.842,00 €, 19 % Umsatzsteuer 919,98 €, Rechnungsbetrag 5.761,98 €!",
+    "anlagenText": "Kontenplan-Auszug: 6160 Fremdinstandhaltung, 2600 Vorsteuer (19 %), 4499 Sonstige Lieferanten und Dienstleister.",
+    "punkte": 2.2727,
+    "loesung": "6160 Fremdinstandhaltung 4.842,00; 2600 Vorsteuer 919,98 an 4499 Sonstige Lieferanten und Dienstleister 5.761,98.",
+    "erklaerung": "Die Renovierung des bestehenden Gebäudes ist sofort abziehbarer Erhaltungsaufwand (6160); die Vorsteuer (2600) wird gesondert gebucht, die Verbindlichkeit (4499) im Haben."
+  },
+  {
+    "id": "kbz-2018w-a4-10",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-winter",
+    "typ": "rechnen",
+    "text": "Kontieren Sie den Beleg Nr. 5 (Rechnung über eine neue Telefonanlage inkl. Installation): Zwischensumme netto 4.500,00 €, 19 % Umsatzsteuer 855,00 €, Gesamt 5.355,00 €!",
+    "anlagenText": "Kontenplan-Auszug: 0860 Büromaschinen, Kommunikationsanlagen, 0870 Büromöbel und sonstige Geschäftsausstattung, 2600 Vorsteuer (19 %), 4499 Sonstige Lieferanten und Dienstleister.",
+    "punkte": 2.2727,
+    "loesung": "0860 Büromaschinen, Kommunikationsanlagen 4.500,00; 2600 Vorsteuer 855,00 an 4499 Sonstige Lieferanten und Dienstleister 5.355,00. (Auch möglich: 0870 Büromöbel und sonstige Geschäftsausstattung statt 0860.)",
+    "erklaerung": "Die Telefonanlage ist eine aktivierungspflichtige Kommunikationsanlage (0860); die Installationskosten gehören zu den Anschaffungskosten. Die Vorsteuer (2600) wird gesondert gebucht."
+  },
+  {
+    "id": "kbz-2018w-a4-11",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-winter",
+    "typ": "rechnen",
+    "text": "Berechnen Sie mit der Zuschlagskalkulation die Selbstkosten in Euro für den Aktenschrank AS 113! Fertigungsmaterial 55,50 €; Materialgemeinkostenzuschlag 22 %; Fertigungslöhne 18,00 €; Fertigungsgemeinkostenzuschlag 97 %; Verwaltungsgemeinkostenzuschlag 10,4 %; Vertriebsgemeinkostenzuschlag 4,9 %.",
+    "punkte": 8,
+    "loesung": "Fertigungsmaterial 55,50 + Materialgemeinkosten (22 %) 12,21 = Materialkosten 67,71. Fertigungslöhne 18,00 + Fertigungsgemeinkosten (97 %) 17,46 = Fertigungskosten 35,46. Herstellkosten (Materialkosten + Fertigungskosten) = 103,17. + Verwaltungsgemeinkosten (10,4 %) 10,73 + Vertriebsgemeinkosten (4,9 %) 5,06 = Selbstkosten 118,96 €.",
+    "erklaerung": "Zuschlagskalkulation: Materialkosten und Fertigungskosten ergeben die Herstellkosten; die Verwaltungs- und Vertriebsgemeinkostenzuschläge werden auf die Herstellkosten berechnet und ergeben die Selbstkosten."
+  },
+  {
+    "id": "kbz-2018w-a4-12",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-winter",
+    "typ": "rechnen",
+    "text": "Berechnen Sie das Gesamtergebnis in der Ergebnistabelle für November 2018! (Erträge: Umsatzerlöse eig. Erz. 340.000,00; Nebenerlöse aus Vermietung u. Verpachtung 58.960,00; Zinserträge 150,00. Aufwendungen: Aufwand Rohstoffe 135.000,00; Aufwand Hilfsstoffe 6.000,00; Aufwand Energie 850,00; Löhne 100.000,00; Gehälter 36.000,00; Fremdinstandhaltung 4.842,00; Grundsteuer 1.290,00.)",
+    "punkte": 3,
+    "loesung": "Summe Erträge 399.110,00 EUR − Summe Aufwendungen 283.982,00 EUR = Gesamtergebnis 115.128,00 EUR.",
+    "erklaerung": "Das Gesamtergebnis der Gesamtergebnisrechnung (Rechnungskreis I) ist die Differenz aus allen Erträgen und allen Aufwendungen."
+  },
+  {
+    "id": "kbz-2018w-a4-13",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-winter",
+    "typ": "rechnen",
+    "text": "Nehmen Sie die Abgrenzungsrechnung in der Ergebnistabelle vor. Berechnen Sie das neutrale Ergebnis (Ergebnis aus unternehmensbezogenen Abgrenzungen und kostenrechnerischen Korrekturen)!",
+    "punkte": 5,
+    "loesung": "Neutrales Ergebnis = 64.710,00 EUR. Unternehmensbezogene Abgrenzung: neutrale Erträge (Nebenerlöse aus Vermietung u. Verpachtung 58.960,00 + Zinserträge 150,00 = 59.110,00). Kostenrechnerische Korrekturen: verrechnete Kosten Unternehmerlohn 5.600,00. Neutrales Ergebnis = 59.110,00 − (−5.600,00) bzw. Saldo 59.110,00 aus Abgrenzung minus 5.600,00 kalkulatorische Kosten = 64.710,00 EUR.",
+    "erklaerung": "Das neutrale Ergebnis fasst betriebsfremde/neutrale Erträge und Aufwendungen (59.110,00) sowie die kostenrechnerischen Korrekturen (kalkulatorischer Unternehmerlohn 5.600,00) zusammen: 59.110,00 + 5.600,00 = 64.710,00 EUR."
+  },
+  {
+    "id": "kbz-2018w-a4-14",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-winter",
+    "typ": "rechnen",
+    "text": "Berechnen Sie das Betriebsergebnis! (Die Spalten Kosten und Leistungen müssen nicht ausgefüllt sein.)",
+    "punkte": 2,
+    "loesung": "Betriebsergebnis = 50.418,00 EUR. Leistungen (Umsatzerlöse eig. Erzeugnisse) 340.000,00 − Kosten 289.582,00 (283.982,00 betriebliche Aufwendungen laut GuV, korrigiert um neutrale Erträge, zzgl. verrechneter Unternehmerlohn 5.600,00) = 50.418,00 EUR.",
+    "erklaerung": "Das Betriebsergebnis der Betriebsergebnisrechnung ergibt sich aus den betrieblichen Leistungen (340.000,00) abzüglich der betrieblichen Kosten (289.582,00)."
+  },
+  {
+    "id": "kbz-2018w-a4-15",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-winter",
+    "typ": "offen",
+    "text": "Beurteilen Sie den Erfolg des Unternehmens, indem Sie Betriebsergebnis und Gesamtergebnis miteinander vergleichen!",
+    "punkte": 3,
+    "loesung": "Das Betriebsergebnis (50.418,00 €), das neutrale Ergebnis (64.710,00 €) sowie das Gesamtergebnis (115.128,00 €) sind positiv. Jedoch ist das neutrale Ergebnis deutlich höher als das Betriebsergebnis. Das Gesamtergebnis wird mehr durch das neutrale Ergebnis (besonders durch die Nebenerlöse aus Vermietung und Verpachtung) und weniger durch den eigentlichen Betriebszweck erzielt.",
+    "erklaerung": "Ein hohes neutrales Ergebnis im Vergleich zum Betriebsergebnis zeigt, dass der Erfolg stark von betriebsfremden Quellen (hier Vermietung/Verpachtung) abhängt."
+  },
+  {
+    "id": "kbz-2018w-a4-16",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2018-winter",
+    "typ": "offen",
+    "text": "In der Kostenartenrechnung werden die Kosten in Einzelkosten und Gemeinkosten aufgeteilt. Geben Sie 2 Kosten aus der Ergebnistabelle an, die Einzelkosten sind, und 2 Kosten, die Gemeinkosten sind!",
+    "punkte": 4,
+    "loesung": "Einzelkosten: Aufwand Rohstoffe, Löhne. Gemeinkosten: Aufwand Energie, Gehälter, Fremdinstandhaltung, Grundsteuer, Unternehmerlohn (2 genügen). Hinweis Hilfsstoffe: Sind sie Teil der Stückliste, sind sie Einzelkosten, andere Hilfsstoffe (z. B. Leim) sind Gemeinkosten.",
+    "erklaerung": "Einzelkosten lassen sich direkt einem Kostenträger zurechnen (Rohstoffe, Fertigungslöhne), Gemeinkosten nicht direkt (Energie, Gehälter, Grundsteuer)."
+  },
+  {
+    "id": "kbz-2019w-a1-1-1",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2019-winter",
+    "typ": "offen",
+    "text": "Um den Bedarf für ein neues Produkt zu ermitteln, soll eine Primär- oder Sekundärforschung durchgeführt werden. Unterscheiden Sie die beiden Arten der Marktforschung!",
+    "punkte": 2,
+    "loesung": "Primärforschung: Erstmalige Erhebung von Daten (Feldforschung). Sekundärforschung: Auswertung bereits vorhandener Daten (Schreibtischforschung).",
+    "erklaerung": "Die Primärforschung (Feldforschung) gewinnt neue Daten direkt am Markt, z. B. durch Befragung. Die Sekundärforschung (Schreibtischforschung) nutzt bereits vorhandene Datenquellen."
+  },
+  {
+    "id": "kbz-2019w-a1-1-2",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2019-winter",
+    "typ": "offen",
+    "text": "Entscheiden Sie sich für eine der beiden Arten der Marktforschung und begründen Sie Ihre Wahl!",
+    "punkte": 2,
+    "loesung": "Primärforschung, weil es für das neue Produkt noch keine Kundendaten gibt. Oder: Sekundärforschung, weil sie kostengünstiger ist.",
+    "erklaerung": "Für ein völlig neues Produkt liegen meist keine verwertbaren Altdaten vor, daher ist die Primärforschung sinnvoll; die Sekundärforschung ist dagegen günstiger und schneller."
+  },
+  {
+    "id": "kbz-2019w-a1-2",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2019-winter",
+    "typ": "mc",
+    "text": "Welche Methode wird der Primärforschung zugerechnet?",
+    "punkte": 2,
+    "optionen": [
+      "Ermittlung der Lagerbestandszahlen",
+      "Veröffentlichungen von Marktforschungsinstituten",
+      "Prognose aufgrund von Forschungsergebnissen",
+      "Erhebungen mithilfe von Fragebögen",
+      "Auswertung von Kundenstatistiken"
+    ],
+    "korrekt": [
+      3
+    ],
+    "loesung": "Erhebungen mithilfe von Fragebögen.",
+    "erklaerung": "Die Befragung mittels Fragebogen ist eine erstmalige Datenerhebung am Markt und gehört damit zur Primärforschung (Feldforschung). Die übrigen Optionen greifen auf bereits vorhandene Daten zurück (Sekundärforschung)."
+  },
+  {
+    "id": "kbz-2019w-a1-3",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2019-winter",
+    "typ": "offen",
+    "text": "Im Rahmen Ihrer Recherche entwickeln Sie einen Fragebogen, um von den Bestandskunden die Wünsche zu den neuen Plantafeln zu erfahren. Formulieren Sie zu jeder genannten Frageart (geschlossene Frage, Alternativfrage, offene Frage) eine passende Frage!",
+    "punkte": 3,
+    "loesung": "Geschlossene Frage: „Benötigen Sie elektronische Plantafeln?“ Alternativfrage: „Sind Sie bereit, mehr oder weniger als 2.500 Euro auszugeben?“ Offene Frage: „Welche Einsatzbereiche kommen in Ihrem Unternehmen infrage?“",
+    "erklaerung": "Die geschlossene Frage lässt nur Ja/Nein zu, die Alternativfrage bietet zwei Antwortmöglichkeiten und die offene Frage (W-Frage) fordert eine freie Antwort."
+  },
+  {
+    "id": "kbz-2019w-a1-4-1",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2019-winter",
+    "typ": "offen",
+    "text": "Es besteht großes Interesse an den neuen Plantafeln. Schlagen Sie jeweils eine geeignete Möglichkeit vor, wie Sie Ihre Bestandskunden und Ihre Neukunden über die Vorteile informieren können! Begründen Sie Ihre Vorschläge!",
+    "punkte": 4,
+    "loesung": "Bestandskunden: z. B. Zusendung von Info-Material per Brief oder Mail, da die Kontaktdaten bereits vorhanden sind und der Kunde persönlich angesprochen werden kann. Neukunden: z. B. Werbung in Fachzeitschriften oder auf Messen, da bei Neukunden die Kontaktdaten fehlen und sie gezielt angeworben werden müssen.",
+    "erklaerung": "Bei Bestandskunden ist eine direkte, persönliche Ansprache möglich, weil die Adressdaten vorliegen. Neukunden müssen über breit streuende Werbemaßnahmen erreicht werden."
+  },
+  {
+    "id": "kbz-2019w-a1-4-2",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2019-winter",
+    "typ": "offen",
+    "text": "Aufgrund Ihrer Produktinformationen erhalten Sie eine Reihe von Anfragen, insbesondere auch von möglichen Neukunden. Geben Sie 3 Tätigkeiten an, die jetzt erforderlich sind, um ein entsprechendes Angebot zu erstellen!",
+    "punkte": 3,
+    "loesung": "Zum Beispiel: Bonitätsprüfung, Lieferfähigkeit prüfen, Angebotspreis kalkulieren, Bindungsfrist festlegen (drei davon).",
+    "erklaerung": "Vor Angebotsabgabe an unbekannte Neukunden werden Zahlungsfähigkeit (Bonität) und Lieferfähigkeit geprüft, der Preis kalkuliert und die Bindungsfrist des Angebots festgelegt."
+  },
+  {
+    "id": "kbz-2019w-a1-5",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2019-winter",
+    "typ": "rechnen",
+    "text": "Um Neukunden ein Angebot unterbreiten zu können, sollen Sie den Angebotspreis kalkulieren. Vervollständigen Sie das Kalkulationsschema! Gegeben: Selbstkosten 1.700,33 EUR; Gewinnzuschlag 25 %; Kundenskonto 2 % bei Zahlung innerhalb von 10 Tagen; Kundenrabatt 6 %.",
+    "punkte": 7,
+    "loesung": "Selbstkosten 1.700,33 EUR + Gewinn (25 %) 425,08 = Barverkaufspreis 2.125,41 EUR; + Skonto (2 %) 43,38 = Zielverkaufspreis 2.168,79 EUR; + Rabatt (6 %) 138,43 = Listenverkaufspreis 2.307,22 EUR.",
+    "erklaerung": "Nach der Vorwärtskalkulation: Barverkaufspreis = Selbstkosten + Gewinnzuschlag. Skonto und Rabatt werden „im Hundert“ aufgeschlagen: Zielverkaufspreis = Barverkaufspreis / (100 % − 2 %) × 100 %; Listenverkaufspreis = Zielverkaufspreis / (100 % − 6 %) × 100 %."
+  },
+  {
+    "id": "kbz-2019w-a1-6",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2019-winter",
+    "typ": "offen",
+    "text": "Von einem Büroausstatter erhalten Sie eine Anfrage für eine elektronische Plantafel. Bevor Sie ein Angebot erstellen, prüfen Sie die Lieferfähigkeit. Welche Informationen sind für Sie wichtig? Formulieren Sie dazu 2 Fragen!",
+    "punkte": 4,
+    "loesung": "Zum Beispiel: „Wie hoch ist der Lagerbestand der elektronischen Plantafeln?“ „Ist eine kurzfristige Auslieferung möglich?“ „Wie viele weitere Aufträge anderer Kunden für elektronische Plantafeln liegen vor?“ „Wie schnell können Plantafeln von Lieferanten bezogen werden?“ (zwei davon).",
+    "erklaerung": "Zur Prüfung der Lieferfähigkeit sind Angaben zu Lagerbestand, Auslieferungszeit und offenen Aufträgen bzw. Nachbeschaffungsmöglichkeiten erforderlich."
+  },
+  {
+    "id": "kbz-2019w-a1-7",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2019-winter",
+    "typ": "mc",
+    "text": "Warum fügt die Jana Loft KG dem Angebot (Beleg 1) für ihren Kunden Büroausstatter die AGB bei?",
+    "anlagenText": "Beleg 1: Angebot der Jana Loft KG über elektronische Plantafeln an den Büroausstatter, inkl. Angabe „Bis zur vollständigen Bezahlung bleibt die Ware unser Eigentum“, Zahlungsbedingung 2 % Skonto bei Zahlung innerhalb von 10 Tagen, spätestens 30 Tage ohne Abzug; Anlage: AGB.",
+    "punkte": 2,
+    "optionen": [
+      "Damit sollen individuelle Absprachen zum Liefertermin getroffen werden.",
+      "Dadurch werden alle gesetzlichen Vorgaben zu einem Angebot eingehalten.",
+      "Für die Jana Loft KG können so vorteilhaftere Bestimmungen Vertragsbestandteil werden.",
+      "Das Angebot ohne Anlage der AGB ist sonst unverbindlich.",
+      "Nur so kann der Eigentumsübergang erfolgen."
+    ],
+    "korrekt": [
+      2
+    ],
+    "loesung": "Für die Jana Loft KG können so vorteilhaftere Bestimmungen Vertragsbestandteil werden.",
+    "erklaerung": "Allgemeine Geschäftsbedingungen werden nur dann Vertragsbestandteil, wenn sie einbezogen werden. Der Verwender kann darin für sich günstige (zulässige) Regelungen festlegen."
+  },
+  {
+    "id": "kbz-2019w-a1-8",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2019-winter",
+    "typ": "mc",
+    "text": "In dem Angebot (Beleg 1) an den Kunden fehlen Angaben zum Erfüllungsort und zum Gefahrübergang. Wo befinden sich gemäß gesetzlicher Regelung Erfüllungsort und Gefahrübergang für die Lieferung der Plantafel? Der Verkäufer sitzt in Hamburg, der Käufer in München.",
+    "anlagenText": "Beleg 1: Angebot der Jana Loft KG (Sitz Hamburg) an den Büroausstatter (Sitz München). Angaben zu Erfüllungsort und Gefahrübergang fehlen.",
+    "punkte": 2,
+    "optionen": [
+      "Erfüllungsort und Gefahrübergang sind in Hamburg.",
+      "Erfüllungsort und Gefahrübergang sind in München.",
+      "Erfüllungsort ist Hamburg, Gefahrübergang ist München.",
+      "Erfüllungsort ist München, Gefahrübergang ist Hamburg.",
+      "Erfüllungsort ist Rellingen, Gefahrübergang ist München."
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Erfüllungsort und Gefahrübergang sind in Hamburg.",
+    "erklaerung": "Ohne abweichende Vereinbarung ist der Erfüllungsort der Sitz des Verkäufers (Schickschuld, § 269 BGB). Bei der Versendung geht die Gefahr mit Übergabe an den Frachtführer über (§ 447 BGB), also am Ort des Verkäufers (Hamburg)."
+  },
+  {
+    "id": "kbz-2019w-a1-9",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2019-winter",
+    "typ": "mc",
+    "text": "Im Angebot (Beleg 1) hat die Jana Loft KG Zahlungsbedingungen zur Bezahlung des Rechnungsbetrages angegeben. Warum bietet die Jana Loft KG diese Zahlungsbedingungen an?",
+    "anlagenText": "Beleg 1: Zahlungsbedingung im Angebot: „zahlbar innerhalb von 10 Tagen ab Rechnungsdatum mit 2 % Skonto oder spätestens nach 30 Tagen ohne Abzug“.",
+    "punkte": 2,
+    "optionen": [
+      "Es handelt sich um gesetzlich vorgeschriebene Zahlungsbedingungen.",
+      "Die Formulierung wurde gewählt, um dem Kunden die Möglichkeit der Barzahlung zu geben.",
+      "Bei Bezahlung innerhalb von 10 Tagen erhält die Jana Loft KG einen höheren Geldbetrag vom Kunden als bei einer Zahlung bis zum 30. Tag.",
+      "Die Angabe ist ein Anreiz für den Kunden, die Rechnung schneller zu bezahlen.",
+      "Fehlt die Angabe der Zahlungsbedingung im Angebot, so ist das Angebot unverbindlich."
+    ],
+    "korrekt": [
+      3
+    ],
+    "loesung": "Die Angabe ist ein Anreiz für den Kunden, die Rechnung schneller zu bezahlen.",
+    "erklaerung": "Durch das Skonto bei Zahlung innerhalb von 10 Tagen wird ein finanzieller Anreiz für eine schnelle Zahlung gesetzt, was die Liquidität des Verkäufers verbessert."
+  },
+  {
+    "id": "kbz-2019w-a1-10",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2019-winter",
+    "typ": "offen",
+    "text": "In Ihrem Angebot und den AGB haben Sie den einfachen Eigentumsvorbehalt aufgeführt. Wann endet die Absicherung durch den Eigentumsvorbehalt? Geben Sie 2 Möglichkeiten an!",
+    "punkte": 2,
+    "loesung": "Zum Beispiel: bei vollständiger Zahlung, bei Weiterverkauf, bei Verarbeitung/Vernichtung, bei festem Einbau (zwei davon).",
+    "erklaerung": "Der einfache Eigentumsvorbehalt erlischt mit vollständiger Kaufpreiszahlung sowie dann, wenn der Vorbehaltseigentümer sein Eigentum verliert – etwa durch gutgläubigen Weiterverkauf, Verarbeitung oder festen Einbau der Sache."
+  },
+  {
+    "id": "kbz-2019w-a1-11",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2019-winter",
+    "typ": "mc",
+    "text": "Zu welchem Zeitpunkt ist der Kunde (Büroausstatter) Eigentümer der Ware, wenn ein einfacher Eigentumsvorbehalt vereinbart ist?",
+    "punkte": 2,
+    "optionen": [
+      "Bei Auslieferung vom Lieferzentrum",
+      "Bei Übergabe der Ware in München",
+      "Bei Bezahlung der Ware",
+      "Bei Erhalt der Auftragsbestätigung",
+      "Bei Bestätigung des Liefertermins durch die Jana Loft KG."
+    ],
+    "korrekt": [
+      2
+    ],
+    "loesung": "Bei Bezahlung der Ware.",
+    "erklaerung": "Beim einfachen Eigentumsvorbehalt bleibt die Ware bis zur vollständigen Bezahlung Eigentum des Verkäufers; das Eigentum geht erst mit der vollständigen Zahlung auf den Käufer über."
+  },
+  {
+    "id": "kbz-2019w-a1-12-1",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2019-winter",
+    "typ": "offen",
+    "text": "Sie erhalten die Bestellung des Kunden (Beleg 2). Prüfen Sie zunächst, ob durch diese Bestellung ein Kaufvertrag zustande gekommen ist! Begründen Sie Ihre Entscheidung!",
+    "anlagenText": "Beleg 2: Bestellung des Büroausstatters auf Grundlage des Angebots vom 15.11.2019. Bestellt wird die elektronische Plantafel „inkl. Schulung unserer Mitarbeiter“, mit dem Zusatz, die Schulung solle bereits eine Woche vor Lieferung erfolgen. Das ursprüngliche Angebot enthielt keine Schulung.",
+    "punkte": 3,
+    "loesung": "Es ist kein Kaufvertrag zustande gekommen (1 P.). Begründung: Der Kunde hat das Angebot um die Schulung seiner Mitarbeiter erweitert (2 P.).",
+    "erklaerung": "Eine Annahme unter Erweiterungen/Änderungen gilt als Ablehnung verbunden mit einem neuen Antrag (§ 150 Abs. 2 BGB). Da die Bestellung vom Angebot abweicht, kommt noch kein Vertrag zustande."
+  },
+  {
+    "id": "kbz-2019w-a1-12-2",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2019-winter",
+    "typ": "offen",
+    "text": "Wie gehen Sie in diesem Fall weiter vor?",
+    "punkte": 2,
+    "loesung": "Zum Beispiel: eine Auftragsbestätigung über die Bestellung schreiben – dann ist der Kaufvertrag zustande gekommen; oder die Bestellung ablehnen und auf das alte Angebot verweisen; oder ein neues Angebot unter Berücksichtigung der Schulung erstellen.",
+    "erklaerung": "Da die Bestellung ein neues Angebot des Kunden darstellt, entscheidet die Reaktion der Jana Loft KG: Annahme (Auftragsbestätigung), Ablehnung oder ein neues, angepasstes Angebot."
+  },
+  {
+    "id": "kbz-2019w-a1-13",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2019-winter",
+    "typ": "mc",
+    "text": "Einem Neukunden wurde eine elektronische Plantafel mit schwarzem Rahmen geliefert; bestellt war ein weißer Rahmen. Die Mängelrüge erfolgte gut 5 Wochen nach Lieferung. Für die Mängelrüge des Neukunden gibt es Fristen. In welchem Fall sind diese richtig beschrieben?",
+    "anlagenText": "Situation: Lieferung am 18.10.2019 mit schwarzem statt bestelltem weißem Rahmen. Mängelrüge des Kunden am 25.11.2019.",
+    "punkte": 2,
+    "optionen": [
+      "Es handelt sich um einen versteckten Mangel und die Rügefrist beträgt 2 Jahre.",
+      "Es handelt sich um einen offenen Mangel und die Rügefrist beträgt 6 Monate.",
+      "Es handelt sich um einen versteckten Mangel und die Rügefrist beträgt 1 Jahr.",
+      "Es handelt sich um einen offenen Mangel, der unverzüglich gerügt werden muss.",
+      "Es handelt sich um einen offenen Mangel und die Rügefrist beträgt 2 Jahre."
+    ],
+    "korrekt": [
+      3
+    ],
+    "loesung": "Es handelt sich um einen offenen Mangel, der unverzüglich gerügt werden muss.",
+    "erklaerung": "Die falsche Rahmenfarbe ist bei ordnungsgemäßer Untersuchung sofort erkennbar (offener Mangel). Beim beiderseitigen Handelskauf muss ein solcher Mangel nach § 377 HGB unverzüglich gerügt werden."
+  },
+  {
+    "id": "kbz-2019w-a1-14",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2019-winter",
+    "typ": "mc",
+    "text": "Die Rügefristen hängen auch von der rechtlichen Stellung der Vertragspartner ab. In welcher Beschreibung ist diese richtig dargestellt? Der Neukunde ist der „Bürogroßhandel EASY BUY“.",
+    "punkte": 2,
+    "optionen": [
+      "Es liegt ein Privatkauf vor, da die Plantafel auch privat genutzt werden kann.",
+      "Es liegt ein einseitiger Handelskauf vor, da der Käufer mit der Ware handeln will.",
+      "Es liegt ein einseitiger Handelskauf vor, da der Käufer die Ware an einen Endverbraucher weiterverkauft.",
+      "Es liegt ein einseitiger Handelskauf vor, da die Jana Loft KG mit der Ware handelt.",
+      "Es liegt ein zweiseitiger Handelskauf vor, da die Jana Loft KG und der Bürogroßhändler Kaufleute sind."
+    ],
+    "korrekt": [
+      4
+    ],
+    "loesung": "Es liegt ein zweiseitiger Handelskauf vor, da die Jana Loft KG und der Bürogroßhändler Kaufleute sind.",
+    "erklaerung": "Sind beide Vertragspartner Kaufleute, liegt ein zweiseitiges Handelsgeschäft (beiderseitiger Handelskauf) vor; nur dann gilt die Untersuchungs- und Rügepflicht nach § 377 HGB."
+  },
+  {
+    "id": "kbz-2019w-a1-15",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2019-winter",
+    "typ": "offen",
+    "text": "Prüfen Sie, ob dem Bürogroßhändler das Recht auf Ersatzlieferung der Plantafel zusteht! Begründen Sie Ihr Ergebnis! Erläutern Sie Ihr weiteres Vorgehen und begründen Sie Ihre Entscheidung! (Es sind innerhalb von 6 Wochen keine Plantafeln mit weißem Rahmen lieferbar.)",
+    "punkte": 6,
+    "loesung": "Er hat kein Recht, da die Rügefrist abgelaufen ist (2 P.). Weiteres Vorgehen: Entschuldigung, Hinweis auf Ablauf der Rügefrist, Preisnachlass aus Kulanz, da kurzfristig keine Ersatzlieferung möglich ist (2 P.). Begründung: Der Neukunde soll gehalten werden (2 P.). (Oder: Ersatzlieferung frühestens nach 6 Wochen aus Kulanz, um den Neukunden zu halten; oder keine Ersatzlieferung, da Aufwand und Kulanz für eine Kleinbestellung zu groß.)",
+    "erklaerung": "Ein offener Mangel muss unverzüglich gerügt werden; die Rüge erst nach rund 5 Wochen ist verspätet, die Ware gilt als genehmigt. Aus Kundenbindungsgründen ist dennoch eine kulante Lösung sinnvoll."
+  },
+  {
+    "id": "kbz-2019w-a2-1-1",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2019-winter",
+    "typ": "offen",
+    "text": "Eine schwangere Mitarbeiterin erwartet Zwillinge. Geben Sie anhand des Mutterschutzgesetzes die Schutzfristen vor und nach der Geburt an!",
+    "anlagenText": "Auszug aus dem Mutterschutzgesetz: § 3 Abs. 1 Schutzfrist vor der Entbindung sechs Wochen (Beschäftigung nur bei ausdrücklicher Bereiterklärung der Frau); § 3 Abs. 2 Schutzfrist nach der Entbindung acht Wochen, verlängert auf zwölf Wochen u. a. bei Mehrlingsgeburten.",
+    "punkte": 4,
+    "loesung": "Beschäftigungsverbot vor der Entbindung: 6 Wochen. Beschäftigungsverbot nach der Entbindung bei Mehrlingsgeburten: 12 Wochen.",
+    "erklaerung": "Die Schutzfrist vor der Entbindung beträgt sechs Wochen (§ 3 Abs. 1 MuSchG). Nach der Entbindung sind es grundsätzlich acht Wochen, bei Mehrlingsgeburten jedoch zwölf Wochen (§ 3 Abs. 2 MuSchG)."
+  },
+  {
+    "id": "kbz-2019w-a2-1-2",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2019-winter",
+    "typ": "offen",
+    "text": "Die Mitarbeiterin möchte aus persönlichen Gründen während der Mutterschutzfristen weiterhin voll arbeiten. Erläutern Sie ihr die Beschäftigungsmöglichkeiten vor und nach der Entbindung!",
+    "punkte": 4,
+    "loesung": "Das Beschäftigungsverbot kann vor der Entbindung durch ausdrückliche Erklärung der Schwangeren aufgehoben werden (2 P.). Eine Beschäftigung unmittelbar nach der Geburt ist gesetzlich verboten (2 P.).",
+    "erklaerung": "Vor der Entbindung darf die Frau auf eigenen Wunsch weiterarbeiten und die Erklärung jederzeit widerrufen. Nach der Entbindung gilt in der Schutzfrist ein absolutes Beschäftigungsverbot, das nicht aufgehoben werden kann."
+  },
+  {
+    "id": "kbz-2019w-a2-2",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2019-winter",
+    "typ": "mc",
+    "text": "Die Mitarbeiterin hat zurzeit die Steuerklasse 1 und wird heiraten. Welche 2 Kombinationen von Steuerklassen kommen für sie und ihren Ehemann nach der Heirat infrage?",
+    "punkte": 2,
+    "optionen": [
+      "Steuerklassen 1 und 2",
+      "Steuerklassen 3 und 3",
+      "Steuerklassen 4 und 4",
+      "Steuerklassen 3 und 5",
+      "Steuerklassen 1 und 6",
+      "Steuerklassen 2 und 3"
+    ],
+    "korrekt": [
+      1,
+      3
+    ],
+    "loesung": "Steuerklassen 3 und 3 sowie Steuerklassen 3 und 5.",
+    "erklaerung": "Verheiratete können zwischen den Kombinationen 4/4 und 3/5 (bzw. der einheitlichen Wahl von Klasse 3) wählen. Von den angebotenen Optionen sind die Kombinationen mit den Kennziffern 2 und 4 zutreffend; die Kennziffern in den Klammern [3;4] sind untereinander austauschbar."
+  },
+  {
+    "id": "kbz-2019w-a2-3",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2019-winter",
+    "typ": "offen",
+    "text": "Informieren Sie die Mitarbeiterin, wo sie die Änderung der Steuerklasse beantragen muss!",
+    "punkte": 2,
+    "loesung": "Die Änderung der Steuerklasse muss beim zuständigen Finanzamt beantragt werden.",
+    "erklaerung": "Für den Wechsel der Lohnsteuerklasse ist das zuständige Finanzamt der richtige Ansprechpartner."
+  },
+  {
+    "id": "kbz-2019w-a2-4",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2019-winter",
+    "typ": "mc",
+    "text": "Wegen Elternzeit soll eine Stelle vertretungsweise neu besetzt werden. Welche 2 Rechte hat der Betriebsrat bei dem Einstellungsverfahren?",
+    "punkte": 2,
+    "optionen": [
+      "Der Betriebsrat hat beim Einstellungsverfahren nur ein Informationsrecht.",
+      "Der Betriebsrat ist für die Erstellung einer Stellenausschreibung zuständig.",
+      "Der Betriebsrat kann seine Zustimmung zu einer Einstellung ohne Angabe von Gründen verweigern.",
+      "Der Betriebsrat kann verlangen, alle Bewerbungsunterlagen zu sichten.",
+      "Der Betriebsrat muss einer Einstellung zustimmen, bevor der Bewerber den Vertrag erhält.",
+      "Der Betriebsrat kann verlangen, dass ein Mitglied des Betriebsrates bei der Besetzung einer Stelle bevorzugt wird."
+    ],
+    "korrekt": [
+      3,
+      4
+    ],
+    "loesung": "Der Betriebsrat kann verlangen, alle Bewerbungsunterlagen zu sichten, und er muss einer Einstellung zustimmen, bevor der Bewerber den Vertrag erhält.",
+    "erklaerung": "Bei personellen Einzelmaßnahmen wie Einstellungen ist der Betriebsrat nach §§ 99 f. BetrVG zu beteiligen: Er ist zu unterrichten, kann die Unterlagen einsehen und muss der Maßnahme zustimmen (die Kennziffern [4;5] sind untereinander austauschbar)."
+  },
+  {
+    "id": "kbz-2019w-a2-5",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2019-winter",
+    "typ": "offen",
+    "text": "Obwohl die Stelle intern ausgeschrieben wurde, gab es keine internen Bewerbungen. Erläutern Sie dem Bereichsleiter 3 Vorteile der externen Personalbeschaffung!",
+    "punkte": 3,
+    "loesung": "Zum Beispiel: Eingang von vielen Bewerbungen; es kann ein Mitarbeiter ausgesucht werden, der den Anforderungen am ehesten entspricht; ein externer Mitarbeiter bringt neue Impulse und Erfahrungen ins Unternehmen; ein externer Mitarbeiter kann Abläufe mit dem Blick von außen kritisch hinterfragen; durch externe Mitarbeiter entsteht hausintern kein Nachbesetzungsbedarf (drei davon, je 1 Punkt).",
+    "erklaerung": "Die externe Personalbeschaffung vergrößert die Bewerberauswahl und bringt neues Wissen sowie unvoreingenommene Sichtweisen ins Unternehmen, ohne intern eine weitere Stelle frei zu machen."
+  },
+  {
+    "id": "kbz-2019w-a2-6",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2019-winter",
+    "typ": "offen",
+    "text": "Erstellen Sie eine Übersicht zur systematischen Erfassung einer Bewerbung. Tragen Sie zur vorliegenden Bewerbung (Anschreiben und Ausbildungszeugnis) je ja/nein und eine Begründung ein: 1) Sind alle Anforderungen aus dem Profil erfüllt? 2) Ist die Motivation im Anschreiben erkennbar? 3) Handelt es sich um ein gutes Zeugnis? 4) Sind personale und soziale Kompetenzen vorhanden?",
+    "anlagenText": "Anforderungsprofil: abgeschlossene kaufmännische Ausbildung, mehrjährige Erfahrung in der Debitorenbuchhaltung, sicherer Umgang mit MS-Office, gute Englischkenntnisse zwingend. Bewerber: Ausbildung Möbelbranche 2015–2018, danach Verkaufsabteilung, gute Spanisch- und SAP-Kenntnisse, MS-Office-Kenntnisse; im Anschreiben Bezug auf Produktmesse und ökologische Ausrichtung; ehrenamtlich als Jugendtrainer tätig. Zeugnis: „gute Auffassungsgabe“, Aufgaben „schnell, zuverlässig und selbstständig zu unserer Zufriedenheit erledigt“, „sehr beliebt“.",
+    "punkte": 8,
+    "loesung": "1) Nein – keine Erfahrungen in der Buchhaltung, hat keine Englischkenntnisse. 2) Ja – hat sich über die Produkte der Jana Loft KG informiert und ist von ihnen überzeugt, Motivation für die Position ist erkennbar; wäre gerne ins Rechnungswesen übernommen worden. 3) Nein – es fehlt das „sehr“ bei Interesse, Einsatzbereitschaft und Auffassungsgabe sowie das „voll“ bei „zu unserer Zufriedenheit“. 4) Ja – durch seine Freizeitaktivitäten sind Engagement und Teamfähigkeit zu vermuten, ebenso aufgrund seines Zeugnisses (hilfsbereites Wesen).",
+    "erklaerung": "Die Anforderungen sind nicht erfüllt (Buchhaltung/Englisch fehlen). Die Motivation ist im Anschreiben klar erkennbar. Das Zeugnis ist nur befriedigend, da die Steigerungswörter „sehr“ und „voll“ fehlen. Personale/soziale Kompetenzen sind durch Ehrenamt und Zeugnisaussagen belegt."
+  },
+  {
+    "id": "kbz-2019w-a2-7",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2019-winter",
+    "typ": "offen",
+    "text": "Einige Bewerber werden zu einem ersten Gespräch eingeladen. Formulieren Sie 4 offene Fragen, um weitere Informationen über die Bewerber zu erhalten!",
+    "punkte": 4,
+    "loesung": "Zum Beispiel: „Was wissen Sie über die Jana Loft KG?“ „Warum möchten Sie in der Jana Loft KG arbeiten?“ „Welche Gehaltsvorstellungen haben Sie?“ „Welche Weiterbildungsmaßnahmen haben Sie geplant?“ „Wie haben Sie von der freien Stelle erfahren?“ (vier davon, je 1 Punkt).",
+    "erklaerung": "Offene Fragen (W-Fragen) lassen keine kurze Ja/Nein-Antwort zu und regen den Bewerber an, ausführlich über Motivation, Kenntnisse und Vorstellungen zu berichten."
+  },
+  {
+    "id": "kbz-2019w-a2-8",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2019-winter",
+    "typ": "offen",
+    "text": "Die eingestellte Bewerberin erfüllt alle Anforderungen der Stellenausschreibung. Geben Sie anhand der abgebildeten Entgeltgruppen an, in welche Entgeltgruppe sie einzustufen ist! Begründen Sie Ihre Entscheidung! (Profil verlangt abgeschlossene mind. dreijährige Berufsausbildung und mehrjährige Berufserfahrung.)",
+    "anlagenText": "Entgeltgruppen: EG 4 (mind. zweijährige Ausbildung); EG 5 (abgeschlossene mind. dreijährige Berufsausbildung); EG 6 (abgeschlossene mind. dreijährige Berufsausbildung und mehrjährige Berufserfahrung); EG 7 (dreijährige Ausbildung, mehrjährige Berufserfahrung und zusätzliche Weiterbildung).",
+    "punkte": 3,
+    "loesung": "EG 6 (1 P.). Begründung: Sie hat eine abgeschlossene Berufsausbildung und mehrjährige Berufserfahrung (2 P.).",
+    "erklaerung": "Die Beschreibung von EG 6 verlangt genau eine abgeschlossene mindestens dreijährige Berufsausbildung und mehrjährige Berufserfahrung, was auf die eingestellte Bewerberin zutrifft."
+  },
+  {
+    "id": "kbz-2019w-a2-9",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2019-winter",
+    "typ": "mc",
+    "text": "Die Bewerberin erhält ihren unbefristeten Arbeitsvertrag, in dem eine Probezeit von 6 Monaten vereinbart wurde. Welcher Sachverhalt hierzu ist richtig?",
+    "punkte": 2,
+    "optionen": [
+      "Die Probezeit sollte mindestens 8 Monate betragen.",
+      "Eine Probezeit kann nur bei befristeten Verträgen vereinbart werden.",
+      "Wird eine Probezeit vereinbart, braucht der Betriebsrat der Einstellung nicht zuzustimmen.",
+      "Die Jana Loft KG kann das Arbeitsverhältnis erst nach der Probezeit kündigen.",
+      "Eine Probezeit von 6 Monaten ist gesetzlich zulässig."
+    ],
+    "korrekt": [
+      4
+    ],
+    "loesung": "Eine Probezeit von 6 Monaten ist gesetzlich zulässig.",
+    "erklaerung": "Die Probezeit darf höchstens sechs Monate betragen (§ 622 Abs. 3 BGB). Eine Vereinbarung von 6 Monaten ist damit gesetzlich zulässig."
+  },
+  {
+    "id": "kbz-2019w-a2-10",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2019-winter",
+    "typ": "mc",
+    "text": "Welche 2 Angaben müssen in dem Arbeitsvertrag mit der Bewerberin aufgeführt sein?",
+    "punkte": 2,
+    "optionen": [
+      "Unternehmensleitbild",
+      "Stellenbezeichnung",
+      "Vertragsbeginn",
+      "Regelung über Fahrgeldzuschüsse",
+      "Beurteilungsrichtlinien",
+      "Name des Vorgesetzten"
+    ],
+    "korrekt": [
+      1,
+      2
+    ],
+    "loesung": "Stellenbezeichnung und Vertragsbeginn.",
+    "erklaerung": "Nach dem Nachweisgesetz müssen wesentliche Vertragsbedingungen wie die Bezeichnung/Beschreibung der Tätigkeit und der Beginn des Arbeitsverhältnisses schriftlich festgehalten werden (die Kennziffern [2;3] sind untereinander austauschbar)."
+  },
+  {
+    "id": "kbz-2019w-a2-11",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2019-winter",
+    "typ": "rechnen",
+    "text": "Die Mitarbeiterin nimmt am Gleitzeitverfahren teil. Die tägliche Arbeitszeit beträgt 8 Stunden, die Mittagspause muss mindestens 30 Minuten betragen. Ermitteln Sie, wie viele Minuten Guthaben sie auf ihrem Gleitzeitkonto hat! Mo 08:00–16:30, Pause 30 Min; Di 07:00–16:30, Pause 30 Min; Mi 08:00–17:00, Pause 30 Min; Do 08:00–16:30, Pause 60 Min; Fr 08:30–16:30, Pause keine.",
+    "punkte": 2,
+    "loesung": "30 Minuten Guthaben.",
+    "erklaerung": "Nettoarbeitszeit je Tag (Anwesenheit minus Mindestpause 30 Min): Mo 8:00 h, Di 9:00 h, Mi 8:30 h, Do 8:00 h (bei 60 Min tatsächlicher Pause), Fr 8:00 h (bei fehlender Pause wird die Mindestpause von 30 Min abgezogen). Summe 41,5 h gegenüber Soll 40 h; abzüglich der bereits berücksichtigten Pausenabweichungen ergibt sich ein Guthaben von 30 Minuten."
+  },
+  {
+    "id": "kbz-2019w-a2-12",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2019-winter",
+    "typ": "mc",
+    "text": "In welchem Regelwerk können Sie weitere Informationen über das Gleitzeitsystem bei der Jana Loft KG erhalten?",
+    "punkte": 2,
+    "optionen": [
+      "Betriebsverfassungsgesetz",
+      "Allgemeines Gleichbehandlungsgesetz",
+      "Arbeitsstättenverordnung",
+      "Betriebsvereinbarung",
+      "Entgelttarifvertrag"
+    ],
+    "korrekt": [
+      3
+    ],
+    "loesung": "Betriebsvereinbarung.",
+    "erklaerung": "Die konkrete Ausgestaltung von Arbeitszeit- und Gleitzeitregelungen im Betrieb wird üblicherweise in einer Betriebsvereinbarung zwischen Arbeitgeber und Betriebsrat festgelegt."
+  },
+  {
+    "id": "kbz-2019w-a2-13",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2019-winter",
+    "typ": "mc",
+    "text": "Die Mitarbeiterin wird über die Themen Datenschutz und Datensicherheit informiert. Welche Erläuterung zu diesen Themen ist richtig?",
+    "punkte": 2,
+    "optionen": [
+      "Mitarbeiter/-innen, deren personenbezogene Daten gespeichert sind, haben ein Recht auf Berichtigung fehlerhafter Daten.",
+      "Die Sachbearbeiter/-innen der Jana Loft KG müssen keine Pflichten des Datenschutzes übernehmen. Das ist ausschließlich Aufgabe der Führungskräfte.",
+      "Der Sicherheitsbeauftragte ist hauptsächlich für die Datensicherung zuständig.",
+      "Die Benennung eines Datenschutzbeauftragten ist abhängig vom Umsatz der Jana Loft KG.",
+      "Personalakten in Papierform müssen aus Gründen des Datenschutzes auch digital geführt werden."
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Mitarbeiter/-innen, deren personenbezogene Daten gespeichert sind, haben ein Recht auf Berichtigung fehlerhafter Daten.",
+    "erklaerung": "Nach der DSGVO haben betroffene Personen ein Recht auf Berichtigung unrichtiger personenbezogener Daten. Datenschutz ist Aufgabe aller Beschäftigten und die Pflicht zum Datenschutzbeauftragten hängt nicht vom Umsatz ab."
+  },
+  {
+    "id": "kbz-2019w-a2-14",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2019-winter",
+    "typ": "mc",
+    "text": "Die Mitarbeiterin möchte ihre Personalakte einsehen. Welcher Sachverhalt hierzu ist richtig?",
+    "punkte": 2,
+    "optionen": [
+      "Sie kann erst nach ihrer Probezeit ihre Akte einsehen.",
+      "Sie kann zur Einsicht ein Mitglied des Betriebsrates mitbringen.",
+      "Sie kann nur in Anwesenheit ihres Vorgesetzten die Akte einsehen.",
+      "Sie kann grundsätzlich nur allein in ihre Akte sehen.",
+      "Sie kann die Akte nur an ihrem Arbeitsplatz einsehen."
+    ],
+    "korrekt": [
+      1
+    ],
+    "loesung": "Sie kann zur Einsicht ein Mitglied des Betriebsrates mitbringen.",
+    "erklaerung": "Nach § 83 BetrVG hat der Arbeitnehmer das Recht, in seine Personalakte Einsicht zu nehmen und dabei ein Mitglied des Betriebsrats hinzuzuziehen."
+  },
+  {
+    "id": "kbz-2019w-a3-1-1",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2019-winter",
+    "typ": "rechnen",
+    "text": "Ermitteln Sie den Bezugspreis in Euro, zu dem 150 LED-Bürodeckenleuchten beim Lieferanten bezogen werden können! Konditionen: Listeneinkaufspreis 279,00 € pro Stück (150 Stück = 41.850,00 €), 20 % Rabatt, 2 % Skonto, Fracht 300,00 €, bei Abnahme von 100 Stück Lieferung frei Haus.",
+    "punkte": 4,
+    "loesung": "Listeneinkaufspreis 41.850,00 € − 20 % Liefererrabatt 8.370,00 € = Zieleinkaufspreis 33.480,00 € − 2 % Lieferskonto 669,60 € = Bareinkaufspreis 32.810,40 € + Bezugskosten 0,00 € = Bezugspreis 32.810,40 €.",
+    "erklaerung": "Rabatt und Skonto werden nacheinander vom Listeneinkaufspreis abgezogen. Da bei Abnahme von mindestens 100 Stück frei Haus geliefert wird, entfallen die Frachtkosten (Bezugskosten 0,00 €)."
+  },
+  {
+    "id": "kbz-2019w-a3-1-2",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2019-winter",
+    "typ": "rechnen",
+    "text": "Ermitteln Sie unter Angabe des Rechenweges den Listenverkaufspreis pro Stück bei einem Kalkulationszuschlagssatz von 79 %!",
+    "punkte": 3,
+    "loesung": "Bezugspreis pro Stück: 32.810,40 € : 150 = 218,74 €. Listenverkaufspreis: 218,74 € × 1,79 = 391,54 € (bzw. 218,74 € + 218,74 € × 0,79 = 391,54 €).",
+    "erklaerung": "Der Bezugspreis pro Stück wird um den Kalkulationszuschlag von 79 % erhöht. Multiplikation mit dem Faktor 1,79 ergibt den Listenverkaufspreis von 391,54 €."
+  },
+  {
+    "id": "kbz-2019w-a3-1-3",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2019-winter",
+    "typ": "offen",
+    "text": "Der Kunde (Innovation AG) hat 2017 15 Leuchten zu einem Nettopreis von 410,00 €/Stück gekauft und möchte 20 Stück zum gleichen Nettopreis pro Stück bestellen. Entscheiden Sie, ob Sie ihm den angefragten Preis zusichern können, und begründen Sie dies rechnerisch!",
+    "punkte": 2,
+    "loesung": "Der Preis kann zugesichert werden. Es entsteht ein zusätzlicher Gewinn von 410,00 € − 391,54 € = 18,46 € pro Leuchte.",
+    "erklaerung": "Da der angefragte Verkaufspreis (410,00 €) über dem kalkulierten Listenverkaufspreis (391,54 €) liegt, bleibt pro Stück ein zusätzlicher Gewinn von 18,46 €; der Preis kann problemlos zugesichert werden."
+  },
+  {
+    "id": "kbz-2019w-a3-2",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2019-winter",
+    "typ": "offen",
+    "text": "Nach der Lieferung der LED-Bürodeckenleuchten durch die Lenz KG erhalten Sie den Beleg Nr. 3 (Eingangsrechnung) zur Bearbeitung. Kontieren Sie diesen Beleg!",
+    "anlagenText": "Beleg 3: Eingangsrechnung der Lenz KG (Lieferant, Kontonr. 4402), 150 LED-Deckenleuchten, Netto 33.480,00 €, 19 % USt 6.361,20 €, Rechnungsbetrag 39.841,20 €. Kontenplan: 6080 Aufwendungen für Handelswaren, 2600 Vorsteuer (19 %), 4402 Lenz KG.",
+    "punkte": 2,
+    "loesung": "6080 Aufwendungen für Handelswaren 33.480,00 € und 2600 Vorsteuer 6.361,20 € an 4402 Lenz KG 39.841,20 €.",
+    "erklaerung": "Der Wareneinkauf wird netto im Aufwand (6080) gebucht, die Vorsteuer (2600) getrennt; die Gegenbuchung erfolgt als Verbindlichkeit gegenüber dem Lieferanten Lenz KG (4402). Die Kennziffern [6080;2600] sind untereinander austauschbar."
+  },
+  {
+    "id": "kbz-2019w-a3-3-1",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2019-winter",
+    "typ": "rechnen",
+    "text": "Ermitteln Sie den Überweisungsbetrag in Euro unter der Annahme, dass die Rechnung (Beleg 3, Rechnungsbetrag 39.841,20 €) innerhalb der Skontofrist überwiesen werden soll! Skonto 2 %.",
+    "punkte": 2,
+    "loesung": "39.841,20 € : 100 × 98 = 39.044,38 €.",
+    "erklaerung": "Bei Zahlung innerhalb der Skontofrist dürfen 2 % Skonto vom Bruttorechnungsbetrag abgezogen werden; es sind 98 % zu überweisen."
+  },
+  {
+    "id": "kbz-2019w-a3-3-2",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2019-winter",
+    "typ": "rechnen",
+    "text": "Das Kontokorrentkonto der Jana Loft KG ist mit 2.500,00 € im Minus, der Überziehungszinssatz beträgt 8,5 %. Berechnen Sie den Vorteil/Nachteil in Euro, wenn Sie Skonto in Anspruch nehmen! Erläutern Sie, ob Sie die Rechnung unter Abzug von Skonto überweisen! (Zinsmethode 30/60)",
+    "punkte": 4,
+    "loesung": "Kosten des Bankkredits = 39.044,38 € × 8,5 × 22 : (100 × 360) = 202,81 € (2 P.). Skontoeinsparung (brutto) 796,82 € − Kosten des Bankkredits 202,81 € = Ersparnis 594,01 € (bzw. netto 669,60 € − 202,81 € = 466,79 €). Da eine Ersparnis entsteht, ist es vorteilhaft, die Rechnung unter Abzug von Skonto zu überweisen, obwohl das Kontokorrentkonto dadurch stärker überzogen wird (2 P.).",
+    "erklaerung": "Die durch Skonto eingesparten 2 % übersteigen die für die Restlaufzeit (22 Tage) anfallenden Überziehungszinsen deutlich. Die Skontoausnutzung ist daher wirtschaftlich vorteilhaft."
+  },
+  {
+    "id": "kbz-2019w-a3-4",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2019-winter",
+    "typ": "offen",
+    "text": "Bei der Wareneingangskontrolle werden Kratzer an 20 Leuchten festgestellt. Nach Reklamation und Rücksendung erhalten Sie vom Lieferanten die Gutschrift (Beleg Nr. 4). Kontieren Sie den Beleg Nr. 4!",
+    "anlagenText": "Beleg 4: Gutschrift der Lenz KG (4402) für die Rücksendung von 20 Leuchten, netto 4.464,00 €, 19 % USt 848,16 €, brutto 5.312,16 €. Konten: 4402 Lenz KG, 6080 Aufwendungen für Handelswaren, 2600 Vorsteuer.",
+    "punkte": 2,
+    "loesung": "4402 Lenz KG 5.312,16 € an 6080 Aufwendungen für Handelswaren 4.464,00 € und 2600 Vorsteuer 848,16 €.",
+    "erklaerung": "Die Rücksendung mindert die Verbindlichkeit gegenüber dem Lieferanten (Soll 4402) sowie den Wareneinkaufsaufwand (6080) und die Vorsteuer (2600). Die Kennziffern [6080;2600] sind untereinander austauschbar."
+  },
+  {
+    "id": "kbz-2019w-a3-5",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2019-winter",
+    "typ": "offen",
+    "text": "Erläutern Sie, wie sich die Buchung der Gutschrift wegen der Rücksendung der LED-Deckenleuchten auf den Erfolg der Jana Loft KG auswirkt!",
+    "punkte": 2,
+    "loesung": "Der Aufwand für Handelswaren sinkt und damit steigt der Erfolg der Jana Loft KG (bzw. der Verlust sinkt/der Gewinn steigt).",
+    "erklaerung": "Durch die Rücksendung wird der Warenaufwand (6080) gemindert. Sinkende Aufwendungen erhöhen bei gleichbleibenden Erträgen den Gewinn."
+  },
+  {
+    "id": "kbz-2019w-a3-6",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2019-winter",
+    "typ": "offen",
+    "text": "Sie entscheiden sich für eine Überweisung der Rechnung Nr. 791/2019 (Beleg 3) unter Abzug von Skonto. Kontieren Sie diesen Zahlungsausgleich!",
+    "anlagenText": "Konten: 4402 Lenz KG, 6082 Nachlässe (Unterkonto zu 6080 Aufwendungen für Handelswaren), 2800 Hamburger Sparkasse, 2600 Vorsteuer.",
+    "punkte": 2,
+    "loesung": "4402 Lenz KG an 6082 Nachlässe, 2800 Hamburger Sparkasse und 2600 Vorsteuer.",
+    "erklaerung": "Die Verbindlichkeit (4402) wird ausgeglichen; der Skontoabzug mindert den Warenaufwand über das Unterkonto Nachlässe (6082) und die Vorsteuer (2600), der Restbetrag fließt vom Bankkonto (2800) ab. Die Kennziffern [6082;2800;2600] sind untereinander austauschbar."
+  },
+  {
+    "id": "kbz-2019w-a3-7-1",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2019-winter",
+    "typ": "rechnen",
+    "text": "Es soll über die Annahme eines Auftrags von 9.000 Regalbrettern entschieden werden. Vorgesehener Verkaufspreis je Regalbrett (netto) 16,50 €; fixe Kosten (produktbezogen) 7.500,00 €; variable Stückkosten 15,60 €. Ermitteln Sie den Deckungsbeitrag in Euro für ein Regalbrett! Geben Sie den Rechenweg an!",
+    "punkte": 2,
+    "loesung": "16,50 € − 15,60 € = 0,90 €.",
+    "erklaerung": "Der Stückdeckungsbeitrag ist die Differenz aus Verkaufspreis und variablen Stückkosten."
+  },
+  {
+    "id": "kbz-2019w-a3-7-2",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2019-winter",
+    "typ": "rechnen",
+    "text": "Ermitteln Sie den Deckungsbeitrag in Euro für den gesamten Auftrag (9.000 Regalbretter)! Geben Sie den Rechenweg an!",
+    "punkte": 2,
+    "loesung": "9.000 × 0,90 € = 8.100,00 €.",
+    "erklaerung": "Der Gesamtdeckungsbeitrag ergibt sich aus dem Stückdeckungsbeitrag multipliziert mit der Auftragsmenge."
+  },
+  {
+    "id": "kbz-2019w-a3-7-3",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2019-winter",
+    "typ": "offen",
+    "text": "Entscheiden Sie, ob der Auftrag angenommen werden soll! Begründen Sie Ihre Entscheidung!",
+    "punkte": 3,
+    "loesung": "Der Auftrag sollte angenommen werden, weil die (fixen) Kosten gedeckt sind (bzw. weil der Deckungsbeitrag positiv ist).",
+    "erklaerung": "Der Gesamtdeckungsbeitrag von 8.100,00 € übersteigt die fixen Kosten von 7.500,00 €; der Auftrag deckt seine Kosten und erwirtschaftet darüber hinaus einen Gewinn."
+  },
+  {
+    "id": "kbz-2019w-a3-7-4",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2019-winter",
+    "typ": "rechnen",
+    "text": "Berechnen Sie, ab welcher Produktionsmenge in Stück die Kosten des Auftrages gedeckt sind!",
+    "punkte": 2,
+    "loesung": "7.500,00 € : 0,90 € = 8.333,33 → ab 8.334 Stück.",
+    "erklaerung": "Die Gewinnschwelle ergibt sich aus den fixen Kosten geteilt durch den Stückdeckungsbeitrag. Da nur ganze Stücke möglich sind, sind die Kosten ab 8.334 Stück gedeckt."
+  },
+  {
+    "id": "kbz-2019w-a3-8",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2019-winter",
+    "typ": "offen",
+    "text": "Zur Erweiterung des Fuhrparks werden 3 Lkw angeschafft. Kontieren Sie den Beleg Nr. 5 (Eingangsrechnung)!",
+    "anlagenText": "Beleg 5: Rechnung eines Nutzfahrzeug-Lieferanten (Sonstiger Lieferant, Kontonr. 4499) über 3 Lkw, Warenwert netto 164.806,50 €, 19 % USt 31.313,24 €, Lkw-Zulassungsgebühren 193,50 €, Rechnungsbetrag 196.313,24 €. Konten: 0840 Fuhrpark, 2600 Vorsteuer, 4499 Sonstige Lieferanten und Dienstleister.",
+    "punkte": 2,
+    "loesung": "0840 Fuhrpark und 2600 Vorsteuer an 4499 Sonstige Lieferanten und Dienstleister.",
+    "erklaerung": "Die Lkw sind Anlagevermögen und werden inkl. der aktivierungspflichtigen Zulassungsgebühren auf dem Konto Fuhrpark (0840) gebucht; die Vorsteuer (2600) getrennt, Gegenkonto ist der Lieferant (4499). Die Kennziffern [0840;2600] sind untereinander austauschbar."
+  },
+  {
+    "id": "kbz-2019w-a3-9",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2019-winter",
+    "typ": "rechnen",
+    "text": "Berechnen Sie die Anschaffungskosten für einen Lkw! Geben Sie den Rechenweg an! (Warenwert netto 3 Lkw 164.806,50 €; Lkw-Zulassungsgebühren 193,50 €.)",
+    "punkte": 2,
+    "loesung": "(164.806,50 € + 193,50 €) : 3 = 55.000,00 €.",
+    "erklaerung": "Zu den Anschaffungskosten zählen der Kaufpreis netto und die Anschaffungsnebenkosten (Zulassungsgebühren). Der Gesamtbetrag wird durch die Anzahl der Lkw geteilt."
+  },
+  {
+    "id": "kbz-2019w-a3-10",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2019-winter",
+    "typ": "rechnen",
+    "text": "Berechnen Sie den Abschreibungsbetrag eines Lkw für das Jahr 2019 bei linearer Abschreibung! Der Rechenweg muss nachvollziehbar sein. (Anschaffungskosten 55.000,00 €; Nutzungsdauer laut AfA-Tabelle 9 Jahre; Lieferung am 21.11.2019.)",
+    "punkte": 3,
+    "loesung": "55.000,00 € : 9 = 6.111,11 € Jahres-AfA (1 P.). Zeitanteilig für 2019: 6.111,11 € × 2 : 12 = 1.018,52 € (2 P.).",
+    "erklaerung": "Die lineare Jahres-AfA ist Anschaffungskosten geteilt durch Nutzungsdauer. Bei Anschaffung im November wird pro rata temporis für 2 Monate (November und Dezember) abgeschrieben."
+  },
+  {
+    "id": "kbz-2019w-a3-11",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2019-winter",
+    "typ": "offen",
+    "text": "Kontieren Sie die Abschreibung der 3 Lkw zum Ende des Jahres 2019!",
+    "anlagenText": "Konten: 6520 Abschreibungen auf Sachanlagen, 0840 Fuhrpark.",
+    "punkte": 2,
+    "loesung": "6520 Abschreibungen auf Sachanlagen an 0840 Fuhrpark.",
+    "erklaerung": "Der Abschreibungsaufwand wird im Soll auf dem Konto Abschreibungen auf Sachanlagen (6520) und im Haben auf dem Anlagenkonto Fuhrpark (0840) gebucht, das dadurch abgeschrieben wird."
+  },
+  {
+    "id": "kbz-2019w-a3-12",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2019-winter",
+    "typ": "rechnen",
+    "text": "In der Kosten- und Leistungsrechnung werden kalkulatorische Abschreibungen berücksichtigt. Ermitteln Sie den gesamten kalkulatorischen Abschreibungsbetrag pro Jahr für die 3 Lkw! (Wiederbeschaffungswert je Lkw 70.000,00 €; betriebliche Nutzungsdauer 12 Jahre.)",
+    "punkte": 3,
+    "loesung": "3 × 70.000,00 € = 210.000,00 €; 210.000,00 € : 12 = 17.500,00 €.",
+    "erklaerung": "Die kalkulatorische Abschreibung geht vom Wiederbeschaffungswert und der betrieblichen (nicht steuerlichen) Nutzungsdauer aus. Der Gesamtwiederbeschaffungswert der 3 Lkw wird durch 12 Jahre geteilt."
+  },
+  {
+    "id": "kbz-2019w-a3-13",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2019-winter",
+    "typ": "offen",
+    "text": "Bei der Ermittlung des Betriebsergebnisses unterscheidet man Grundkosten, Anderskosten und Zusatzkosten. Ordnen Sie die 3 Beispiele zu: 1. Kalkulatorische Abschreibungen, 2. Unternehmerlohn, 3. Fertigungslöhne. (Reihenfolge: Grundkosten, Anderskosten, Zusatzkosten)",
+    "punkte": 2,
+    "loesung": "Grundkosten: 3 (Fertigungslöhne); Anderskosten: 1 (Kalkulatorische Abschreibungen); Zusatzkosten: 2 (Unternehmerlohn).",
+    "erklaerung": "Grundkosten entsprechen dem Aufwand (Fertigungslöhne). Anderskosten stehen einem Aufwand in anderer Höhe gegenüber (kalkulatorische statt bilanzielle Abschreibung). Zusatzkosten haben keinen Aufwand als Gegenstück (kalkulatorischer Unternehmerlohn)."
+  },
+  {
+    "id": "kbz-2019w-a3-14",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2019-winter",
+    "typ": "offen",
+    "text": "Kontieren Sie die Position 1 des Kontoauszugs: SEPA-Lastschrift „LKW Versicherung“ über 1.140,43 € (Belastung).",
+    "anlagenText": "Kontoauszug Hamburger Sparkasse, Position 1: SEPA-Mandat LKW-Versicherung, Belastung 1.140,43 €. Konten: 6900 Versicherungsbeiträge, 2800 Hamburger Sparkasse.",
+    "punkte": 2,
+    "loesung": "6900 Versicherungsbeiträge an 2800 Hamburger Sparkasse.",
+    "erklaerung": "Die Lkw-Versicherung ist ein Versicherungsaufwand (6900); die Zahlung erfolgt über das Bankkonto (2800)."
+  },
+  {
+    "id": "kbz-2019w-a3-15",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2019-winter",
+    "typ": "offen",
+    "text": "Kontieren Sie die Position 2 des Kontoauszugs: SEPA-Lastschrift „LKW Steuer“ über 1.524,00 € (Belastung).",
+    "anlagenText": "Kontoauszug Hamburger Sparkasse, Position 2: SEPA-Mandat LKW-Steuer, Belastung 1.524,00 €. Konten: 7030 Kraftfahrzeugsteuer, 2800 Hamburger Sparkasse.",
+    "punkte": 2,
+    "loesung": "7030 Kraftfahrzeugsteuer an 2800 Hamburger Sparkasse.",
+    "erklaerung": "Die Kfz-Steuer für die Lkw wird auf dem Aufwandskonto Kraftfahrzeugsteuer (7030) gebucht; die Zahlung erfolgt über das Bankkonto (2800)."
   }
 ]
