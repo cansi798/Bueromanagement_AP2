@@ -1,0 +1,219 @@
+[
+  {
+    "id": "bufu-karte-1",
+    "themaId": "buchungssaetze-kontierung",
+    "bereich": "buchfuehrung",
+    "vorderseite": "Nach welchem Grundsatz wird ein Buchungssatz gebildet?",
+    "rueckseite": "Soll an Haben: zuerst das Sollkonto nennen, dann mit 'an' das Habenkonto. Summe Soll = Summe Haben."
+  },
+  {
+    "id": "bufu-karte-2",
+    "themaId": "buchungssaetze-kontierung",
+    "bereich": "buchfuehrung",
+    "vorderseite": "Buchungssatz: Zielkauf Ware 1.000 € netto + 19 % Vorsteuer?",
+    "rueckseite": "Wareneingang/Aufwand 1.000 € und Vorsteuer 190 € an Verbindlichkeiten aus Lieferungen und Leistungen 1.190 €."
+  },
+  {
+    "id": "bufu-karte-3",
+    "themaId": "buchungssaetze-kontierung",
+    "bereich": "buchfuehrung",
+    "vorderseite": "Buchungssatz: Zielverkauf Ware 1.000 € netto + 19 % USt?",
+    "rueckseite": "Forderungen 1.190 € an Umsatzerlöse 1.000 € und Umsatzsteuer 190 €."
+  },
+  {
+    "id": "bufu-karte-4",
+    "themaId": "buchungssaetze-kontierung",
+    "bereich": "buchfuehrung",
+    "vorderseite": "Buchungssatz: Kunde begleicht offene Rechnung per Banküberweisung?",
+    "rueckseite": "Bank an Forderungen aus Lieferungen und Leistungen (Bruttobetrag)."
+  },
+  {
+    "id": "bufu-karte-5",
+    "themaId": "buchungssaetze-kontierung",
+    "bereich": "buchfuehrung",
+    "vorderseite": "Wie bucht man eine Kundengutschrift wegen Rücksendung (Erlösberichtigung)?",
+    "rueckseite": "Umsatzerlöse und Umsatzsteuer an Forderungen – die Umkehrung des ursprünglichen Verkaufs."
+  },
+  {
+    "id": "bufu-karte-6",
+    "themaId": "buchungssaetze-kontierung",
+    "bereich": "buchfuehrung",
+    "vorderseite": "Ist die Vorsteuer ein Aktiv- oder Passivkonto?",
+    "rueckseite": "Aktivkonto – Forderung an das Finanzamt. Zugang im Soll. Die Umsatzsteuer dagegen ist passiv (Verbindlichkeit)."
+  },
+  {
+    "id": "bufu-karte-7",
+    "themaId": "umsatzsteuer",
+    "bereich": "buchfuehrung",
+    "vorderseite": "Formel für die Umsatzsteuerzahllast?",
+    "rueckseite": "Zahllast = Umsatzsteuer − Vorsteuer. Positiver Wert = Zahllast ans Finanzamt."
+  },
+  {
+    "id": "bufu-karte-8",
+    "themaId": "umsatzsteuer",
+    "bereich": "buchfuehrung",
+    "vorderseite": "Was ist ein Vorsteuerüberhang?",
+    "rueckseite": "Vorsteuer > Umsatzsteuer: Das Finanzamt erstattet den überschüssigen Betrag."
+  },
+  {
+    "id": "bufu-karte-9",
+    "themaId": "umsatzsteuer",
+    "bereich": "buchfuehrung",
+    "vorderseite": "Wie viel Vorsteuer entsteht aus 60.000 € Nettoaufwand bei 19 %?",
+    "rueckseite": "60.000 € × 19 % = 11.400 € Vorsteuer."
+  },
+  {
+    "id": "bufu-karte-10",
+    "themaId": "umsatzsteuer",
+    "bereich": "buchfuehrung",
+    "vorderseite": "Wie wirken Erlösberichtigungen und Nachlässe auf die Steuer?",
+    "rueckseite": "Erlösberichtigungen mindern die Umsatzsteuer, Nachlässe mindern die Vorsteuer."
+  },
+  {
+    "id": "bufu-karte-11",
+    "themaId": "umsatzsteuer",
+    "bereich": "buchfuehrung",
+    "vorderseite": "Auf welchen Konten stehen USt und Vorsteuer (SKR)?",
+    "rueckseite": "Umsatzsteuer 4800 (passiv), Vorsteuer 2600 (aktiv)."
+  },
+  {
+    "id": "bufu-karte-12",
+    "themaId": "deckungsbeitrag-breakeven",
+    "bereich": "buchfuehrung",
+    "vorderseite": "Formel Deckungsbeitrag je Stück?",
+    "rueckseite": "db = Verkaufserlös je Stück − variable Kosten je Stück."
+  },
+  {
+    "id": "bufu-karte-13",
+    "themaId": "deckungsbeitrag-breakeven",
+    "bereich": "buchfuehrung",
+    "vorderseite": "Formel Break-even-Point in Stück?",
+    "rueckseite": "Break-even = Fixkosten ÷ Deckungsbeitrag je Stück."
+  },
+  {
+    "id": "bufu-karte-14",
+    "themaId": "deckungsbeitrag-breakeven",
+    "bereich": "buchfuehrung",
+    "vorderseite": "Formel Gewinn in der Deckungsbeitragsrechnung?",
+    "rueckseite": "Gewinn = Menge × Deckungsbeitrag je Stück − Fixkosten."
+  },
+  {
+    "id": "bufu-karte-15",
+    "themaId": "deckungsbeitrag-breakeven",
+    "bereich": "buchfuehrung",
+    "vorderseite": "Break-even bei db 34 €/Stück und Fixkosten 125.800 €?",
+    "rueckseite": "125.800 ÷ 34 = 3.700 Stück."
+  },
+  {
+    "id": "bufu-karte-16",
+    "themaId": "deckungsbeitrag-breakeven",
+    "bereich": "buchfuehrung",
+    "vorderseite": "Was liegt unter- und oberhalb der Gewinnschwelle?",
+    "rueckseite": "Unterhalb: Verlustzone. Oberhalb: Gewinnzone. Am Punkt selbst: weder Gewinn noch Verlust."
+  },
+  {
+    "id": "bufu-karte-17",
+    "themaId": "stueckkosten-kostenrechnung",
+    "bereich": "buchfuehrung",
+    "vorderseite": "Formel für die Stückkosten?",
+    "rueckseite": "Stückkosten = (Fixkosten + variable Gesamtkosten) ÷ Produktionsmenge."
+  },
+  {
+    "id": "bufu-karte-18",
+    "themaId": "stueckkosten-kostenrechnung",
+    "bereich": "buchfuehrung",
+    "vorderseite": "Was ist die Fixkostenregression?",
+    "rueckseite": "Mit steigender Menge verteilen sich die konstanten Fixkosten auf mehr Stück, der Fixkostenanteil je Stück sinkt – die Stückkosten sinken."
+  },
+  {
+    "id": "bufu-karte-19",
+    "themaId": "stueckkosten-kostenrechnung",
+    "bereich": "buchfuehrung",
+    "vorderseite": "Stückkosten bei Fix 125.800 €, 65 €/Stück variabel, 10.000 Stück?",
+    "rueckseite": "(125.800 + 650.000) ÷ 10.000 = 775.800 ÷ 10.000 = 77,58 €/Stück."
+  },
+  {
+    "id": "bufu-karte-20",
+    "themaId": "stueckkosten-kostenrechnung",
+    "bereich": "buchfuehrung",
+    "vorderseite": "Was passiert mit den variablen Kosten je Stück bei steigender Menge?",
+    "rueckseite": "Sie bleiben je Stück konstant; nur in der Summe steigen sie proportional zur Menge."
+  },
+  {
+    "id": "bufu-karte-21",
+    "themaId": "stueckkosten-kostenrechnung",
+    "bereich": "buchfuehrung",
+    "vorderseite": "Warum ist eine hohe Kapazitätsauslastung je Stück günstiger?",
+    "rueckseite": "Weil sich die Fixkosten auf mehr Stück verteilen und die Stückkosten dadurch sinken (Fixkostenregression)."
+  },
+  {
+    "id": "bufu-karte-22",
+    "themaId": "zuschlagskalkulation",
+    "bereich": "buchfuehrung",
+    "vorderseite": "Kalkulationsschema bis zu den Herstellkosten?",
+    "rueckseite": "FM + MGK (auf FM) + FL + FGK (auf FL) = Herstellkosten."
+  },
+  {
+    "id": "bufu-karte-23",
+    "themaId": "zuschlagskalkulation",
+    "bereich": "buchfuehrung",
+    "vorderseite": "Wie kommt man von den Herstellkosten zu den Selbstkosten?",
+    "rueckseite": "Herstellkosten + Verwaltungsgemeinkosten (% von HK) + Vertriebsgemeinkosten (% von HK) = Selbstkosten."
+  },
+  {
+    "id": "bufu-karte-24",
+    "themaId": "zuschlagskalkulation",
+    "bereich": "buchfuehrung",
+    "vorderseite": "Auf welche Basis bezieht sich der MGK- und der FGK-Zuschlag?",
+    "rueckseite": "Materialgemeinkosten % vom Fertigungsmaterial, Fertigungsgemeinkosten % von den Fertigungslöhnen."
+  },
+  {
+    "id": "bufu-karte-25",
+    "themaId": "zuschlagskalkulation",
+    "bereich": "buchfuehrung",
+    "vorderseite": "Herstellkosten bei FM 210 €, MGK 62 %, FL 135,50 €, FGK 122,5 %?",
+    "rueckseite": "210 + 130,20 + 135,50 + 165,99 = 641,69 €."
+  },
+  {
+    "id": "bufu-karte-26",
+    "themaId": "zuschlagskalkulation",
+    "bereich": "buchfuehrung",
+    "vorderseite": "Worauf werden Verwaltungs- und Vertriebsgemeinkosten berechnet?",
+    "rueckseite": "Immer auf die Herstellkosten – nicht auf das Material oder die Löhne."
+  },
+  {
+    "id": "bufu-karte-27",
+    "themaId": "normalkosten-kostenabweichung",
+    "bereich": "buchfuehrung",
+    "vorderseite": "Was sind Normalkosten?",
+    "rueckseite": "Die durchschnittlichen Istkosten vergangener Perioden (geglätteter Vergleichsmaßstab)."
+  },
+  {
+    "id": "bufu-karte-28",
+    "themaId": "normalkosten-kostenabweichung",
+    "bereich": "buchfuehrung",
+    "vorderseite": "Wann Kostenüber-, wann Kostenunterdeckung?",
+    "rueckseite": "Normalkosten > Istkosten = Überdeckung. Istkosten > Normalkosten = Unterdeckung."
+  },
+  {
+    "id": "bufu-karte-29",
+    "themaId": "normalkosten-kostenabweichung",
+    "bereich": "buchfuehrung",
+    "vorderseite": "Kostenabweichung bei Ist 810 € und Normal 771,95 €?",
+    "rueckseite": "810 − 771,95 = 38,05 € Kostenunterdeckung (Ist > Normal)."
+  },
+  {
+    "id": "bufu-karte-30",
+    "themaId": "normalkosten-kostenabweichung",
+    "bereich": "buchfuehrung",
+    "vorderseite": "Definition von 'Kosten'?",
+    "rueckseite": "Wert aller zur Erreichung des Betriebszwecks verbrauchten Güter und Dienstleistungen pro Periode."
+  },
+  {
+    "id": "bufu-karte-31",
+    "themaId": "normalkosten-kostenabweichung",
+    "bereich": "buchfuehrung",
+    "vorderseite": "Warum können Istkosten über den Normalkosten liegen?",
+    "rueckseite": "Z. B. wegen Lohnerhöhungen oder gestiegener Materialpreise."
+  }
+]

@@ -1,0 +1,1875 @@
+[
+  {
+    "id": "wiso-2025s-a1",
+    "themaId": "produktionsfaktoren-unternehmensziele",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "mc",
+    "text": "Die Jana Loft KG plant, Aufgaben des Einkaufs an eine kostengünstigere Fremdfirma zu vergeben. Geben Sie an, welche Aufgabe dafür infrage käme!",
+    "optionen": [
+      "Die bisherige Produktion von Rollcontainern wird an eine Fremdfirma abgegeben.",
+      "Die Lagerung der hergestellten Büro- und Konferenzstühle wird von einem Fremdlager übernommen.",
+      "Die Marktforschung wird ausgelagert.",
+      "Die Personalsuche wird einem Personaldienstleister übertragen.",
+      "Die Qualitätskontrolle der benötigten Leder- und Textilstoffe wird an ein unabhängiges Labor ausgelagert."
+    ],
+    "korrekt": [
+      4
+    ],
+    "loesung": "Richtig ist Option 5: Die Qualitätskontrolle der benötigten Leder- und Textilstoffe wird an ein unabhängiges Labor ausgelagert.",
+    "erklaerung": "Beim Outsourcing werden unterstützende Aufgaben an eine kostengünstigere Fremdfirma vergeben. Die Qualitätskontrolle von Vorprodukten lässt sich sinnvoll an ein spezialisiertes, unabhängiges Labor auslagern."
+  },
+  {
+    "id": "wiso-2025s-a2",
+    "themaId": "produktionsfaktoren-unternehmensziele",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "mc",
+    "text": "Für weitere Kostensenkungsmaßnahmen werden die betrieblichen Produktionsfaktoren analysiert. Ordnen Sie zu (Produktionsfaktoren: 1 Werkstoffe, 2 Betriebsmittel, 3 Ausführende Arbeit, 4 Dispositiver Faktor). Wählen Sie für jede Maßnahme den passenden Produktionsfaktor:\n\n**a) Ein Teil des Betriebsgrundstücks wird verkauft.**\n**b) Das Öl für die Produktionsanlage wird günstiger bezogen.**\n**c) Einem Prokuristen wird gekündigt.**",
+    "optionen": [
+      "a) Betriebsmittel, b) Werkstoffe, c) Dispositiver Faktor",
+      "a) Werkstoffe, b) Betriebsmittel, c) Ausführende Arbeit",
+      "a) Dispositiver Faktor, b) Werkstoffe, c) Betriebsmittel",
+      "a) Betriebsmittel, b) Ausführende Arbeit, c) Dispositiver Faktor"
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Richtig ist Option 1: a) Betriebsmittel (2), b) Werkstoffe (1), c) Dispositiver Faktor (4).",
+    "erklaerung": "Das Betriebsgrundstück ist ein Betriebsmittel, das Öl als Betriebsstoff ein Werkstoff, der Prokurist gehört zum dispositiven (leitenden) Faktor."
+  },
+  {
+    "id": "wiso-2025s-a3",
+    "themaId": "produktionsfaktoren-unternehmensziele",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "mc",
+    "text": "Durch die geplanten Maßnahmen zur Kostensenkung kann es zu Zielkonflikten zwischen ökonomischen, ökologischen und sozialen Unternehmenszielen kommen. Stellen Sie fest, in welchem Fall bei den Unternehmenszielen der Jana Loft KG ein Zielkonflikt vorliegt!",
+    "optionen": [
+      "Die Kosten im Produktionsbereich sollen reduziert und daher neue günstigere Lieferanten gesucht werden.",
+      "Die Formatkreissägen zur Produktion von Einlegeböden sollen mechanisch so verbessert werden, dass weniger Maschinenöl benötigt wird.",
+      "Die Vereinbarkeit von Familie und Berufstätigkeit soll gestärkt werden und der Betriebskindergarten aus Kostengründen geschlossen werden.",
+      "Verpackungsmaterial soll reduziert und somit das Unternehmensimage verbessert werden.",
+      "Durch die Verwendung neuer, ergonomischer Büromöbel in der Verwaltung sollen dort die Krankheitstage vermindert werden."
+    ],
+    "korrekt": [
+      2
+    ],
+    "loesung": "Richtig ist Option 3: Vereinbarkeit von Familie und Beruf stärken und zugleich den Betriebskindergarten aus Kostengründen schließen.",
+    "erklaerung": "Hier steht das ökonomische Ziel (Kosten senken) im Konflikt mit dem sozialen Ziel (Vereinbarkeit von Familie und Beruf). Die anderen Optionen unterstützen sich gegenseitig oder sind neutral."
+  },
+  {
+    "id": "wiso-2025s-a4",
+    "themaId": "produktionsfaktoren-unternehmensziele",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "mc",
+    "text": "In der Jana Loft KG soll die Wirtschaftlichkeit erhöht werden. Stellen Sie fest, in welchem Fall eine Verbesserung vorliegt!",
+    "optionen": [
+      "Die Jana Loft KG beauftragt ein Beratungsunternehmen, das die anfallenden Kosten des Unternehmens analysieren soll.",
+      "Durch den Wechsel des Stromanbieters zu einem Anbieter mit erneuerbaren Energien wird die Ökobilanz der Jana Loft KG verbessert.",
+      "Durch die Umstellung der Produktion auf nachhaltige Rohstoffe entsteht kein Verlust, das Unternehmensergebnis der Jana Loft KG bleibt unverändert.",
+      "Die Jana Loft KG einigt sich mit dem Betriebsrat auf die Schaffung von mehr Teilzeitstellen in der Verwaltung.",
+      "Der Ertrag durch die neue Werbung für Büromöbel der Jana Loft KG liegt über dem Aufwand für die Werbeaktion."
+    ],
+    "korrekt": [
+      4
+    ],
+    "loesung": "Richtig ist Option 5: Der Ertrag der Werbung liegt über dem Aufwand.",
+    "erklaerung": "Wirtschaftlichkeit = Ertrag / Aufwand. Liegt der Ertrag über dem Aufwand, ist der Quotient größer als 1 (z. B. 100.000 € / 80.000 € = 1,25), also wirtschaftlich."
+  },
+  {
+    "id": "wiso-2025s-a5",
+    "themaId": "rechtsformen-vollmachten",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "mc",
+    "text": "Zur Reduzierung finanzieller Risiken plant die Jana Loft KG, die Verkaufsabteilung auszulagern. Jana Loft und Anna Voss möchten ein Tochterunternehmen in der Rechtsform einer GmbH gründen. Prüfen Sie, was bei der Gründung einer GmbH zu beachten ist!",
+    "optionen": [
+      "Zur Gründung einer GmbH müssen sich mindestens 2 Personen mit den gleichen geschäftlichen Interessen zusammenschließen.",
+      "Die GmbH muss als juristische Person im Handelsregister eingetragen werden.",
+      "Die persönliche Mitarbeit von Anna Voss in der Geschäftsführung ist verpflichtend.",
+      "Die GmbH kann nur durch das Einbringen von Sacheinlagen gegründet werden.",
+      "Das Stammkapital in Höhe von 50.000,00 € muss bei Gründung vollständig eingezahlt werden."
+    ],
+    "korrekt": [
+      1
+    ],
+    "loesung": "Richtig ist Option 2: Die GmbH muss als juristische Person im Handelsregister eingetragen werden.",
+    "erklaerung": "Eine GmbH ist eine juristische Person und entsteht erst mit Eintragung ins Handelsregister. Eine GmbH kann auch von einer Person gegründet werden, die Mitarbeit ist nicht Pflicht, das Stammkapital beträgt 25.000 € (bei Gründung mind. 12.500 €)."
+  },
+  {
+    "id": "wiso-2025s-a6",
+    "themaId": "rechtsformen-vollmachten",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "rechnen",
+    "text": "Im ersten Geschäftsjahr des Tochterunternehmens wurde ein Gewinn in Höhe von 300.000,00 € erwirtschaftet. Der Gewinn wird im Verhältnis der Kapitaleinlage verteilt (Jana Loft 90.000,00 €, Anna Voss 30.000,00 €). Berechnen Sie, welcher Gewinnanteil in € auf Anna Voss entfällt!",
+    "punkte": 4,
+    "loesung": "Gesamtkapital = 90.000 € + 30.000 € = 120.000 €. Anteil Anna Voss = 30.000 € / 120.000 € × 300.000 € = **75.000,00 €**.",
+    "erklaerung": "Bei Verteilung nach Kapitaleinlage wird der Gewinn im Verhältnis der Einlagen aufgeteilt: 30.000/120.000 = 25 %, davon 300.000 € = 75.000 €."
+  },
+  {
+    "id": "wiso-2025s-a7",
+    "themaId": "rechtsformen-vollmachten",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "mc",
+    "text": "Frau Ohlsen erteilt der Teamleiterin, Frau Sarah Wegner, als Prokuristin allgemeine Handlungsvollmacht. Prüfen Sie, welches der folgenden Rechtsgeschäfte Frau Wegner künftig für die Jana Loft KG ausführen darf!",
+    "optionen": [
+      "Sie darf Gerichtsprozesse führen.",
+      "Sie darf ein Grundstück verkaufen.",
+      "Sie darf allgemeine Handlungsvollmacht erteilen.",
+      "Sie darf neue Mitarbeiter/-innen einstellen.",
+      "Sie darf Bilanzen und Steuererklärungen unterschreiben."
+    ],
+    "korrekt": [
+      3
+    ],
+    "loesung": "Richtig ist Option 4: Sie darf neue Mitarbeiter/-innen einstellen.",
+    "erklaerung": "Die allgemeine Handlungsvollmacht (§ 54 HGB) umfasst die gewöhnlichen Geschäfte des Betriebs, wozu die Einstellung von Mitarbeitern gehört. Grundstücksverkauf, Prokuraerteilung und Unterzeichnung von Bilanzen gehören nicht dazu."
+  },
+  {
+    "id": "wiso-2025s-a8",
+    "themaId": "rechtsformen-vollmachten",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "mc",
+    "text": "Als Jana Loft, Komplementärin der Jana Loft KG, von einer Geschäftsreise zurückkehrt, erfährt sie von der Erteilung der allgemeinen Handlungsvollmacht an Frau Wegner. Sie ist damit nicht einverstanden. Prüfen Sie die Rechtslage!",
+    "optionen": [
+      "Die Erteilung der allgemeinen Handlungsvollmacht ist ungültig, weil sie nicht schriftlich erfolgte.",
+      "Die Erteilung der allgemeinen Handlungsvollmacht ist ordnungsgemäß erfolgt und somit gültig. Sie kann allerdings von Frau Loft mit sofortiger Wirkung widerrufen werden.",
+      "Die Erteilung der allgemeinen Handlungsvollmacht ist unwirksam, da keine Eintragung ins Handelsregister erfolgt ist.",
+      "Frau Loft hätte vor der Erteilung der allgemeinen Handlungsvollmacht an Frau Wegner in jedem Fall ihre Zustimmung geben müssen.",
+      "Die Prokuristin hatte keine rechtliche Befugnis, allgemeine Handlungsvollmacht zu erteilen. Die Vollmacht muss deshalb widerrufen werden."
+    ],
+    "korrekt": [
+      1
+    ],
+    "loesung": "Richtig ist Option 2: Die Erteilung ist ordnungsgemäß und gültig, kann aber von Frau Loft mit sofortiger Wirkung widerrufen werden.",
+    "erklaerung": "Eine Handlungsvollmacht ist formfrei, braucht keine Handelsregistereintragung und darf von einer Prokuristin erteilt werden. Sie ist jedoch jederzeit frei widerruflich."
+  },
+  {
+    "id": "wiso-2025s-a9",
+    "themaId": "finanzierung-kreditsicherung",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "mc",
+    "text": "Die Jana Loft KG plant die Umstellung ihres Fuhrparks auf Elektro-Fahrzeuge (Anschaffungskosten 300.000,00 €). Die Geschäftsleitung diskutiert verschiedene Finanzierungsalternativen. Geben Sie an, welche Erläuterung zutreffend ist!",
+    "optionen": [
+      "Die Aufnahme eines Kontokorrentkredites ist in dem vorliegenden Fall wirtschaftlich sinnvoll, da die Rückzahlung über feste monatliche Raten die Kalkulation erleichtert.",
+      "Die Jana Loft KG könnte neue Aktien herausgeben und so die erforderliche Summe bereitstellen.",
+      "Falls sich die Geschäftsleitung für eine Finanzierung aus dem nicht an die Gesellschafter ausgeschütteten Gewinn des letzten Geschäftsjahres entscheidet, handelt es sich um eine Maßnahme der Selbstfinanzierung.",
+      "Die Aufnahme eines Bankdarlehens ist als eine Form der Eigenfinanzierung der neuen Fahrzeuge eine mögliche Alternative.",
+      "Die Möglichkeit des Leasings der Fahrzeuge wird von der Geschäftsleitung kritisch gesehen, da die Leasingraten im Gegensatz zu den Zinszahlungen im Fall einer Darlehensaufnahme nicht als Betriebsausgaben steuerlich geltend gemacht werden können."
+    ],
+    "korrekt": [
+      2
+    ],
+    "loesung": "Richtig ist Option 3: Finanzierung aus nicht ausgeschüttetem Gewinn ist Selbstfinanzierung.",
+    "erklaerung": "Selbstfinanzierung (Innenfinanzierung) erfolgt aus einbehaltenem Gewinn. Eine KG kann keine Aktien ausgeben, ein Bankdarlehen ist Fremdfinanzierung, und Leasingraten sind sehr wohl steuerlich abzugsfähig."
+  },
+  {
+    "id": "wiso-2025s-a10",
+    "themaId": "finanzierung-kreditsicherung",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "mc",
+    "text": "Die Jana Loft KG nimmt ein Bankdarlehen auf. Die Vertragsklausel zur Rückzahlung lautet: „Die monatlich am 15. zu zahlende Gesamtsumme beträgt 3.500,00 €. Aufgrund der monatlichen Tilgung sinken die Zinsen. Um den dadurch gesparten Betrag wächst die Tilgungsrate.“ Entscheiden Sie, welcher Sachverhalt korrekt ist!",
+    "optionen": [
+      "Die Jana Loft KG nimmt ein Abzahlungsdarlehen auf, da die Darlehenssumme monatlich sinkt.",
+      "Es handelt sich in diesem Fall um ein Annuitätendarlehen zur Finanzierung der neu anzuschaffenden Fahrzeuge.",
+      "Der Vorteil dieser Darlehensart liegt in der monatlich konstanten Tilgung der Darlehenssumme.",
+      "In diesem Fall liegen eine Fremdfinanzierung und eine Innenfinanzierung vor, da die Rückzahlung aus erzielten Umsatzerlösen erfolgen muss.",
+      "Die Jana Loft KG hat hier ein Fälligkeitsdarlehen aufgenommen, weil die Tilgung monatlich zu einem festen Termin fällig ist."
+    ],
+    "korrekt": [
+      1
+    ],
+    "loesung": "Richtig ist Option 2: Es handelt sich um ein Annuitätendarlehen.",
+    "erklaerung": "Eine konstante monatliche Gesamtrate, bei der die Zinsen sinken und der Tilgungsanteil entsprechend wächst, kennzeichnet das Annuitätendarlehen."
+  },
+  {
+    "id": "wiso-2025s-a11",
+    "themaId": "finanzierung-kreditsicherung",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "mc",
+    "text": "Zur Absicherung des Darlehens wird zwischen der Jana Loft KG und ihrer Hausbank eine Sicherungsübereignung der anzuschaffenden Fahrzeuge vereinbart. Prüfen Sie, welcher Sachverhalt zur Charakterisierung dieser Art der Kreditsicherung zutreffend ist!",
+    "optionen": [
+      "Ein Risiko der Hausbank liegt darin begründet, dass die Jana Loft KG die Fahrzeuge trotz der Sicherungsübereignung jederzeit verkaufen darf.",
+      "Diese Sicherungsart ermöglicht der Hausbank, die Fahrzeuge jederzeit in Besitz zu nehmen, da sie ihr übereignet wurden.",
+      "Es handelt sich hier um einen Kredit, bei dem die Hausbank die Fahrzeuge nach Absprache nutzen kann, die Jana Loft KG aber die Zulassungsbescheinigung Teil II (Fahrzeugbriefe) behält.",
+      "Ein Vorteil für die Jana Loft KG besteht darin, dass sie Eigentümerin der angeschafften Fahrzeuge bleibt.",
+      "Die Jana Loft KG darf die Fahrzeuge betrieblich nutzen, verliert aber ihr Eigentum im Rahmen dieser Sicherungsform."
+    ],
+    "korrekt": [
+      4
+    ],
+    "loesung": "Richtig ist Option 5: Die Jana Loft KG darf die Fahrzeuge betrieblich nutzen, verliert aber ihr Eigentum.",
+    "erklaerung": "Bei der Sicherungsübereignung geht das Eigentum an die Bank über, der Sicherungsgeber behält aber den Besitz und darf die Sache weiter nutzen."
+  },
+  {
+    "id": "wiso-2025s-a12",
+    "themaId": "markt-preisbildung",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "mc",
+    "text": "Gegeben sind Nachfrage- und Angebotsmengen in Abhängigkeit vom Preis. Bei 1.400,00 € beträgt die Nachfrage 4.000 Stück, das Angebot 1.000 Stück. Geben Sie an, welche Marktsituation bei einem Preis von 1.400,00 € gegeben ist!",
+    "optionen": [
+      "Nachfrageüberhang",
+      "Nachfragelücke",
+      "Marktgleichgewicht",
+      "Käufermarkt",
+      "Angebotsüberhang"
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Richtig ist Option 1: Nachfrageüberhang.",
+    "erklaerung": "Bei 1.400 € übersteigt die Nachfrage (4.000 Stück) das Angebot (1.000 Stück) deutlich – es liegt ein Nachfrageüberhang vor."
+  },
+  {
+    "id": "wiso-2025s-a13",
+    "themaId": "markt-preisbildung",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "rechnen",
+    "text": "Berechnen Sie den Umsatz in €, der bei einem Preis von 2.000,00 € von der Jana Loft KG erwartet werden kann! (Bei 2.000,00 € beträgt die Nachfrage 2.500 Stück.)",
+    "punkte": 3,
+    "loesung": "Umsatz = Preis × abgesetzte Menge = 2.000,00 € × 2.500 Stück = **5.000.000,00 € (5 Mio. €)**.",
+    "erklaerung": "Der erwartete Umsatz ergibt sich aus dem Preis multipliziert mit der zu diesem Preis nachgefragten Menge."
+  },
+  {
+    "id": "wiso-2025s-a14",
+    "themaId": "markt-preisbildung",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "rechnen",
+    "text": "Geben Sie an, wie viel Stück die Gleichgewichtsmenge beträgt! (Bei 1.800,00 € sind Angebot und Nachfrage jeweils 3.000 Stück.)",
+    "punkte": 2,
+    "loesung": "Die Gleichgewichtsmenge beträgt **3.000 Stück** (bei einem Preis von 1.800,00 €, wo Angebot = Nachfrage).",
+    "erklaerung": "Das Marktgleichgewicht liegt dort, wo Angebots- und Nachfragemenge übereinstimmen – hier bei 3.000 Stück."
+  },
+  {
+    "id": "wiso-2025s-a15",
+    "themaId": "konjunktur-indikatoren",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "mc",
+    "text": "Die Abbildung zeigt eine mögliche wirtschaftliche Entwicklung in Deutschland im Zeitablauf: A ist die senkrechte Achse mit dem Ausgangswert, B die wellenförmige Kurve in ihrer Abwärtsbewegung, C die stetig steigende Gerade durch die Wellen. Ordnen Sie die Begriffe (1 Bruttoinlandsprodukt, 2 Bruttosozialprodukt, 3 Wirtschaftstrend, 4 Expansion, 5 Boom, 6 Rezession) den Buchstaben A, B und C zu!",
+    "optionen": [
+      "A = Bruttoinlandsprodukt, B = Rezession, C = Wirtschaftstrend",
+      "A = Bruttosozialprodukt, B = Expansion, C = Boom",
+      "A = Wirtschaftstrend, B = Boom, C = Bruttoinlandsprodukt",
+      "A = Bruttoinlandsprodukt, B = Expansion, C = Wirtschaftstrend"
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Richtig ist Option 1: A = Bruttoinlandsprodukt (1), B = Rezession (6), C = Wirtschaftstrend (3).",
+    "erklaerung": "A steht auf der Werteachse für das Bruttoinlandsprodukt, B markiert die absteigende Phase (Rezession) und C die langfristig steigende Gerade (Wirtschaftstrend)."
+  },
+  {
+    "id": "wiso-2025s-a16",
+    "themaId": "konjunktur-indikatoren",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "mc",
+    "text": "Geben Sie an, welches Merkmal typisch für die Aufschwungphase ist!",
+    "optionen": [
+      "Abnahme der Investitionen",
+      "Abnahme der Lagerbestände",
+      "Abnahme der gesamtwirtschaftlichen Lohnsumme",
+      "Abnahme der Kapazitätsauslastung",
+      "Abnahme der Kreditzinsen"
+    ],
+    "korrekt": [
+      1
+    ],
+    "loesung": "Richtig ist Option 2: Abnahme der Lagerbestände.",
+    "erklaerung": "Im Aufschwung steigt die Nachfrage, sodass die Lagerbestände abgebaut werden. Investitionen, Kapazitätsauslastung und Löhne nehmen dagegen zu."
+  },
+  {
+    "id": "wiso-2025s-a17",
+    "themaId": "konjunktur-indikatoren",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "mc",
+    "text": "Stellen Sie fest, an welchem Indikator sich die Konjunkturentwicklung besonders früh erkennen lässt!",
+    "optionen": [
+      "Arbeitslosenquote",
+      "Produktionsmenge",
+      "Sparaufkommen",
+      "Auftragseingänge",
+      "Steueraufkommen"
+    ],
+    "korrekt": [
+      3
+    ],
+    "loesung": "Richtig ist Option 4: Auftragseingänge.",
+    "erklaerung": "Auftragseingänge sind ein Frühindikator (vorlaufend). Die Produktionsmenge ist ein Präsenzindikator, die Arbeitslosenquote ein Spätindikator."
+  },
+  {
+    "id": "wiso-2025s-a18",
+    "themaId": "berufsausbildung-arbeitsrecht",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "mc",
+    "text": "Frau Grandjean (17 Jahre) ist Mitglied der Jugend- und Auszubildendenvertretung (JAV). Zur Betriebsratssitzung stehen an: Top 1 Weiterbeschäftigungsmodelle für Mitarbeiter, die in den Ruhestand eintreten; Top 2 Beurteilungsstandards für Ausbildungszeugnisse. Geben Sie mithilfe des BetrVG an, welche 2 der folgenden Aussagen zutreffend sind! Alle Mitglieder der JAV haben …",
+    "optionen": [
+      "… ein Stimmrecht bezüglich des Tagespunktes 1, aber kein Teilnahmerecht.",
+      "… ein Stimmrecht und Teilnahmerecht bezüglich Tagespunkt 1.",
+      "… weder Stimmrecht noch Teilnahmerecht zu Tagespunkt 1.",
+      "… ein Stimmrecht und Teilnahmerecht bezüglich Tagespunkt 2.",
+      "… ein Stimmrecht aber kein Teilnahmerecht bezüglich Tagespunkt 2.",
+      "… weder Stimmrecht noch Teilnahmerecht zu Tagespunkt 2."
+    ],
+    "korrekt": [
+      2,
+      3
+    ],
+    "loesung": "Richtig sind Optionen 3 und 4: Zu Tagespunkt 1 (betrifft Rentner, nicht die JAV-Gruppe) hat die JAV weder Stimm- noch Teilnahmerecht; zu Tagespunkt 2 (Ausbildungszeugnisse, betrifft Azubis) hat sie Stimm- und Teilnahmerecht.",
+    "erklaerung": "Nach §§ 60, 67 BetrVG haben JAV-Mitglieder Teilnahme- und Stimmrecht nur bei Angelegenheiten, die überwiegend die von ihr vertretenen Auszubildenden/Jugendlichen betreffen (hier Tagespunkt 2)."
+  },
+  {
+    "id": "wiso-2025s-a19",
+    "themaId": "berufsausbildung-arbeitsrecht",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "mc",
+    "text": "Frau Grandjean möchte verschiedene Sachverhalte klären. Ordnen Sie die Informationsquellen (1 Jugendarbeitsschutzgesetz, 2 Berufsbildungsgesetz, 3 Verordnung über die Berufsausbildung zum Kaufmann/zur Kauffrau für Büromanagement) den Sachverhalten zu!\n\n**a) Frau Grandjean wird eine Abschlussprüfung im gestreckten Prüfungsverfahren absolvieren; die Prüfung besteht aus informationstechnischem Büromanagement, Kundenbeziehungsprozesse, Wirtschafts- und Sozialkunde sowie der Fachaufgabe in der Wahlqualifikation.**\n**b) Die erste Nachuntersuchung soll zwischen dem 10. und 12. Monat nach Beginn der Ausbildung erfolgen.**\n**c) Frau Grandjean hat nach Beendigung ihrer Ausbildung ein Anrecht auf ein schriftliches Zeugnis.**",
+    "optionen": [
+      "a) Ausbildungsordnung, b) Jugendarbeitsschutzgesetz, c) Berufsbildungsgesetz",
+      "a) Berufsbildungsgesetz, b) Ausbildungsordnung, c) Jugendarbeitsschutzgesetz",
+      "a) Jugendarbeitsschutzgesetz, b) Berufsbildungsgesetz, c) Ausbildungsordnung",
+      "a) Berufsbildungsgesetz, b) Jugendarbeitsschutzgesetz, c) Ausbildungsordnung"
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Richtig ist Option 1: a) Ausbildungsordnung/VO (3), b) Jugendarbeitsschutzgesetz (1), c) Berufsbildungsgesetz (2).",
+    "erklaerung": "Prüfungsstruktur regelt die Ausbildungsordnung, die ärztliche Nachuntersuchung das JArbSchG, den Zeugnisanspruch das BBiG."
+  },
+  {
+    "id": "wiso-2025s-a20",
+    "themaId": "berufsausbildung-arbeitsrecht",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "rechnen",
+    "text": "Frau Zeynep Yildirim beginnt am 1. September 2025 eine Ausbildung. Sie wird am 13. Juli 2025 17 Jahre alt. Nach § 19 JArbSchG beträgt der Urlaub mindestens 27 Werktage, wenn der Jugendliche zu Beginn des Kalenderjahres noch nicht 17 Jahre alt ist. Stellen Sie fest, wie viele Werktage Urlaub Frau Yildirim im Jahr 2025 anteilig zustehen!",
+    "punkte": 3,
+    "loesung": "Zu Beginn 2025 war Frau Yildirim noch 16 → Anspruch 27 Werktage/Jahr. Sie arbeitet 2025 vier Monate (September–Dezember). Anteilig: 27 / 12 × 4 = **9 Werktage**.",
+    "erklaerung": "Der Jahresurlaub wird anteilig auf die Beschäftigungsmonate umgerechnet: 27 Werktage geteilt durch 12 Monate, multipliziert mit 4 Monaten = 9 Werktage."
+  },
+  {
+    "id": "wiso-2025s-a21",
+    "themaId": "berufsausbildung-arbeitsrecht",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "mc",
+    "text": "Prüfen Sie, für welchen Personenkreis das Jugendarbeitsschutzgesetz (JArbSchG) gilt!",
+    "optionen": [
+      "Nur für Auszubildende und Jugendliche bis zum vollendeten 21. Lebensjahr.",
+      "Nur für Jugendliche bis zum vollendeten 16. Lebensjahr.",
+      "Nur für Jugendliche bis zum vollendeten 17. Lebensjahr.",
+      "Nur für Jugendliche bis zum vollendeten 18. Lebensjahr.",
+      "Nur für Auszubildende bis zum vollendeten 25. Lebensjahr."
+    ],
+    "korrekt": [
+      3
+    ],
+    "loesung": "Richtig ist Option 4: Nur für Jugendliche bis zum vollendeten 18. Lebensjahr.",
+    "erklaerung": "Das JArbSchG schützt Jugendliche, die noch nicht 18 Jahre alt sind (§ 2 JArbSchG)."
+  },
+  {
+    "id": "wiso-2025s-a22",
+    "themaId": "berufsausbildung-arbeitsrecht",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "mc",
+    "text": "Prüfen Sie, welche Voraussetzung **nicht** gegeben sein muss, damit das Ausbildungsverhältnis von Frau Yildirim den gesetzlichen Anforderungen entspricht!",
+    "optionen": [
+      "Der Ausbildungsvertrag muss bei Ausbildungsantritt schriftlich vorliegen.",
+      "Es muss ein Eintrag ins Ausbildungsverzeichnis der zuständigen Stelle erfolgen.",
+      "Der Ausbildungsvertrag muss bei der Agentur für Arbeit gemeldet sein.",
+      "Frau Yildirim muss den Vertrag mit unterschreiben.",
+      "Die gesetzlichen Vertreter müssen den Vertrag mit unterschreiben."
+    ],
+    "korrekt": [
+      2
+    ],
+    "loesung": "Richtig ist Option 3: Der Ausbildungsvertrag muss NICHT bei der Agentur für Arbeit gemeldet sein.",
+    "erklaerung": "Nötig sind Schriftform, Eintrag ins Verzeichnis der zuständigen Kammer und Unterschriften (auch der gesetzlichen Vertreter bei Minderjährigen). Eine Meldung bei der Agentur für Arbeit ist keine Wirksamkeitsvoraussetzung."
+  },
+  {
+    "id": "wiso-2025s-a23",
+    "themaId": "berufsausbildung-arbeitsrecht",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "mc",
+    "text": "Im Ausbildungsvertrag von Frau Yildirim finden sich folgende Vertragsbestandteile. Geben Sie an, welche Klausel gegen gesetzliche Vorschriften verstößt! Die Auszubildende ist verpflichtet, …",
+    "optionen": [
+      "… die im Rahmen der Berufsausbildung aufgetragenen Aufgaben sorgfältig auszuführen.",
+      "… nach bestandener Abschlussprüfung bis zum Ende der vertraglichen Ausbildungszeit im Betrieb zu arbeiten.",
+      "… die für die Ausbildungsstätte geltende Ordnung zu beachten.",
+      "… über Betriebs- und Geschäftsgeheimnisse Stillschweigen zu wahren.",
+      "… einen schriftlichen oder elektronischen Ausbildungsnachweis zu führen."
+    ],
+    "korrekt": [
+      1
+    ],
+    "loesung": "Richtig ist Option 2: Die Verpflichtung, nach bestandener Prüfung bis zum Ende der Ausbildungszeit weiterzuarbeiten, verstößt gegen das Gesetz.",
+    "erklaerung": "Nach § 21 BBiG endet das Ausbildungsverhältnis mit Bestehen der Abschlussprüfung. Eine Klausel, die zum Weiterarbeiten zwingt, ist unwirksam (§ 12 BBiG)."
+  },
+  {
+    "id": "wiso-2025s-a24",
+    "themaId": "berufsausbildung-arbeitsrecht",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "rechnen",
+    "text": "Frau Yildirim (Jugendliche) soll bei einer Kundenveranstaltung um 13:00 Uhr ihre Tätigkeit aufnehmen. Am nächsten Tag beginnt der Berufsschulunterricht um 07:30 Uhr. Nach § 13 JArbSchG dürfen Jugendliche nach Beendigung der täglichen Arbeitszeit nicht vor Ablauf einer ununterbrochenen Freizeit von mindestens 12 Stunden beschäftigt werden. Geben Sie an, bis zu welcher Uhrzeit Frau Yildirim verpflichtet werden kann, an der Veranstaltung teilzunehmen!",
+    "punkte": 3,
+    "loesung": "Schulbeginn 07:30 Uhr − 12 Stunden Freizeit = **19:30 Uhr**. Frau Yildirim kann am Vortag längstens bis 19:30 Uhr beschäftigt werden.",
+    "erklaerung": "Vom Schulbeginn (07:30 Uhr) müssen die 12 Stunden ununterbrochene Freizeit rückwärts gerechnet werden: 07:30 − 12 h = 19:30 Uhr."
+  },
+  {
+    "id": "wiso-2025s-a25",
+    "themaId": "arbeitsschutz-umwelt",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "mc",
+    "text": "Die Jana Loft KG führt eine Informationsveranstaltung zum Gesundheitsschutz durch. Geben Sie die Organisation an, die für die Überwachung der Gesetze zu Arbeitsschutz und Arbeitssicherheit zuständig ist!",
+    "optionen": [
+      "Die Berufsgenossenschaft",
+      "Die gesetzliche Krankenkasse",
+      "Die Industrie- und Handelskammer",
+      "Die Handwerkskammer",
+      "Die Agentur für Arbeit"
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Richtig ist Option 1: Die Berufsgenossenschaft.",
+    "erklaerung": "Die Berufsgenossenschaften (gesetzliche Unfallversicherung) überwachen Arbeitsschutz und Arbeitssicherheit und erlassen Unfallverhütungsvorschriften."
+  },
+  {
+    "id": "wiso-2025s-a26",
+    "themaId": "arbeitsschutz-umwelt",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "mc",
+    "text": "Prüfen Sie, welche Regelung zur Belehrung von Arbeitnehmer/-innen über die Unfall- und Gesundheitsgefahren richtig dargestellt ist! Die Belehrung ist erforderlich …",
+    "optionen": [
+      "… nur bei Aufnahme der Beschäftigung.",
+      "… nur vor Aufnahme der Beschäftigung, ansonsten im Einzelfall nur bei Bedarf.",
+      "… nur im Laufe des 1. Jahres der Beschäftigung.",
+      "… bei Aufnahme der Beschäftigung, anschließend in regelmäßigen Abständen.",
+      "… bei Abteilungswechsel, ansonsten nicht."
+    ],
+    "korrekt": [
+      3
+    ],
+    "loesung": "Richtig ist Option 4: bei Aufnahme der Beschäftigung, anschließend in regelmäßigen Abständen.",
+    "erklaerung": "Die Unterweisung muss bei Beginn der Tätigkeit und danach regelmäßig (mind. jährlich) sowie bei Änderungen wiederholt werden."
+  },
+  {
+    "id": "wiso-2025s-a27",
+    "themaId": "arbeitsschutz-umwelt",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "mc",
+    "text": "Im Fluchtwegplan der Jana Loft KG finden sich Sicherheitszeichen. Ordnen Sie die Begriffe (1 Brandmelder, 2 Notruftelefon, 3 Sammelstelle, 4 Geräte zur Brandbekämpfung, 5 Kein offenes Feuer) den fünf abgebildeten Zeichen in der Reihenfolge zu!\n\n**Zeichen 1: grün, vier Pfeile auf Personen gerichtet.**\n**Zeichen 2: rot, Telefonhörer mit Kreuz.**\n**Zeichen 3: rot, Hand drückt einen Melder neben Flammen.**\n**Zeichen 4: rund, durchgestrichenes Streichholz/Flamme.**\n**Zeichen 5: rot, Feuerlöscher/Helm neben Flammen.**",
+    "optionen": [
+      "Sammelstelle, Notruftelefon, Brandmelder, Kein offenes Feuer, Geräte zur Brandbekämpfung",
+      "Notruftelefon, Sammelstelle, Brandmelder, Geräte zur Brandbekämpfung, Kein offenes Feuer",
+      "Sammelstelle, Brandmelder, Notruftelefon, Kein offenes Feuer, Geräte zur Brandbekämpfung",
+      "Brandmelder, Notruftelefon, Sammelstelle, Kein offenes Feuer, Geräte zur Brandbekämpfung"
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Richtig ist Option 1: Zeichen 1 = Sammelstelle (3), 2 = Notruftelefon (2), 3 = Brandmelder (1), 4 = Kein offenes Feuer (5), 5 = Geräte zur Brandbekämpfung (4).",
+    "erklaerung": "Grün mit Pfeilen auf Personen = Sammelstelle (Rettungszeichen); Telefon mit Kreuz = Notruftelefon; Handmelder mit Flamme = Brandmelder; durchgestrichene Flamme = Kein offenes Feuer (Verbotszeichen); Löscher mit Flamme = Geräte zur Brandbekämpfung."
+  },
+  {
+    "id": "wiso-2025s-a28",
+    "themaId": "arbeitsschutz-umwelt",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "mc",
+    "text": "Für die Jana Loft KG ist das Kreislaufwirtschaftsgesetz (KrWG) von Bedeutung. Geben Sie an, welche Zielsetzung sich **nicht** in dem Gesetz befindet!",
+    "optionen": [
+      "Das Entstehen von Abfällen zu vermeiden.",
+      "Das Recycling von Abfällen zu fördern.",
+      "Die Abfallmenge zu reduzieren.",
+      "Mensch und Umwelt bei der Erzeugung und Bewirtschaftung von Abfällen zu schützen.",
+      "Die Verwendung von Plastikverpackungen ist seit 2025 verboten."
+    ],
+    "korrekt": [
+      4
+    ],
+    "loesung": "Richtig ist Option 5: Ein Verbot von Plastikverpackungen seit 2025 ist NICHT Zielsetzung des KrWG.",
+    "erklaerung": "Das KrWG zielt auf Abfallvermeidung, Verwertung/Recycling und den Schutz von Mensch und Umwelt. Ein generelles Plastikverbot ist nicht Gegenstand des Gesetzes."
+  },
+  {
+    "id": "wiso-2025s-a29",
+    "themaId": "arbeitsschutz-umwelt",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "mc",
+    "text": "Ordnen Sie die Zwecke des Kreislaufwirtschaftsgesetzes (1 Abfallvermeidung, 2 Wiederverwendung, 3 Weiterverwertung) den Maßnahmen zu!\n\n**a) Aus gebrauchten Paletten stellt die Jana Loft KG Gartenmöbel her.**\n**b) Ein Großteil der Rechnungen wird den Kunden per E-Mail zugestellt. Eine Zustellung per Post entfällt.**\n**c) Die ausrangierten Monitore werden an ein örtliches Sozialkaufhaus gespendet.**",
+    "optionen": [
+      "a) Weiterverwertung, b) Abfallvermeidung, c) Wiederverwendung",
+      "a) Wiederverwendung, b) Weiterverwertung, c) Abfallvermeidung",
+      "a) Abfallvermeidung, b) Wiederverwendung, c) Weiterverwertung",
+      "a) Weiterverwertung, b) Wiederverwendung, c) Abfallvermeidung"
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Richtig ist Option 1: a) Weiterverwertung (3), b) Abfallvermeidung (1), c) Wiederverwendung (2).",
+    "erklaerung": "Paletten zu Gartenmöbeln = Weiterverwertung/Upcycling; Rechnungen per E-Mail = Abfallvermeidung; Monitore spenden zur weiteren Nutzung = Wiederverwendung."
+  },
+  {
+    "id": "wiso-2025s-a30",
+    "themaId": "arbeitsschutz-umwelt",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "mc",
+    "text": "Die Jana Loft KG möchte den Strom vorzugsweise aus erneuerbaren Energien beziehen. Geben Sie an, bei welchen 2 folgenden Energiequellen es sich um erneuerbare Energien handelt!",
+    "optionen": [
+      "Erdgas",
+      "Erdöl",
+      "Steinkohle",
+      "Erdwärme",
+      "Wasserkraft",
+      "Braunkohle"
+    ],
+    "korrekt": [
+      3,
+      4
+    ],
+    "loesung": "Richtig sind Optionen 4 und 5: Erdwärme und Wasserkraft.",
+    "erklaerung": "Erdwärme (Geothermie) und Wasserkraft sind erneuerbare Energien. Erdgas, Erdöl, Stein- und Braunkohle sind fossile, nicht erneuerbare Energieträger."
+  },
+  {
+    "id": "wiso-2025s-a31",
+    "themaId": "arbeitsschutz-umwelt",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "mc",
+    "text": "Die Jana Loft KG möchte mit Fairtrade zusammenarbeiten. Geben Sie an, wofür Fairtrade steht!",
+    "optionen": [
+      "Fairtrade kennzeichnet Waren, die aus fairem Handel stammen und bei deren Herstellung bestimmte soziale, ökologische und ökonomische Kriterien eingehalten wurden.",
+      "Fairtrade ist ein Zertifizierungssystem, das besonders ökonomisch wertvolle Waren beinhaltet.",
+      "Fairtrade beinhaltet ausschließlich Lebensmittel, die aus fairem Handel stammen und bei deren Herstellung bestimmte soziale, ökologische und ökonomische Kriterien eingehalten wurden.",
+      "Fairtrade ist ausschließlich für Privatpersonen relevant, nicht aber für Unternehmen.",
+      "Fairtrade dient hauptsächlich Marketingaspekten, nicht aber der Verbesserung der Lebensbedingungen der Produzenten."
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Richtig ist Option 1: Fairtrade kennzeichnet Waren aus fairem Handel, bei deren Herstellung soziale, ökologische und ökonomische Kriterien eingehalten wurden.",
+    "erklaerung": "Fairtrade ist nicht auf Lebensmittel oder Privatpersonen beschränkt und dient tatsächlich der Verbesserung der Lebens- und Arbeitsbedingungen der Produzenten."
+  },
+  {
+    "id": "wiso-produktionsfaktoren-unternehmensziele-g1",
+    "themaId": "produktionsfaktoren-unternehmensziele",
+    "bereich": "wiso",
+    "quelle": "generiert",
+    "typ": "mc",
+    "text": "Welcher der folgenden Betriebe verwendet einen Werkstoff im Sinne der Produktionsfaktoren?",
+    "optionen": [
+      "Eine Tischlerei kauft Holz und Leim zur Möbelherstellung ein.",
+      "Ein Betrieb schafft eine neue CNC-Fräsmaschine an.",
+      "Ein Unternehmen stellt einen Betriebsleiter ein.",
+      "Eine Firma erwirbt ein Lagergrundstück."
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Richtig: Holz und Leim (Roh- bzw. Hilfsstoffe) sind Werkstoffe.",
+    "erklaerung": "Werkstoffe sind Roh-, Hilfs- und Betriebsstoffe. Maschine und Grundstück sind Betriebsmittel, der Betriebsleiter gehört zum dispositiven Faktor."
+  },
+  {
+    "id": "wiso-produktionsfaktoren-unternehmensziele-g2",
+    "themaId": "produktionsfaktoren-unternehmensziele",
+    "bereich": "wiso",
+    "quelle": "generiert",
+    "typ": "mc",
+    "text": "Ein Unternehmen erzielt einen Ertrag von 150.000 € bei einem Aufwand von 120.000 €. Wie ist die Wirtschaftlichkeit zu beurteilen?",
+    "optionen": [
+      "Wirtschaftlichkeit = 1,25 – das Unternehmen arbeitet wirtschaftlich.",
+      "Wirtschaftlichkeit = 0,80 – das Unternehmen arbeitet unwirtschaftlich.",
+      "Wirtschaftlichkeit = 30.000 € – es liegt ein Gewinn vor.",
+      "Wirtschaftlichkeit lässt sich hier nicht berechnen."
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Richtig: 150.000 / 120.000 = 1,25 – wirtschaftlich (Wert > 1).",
+    "erklaerung": "Wirtschaftlichkeit = Ertrag / Aufwand. Ein Wert über 1 zeigt wirtschaftliches Arbeiten an."
+  },
+  {
+    "id": "wiso-produktionsfaktoren-unternehmensziele-g3",
+    "themaId": "produktionsfaktoren-unternehmensziele",
+    "bereich": "wiso",
+    "quelle": "generiert",
+    "typ": "mc",
+    "text": "In welchem Fall liegt ein Zielkonflikt zwischen einem ökologischen und einem ökonomischen Ziel vor?",
+    "optionen": [
+      "Eine teure Filteranlage senkt die Emissionen, erhöht aber die Kosten deutlich.",
+      "Neue ergonomische Stühle senken die Krankheitstage und die Kosten.",
+      "Eine Werbeaktion steigert Umsatz und Bekanntheit zugleich.",
+      "Die Digitalisierung von Rechnungen spart Papier und Portokosten."
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Richtig: Emissionen senken (ökologisch) vs. höhere Kosten (ökonomisch).",
+    "erklaerung": "Ein Zielkonflikt besteht, wenn das Erreichen eines Ziels ein anderes verschlechtert. Die übrigen Fälle sind Zielharmonien."
+  },
+  {
+    "id": "wiso-produktionsfaktoren-unternehmensziele-v1",
+    "themaId": "produktionsfaktoren-unternehmensziele",
+    "bereich": "wiso",
+    "quelle": "abgeleitet",
+    "typ": "mc",
+    "text": "Zu welchem Produktionsfaktor gehört die Kündigung einer Produktionsmaschine (Verkauf), das Beziehen günstigerer Schrauben und die Entlassung der Geschäftsleitung? Ordnen Sie zu!",
+    "optionen": [
+      "Maschine = Betriebsmittel, Schrauben = Werkstoffe, Geschäftsleitung = Dispositiver Faktor",
+      "Maschine = Werkstoffe, Schrauben = Betriebsmittel, Geschäftsleitung = Ausführende Arbeit",
+      "Maschine = Dispositiver Faktor, Schrauben = Werkstoffe, Geschäftsleitung = Betriebsmittel",
+      "Maschine = Betriebsmittel, Schrauben = Ausführende Arbeit, Geschäftsleitung = Werkstoffe"
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Richtig: Maschine = Betriebsmittel, Schrauben = Werkstoffe, Geschäftsleitung = Dispositiver Faktor.",
+    "erklaerung": "Analog zur Originalaufgabe: langlebige Anlagen = Betriebsmittel, Hilfsstoffe = Werkstoffe, Leitung = dispositiver Faktor."
+  },
+  {
+    "id": "wiso-produktionsfaktoren-unternehmensziele-v2",
+    "themaId": "produktionsfaktoren-unternehmensziele",
+    "bereich": "wiso",
+    "quelle": "abgeleitet",
+    "typ": "mc",
+    "text": "Ein Unternehmen möchte durch Outsourcing Kosten senken. Welche Aufgabe eignet sich dafür am besten, ohne das Kerngeschäft zu gefährden?",
+    "optionen": [
+      "Die Reinigung der Bürogebäude an eine externe Gebäudereinigung vergeben.",
+      "Die eigene Kernproduktion vollständig einstellen.",
+      "Die strategische Unternehmensführung abgeben.",
+      "Die Markenentwicklung an die Auszubildenden übertragen."
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Richtig: Die Gebäudereinigung ist eine unterstützende Aufgabe und eignet sich für Outsourcing.",
+    "erklaerung": "Beim Outsourcing lagert man Nebentätigkeiten aus. Kernproduktion und strategische Führung sollten im Haus bleiben."
+  },
+  {
+    "id": "wiso-rechtsformen-vollmachten-g1",
+    "themaId": "rechtsformen-vollmachten",
+    "bereich": "wiso",
+    "quelle": "generiert",
+    "typ": "mc",
+    "text": "Wie hoch ist das gesetzliche Mindeststammkapital einer GmbH und wie viel muss bei der Gründung mindestens eingezahlt sein?",
+    "optionen": [
+      "25.000 € Stammkapital, davon mindestens 12.500 € einzuzahlen.",
+      "50.000 € Stammkapital, vollständig einzuzahlen.",
+      "25.000 € Stammkapital, vollständig einzuzahlen.",
+      "1 € Stammkapital, sofort einzuzahlen."
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Richtig: 25.000 € Stammkapital, davon mindestens die Hälfte (12.500 €) bei Gründung.",
+    "erklaerung": "Das GmbH-Mindeststammkapital beträgt 25.000 €; bei Gründung müssen mindestens 12.500 € eingezahlt sein."
+  },
+  {
+    "id": "wiso-rechtsformen-vollmachten-g2",
+    "themaId": "rechtsformen-vollmachten",
+    "bereich": "wiso",
+    "quelle": "generiert",
+    "typ": "mc",
+    "text": "Welches Geschäft darf ein Prokurist NICHT ohne besondere Vollmacht tätigen?",
+    "optionen": [
+      "Ein Betriebsgrundstück verkaufen.",
+      "Waren einkaufen und verkaufen.",
+      "Einen Prozess für das Unternehmen führen.",
+      "Mitarbeiter einstellen und entlassen."
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Richtig: Der Verkauf/Belastung von Grundstücken ist dem Prokuristen ohne besondere Vollmacht untersagt.",
+    "erklaerung": "Die Prokura umfasst fast alle Geschäfte, jedoch nicht die Veräußerung/Belastung von Grundstücken, das Unterzeichnen von Bilanzen oder die Erteilung von Prokura."
+  },
+  {
+    "id": "wiso-rechtsformen-vollmachten-g3",
+    "themaId": "rechtsformen-vollmachten",
+    "bereich": "wiso",
+    "quelle": "generiert",
+    "typ": "mc",
+    "text": "Zwei Gesellschafter bringen 40.000 € und 60.000 € in eine GmbH ein. Der Gewinn von 200.000 € wird nach Kapitaleinlage verteilt. Wie viel erhält der Gesellschafter mit 60.000 € Einlage?",
+    "optionen": [
+      "120.000 €",
+      "100.000 €",
+      "80.000 €",
+      "60.000 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Richtig: 60.000 / 100.000 × 200.000 € = 120.000 €.",
+    "erklaerung": "Anteil = eigene Einlage / Gesamtkapital × Gewinn = 60.000/100.000 × 200.000 = 120.000 €."
+  },
+  {
+    "id": "wiso-rechtsformen-vollmachten-v1",
+    "themaId": "rechtsformen-vollmachten",
+    "bereich": "wiso",
+    "quelle": "abgeleitet",
+    "typ": "mc",
+    "text": "Ein Abteilungsleiter erhält von einem Prokuristen eine allgemeine Handlungsvollmacht. Der Geschäftsführer ist damit nicht einverstanden. Wie ist die Rechtslage?",
+    "optionen": [
+      "Die Vollmacht ist wirksam erteilt, kann aber jederzeit widerrufen werden.",
+      "Die Vollmacht ist unwirksam, weil sie nicht ins Handelsregister eingetragen wurde.",
+      "Die Vollmacht ist unwirksam, weil ein Prokurist keine Handlungsvollmacht erteilen darf.",
+      "Die Vollmacht ist nur mit Zustimmung aller Gesellschafter wirksam."
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Richtig: Die Vollmacht ist wirksam, aber jederzeit widerruflich.",
+    "erklaerung": "Ein Prokurist darf Handlungsvollmacht erteilen; sie ist formfrei, ohne Handelsregistereintrag wirksam und frei widerruflich."
+  },
+  {
+    "id": "wiso-rechtsformen-vollmachten-v2",
+    "themaId": "rechtsformen-vollmachten",
+    "bereich": "wiso",
+    "quelle": "abgeleitet",
+    "typ": "mc",
+    "text": "Welche Aussage zur GmbH-Gründung ist zutreffend?",
+    "optionen": [
+      "Eine GmbH kann auch von einer einzigen Person gegründet werden.",
+      "Eine GmbH kann nur mit Sacheinlagen gegründet werden.",
+      "Alle Gesellschafter müssen zwingend in der Geschäftsführung mitarbeiten.",
+      "Die GmbH entsteht bereits mit Abschluss des Gesellschaftsvertrags."
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Richtig: Eine Ein-Personen-GmbH ist zulässig.",
+    "erklaerung": "Eine GmbH kann von einer Person gegründet werden, mit Bar- oder Sacheinlagen; sie entsteht erst mit Eintragung ins Handelsregister; Mitarbeit ist keine Pflicht."
+  },
+  {
+    "id": "wiso-finanzierung-kreditsicherung-g1",
+    "themaId": "finanzierung-kreditsicherung",
+    "bereich": "wiso",
+    "quelle": "generiert",
+    "typ": "mc",
+    "text": "Bei welcher Darlehensart bleibt die monatliche Gesamtrate (Zins + Tilgung) über die Laufzeit konstant?",
+    "optionen": [
+      "Annuitätendarlehen",
+      "Abzahlungsdarlehen (Tilgungsdarlehen)",
+      "Fälligkeitsdarlehen",
+      "Kontokorrentkredit"
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Richtig: Beim Annuitätendarlehen bleibt die Gesamtrate konstant.",
+    "erklaerung": "Beim Annuitätendarlehen sinkt der Zinsanteil, der Tilgungsanteil wächst entsprechend, sodass die Gesamtrate gleich bleibt."
+  },
+  {
+    "id": "wiso-finanzierung-kreditsicherung-g2",
+    "themaId": "finanzierung-kreditsicherung",
+    "bereich": "wiso",
+    "quelle": "generiert",
+    "typ": "mc",
+    "text": "Ein Unternehmen finanziert eine Investition aus einbehaltenem Gewinn. Um welche Finanzierungsart handelt es sich?",
+    "optionen": [
+      "Selbstfinanzierung (Innenfinanzierung)",
+      "Beteiligungsfinanzierung",
+      "Fremdfinanzierung",
+      "Kreditfinanzierung"
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Richtig: Finanzierung aus einbehaltenem Gewinn = Selbstfinanzierung (Innenfinanzierung).",
+    "erklaerung": "Bei der Selbstfinanzierung wird nicht ausgeschütteter Gewinn im Unternehmen belassen und für Investitionen genutzt."
+  },
+  {
+    "id": "wiso-finanzierung-kreditsicherung-g3",
+    "themaId": "finanzierung-kreditsicherung",
+    "bereich": "wiso",
+    "quelle": "generiert",
+    "typ": "mc",
+    "text": "Worin liegt bei einer Sicherungsübereignung das besondere Risiko der Bank?",
+    "optionen": [
+      "Der Sicherungsgeber bleibt im Besitz und könnte die Sache an einen gutgläubigen Dritten verkaufen.",
+      "Die Bank muss die Sache selbst lagern und pflegen.",
+      "Die Bank verliert sofort das Eigentum an der Sache.",
+      "Der Sicherungsgeber darf die Sache nicht mehr nutzen."
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Richtig: Da der Sicherungsgeber im Besitz bleibt, besteht die Gefahr eines Verkaufs an einen gutgläubigen Dritten.",
+    "erklaerung": "Bei der Sicherungsübereignung bleibt der Besitz beim Kreditnehmer; das birgt für die Bank das Risiko eines unberechtigten Verkaufs."
+  },
+  {
+    "id": "wiso-finanzierung-kreditsicherung-v1",
+    "themaId": "finanzierung-kreditsicherung",
+    "bereich": "wiso",
+    "quelle": "abgeleitet",
+    "typ": "mc",
+    "text": "Ein Betrieb tilgt sein Darlehen mit gleichbleibenden Tilgungsbeträgen, wodurch die monatliche Gesamtrate von Monat zu Monat sinkt. Welche Darlehensart liegt vor?",
+    "optionen": [
+      "Abzahlungsdarlehen (Tilgungsdarlehen)",
+      "Annuitätendarlehen",
+      "Fälligkeitsdarlehen",
+      "Dispositionskredit"
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Richtig: Konstante Tilgung mit sinkender Gesamtrate = Abzahlungsdarlehen.",
+    "erklaerung": "Beim Abzahlungsdarlehen bleibt die Tilgung konstant; da die Restschuld und damit die Zinsen sinken, sinkt auch die Gesamtrate."
+  },
+  {
+    "id": "wiso-finanzierung-kreditsicherung-v2",
+    "themaId": "finanzierung-kreditsicherung",
+    "bereich": "wiso",
+    "quelle": "abgeleitet",
+    "typ": "mc",
+    "text": "Welche Aussage zur Sicherungsübereignung eines Firmenwagens ist zutreffend?",
+    "optionen": [
+      "Der Betrieb darf den Wagen weiter nutzen, überträgt aber das Eigentum an die Bank.",
+      "Der Betrieb muss den Wagen an die Bank übergeben und verliert den Besitz.",
+      "Die Bank darf den Wagen jederzeit selbst nutzen.",
+      "Der Betrieb bleibt Eigentümer und die Bank erhält nur ein Pfandrecht."
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Richtig: Nutzung/Besitz bleibt beim Betrieb, das Eigentum geht an die Bank.",
+    "erklaerung": "Kennzeichen der Sicherungsübereignung: Eigentumsübergang an die Bank bei Verbleib des Besitzes beim Sicherungsgeber."
+  },
+  {
+    "id": "wiso-markt-preisbildung-g1",
+    "themaId": "markt-preisbildung",
+    "bereich": "wiso",
+    "quelle": "generiert",
+    "typ": "mc",
+    "text": "Bei einem hohen Preis übersteigt das Angebot die Nachfrage deutlich. Welche Marktsituation liegt vor?",
+    "optionen": [
+      "Angebotsüberhang (Käufermarkt)",
+      "Nachfrageüberhang (Verkäufermarkt)",
+      "Marktgleichgewicht",
+      "Nachfragelücke bei niedrigem Preis"
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Richtig: Angebot > Nachfrage = Angebotsüberhang, es entsteht ein Käufermarkt.",
+    "erklaerung": "Übersteigt das Angebot die Nachfrage, spricht man von einem Angebotsüberhang; der Preis sinkt tendenziell (Käufermarkt)."
+  },
+  {
+    "id": "wiso-markt-preisbildung-g2",
+    "themaId": "markt-preisbildung",
+    "bereich": "wiso",
+    "quelle": "generiert",
+    "typ": "rechnen",
+    "text": "Ein Produkt wird zu 50 € verkauft, die nachgefragte Menge beträgt 1.200 Stück. Berechnen Sie den erwarteten Umsatz!",
+    "loesung": "Umsatz = 50 € × 1.200 Stück = **60.000 €**.",
+    "erklaerung": "Umsatz = Preis × Menge = 50 × 1.200 = 60.000 €."
+  },
+  {
+    "id": "wiso-markt-preisbildung-g3",
+    "themaId": "markt-preisbildung",
+    "bereich": "wiso",
+    "quelle": "generiert",
+    "typ": "mc",
+    "text": "Wodurch ist das Marktgleichgewicht gekennzeichnet?",
+    "optionen": [
+      "Angebotsmenge und Nachfragemenge sind gleich groß.",
+      "Die Nachfrage ist doppelt so hoch wie das Angebot.",
+      "Der Preis ist am höchsten.",
+      "Es werden keine Waren verkauft."
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Richtig: Im Gleichgewicht sind Angebot und Nachfrage gleich groß.",
+    "erklaerung": "Der Gleichgewichtspreis ist der Preis, bei dem sich angebotene und nachgefragte Menge entsprechen."
+  },
+  {
+    "id": "wiso-markt-preisbildung-v1",
+    "themaId": "markt-preisbildung",
+    "bereich": "wiso",
+    "quelle": "abgeleitet",
+    "typ": "mc",
+    "text": "Bei einem niedrigen Preis von 1.200 € beträgt die Nachfrage 5.000 Stück und das Angebot 800 Stück. Welche Marktsituation liegt vor?",
+    "optionen": [
+      "Nachfrageüberhang",
+      "Angebotsüberhang",
+      "Marktgleichgewicht",
+      "Käufermarkt"
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Richtig: Nachfrage (5.000) > Angebot (800) = Nachfrageüberhang.",
+    "erklaerung": "Übersteigt die Nachfrage das Angebot, herrscht ein Nachfrageüberhang (Verkäufermarkt)."
+  },
+  {
+    "id": "wiso-markt-preisbildung-v2",
+    "themaId": "markt-preisbildung",
+    "bereich": "wiso",
+    "quelle": "abgeleitet",
+    "typ": "rechnen",
+    "text": "Beim Gleichgewichtspreis von 1.600 € werden 3.500 Stück abgesetzt. Berechnen Sie den Umsatz im Marktgleichgewicht!",
+    "loesung": "Umsatz = 1.600 € × 3.500 Stück = **5.600.000 € (5,6 Mio. €)**.",
+    "erklaerung": "Umsatz = Gleichgewichtspreis × Gleichgewichtsmenge = 1.600 × 3.500 = 5.600.000 €."
+  },
+  {
+    "id": "wiso-konjunktur-indikatoren-g1",
+    "themaId": "konjunktur-indikatoren",
+    "bereich": "wiso",
+    "quelle": "generiert",
+    "typ": "mc",
+    "text": "Welche Reihenfolge der Konjunkturphasen ist korrekt?",
+    "optionen": [
+      "Aufschwung – Hochkonjunktur – Abschwung – Tiefphase",
+      "Boom – Aufschwung – Tiefphase – Rezession",
+      "Rezession – Boom – Aufschwung – Depression",
+      "Tiefphase – Abschwung – Boom – Aufschwung"
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Richtig: Aufschwung – Hochkonjunktur (Boom) – Abschwung (Rezession) – Tiefphase (Depression).",
+    "erklaerung": "Der Konjunkturzyklus durchläuft die vier Phasen in dieser Reihenfolge."
+  },
+  {
+    "id": "wiso-konjunktur-indikatoren-g2",
+    "themaId": "konjunktur-indikatoren",
+    "bereich": "wiso",
+    "quelle": "generiert",
+    "typ": "mc",
+    "text": "Welche Kennzahl misst den Wert aller im Inland erzeugten Waren und Dienstleistungen (Inlandsprinzip)?",
+    "optionen": [
+      "Bruttoinlandsprodukt (BIP)",
+      "Bruttonationaleinkommen",
+      "Volkseinkommen",
+      "Nettosozialprodukt"
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Richtig: Das Bruttoinlandsprodukt misst die im Inland erbrachte Leistung.",
+    "erklaerung": "Das BIP folgt dem Inlandsprinzip; das Bruttonationaleinkommen folgt dagegen dem Inländerprinzip."
+  },
+  {
+    "id": "wiso-konjunktur-indikatoren-g3",
+    "themaId": "konjunktur-indikatoren",
+    "bereich": "wiso",
+    "quelle": "generiert",
+    "typ": "mc",
+    "text": "Die Arbeitslosenquote reagiert typischerweise verzögert auf Konjunkturänderungen. Zu welcher Indikatorengruppe zählt sie?",
+    "optionen": [
+      "Spätindikator (nachlaufend)",
+      "Frühindikator (vorlaufend)",
+      "Präsenzindikator (gleichlaufend)",
+      "Sie ist kein Konjunkturindikator"
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Richtig: Die Arbeitslosenquote ist ein Spätindikator.",
+    "erklaerung": "Die Arbeitslosenquote läuft der Konjunktur nach; Auftragseingänge sind dagegen Frühindikatoren."
+  },
+  {
+    "id": "wiso-konjunktur-indikatoren-v1",
+    "themaId": "konjunktur-indikatoren",
+    "bereich": "wiso",
+    "quelle": "abgeleitet",
+    "typ": "mc",
+    "text": "Welches Merkmal ist typisch für die Abschwungphase (Rezession)?",
+    "optionen": [
+      "Zunahme der Lagerbestände und Rückgang der Investitionen",
+      "Abbau der Lagerbestände und steigende Investitionen",
+      "Vollauslastung der Kapazitäten",
+      "Höchststand der Löhne und Preise"
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Richtig: In der Rezession steigen die Lager, Investitionen gehen zurück.",
+    "erklaerung": "Im Abschwung sinkt die Nachfrage, unverkaufte Ware sammelt sich (Lager steigt), Investitionen werden zurückgefahren."
+  },
+  {
+    "id": "wiso-konjunktur-indikatoren-v2",
+    "themaId": "konjunktur-indikatoren",
+    "bereich": "wiso",
+    "quelle": "abgeleitet",
+    "typ": "mc",
+    "text": "Welcher der folgenden Werte ist ein Frühindikator der Konjunktur?",
+    "optionen": [
+      "Auftragseingänge in der Industrie",
+      "Aktuelle Produktionsmenge",
+      "Arbeitslosenquote",
+      "Preisniveau des Vorjahres"
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Richtig: Auftragseingänge sind ein Frühindikator.",
+    "erklaerung": "Auftragseingänge kündigen die zukünftige Produktion an und laufen der Konjunktur voraus."
+  },
+  {
+    "id": "wiso-berufsausbildung-arbeitsrecht-g1",
+    "themaId": "berufsausbildung-arbeitsrecht",
+    "bereich": "wiso",
+    "quelle": "generiert",
+    "typ": "mc",
+    "text": "Bis zu welchem Alter gilt das Jugendarbeitsschutzgesetz (JArbSchG)?",
+    "optionen": [
+      "Bis zum vollendeten 18. Lebensjahr",
+      "Bis zum vollendeten 16. Lebensjahr",
+      "Bis zum vollendeten 21. Lebensjahr",
+      "Bis zum Ende der Ausbildung"
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Richtig: Das JArbSchG gilt für Jugendliche bis zum vollendeten 18. Lebensjahr.",
+    "erklaerung": "Jugendliche im Sinne des JArbSchG sind Personen, die noch nicht 18 Jahre alt sind."
+  },
+  {
+    "id": "wiso-berufsausbildung-arbeitsrecht-g2",
+    "themaId": "berufsausbildung-arbeitsrecht",
+    "bereich": "wiso",
+    "quelle": "generiert",
+    "typ": "mc",
+    "text": "Welche Klausel in einem Ausbildungsvertrag ist nach dem BBiG unwirksam?",
+    "optionen": [
+      "Die Verpflichtung, nach bestandener Abschlussprüfung im Betrieb weiterzuarbeiten.",
+      "Die Pflicht, das Berichtsheft zu führen.",
+      "Die Pflicht, über Betriebsgeheimnisse Stillschweigen zu wahren.",
+      "Die Pflicht, aufgetragene Aufgaben sorgfältig auszuführen."
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Richtig: Eine Weiterarbeitspflicht nach der Prüfung ist unwirksam.",
+    "erklaerung": "Nach § 12 BBiG sind Vereinbarungen nichtig, die den Auszubildenden für die Zeit nach der Ausbildung binden."
+  },
+  {
+    "id": "wiso-berufsausbildung-arbeitsrecht-g3",
+    "themaId": "berufsausbildung-arbeitsrecht",
+    "bereich": "wiso",
+    "quelle": "generiert",
+    "typ": "rechnen",
+    "text": "Einem Jugendlichen stehen 24 Werktage Jahresurlaub zu. Er ist im Kalenderjahr nur 5 Monate beschäftigt. Wie viele Urlaubstage stehen ihm anteilig zu?",
+    "loesung": "24 / 12 × 5 = **10 Werktage**.",
+    "erklaerung": "Der Jahresurlaub wird durch 12 geteilt und mit den Beschäftigungsmonaten multipliziert: 24/12 × 5 = 10."
+  },
+  {
+    "id": "wiso-berufsausbildung-arbeitsrecht-v1",
+    "themaId": "berufsausbildung-arbeitsrecht",
+    "bereich": "wiso",
+    "quelle": "abgeleitet",
+    "typ": "rechnen",
+    "text": "Ein Jugendlicher beendet seine Tätigkeit um 12:00 Uhr. Nach § 13 JArbSchG muss eine ununterbrochene Freizeit von 12 Stunden eingehalten werden. Ab welcher Uhrzeit darf er frühestens am nächsten Tag wieder beschäftigt werden?",
+    "loesung": "12:00 Uhr + 12 Stunden = **00:00 Uhr (Mitternacht)** – praktisch also frühestens am nächsten Tag ab 00:00 Uhr, in der Regel zum üblichen Arbeitsbeginn.",
+    "erklaerung": "12 Stunden ununterbrochene Freizeit ab Arbeitsende (12:00 Uhr) enden um 00:00 Uhr; erst danach ist eine erneute Beschäftigung zulässig."
+  },
+  {
+    "id": "wiso-berufsausbildung-arbeitsrecht-v2",
+    "themaId": "berufsausbildung-arbeitsrecht",
+    "bereich": "wiso",
+    "quelle": "abgeleitet",
+    "typ": "mc",
+    "text": "Welche der folgenden Voraussetzungen ist KEINE Wirksamkeitsvoraussetzung für ein Ausbildungsverhältnis mit einem Minderjährigen?",
+    "optionen": [
+      "Die Meldung des Ausbildungsvertrags bei der Agentur für Arbeit.",
+      "Die Schriftform des Ausbildungsvertrags.",
+      "Der Eintrag ins Verzeichnis der Berufsausbildungsverhältnisse bei der Kammer.",
+      "Die Unterschrift der gesetzlichen Vertreter."
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Richtig: Eine Meldung bei der Agentur für Arbeit ist keine Wirksamkeitsvoraussetzung.",
+    "erklaerung": "Notwendig sind Schriftform, Eintrag ins Kammerverzeichnis und Unterschrift der gesetzlichen Vertreter – nicht aber eine Meldung an die Agentur für Arbeit."
+  },
+  {
+    "id": "wiso-arbeitsschutz-umwelt-g1",
+    "themaId": "arbeitsschutz-umwelt",
+    "bereich": "wiso",
+    "quelle": "generiert",
+    "typ": "mc",
+    "text": "Welche Organisation ist Trägerin der gesetzlichen Unfallversicherung und überwacht die Arbeitssicherheit?",
+    "optionen": [
+      "Die Berufsgenossenschaft",
+      "Die Krankenkasse",
+      "Die Agentur für Arbeit",
+      "Die Rentenversicherung"
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Richtig: Die Berufsgenossenschaft ist Trägerin der gesetzlichen Unfallversicherung.",
+    "erklaerung": "Die Berufsgenossenschaften überwachen Arbeitsschutz/Arbeitssicherheit und erlassen Unfallverhütungsvorschriften."
+  },
+  {
+    "id": "wiso-arbeitsschutz-umwelt-g2",
+    "themaId": "arbeitsschutz-umwelt",
+    "bereich": "wiso",
+    "quelle": "generiert",
+    "typ": "mc",
+    "text": "Welche der folgenden Energiequellen zählt zu den erneuerbaren Energien?",
+    "optionen": [
+      "Windkraft",
+      "Erdgas",
+      "Braunkohle",
+      "Erdöl"
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Richtig: Windkraft ist eine erneuerbare Energie.",
+    "erklaerung": "Zu den erneuerbaren Energien zählen u. a. Wind, Wasser, Sonne, Geothermie und Biomasse; Erdgas, Kohle und Erdöl sind fossil."
+  },
+  {
+    "id": "wiso-arbeitsschutz-umwelt-g3",
+    "themaId": "arbeitsschutz-umwelt",
+    "bereich": "wiso",
+    "quelle": "generiert",
+    "typ": "mc",
+    "text": "Welche Maßnahme steht in der Abfallhierarchie des Kreislaufwirtschaftsgesetzes an erster Stelle?",
+    "optionen": [
+      "Abfallvermeidung",
+      "Recycling",
+      "Beseitigung (Deponierung)",
+      "energetische Verwertung"
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Richtig: An erster Stelle steht die Abfallvermeidung.",
+    "erklaerung": "Die Rangfolge lautet: Vermeidung – Wiederverwendung – Recycling – sonstige Verwertung – Beseitigung."
+  },
+  {
+    "id": "wiso-arbeitsschutz-umwelt-v1",
+    "themaId": "arbeitsschutz-umwelt",
+    "bereich": "wiso",
+    "quelle": "abgeleitet",
+    "typ": "mc",
+    "text": "Ordnen Sie die Maßnahme dem KrWG-Zweck zu: 'Aus alten Holzresten werden neue Spielzeuge hergestellt.' Um welchen Zweck handelt es sich?",
+    "optionen": [
+      "Weiterverwertung (Recycling/Upcycling)",
+      "Abfallvermeidung",
+      "Wiederverwendung im Originalzustand",
+      "Beseitigung"
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Richtig: Aus Resten Neues herstellen = Weiterverwertung.",
+    "erklaerung": "Werden Abfälle zu neuen Produkten verarbeitet, handelt es sich um Weiterverwertung (Recycling/Upcycling), nicht um bloße Wiederverwendung."
+  },
+  {
+    "id": "wiso-arbeitsschutz-umwelt-v2",
+    "themaId": "arbeitsschutz-umwelt",
+    "bereich": "wiso",
+    "quelle": "abgeleitet",
+    "typ": "mc",
+    "text": "Wann muss ein Arbeitgeber seine Beschäftigten über Unfall- und Gesundheitsgefahren unterweisen?",
+    "optionen": [
+      "Bei Aufnahme der Tätigkeit und danach regelmäßig wiederkehrend.",
+      "Nur einmal beim erstmaligen Eintritt ins Berufsleben.",
+      "Nur bei einem Arbeitsunfall.",
+      "Nur auf ausdrücklichen Wunsch des Beschäftigten."
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Richtig: Bei Tätigkeitsaufnahme und danach in regelmäßigen Abständen.",
+    "erklaerung": "Die Unterweisung erfolgt bei Beginn der Tätigkeit, bei Änderungen und in regelmäßigen Abständen (mind. jährlich)."
+  },
+  {
+    "id": "wiso-2024s-a1",
+    "themaId": "produktionsfaktoren-unternehmensziele",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2024-sommer",
+    "typ": "mc",
+    "text": "Ordnen Sie die Zielpaare den Zielbeziehungen zu (1 Komplementäre Ziele, 2 Konkurrierende Ziele, 3 Indifferente Ziele)!\n\n**a) Steigerung des Gewinns – Freiwillige Abgabe für Klimaschutzprojekte**\n**b) Einkauf von Billighölzern aus dem Regenwald – Erlangung eines Gütesiegels in der Produktion**\n**c) Gutes Arbeitsklima – Recycling der Verpackung**\n**d) Kundenzufriedenheit durch kompetentes Verkaufspersonal – Verpflichtende jährliche Teilnahme aller Mitarbeitenden an Fortbildungsschulungen**\n**e) Rabattverhandlungen mit Lieferanten – Gewinnmaximierung**",
+    "optionen": [
+      "a) 2, b) 2, c) 3, d) 1, e) 1",
+      "a) 1, b) 1, c) 2, d) 3, e) 3",
+      "a) 3, b) 2, c) 1, d) 2, e) 1",
+      "a) 2, b) 3, c) 3, d) 1, e) 2"
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Richtig: a) 2 (konkurrierend), b) 2 (konkurrierend), c) 3 (indifferent), d) 1 (komplementär), e) 1 (komplementär).",
+    "erklaerung": "Konkurrierende Ziele behindern sich (Gewinn vs. freiwillige Klimaabgabe; Billigholz vs. Gütesiegel). Gutes Arbeitsklima und Verpackungs-Recycling sind voneinander unabhängig (indifferent). Kompetentes Verkaufspersonal wird durch Fortbildungen gefördert, Rabattverhandlungen fördern die Gewinnmaximierung (komplementär)."
+  },
+  {
+    "id": "wiso-2024s-a2",
+    "themaId": "produktionsfaktoren-unternehmensziele",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2024-sommer",
+    "typ": "mc",
+    "text": "Die Unternehmensleitung verfolgt auch soziale Ziele in der Jana Loft KG. Stellen Sie fest, welche Maßnahme sich **nicht** an den sozialen Zielen orientiert!",
+    "optionen": [
+      "Verwendung von fair gehandelten Produkten in der Kantine der Jana Loft KG",
+      "Angebot eines Ferienprogramms für die Kinder der Arbeitnehmer/-innen",
+      "Beteiligung der Arbeitnehmer/-innen am Unternehmenserfolg",
+      "Einrichtung eines betrieblichen Kindergartens",
+      "Recycling von Holzabfällen in der Produktion"
+    ],
+    "korrekt": [
+      4
+    ],
+    "loesung": "Richtig ist Option 5: Recycling von Holzabfällen in der Produktion.",
+    "erklaerung": "Das Recycling von Holzabfällen ist ein ökologisches Ziel, kein soziales. Die übrigen Maßnahmen (faire Produkte, Ferienprogramm, Erfolgsbeteiligung, Kindergarten) betreffen soziale Ziele."
+  },
+  {
+    "id": "wiso-2024s-a3",
+    "themaId": "produktionsfaktoren-unternehmensziele",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2024-sommer",
+    "typ": "mc",
+    "text": "Zum Ziel der Gewinnmaximierung gehört der optimale Einsatz der betriebswirtschaftlichen Produktionsfaktoren. Geben Sie an, welches Beispiel den dispositiven Faktor darstellt!",
+    "optionen": [
+      "Betriebsgebäude am Volksdorfer Damm 46",
+      "Klaus Wende führt einfache Tätigkeiten in der Postabteilung aus.",
+      "Silke Beier ist Prokuristin.",
+      "Echtholz in Buche in der Produktgruppe 1",
+      "Schmierstoffe für die Produktionsmaschinen"
+    ],
+    "korrekt": [
+      2
+    ],
+    "loesung": "Richtig ist Option 3: Silke Beier ist Prokuristin.",
+    "erklaerung": "Der dispositive Faktor umfasst Leitung, Planung und Organisation. Eine Prokuristin gehört dazu. Das Gebäude ist ein Betriebsmittel, einfache Tätigkeiten sind ausführende Arbeit, Echtholz und Schmierstoffe sind Werkstoffe."
+  },
+  {
+    "id": "wiso-2024s-a4",
+    "themaId": "rechtsformen-vollmachten",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2024-sommer",
+    "typ": "mc",
+    "text": "Die Kommanditisten Anna Voss (Einlage 100.000,00 €) und Lukas Voss (Einlage 200.000,00 €) wollen eine Reststoff-Verwertungs GmbH rechtswirksam gründen. Prüfen Sie, welcher Sachverhalt in diesem Zusammenhang richtig ist!",
+    "optionen": [
+      "Peter Schneider muss die Eintragung der GmbH beim Arbeitsgericht Hamburg beantragen.",
+      "Der Name des neuen Unternehmens im Antrag könnte auch nur „Voss Abfallverwertung und Abfallentsorgung“ lauten.",
+      "Zur Vermeidung von Interessenkonflikten darf keiner der beiden Gesellschafter für die GmbH bestimmt werden.",
+      "Die Einlagen von Anna und Lukas Voss betragen insgesamt das 12-fache des gesetzlich geforderten Stammkapitals der neuen GmbH.",
+      "Der Gesellschaftsvertrag zwischen Lukas und Anna Voss kann auch mündlich abgeschlossen werden, um rechtswirksam zu sein."
+    ],
+    "korrekt": [
+      3
+    ],
+    "loesung": "Richtig ist Option 4: Die Einlagen (100.000 € + 200.000 € = 300.000 €) betragen das 12-fache des gesetzlichen Mindeststammkapitals von 25.000 €.",
+    "erklaerung": "300.000 € / 25.000 € = 12. Die Eintragung erfolgt beim Handelsregister (Amtsgericht), nicht beim Arbeitsgericht; der Gesellschaftsvertrag bedarf der notariellen Beurkundung (nicht mündlich)."
+  },
+  {
+    "id": "wiso-2024s-a5",
+    "themaId": "rechtsformen-vollmachten",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2024-sommer",
+    "typ": "mc",
+    "text": "Die Reststoff-Verwertungs GmbH erwirbt eine Sortieranlage. Prüfen Sie, welche Regelung zur Haftung der GmbH bzw. der beteiligten Personen gegenüber dem Verkäufer der Anlage richtig ist!",
+    "optionen": [
+      "Dem Verkäufer gegenüber haftet nur der Gesellschafter mit der höchsten Einlage.",
+      "Die GmbH haftet dem Verkäufer gegenüber mit dem gesamten Gesellschaftsvermögen.",
+      "Die GmbH haftet mit ihrem Stammkapital und Anna und Lukas Voss immer auch mit ihrem Privatvermögen.",
+      "Die GmbH haftet dem Verkäufer der Anlage gegenüber nur bis zur Höhe des gesetzlich festgelegten und einzuzahlenden Mindestkapitals.",
+      "Die GmbH haftet gegenüber dem Verkäufer nur mit den liquiden Mitteln der Gesellschaft."
+    ],
+    "korrekt": [
+      1
+    ],
+    "loesung": "Richtig ist Option 2: Die GmbH haftet dem Verkäufer gegenüber mit dem gesamten Gesellschaftsvermögen.",
+    "erklaerung": "Als juristische Person haftet die GmbH mit ihrem gesamten Gesellschaftsvermögen. Die Gesellschafter haften grundsätzlich nicht mit ihrem Privatvermögen."
+  },
+  {
+    "id": "wiso-2024s-a6",
+    "themaId": "finanzierung-kreditsicherung",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2024-sommer",
+    "typ": "mc",
+    "text": "Die Jana Loft KG plant die Erweiterung ihres Fuhrparks (Anschaffungskosten 200.000,00 €). Prüfen Sie, welcher Sachverhalt auf die Selbstfinanzierung zutrifft!",
+    "optionen": [
+      "Die Gesellschafter zahlen die erforderliche Summe von ihrem Privatvermögen auf das Geschäftskonto der Jana Loft KG ein.",
+      "Die Komplementärin Jana Loft nimmt einen Kredit auf, für den sie persönlich haftet.",
+      "Die Selbstfinanzierung neuer Fahrzeuge erfolgt durch Aufnahme neuer Kommanditisten.",
+      "Bei der Selbstfinanzierung wird der Kaufpreis durch Einlagen finanziert, die von den Gesellschaftern der Jana Loft KG eingebracht werden.",
+      "Teile des Unternehmensgewinns werden verwendet, um den Kauf der neuen Firmenfahrzeuge zu finanzieren."
+    ],
+    "korrekt": [
+      4
+    ],
+    "loesung": "Richtig ist Option 5: Teile des Unternehmensgewinns werden zur Finanzierung verwendet.",
+    "erklaerung": "Selbstfinanzierung (Innenfinanzierung) erfolgt aus einbehaltenem, nicht ausgeschüttetem Gewinn. Privateinlagen und neue Kommanditisten sind Einlagen-/Beteiligungsfinanzierung, ein Kredit ist Fremdfinanzierung."
+  },
+  {
+    "id": "wiso-2024s-a7",
+    "themaId": "finanzierung-kreditsicherung",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2024-sommer",
+    "typ": "mc",
+    "text": "Geben Sie an, welchen Vorteil Leasing als Finanzierungsalternative bietet!",
+    "optionen": [
+      "Die Jana Loft KG kann zusätzliche Serviceleistungen im Leasingvertrag vereinbaren.",
+      "Beim Leasing kann die Jana Loft KG nach einer Mindestlaufzeit des Vertrages die geleasten Fahrzeuge kostenlos erwerben.",
+      "Leasing ist immer kostengünstiger als ein kreditfinanzierter Kauf.",
+      "Die geleasten Fahrzeuge werden immer bilanziert, erhöhen das Vermögen und damit die Kreditfähigkeit.",
+      "Die Leasingfahrzeuge werden grundsätzlich in der Jana Loft KG gemäß AfA-Tabelle abgeschrieben."
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Richtig ist Option 1: Es können zusätzliche Serviceleistungen im Leasingvertrag vereinbart werden.",
+    "erklaerung": "Leasingverträge bieten oft Zusatzleistungen (Wartung, Versicherung). Ein kostenloser Erwerb ist nicht garantiert, Leasing ist nicht immer günstiger, und geleaste Fahrzeuge werden i. d. R. beim Leasinggeber bilanziert und abgeschrieben."
+  },
+  {
+    "id": "wiso-2024s-a8",
+    "themaId": "finanzierung-kreditsicherung",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2024-sommer",
+    "typ": "mc",
+    "text": "Stellen Sie fest, welche Besonderheit das Factoring kennzeichnet, wenn sich die Jana Loft KG entscheidet, über diesen Weg die 200.000,00 € zu finanzieren!",
+    "optionen": [
+      "Beim Factoring werden Forderungen der Jana Loft KG an eine Factoring-Gesellschaft vermietet und die Jana Loft KG erhält dafür ein Entgelt.",
+      "Durch das Factoring steigt das Image der Jana Loft KG bei ihren Kunden.",
+      "Falls die Factoring-Gesellschaft die von der Jana Loft KG erworbenen Forderungen bei den Schuldnern nicht durchsetzen kann, kann sie die Forderungen immer an die Jana Loft KG zurück übertragen.",
+      "Die Factoring-Gesellschaft berechnet einen Abschlag auf die erworbenen Forderungen, um daraus eigene Kosten abdecken und einen Gewinn erzielen zu können.",
+      "Die Factoring-Gesellschaft kauft nur Forderungen von Kunden, die noch nie Zahlungsschwierigkeiten hatten."
+    ],
+    "korrekt": [
+      3
+    ],
+    "loesung": "Richtig ist Option 4: Die Factoring-Gesellschaft berechnet einen Abschlag auf die erworbenen Forderungen.",
+    "erklaerung": "Beim Factoring werden Forderungen verkauft (nicht vermietet); die Factoring-Gesellschaft behält einen Abschlag (Gebühr) ein, um Kosten und Gewinn zu decken."
+  },
+  {
+    "id": "wiso-2024s-a9",
+    "themaId": "rechtsformen-vollmachten",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2024-sommer",
+    "typ": "mc",
+    "text": "Mit der Einzelprokura hat die Jana Loft KG die weitestgehende Vollmacht an Herrn Bast erteilt. Damit sind besondere rechtliche Auflagen verbunden. Geben Sie an, welcher Sachverhalt zutrifft!",
+    "optionen": [
+      "Die Prokura muss nicht ins Handelsregister eingetragen werden.",
+      "Die Jana Loft KG kann die Einzelprokura im Innen- und Außenverhältnis einschränken.",
+      "Der Prokurist unterschreibt mit einem Zusatz, der die Prokura anzeigt.",
+      "Die Prokura kann in der Jana Loft KG von Lukas Voss erteilt werden.",
+      "Die Auflösung der Prokura kann mündlich erfolgen und ist damit erloschen. Eine Streichung im Handelsregister ist nicht erforderlich."
+    ],
+    "korrekt": [
+      2
+    ],
+    "loesung": "Richtig ist Option 3: Der Prokurist unterschreibt mit einem Zusatz, der die Prokura anzeigt (z. B. „ppa.“).",
+    "erklaerung": "Die Prokura muss ins Handelsregister eingetragen werden, ist Dritten gegenüber nicht beschränkbar, wird nur vom Inhaber/Komplementär erteilt, und ihr Erlöschen muss im Handelsregister eingetragen werden."
+  },
+  {
+    "id": "wiso-2024s-a10",
+    "themaId": "rechtsformen-vollmachten",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2024-sommer",
+    "typ": "mc",
+    "text": "Prüfen Sie, in welcher Zeile 2 Handlungen angeführt sind, die Herr Bast als Prokurist ohne weitere spezielle Vollmacht ausführen darf!",
+    "optionen": [
+      "einen neuen Kommanditisten in die KG aufnehmen / einem Abteilungsleiter Prokura erteilen",
+      "ein Angebot an einen Großkunden abgeben / einen Leiter für den Bereich Verkauf einstellen",
+      "ein Grundstück der Jana Loft KG verkaufen / die Bilanz des Unternehmens unterschreiben",
+      "ein Grundstück zum Bau einer Lagerhalle kaufen / zur Finanzierung des Baus eine Grundschuld aufnehmen",
+      "neue Schreibtische und Aktenschränke für die Verwaltung kaufen / einen Antrag auf Eröffnung des Insolvenzverfahrens stellen"
+    ],
+    "korrekt": [
+      1
+    ],
+    "loesung": "Richtig ist Option 2: ein Angebot an einen Großkunden abgeben / einen Leiter für den Bereich Verkauf einstellen.",
+    "erklaerung": "Ein Prokurist darf gewöhnliche und außergewöhnliche Handelsgeschäfte tätigen (Angebote abgeben, Personal einstellen). Nicht erlaubt sind u. a. Grundstücksgeschäfte, Bilanzunterzeichnung, Prokuraerteilung, Aufnahme von Gesellschaftern und Insolvenzantrag."
+  },
+  {
+    "id": "wiso-2024s-a11",
+    "themaId": "rechtsformen-vollmachten",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2024-sommer",
+    "typ": "mc",
+    "text": "Herr Bast erteilt Herrn Schneider allgemeine Handlungsvollmacht. Geben Sie an, welche 2 Erläuterungen zu Prokura und allgemeiner Handlungsvollmacht in der Jana Loft KG richtig sind!",
+    "optionen": [
+      "Herr Bast kann allgemeine Handlungsvollmachten erteilen.",
+      "Die allgemeine Handlungsvollmacht von Herrn Schneider wird in das Handelsregister eingetragen.",
+      "Die allgemeine Handlungsvollmacht für Herrn Schneider kann formlos erteilt werden.",
+      "Herr Schneider kann im Krankheitsfall stellvertretend für Herrn Bast einen Darlehensvertrag unterschreiben.",
+      "Herrn Schneider können keine Beschränkungen für Vertragsabschlüsse auferlegt werden.",
+      "Die Erteilung der Handlungsvollmacht an Herrn Schneider ist ein zweiseitiges und empfangsbedürftiges Rechtsgeschäft."
+    ],
+    "korrekt": [
+      0,
+      2
+    ],
+    "loesung": "Richtig sind Optionen 1 und 3: Ein Prokurist kann allgemeine Handlungsvollmacht erteilen, und diese kann formlos erteilt werden.",
+    "erklaerung": "Die allgemeine Handlungsvollmacht ist formfrei und wird nicht ins Handelsregister eingetragen. Anders als bei der Prokura können dem Handlungsbevollmächtigten Beschränkungen auferlegt werden."
+  },
+  {
+    "id": "wiso-2024s-a12",
+    "themaId": "markt-preisbildung",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2024-sommer",
+    "typ": "mc",
+    "text": "Geben Sie an, um welche Marktform bezüglich des neu entwickelten und patentierten Bürostuhls es sich handelt, wenn es viele Nachfrager gibt!",
+    "optionen": [
+      "Es handelt sich in diesem Fall um ein Polypol, da die Jana Loft KG die neuen Bürostühle vielen potenziellen Nachfragern anbieten möchte.",
+      "Es liegt hier ein zweiseitiges Oligopol vor, da wenige Unternehmen Bürostühle anbieten, aber viele Nachfrager am Markt auftreten.",
+      "Da die Jana Loft KG den neuen Bürostuhl als technische Innovation patentieren lässt, handelt es sich um ein Angebotsoligopol.",
+      "In diesem Fall handelt es sich um ein Nachfragemonopol, da die Jana Loft KG als einzige Anbieterin dieses neuen Modells zunächst nur geringe Stückzahlen anbieten kann.",
+      "Es handelt sich in diesem Fall um ein Angebotsmonopol, da nur die Jana Loft KG den neuen Bürostuhl vielen potenziellen Nachfragern anbietet."
+    ],
+    "korrekt": [
+      4
+    ],
+    "loesung": "Richtig ist Option 5: Es handelt sich um ein Angebotsmonopol.",
+    "erklaerung": "Da die Jana Loft KG durch das Patent als einzige Anbieterin diesem vielen Nachfragern gegenübersteht (ein Anbieter, viele Nachfrager), liegt ein Angebotsmonopol vor."
+  },
+  {
+    "id": "wiso-2024s-a13",
+    "themaId": "markt-preisbildung",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2024-sommer",
+    "typ": "mc",
+    "text": "Stellen Sie fest, mit welcher ökonomisch sinnvollen Preisstrategie die Jana Loft KG mit dem neuartigen Bürostuhl „Ergox“ in den Markt treten sollte!",
+    "optionen": [
+      "Die Jana Loft KG sollte bei hochwertigen Produkten grundsätzlich mit niedrigen Preisen auf den Markt gehen, um diese später halten zu können.",
+      "Da es sich hier um ein Produkt für den Massenmarkt handelt, sollte die Niedrigpreisstrategie bei dem neuen Bürostuhl angewendet werden.",
+      "Eine Preisstrategie für das neue Produkt ist nicht erforderlich, da es aufgrund der hohen technischen Qualität ein Selbstläufer ist.",
+      "Die Jana Loft KG sollte das neue Produkt mit einer Hochpreisstrategie auf den Markt bringen, da sie diesen Bürostuhl als Premium-Produkt anbietet.",
+      "Für den neuen Bürostuhl sollte die Jana Loft KG ein mittleres Preissegment wählen, um den Preis nach Ablauf des Patentschutzes erhöhen zu können."
+    ],
+    "korrekt": [
+      3
+    ],
+    "loesung": "Richtig ist Option 4: Eine Hochpreisstrategie, da der Bürostuhl als hochwertiges Premium-Produkt (patentierte Innovation) angeboten wird.",
+    "erklaerung": "Als patentiertes, technisch hochwertiges Premium-Produkt eignet sich eine Hochpreisstrategie (Skimming), da vorerst kein Wettbewerber das Modell anbieten kann."
+  },
+  {
+    "id": "wiso-2024s-a14",
+    "themaId": "konjunktur-indikatoren",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2024-sommer",
+    "typ": "mc",
+    "text": "Stellen Sie fest, welche Auswirkung die konjunkturelle Entwicklung auf die Absatzmöglichkeiten des neuen Bürostuhls hat!",
+    "optionen": [
+      "Im Boom ist damit zu rechnen, dass die Jana Loft KG ihr Produkt zu hohen Preisen und in hohen Stückzahlen absetzen kann.",
+      "Im Abschwung kann die Jana Loft KG für ihr neues Produkt hohe Preise verlangen, die dann auch zu höheren Absatzzahlen führen.",
+      "Im Aufschwung sinkt das Preisniveau, sodass die Nachfrage nach hochwertigen und teuren Produkten sehr beschränkt ist.",
+      "Zu Beginn der Depressionsphase ist mit schnell steigenden Verkaufszahlen für das neue Produkt zu rechnen, da in Erwartung steigender Preise eine hohe Investitionsneigung besteht.",
+      "Da ein Konjunkturzyklus sich über maximal drei Jahre erstreckt, können geringe Verkaufszahlen in einer Konjunkturphase schnell durch steigende Absätze in anderen Phasen kompensiert werden."
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Richtig ist Option 1: Im Boom kann das Produkt zu hohen Preisen und in hohen Stückzahlen abgesetzt werden.",
+    "erklaerung": "In der Hochkonjunktur (Boom) sind Nachfrage, Kaufkraft und Preise hoch, sodass hochwertige Produkte gut absetzbar sind."
+  },
+  {
+    "id": "wiso-2024s-a15",
+    "themaId": "konjunktur-indikatoren",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2024-sommer",
+    "typ": "mc",
+    "text": "Ordnen Sie die Begriffe den Erläuterungen zu (1 Konjunkturzyklus, 2 Trend, 3 Saisonale Schwankung)!\n\n**a) Prognose über die langfristige Entwicklung des Wirtschaftswachstums**\n**b) Besteht aus den Teilen Expansion, Boom, Rezession, Depression**\n**c) Veränderung der Wirtschaftsstruktur im Winterhalbjahr**",
+    "optionen": [
+      "a) Trend (2), b) Konjunkturzyklus (1), c) Saisonale Schwankung (3)",
+      "a) Konjunkturzyklus (1), b) Trend (2), c) Saisonale Schwankung (3)",
+      "a) Saisonale Schwankung (3), b) Konjunkturzyklus (1), c) Trend (2)",
+      "a) Trend (2), b) Saisonale Schwankung (3), c) Konjunkturzyklus (1)"
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Richtig ist Option 1: a) Trend (2), b) Konjunkturzyklus (1), c) Saisonale Schwankung (3).",
+    "erklaerung": "Der Trend beschreibt die langfristige Wachstumsentwicklung, der Konjunkturzyklus besteht aus Expansion/Boom/Rezession/Depression, und saisonale Schwankungen betreffen jahreszeitlich bedingte Veränderungen."
+  },
+  {
+    "id": "wiso-2024s-a16",
+    "themaId": "konjunktur-indikatoren",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2024-sommer",
+    "typ": "mc",
+    "text": "Ordnen Sie die Kennziffer 1 für Expansion/Boom oder 2 für Rezession/Depression den Beispielen für Kundenverhalten zu!\n\n**a) Aufgrund geringerer Lohnerhöhungen sinkt die Ausgabebereitschaft der Kunden.**\n**b) Aufgrund deutlicher Lohnerhöhungen steigt die Nachfrage nach Konsumgütern.**\n**c) Es zeichnet sich eine steigende Nachfrage nach Investitionsgütern ab.**\n**d) Kunden stellen Anschaffungen zurück.**",
+    "optionen": [
+      "a) 2, b) 1, c) 1, d) 2",
+      "a) 1, b) 2, c) 2, d) 1",
+      "a) 2, b) 1, c) 2, d) 1",
+      "a) 1, b) 1, c) 2, d) 2"
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Richtig ist Option 1: a) 2 (Rezession), b) 1 (Expansion/Boom), c) 1 (Expansion/Boom), d) 2 (Rezession).",
+    "erklaerung": "Sinkende Ausgabebereitschaft und zurückgestellte Anschaffungen kennzeichnen die Rezession/Depression; steigende Nachfrage nach Konsum- und Investitionsgütern kennzeichnet Expansion/Boom."
+  },
+  {
+    "id": "wiso-2024s-a17",
+    "themaId": "konjunktur-indikatoren",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2024-sommer",
+    "typ": "mc",
+    "text": "Sollte sich eine Rezession andeuten, wird die Jana Loft KG größere Investitionen verschieben. Stellen Sie fest, bei welchem Sachverhalt die Jana Loft KG mit einer Rezession rechnen kann!",
+    "optionen": [
+      "Das reale Bruttoinlandsprodukt ist zwei Quartale in Folge gesunken.",
+      "Der Staat erhöht den Körperschaftsteuersatz für Kapitalgesellschaften.",
+      "Die Steuereinnahmen des Staates steigen.",
+      "Die Kapazitätsauslastung und Investitionstätigkeit der Unternehmen steigen.",
+      "Die volkswirtschaftliche Nachfrage ist größer als das Angebot."
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Richtig ist Option 1: Das reale Bruttoinlandsprodukt ist zwei Quartale in Folge gesunken.",
+    "erklaerung": "Eine Rezession (technische Rezession) liegt vor, wenn das reale BIP in mindestens zwei aufeinanderfolgenden Quartalen zurückgeht."
+  },
+  {
+    "id": "wiso-2024s-a18",
+    "themaId": "berufsausbildung-arbeitsrecht",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2024-sommer",
+    "typ": "mc",
+    "text": "Am 1. August 2024 wird Frau Rath (20 Jahre) eine Berufsausbildung zur Kauffrau für Büromanagement in der Jana Loft KG beginnen. Prüfen Sie, welchen der genannten Vertragsinhalte Sie korrigieren müssen!",
+    "optionen": [
+      "Die gültigen Ausbildungsvergütungen sind für alle Ausbildungsjahre eingetragen.",
+      "Die Angaben der Eltern fehlen.",
+      "Die Probezeit beträgt sechs Monate.",
+      "Die Kündigungsvoraussetzungen sind aufgeführt.",
+      "Die Ausbildung dauert 36 Monate."
+    ],
+    "korrekt": [
+      2
+    ],
+    "loesung": "Richtig ist Option 3: Die Probezeit beträgt sechs Monate – dies muss korrigiert werden.",
+    "erklaerung": "Nach § 20 BBiG darf die Probezeit höchstens vier Monate betragen; sechs Monate sind unzulässig. Bei einer 20-Jährigen sind Elternangaben nicht erforderlich, die übrigen Angaben sind korrekt."
+  },
+  {
+    "id": "wiso-2024s-a19",
+    "themaId": "berufsausbildung-arbeitsrecht",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2024-sommer",
+    "typ": "mc",
+    "text": "Stellen Sie fest, welche 2 der folgenden Regelungen den Bestimmungen des Berufsbildungsgesetzes (BBiG) entsprechen!",
+    "optionen": [
+      "Während der Probezeit kann das Berufsausbildungsverhältnis nur mit einer Kündigungsfrist von vier Wochen gekündigt werden.",
+      "Das Ausbildungsverhältnis endet erst mit Ablauf der Ausbildungszeit, auch wenn die Auszubildende die IHK-Abschlussprüfung vorher besteht.",
+      "Vereinbarungen über die Tätigkeit nach der Ausbildung können bereits im Berufsausbildungsvertrag festgelegt werden.",
+      "Eine Kündigung des Berufsausbildungsverhältnisses durch die Auszubildende nach der Probezeit ist möglich, wenn sie eine Ausbildung in einem anderen Ausbildungsberuf beginnen will.",
+      "Die Jana Loft KG muss der Auszubildenden am Tag nach dem Bestehen der Abschlussprüfung einen unbefristeten Arbeitsvertrag ausstellen.",
+      "Die Jana Loft KG muss der Auszubildenden bei Beendigung des Berufsausbildungsverhältnisses ein schriftliches Zeugnis ausstellen."
+    ],
+    "korrekt": [
+      3,
+      5
+    ],
+    "loesung": "Richtig sind Optionen 4 und 6: Kündigung nach der Probezeit bei Berufswechsel möglich; Anspruch auf ein schriftliches Zeugnis bei Beendigung.",
+    "erklaerung": "Nach § 22 BBiG können Auszubildende nach der Probezeit mit vierwöchiger Frist kündigen, u. a. zur Aufgabe/zum Wechsel des Berufs. Nach § 16 BBiG besteht Anspruch auf ein schriftliches Zeugnis. Das Verhältnis endet mit Bestehen der Prüfung; eine Weiterbeschäftigungspflicht besteht nicht."
+  },
+  {
+    "id": "wiso-2024s-a20",
+    "themaId": "berufsausbildung-arbeitsrecht",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2024-sommer",
+    "typ": "mc",
+    "text": "Geben Sie an, was gemäß den Vorschriften des Berufsbildungsgesetzes (BBiG) Teil des Berufsausbildungsvertrages von Frau Rath ist!",
+    "optionen": [
+      "Der fachlich gegliederte Stoffplan der Berufsschule",
+      "Der Ausbildungsplan des Ausbildungsbetriebes",
+      "Der Rahmenlehrplan der Berufsschule",
+      "Der gemeinsame Ausbildungsplan der Berufsschule und des Betriebes",
+      "Die Dauer der täglichen Ruhepausen"
+    ],
+    "korrekt": [
+      1
+    ],
+    "loesung": "Richtig ist Option 2: Der Ausbildungsplan des Ausbildungsbetriebes.",
+    "erklaerung": "Nach § 11 BBiG ist die sachliche und zeitliche Gliederung der Ausbildung (Ausbildungsplan des Betriebes) Vertragsbestandteil. Der Lehrplan der Berufsschule gehört nicht dazu."
+  },
+  {
+    "id": "wiso-2024s-a21",
+    "themaId": "berufsausbildung-arbeitsrecht",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2024-sommer",
+    "typ": "mc",
+    "text": "Frau Rath möchte sich bei der Jugend- und Auszubildendenvertretung (JAV) engagieren. Prüfen Sie, welches Gesetz entsprechende Regelungen enthält!",
+    "optionen": [
+      "Betriebsverfassungsgesetz (BetrVG)",
+      "Handelsgesetzbuch (HGB)",
+      "Berufsbildungsgesetz (BBiG)",
+      "Jugendarbeitsschutzgesetz (JArbSchG)",
+      "Bürgerliches Gesetzbuch (BGB)"
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Richtig ist Option 1: Betriebsverfassungsgesetz (BetrVG).",
+    "erklaerung": "Die Jugend- und Auszubildendenvertretung (JAV) ist in den §§ 60 ff. BetrVG geregelt."
+  },
+  {
+    "id": "wiso-2024s-a22",
+    "themaId": "berufsausbildung-arbeitsrecht",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2024-sommer",
+    "typ": "mc",
+    "text": "Prüfen Sie, welche 2 Gesetze grundsätzliche Regelungen über die maximale Arbeitszeit von Mitarbeiter/-innen enthalten!",
+    "optionen": [
+      "Tarifvertragsgesetz (TVG)",
+      "Jugendarbeitsschutzgesetz (JArbSchG)",
+      "Teilzeit- und Befristungsgesetz (TzBfG)",
+      "Arbeitszeitgesetz (ArbZG)",
+      "Arbeitssicherheitsgesetz (ASiG)",
+      "Berufsbildungsgesetz (BBiG)"
+    ],
+    "korrekt": [
+      1,
+      3
+    ],
+    "loesung": "Richtig sind Optionen 2 und 4: Jugendarbeitsschutzgesetz (JArbSchG) und Arbeitszeitgesetz (ArbZG).",
+    "erklaerung": "Das ArbZG regelt die maximale Arbeitszeit erwachsener Arbeitnehmer, das JArbSchG die maximale Arbeitszeit Jugendlicher."
+  },
+  {
+    "id": "wiso-2024s-a23",
+    "themaId": "arbeitsschutz-umwelt",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2024-sommer",
+    "typ": "mc",
+    "text": "Geben Sie an, welche 2 Sofortmaßnahmen im Falle eines Brandes in der Jana Loft KG zu ergreifen sind!",
+    "optionen": [
+      "Alle Fenster öffnen, damit der Rauch abziehen kann",
+      "Sicherheitsbeauftragten informieren, da er für die technischen Anlagen zuständig ist",
+      "Notruf tätigen",
+      "Vorgesetzten informieren, da dieser die Verantwortung für die Abteilung hat",
+      "Gebäude über den nächsten Fluchtweg verlassen",
+      "Alle erreichbaren Wasserstellen öffnen"
+    ],
+    "korrekt": [
+      2,
+      4
+    ],
+    "loesung": "Richtig sind Optionen 3 und 5: Notruf tätigen und das Gebäude über den nächsten Fluchtweg verlassen.",
+    "erklaerung": "Im Brandfall gilt: Alarmieren (Notruf 112) und in Sicherheit bringen (Gebäude über den Fluchtweg verlassen). Fenster öffnen fördert das Feuer, Wasser ist nicht bei allen Bränden geeignet."
+  },
+  {
+    "id": "wiso-2024s-a24",
+    "themaId": "arbeitsschutz-umwelt",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2024-sommer",
+    "typ": "mc",
+    "text": "Die Jana Loft KG sucht geeignete Maßnahmen, um die Gesundheit am Arbeitsplatz zu fördern. Geben Sie an, welche Maßnahme **nicht** geeignet ist!",
+    "optionen": [
+      "Teilnahme an Ernährungsberatung anbieten",
+      "Angenehme Arbeitsatmosphäre schaffen",
+      "Gemeinsamen Betriebssport anbieten",
+      "Meditationskurse anbieten",
+      "Bekanntgabe des Erfolges und Misserfolges der Mitarbeitertätigkeit vor den Kollegen"
+    ],
+    "korrekt": [
+      4
+    ],
+    "loesung": "Richtig ist Option 5: Die Bekanntgabe von Erfolg/Misserfolg der Mitarbeitertätigkeit vor den Kollegen.",
+    "erklaerung": "Öffentliche Bloßstellung erhöht Stress und schadet der Gesundheit. Die übrigen Maßnahmen (Ernährungsberatung, gute Atmosphäre, Betriebssport, Meditation) fördern die Gesundheit."
+  },
+  {
+    "id": "wiso-2024s-a25",
+    "themaId": "arbeitsschutz-umwelt",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2024-sommer",
+    "typ": "rechnen",
+    "text": "Die Beleuchtungsdauer im Verwaltungsgebäude beträgt durchschnittlich 500 Stunden pro Monat. Durch die Installation von Bewegungsmeldern reduziert sich die Beleuchtungsdauer um 18 % pro Monat. Ermitteln Sie die Beleuchtungsdauer (in Stunden) bei Einsatz der Bewegungsmelder für das ganze Jahr!",
+    "punkte": 3,
+    "loesung": "500 h × (1 − 0,18) = 410 h/Monat; 410 h × 12 Monate = **4.920 Stunden/Jahr**.",
+    "erklaerung": "Die monatliche Beleuchtungsdauer sinkt um 18 % auf 82 % von 500 h = 410 h. Aufs Jahr: 410 h × 12 = 4.920 h."
+  },
+  {
+    "id": "wiso-2024s-a26",
+    "themaId": "arbeitsschutz-umwelt",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2024-sommer",
+    "typ": "rechnen",
+    "text": "Der Stromverbrauch für die Beleuchtungsanlage beträgt 72 Kilowatt pro Stunde. Die Kosten pro Kilowattstunde betragen 0,20 €. Berechnen Sie, wie viel Euro pro Jahr bei Verwendung der Bewegungsmelder eingespart werden können!",
+    "punkte": 3,
+    "loesung": "Eingesparte Beleuchtungsdauer/Jahr: 500 h × 12 = 6.000 h ohne Melder, 4.920 h mit Meldern → Ersparnis 1.080 h/Jahr. Ersparnis = 1.080 h × 72 kW × 0,20 €/kWh = **15.552,00 €**.",
+    "erklaerung": "Jährliche Einsparung der Beleuchtungsstunden: 6.000 h − 4.920 h = 1.080 h. Multipliziert mit 72 kW und 0,20 €/kWh ergibt 1.080 × 72 × 0,20 = 15.552,00 € pro Jahr."
+  },
+  {
+    "id": "wiso-2024s-a27",
+    "themaId": "arbeitsschutz-umwelt",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2024-sommer",
+    "typ": "mc",
+    "text": "Sie werden beauftragt, weitere Möglichkeiten ausfindig zu machen, die Jana Loft KG nachhaltiger zu gestalten. Geben Sie 2 positive Aspekte an!",
+    "optionen": [
+      "Kopiergeräte und Drucker stehen am Wochenende auf Standby.",
+      "Für Kopierer und Drucker werden wiederbefüllbare Druckerpatronen und Tonerkartuschen verwendet.",
+      "Die Jana Loft KG unterstützt durch eine Mitarbeiter-App die Nutzung von Park-and-Ride-Möglichkeiten.",
+      "Die Jana Loft KG verwendet bei Veranstaltungen bevorzugt Einweggeschirr.",
+      "Im Verpackungsbereich werden statt Kartonagen Folien verwendet.",
+      "Die Fenster werden zur Lüftung im Winter nur gekippt und nicht vollständig geöffnet."
+    ],
+    "korrekt": [
+      1,
+      2
+    ],
+    "loesung": "Richtig sind Optionen 2 und 3: Wiederbefüllbare Druckerpatronen/Tonerkartuschen und die Unterstützung von Park-and-Ride.",
+    "erklaerung": "Wiederbefüllbare Kartuschen vermeiden Abfall, Park-and-Ride senkt Emissionen. Standby verbraucht Strom, Einweggeschirr und Folien erzeugen Abfall, und im Winter durchgehend gekippte Fenster verschwenden Heizenergie."
+  },
+  {
+    "id": "wiso-2024s-a28",
+    "themaId": "datenschutz-digitales-arbeiten",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2024-sommer",
+    "typ": "mc",
+    "text": "Im Rahmen der Reorganisation werden die Regelungen zum Datenschutz und zur Datensicherheit der Jana Loft KG überarbeitet, da inzwischen viele Mitarbeiter/-innen teilweise im Homeoffice arbeiten. Stellen Sie fest, welcher Teil der neuen Nutzungsordnung für digitales Arbeiten zur Datensicherheit gehört!",
+    "optionen": [
+      "Persönliche oder personenbezogene Daten sollen vor missbräuchlicher Weiterverarbeitung geschützt werden.",
+      "Die Jana Loft KG sichert zu, dass die persönlichen oder personenbezogenen Daten nicht statistisch ausgewertet werden.",
+      "Auf Wunsch der Kunden der Jana Loft KG werden deren Daten komplett gelöscht.",
+      "Alle durch die Jana Loft KG erhobenen Daten werden durch entsprechende Maßnahmen vor Beschädigung geschützt.",
+      "Die Kunden der Jana Loft KG haben ein Recht darauf, ihre persönlichen oder personenbezogenen Daten berichtigen zu lassen."
+    ],
+    "korrekt": [
+      3
+    ],
+    "loesung": "Richtig ist Option 4: Alle erhobenen Daten werden durch Maßnahmen vor Beschädigung geschützt.",
+    "erklaerung": "Datensicherheit betrifft den technischen Schutz der Daten vor Verlust/Beschädigung/Zerstörung. Die übrigen Punkte betreffen den Datenschutz (Schutz personenbezogener Daten, Rechte der Betroffenen)."
+  },
+  {
+    "id": "wiso-2024s-a29",
+    "themaId": "arbeitsschutz-umwelt",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2024-sommer",
+    "typ": "mc",
+    "text": "Ordnen Sie die Säulen der Nachhaltigkeit (1 Ökonomie, 2 Ökologie, 3 Soziales) den Beispielen aus der Jana Loft KG zu!\n\n**a) Um Eltern wechselnde Arbeitszeiten bei der Jana Loft KG zu erleichtern, soll ein Betriebskindergarten eingerichtet werden.**\n**b) Der bisherige Anbieter von Strom aus Solarenergie wird durch einen kostengünstigeren Anbieter von Strom aus Windkraft ersetzt.**\n**c) Das bisherige Tropenholz für den Möbelbau wird durch zertifiziertes Holz aus heimischen Wäldern ersetzt.**",
+    "optionen": [
+      "a) Soziales (3), b) Ökonomie (1), c) Ökologie (2)",
+      "a) Ökonomie (1), b) Ökologie (2), c) Soziales (3)",
+      "a) Ökologie (2), b) Soziales (3), c) Ökonomie (1)",
+      "a) Soziales (3), b) Ökologie (2), c) Ökonomie (1)"
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Richtig ist Option 1: a) Soziales (3), b) Ökonomie (1), c) Ökologie (2).",
+    "erklaerung": "Betriebskindergarten = soziale Säule; Wechsel zum kostengünstigeren Anbieter (Kostenaspekt) = ökonomische Säule; Ersatz von Tropenholz durch zertifiziertes heimisches Holz = ökologische Säule."
+  },
+  {
+    "id": "wiso-2024s-a30",
+    "themaId": "datenschutz-digitales-arbeiten",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2024-sommer",
+    "typ": "mc",
+    "text": "Im Rahmen der Reorganisation will die Jana Loft KG ein Buchungssystem zur Online-Terminbuchung auf ihrer Website einrichten. Geben Sie 1 möglichen Nachteil dieser Neuerung an!",
+    "optionen": [
+      "Die Kunden können ihre Termine auch außerhalb der Bürozeiten buchen.",
+      "Die Termine der Kundenberater der Jana Loft KG werden automatisch abgeglichen.",
+      "Leerzeiten und Doppelbuchungen werden nahezu vermieden.",
+      "Eine automatische Terminerinnerung verringert das Vergessen der Termine.",
+      "Spezielle Fragen der Kunden können nicht schon bei der Terminabsprache geklärt werden."
+    ],
+    "korrekt": [
+      4
+    ],
+    "loesung": "Richtig ist Option 5: Spezielle Fragen der Kunden können nicht schon bei der Terminabsprache geklärt werden.",
+    "erklaerung": "Bei der automatisierten Online-Buchung entfällt der persönliche Kontakt, sodass individuelle Rückfragen nicht direkt geklärt werden können. Die übrigen Punkte sind Vorteile."
+  },
+  {
+    "id": "wiso-2024s-a31",
+    "themaId": "prozesse-epk",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2024-sommer",
+    "typ": "mc",
+    "text": "Zur Überprüfung des Ablaufs des Zahlungsverkehrs mit Kunden sollen die Schritte mit einer ereignisgesteuerten Prozesskette (EPK) dargestellt werden. Im abgebildeten Ausschnitt fehlt beim Fragezeichen ein Symbol: Nach der Funktion „Prüfen des Betrages“ verzweigt der Ablauf zu den einander ausschließenden Ereignissen „Betrag stimmt“ und „Betrag stimmt nicht“. Geben Sie an, welches Symbol hier eingefügt werden muss!",
+    "optionen": [
+      "Bestätigung an Kunden versenden (Funktion)",
+      "Betrag ist geprüft (Ereignis)",
+      "XOR (exklusives Oder)",
+      "V (inklusives Oder)",
+      "∧ (logisches Und)"
+    ],
+    "korrekt": [
+      2
+    ],
+    "loesung": "Richtig ist Option 3: Der XOR-Konnektor (exklusives Oder).",
+    "erklaerung": "Da sich die beiden Ergebnisse „Betrag stimmt“ und „Betrag stimmt nicht“ gegenseitig ausschließen, wird der Verzweigungsoperator XOR (exklusives Oder) eingesetzt."
+  }
+]

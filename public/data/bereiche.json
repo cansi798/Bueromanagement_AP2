@@ -1,0 +1,34 @@
+[
+  {
+    "id": "wiso",
+    "name": "Wirtschafts- und Sozialkunde",
+    "kurz": "WiSo",
+    "beschreibung": "Wirtschaftliche und soziale Zusammenhänge im Berufsalltag – der WiSo-Teil der Abschlussprüfung.",
+    "farbe": "sky",
+    "hatStufen": true
+  },
+  {
+    "id": "kbz",
+    "name": "Kundenbeziehungsprozesse",
+    "kurz": "KBZ",
+    "beschreibung": "Der große schriftliche AP2-Teil: Auftragsbearbeitung, Beschaffung, Rechnungswesen und Kundenkommunikation.",
+    "farbe": "emerald",
+    "hatStufen": true
+  },
+  {
+    "id": "buchfuehrung",
+    "name": "Buchführung & KLR",
+    "kurz": "BuFü",
+    "beschreibung": "Buchungssätze, Kosten- und Leistungsrechnung – gezieltes Training für den Rechnungswesen-Anteil.",
+    "farbe": "amber",
+    "hatStufen": true
+  },
+  {
+    "id": "muendlich",
+    "name": "Mündliche Prüfung",
+    "kurz": "Mündlich",
+    "beschreibung": "Report, Fachaufgabe und Prüfungsgespräch – mit über 60 Beispielprüfungen üben.",
+    "farbe": "violet",
+    "hatStufen": false
+  }
+]

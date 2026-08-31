@@ -1,0 +1,120 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "content.schema.json",
+  "title": "KBM Prüfungscoach Content-Schema",
+  "$defs": {
+    "bereichId": {
+      "enum": ["wiso", "kbz", "buchfuehrung", "muendlich"]
+    },
+    "medienSlot": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["titel", "status"],
+      "properties": {
+        "titel": { "type": "string", "minLength": 1 },
+        "url": { "type": "string", "minLength": 1 },
+        "status": { "enum": ["geplant", "vorhanden"] }
+      }
+    },
+    "medien": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "video": { "$ref": "#/$defs/medienSlot" },
+        "podcast": { "$ref": "#/$defs/medienSlot" }
+      }
+    },
+    "bereich": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "kurz", "beschreibung", "farbe", "hatStufen"],
+      "properties": {
+        "id": { "$ref": "#/$defs/bereichId" },
+        "name": { "type": "string", "minLength": 1 },
+        "kurz": { "type": "string", "minLength": 1 },
+        "beschreibung": { "type": "string", "minLength": 1 },
+        "farbe": { "type": "string", "minLength": 1 },
+        "hatStufen": { "type": "boolean" }
+      }
+    },
+    "thema": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "bereich", "name", "beschreibung", "haeufigkeit", "lernzettel", "eselsbruecken", "selbstcheck"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "bereich": { "$ref": "#/$defs/bereichId" },
+        "name": { "type": "string", "minLength": 1 },
+        "beschreibung": { "type": "string", "minLength": 1 },
+        "haeufigkeit": { "type": "array", "items": { "type": "string", "pattern": "^[0-9]{4}-(sommer|winter)$" } },
+        "lernzettel": { "type": "string" },
+        "eselsbruecken": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "selbstcheck": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "medien": { "$ref": "#/$defs/medien" }
+      }
+    },
+    "aufgabe": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "themaId", "bereich", "quelle", "typ", "text", "loesung"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "themaId": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "bereich": { "$ref": "#/$defs/bereichId" },
+        "quelle": { "enum": ["original", "abgeleitet", "generiert"] },
+        "termin": { "type": "string", "pattern": "^[0-9]{4}-(sommer|winter)$" },
+        "typ": { "enum": ["mc", "offen", "rechnen"] },
+        "text": { "type": "string", "minLength": 1 },
+        "anlagenText": { "type": "string" },
+        "punkte": { "type": "number", "minimum": 0 },
+        "optionen": { "type": "array", "items": { "type": "string", "minLength": 1 }, "minItems": 2 },
+        "korrekt": { "type": "array", "items": { "type": "integer", "minimum": 0 }, "minItems": 1 },
+        "loesung": { "type": "string", "minLength": 1 },
+        "erklaerung": { "type": "string" }
+      },
+      "if": { "properties": { "typ": { "const": "mc" } } },
+      "then": { "required": ["optionen", "korrekt"] }
+    },
+    "pruefung": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["termin", "bereich", "name", "zeitMinuten", "punkteGesamt", "aufgabenIds"],
+      "properties": {
+        "termin": { "type": "string", "pattern": "^[0-9]{4}-(sommer|winter)$" },
+        "bereich": { "$ref": "#/$defs/bereichId" },
+        "name": { "type": "string", "minLength": 1 },
+        "zeitMinuten": { "type": "number", "exclusiveMinimum": 0 },
+        "punkteGesamt": { "type": "number", "exclusiveMinimum": 0 },
+        "aufgabenIds": { "type": "array", "items": { "type": "string", "pattern": "^[a-z0-9-]+$" }, "minItems": 1 }
+      }
+    },
+    "karteikarte": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "themaId", "bereich", "vorderseite", "rueckseite"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "themaId": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "bereich": { "$ref": "#/$defs/bereichId" },
+        "vorderseite": { "type": "string", "minLength": 1 },
+        "rueckseite": { "type": "string", "minLength": 1 }
+      }
+    },
+    "glossarEintrag": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["begriff", "definition", "bereiche"],
+      "properties": {
+        "begriff": { "type": "string", "minLength": 1 },
+        "definition": { "type": "string", "minLength": 1 },
+        "bereiche": { "type": "array", "items": { "$ref": "#/$defs/bereichId" }, "minItems": 1 }
+      }
+    },
+    "bereichListe": { "type": "array", "items": { "$ref": "#/$defs/bereich" }, "minItems": 4, "maxItems": 4 },
+    "themaListe": { "type": "array", "items": { "$ref": "#/$defs/thema" } },
+    "aufgabeListe": { "type": "array", "items": { "$ref": "#/$defs/aufgabe" } },
+    "pruefungListe": { "type": "array", "items": { "$ref": "#/$defs/pruefung" } },
+    "karteikarteListe": { "type": "array", "items": { "$ref": "#/$defs/karteikarte" } },
+    "glossarListe": { "type": "array", "items": { "$ref": "#/$defs/glossarEintrag" } }
+  }
+}

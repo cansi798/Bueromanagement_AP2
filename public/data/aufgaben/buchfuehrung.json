@@ -1,0 +1,641 @@
+[
+  {
+    "id": "bufu-2025s-a51",
+    "themaId": "buchungssaetze-kontierung",
+    "bereich": "buchfuehrung",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "offen",
+    "text": "Kontieren Sie Beleg Nr. 1 (Ausgangsrechnung / Warenverkauf auf Ziel der Jana Loft KG). Bilden Sie den Buchungssatz mit den vierstelligen Kontonummern des Kontenrahmens (Forderungen 2404, Umsatzerlöse 5100, Umsatzsteuer 4800).",
+    "punkte": 2.17,
+    "loesung": "Forderungen aus Lieferungen und Leistungen 2404 an Umsatzerlöse 5100 und Umsatzsteuer 4800.",
+    "erklaerung": "Verkauf auf Ziel: Die Forderung (Aktivkonto 2404) nimmt zu und steht im Soll (Bruttobetrag). Im Haben stehen der Nettoerlös auf Umsatzerlöse 5100 und die vereinnahmte Umsatzsteuer 4800."
+  },
+  {
+    "id": "bufu-2025s-a52",
+    "themaId": "buchungssaetze-kontierung",
+    "bereich": "buchfuehrung",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "offen",
+    "text": "Kontieren Sie Beleg Nr. 2 (Eingangsrechnung über bezogene Leistung/Ware mit Vorsteuer, Zahlung auf Ziel). Bilden Sie den Buchungssatz (Aufwand 6104, Vorsteuer 2600, Verbindlichkeiten 4407).",
+    "punkte": 2.17,
+    "loesung": "Aufwandskonto 6104 und Vorsteuer 2600 an Verbindlichkeiten aus Lieferungen und Leistungen 4407.",
+    "erklaerung": "Einkauf auf Ziel: Der Nettoaufwand (6104) und die abziehbare Vorsteuer (2600, Forderung ans Finanzamt) stehen im Soll, die Verbindlichkeit (4407) mit dem Bruttobetrag im Haben."
+  },
+  {
+    "id": "bufu-2025s-a53",
+    "themaId": "buchungssaetze-kontierung",
+    "bereich": "buchfuehrung",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "offen",
+    "text": "Kontieren Sie Beleg Nr. 3 (Gutschrift/Erlösberichtigung wegen Rücksendung eines Kunden). Bilden Sie den Buchungssatz (Umsatzerlöse 5100, Umsatzsteuer 4800, Forderungen 2404).",
+    "punkte": 2.17,
+    "loesung": "Umsatzerlöse 5100 und Umsatzsteuer 4800 an Forderungen aus Lieferungen und Leistungen 2404.",
+    "erklaerung": "Die Gutschrift ist die Umkehrung des Verkaufs (Beleg 1): Umsatzerlöse und Umsatzsteuer werden im Soll gemindert, die Forderung 2404 wird im Haben abgebaut."
+  },
+  {
+    "id": "bufu-2025s-a55",
+    "themaId": "buchungssaetze-kontierung",
+    "bereich": "buchfuehrung",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "offen",
+    "text": "Kontieren Sie den Zahlungseingang des Überweisungsbetrags (Kunde zahlt unter Abzug von 2 % Skonto per Banküberweisung auf das Sparkassenkonto der Jana Loft KG). Buchen Sie mit Skontokorrektur (Bank 2800, gewährte Skonti 5101, Umsatzsteuer 4800, Forderungen 2404).",
+    "punkte": 2.17,
+    "loesung": "Bank 2800 und gewährte Skonti/Erlösschmälerung 5101 und Umsatzsteuer 4800 an Forderungen 2404.",
+    "erklaerung": "Der Kunde überweist den um 2 % Skonto gekürzten Bruttobetrag auf das Bankkonto (2800, Soll). Das gewährte Skonto mindert die Umsatzerlöse (5101, Soll) und anteilig die Umsatzsteuer (4800, Soll). Im Haben wird die volle offene Forderung (2404) ausgeglichen."
+  },
+  {
+    "id": "bufu-2025s-a56",
+    "themaId": "buchungssaetze-kontierung",
+    "bereich": "buchfuehrung",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "offen",
+    "text": "Kontieren Sie Beleg Nr. 4 (Eingangsrechnung über Büromaterial/Verwaltungsaufwand mit Vorsteuer auf Ziel). Bilden Sie den Buchungssatz (Aufwand 6080, Vorsteuer 2600, Verbindlichkeiten 4402).",
+    "punkte": 2.17,
+    "loesung": "Aufwand 6080 und Vorsteuer 2600 an Verbindlichkeiten aus Lieferungen und Leistungen 4402.",
+    "erklaerung": "Nettoaufwand auf das Aufwandskonto 6080 (Soll) und die Vorsteuer 2600 (Soll), Bruttobetrag als Verbindlichkeit 4402 (Haben)."
+  },
+  {
+    "id": "bufu-2025s-a57",
+    "themaId": "buchungssaetze-kontierung",
+    "bereich": "buchfuehrung",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "offen",
+    "text": "Kontieren Sie Beleg Nr. 5 (Eingangsrechnung über Werbe-/Vertriebsaufwand mit Vorsteuer auf Ziel). Bilden Sie den Buchungssatz (Aufwand 6800, Vorsteuer 2600, Verbindlichkeiten 4499).",
+    "punkte": 2.17,
+    "loesung": "Aufwand 6800 und Vorsteuer 2600 an Verbindlichkeiten aus Lieferungen und Leistungen 4499.",
+    "erklaerung": "Nettoaufwand auf 6800 (Soll) und Vorsteuer 2600 (Soll), Bruttobetrag als Verbindlichkeit 4499 (Haben)."
+  },
+  {
+    "id": "bufu-buchungssaetze-kontierung-g1",
+    "themaId": "buchungssaetze-kontierung",
+    "bereich": "buchfuehrung",
+    "quelle": "generiert",
+    "typ": "mc",
+    "text": "Auf welcher Seite und mit welchem Grundsatz wird ein Buchungssatz gebildet?",
+    "optionen": [
+      "Soll an Haben – zuerst das Sollkonto, dann das Habenkonto.",
+      "Haben an Soll – zuerst das Habenkonto.",
+      "Beide Konten stehen im Soll.",
+      "Es wird nur ein einziges Konto bebucht."
+    ],
+    "korrekt": [0],
+    "loesung": "Soll an Haben.",
+    "erklaerung": "Jeder Buchungssatz nennt zuerst das/die Sollkonto(en), dann mit 'an' das/die Habenkonto(en). Die Summe im Soll entspricht der Summe im Haben."
+  },
+  {
+    "id": "bufu-buchungssaetze-kontierung-g2",
+    "themaId": "buchungssaetze-kontierung",
+    "bereich": "buchfuehrung",
+    "quelle": "generiert",
+    "typ": "mc",
+    "text": "Wie lautet der Buchungssatz für den Kauf von Büromaterial auf Ziel (netto plus 19 % Vorsteuer)?",
+    "optionen": [
+      "Büromaterial und Vorsteuer an Verbindlichkeiten aus Lieferungen und Leistungen.",
+      "Verbindlichkeiten an Büromaterial und Vorsteuer.",
+      "Büromaterial an Umsatzsteuer und Bank.",
+      "Bank an Büromaterial und Vorsteuer."
+    ],
+    "korrekt": [0],
+    "loesung": "Büromaterial (Aufwand) und Vorsteuer an Verbindlichkeiten aus Lieferungen und Leistungen.",
+    "erklaerung": "Nettoaufwand und abziehbare Vorsteuer stehen im Soll, der Bruttobetrag als Verbindlichkeit im Haben – es liegt ein Zielkauf vor, also keine Bank."
+  },
+  {
+    "id": "bufu-buchungssaetze-kontierung-g3",
+    "themaId": "buchungssaetze-kontierung",
+    "bereich": "buchfuehrung",
+    "quelle": "generiert",
+    "typ": "mc",
+    "text": "Ein Kunde bezahlt eine offene Rechnung durch Überweisung auf das Bankkonto. Wie wird das gebucht?",
+    "optionen": [
+      "Bank an Forderungen aus Lieferungen und Leistungen.",
+      "Forderungen an Bank.",
+      "Bank an Umsatzerlöse.",
+      "Verbindlichkeiten an Bank."
+    ],
+    "korrekt": [0],
+    "loesung": "Bank an Forderungen aus Lieferungen und Leistungen.",
+    "erklaerung": "Der Zahlungseingang mehrt das Aktivkonto Bank (Soll) und baut die Forderung im Haben ab. Umsatzerlös und Umsatzsteuer wurden bereits beim Verkauf gebucht."
+  },
+  {
+    "id": "bufu-buchungssaetze-kontierung-g4",
+    "themaId": "buchungssaetze-kontierung",
+    "bereich": "buchfuehrung",
+    "quelle": "generiert",
+    "typ": "mc",
+    "text": "Welche Aussage über Vorsteuer und Umsatzsteuer ist richtig?",
+    "optionen": [
+      "Die Vorsteuer ist eine Forderung (aktiv), die Umsatzsteuer eine Verbindlichkeit (passiv) gegenüber dem Finanzamt.",
+      "Beide sind Aufwandskonten.",
+      "Die Umsatzsteuer ist eine Forderung, die Vorsteuer eine Verbindlichkeit.",
+      "Vorsteuer und Umsatzsteuer werden nie gebucht."
+    ],
+    "korrekt": [0],
+    "loesung": "Vorsteuer = Forderung (aktiv), Umsatzsteuer = Verbindlichkeit (passiv).",
+    "erklaerung": "Die beim Einkauf gezahlte Vorsteuer holt sich das Unternehmen vom Finanzamt zurück (Forderung, Soll), die beim Verkauf vereinnahmte Umsatzsteuer schuldet es dem Finanzamt (Verbindlichkeit, Haben)."
+  },
+  {
+    "id": "bufu-buchungssaetze-kontierung-v1",
+    "themaId": "buchungssaetze-kontierung",
+    "bereich": "buchfuehrung",
+    "quelle": "abgeleitet",
+    "typ": "rechnen",
+    "text": "Die Jana Loft KG verkauft Ware für 2.000 € netto zuzüglich 19 % Umsatzsteuer auf Ziel. Bilden Sie den Buchungssatz mit Beträgen (Forderungen an Umsatzerlöse und Umsatzsteuer).",
+    "loesung": "Forderungen 2.380,00 € an Umsatzerlöse 2.000,00 € und Umsatzsteuer 380,00 €.",
+    "erklaerung": "Umsatzsteuer = 2.000 € × 19 % = 380,00 €. Bruttoforderung = 2.000 + 380 = 2.380,00 € im Soll. Im Haben: Umsatzerlöse 2.000,00 € und Umsatzsteuer 380,00 €."
+  },
+  {
+    "id": "bufu-buchungssaetze-kontierung-v2",
+    "themaId": "buchungssaetze-kontierung",
+    "bereich": "buchfuehrung",
+    "quelle": "abgeleitet",
+    "typ": "rechnen",
+    "text": "Ein Kunde begleicht eine Forderung von 1.190,00 € brutto unter Abzug von 3 % Skonto per Banküberweisung (Ware zu 19 % USt). Ermitteln Sie den Überweisungsbetrag und bilden Sie den Buchungssatz (Bank, gewährte Skonti, Umsatzsteuer an Forderungen).",
+    "loesung": "Bank 1.154,30 €, gewährte Skonti 30,00 €, Umsatzsteuer 5,70 € an Forderungen 1.190,00 €.",
+    "erklaerung": "Skonto brutto = 1.190 € × 3 % = 35,70 €. Überweisung = 1.190 − 35,70 = 1.154,30 € (Bank, Soll). Skonto netto = 35,70 / 1,19 = 30,00 € (gewährte Skonti, Soll); enthaltene USt = 35,70 − 30,00 = 5,70 € (Umsatzsteuerkorrektur, Soll). Im Haben wird die volle Forderung 1.190,00 € ausgeglichen."
+  },
+  {
+    "id": "bufu-2025s-a58",
+    "themaId": "umsatzsteuer",
+    "bereich": "buchfuehrung",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "rechnen",
+    "text": "Bereiten Sie die Umsatzsteuervoranmeldung für April 2025 der Jana Loft KG vor. Umsatzerlöse 477.293,66 € netto, Erlösberichtigungen 9.335,75 € netto, Aufwendungen 388.749,40 € netto, Nachlässe 12.966,22 € netto (jeweils 19 % Steuer). Ermitteln Sie die Umsatzsteuer, die Vorsteuer und die Zahllast bzw. den Vorsteuerüberhang. Runden Sie kaufmännisch auf zwei Nachkommastellen.",
+    "punkte": 6,
+    "loesung": "Umsatzsteuer 88.912,01 €; Vorsteuer 71.398,81 €; Umsatzsteuerzahllast 17.513,20 €.",
+    "erklaerung": "USt auf Umsatzerlöse: 477.293,66 × 19 % = 90.685,80 €. Abzüglich USt auf Erlösberichtigungen 9.335,75 × 19 % = 1.773,79 € → Umsatzsteuer 90.685,80 − 1.773,79 = 88.912,01 €. Vorsteuer auf Aufwendungen: 388.749,40 × 19 % = 73.862,39 €. Abzüglich Vorsteuer auf Nachlässe 12.966,22 × 19 % = 2.463,58 € → Vorsteuer 73.862,39 − 2.463,58 = 71.398,81 €. Zahllast = Umsatzsteuer − Vorsteuer = 88.912,01 − 71.398,81 = 17.513,20 € (Zahllast, da USt > Vorsteuer)."
+  },
+  {
+    "id": "bufu-umsatzsteuer-g1",
+    "themaId": "umsatzsteuer",
+    "bereich": "buchfuehrung",
+    "quelle": "generiert",
+    "typ": "mc",
+    "text": "Wie berechnet man die Umsatzsteuerzahllast?",
+    "optionen": [
+      "Umsatzsteuer minus Vorsteuer.",
+      "Vorsteuer minus Umsatzsteuer.",
+      "Umsatzsteuer plus Vorsteuer.",
+      "Umsatzerlöse minus Aufwendungen."
+    ],
+    "korrekt": [0],
+    "loesung": "Zahllast = Umsatzsteuer − Vorsteuer.",
+    "erklaerung": "Von der vereinnahmten Umsatzsteuer wird die gezahlte Vorsteuer abgezogen. Bleibt ein positiver Betrag, ist er als Zahllast ans Finanzamt abzuführen."
+  },
+  {
+    "id": "bufu-umsatzsteuer-g2",
+    "themaId": "umsatzsteuer",
+    "bereich": "buchfuehrung",
+    "quelle": "generiert",
+    "typ": "mc",
+    "text": "Wann ergibt sich ein Vorsteuerüberhang?",
+    "optionen": [
+      "Wenn die Vorsteuer größer ist als die Umsatzsteuer.",
+      "Wenn die Umsatzsteuer größer ist als die Vorsteuer.",
+      "Wenn keine Umsätze getätigt wurden.",
+      "Immer im ersten Monat des Jahres."
+    ],
+    "korrekt": [0],
+    "loesung": "Vorsteuer > Umsatzsteuer.",
+    "erklaerung": "Übersteigt die gezahlte Vorsteuer die vereinnahmte Umsatzsteuer, entsteht ein Vorsteuerüberhang, den das Finanzamt erstattet."
+  },
+  {
+    "id": "bufu-umsatzsteuer-g3",
+    "themaId": "umsatzsteuer",
+    "bereich": "buchfuehrung",
+    "quelle": "generiert",
+    "typ": "mc",
+    "text": "Auf welchem Konto wird die beim Einkauf gezahlte Steuer erfasst und welche Kontenart ist es?",
+    "optionen": [
+      "Vorsteuer – ein aktives Bestandskonto (Forderung an das Finanzamt).",
+      "Umsatzsteuer – ein passives Bestandskonto.",
+      "Vorsteuer – ein Aufwandskonto.",
+      "Umsatzsteuer – ein Ertragskonto."
+    ],
+    "korrekt": [0],
+    "loesung": "Vorsteuer, aktives Bestandskonto.",
+    "erklaerung": "Die Vorsteuer ist eine Forderung gegenüber dem Finanzamt und damit ein Aktivkonto; Zugänge werden im Soll gebucht."
+  },
+  {
+    "id": "bufu-umsatzsteuer-v1",
+    "themaId": "umsatzsteuer",
+    "bereich": "buchfuehrung",
+    "quelle": "abgeleitet",
+    "typ": "rechnen",
+    "text": "Ein Unternehmen hat im Monat Umsatzerlöse von 100.000 € netto und Aufwendungen von 60.000 € netto (jeweils 19 % Steuer). Ermitteln Sie Umsatzsteuer, Vorsteuer und die Zahllast.",
+    "loesung": "Umsatzsteuer 19.000 €; Vorsteuer 11.400 €; Zahllast 7.600 €.",
+    "erklaerung": "Umsatzsteuer = 100.000 × 19 % = 19.000 €. Vorsteuer = 60.000 × 19 % = 11.400 €. Zahllast = 19.000 − 11.400 = 7.600 € (Zahllast, da USt > Vorsteuer)."
+  },
+  {
+    "id": "bufu-umsatzsteuer-v2",
+    "themaId": "umsatzsteuer",
+    "bereich": "buchfuehrung",
+    "quelle": "abgeleitet",
+    "typ": "rechnen",
+    "text": "Ein Betrieb weist Umsatzerlöse von 50.000 € netto und Aufwendungen von 80.000 € netto aus (jeweils 19 %). Ermitteln Sie, ob eine Zahllast oder ein Vorsteuerüberhang vorliegt, und geben Sie den Betrag an.",
+    "loesung": "Umsatzsteuer 9.500 €; Vorsteuer 15.200 €; Vorsteuerüberhang 5.700 €.",
+    "erklaerung": "Umsatzsteuer = 50.000 × 19 % = 9.500 €. Vorsteuer = 80.000 × 19 % = 15.200 €. Da die Vorsteuer größer ist, ergibt sich 15.200 − 9.500 = 5.700 € Vorsteuerüberhang (Erstattung vom Finanzamt)."
+  },
+  {
+    "id": "bufu-2025s-a61",
+    "themaId": "deckungsbeitrag-breakeven",
+    "bereich": "buchfuehrung",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "rechnen",
+    "text": "Ermitteln Sie die Gewinnschwelle (Break-even-Point) in Stück für die neue Schubladenbox 'Hamburg'. Verkaufserlös 99,00 €/Stück, variable Kosten 65,00 €/Stück, Fixkosten 125.800,00 € pro Jahr. Geben Sie den Rechenweg an.",
+    "punkte": 3,
+    "loesung": "3.700 Stück.",
+    "erklaerung": "Deckungsbeitrag je Stück = 99,00 − 65,00 = 34,00 €. Break-even = Fixkosten ÷ Deckungsbeitrag = 125.800 ÷ 34 = 3.700 Stück."
+  },
+  {
+    "id": "bufu-2025s-a62",
+    "themaId": "deckungsbeitrag-breakeven",
+    "bereich": "buchfuehrung",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "rechnen",
+    "text": "Ermitteln Sie die Höhe des Gewinns in €, der bei einer erwarteten jährlichen Absatzmenge von 5.000 Stück der Schubladenbox 'Hamburg' erzielt wird (db 34 €/Stück, Fixkosten 125.800 €). Geben Sie den Rechenweg an.",
+    "punkte": 2,
+    "loesung": "44.200,00 €.",
+    "erklaerung": "Gewinn = Menge × Deckungsbeitrag − Fixkosten = 5.000 × 34 − 125.800 = 170.000 − 125.800 = 44.200,00 €."
+  },
+  {
+    "id": "bufu-2025s-a65",
+    "themaId": "deckungsbeitrag-breakeven",
+    "bereich": "buchfuehrung",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "offen",
+    "text": "Ordnen Sie im Kosten-Erlös-Diagramm des Schubladensystems 'Berlin' die Geraden und Punkte zu: A (steigende Gerade bis 150.000), B (senkrechter Abstand rechts zwischen zwei steigenden Geraden), C (Punkt auf der x-Achse unter dem Schnittpunkt der Geraden). Wählen Sie jeweils den passenden Begriff aus der Kostenrechnung.",
+    "loesung": "A = Gesamterlöse; B = Variable Gesamtkosten; C = Gewinnschwelle.",
+    "erklaerung": "A ist die am steilsten steigende Gerade → Gesamterlöse. B kennzeichnet den Abstand, der die variablen Gesamtkosten über den Fixkosten darstellt → Variable Gesamtkosten. C liegt auf der Mengenachse senkrecht unter dem Schnittpunkt von Gesamtkosten und Gesamterlösen → Gewinnschwelle (Break-even)."
+  },
+  {
+    "id": "bufu-deckungsbeitrag-breakeven-g1",
+    "themaId": "deckungsbeitrag-breakeven",
+    "bereich": "buchfuehrung",
+    "quelle": "generiert",
+    "typ": "mc",
+    "text": "Wie berechnet man den Deckungsbeitrag je Stück?",
+    "optionen": [
+      "Verkaufserlös je Stück minus variable Kosten je Stück.",
+      "Fixkosten geteilt durch die Menge.",
+      "Verkaufserlös je Stück minus Fixkosten je Stück.",
+      "Variable Kosten je Stück minus Verkaufserlös je Stück."
+    ],
+    "korrekt": [0],
+    "loesung": "db = Verkaufserlös/Stück − variable Kosten/Stück.",
+    "erklaerung": "Der Deckungsbeitrag ist der Teil des Verkaufspreises, der nach Abzug der variablen Kosten zur Deckung der Fixkosten und danach zum Gewinn beiträgt."
+  },
+  {
+    "id": "bufu-deckungsbeitrag-breakeven-g2",
+    "themaId": "deckungsbeitrag-breakeven",
+    "bereich": "buchfuehrung",
+    "quelle": "generiert",
+    "typ": "mc",
+    "text": "Mit welcher Formel ermittelt man den Break-even-Point in Stück?",
+    "optionen": [
+      "Fixkosten geteilt durch den Deckungsbeitrag je Stück.",
+      "Fixkosten geteilt durch den Verkaufspreis je Stück.",
+      "Deckungsbeitrag je Stück geteilt durch die Fixkosten.",
+      "Variable Kosten geteilt durch die Fixkosten."
+    ],
+    "korrekt": [0],
+    "loesung": "Break-even = Fixkosten ÷ Deckungsbeitrag je Stück.",
+    "erklaerung": "An der Gewinnschwelle decken die kumulierten Deckungsbeiträge genau die Fixkosten; deshalb Fixkosten durch db teilen."
+  },
+  {
+    "id": "bufu-deckungsbeitrag-breakeven-g3",
+    "themaId": "deckungsbeitrag-breakeven",
+    "bereich": "buchfuehrung",
+    "quelle": "generiert",
+    "typ": "mc",
+    "text": "Was gilt für den Bereich unterhalb der Gewinnschwelle?",
+    "optionen": [
+      "Es liegt die Verlustzone vor, weil die Kosten größer als die Erlöse sind.",
+      "Es liegt die Gewinnzone vor.",
+      "Kosten und Erlöse sind gleich groß.",
+      "Es fallen keine Fixkosten an."
+    ],
+    "korrekt": [0],
+    "loesung": "Verlustzone.",
+    "erklaerung": "Unterhalb des Break-even-Points reichen die Deckungsbeiträge nicht aus, um die Fixkosten zu decken – die Gesamtkosten liegen über den Erlösen, es entsteht Verlust."
+  },
+  {
+    "id": "bufu-deckungsbeitrag-breakeven-v1",
+    "themaId": "deckungsbeitrag-breakeven",
+    "bereich": "buchfuehrung",
+    "quelle": "abgeleitet",
+    "typ": "rechnen",
+    "text": "Ein Produkt hat einen Verkaufspreis von 80 €/Stück, variable Kosten von 50 €/Stück und Fixkosten von 96.000 € pro Jahr. Ermitteln Sie die Gewinnschwelle in Stück. Geben Sie den Rechenweg an.",
+    "loesung": "3.200 Stück.",
+    "erklaerung": "Deckungsbeitrag = 80 − 50 = 30 €/Stück. Break-even = 96.000 ÷ 30 = 3.200 Stück."
+  },
+  {
+    "id": "bufu-deckungsbeitrag-breakeven-v2",
+    "themaId": "deckungsbeitrag-breakeven",
+    "bereich": "buchfuehrung",
+    "quelle": "abgeleitet",
+    "typ": "rechnen",
+    "text": "Bei einem Deckungsbeitrag von 30 €/Stück und Fixkosten von 96.000 € werden 4.000 Stück abgesetzt. Berechnen Sie den Gewinn. Geben Sie den Rechenweg an.",
+    "loesung": "24.000,00 €.",
+    "erklaerung": "Gewinn = Menge × Deckungsbeitrag − Fixkosten = 4.000 × 30 − 96.000 = 120.000 − 96.000 = 24.000,00 €."
+  },
+  {
+    "id": "bufu-2025s-a63",
+    "themaId": "stueckkosten-kostenrechnung",
+    "bereich": "buchfuehrung",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "rechnen",
+    "text": "Die Jana Loft KG will die Produktion der Schubladenbox 'Hamburg' bis zur Kapazitätsgrenze von 10.000 Stück ausweiten. Ermitteln Sie die Stückkosten in € (Fixkosten 125.800 €, variable Kosten 65 €/Stück). Geben Sie den Rechenweg an.",
+    "punkte": 3,
+    "loesung": "77,58 €/Stück.",
+    "erklaerung": "Variable Gesamtkosten = 65 € × 10.000 = 650.000 €. Gesamtkosten = Fixkosten + variable Gesamtkosten = 125.800 + 650.000 = 775.800 €. Stückkosten = 775.800 ÷ 10.000 = 77,58 €/Stück."
+  },
+  {
+    "id": "bufu-2025s-a64",
+    "themaId": "stueckkosten-kostenrechnung",
+    "bereich": "buchfuehrung",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "offen",
+    "text": "Erklären Sie, wie sich die Stückkosten bei einer steigenden Produktionsmenge verändern.",
+    "loesung": "Die Stückkosten sinken (Fixkostenregression/-degression).",
+    "erklaerung": "Die Fixkosten bleiben in Summe konstant und verteilen sich bei steigender Menge auf mehr Stück. Dadurch sinkt der Fixkostenanteil je Stück und damit sinken die gesamten Stückkosten. Dieser Effekt heißt Fixkostenregression. Die variablen Kosten je Stück bleiben unverändert."
+  },
+  {
+    "id": "bufu-stueckkosten-kostenrechnung-g1",
+    "themaId": "stueckkosten-kostenrechnung",
+    "bereich": "buchfuehrung",
+    "quelle": "generiert",
+    "typ": "mc",
+    "text": "Wie berechnet man die Stückkosten?",
+    "optionen": [
+      "(Fixkosten + variable Gesamtkosten) geteilt durch die Produktionsmenge.",
+      "Fixkosten geteilt durch die variablen Kosten.",
+      "Verkaufspreis minus variable Kosten je Stück.",
+      "Variable Kosten je Stück mal Menge."
+    ],
+    "korrekt": [0],
+    "loesung": "Stückkosten = Gesamtkosten ÷ Menge.",
+    "erklaerung": "Die Gesamtkosten aus Fixkosten und variablen Gesamtkosten werden durch die produzierte Menge geteilt."
+  },
+  {
+    "id": "bufu-stueckkosten-kostenrechnung-g2",
+    "themaId": "stueckkosten-kostenrechnung",
+    "bereich": "buchfuehrung",
+    "quelle": "generiert",
+    "typ": "mc",
+    "text": "Warum sinken die Stückkosten bei steigender Produktionsmenge?",
+    "optionen": [
+      "Weil sich die konstanten Fixkosten auf mehr Stück verteilen (Fixkostenregression).",
+      "Weil die variablen Kosten je Stück sinken.",
+      "Weil die Fixkosten insgesamt sinken.",
+      "Weil der Verkaufspreis steigt."
+    ],
+    "korrekt": [0],
+    "loesung": "Fixkostenregression.",
+    "erklaerung": "Die Fixkostensumme bleibt gleich, der Fixkostenanteil je Stück sinkt mit steigender Menge. Die variablen Kosten je Stück bleiben konstant."
+  },
+  {
+    "id": "bufu-stueckkosten-kostenrechnung-g3",
+    "themaId": "stueckkosten-kostenrechnung",
+    "bereich": "buchfuehrung",
+    "quelle": "generiert",
+    "typ": "mc",
+    "text": "Was passiert mit den variablen Kosten je Stück, wenn die Produktionsmenge steigt?",
+    "optionen": [
+      "Sie bleiben je Stück gleich, steigen aber in der Summe.",
+      "Sie sinken je Stück.",
+      "Sie verschwinden ganz.",
+      "Sie werden zu Fixkosten."
+    ],
+    "korrekt": [0],
+    "loesung": "Variable Kosten je Stück bleiben gleich, in Summe steigen sie.",
+    "erklaerung": "Variable Kosten sind proportional zur Menge: pro Stück konstant, in Summe wachsen sie mit der Menge. Nur der Fixkostenanteil je Stück verändert sich."
+  },
+  {
+    "id": "bufu-stueckkosten-kostenrechnung-v1",
+    "themaId": "stueckkosten-kostenrechnung",
+    "bereich": "buchfuehrung",
+    "quelle": "abgeleitet",
+    "typ": "rechnen",
+    "text": "Ermitteln Sie die Stückkosten bei Fixkosten von 96.000 €, variablen Kosten von 50 €/Stück und einer Menge von 8.000 Stück. Geben Sie den Rechenweg an.",
+    "loesung": "62,00 €/Stück.",
+    "erklaerung": "Variable Gesamtkosten = 50 × 8.000 = 400.000 €. Gesamtkosten = 96.000 + 400.000 = 496.000 €. Stückkosten = 496.000 ÷ 8.000 = 62,00 €/Stück."
+  },
+  {
+    "id": "bufu-stueckkosten-kostenrechnung-v2",
+    "themaId": "stueckkosten-kostenrechnung",
+    "bereich": "buchfuehrung",
+    "quelle": "abgeleitet",
+    "typ": "rechnen",
+    "text": "Wie verändern sich die Stückkosten aus der vorigen Aufgabe (Fixkosten 96.000 €, 50 €/Stück variabel), wenn statt 8.000 nur 4.000 Stück produziert werden? Berechnen Sie die neuen Stückkosten.",
+    "loesung": "74,00 €/Stück (Anstieg gegenüber 62,00 €).",
+    "erklaerung": "Variable Gesamtkosten = 50 × 4.000 = 200.000 €. Gesamtkosten = 96.000 + 200.000 = 296.000 €. Stückkosten = 296.000 ÷ 4.000 = 74,00 €/Stück. Bei geringerer Menge verteilen sich die Fixkosten auf weniger Stück, deshalb steigen die Stückkosten."
+  },
+  {
+    "id": "bufu-2025s-a66",
+    "themaId": "zuschlagskalkulation",
+    "bereich": "buchfuehrung",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "rechnen",
+    "text": "Kalkulieren Sie die Selbstkosten für einen Konferenztisch. Fertigungsmaterial 210,00 €, Materialgemeinkostenzuschlag 62,00 %, Fertigungslöhne 135,50 €, Fertigungsgemeinkostenzuschlag 122,50 %, Verwaltungsgemeinkostenzuschlag 10,80 %, Vertriebsgemeinkostenzuschlag 9,50 %. Runden Sie kaufmännisch auf zwei Nachkommastellen.",
+    "punkte": 7,
+    "loesung": "Herstellkosten 641,69 €; Selbstkosten 771,95 €.",
+    "erklaerung": "Fertigungsmaterial 210,00 €. Materialgemeinkosten = 62 % von 210 = 130,20 €. Fertigungslöhne 135,50 €. Fertigungsgemeinkosten = 122,50 % von 135,50 = 165,99 €. Herstellkosten = 210 + 130,20 + 135,50 + 165,99 = 641,69 €. Verwaltungsgemeinkosten = 10,80 % von 641,69 = 69,30 €. Vertriebsgemeinkosten = 9,50 % von 641,69 = 60,96 €. Selbstkosten = 641,69 + 69,30 + 60,96 = 771,95 €."
+  },
+  {
+    "id": "bufu-zuschlagskalkulation-g1",
+    "themaId": "zuschlagskalkulation",
+    "bereich": "buchfuehrung",
+    "quelle": "generiert",
+    "typ": "mc",
+    "text": "Auf welche Basis werden die Fertigungsgemeinkosten (FGK) bezogen?",
+    "optionen": [
+      "Auf die Fertigungslöhne.",
+      "Auf das Fertigungsmaterial.",
+      "Auf die Herstellkosten.",
+      "Auf die Selbstkosten."
+    ],
+    "korrekt": [0],
+    "loesung": "Auf die Fertigungslöhne.",
+    "erklaerung": "Der Fertigungsgemeinkostenzuschlag wird prozentual auf die Fertigungslöhne berechnet, ebenso wie die Materialgemeinkosten auf das Fertigungsmaterial bezogen werden."
+  },
+  {
+    "id": "bufu-zuschlagskalkulation-g2",
+    "themaId": "zuschlagskalkulation",
+    "bereich": "buchfuehrung",
+    "quelle": "generiert",
+    "typ": "mc",
+    "text": "Wie ergeben sich die Herstellkosten im Kalkulationsschema?",
+    "optionen": [
+      "Fertigungsmaterial + Materialgemeinkosten + Fertigungslöhne + Fertigungsgemeinkosten.",
+      "Herstellkosten + Verwaltungs- und Vertriebsgemeinkosten.",
+      "Nur Fertigungsmaterial + Fertigungslöhne.",
+      "Selbstkosten minus Gewinnzuschlag."
+    ],
+    "korrekt": [0],
+    "loesung": "FM + MGK + FL + FGK = Herstellkosten.",
+    "erklaerung": "Die Herstellkosten fassen Material- und Fertigungskosten (jeweils Einzel- plus Gemeinkosten) zusammen. Verwaltung und Vertrieb folgen erst danach zu den Selbstkosten."
+  },
+  {
+    "id": "bufu-zuschlagskalkulation-g3",
+    "themaId": "zuschlagskalkulation",
+    "bereich": "buchfuehrung",
+    "quelle": "generiert",
+    "typ": "mc",
+    "text": "Worauf werden Verwaltungs- und Vertriebsgemeinkosten prozentual berechnet?",
+    "optionen": [
+      "Auf die Herstellkosten.",
+      "Auf das Fertigungsmaterial.",
+      "Auf die Fertigungslöhne.",
+      "Auf den Gewinnzuschlag."
+    ],
+    "korrekt": [0],
+    "loesung": "Auf die Herstellkosten.",
+    "erklaerung": "Verwaltungs- und Vertriebsgemeinkosten werden mit ihrem Zuschlagssatz auf die Herstellkosten bezogen und ergeben zusammen mit ihnen die Selbstkosten."
+  },
+  {
+    "id": "bufu-zuschlagskalkulation-v1",
+    "themaId": "zuschlagskalkulation",
+    "bereich": "buchfuehrung",
+    "quelle": "abgeleitet",
+    "typ": "rechnen",
+    "text": "Kalkulieren Sie die Selbstkosten: Fertigungsmaterial 300,00 €, Materialgemeinkosten 40 %, Fertigungslöhne 200,00 €, Fertigungsgemeinkosten 100 %, Verwaltungsgemeinkosten 10 %, Vertriebsgemeinkosten 5 %. Geben Sie den Rechenweg an.",
+    "loesung": "Herstellkosten 820,00 €; Selbstkosten 943,00 €.",
+    "erklaerung": "Materialgemeinkosten = 40 % von 300 = 120,00 €. Fertigungsgemeinkosten = 100 % von 200 = 200,00 €. Herstellkosten = 300 + 120 + 200 + 200 = 820,00 €. Verwaltungsgemeinkosten = 10 % von 820 = 82,00 €. Vertriebsgemeinkosten = 5 % von 820 = 41,00 €. Selbstkosten = 820 + 82 + 41 = 943,00 €."
+  },
+  {
+    "id": "bufu-zuschlagskalkulation-v2",
+    "themaId": "zuschlagskalkulation",
+    "bereich": "buchfuehrung",
+    "quelle": "abgeleitet",
+    "typ": "rechnen",
+    "text": "Berechnen Sie die Herstellkosten: Fertigungsmaterial 150,00 €, Materialgemeinkosten 50 %, Fertigungslöhne 120,00 €, Fertigungsgemeinkosten 80 %. Geben Sie den Rechenweg an.",
+    "loesung": "Herstellkosten 441,00 €.",
+    "erklaerung": "Materialgemeinkosten = 50 % von 150 = 75,00 €. Fertigungsgemeinkosten = 80 % von 120 = 96,00 €. Herstellkosten = 150 + 75 + 120 + 96 = 441,00 €."
+  },
+  {
+    "id": "bufu-2025s-a671",
+    "themaId": "normalkosten-kostenabweichung",
+    "bereich": "buchfuehrung",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "offen",
+    "text": "Beschreiben Sie den Begriff Normalkosten.",
+    "loesung": "Normalkosten sind die durchschnittlichen Istkosten vergangener Perioden.",
+    "erklaerung": "Normalkosten werden aus den Istkosten mehrerer vergangener Perioden gemittelt. Sie glätten zufällige Schwankungen und dienen als Vergleichsmaßstab für die Nachkalkulation."
+  },
+  {
+    "id": "bufu-2025s-a673",
+    "themaId": "normalkosten-kostenabweichung",
+    "bereich": "buchfuehrung",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "rechnen",
+    "text": "Bei der Nachkalkulation haben sich Ist-Selbstkosten von 810,00 €/Konferenztisch ergeben. Die kalkulierten (Normal-)Selbstkosten betragen 771,95 €. Geben Sie an, ob eine Kostenüber- oder Kostenunterdeckung vorliegt, und ermitteln Sie die Höhe in €.",
+    "punkte": 3,
+    "loesung": "Kostenunterdeckung in Höhe von 38,05 €.",
+    "erklaerung": "Abweichung = Istkosten − Normalkosten = 810,00 − 771,95 = 38,05 €. Da die Istkosten höher sind als die verrechneten Normalkosten, liegt eine Kostenunterdeckung von 38,05 € vor."
+  },
+  {
+    "id": "bufu-2025s-a68",
+    "themaId": "normalkosten-kostenabweichung",
+    "bereich": "buchfuehrung",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "mc",
+    "text": "Welche Erklärung umschreibt den Begriff 'Kosten' richtig?",
+    "optionen": [
+      "Abfluss von Geldmitteln (liquider Mittel) pro Periode.",
+      "Wert aller veräußerten Leistungen pro Periode, die das Geldvermögen erhöhen.",
+      "Wert aller zur Erreichung des Betriebszwecks verbrauchten Güter und Dienstleistungen pro Periode.",
+      "Wert aller im Rahmen des Betriebszwecks erstellten Leistungen pro Periode.",
+      "Wert aller erbrachten Leistungen eines Unternehmens pro Periode."
+    ],
+    "korrekt": [2],
+    "loesung": "Wert aller zur Erreichung des Betriebszwecks verbrauchten Güter und Dienstleistungen pro Periode.",
+    "erklaerung": "Kosten sind der bewertete, betriebszweckbezogene, periodisierte Verbrauch von Gütern und Dienstleistungen. Der Wert erstellter Leistungen wäre dagegen der Leistungsbegriff."
+  },
+  {
+    "id": "bufu-normalkosten-kostenabweichung-g1",
+    "themaId": "normalkosten-kostenabweichung",
+    "bereich": "buchfuehrung",
+    "quelle": "generiert",
+    "typ": "mc",
+    "text": "Wann liegt eine Kostenunterdeckung vor?",
+    "optionen": [
+      "Wenn die Istkosten höher sind als die Normalkosten.",
+      "Wenn die Normalkosten höher sind als die Istkosten.",
+      "Wenn Ist- und Normalkosten gleich sind.",
+      "Wenn keine Fixkosten anfallen."
+    ],
+    "korrekt": [0],
+    "loesung": "Istkosten > Normalkosten.",
+    "erklaerung": "Übersteigen die tatsächlichen Kosten die verrechneten Normalkosten, wurde zu wenig verrechnet – es liegt eine Kostenunterdeckung vor."
+  },
+  {
+    "id": "bufu-normalkosten-kostenabweichung-g2",
+    "themaId": "normalkosten-kostenabweichung",
+    "bereich": "buchfuehrung",
+    "quelle": "generiert",
+    "typ": "mc",
+    "text": "Was sind Normalkosten?",
+    "optionen": [
+      "Die durchschnittlichen Istkosten vergangener Perioden.",
+      "Die geplanten Kosten der nächsten Periode.",
+      "Die höchsten je gemessenen Kosten.",
+      "Die variablen Kosten einer Periode."
+    ],
+    "korrekt": [0],
+    "loesung": "Durchschnittliche Istkosten vergangener Perioden.",
+    "erklaerung": "Normalkosten mitteln die Istkosten mehrerer vergangener Perioden und glätten so Schwankungen; sie dienen als Vergleichsmaßstab."
+  },
+  {
+    "id": "bufu-normalkosten-kostenabweichung-g3",
+    "themaId": "normalkosten-kostenabweichung",
+    "bereich": "buchfuehrung",
+    "quelle": "generiert",
+    "typ": "mc",
+    "text": "Welcher Grund kann dazu führen, dass die Istkosten über den Normalkosten liegen?",
+    "optionen": [
+      "Eine Lohnerhöhung oder gestiegene Materialpreise.",
+      "Eine Senkung der Verkaufspreise.",
+      "Eine höhere Absatzmenge.",
+      "Ein niedrigerer Umsatzsteuersatz."
+    ],
+    "korrekt": [0],
+    "loesung": "Gestiegene Material- oder Lohnkosten.",
+    "erklaerung": "Steigen die Einstandspreise für Material oder die Löhne, fallen höhere Istkosten an als in den Normalkosten kalkuliert – es entsteht eine Kostenunterdeckung."
+  },
+  {
+    "id": "bufu-normalkosten-kostenabweichung-v1",
+    "themaId": "normalkosten-kostenabweichung",
+    "bereich": "buchfuehrung",
+    "quelle": "abgeleitet",
+    "typ": "rechnen",
+    "text": "Die Normalkosten betragen 500,00 €/Stück, die Istkosten 465,00 €/Stück. Geben Sie an, ob eine Kostenüber- oder -unterdeckung vorliegt, und ermitteln Sie die Höhe.",
+    "loesung": "Kostenüberdeckung in Höhe von 35,00 €.",
+    "erklaerung": "Abweichung = Istkosten − Normalkosten = 465,00 − 500,00 = −35,00 €. Da die Istkosten niedriger sind als die verrechneten Normalkosten, liegt eine Kostenüberdeckung von 35,00 € vor."
+  },
+  {
+    "id": "bufu-normalkosten-kostenabweichung-v2",
+    "themaId": "normalkosten-kostenabweichung",
+    "bereich": "buchfuehrung",
+    "quelle": "abgeleitet",
+    "typ": "rechnen",
+    "text": "Die Normalkosten betragen 620,00 €/Stück, die Ist-Selbstkosten 668,50 €/Stück. Ermitteln Sie Art und Höhe der Kostenabweichung.",
+    "loesung": "Kostenunterdeckung in Höhe von 48,50 €.",
+    "erklaerung": "Abweichung = Istkosten − Normalkosten = 668,50 − 620,00 = 48,50 €. Die Istkosten liegen über den Normalkosten, also liegt eine Kostenunterdeckung von 48,50 € vor."
+  }
+]

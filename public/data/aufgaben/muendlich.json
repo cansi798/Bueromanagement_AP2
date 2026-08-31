@@ -1,0 +1,212 @@
+[
+  {
+    "id": "muendlich-p1",
+    "themaId": "wq-auftragssteuerung",
+    "bereich": "muendlich",
+    "quelle": "abgeleitet",
+    "typ": "offen",
+    "text": "Sie sind in der Auftragsabwicklung eingesetzt und sollen die Abläufe in dieser Abteilung kennenlernen und aufzeigen. Ordnen Sie die Arbeitsabläufe im Verkauf chronologisch. Beantworten Sie außerdem: Wie erfolgt die Auftragsannahme? Wie erfolgt die Auftragserfassung? Wie erfolgt die Auftragsbearbeitung?",
+    "loesung": "- **Chronologischer Ablauf:** Kunde fragt an → Beratung → interne Klärung der Anfrage → Kalkulation → Festlegung des Preises → Erstellen des Angebots → Vorschlag beim Kunden → endgültige Vereinbarung → Auftrag wird bearbeitet (Lieferung/Ausführung) → Rechnung → After-Sales-Management → Cross-Selling.\n- **Auftragsannahme:** Vor der Annahme wird dem Kunden ein Angebot mit allen Konditionen erstellt. Nimmt der Kunde an, ist dies rechtlich die Abwicklung des Kaufvertrags nach § 433 BGB. Es folgt eine schriftliche Auftragsbestätigung mit Menge, Bezeichnung, Preis, Liefer-/Leistungsdatum, Fracht- und Verpackungskosten, Zahlungsbedingungen, Gerichtsstand und Eigentumsvorbehalt.\n- **Auftragserfassung:** Anlegen eines neuen Kundenauftrags im DV-System, Ändern eines bestehenden Auftrags oder Ausliefern der Ware. Erfasst werden Kundendaten, Ansprechpartner, Leistung, Preise und Termine; der Auftrag erhält eine Auftragsnummer. Bei Neukunden ist eine Bonitätsprüfung empfehlenswert.\n- **Auftragsbearbeitung:** erfolgt nach der Angebotserstellung, z. B. Bonitätsprüfung, Klärung der Auftragsart, Überprüfung der Lieferbedingungen sowie technischer, terminlicher und kapazitiver Anforderungen.",
+    "erklaerung": "Prüfer achten darauf, dass du den Ablauf lückenlos und in der richtigen Reihenfolge darstellst und den Übergang vom Angebot zum rechtsverbindlichen Kaufvertrag (§ 433 BGB) benennst."
+  },
+  {
+    "id": "muendlich-p2",
+    "themaId": "wq-auftragssteuerung",
+    "bereich": "muendlich",
+    "quelle": "abgeleitet",
+    "typ": "offen",
+    "text": "In den Aufträgen Ihres Unternehmens taucht immer wieder das Wort „Eigentumsvorbehalt\" auf. Erklären Sie den Eigentumsvorbehalt. Wann erlischt er? Unterscheiden Sie den verlängerten Eigentumsvorbehalt und den Verarbeitungsvorbehalt. Unterscheiden Sie außerdem die Begriffe Eigentum und Besitz.",
+    "loesung": "- **Eigentumsvorbehalt:** Das Eigentum geht erst mit vollständiger Zahlung des Kaufpreises auf den Käufer über; der Käufer darf die Sache jedoch bereits nutzen (Übereignung unter aufschiebender Bedingung der vollständigen Zahlung).\n- **Erlöschen:** wenn die Sache untergeht und wertlos ist, mit einem Grundstück oder anderen Sachen zu einer Einheit verbunden wird, verarbeitet wird oder von einem gutgläubigen Dritten erworben wird.\n- **Verarbeitungsvorbehalt:** Der Verkäufer wird auch Eigentümer der aus seiner Lieferung produzierten Sache, bis der Käufer bezahlt hat.\n- **Verlängerter Eigentumsvorbehalt:** Der Verkäufer bleibt bis zur Zahlung Eigentümer, auch wenn die Ware an einen Dritten weiterverkauft wird.\n- **Eigentum vs. Besitz:** Besitz ist die tatsächliche Herrschaft/Gewalt über eine Sache, Eigentum die rechtliche Herrschaft. Beispiel Automiete: Der Mieter ist Besitzer (kann es bewegen), der Vermieter Eigentümer (kann es zurückfordern).",
+    "erklaerung": "Wichtig ist die saubere Trennung von Besitz (tatsächlich) und Eigentum (rechtlich) sowie das Erkennen der Vorbehaltsformen."
+  },
+  {
+    "id": "muendlich-p3",
+    "themaId": "wq-auftragssteuerung",
+    "bereich": "muendlich",
+    "quelle": "abgeleitet",
+    "typ": "offen",
+    "text": "Sie sollen für die Berufsschule eine Präsentation über das Thema Kaufvertrag halten. Wie kommt ein Kaufvertrag zustande? Welchen Inhalt hat das Verpflichtungsgeschäft? Sie kaufen ein Brautkleid für eine große Hochzeit, das zu einem bestimmten Tag geliffert sein muss. Um welchen Kauf handelt es sich und was geschieht, wenn der Lieferant nicht liefert?",
+    "loesung": "- **Zustandekommen:** Ein Kaufvertrag kommt zustande, indem der Verkäufer ein Angebot unterbreitet, das der Käufer zu den beschriebenen Bedingungen annimmt. Oder der Käufer bestellt eine Ware ohne vorliegendes Angebot; der Verkäufer muss ausliefern oder bestätigen.\n- **Verpflichtungsgeschäft:** ein Rechtsgeschäft, durch das sich eine Person gegenüber einer anderen zur Erbringung einer Leistung verpflichtet.\n- **Kaufarten (Beispiele):** Kauf auf Probe (Rückgaberecht in einer Frist), Bestimmungskauf (Menge/Warenart fest, Käufer bestimmt später Farbe/Form/Maß), Kommissionskauf (Verkäufer bleibt Eigentümer, Kommissionär verkauft in eigenem Namen weiter), Kauf auf Abruf, Typenkauf, Stückkauf (nicht vertretbare Sache) vs. Gattungskauf (vertretbare Sache), Terminkauf vs. Fixkauf.\n- **Brautkleid:** Es handelt sich um einen **Fixkauf**, weil das Kleid zu einem festen Termin geliefert sein muss. Ohne Nachfristsetzung habe ich das Recht, sofort vom Vertrag zurückzutreten, auf die Lieferung zu bestehen oder Schadenersatz statt der Leistung zu verlangen.",
+    "erklaerung": "Der Prüfer will sehen, dass du den Fixkauf erkennst und die besonderen Rechtsfolgen (kein Nachfristerfordernis) nennen kannst."
+  },
+  {
+    "id": "muendlich-p4",
+    "themaId": "wq-auftragssteuerung",
+    "bereich": "muendlich",
+    "quelle": "abgeleitet",
+    "typ": "offen",
+    "text": "Sie sollen sich mit den Störungen des Kaufvertrages beschäftigen. Wann gerät ein Lieferer in Verzug und welche Rechte hat der Käufer? Wann gerät der Käufer in Annahmeverzug und welches Recht hat der Lieferer? Wann gerät ein Käufer in Zahlungsverzug und welche Rechte hat der Verkäufer? Definieren Sie außerdem Sachmangel und Rechtsmangel.",
+    "loesung": "- **Lieferverzug:** Ein Lieferer gerät in Verzug, wenn er den zugesicherten Liefertermin nicht einhalten kann. Der Käufer kann mahnen, eine Nachfrist setzen und auf Lieferung bestehen; nach Ablauf der Nachfrist kann er vom Vertrag zurücktreten und/oder Schadenersatz fordern.\n- **Annahmeverzug:** Der Käufer gerät in Annahmeverzug, wenn er ordnungsgemäß (zur rechten Zeit, am rechten Ort, in richtiger Güte und Menge) gelieferte Ware nicht annimmt. Der Verkäufer kann auf Abnahme und Zahlung zusätzlicher Kosten bestehen (gerichtlich) oder nach erfolgloser Nachfrist einen Selbsthilfeverkauf durchführen bzw. zurücktreten.\n- **Zahlungsverzug:** Der Käufer gerät in Zahlungsverzug, wenn er nicht oder nicht rechtzeitig zahlt. Der Verkäufer kann auf Zahlung bestehen und ggf. Schadenersatz fordern; nach Mahnung mit Fristsetzung kann er zurücktreten oder Schadenersatz verlangen.\n- **Sachmangel vs. Rechtsmangel:** Sachmängel sind Mängel an Menge oder Art der gelieferten Ware oder eine fehlerhafte Ware. Rechtsmängel liegen vor, wenn die Ware z. B. zuvor gestohlen wurde, offensichtliche/versteckte Mängel aufweist oder Mängel arglistig verschwiegen werden.",
+    "erklaerung": "Achte darauf, jeweils Voraussetzung (wann?) und Rechtsfolge (welche Rechte?) klar zu trennen."
+  },
+  {
+    "id": "muendlich-p5",
+    "themaId": "wq-auftragssteuerung",
+    "bereich": "muendlich",
+    "quelle": "abgeleitet",
+    "typ": "offen",
+    "text": "Sie lesen ein ausgehendes Angebot genau. Sie sollen den Auszubildenden AGB beibringen. Welche Bedeutung haben AGB? Wann werden AGB unwirksam? Wann ist ein Rechtsgeschäft nichtig? Welche Gründe für die Anfechtbarkeit gibt es?",
+    "loesung": "- **Bedeutung:** In den AGB werden von einer Vertragspartei grundsätzliche Vertragsbedingungen festgehalten, die bei Vertragsabschluss mit einer weiteren Partei gültig werden.\n- **Unwirksamkeit:** AGB werden unwirksam, wenn es z. B. eine Individualabrede zwischen den Parteien gibt (persönliche Absprachen haben Vorrang) oder wenn die AGB nicht klar, deutlich und transparent ausformuliert sind.\n- **Nichtigkeit:** Rechtsgeschäfte sind nichtig, wenn sie gegen ein gesetzliches Verbot (z. B. Verkauf gestohlener Ware) oder die guten Sitten (z. B. Wucherzins) verstoßen, wenn sie nicht der vorgeschriebenen/vereinbarten Form entsprechen (z. B. fehlende notarielle Beurkundung) oder wenn es sich um Scherz- oder Scheingeschäfte handelt.\n- **Anfechtbarkeit:** Rechtsgeschäfte können angefochten werden wegen Irrtums in der Erklärung oder der Übermittlung, wegen arglistiger Täuschung oder wegen widerrechtlicher Drohung.",
+    "erklaerung": "Prüfer trennen gern Nichtigkeit (von Anfang an unwirksam) und Anfechtbarkeit (wird durch Anfechtung unwirksam) – benenne den Unterschied."
+  },
+  {
+    "id": "muendlich-p6",
+    "themaId": "wq-kmu",
+    "bereich": "muendlich",
+    "quelle": "abgeleitet",
+    "typ": "offen",
+    "text": "Bevor Sie in die Büromöbel Hein KG wechselten, waren Sie in einem KMU angestellt. Was bedeutet Aufbauorganisation? Unterscheiden Sie horizontale und vertikale Aufbauorganisation. Beschreiben Sie die Begriffe Stelle, Instanz und Abteilung. Erklären Sie den Instanzenaufbau. Nach welchen Gesichtspunkten kann die Stellenbildung erfolgen?",
+    "loesung": "- **Aufbauorganisation:** eine hierarchische Ordnung und Strukturierung von Zuständigkeiten, die sich aus der Aufgabenverteilung ergeben.\n- **Horizontal vs. vertikal:** Die horizontale Aufbauorganisation verteilt die Aufgaben auf die Aufgabenträger (Mitarbeiter); die vertikale legt den Aufbau der Instanzen, also die Hierarchie, fest.\n- **Begriffe:** Die *Stelle* ist die kleinste Organisationseinheit (ausführendes Organ, umfasst alle Teilaufgaben einer Person). Die *Instanz* ist ein leitendes Organ, der Stelle übergeordnet und weisungsbefugt. Eine *Abteilung* fasst Instanzen und Stellen des gleichen Teilbereichs zusammen.\n- **Instanzenaufbau:** Top-Management (oberste Leitung, legt das Betriebsziel fest), Middle-Management (mittlere Leitung, meist Abteilungsleitung), Lower-Management (untere Leitung mit Entscheidungs-/Anordnungsbefugnis), darunter ausführende Stellen.\n- **Stellenbildung:** über eine Aufgabenanalyse (Zerlegung der Gesamtaufgabe in Teilaufgaben) und Aufgabensynthese (Zusammenfassung); zudem werden Aufgabenträger und Beziehungen zwischen Stellenträgern betrachtet.",
+    "erklaerung": "Ein Organigramm zur Veranschaulichung wirkt hier sehr überzeugend."
+  },
+  {
+    "id": "muendlich-p7",
+    "themaId": "wq-kmu",
+    "bereich": "muendlich",
+    "quelle": "abgeleitet",
+    "typ": "offen",
+    "text": "Die Büromöbel Hein KG ist eine Kommanditgesellschaft. Was ist eine KG? Wie ist die Haftung bei der KG? Nennen Sie Rechte und Pflichten der Komplementäre und der Kommanditisten. Was besagt die Rechtsform GmbH & Co. KG und welche Gründe sprechen für diese Rechtsform?",
+    "loesung": "- **KG:** eine Personengesellschaft, in der sich zwei oder mehr natürliche oder juristische Personen zusammengeschlossen haben, um ein Handelsgewerbe zu betreiben.\n- **Haftung:** Mindestens ein Gesellschafter haftet unbeschränkt (Komplementär), die anderen nur in Höhe ihrer Einlagen (Kommanditisten).\n- **Rechte/Pflichten:** Rechte sind u. a. Geschäftsführung, Kontrolle, Gewinnanteil, Kapitalentnahme, Kündigung. Pflichten sind Leistung der Kapitaleinlage, Geschäftsführung, Wettbewerbsenthaltung und Verlustbeteiligung. Der Kommanditist hat Kontrollrecht (Einsicht in Bücher/Bilanzen) und Recht auf Gewinnanteil, ist aber am Verlust und mit seiner Einlage beteiligt.\n- **GmbH & Co. KG:** eine Sonderform der KG, bei der der persönlich haftende Gesellschafter keine natürliche Person, sondern eine GmbH ist.\n- **Gründe:** Die Haftungsrisiken lassen sich stark begrenzen bzw. liegen bei der GmbH. Zudem verfügt das Unternehmen über die Kommanditeinlagen über flexiblere Möglichkeiten der Kapitalbeschaffung.",
+    "erklaerung": "Der Kern ist die unterschiedliche Haftung von Komplementär und Kommanditist – dies unbedingt sicher benennen."
+  },
+  {
+    "id": "muendlich-p8",
+    "themaId": "wq-kmu",
+    "bereich": "muendlich",
+    "quelle": "abgeleitet",
+    "typ": "offen",
+    "text": "Der Geschäftsführer überlegt, ein Qualitätsmanagement einzurichten. Was versteht man unter Qualitätsmanagement? Welche Gründe sprechen für die Einführung? Nennen Sie Grundsätze des Qualitätsmanagements. Unterscheiden Sie Zertifizierung und Audit.",
+    "loesung": "- **Qualitätsmanagement:** die Planung, Lenkung, Kontrolle und Verbesserung von Prozessen und Abläufen mit dem Ziel, eine bestimmte Qualität des Produktes oder der Dienstleistung zu erzielen.\n- **Gründe für die Einführung:** Verbesserung der Wettbewerbsposition, mehr Transparenz über betriebliche Abläufe, höhere Kunden- und Mitarbeiterzufriedenheit. Es werden einheitliche, schriftlich dokumentierte und aufeinander abgestimmte Arbeitsvorgaben für alle Mitarbeiter erstellt.\n- **Grundsätze (ISO 9001):** Kundenorientierung, Führung, Einbeziehung von Personen, prozessorientierter Ansatz, Verbesserung, faktengestützte Entscheidungsfindung, Beziehungsmanagement.\n- **Audit vs. Zertifizierung:** Ein Audit kann von einem internen Mitarbeiter durchgeführt werden; das QMS wird überprüft und führt ggf. zu Verbesserungsvorschlägen. Eine Zertifizierung muss durch einen externen, neutralen Prüfer erfolgen; Ziel ist ein Zertifikat.",
+    "erklaerung": "Der Unterschied intern (Audit) vs. extern/neutral (Zertifizierung) ist die typische Nachfrage."
+  },
+  {
+    "id": "muendlich-p9",
+    "themaId": "wq-kmu",
+    "bereich": "muendlich",
+    "quelle": "abgeleitet",
+    "typ": "offen",
+    "text": "Es ist Dezember und Sie sind im letzten Lehrjahr. Sie sollen beim Jahresabschluss aktiv mithelfen. Was versteht man unter einer Inventur? Muss ein Jahresabschluss immer zum 31.12. sein? Was ist eine verlegte Inventur? Was ist eine permanente Inventur?",
+    "loesung": "- **Inventur:** die körperliche und buchmäßige Bestandsaufnahme aller Vermögensteile und Schulden nach Art, Menge und Wert.\n- **Stichtag:** Nein, der Jahresabschluss erfolgt zum Ende des Geschäftsjahres, das anders als das Kalenderjahr sein kann.\n- **Verlegte Inventur:** Die körperliche Bestandsaufnahme wird zu einem Zeitpunkt innerhalb der letzten drei Monate vor oder der ersten zwei Monate nach dem Abschlussstichtag durchgeführt. Der ermittelte Bestand wird wertmäßig auf den Abschlussstichtag fortgeschrieben bzw. zurückgerechnet.\n- **Permanente Inventur:** Die Bestandsfortschreibung aller Bestände nach Art und Menge erfolgt anhand der Lagerbücher/Lagerdatei dauerhaft über das gesamte Geschäftsjahr. Einmal jährlich erfolgt eine körperliche Inventur.",
+    "erklaerung": "Prüfer prüfen gern, ob du Stichtags-, verlegte und permanente Inventur sauber auseinanderhalten kannst."
+  },
+  {
+    "id": "muendlich-p10",
+    "themaId": "wq-einkauf-logistik",
+    "bereich": "muendlich",
+    "quelle": "abgeleitet",
+    "typ": "offen",
+    "text": "Sie sind in der Lagerverwaltung tätig. Gegeben: täglicher Absatz 100 Stück, Mindestbestand 1.000 Stück, Jahresanfangsbestand 1.400 Stück, Jahresendbestand 1.600 Stück, Jahresabsatz 30.000 Stück, Lieferzeit 8 Tage. Erläutern Sie Mindestbestand und Umschlagshäufigkeit. Berechnen Sie Meldebestand, durchschnittlichen Lagerbestand, Umschlagshäufigkeit und durchschnittliche Lagerdauer.",
+    "loesung": "- **Mindestbestand:** darf im normalen Betriebsablauf nicht unterschritten werden, um die Lieferbereitschaft nicht zu gefährden.\n- **Umschlagshäufigkeit:** gibt an, wie oft der durchschnittliche Lagerbestand innerhalb eines Zeitraums verkauft bzw. umgesetzt wird.\n- **Meldebestand:** 100 Stk. × 8 Tage + 1.000 Stk. Mindestbestand = **1.800 Stück**.\n- **Durchschnittlicher Lagerbestand:** (1.400 + 1.600) / 2 = **1.500 Stück**.\n- **Umschlagshäufigkeit:** 30.000 / 1.500 = **20×**.\n- **Durchschnittliche Lagerdauer:** 360 / 20 = **18 Tage**.",
+    "erklaerung": "Hier zählt die richtige Formelanwendung – nenne die Formel jeweils, bevor du einsetzt."
+  },
+  {
+    "id": "muendlich-p11",
+    "themaId": "wq-einkauf-logistik",
+    "bereich": "muendlich",
+    "quelle": "abgeleitet",
+    "typ": "offen",
+    "text": "In Ihrer Unternehmung werden hochwertige Tische hergestellt. Bei einem Meeting wird vorgeschlagen, die Tischplatte selbst zu produzieren statt zuzukaufen (Make-or-Buy). Kosten Fremdbezug: 65,30 € je Stück. Eigenfertigung: fixe Kosten 400.000 €, variable Kosten 20,25 € je Stück. Berechnen Sie die kritische Menge und erläutern Sie, welche Bezugsart günstiger ist.",
+    "loesung": "- **Vorgehen:** Vergleich der Gesamtkosten Eigenfertigung (Fixkosten + variable Kosten × Menge) mit den Kosten des Fremdbezugs (65,30 € × Menge).\n- **Kritische Menge:** Ab einer Produktionsmenge von **10.000 Tischen** weist die Eigenfertigung eine höhere Wirtschaftlichkeit auf; ab dieser Menge kann das Unternehmen mit Eigenfertigung günstiger produzieren.\n- **Interpretation:** Bei Mengen unterhalb der kritischen Menge (z. B. 8.000 Stück: Eigenfertigung 562.000 € vs. Fremdbezug 522.400 €) ist der Fremdbezug günstiger; oberhalb (z. B. 12.000 Stück: 643.000 € vs. 783.600 €) ist die Eigenfertigung günstiger.\n- **Formel kritische Menge:** Fixkosten / (Fremdbezugspreis − variable Stückkosten) = 400.000 / (65,30 − 20,25) ≈ 10.000 Stück.",
+    "erklaerung": "Wichtig ist, dass du die kritische Menge als Umschlagpunkt der Vorteilhaftigkeit erklärst, nicht nur die Zahl nennst."
+  },
+  {
+    "id": "muendlich-p12",
+    "themaId": "wq-einkauf-logistik",
+    "bereich": "muendlich",
+    "quelle": "abgeleitet",
+    "typ": "offen",
+    "text": "Der durchschnittliche tägliche Bedarf an Tischplatten liegt bei 180 Stück, pro Jahr 43.000 Stück. Bestell- und Lieferzeit 6 Tage, Sicherheitsbestand für 2 Arbeitstage. Beschreiben Sie das Bestellpunktverfahren und errechnen Sie Meldebestand und Höchstbestand (Bestellmenge 4.000 Stück). Beschreiben Sie das Bestellrhythmusverfahren und berechnen Sie die Bestellmenge je Quartal. Nennen Sie Vor- und Nachteile.",
+    "loesung": "- **Bestellpunktverfahren:** Verfahren zur Bestimmung von Bestellzeitpunkt und Bestellmenge. Sicherheitsbestand = 180 Stk. × 2 Tage = 360 Stk. Meldebestand = 6 Tage × 180 Stk. + 360 Stk. = **1.440 Stück**. Höchstbestand = 360 Stk. + 4.000 Stk. Bestellmenge = **4.360 Stück**.\n- **Bestellrhythmusverfahren:** Bestellungen erfolgen in festgelegten Rhythmen; entweder feste Menge oder Auffüllen auf einen Sollbestand. Bestellmenge je Quartal = 43.000 / 4 = 10.750 Stk. + 360 Stk. Sicherheitsbestand = **11.110 Stück/Quartal**.\n- **Vor-/Nachteile:** Beim Bestellpunktverfahren werden Fehlmengen bei Bedarfsschwankungen weitgehend vermieden (nur geringe Unterdeckungsgefahr), aber es ist höherer personeller Aufwand nötig. Das Bestellrhythmusverfahren ist einfacher (feste Termine), führt aber bei Bedarfsschwankungen zu Über- oder Unterbeständen.",
+    "erklaerung": "Der Prüfer erwartet, dass du das mengen- (Punkt) vom zeitgesteuerten (Rhythmus) Verfahren unterscheidest."
+  },
+  {
+    "id": "muendlich-p13",
+    "themaId": "wq-marketing-vertrieb",
+    "bereich": "muendlich",
+    "quelle": "abgeleitet",
+    "typ": "offen",
+    "text": "Sie sollen mit einer ABC-Analyse der Kunden Umsätze steigern. Es liegen Ihnen die Umsätze von 11 Kunden vor. Führen Sie die ABC-Analyse durch und schlagen Sie für jede Kundengruppe geeignete Maßnahmen zur Betreuung bzw. Kundenbindung vor.",
+    "loesung": "- **Vorgehen:** Kunden nach ihrem prozentualen Umsatzanteil absteigend sortieren und in die Gruppen A, B, C einteilen.\n- **Beispielhafte Einteilung:** A-Kunden (höchste Anteile, z. B. Kunde 4 mit 41,93 % und Kunde 7 mit 32,96 %), B-Kunden (mittlere Anteile, z. B. 1,80–6,99 %), C-Kunden (geringe Anteile, z. B. 0,14–0,50 %).\n- **Maßnahmen Gruppe A:** Betreuung durch direkte, persönliche Kundenbetreuer.\n- **Maßnahmen Gruppe B:** Intensivierung des Kontakts, Ausbau der Kundenbeziehung, z. B. durch 1-zu-1-Betreuung.\n- **Maßnahmen Gruppe C:** möglichst kostengünstig betreuen, da wenig Potenzial vorhanden ist.",
+    "erklaerung": "Prüfer achten darauf, dass du Maßnahmen nach Potenzial abstufst (intensiv bei A, sparsam bei C)."
+  },
+  {
+    "id": "muendlich-p14",
+    "themaId": "wq-marketing-vertrieb",
+    "bereich": "muendlich",
+    "quelle": "abgeleitet",
+    "typ": "offen",
+    "text": "In einem Meeting liegen Fakten für eine positive Prognose auf dem Tisch (steigende Auftragseingänge, niedrige Zinsen, viele Initiativbewerbungen, Produktionsengpässe). Benennen Sie die Konjunkturphase, die in der Ausgangssituation erkennbar ist, und nennen Sie geeignete Maßnahmen. Nennen Sie die drei anderen Phasen der Konjunktur und gehen Sie je auf Arbeitslosigkeit, Auftragslage, Zinsniveau, Lohn-/Preisentwicklung und Einschätzung der Lage ein.",
+    "loesung": "- **Erkennbare Phase:** **Aufschwung (Expansion)**. Maßnahme: Aufgrund starker Nachfrage/Auftragseingänge und Produktionsengpässen sollte das Unternehmen mehr Mitarbeiter einstellen und durch Fremdkapital in die Produktion investieren; der Kreditmarkt ist durch niedrige Zinsen begünstigt.\n- **Aufschwung:** sinkende Arbeitslosenquote, steigende Auftragsbestände, niedrige Zinsen mit steigender Tendenz, geringe Lohn-/Preissteigerung, optimistische Prognosen.\n- **Hochkonjunktur (Boom):** Vollbeschäftigung, volle Auslastung, steigende Zinsen, steigende Löhne/Preise, Wirtschaft läuft hervorragend.\n- **Abschwung (Rezession):** Ende der Vollbeschäftigung/Entlassungen, sinkende Nachfrage/Investitionen, stagnierende/sinkende Zinsen, stagnierende/sinkende Löhne/Preise, pessimistische Prognosen.\n- **Tiefphase (Depression):** stark steigende Arbeitslosigkeit, sinkende Nachfrage, sinkende Zinsen, sinkende Löhne/Preise, Stillstand der Konjunktur.",
+    "erklaerung": "Die Herausforderung ist, die Phase korrekt aus den Indizien abzuleiten und dann konsistente Merkmale zu nennen."
+  },
+  {
+    "id": "muendlich-p15",
+    "themaId": "wq-marketing-vertrieb",
+    "bereich": "muendlich",
+    "quelle": "abgeleitet",
+    "typ": "offen",
+    "text": "Sie sind in der Abteilung für Marktforschung eingesetzt. Es sollen Kunden über Zufriedenheit und Bedürfnisse befragt werden. Erläutern Sie Primär- und Sekundärforschung. Nennen Sie Methoden der Befragung. Nennen Sie je Vor- und Nachteile. Nennen Sie Vor- und Nachteile offener und geschlossener Fragestellungen.",
+    "loesung": "- **Primär- vs. Sekundärforschung:** Primärforschung ist eine empirische Methode zur Erhebung neuer, bisher nicht erfasster Daten. Sekundärforschung bedient sich bereits vorhandener Informationsquellen.\n- **Befragungsmethoden:** schriftliche Befragung, Face-to-Face-Befragung, CAPI (computergestützt persönlich), telefonische Befragung, CATI (computergestützt telefonisch), Online-Befragung, kontinuierliche Kundenbefragung.\n- **Beispielhafte Vor-/Nachteile:** Schriftlich – Befragte antworten unbeeinflusst, aber Gefahr der Selbstselektion/Stichprobenverzerrung. Face-to-Face – direkter Kontakt, komplexe Fragen möglich, aber Neigung zu sozial erwünschten Antworten und Interviewereffekt. Telefonisch – kostengünstig/schnell, aber anonym und sozial erwünschte Antworten. Online – kostengünstig/schnell, aber Verfälschung bei unaufmerksamen Befragten.\n- **Offene vs. geschlossene Fragen:** Geschlossene Fragen sind schnell auswertbar, können den Befragten aber unter Druck setzen und die Antwort in eine bestimmte Richtung drängen (Verzerrung, wenn die Vorgaben nicht der tatsächlichen Antwort entsprechen).",
+    "erklaerung": "Wichtig ist die Abgrenzung Primär/Sekundär sowie das Abwägen von Vor- und Nachteilen je Methode."
+  },
+  {
+    "id": "muendlich-p16",
+    "themaId": "wq-personalwirtschaft",
+    "bereich": "muendlich",
+    "quelle": "abgeleitet",
+    "typ": "offen",
+    "text": "Sie sind in der Personalabteilung. Ein Mitarbeiter verlässt das Unternehmen, ein anderer geht in den Ruhestand. Die Stellen sind neu zu besetzen. Wie gehen Sie bei interner bzw. externer Besetzung vor und welche Vorteile bieten beide Varianten? Was müssen Sie beim Vertragsabschluss beachten? Welche Unterlagen benötigen Sie? Wie berechnen Sie das Nettogehalt? Was ist eine Beitragsbemessungsgrenze?",
+    "loesung": "- **Intern vs. extern:** Für die externe Besetzung muss die Stelle ausgeschrieben werden, für die interne kann der Mitarbeiter ggf. einfach umgesetzt werden. Vorteil intern: Der Mitarbeiter kennt das Unternehmen bereits. Vorteil extern: Ein Außenstehender bringt „frischen Wind\" ins Unternehmen.\n- **Vertragsabschluss:** Bei einem externen neuen Mitarbeiter müssen mindestens alle erforderlichen Daten für die Vertragserstellung vorliegen.\n- **Unterlagen:** Arbeitsvertrag, Bescheinigung der Lohnsteuerklasse/Steueridentifikationsnummer, ggf. Urlaubsbescheinigung, Mitgliedsbestätigung der Krankenkasse, Sozialversicherungsausweis, ggf. Arbeitserlaubnis.\n- **Netto berechnen:** Vom Bruttogehalt werden zunächst Lohnsteuer, Solidaritätszuschlag und ggf. Kirchensteuer abgezogen, danach die Sozialversicherungen anteilig.\n- **Beitragsbemessungsgrenze:** ein festgelegter Höchstbetrag des Einkommens, auf den sich die Sozialversicherungen prozentual beziehen; jeder Euro darüber wird bei der Beitragsberechnung nicht mehr berücksichtigt.",
+    "erklaerung": "Prüfer fragen gern nach der Beitragsbemessungsgrenze und der Reihenfolge der Abzüge vom Brutto zum Netto."
+  },
+  {
+    "id": "muendlich-p17",
+    "themaId": "wq-personalwirtschaft",
+    "bereich": "muendlich",
+    "quelle": "abgeleitet",
+    "typ": "offen",
+    "text": "Sie haben eine Auswahl an Bewerbern getroffen und wollen diese im direkten Vergleich sehen. Dazu planen Sie ein Assessmentcenter. Nennen Sie die Ziele eines Assessmentcenters. Nennen Sie Vor- und Nachteile. Gestalten Sie einen Zeitplan mit möglichen Übungen und Aufgaben. Nennen Sie sechs Kompetenzen, die geprüft werden können.",
+    "loesung": "- **Ziel:** In unterschiedlichen Übungen/Aufgaben werden Bewerber in Gruppen und einzeln bestimmten Situationen und Fragestellungen ausgesetzt, um mehrere Bewerber gleichzeitig zu vergleichen und in Gruppensituationen zu beurteilen.\n- **Vorteile:** Bewerber haben mehr Möglichkeiten sich zu zeigen als in einem reinen Gespräch, müssen ihre Position in der Gruppe finden, ausführliches Feedback am Ende.\n- **Nachteile:** Berufsbezug der Übungen nicht immer gegeben, Stress-/Konkurrenzsituation, authentisches Verhalten nicht garantiert.\n- **Beispielhafter Zeitplan:** 09:00 Begrüßung, 09:30 Einzelpräsentationen, 10:30 Pause, 10:45 Gruppenaufgabe (z. B. Konzept für eine Feier), 12:15 Pause, 13:00 Gruppengespräch/Auswertung, 13:45 Einzelgespräche (parallel Allgemeinwissenstest), 15:00 Auswertung und Abschluss.\n- **Kompetenzen:** Teamfähigkeit, Motivation, Konfliktfähigkeit, Verantwortung, Hilfsbereitschaft, Toleranz.",
+    "erklaerung": "Ein konkreter, plausibler Zeitplan überzeugt hier mehr als reine Aufzählungen."
+  },
+  {
+    "id": "muendlich-p18",
+    "themaId": "wq-personalwirtschaft",
+    "bereich": "muendlich",
+    "quelle": "abgeleitet",
+    "typ": "offen",
+    "text": "Sie haben sich für einen neuen Mitarbeiter entschieden. Schreiben Sie eine Absage an einen abgelehnten Bewerber. Erläutern Sie, warum eine Absage wichtig ist und welche Gründe es dafür geben kann. Machen Sie sich Gedanken zum Thema Altersstruktur: Darf man Bewerber wegen des Alters ablehnen?",
+    "loesung": "- **Absageschreiben (Muster):** „Sehr geehrte Frau Mustermann, vielen Dank für Ihr Interesse an einer Position in unserem Unternehmen. Aufgrund der zahlreichen Bewerbungen ist uns die Auswahl nicht leicht gefallen. Leider muss ich Ihnen mitteilen, dass unsere Wahl auf einen anderen Bewerber gefallen ist, der dem Anforderungsprofil noch genauer entspricht. Für Ihre weitere berufliche Zukunft wünsche ich Ihnen viel Erfolg. Mit freundlichen Grüßen.\"\n- **Warum wichtig:** Eine Absage zeigt dem Bewerber, dass sich das Unternehmen mit seiner Bewerbung beschäftigt und sie verglichen hat. Gründe können in der Persönlichkeit oder der fachlichen Qualifikation liegen (z. B. fehlende Kenntnisse, unordentliche Unterlagen).\n- **Alter (AGG):** Das Allgemeine Gleichbehandlungsgesetz (AGG) verbietet u. a. die Benachteiligung aufgrund des Alters. Jeder Bewerber, der aufgrund seines Alters abgelehnt wird, kann das Unternehmen verklagen.",
+    "erklaerung": "Der rechtliche Kern ist das AGG-Verbot der Altersdiskriminierung – dies muss klar benannt werden."
+  },
+  {
+    "id": "muendlich-p19",
+    "themaId": "wq-assistenz-sekretariat",
+    "bereich": "muendlich",
+    "quelle": "abgeleitet",
+    "typ": "offen",
+    "text": "Sie sollen das Organigramm der Büromöbel Hein KG erstellen und erläutern. Welche Systeme im Aufbau gibt es? Was ist eine Stabstelle? Was ist der Vorteil von einem Einliniensystem? Was ist eine Aufbauorganisation? Was ist eine Ablauforganisation?",
+    "loesung": "- **Leitungssysteme:** Einliniensystem, Stabliniensystem, Mehrliniensystem, Matrixorganisation.\n- **Stabstelle:** immer an eine Leitungsstelle gebunden, erfüllt beratende Aufgaben im Bereich der jeweiligen Instanz (ohne eigene Weisungsbefugnis).\n- **Vorteil Einliniensystem:** schnelle Kommunikation und Entscheidungsfindung (von oben nach unten), klar abgegrenzte Kompetenzen, eindeutige Hierarchie ohne Überschneidungen der Weisungsbefugnisse – verhindert „Kompetenzgerangel\".\n- **Aufbauorganisation:** gliedert die Aufgaben in Aufgabenbereiche und bestimmt Stellen und Abteilungen; Ergebnis ist eine als Organigramm darstellbare Struktur.\n- **Ablauforganisation:** baut auf der Aufbauorganisation auf, indem sie die Aufgaben und die zu ihrer Erfüllung notwendigen Verrichtungen verkettet; die Arbeitsvorgänge müssen im Betrieb geordnet ablaufen.",
+    "erklaerung": "Ein sauber gezeichnetes Organigramm plus die Unterscheidung Aufbau-/Ablauforganisation wird erwartet."
+  },
+  {
+    "id": "muendlich-p20",
+    "themaId": "wq-assistenz-sekretariat",
+    "bereich": "muendlich",
+    "quelle": "abgeleitet",
+    "typ": "offen",
+    "text": "Sie sind im Sekretariat eingesetzt und sollen einen Brief an 500 Unternehmen versenden. Die Deadline ist in 5 Stunden. Sie entscheiden sich für einen Serienbrief. Nennen Sie die Definition des Serienbriefes. Machen Sie weitere Vorschläge für die Verwendung von Serienbriefen. Welche beiden Daten brauchen Sie für die Erstellung? Geben Sie Vor- und Nachteile an.",
+    "loesung": "- **Definition:** Ein Serienbrief ist ein Dokument, das sich lediglich in einzelnen Teilen (z. B. Anschrift und Anrede) unterscheidet; der Inhalt ist derselbe.\n- **Weitere Verwendung:** Mahnschreiben, Dankschreiben, Einladungen, Anfragen.\n- **Benötigte Daten:** Anschrift und Text/Werbeinhalt (Hauptdokument plus Datenquelle mit den Empfängerdaten).\n- **Vorteile:** schnelle Verarbeitung; einzelne Textbausteine oder ganze Texte können schnell für eine große Masse verarbeitet werden.\n- **Nachteile:** nicht individuell; hohe Fehleranfälligkeit bei der Verbindung mit der Datenquelle; die Datenquelle muss gepflegt werden.",
+    "erklaerung": "Prüfer wollen die klare Definition und die Trennung von Hauptdokument (gleich) und Datenquelle (variabel) hören."
+  },
+  {
+    "id": "muendlich-p21",
+    "themaId": "wq-assistenz-sekretariat",
+    "bereich": "muendlich",
+    "quelle": "abgeleitet",
+    "typ": "offen",
+    "text": "Sie arbeiten im kaufmännischen Bereich; eine neue Abteilung soll die Postabwicklung übernehmen. Welche Schritte hat der Postausgang und welche der Posteingang? Welche Hilfsmittel werden zur Postbearbeitung benötigt? Welche Aufbewahrungsfristen gelten? Wie schwer ist ein Bogen DIN A4 bei 80 g/m²?",
+    "loesung": "- **Postausgang:** 1. Zusammentragen, 2. Falzen (Einfach-, Kreuz-, Zickzack-/Leporello-, Wickelfalz), 3. Kuvertieren und Verschließen, 4. Wiegen (Höhe der Postgebühr), 5. Frankieren (Briefmarke, Frankiermaschine, Internetmarke, E-Porto), 6. Übergabe an den Postdienstleister.\n- **Posteingang:** 1. Postempfang, 2. Aus-/Sortieren, 3. Öffnen, 4. Entnahme und Anlagenkontrolle, 5. Zusammenheften, 6./7. Vollständigkeitskontrolle, 8. Posteingangsstempel, 9. Sortieren nach Abteilung/Person, 10. Verteilen.\n- **Hilfsmittel:** elektronischer Brieföffner, Stempelmaschinen, Falzmaschine, Kuvertiermaschine, elektronische Briefwaage, Frankiermaschine, Verteilsysteme (Rohrpost, Umlaufwagen), elektronisches Dokumentenmanagement.\n- **Aufbewahrungsfristen:** 6 Jahre für empfangene Handelsbriefe und Kopien abgesandter Handelsbriefe; 10 Jahre für Handelsbücher, Inventare, Eröffnungsbilanzen, Jahresabschlüsse, Buchungsbelege, Eingangs- und Ausgangsrechnungen.\n- **DIN A4 Gewicht:** Ein Bogen A0 hat 1 m² und wiegt bei 80 g/m² also 80 g. Aus A0 lassen sich 16 Bögen A4 gewinnen, ein A4-Bogen wiegt also 1/16 von 80 g = **5 g**.",
+    "erklaerung": "Die Fristen (6 und 10 Jahre) und die A4-Gewichtsrechnung sind typische Nachfragen."
+  }
+]

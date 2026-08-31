@@ -1,0 +1,140 @@
+[
+  {
+    "id": "buchungssaetze-kontierung",
+    "bereich": "buchfuehrung",
+    "name": "Buchungssätze & Kontierung",
+    "beschreibung": "Belege den richtigen Konten des Kontenrahmens zuordnen und Buchungssätze nach dem Prinzip Soll an Haben bilden.",
+    "haeufigkeit": ["2025-sommer"],
+    "lernzettel": "## Buchungssätze & Kontierung\n\nJeder Geschäftsfall wird auf mindestens zwei Konten gebucht: einmal im **Soll** und einmal im **Haben**. Es gilt der Grundsatz **\"Soll an Haben\"** und die Summe der Sollbuchungen entspricht immer der Summe der Habenbuchungen (Bilanzgleichung bleibt erhalten).\n\n### Kontenarten\n- **Aktivkonten** (Vermögen): Zugang im Soll, Abgang im Haben (z. B. 2800 Bank, 2600 Vorsteuer, 2404 Forderungen).\n- **Passivkonten** (Schulden/Kapital): Zugang im Haben, Abgang im Soll (z. B. 4400 Verbindlichkeiten, 4800 Umsatzsteuer).\n- **Aufwandskonten**: Buchung im Soll (z. B. 6080 Büromaterial, 6800 Porto/Werbung).\n- **Ertragskonten**: Buchung im Haben (z. B. 5100 Umsatzerlöse).\n\n### Umsatzsteuer immer mitdenken\nBei Ein- und Verkäufen wird netto plus Steuer gebucht. Die **Vorsteuer (2600)** ist eine Forderung an das Finanzamt (aktiv), die **Umsatzsteuer (4800)** eine Verbindlichkeit (passiv).\n\n### Beispiel-Buchungssätze\n- Verkauf auf Ziel: **Forderungen 2404 an Umsatzerlöse 5100 und Umsatzsteuer 4800**.\n- Kauf Büromaterial gegen Rechnung: **Büromaterial 6080 und Vorsteuer 2600 an Verbindlichkeiten 4402**.\n- Zahlungseingang eines Kunden: **Bank 2800 an Forderungen 2404**.\n- Erlösberichtigung/Gutschrift (Rücksendung): **Umsatzerlöse 5100 und Umsatzsteuer 4800 an Forderungen 2404** (Umkehrung des Verkaufs).\n\nBeim Kontieren zuerst die betroffenen Konten bestimmen, dann Soll/Haben festlegen und zuletzt den Betrag (netto, Steuer, brutto) zuordnen. Wird nichts anderes angegeben, wird aufwandsrechnerisch und netto gebucht.",
+    "eselsbruecken": [
+      "Soll an Haben – erst das Sollkonto nennen, dann mit 'an' das Habenkonto.",
+      "Aktiv-Mehrung im Soll, Passiv-Mehrung im Haben (AktSoll-PassHaben).",
+      "Vorsteuer ist Forderung (aktiv), Umsatzsteuer ist Schuld (passiv) – 2600 kommt rein, 4800 muss raus."
+    ],
+    "selbstcheck": [
+      "Auf welcher Seite (Soll/Haben) bucht man einen Zugang auf einem Aktivkonto?",
+      "Wie lautet der Buchungssatz für einen Zielverkauf von Ware mit 19 % Umsatzsteuer?",
+      "Warum steht die Vorsteuer im Soll und die Umsatzsteuer im Haben?",
+      "Wie wird eine Kundengutschrift wegen Rücksendung gebucht?"
+    ],
+    "medien": {
+      "video": { "titel": "Buchungssätze & Kontierung erklärt", "status": "geplant" },
+      "podcast": { "titel": "Buchungssätze & Kontierung zum Hören", "status": "geplant" }
+    }
+  },
+  {
+    "id": "umsatzsteuer",
+    "bereich": "buchfuehrung",
+    "name": "Umsatzsteuer & Zahllast",
+    "beschreibung": "Umsatzsteuer und Vorsteuer ermitteln sowie die Zahllast bzw. den Vorsteuerüberhang für die Umsatzsteuervoranmeldung berechnen.",
+    "haeufigkeit": ["2025-sommer"],
+    "lernzettel": "## Umsatzsteuer & Zahllast\n\nDas Unternehmen ist beim Finanzamt nur ein durchlaufender Posten für die Umsatzsteuer. Es zieht die **Umsatzsteuer (USt)** von seinen Kunden ein und zahlt selbst **Vorsteuer** an seine Lieferanten.\n\n### Grundbegriffe\n- **Umsatzsteuer (4800):** auf Verkäufe/Umsatzerlöse; Verbindlichkeit gegenüber dem Finanzamt.\n- **Vorsteuer (2600):** auf Einkäufe/Aufwendungen; Forderung an das Finanzamt.\n- **Regelsteuersatz:** 19 % (ermäßigt 7 %).\n\n### Zahllast berechnen\n**Zahllast = Umsatzsteuer − Vorsteuer.**\n- Ist die USt größer als die Vorsteuer, ergibt sich eine **Umsatzsteuerzahllast** (ans Finanzamt zu zahlen).\n- Ist die Vorsteuer größer, ergibt sich ein **Vorsteuerüberhang** (Erstattung vom Finanzamt).\n\nErlösberichtigungen mindern die Umsatzsteuer, Nachlässe mindern die Vorsteuer.\n\n### Beispiel (aus der Prüfung Sommer 2025)\n- Umsatzerlöse 477.293,66 € × 19 % = 90.685,80 € USt\n- Erlösberichtigungen 9.335,75 € × 19 % = 1.773,79 € (mindert USt)\n- Aufwendungen 388.749,40 € × 19 % = 73.862,39 € Vorsteuer\n- Nachlässe 12.966,22 € × 19 % = 2.463,58 € (mindert Vorsteuer)\n- Umsatzsteuer gesamt: 90.685,80 − 1.773,79 = **88.912,01 €**\n- Vorsteuer gesamt: 73.862,39 − 2.463,58 = **71.398,81 €**\n- **Zahllast: 88.912,01 − 71.398,81 = 17.513,20 €**\n\nDie Voranmeldung ist regelmäßig bis zum 10. des Folgemonats abzugeben. Steuerbeträge werden kaufmännisch auf zwei Nachkommastellen gerundet.",
+    "eselsbruecken": [
+      "Zahllast = USt minus Vorsteuer (Z = U − V).",
+      "Vorsteuer > Umsatzsteuer = Vorsteuerüberhang (das Finanzamt erstattet).",
+      "USt raus (Schuld), Vorsteuer rein (Forderung) – 4800 zahle ich, 2600 hole ich zurück."
+    ],
+    "selbstcheck": [
+      "Wie lautet die Formel für die Umsatzsteuerzahllast?",
+      "Wann ergibt sich ein Vorsteuerüberhang statt einer Zahllast?",
+      "Wie wirken sich Erlösberichtigungen und Nachlässe auf die Zahllast aus?",
+      "Wie hoch ist die Vorsteuer aus einem Nettoaufwand von 10.000 € bei 19 %?"
+    ],
+    "medien": {
+      "video": { "titel": "Umsatzsteuer & Zahllast erklärt", "status": "geplant" },
+      "podcast": { "titel": "Umsatzsteuer & Zahllast zum Hören", "status": "geplant" }
+    }
+  },
+  {
+    "id": "deckungsbeitrag-breakeven",
+    "bereich": "buchfuehrung",
+    "name": "Deckungsbeitrag & Break-even",
+    "beschreibung": "Deckungsbeitrag je Stück, Gewinnschwelle (Break-even-Point) und Gewinn bei gegebener Absatzmenge berechnen.",
+    "haeufigkeit": ["2025-sommer"],
+    "lernzettel": "## Deckungsbeitrag & Break-even\n\nDie Deckungsbeitragsrechnung trennt **variable Kosten** (mengenabhängig) von **Fixkosten** (mengenunabhängig) und zeigt, ab welcher Menge ein Produkt Gewinn bringt.\n\n### Deckungsbeitrag\n**Deckungsbeitrag je Stück (db) = Verkaufserlös je Stück − variable Kosten je Stück.**\nDer Deckungsbeitrag steht zur Deckung der Fixkosten zur Verfügung. Was danach übrig bleibt, ist Gewinn.\n\n### Gewinnschwelle (Break-even-Point)\n**Break-even-Menge = Fixkosten ÷ Deckungsbeitrag je Stück.**\nAn diesem Punkt sind Gesamtkosten und Gesamterlöse gleich groß – weder Gewinn noch Verlust. Darunter liegt die **Verlustzone**, darüber die **Gewinnzone**.\n\n### Gewinn berechnen\n**Gewinn = Menge × db − Fixkosten.**\n\n### Beispiel (Prüfung Sommer 2025, Schubladenbox 'Hamburg')\n- Verkaufserlös 99,00 €/Stück, variable Kosten 65,00 €/Stück → db = 99 − 65 = **34,00 €**\n- Fixkosten 125.800 € → Break-even = 125.800 ÷ 34 = **3.700 Stück**\n- Gewinn bei 5.000 Stück = 5.000 × 34 − 125.800 = 170.000 − 125.800 = **44.200 €**\n\nIm Kostendiagramm ist die Gerade der Gesamterlöse steiler als die der Gesamtkosten; ihr Schnittpunkt ist die Gewinnschwelle (C), die Fixkosten verlaufen als waagerechte Linie.",
+    "eselsbruecken": [
+      "db = Preis minus variable Kosten je Stück (der Beitrag zur Deckung der Fixkosten).",
+      "Break-even = Fixkosten geteilt durch Deckungsbeitrag (Fix durch db).",
+      "Unter dem Break-even Verlustzone, darüber Gewinnzone."
+    ],
+    "selbstcheck": [
+      "Wie berechnet man den Deckungsbeitrag je Stück?",
+      "Mit welcher Formel ermittelt man den Break-even-Point in Stück?",
+      "Wie hoch ist der Gewinn, wenn 2.000 Stück über der Gewinnschwelle abgesetzt werden?",
+      "Was bedeutet der Schnittpunkt von Gesamtkosten- und Gesamterlöskurve?"
+    ],
+    "medien": {
+      "video": { "titel": "Deckungsbeitrag & Break-even erklärt", "status": "geplant" },
+      "podcast": { "titel": "Deckungsbeitrag & Break-even zum Hören", "status": "geplant" }
+    }
+  },
+  {
+    "id": "stueckkosten-kostenrechnung",
+    "bereich": "buchfuehrung",
+    "name": "Stückkosten & Fixkostenregression",
+    "beschreibung": "Stückkosten aus Fix- und variablen Kosten berechnen und den Effekt der Fixkostenregression bei steigender Menge erklären.",
+    "haeufigkeit": ["2025-sommer"],
+    "lernzettel": "## Stückkosten & Fixkostenregression\n\nDie **Stückkosten** (Selbstkosten je Stück) geben an, wie viel die Herstellung eines einzelnen Produkts im Durchschnitt kostet.\n\n### Berechnung\n**Stückkosten = Gesamtkosten ÷ Produktionsmenge**\nmit **Gesamtkosten = Fixkosten + variable Gesamtkosten** und **variable Gesamtkosten = variable Kosten je Stück × Menge**.\n\n### Fixkostenregression\nDie Fixkosten sind mengenunabhängig und bleiben in Summe konstant. Verteilt man sie auf mehr Stück, sinkt der Fixkostenanteil je Stück – die **Stückkosten sinken mit steigender Produktionsmenge**. Dieser Effekt heißt **Fixkostenregression** (Fixkostendegression). Die variablen Kosten je Stück bleiben dabei gleich.\n\n### Beispiel (Prüfung Sommer 2025)\n- Fixkosten: 125.800 €\n- variable Kosten: 65 € × 10.000 Stück = 650.000 €\n- Gesamtkosten: 125.800 + 650.000 = 775.800 €\n- Stückkosten: 775.800 ÷ 10.000 = **77,58 €/Stück**\n\nWürde nur die halbe Menge (5.000 Stück) produziert, stiegen die Stückkosten, weil sich dieselben Fixkosten auf weniger Stück verteilen. Deshalb ist eine höhere Auslastung der Kapazität kostengünstiger je Stück.",
+    "eselsbruecken": [
+      "Stückkosten = (Fixkosten + variable Gesamtkosten) geteilt durch Menge.",
+      "Mehr Menge, weniger Fixkosten pro Stück – Fixkostenregression (Fix wird 'verdünnt').",
+      "Variable Kosten je Stück bleiben gleich, nur der Fixkostenanteil sinkt."
+    ],
+    "selbstcheck": [
+      "Wie setzen sich die Gesamtkosten zusammen?",
+      "Warum sinken die Stückkosten bei steigender Produktionsmenge?",
+      "Wie hoch sind die Stückkosten bei Fixkosten 96.000 €, 50 € variabel/Stück und 8.000 Stück?",
+      "Was passiert mit den variablen Kosten je Stück, wenn die Menge steigt?"
+    ],
+    "medien": {
+      "video": { "titel": "Stückkosten & Fixkostenregression erklärt", "status": "geplant" },
+      "podcast": { "titel": "Stückkosten & Fixkostenregression zum Hören", "status": "geplant" }
+    }
+  },
+  {
+    "id": "zuschlagskalkulation",
+    "bereich": "buchfuehrung",
+    "name": "Zuschlagskalkulation & Selbstkosten",
+    "beschreibung": "Selbstkosten mit dem Kalkulationsschema aus Material-, Fertigungs-, Verwaltungs- und Vertriebsgemeinkosten über Zuschlagssätze berechnen.",
+    "haeufigkeit": ["2025-sommer"],
+    "lernzettel": "## Zuschlagskalkulation & Selbstkosten\n\nDie **Zuschlagskalkulation** verrechnet die Gemeinkosten prozentual auf die Einzelkosten und führt Schritt für Schritt zu den Selbstkosten eines Produkts.\n\n### Kalkulationsschema\n```\n  Fertigungsmaterial (FM)\n+ Materialgemeinkosten (MGK = MGK-Satz % von FM)\n+ Fertigungslöhne (FL)\n+ Fertigungsgemeinkosten (FGK = FGK-Satz % von FL)\n= Herstellkosten (HK)\n+ Verwaltungsgemeinkosten (VwGK = VwGK-Satz % von HK)\n+ Vertriebsgemeinkosten (VtGK = VtGK-Satz % von HK)\n= Selbstkosten\n```\n\nMaterial- und Fertigungsgemeinkosten beziehen sich auf ihre jeweilige Einzelkostenbasis (FM bzw. FL), Verwaltungs- und Vertriebsgemeinkosten immer auf die **Herstellkosten**.\n\n### Beispiel (Prüfung Sommer 2025, Konferenztisch)\n- Fertigungsmaterial: 210,00 €\n- Materialgemeinkosten 62 % von 210 = 130,20 €\n- Fertigungslöhne: 135,50 €\n- Fertigungsgemeinkosten 122,50 % von 135,50 = 165,99 €\n- **Herstellkosten = 210 + 130,20 + 135,50 + 165,99 = 641,69 €**\n- Verwaltungsgemeinkosten 10,80 % von 641,69 = 69,30 €\n- Vertriebsgemeinkosten 9,50 % von 641,69 = 60,96 €\n- **Selbstkosten = 641,69 + 69,30 + 60,96 = 771,95 €**\n\nAlle Zwischenergebnisse werden kaufmännisch auf zwei Nachkommastellen gerundet. Auf die Selbstkosten folgen im vollständigen Angebot noch Gewinnzuschlag, Kundenrabatt und Skonto bis zum Angebotspreis.",
+    "eselsbruecken": [
+      "MGK auf Material, FGK auf Löhne, VwGK und VtGK auf die Herstellkosten.",
+      "Merksatz: FM + MGK + FL + FGK = Herstellkosten, plus Verwaltung und Vertrieb = Selbstkosten.",
+      "Erst Herstellkosten fertig rechnen, dann Verwaltung und Vertrieb darauf – nie auf das Material."
+    ],
+    "selbstcheck": [
+      "Auf welche Basis werden die Materialgemeinkosten und die Fertigungsgemeinkosten bezogen?",
+      "Wie berechnet man aus den Herstellkosten die Selbstkosten?",
+      "Was ergibt die Summe aus FM, MGK, FL und FGK?",
+      "Worauf beziehen sich Verwaltungs- und Vertriebsgemeinkosten?"
+    ],
+    "medien": {
+      "video": { "titel": "Zuschlagskalkulation & Selbstkosten erklärt", "status": "geplant" },
+      "podcast": { "titel": "Zuschlagskalkulation & Selbstkosten zum Hören", "status": "geplant" }
+    }
+  },
+  {
+    "id": "normalkosten-kostenabweichung",
+    "bereich": "buchfuehrung",
+    "name": "Normalkosten & Kostenabweichung",
+    "beschreibung": "Ist-, Normal- und Sollkosten unterscheiden und eine Kostenüber- bzw. Kostenunterdeckung ermitteln.",
+    "haeufigkeit": ["2025-sommer"],
+    "lernzettel": "## Normalkosten & Kostenabweichung\n\nIn der Nachkalkulation wird geprüft, ob die tatsächlich angefallenen Kosten von den geplanten abweichen.\n\n### Kostenbegriffe\n- **Istkosten:** die tatsächlich in der Periode angefallenen Kosten.\n- **Normalkosten:** die **durchschnittlichen Istkosten vergangener Perioden**; sie glätten zufällige Schwankungen und dienen als Vergleichsmaßstab.\n- **Kosten allgemein:** der in Geld bewertete, betriebszweckbezogene Verbrauch von Gütern und Dienstleistungen pro Periode.\n\n### Kostenabweichung\nVergleicht man Ist- und Normalkosten, ergibt sich:\n- **Kostenüberdeckung:** Normalkosten > Istkosten – es wurde mehr verrechnet als angefallen ist (positiv fürs Unternehmen).\n- **Kostenunterdeckung:** Istkosten > Normalkosten – es sind höhere Kosten angefallen als verrechnet (negativ).\n\n**Abweichung = Istkosten − Normalkosten.** Ein positiver Wert bedeutet Unterdeckung, ein negativer Wert Überdeckung.\n\n### Beispiel (Prüfung Sommer 2025)\n- Normal-/Selbstkosten laut Kalkulation: 771,95 €/Konferenztisch\n- Ist-Selbstkosten laut Nachkalkulation: 810,00 €/Konferenztisch\n- Abweichung: 810,00 − 771,95 = **38,05 € → Kostenunterdeckung**\n\nUrsachen für höhere Istkosten sind z. B. gestiegene Materialpreise oder Lohnerhöhungen.",
+    "eselsbruecken": [
+      "Normalkosten = Durchschnitt der Istkosten vergangener Perioden.",
+      "Ist über Normal = Unterdeckung, Ist unter Normal = Überdeckung (die Ist-Lage 'deckt nicht').",
+      "Abweichung = Ist minus Normal – positiv heißt es wurde teurer als geplant."
+    ],
+    "selbstcheck": [
+      "Was versteht man unter Normalkosten?",
+      "Wann liegt eine Kostenunterdeckung vor?",
+      "Wie berechnet man die Höhe der Kostenabweichung?",
+      "Nenne einen Grund, warum die Istkosten über den Normalkosten liegen können."
+    ],
+    "medien": {
+      "video": { "titel": "Normalkosten & Kostenabweichung erklärt", "status": "geplant" },
+      "podcast": { "titel": "Normalkosten & Kostenabweichung zum Hören", "status": "geplant" }
+    }
+  }
+]
