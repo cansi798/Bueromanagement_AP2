@@ -21,7 +21,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     db()->prepare("INSERT INTO nutzer (email, name, pass_hash, rolle) VALUES (?, ?, ?, 'admin')")
       ->execute([strtolower(trim($_POST['email'])), trim($_POST['name'] ?? 'Admin'),
                  password_hash($_POST['passwort'], PASSWORD_DEFAULT)]);
-    exit('✅ Admin angelegt! WICHTIG: Lösche jetzt die Datei server/install.php vom Server. Danach im Admin-Panel (server/admin.html) anmelden.');
+    $geloescht = @unlink(__FILE__);
+    exit('✅ Admin angelegt! ' . ($geloescht
+      ? 'install.php hat sich selbst gelöscht.'
+      : 'WICHTIG: Lösche jetzt die Datei server/install.php manuell vom Server!')
+      . ' Danach im Admin-Panel (server/admin.html) anmelden.');
   }
 }
 ?><!doctype html><html lang="de"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">

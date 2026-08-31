@@ -4,7 +4,7 @@ import Layout from '../components/Layout'
 import Markdown from '../components/Markdown'
 import QuizOffen from '../components/QuizOffen'
 import { ladeAufgaben, ladeThemen, useDaten } from '../lib/data'
-import { heuteISO, merkeErledigt, merkeQuiz } from '../lib/progress'
+import { heuteISO, merkeAufgabenErgebnis, merkeQuiz } from '../lib/progress'
 
 type Kategorie = 'ablauf' | 'ueben'
 
@@ -92,7 +92,7 @@ export default function Muendlich() {
               <QuizOffen
                 aufgabe={a}
                 onErgebnis={(richtig) => {
-                  merkeErledigt(a.id, heuteISO())
+                  merkeAufgabenErgebnis(a.id, richtig, heuteISO())
                   merkeQuiz(a.themaId, richtig ? 1 : 0, 1, heuteISO())
                 }}
               />

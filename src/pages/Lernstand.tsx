@@ -74,7 +74,7 @@ export default function Lernstand() {
         <h2 className="mb-3 font-bold text-slate-900">🏁 Deine Aufgabensammlungen</h2>
         {simulationen.length === 0 ? (
           <p className="text-sm text-slate-500">
-            Noch keine Simulation abgegeben — starte in Stufe 3 eines Bereichs!
+            Noch keine Aufgabensammlung als Simulation abgegeben — starte in Stufe 3!
           </p>
         ) : (
           <div className="space-y-2">

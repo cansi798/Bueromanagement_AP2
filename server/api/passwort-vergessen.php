@@ -3,6 +3,7 @@ declare(strict_types=1);
 require __DIR__ . '/_lib.php';
 // Fordert einen Passwort-Reset-Link per E-Mail an (mit Captcha gegen Bots).
 
+verlange_origin();
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') antwort(405, ['fehler' => 'POST erwartet']);
 $e = eingabe();
 if (!captcha_pruefen($e['captcha'] ?? null)) {

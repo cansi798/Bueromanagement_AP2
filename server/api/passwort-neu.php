@@ -3,6 +3,7 @@ declare(strict_types=1);
 require __DIR__ . '/_lib.php';
 // Setzt per Reset-Token ein neues Passwort.
 
+verlange_origin();
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') antwort(405, ['fehler' => 'POST erwartet']);
 $e = eingabe();
 $token = $e['token'] ?? '';

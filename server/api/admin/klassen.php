@@ -4,6 +4,7 @@ require __DIR__ . '/../_lib.php';
 // GET: alle Klassen mit Mitgliederzahl · POST {name}: Klasse anlegen.
 
 verlange_admin();
+if ($_SERVER['REQUEST_METHOD'] !== 'GET') verlange_origin();
 
 if ($_SERVER['REQUEST_METHOD'] === 'GET') {
   $z = db()->query('SELECT k.id, k.name, COUNT(n.id) AS mitglieder

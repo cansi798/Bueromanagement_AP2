@@ -61,6 +61,9 @@
 
 <script>
 const $ = (id) => document.getElementById(id);
+// XSS-Schutz: alle Strings aus DB/Fortschrittsdaten vor innerHTML escapen.
+const esc = (s) => String(s ?? '').replace(/[&<>"']/g,
+  (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const api = async (pfad, opts = {}) => {
   const r = await fetch('api/' + pfad, { headers: {'Content-Type':'application/json'}, credentials:'same-origin', ...opts });
   const d = await r.json().catch(() => ({}));
@@ -126,7 +129,7 @@ async function laden() {
   for (const m of d.mitglieder) {
     const tr = tb.insertRow();
     const q = m.quote;
-    tr.innerHTML = `<td>${m.name || m.email}</td><td>${m.geuebt}</td>
+    tr.innerHTML = `<td>${esc(m.name || m.email)}</td><td>${m.geuebt}</td>
       <td>${q === null ? '—' : `<div class="balken" title="${q} %"><div style="width:${q}%"></div></div>`}</td>
       <td>${m.streak > 0 ? '🔥 ' + m.streak : '—'}</td>
       <td>${m.simulationen}</td>
@@ -136,7 +139,7 @@ async function laden() {
   $('probleme').innerHTML = k.problemAufgaben.length === 0
     ? '<p class="ok">Keine auffälligen Aufgaben 🎉</p>'
     : k.problemAufgaben.map(p =>
-        `<p style="margin:.35rem 0"><b>${p.schueler}×</b> ${aufgabenTexte[p.aufgabeId] ?? p.aufgabeId} …</p>`).join('');
+        `<p style="margin:.35rem 0"><b>${+p.schueler}×</b> ${esc(aufgabenTexte[p.aufgabeId] ?? p.aufgabeId)} …</p>`).join('');
   $('stand').textContent = '· Stand ' + new Date().toLocaleTimeString('de-DE');
 }
 start();

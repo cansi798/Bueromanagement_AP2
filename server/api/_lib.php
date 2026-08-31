@@ -4,10 +4,12 @@ declare(strict_types=1);
 
 session_set_cookie_params([
   'httponly' => true,
-  'samesite' => 'Lax',
+  'samesite' => 'Strict',
   'secure' => !empty($_SERVER['HTTPS']),
 ]);
 session_start();
+header('X-Content-Type-Options: nosniff');
+header('X-Frame-Options: DENY');
 
 function konfig(): array {
   static $k = null;
@@ -95,6 +97,15 @@ function captcha_pruefen($eingabe): bool {
   unset($_SESSION['captcha_antwort'], $_SESSION['captcha_zeit']); // Einmal-Nutzung
   if ($soll === null || time() - $zeit > 300) return false;       // max. 5 Min gültig
   return (int)$eingabe === (int)$soll;
+}
+
+// CSRF-Schutz: State-ändernde Endpoints akzeptieren nur Aufrufe von der
+// eigenen App-URL (Origin/Referer). Leere Header (ältere Clients) passieren —
+// SameSite=Strict deckt diesen Fall bereits ab.
+function verlange_origin(): void {
+  $o = $_SERVER['HTTP_ORIGIN'] ?? ($_SERVER['HTTP_REFERER'] ?? '');
+  if ($o === '') return;
+  if (strpos($o, konfig()['app_url']) !== 0) antwort(403, ['fehler' => 'Ungültige Herkunft']);
 }
 
 function passwort_generieren(int $laenge = 10): string {

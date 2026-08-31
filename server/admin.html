@@ -90,6 +90,9 @@
 
 <script>
 const $ = (id) => document.getElementById(id);
+// XSS-Schutz: alle Strings aus der DB vor innerHTML-Einsatz escapen.
+const esc = (s) => String(s ?? '').replace(/[&<>"']/g,
+  (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const api = async (pfad, opts = {}) => {
   const r = await fetch('api/' + pfad, { headers: {'Content-Type':'application/json'}, credentials:'same-origin', ...opts });
   const d = await r.json().catch(() => ({}));
@@ -147,7 +150,7 @@ async function zuordnungLaden() {
   for (const x of l.lehrer) s.add(new Option(x.name || x.email, x.id));
   const z = await api('admin/zuordnung.php');
   $('z-liste').innerHTML = z.zuordnungen.map(x =>
-    `<p style="margin:.3rem 0">${x.klasse} ← ${x.name || x.email}
+    `<p style="margin:.3rem 0">${esc(x.klasse)} ← ${esc(x.name || x.email)}
      <button class="zweit" style="min-height:30px;padding:.15rem .6rem"
        onclick="zuordnungWeg(${x.lehrer_id},${x.klasse_id})">✕</button></p>`).join('') || '<p style="color:#64748b">Noch keine Zuordnungen.</p>';
 }
@@ -176,7 +179,7 @@ async function mitgliederLaden() {
   const tb = $('m-tab').querySelector('tbody'); tb.innerHTML = '';
   for (const m of d.mitglieder) {
     const tr = tb.insertRow();
-    tr.innerHTML = `<td>${m.name||'—'}</td><td>${m.email}</td>
+    tr.innerHTML = `<td>${esc(m.name)||'—'}</td><td>${esc(m.email)}</td>
       <td>${+m.gesperrt ? '🔒 gesperrt' : '✓'}</td>
       <td><button class="zweit" data-id="${m.id}">löschen</button></td>`;
     tr.querySelector('button').onclick = async (ev) => {
@@ -194,10 +197,10 @@ async function anlegen(mitglieder, rolle = 'schueler') {
     let html = '';
     if (d.angelegt.length) {
       html += `<p class="ok"><b>⚠ Startpasswörter — nur JETZT sichtbar, bitte kopieren:</b></p><ul>`;
-      for (const a of d.angelegt) html += `<li>${a.email} → <code>${a.passwort}</code></li>`;
+      for (const a of d.angelegt) html += `<li>${esc(a.email)} → <code>${esc(a.passwort)}</code></li>`;
       html += '</ul>';
     }
-    if (d.fehler.length) html += `<p class="rot">${d.fehler.join('<br>')}</p>`;
+    if (d.fehler.length) html += `<p class="rot">${d.fehler.map(esc).join('<br>')}</p>`;
     $('m-neu').innerHTML = html;
     klassenLaden();
   } catch (e) { $('g-m').textContent = e.fehler || 'Fehler'; }

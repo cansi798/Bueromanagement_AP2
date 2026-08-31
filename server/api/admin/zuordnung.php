@@ -5,6 +5,7 @@ require __DIR__ . '/../_lib.php';
 // GET: alle Zuordnungen · POST {lehrer_id, klasse_id}: anlegen · DELETE {lehrer_id, klasse_id}: entfernen.
 
 verlange_admin();
+if ($_SERVER['REQUEST_METHOD'] !== 'GET') verlange_origin();
 
 if ($_SERVER['REQUEST_METHOD'] === 'GET') {
   $z = db()->query("SELECT lk.nutzer_id AS lehrer_id, n.name, n.email, lk.klasse_id, k.name AS klasse

@@ -3,6 +3,7 @@ declare(strict_types=1);
 require __DIR__ . '/_lib.php';
 // Zweiter Schritt des Admin-Logins: E-Mail-Code prüfen (max. 3 Versuche).
 
+verlange_origin();
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') antwort(405, ['fehler' => 'POST erwartet']);
 $e = eingabe();
 $email = strtolower(trim($e['email'] ?? ''));
@@ -12,7 +13,7 @@ $s = db()->prepare("SELECT * FROM nutzer WHERE email = ? AND rolle = 'admin'");
 $s->execute([$email]);
 $n = $s->fetch();
 
-if (!$n || !$n['zwei_fa_code'] || strtotime($n['zwei_fa_gueltig_bis']) < time()) {
+if (!$n || !$n['zwei_fa_code'] || !$n['zwei_fa_gueltig_bis'] || strtotime($n['zwei_fa_gueltig_bis']) < time()) {
   antwort(400, ['fehler' => 'Kein gültiger Code — bitte neu anmelden.']);
 }
 if ((int)$n['zwei_fa_versuche'] >= 3) {

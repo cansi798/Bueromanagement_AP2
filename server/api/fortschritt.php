@@ -12,7 +12,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
   antwort(200, ['daten' => $z ? json_decode($z['daten'], true) : null, 'aktualisiert' => $z['aktualisiert'] ?? null]);
 }
 
-if ($_SERVER['REQUEST_METHOD'] === 'PUT' || $_SERVER['REQUEST_METHOD'] === 'POST') {
+if ($_SERVER['REQUEST_METHOD'] === 'PUT') {
+  verlange_origin();
   $daten = eingabe();
   $json = json_encode($daten, JSON_UNESCAPED_UNICODE);
   if ($json === false || strlen($json) > 512 * 1024) antwort(400, ['fehler' => 'Ungültige oder zu große Daten']);
@@ -20,4 +21,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'PUT' || $_SERVER['REQUEST_METHOD'] === 'POST
                  ON DUPLICATE KEY UPDATE daten = VALUES(daten)')->execute([$n['id'], $json]);
   antwort(200, ['ok' => true]);
 }
-antwort(405, ['fehler' => 'GET oder PUT erwartet']);
+antwort(405, ['fehler' => 'GET oder PUT erwartet']); // POST bewusst nicht erlaubt (CSRF-Härtung)

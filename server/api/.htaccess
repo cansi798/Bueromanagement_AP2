@@ -1,0 +1,12 @@
+# Interne Dateien niemals direkt ausliefern (auch nicht bei PHP-Fehlkonfiguration)
+<Files "config.php">
+  Require all denied
+</Files>
+<Files "config.beispiel.php">
+  Require all denied
+</Files>
+<Files "_lib.php">
+  Require all denied
+</Files>
+# Keine Verzeichnislisten
+Options -Indexes

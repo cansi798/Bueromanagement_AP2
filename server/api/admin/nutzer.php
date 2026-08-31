@@ -7,6 +7,7 @@ require __DIR__ . '/../_lib.php';
 // DELETE {id}: Konto löschen.
 
 verlange_admin();
+if ($_SERVER['REQUEST_METHOD'] !== 'GET') verlange_origin();
 
 if ($_SERVER['REQUEST_METHOD'] === 'GET') {
   // ?rolle=lehrer → alle Lehrkräfte (für die Zuordnung); sonst ?klasse_id=N.

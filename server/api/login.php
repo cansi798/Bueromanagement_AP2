@@ -3,6 +3,7 @@ declare(strict_types=1);
 require __DIR__ . '/_lib.php';
 // Login mit Captcha-Pflicht und Sperre nach 3 Fehlversuchen (15 Minuten).
 
+verlange_origin();
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') antwort(405, ['fehler' => 'POST erwartet']);
 $e = eingabe();
 $email = strtolower(trim($e['email'] ?? ''));

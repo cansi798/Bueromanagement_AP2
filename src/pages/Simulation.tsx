@@ -33,6 +33,7 @@ export default function Simulation() {
   const [textAntworten, setTextAntworten] = useState<Record<string, string>>({})
   const [selbst, setSelbst] = useState<Record<string, boolean>>({})
   const [kiStatus, setKiStatus] = useState<KIStatus>('idle')
+  const [statistikGezaehlt, setStatistikGezaehlt] = useState(false)
   const [kiFortschritt, setKiFortschritt] = useState('')
   const [kiErgebnisse, setKiErgebnisse] = useState<Record<string, AufgabenBewertung>>({})
 
@@ -66,10 +67,10 @@ export default function Simulation() {
     setAbgegeben(true)
     const heute = heuteISO()
     let mc = 0
-    let max = 0
+    let mcMax = 0
     liste.forEach((a) => {
-      max += a.punkte ?? 1
       if (a.typ === 'mc') {
+        mcMax += a.punkte ?? 1
         const richtig = wertungMC(a.korrekt ?? [], mcAntworten[a.id] ?? [])
         if (richtig) mc += a.punkte ?? 1
         merkeAufgabenErgebnis(a.id, richtig, heute)
@@ -77,9 +78,11 @@ export default function Simulation() {
         merkeErledigt(a.id, heute)
       }
     })
-    // Vorläufiges Ergebnis (nur MC) — die KI-Korrektur präzisiert es später.
-    if (termin) {
-      merkeSimulation({ termin, bereich: bereichId!, punkte: mc, max, mitKI: false, datum: heute })
+    // Vorläufiges Ergebnis: NUR am MC-Teil gemessen (max = MC-Punkte) — sonst
+    // würden unbewertete offene Aufgaben die Note fälschlich nach unten ziehen.
+    // Die KI-Korrektur überschreibt den Eintrag später mit dem Gesamtergebnis.
+    if (termin && mcMax > 0) {
+      merkeSimulation({ termin, bereich: bereichId!, punkte: mc, max: mcMax, mitKI: false, datum: heute })
     }
     window.scrollTo({ top: 0 })
   }
@@ -124,8 +127,13 @@ export default function Simulation() {
       const heute = heuteISO()
       const offenePunkte = Object.values(ergebnisse).reduce((s, x) => s + x.punkte, 0)
       const gesamt = Math.round((mcPunkte + offenePunkte) * 10) / 10
-      for (const [id, x] of Object.entries(ergebnisse)) {
-        merkeAufgabenErgebnis(id, x.punkte >= x.max * 0.5, heute)
+      // Aufgaben-Statistik nur beim ERSTEN erfolgreichen Durchlauf zählen
+      // (sonst verzerrt „Nochmal versuchen" die Richtig/Falsch-Zähler).
+      if (!statistikGezaehlt) {
+        for (const [id, x] of Object.entries(ergebnisse)) {
+          merkeAufgabenErgebnis(id, x.punkte >= x.max * 0.5, heute)
+        }
+        setStatistikGezaehlt(true)
       }
       if (termin) {
         merkeSimulation({
