@@ -3,11 +3,12 @@ import type { Thema } from '../types'
 // Zerlegt den Lernzettel eines Themas in Präsentationsfolien:
 // Titelfolie → je „## Überschrift" eine Inhaltsfolie → Eselsbrücken → Selbstcheck.
 export interface Folie {
-  art: 'titel' | 'inhalt' | 'esel' | 'check'
+  art: 'titel' | 'inhalt' | 'esel' | 'check' | 'diagramm' | 'quiz'
   titel: string
   markdown?: string
   punkte?: string[]
   themaId: string
+  aufgabeId?: string // nur art 'quiz'
 }
 
 export function folienAusThema(t: Thema): Folie[] {

@@ -4,6 +4,7 @@ import Layout from '../components/Layout'
 import Markdown from '../components/Markdown'
 import MedienSlot from '../components/MedienSlot'
 import AufgabenKarte from '../components/AufgabenKarte'
+import ThemaDiagramm from '../components/diagramme'
 import { ladeAufgaben, ladeThemen, useDaten } from '../lib/data'
 import { ladeFortschritt } from '../lib/progress'
 import type { BereichId } from '../types'
@@ -80,7 +81,10 @@ export default function UnterrichtSession() {
 
       {schritt === 1 && (
         <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm lg:grid lg:grid-cols-[2fr_1fr] lg:gap-6">
-          <Markdown text={thema.lernzettel} />
+          <div>
+            <ThemaDiagramm themaId={thema.id} />
+            <Markdown text={thema.lernzettel} />
+          </div>
           {thema.eselsbruecken.length > 0 && (
             <div className="mt-5 lg:mt-0">
               <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-slate-500">

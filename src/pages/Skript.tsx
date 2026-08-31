@@ -1,7 +1,46 @@
 import { useNavigate, useParams } from 'react-router-dom'
 import Markdown from '../components/Markdown'
+import ThemaDiagramm from '../components/diagramme'
 import { ladeBereiche, ladeThemen, useDaten } from '../lib/data'
 import type { BereichId } from '../types'
+
+// Quellen bewusst ohne konkrete Prüfungstermine (Anonymisierung, lib/termine.ts).
+const QUELLEN: Record<BereichId, string[]> = {
+  wiso: [
+    'Bürgerliches Gesetzbuch (BGB) und Handelsgesetzbuch (HGB)',
+    'Berufsbildungsgesetz (BBiG), Jugendarbeitsschutzgesetz (JArbSchG)',
+    'Arbeitszeitgesetz (ArbZG), Kündigungsschutzgesetz (KSchG), Betriebsverfassungsgesetz (BetrVG)',
+    'Sozialgesetzbücher (SGB) zur Sozialversicherung',
+  ],
+  kbz: [
+    'Bürgerliches Gesetzbuch (BGB), insb. Kaufrecht §§ 433 ff.',
+    'Handelsgesetzbuch (HGB), insb. § 377 (Untersuchungs- und Rügepflicht)',
+    'Umsatzsteuergesetz (UStG), insb. § 14 (Pflichtangaben der Rechnung)',
+    'Arbeitszeitgesetz (ArbZG)',
+  ],
+  buchfuehrung: [
+    'Handelsgesetzbuch (HGB), Grundsätze ordnungsmäßiger Buchführung',
+    'Umsatzsteuergesetz (UStG)',
+    'Einkommensteuergesetz (EStG), insb. § 7 (Abschreibung)',
+    'Betrieblicher Kontenrahmen (Schulkontenrahmen)',
+  ],
+  muendlich: [
+    'Verordnung über die Berufsausbildung zum Kaufmann/zur Kauffrau für Büromanagement (BüroMKfAusbV)',
+    'Prüfungshinweise der Industrie- und Handelskammer (IHK)',
+  ],
+}
+
+const GEMEINSAME_QUELLEN = [
+  'Aufgabensammlungen 1–2 (internes Prüfungsübungsmaterial, anonymisiert)',
+  'Eigene Zusammenfassungen, Übungsaufgaben und Diagramme des KBM Prüfungscoachs',
+  'Für den Unterrichtsgebrauch erstellt – ohne Gewähr; maßgeblich sind die aktuellen Gesetzestexte',
+]
+
+const MONATE = ['Januar','Februar','März','April','Mai','Juni','Juli','August','September','Oktober','November','Dezember']
+function standHeute(): string {
+  const d = new Date()
+  return `${MONATE[d.getMonth()]} ${d.getFullYear()}`
+}
 
 // Druckbares Lernskript: Deckblatt → Inhaltsverzeichnis → ein Kapitel pro Thema.
 // „Als PDF speichern" läuft über den Druckdialog des Browsers (print-CSS).
@@ -60,22 +99,37 @@ export default function Skript() {
           <h2 className="mt-3 text-2xl font-bold text-sky-700">{bereich.name}</h2>
           <p className="mt-6 max-w-md text-slate-600">{bereich.beschreibung}</p>
           <p className="mt-10 text-sm text-slate-400">
-            Zusammenfassung · Eselsbrücken · Selbstchecks — für Unterricht und Selbstlernen
+            Zusammenfassung · Diagramme · Eselsbrücken · Selbstchecks — für Unterricht und
+            Selbstlernen
+          </p>
+          <p className="mt-8 text-sm font-medium text-slate-500">
+            {themen!.length} Kapitel · Stand: {standHeute()}
           </p>
         </section>
 
         {/* Inhaltsverzeichnis */}
         <section className="break-after-page pt-8">
           <h2 className="text-2xl font-bold text-slate-900">Inhaltsverzeichnis</h2>
-          <ol className="mt-5 space-y-2">
+          <ol className="mt-5 space-y-3">
             {themen!.map((t, i) => (
-              <li key={t.id} className="flex items-baseline gap-3 border-b border-dotted border-slate-300 pb-2">
-                <span className="text-lg font-bold text-sky-700">{i + 1}.</span>
-                <a href={`#kapitel-${t.id}`} className="font-medium text-slate-800">
-                  {t.name}
-                </a>
+              <li key={t.id} className="border-b border-dotted border-slate-300 pb-2">
+                <div className="flex items-baseline gap-3">
+                  <span className="text-lg font-bold text-sky-700">{i + 1}.</span>
+                  <a href={`#kapitel-${t.id}`} className="font-medium text-slate-800">
+                    {t.name}
+                  </a>
+                </div>
+                <p className="ml-8 text-sm text-slate-500">{t.beschreibung}</p>
               </li>
             ))}
+            <li className="border-b border-dotted border-slate-300 pb-2">
+              <div className="flex items-baseline gap-3">
+                <span className="text-lg font-bold text-sky-700">{themen!.length + 1}.</span>
+                <a href="#quellen" className="font-medium text-slate-800">
+                  Quellenverzeichnis
+                </a>
+              </div>
+            </li>
           </ol>
         </section>
 
@@ -89,6 +143,7 @@ export default function Skript() {
             </div>
 
             <div className="mt-5">
+              <ThemaDiagramm themaId={t.id} />
               <Markdown text={t.lernzettel} />
             </div>
 
@@ -115,6 +170,32 @@ export default function Skript() {
             )}
           </section>
         ))}
+
+        {/* Quellenverzeichnis */}
+        <section id="quellen" className="pt-8">
+          <div className="border-b-4 border-slate-900 pb-3">
+            <p className="text-sm font-semibold text-sky-700">Kapitel {themen!.length + 1}</p>
+            <h2 className="text-2xl font-black text-slate-900">Quellenverzeichnis</h2>
+          </div>
+          <div className="mt-5 space-y-5">
+            <div>
+              <p className="mb-2 font-bold text-slate-800">Rechtsgrundlagen</p>
+              <ul className="space-y-1.5">
+                {(QUELLEN[bereich.id] ?? []).map((q, i) => (
+                  <li key={i} className="text-slate-700">• {q}</li>
+                ))}
+              </ul>
+            </div>
+            <div>
+              <p className="mb-2 font-bold text-slate-800">Übungsmaterial & Hinweise</p>
+              <ul className="space-y-1.5">
+                {GEMEINSAME_QUELLEN.map((q, i) => (
+                  <li key={i} className="text-slate-700">• {q}</li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </section>
       </div>
     </div>
   )
