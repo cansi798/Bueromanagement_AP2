@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="de"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Neues Passwort · KBM Prüfungscoach</title>
+<body style="font-family:system-ui;max-width:420px;margin:3rem auto;padding:0 1rem">
+<h1>Neues Passwort setzen</h1>
+<form id="f" style="display:grid;gap:.7rem">
+  <input id="p1" type="password" placeholder="Neues Passwort (min. 8 Zeichen)" required style="padding:.7rem">
+  <input id="p2" type="password" placeholder="Passwort wiederholen" required style="padding:.7rem">
+  <button style="padding:.8rem;background:#0f172a;color:#fff;border:0;border-radius:8px;font-weight:600">Speichern</button>
+</form>
+<p id="m" style="font-weight:600"></p>
+<script>
+const token = new URLSearchParams(location.search).get('token') || '';
+document.getElementById('f').onsubmit = async (e) => {
+  e.preventDefault();
+  const m = document.getElementById('m');
+  const p1 = document.getElementById('p1').value, p2 = document.getElementById('p2').value;
+  if (p1 !== p2) { m.textContent = 'Die Passwörter stimmen nicht überein.'; m.style.color = '#b91c1c'; return; }
+  const r = await fetch('api/passwort-neu.php', { method: 'POST', headers: {'Content-Type':'application/json'},
+    body: JSON.stringify({ token, passwort: p1 }) });
+  const d = await r.json();
+  m.textContent = r.ok ? '✅ Passwort gespeichert — du kannst dich jetzt anmelden.' : (d.fehler || 'Fehler');
+  m.style.color = r.ok ? '#15803d' : '#b91c1c';
+};
+</script></body></html>

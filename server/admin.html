@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="de"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Admin · KBM Prüfungscoach</title>
+<style>
+  body{font-family:system-ui;max-width:860px;margin:2rem auto;padding:0 1rem;color:#0f172a;background:#f1f5f9}
+  .karte{background:#fff;border:2px solid #e2e8f0;border-radius:14px;padding:1.2rem;margin-bottom:1rem}
+  input,select,textarea,button{font:inherit;padding:.65rem;border:1px solid #cbd5e1;border-radius:8px}
+  button{background:#0f172a;color:#fff;border:0;font-weight:600;cursor:pointer;min-height:44px}
+  button.zweit{background:#fff;color:#0f172a;border:2px solid #cbd5e1}
+  table{width:100%;border-collapse:collapse;font-size:.92rem}
+  td,th{border-bottom:1px solid #e2e8f0;padding:.45rem .4rem;text-align:left}
+  .ok{color:#15803d}.rot{color:#b91c1c}
+  #app{display:none}
+  .zeile{display:flex;gap:.6rem;flex-wrap:wrap;align-items:center}
+  code{background:#f1f5f9;padding:.1rem .35rem;border-radius:5px}
+</style>
+<body>
+<h1>🧑‍🏫 KBM Prüfungscoach — Verwaltung</h1>
+
+<div id="login" class="karte">
+  <h2>Anmelden</h2>
+  <div class="zeile">
+    <input id="l-email" type="email" placeholder="Admin-E-Mail" style="flex:1;min-width:200px">
+    <input id="l-pass" type="password" placeholder="Passwort" style="flex:1;min-width:160px">
+  </div>
+  <div class="zeile" style="margin-top:.6rem">
+    <span>🤖-Schutz: <b id="l-frage">…</b> =</span>
+    <input id="l-captcha" inputmode="numeric" placeholder="Ergebnis" style="width:6.5rem">
+    <button id="l-los">Anmelden</button>
+  </div>
+  <div id="l-2fa" style="display:none;margin-top:.8rem" class="zeile">
+    <span>📧 Code aus der E-Mail:</span>
+    <input id="l-code" inputmode="numeric" placeholder="6-stelliger Code" style="width:9rem">
+    <button id="l-code-los">Bestätigen</button>
+  </div>
+  <p id="l-m" class="rot"></p>
+</div>
+
+<div id="app">
+  <div class="karte">
+    <div class="zeile" style="justify-content:space-between">
+      <b id="a-wer"></b><button class="zweit" id="a-logout">Abmelden</button>
+    </div>
+  </div>
+
+  <div class="karte">
+    <h2>Klassen</h2>
+    <div class="zeile">
+      <select id="k-liste" style="flex:1;min-width:220px"></select>
+      <input id="k-name" placeholder="Neue Klasse (z. B. KBM 2026)" style="flex:1;min-width:180px">
+      <button id="k-neu">+ Klasse anlegen</button>
+    </div>
+  </div>
+
+  <div class="karte">
+    <h2>Mitglieder <span id="m-titel" style="font-weight:400;color:#64748b"></span></h2>
+    <div class="zeile">
+      <input id="m-email" type="email" placeholder="schueler@mail.de" style="flex:1;min-width:200px">
+      <input id="m-name" placeholder="Name (optional)" style="flex:1;min-width:140px">
+      <button id="m-einzeln">+ Anlegen</button>
+    </div>
+    <details style="margin-top:.7rem">
+      <summary style="cursor:pointer">📥 Mehrere per JSON importieren</summary>
+      <textarea id="m-json" rows="5" style="width:100%;margin-top:.5rem" placeholder='[
+  {"email": "anna@mail.de", "name": "Anna A."},
+  {"email": "ben@mail.de",  "name": "Ben B."}
+]'></textarea>
+      <button id="m-import" style="margin-top:.5rem">Importieren</button>
+    </details>
+    <div id="m-neu"></div>
+    <table id="m-tab" style="margin-top:1rem"><thead>
+      <tr><th>Name</th><th>E-Mail</th><th>Status</th><th></th></tr></thead><tbody></tbody></table>
+  </div>
+</div>
+
+<p id="g-m" class="rot"></p>
+
+<script>
+const $ = (id) => document.getElementById(id);
+const api = async (pfad, opts = {}) => {
+  const r = await fetch('api/' + pfad, { headers: {'Content-Type':'application/json'}, credentials:'same-origin', ...opts });
+  const d = await r.json().catch(() => ({}));
+  if (!r.ok) throw d;
+  return d;
+};
+let emailMerken = '';
+
+async function captchaLaden() { try { $('l-frage').textContent = (await api('captcha.php')).frage; } catch {} $('l-captcha').value=''; }
+
+async function start() {
+  try {
+    const me = await api('me.php');
+    if (me.nutzer && me.nutzer.rolle === 'admin') return anAppZeigen(me.nutzer);
+  } catch {}
+  $('login').style.display = 'block'; captchaLaden();
+}
+
+$('l-los').onclick = async () => {
+  $('l-m').textContent = '';
+  try {
+    const d = await api('login.php', { method:'POST', body: JSON.stringify({
+      email: $('l-email').value, passwort: $('l-pass').value, captcha: $('l-captcha').value }) });
+    if (d.zwei_fa) { emailMerken = $('l-email').value; $('l-2fa').style.display = 'flex'; $('l-m').textContent=''; return; }
+    anAppZeigen(d.nutzer);
+  } catch (e) { $('l-m').textContent = e.fehler || 'Fehler'; if (e.captcha) $('l-frage').textContent = e.captcha.frage; else captchaLaden(); }
+};
+$('l-code-los').onclick = async () => {
+  try { const d = await api('login-2fa.php', { method:'POST', body: JSON.stringify({ email: emailMerken, code: $('l-code').value }) });
+    anAppZeigen(d.nutzer);
+  } catch (e) { $('l-m').textContent = e.fehler || 'Fehler'; }
+};
+$('a-logout').onclick = async () => { await api('logout.php'); location.reload(); };
+
+function anAppZeigen(n) {
+  if (n.rolle !== 'admin') { $('l-m').textContent = 'Dieses Panel ist nur für Admins.'; return; }
+  $('login').style.display = 'none'; $('app').style.display = 'block';
+  $('a-wer').textContent = `Angemeldet: ${n.name || n.email}`;
+  klassenLaden();
+}
+
+async function klassenLaden() {
+  const d = await api('admin/klassen.php');
+  const s = $('k-liste'); s.innerHTML = '';
+  for (const k of d.klassen) s.add(new Option(`${k.name} (${k.mitglieder})`, k.id));
+  if (d.klassen.length) mitgliederLaden();
+}
+$('k-liste').onchange = mitgliederLaden;
+$('k-neu').onclick = async () => {
+  try { await api('admin/klassen.php', { method:'POST', body: JSON.stringify({ name: $('k-name').value }) });
+    $('k-name').value=''; klassenLaden();
+  } catch (e) { $('g-m').textContent = e.fehler || 'Fehler'; }
+};
+
+async function mitgliederLaden() {
+  const kid = $('k-liste').value; if (!kid) return;
+  $('m-titel').textContent = '· ' + $('k-liste').selectedOptions[0].text;
+  const d = await api('admin/nutzer.php?klasse_id=' + kid);
+  const tb = $('m-tab').querySelector('tbody'); tb.innerHTML = '';
+  for (const m of d.mitglieder) {
+    const tr = tb.insertRow();
+    tr.innerHTML = `<td>${m.name||'—'}</td><td>${m.email}</td>
+      <td>${+m.gesperrt ? '🔒 gesperrt' : '✓'}</td>
+      <td><button class="zweit" data-id="${m.id}">löschen</button></td>`;
+    tr.querySelector('button').onclick = async (ev) => {
+      if (!confirm(m.email + ' wirklich löschen?')) return;
+      await api('admin/nutzer.php', { method:'DELETE', body: JSON.stringify({ id: +ev.target.dataset.id }) });
+      klassenLaden();
+    };
+  }
+}
+
+async function anlegen(mitglieder) {
+  try {
+    const d = await api('admin/nutzer.php', { method:'POST',
+      body: JSON.stringify({ klasse_id: +$('k-liste').value, mitglieder }) });
+    let html = '';
+    if (d.angelegt.length) {
+      html += `<p class="ok"><b>⚠ Startpasswörter — nur JETZT sichtbar, bitte kopieren:</b></p><ul>`;
+      for (const a of d.angelegt) html += `<li>${a.email} → <code>${a.passwort}</code></li>`;
+      html += '</ul>';
+    }
+    if (d.fehler.length) html += `<p class="rot">${d.fehler.join('<br>')}</p>`;
+    $('m-neu').innerHTML = html;
+    klassenLaden();
+  } catch (e) { $('g-m').textContent = e.fehler || 'Fehler'; }
+}
+$('m-einzeln').onclick = () => anlegen([{ email: $('m-email').value, name: $('m-name').value }]);
+$('m-import').onclick = () => {
+  try { anlegen(JSON.parse($('m-json').value)); }
+  catch { $('g-m').textContent = 'JSON ungültig — Beispielformat beachten.'; }
+};
+
+start();
+</script>
+</body></html>
