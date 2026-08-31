@@ -6,7 +6,16 @@
     "beschreibung": "Betriebswirtschaftliche Produktionsfaktoren, Outsourcing, Wirtschaftlichkeit sowie Ziel- und Kennzahlensysteme des Unternehmens.",
     "haeufigkeit": [
       "2025-sommer",
-      "2024-sommer"
+      "2024-sommer",
+      "2022-sommer",
+      "2022-winter",
+      "2023-sommer",
+      "2023-winter",
+      "2024-winter",
+      "2019-sommer",
+      "2020-sommer",
+      "2020-winter",
+      "2021-winter"
     ],
     "lernzettel": "## Betriebliche Produktionsfaktoren\n\nZur Leistungserstellung kombiniert ein Betrieb **vier Produktionsfaktoren** (nach Gutenberg):\n\n1. **Werkstoffe** – Roh-, Hilfs- und Betriebsstoffe sowie Vorprodukte (z. B. Holz, Öl, Schrauben).\n2. **Betriebsmittel** – langlebige Anlagen wie Maschinen, Gebäude, Grundstücke, Fahrzeuge.\n3. **Ausführende (objektbezogene) Arbeit** – körperliche/geistige Arbeit an Produkten (z. B. Facharbeiter).\n4. **Dispositiver Faktor** – Leitung, Planung, Organisation (Geschäftsführung, Prokurist, Betriebsleiter).\n\n**Outsourcing** bedeutet, Aufgaben an eine kostengünstigere Fremdfirma auszulagern (z. B. Marktforschung, Lagerung, Personalsuche). Kerntätigkeiten wie die eigene Produktion werden meist im Haus behalten.\n\n## Unternehmensziele und Zielkonflikte\n\nZiele lassen sich in **ökonomische** (Gewinn, Wirtschaftlichkeit), **ökologische** (Umweltschutz) und **soziale** (Mitarbeiterzufriedenheit) Ziele gliedern. Ein **Zielkonflikt** liegt vor, wenn die Erreichung eines Ziels ein anderes verschlechtert – z. B. Schließung des Betriebskindergartens aus Kostengründen (ökonomisch ↑, sozial ↓).\n\n## Wirtschaftlichkeit\n\n$$\\text{Wirtschaftlichkeit} = \\frac{\\text{Ertrag (Leistung)}}{\\text{Aufwand (Kosten)}}$$\n\nEine **Verbesserung** liegt vor, wenn der Wert steigt bzw. über 1 liegt. Beispiel: Ertrag 100.000 € / Aufwand 80.000 € = **1,25** – die Werbeaktion ist wirtschaftlich, weil der Ertrag den Aufwand übersteigt.\n\n**Merke:** Kein Verlust bei gleichem Ergebnis heißt noch nicht bessere Wirtschaftlichkeit – der Quotient muss steigen.",
     "eselsbruecken": [
@@ -38,7 +47,16 @@
     "beschreibung": "Gründung und Merkmale der GmbH, Gewinnverteilung sowie Prokura und Handlungsvollmacht.",
     "haeufigkeit": [
       "2025-sommer",
-      "2024-sommer"
+      "2024-sommer",
+      "2022-sommer",
+      "2022-winter",
+      "2023-sommer",
+      "2023-winter",
+      "2024-winter",
+      "2019-sommer",
+      "2020-sommer",
+      "2020-winter",
+      "2021-winter"
     ],
     "lernzettel": "## GmbH (Gesellschaft mit beschränkter Haftung)\n\nDie GmbH ist eine **Kapitalgesellschaft** und **juristische Person**. Sie muss ins **Handelsregister** eingetragen werden.\n\n- **Gründung** ab **einer Person** möglich (Ein-Personen-GmbH).\n- **Stammkapital: 25.000 €**, bei Gründung mindestens die Hälfte (12.500 €) einzuzahlen.\n- Gesellschafter haften nur mit ihrer Einlage, nicht mit Privatvermögen.\n- Mitarbeit in der Geschäftsführung ist **nicht verpflichtend** (Fremdgeschäftsführer möglich).\n- Gründung durch Bar- **oder** Sacheinlagen.\n\n**Gewinnverteilung** erfolgt – falls vereinbart – im Verhältnis der Kapitaleinlage:\n\n$$\\text{Anteil} = \\frac{\\text{eigene Einlage}}{\\text{Gesamtkapital}} \\times \\text{Gewinn}$$\n\nBeispiel: 30.000 € / 120.000 € × 300.000 € = **75.000 €**.\n\n## Prokura und Handlungsvollmacht\n\nDie **Prokura** (§§ 48 ff. HGB) ist die weitreichendste Vollmacht. Der Prokurist darf fast alle gerichtlichen und außergerichtlichen Geschäfte tätigen. **Nicht** erlaubt: Grundstücke verkaufen/belasten, Bilanzen/Steuererklärungen unterschreiben, Prokura erteilen. Prokura wird ins Handelsregister eingetragen.\n\nDie **allgemeine Handlungsvollmacht** (§ 54 HGB) umfasst gewöhnliche Geschäfte des Betriebs (z. B. Mitarbeiter einstellen). Sie muss **nicht** schriftlich erteilt und **nicht** ins Handelsregister eingetragen werden – und darf auch von einem Prokuristen erteilt werden. Sie ist jederzeit **frei widerruflich**.\n\n**Merke:** Der Umfang der Prokura ist gesetzlich festgelegt und Dritten gegenüber nicht beschränkbar.",
     "eselsbruecken": [
@@ -70,7 +88,16 @@
     "beschreibung": "Außen- und Innenfinanzierung, Darlehensarten sowie Kreditsicherheiten wie die Sicherungsübereignung.",
     "haeufigkeit": [
       "2025-sommer",
-      "2024-sommer"
+      "2024-sommer",
+      "2022-sommer",
+      "2022-winter",
+      "2023-sommer",
+      "2023-winter",
+      "2024-winter",
+      "2019-sommer",
+      "2020-sommer",
+      "2020-winter",
+      "2021-winter"
     ],
     "lernzettel": "## Finanzierungsarten\n\n- **Außenfinanzierung**: Kapital von außen (Bankdarlehen = Fremdfinanzierung; neue Einlagen/Aktien = Beteiligungsfinanzierung).\n- **Innenfinanzierung / Selbstfinanzierung**: aus einbehaltenem (nicht ausgeschüttetem) Gewinn.\n\n## Darlehensarten (Rückzahlung)\n\n| Darlehen | Rate | Zinsen |\n|---|---|---|\n| **Abzahlungsdarlehen** (Tilgungsdarlehen) | konstante Tilgung, sinkende Gesamtrate | sinken laufend |\n| **Annuitätendarlehen** | konstante Gesamtrate (Annuität) | sinken, Tilgungsanteil wächst |\n| **Fälligkeitsdarlehen** (endfällig) | Tilgung in einer Summe am Ende | konstant |\n\n**Erkennungsmerkmal Annuität:** Die monatlich zu zahlende **Gesamtsumme bleibt gleich**; da die Zinsen sinken, wächst der Tilgungsanteil.\n\n## Sicherungsübereignung\n\nBei der **Sicherungsübereignung** übereignet der Kreditnehmer der Bank das Eigentum an einer beweglichen Sache (z. B. Fahrzeug), **behält aber den Besitz** und darf sie weiter betrieblich nutzen. Der Kfz-Brief (Zulassungsbescheinigung Teil II) geht meist an die Bank.\n\n**Risiko der Bank:** Da der Kreditnehmer im Besitz bleibt, könnte er die Sache trotz Übereignung an einen gutgläubigen Dritten verkaufen.\n\n**Merke:** Sicherungsübereignung = Eigentum weg, Nutzung bleibt. Beim Pfandrecht wäre es umgekehrt (Sache muss übergeben werden).",
     "eselsbruecken": [
@@ -102,7 +129,16 @@
     "beschreibung": "Angebot, Nachfrage, Marktgleichgewicht sowie Umsatzberechnung anhand von Preis-Mengen-Tabellen.",
     "haeufigkeit": [
       "2025-sommer",
-      "2024-sommer"
+      "2024-sommer",
+      "2022-sommer",
+      "2022-winter",
+      "2023-sommer",
+      "2023-winter",
+      "2024-winter",
+      "2019-sommer",
+      "2020-sommer",
+      "2020-winter",
+      "2021-winter"
     ],
     "lernzettel": "## Angebot, Nachfrage und Marktsituationen\n\nDie **Nachfrage** steigt bei sinkendem Preis, das **Angebot** steigt bei steigendem Preis.\n\n- **Nachfrageüberhang**: Nachfrage > Angebot (typisch bei niedrigem Preis) → **Verkäufermarkt**, Preis steigt tendenziell.\n- **Angebotsüberhang**: Angebot > Nachfrage (typisch bei hohem Preis) → **Käufermarkt**, Preis sinkt tendenziell.\n- **Marktgleichgewicht**: Angebot = Nachfrage. Der zugehörige Preis ist der **Gleichgewichtspreis**, die Menge die **Gleichgewichtsmenge**.\n\nBeispiel: Bei 1.400 € ist die Nachfrage (4.000) größer als das Angebot (1.000) → **Nachfrageüberhang**. Beim Preis, bei dem beide Mengen gleich sind (hier 1.800 € → je 3.000 Stück), herrscht **Marktgleichgewicht**; die Gleichgewichtsmenge beträgt 3.000 Stück.\n\n## Umsatz berechnen\n\n$$\\text{Umsatz} = \\text{Preis} \\times \\text{abgesetzte Menge}$$\n\nBeispiel: 2.000 € × 2.500 Stück = **5.000.000 €** (5 Mio. €). Maßgeblich für die abgesetzte Menge ist die **Nachfrage** zum jeweiligen Preis.\n\n**Merke:** Beim Gleichgewichtspreis 'räumt' der Markt – es bleibt kein Angebots- oder Nachfrageüberhang.",
     "eselsbruecken": [
@@ -134,7 +170,16 @@
     "beschreibung": "Konjunkturphasen, volkswirtschaftliche Kennzahlen sowie Früh-, Präsenz- und Spätindikatoren.",
     "haeufigkeit": [
       "2025-sommer",
-      "2024-sommer"
+      "2024-sommer",
+      "2022-sommer",
+      "2022-winter",
+      "2023-sommer",
+      "2023-winter",
+      "2024-winter",
+      "2019-sommer",
+      "2020-sommer",
+      "2020-winter",
+      "2021-winter"
     ],
     "lernzettel": "## Konjunkturzyklus\n\nDie Wirtschaft durchläuft im Zeitablauf wellenförmig **vier Phasen**:\n\n1. **Aufschwung (Expansion)**: Investitionen, Produktion, Beschäftigung steigen; Lagerbestände nehmen ab.\n2. **Hochkonjunktur (Boom)**: Vollauslastung, hohe Preise/Löhne, Überhitzung.\n3. **Abschwung (Rezession)**: Nachfrage und Investitionen sinken, Lagerbestände steigen.\n4. **Tief (Depression)**: Tiefpunkt, geringe Auslastung, hohe Arbeitslosigkeit.\n\nDer langfristig steigende **Wirtschaftstrend** verläuft als Gerade durch die Schwankungen.\n\n## Kennzahlen\n\n- **Bruttoinlandsprodukt (BIP)**: Wert aller im **Inland** erzeugten Waren/Dienstleistungen (Inlandsprinzip).\n- **Bruttonationaleinkommen / Bruttosozialprodukt**: Leistung der **Inländer**, unabhängig vom Ort (Inländerprinzip).\n\n## Konjunkturindikatoren\n\n- **Frühindikatoren** (vorlaufend): **Auftragseingänge**, Geschäftsklimaindex, Aktienkurse.\n- **Präsenzindikatoren** (gleichlaufend): **Produktionsmenge**, BIP, Kapazitätsauslastung.\n- **Spätindikatoren** (nachlaufend): **Arbeitslosenquote**, Preisniveau.\n\n**Merke:** Auftragseingänge kündigen die Entwicklung an (früh), Arbeitslosigkeit reagiert verzögert (spät).",
     "eselsbruecken": [
@@ -166,7 +211,16 @@
     "beschreibung": "Berufsbildungsgesetz, Jugendarbeitsschutzgesetz, Ausbildungsvertrag sowie Jugend- und Auszubildendenvertretung.",
     "haeufigkeit": [
       "2025-sommer",
-      "2024-sommer"
+      "2024-sommer",
+      "2022-sommer",
+      "2022-winter",
+      "2023-sommer",
+      "2023-winter",
+      "2024-winter",
+      "2019-sommer",
+      "2020-sommer",
+      "2020-winter",
+      "2021-winter"
     ],
     "lernzettel": "## Rechtsgrundlagen der Ausbildung\n\n- **Berufsbildungsgesetz (BBiG)**: Pflichten von Azubi und Betrieb, Ausbildungsvertrag, Zeugnis, Prüfung, gestrecktes Prüfungsverfahren.\n- **Ausbildungsordnung** (VO über die Berufsausbildung): Inhalte/Struktur des Berufs, Prüfungsbereiche.\n- **Jugendarbeitsschutzgesetz (JArbSchG)**: Schutz Jugendlicher **bis zum vollendeten 18. Lebensjahr** (Urlaub, Arbeitszeit, Freizeit).\n\n## Ausbildungsvertrag – Pflichten\n\nPflichten des Azubi: sorgfältig lernen, Weisungen/Ordnung befolgen, Berichtsheft (Ausbildungsnachweis) führen, Verschwiegenheit. **Unzulässig** ist z. B. eine Klausel, die den Azubi nach der Prüfung zum Weiterarbeiten im Betrieb zwingt.\n\n**Nicht** zwingend nötig für die Wirksamkeit: eine Meldung des Vertrags bei der Agentur für Arbeit. Nötig sind hingegen Schriftform, Eintrag ins Ausbildungsverzeichnis der Kammer und Unterschrift der gesetzlichen Vertreter (bei Minderjährigen).\n\n## Jugendarbeitsschutz\n\n- **Urlaub (§ 19 JArbSchG)**: nach Alter zu Jahresbeginn – 30/27/25 Werktage (unter 16/17/18). Anteilig: Werktage/12 × Beschäftigungsmonate.\n- **Tägliche Freizeit (§ 13)**: mindestens **12 Stunden** ununterbrochen. Beispiel: Arbeitsende 13:00 + 12 h + Schulbeginn 07:30 → verpflichtbar bis 19:30 Uhr am Vortag.\n\n## Jugend- und Auszubildendenvertretung (JAV)\n\nDie JAV vertritt Jugendliche/Azubis. Bei Betriebsratssitzungen hat sie **Teilnahme-** und **Stimmrecht**, wenn Angelegenheiten überwiegend die von ihr vertretenen Beschäftigten betreffen (§§ 60, 67 BetrVG).",
     "eselsbruecken": [
@@ -198,7 +252,16 @@
     "beschreibung": "Arbeitssicherheit und Belehrung, Sicherheitszeichen, Kreislaufwirtschaftsgesetz, erneuerbare Energien und Fairtrade.",
     "haeufigkeit": [
       "2025-sommer",
-      "2024-sommer"
+      "2024-sommer",
+      "2022-sommer",
+      "2022-winter",
+      "2023-sommer",
+      "2023-winter",
+      "2024-winter",
+      "2019-sommer",
+      "2020-sommer",
+      "2020-winter",
+      "2021-winter"
     ],
     "lernzettel": "## Arbeitsschutz und Arbeitssicherheit\n\nFür die **Überwachung** der Gesetze zu Arbeitsschutz und Arbeitssicherheit ist die **Berufsgenossenschaft** (gesetzliche Unfallversicherung) zuständig – daneben staatliche Gewerbeaufsicht.\n\n**Belehrung/Unterweisung** über Unfall- und Gesundheitsgefahren ist erforderlich **bei Aufnahme der Beschäftigung und danach in regelmäßigen Abständen** (mind. jährlich), sowie bei Änderungen.\n\n## Sicherheitszeichen (Fluchtwegplan)\n\n- **Rettungszeichen** (grün, quadratisch): z. B. **Sammelstelle**, Notruftelefon.\n- **Brandschutzzeichen** (rot, quadratisch): **Brandmelder**, **Geräte zur Brandbekämpfung** (Feuerlöscher).\n- **Verbotszeichen** (rund, rot durchgestrichen): **Kein offenes Feuer**.\n\n## Kreislaufwirtschaftsgesetz (KrWG)\n\nZiel-Rangfolge (Abfallhierarchie): **1. Vermeidung → 2. Vorbereitung zur Wiederverwendung → 3. Recycling/Weiterverwertung → 4. sonstige Verwertung → 5. Beseitigung**. Zweck ist außerdem der Schutz von Mensch und Umwelt.\n\n- **Abfallvermeidung**: Rechnungen per E-Mail statt Post.\n- **Wiederverwendung**: gebrauchte Monitore werden gespendet und weiter genutzt.\n- **Weiterverwertung**: aus Paletten werden Gartenmöbel hergestellt (Upcycling).\n\nEin generelles Plastikverbot ist **nicht** Zweck des KrWG.\n\n## Nachhaltigkeit\n\n- **Erneuerbare Energien**: Wasserkraft, Windkraft, **Erdwärme (Geothermie)**, Sonnenenergie, Biomasse. **Nicht** erneuerbar: Erdgas, Erdöl, Kohle.\n- **Fairtrade** kennzeichnet Waren aus **fairem Handel**, bei deren Herstellung soziale, ökologische und ökonomische Kriterien eingehalten werden – relevant für Unternehmen und Privatpersonen.",
     "eselsbruecken": [
@@ -230,7 +293,9 @@
     "name": "Datenschutz und digitales Arbeiten",
     "beschreibung": "Abgrenzung von Datenschutz und Datensicherheit, Rechte betroffener Personen sowie Chancen und Grenzen digitaler Arbeits- und Buchungssysteme.",
     "haeufigkeit": [
-      "2024-sommer"
+      "2024-sommer",
+      "2022-sommer",
+      "2023-winter"
     ],
     "lernzettel": "## Datenschutz vs. Datensicherheit\n\nBeide Begriffe werden oft verwechselt, meinen aber Unterschiedliches:\n\n- **Datenschutz** schützt die **Person** vor missbräuchlichem Umgang mit ihren personenbezogenen Daten. Grundlage sind DSGVO und BDSG. Betroffene haben Rechte auf **Auskunft, Berichtigung, Löschung** („Recht auf Vergessenwerden“) und Widerspruch. Daten dürfen nur zweckgebunden und mit Rechtsgrundlage verarbeitet werden.\n- **Datensicherheit** schützt die **Daten selbst** (technisch-organisatorisch) vor **Verlust, Beschädigung, Zerstörung und unbefugtem Zugriff**. Typische Maßnahmen: Backups, Verschlüsselung, Zugriffsrechte, Passwörter, Virenschutz, Firewalls.\n\n**Merksatz:** Datenschutz = Schutz der Person; Datensicherheit = Schutz der Daten.\n\n## Homeoffice und Nutzungsordnung\n\nBeim mobilen Arbeiten/Homeoffice steigen die Risiken (fremde Netzwerke, private Geräte, unbefugte Mitleser). Eine **Nutzungsordnung für digitales Arbeiten** regelt z. B. Passwortnutzung, VPN, Sperren des Bildschirms, sichere Ablage und Umgang mit vertraulichen Unterlagen. Regelungen, die vor **Beschädigung/Verlust** der Daten schützen, gehören zur **Datensicherheit**; Regelungen zu Rechten der Betroffenen und zur Zweckbindung gehören zum **Datenschutz**.\n\n## Digitale Buchungs- und Terminsysteme\n\nEin Online-Terminbuchungssystem bringt **Vorteile**: Buchung rund um die Uhr, automatischer Abgleich der Kalender, Vermeidung von Leerzeiten und Doppelbuchungen, automatische Terminerinnerung.\n\n**Nachteil:** Der **persönliche Kontakt entfällt** – individuelle Rückfragen oder besondere Kundenanliegen können bei der reinen Online-Buchung nicht direkt geklärt werden. Zudem sind technische Verfügbarkeit und Datenschutz sicherzustellen.\n\n**Merke:** Automatisierung spart Zeit, ersetzt aber nicht die persönliche Beratung.",
     "eselsbruecken": [
@@ -261,7 +326,11 @@
     "name": "Geschäftsprozesse und EPK",
     "beschreibung": "Darstellung von Geschäftsprozessen mit der ereignisgesteuerten Prozesskette (EPK) sowie die logischen Konnektoren XOR, ODER und UND.",
     "haeufigkeit": [
-      "2024-sommer"
+      "2024-sommer",
+      "2023-sommer",
+      "2023-winter",
+      "2019-sommer",
+      "2020-winter"
     ],
     "lernzettel": "## Ereignisgesteuerte Prozesskette (EPK)\n\nDie **EPK** stellt Geschäftsprozesse grafisch als Abfolge von Ereignissen und Funktionen dar. Sie dient der Analyse, Dokumentation und Reorganisation von Abläufen.\n\n**Grundelemente:**\n- **Ereignis** (Sechseck): ein eingetretener Zustand, z. B. „Zahlung ist eingegangen“, „Betrag stimmt“. Ereignisse **lösen Funktionen aus** oder sind deren Ergebnis.\n- **Funktion** (abgerundetes Rechteck): eine Tätigkeit/Aufgabe, z. B. „Prüfen des Betrages“, „Bestätigung an Kunden versenden“.\n- **Konnektoren/Operatoren** (Kreise): verknüpfen Verzweigungen logisch.\n\nWichtig: In der EPK **wechseln sich Ereignisse und Funktionen ab** (ein Ereignis führt zu einer Funktion, die Funktion führt zu einem Ereignis).\n\n## Logische Konnektoren\n\n| Symbol | Bedeutung | Verwendung |\n|---|---|---|\n| **XOR** | entweder-oder (exklusiv) | genau **einer** von mehreren Pfaden, die sich **gegenseitig ausschließen** |\n| **∨ (ODER)** | einschließendes Oder | ein **oder mehrere** Pfade möglich |\n| **∧ (UND)** | logisches Und | **alle** Pfade werden ausgeführt (parallel) |\n\n**Beispiel:** Nach der Funktion „Prüfen des Betrages“ folgen die einander **ausschließenden** Ereignisse „Betrag stimmt“ und „Betrag stimmt nicht“. Da nur genau eines eintreten kann, wird der **XOR-Operator** eingesetzt.\n\n**Merke:** Schließen sich die Ergebnisse gegenseitig aus → XOR. Können mehrere gleichzeitig gelten → ODER. Müssen alle gelten → UND.",
     "eselsbruecken": [
@@ -282,6 +351,74 @@
       },
       "podcast": {
         "titel": "Geschäftsprozesse und EPK zum Hören",
+        "status": "geplant"
+      }
+    }
+  },
+  {
+    "id": "unternehmensorganisation",
+    "bereich": "wiso",
+    "name": "Unternehmensorganisation und Weisungssysteme",
+    "beschreibung": "Aufbau- und Ablauforganisation, Weisungssysteme (Einlinien-, Stablinien-, Mehrliniensystem, Matrix) sowie Arbeitsanweisungen und Stabstellen.",
+    "haeufigkeit": [
+      "2022-winter",
+      "2019-sommer",
+      "2020-sommer",
+      "2020-winter",
+      "2021-winter"
+    ],
+    "lernzettel": "## Aufbau- und Ablauforganisation\n\nDie **Aufbauorganisation** gliedert den Betrieb in Stellen und Abteilungen und legt fest, wer wem übergeordnet ist (dargestellt im **Organigramm**). Die **Ablauforganisation** regelt dagegen den zeitlichen und räumlichen Ablauf der Arbeitsprozesse. **Arbeitsanweisungen** sind ein Instrument der Ablauforganisation: Sie sollen einen reibungslosen Betriebsablauf gewährleisten, indem sie Tätigkeiten und ihre Reihenfolge festlegen.\n\n## Weisungssysteme\n\n- **Einliniensystem**: Jede Stelle hat genau einen Vorgesetzten; Anweisungen laufen über eine einzige Linie. Klar, aber lange Dienstwege.\n- **Stabliniensystem**: Ein Einliniensystem, ergänzt um **Stabstellen**. Eine Stabstelle (z. B. Marktanalyse, Assistenz der Geschäftsführung) hat **nur beratende Funktion** und **keine Weisungsbefugnis** gegenüber den Linienstellen.\n- **Mehrliniensystem**: Eine Stelle kann von mehreren Vorgesetzten Weisungen erhalten (Spezialisierung, aber Gefahr von Kompetenzkonflikten).\n- **Matrixorganisation**: Kombination aus funktionaler und objektbezogener Gliederung; zwei Weisungslinien überschneiden sich.\n\n## Weisungsbefugnis im Organigramm\n\nEntscheidend ist, wer wem Weisungen erteilen darf: Die **Geschäftsführung** darf den Abteilungsleitern Weisungen erteilen (z. B. Mitarbeiter einstellen). Eine **Stabstelle darf nur beraten**, nicht anweisen. Abteilungsleiter auf gleicher Ebene dürfen sich untereinander **nicht** anweisen.\n\n## Arbeitsanweisung\n\nEine Arbeitsanweisung ist eine verbindliche Vorgabe, wie eine bestimmte Aufgabe auszuführen ist. Sie ist Teil der **Ablauforganisation** und gilt grundsätzlich für alle betroffenen Mitarbeitenden (nicht nur für Prokuristen oder Auszubildende).\n\n**Merke:** Aufbauorganisation = Struktur (wer?), Ablauforganisation = Prozess (wie/wann?). Die Stabstelle berät, die Linie entscheidet.",
+    "eselsbruecken": [
+      "Stab = Stütze: Die Stabstelle stützt/berät die Leitung, darf aber nicht anweisen.",
+      "Einlinie = ein Chef, Mehrlinie = mehrere Chefs - die Zahl der Linien = Zahl der Vorgesetzten.",
+      "AufBAU = Struktur (Bau des Betriebs), abLAUF = Prozess (wie es läuft)."
+    ],
+    "selbstcheck": [
+      "Was unterscheidet das Einliniensystem vom Stabliniensystem?",
+      "Welche Befugnis hat eine Stabstelle und welche nicht?",
+      "Zu welcher Organisationsform gehören Arbeitsanweisungen?",
+      "Darf ein Abteilungsleiter einem gleichrangigen Abteilungsleiter Weisungen erteilen?"
+    ],
+    "medien": {
+      "video": {
+        "titel": "Unternehmensorganisation und Weisungssysteme erklärt",
+        "status": "geplant"
+      },
+      "podcast": {
+        "titel": "Unternehmensorganisation und Weisungssysteme zum Hören",
+        "status": "geplant"
+      }
+    }
+  },
+  {
+    "id": "projektmanagement",
+    "bereich": "wiso",
+    "name": "Projektmanagement und Projektphasen",
+    "beschreibung": "Phasen eines Projekts (Definition, Planung, Durchführung, Abschluss) sowie typische Werkzeuge wie Projektstrukturplan und Projektablaufplan.",
+    "haeufigkeit": [
+      "2022-winter",
+      "2020-winter",
+      "2021-winter"
+    ],
+    "lernzettel": "## Was ist ein Projekt?\n\nEin **Projekt** ist ein einmaliges Vorhaben mit klarem Ziel, begrenzten Ressourcen sowie festem Anfang und Ende. Für die Bearbeitung wird häufig eine **Projektgruppe** eingerichtet. Das Projektmanagement gliedert den Ablauf in Phasen.\n\n## Die vier Projektphasen\n\n1. **Definition** (Initiierung): Das **Projektziel wird formuliert**, der Auftrag geklärt, der Rahmen abgesteckt (Zeit, Kosten, Umfang).\n2. **Planung**: Es werden ein **Projekt-Strukturplan** (Zerlegung in Teilaufgaben) und ein **Projekt-Ablaufplan** (zeitliche Reihenfolge) erstellt; Ressourcen und Termine werden festgelegt.\n3. **Durchführung** (Realisierung): Die Aufgaben werden umgesetzt, die **Projektfortschritte werden dokumentiert** und überwacht (Soll-Ist-Vergleich).\n4. **Abschluss**: Ergebnisse werden übergeben, das Projekt wird abgenommen und es erfolgt eine **Reflexion** (Auswertung, Lessons Learned).\n\n## Wichtige Werkzeuge\n\n- **Projektstrukturplan (PSP)**: gliedert das Gesamtprojekt in überschaubare Arbeitspakete.\n- **Projektablaufplan / Terminplan**: legt Reihenfolge und Termine der Arbeitspakete fest (z. B. Gantt-Diagramm).\n- **Meilensteine**: markieren wichtige Zwischenergebnisse.\n\n## Das magische Dreieck\n\nDie Zielgrößen **Zeit, Kosten und Qualität (Leistung)** hängen voneinander ab - wird an einer Größe geschraubt, wirkt sich das auf die anderen aus.\n\n**Merke:** Erst das Ziel (Definition), dann der Plan (Planung), dann das Tun (Durchführung), zuletzt der Rückblick (Abschluss).",
+    "eselsbruecken": [
+      "Phasen 'DePlanDA': Definition - Planung - Durchführung - Abschluss.",
+      "In der Definition steht das Ziel, in der Planung der Plan - 'erst wohin, dann wie'.",
+      "Abschluss = Reflexion: Am Ende schaut man zurück, was gut lief."
+    ],
+    "selbstcheck": [
+      "Nenne die vier Projektphasen in der richtigen Reihenfolge.",
+      "In welcher Phase wird das Projektziel formuliert?",
+      "Was wird in der Planungsphase erstellt?",
+      "Was geschieht in der Abschlussphase?"
+    ],
+    "medien": {
+      "video": {
+        "titel": "Projektmanagement und Projektphasen erklärt",
+        "status": "geplant"
+      },
+      "podcast": {
+        "titel": "Projektmanagement und Projektphasen zum Hören",
         "status": "geplant"
       }
     }

@@ -15,7 +15,12 @@ describe('termine (Anonymisierung)', () => {
 
   it('unbekannte/fehlende Termine bekommen neutrale Anzeige', () => {
     expect(terminAnzeige(undefined)).toBe('Übungssammlung')
-    expect(terminAnzeige('2019-winter')).toBe('Übungssammlung')
+    expect(terminAnzeige('2016-winter')).toBe('Übungssammlung')
+  })
+
+  it('alle 16 Termine sind gemappt (Rollout)', () => {
+    expect(sammlungsNummer('2024-winter')).toBe(3)
+    expect(sammlungsNummer('2017-winter')).toBe(16)
   })
 
   it('terminVonNummer ist die Umkehrung', () => {

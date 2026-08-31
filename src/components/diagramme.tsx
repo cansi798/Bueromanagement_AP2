@@ -267,11 +267,45 @@ export const DIAGRAMME: Record<string, () => ReactNode> = {
   'ablauf-fachaufgabe': MuendlichAblauf,
 }
 
+// Bearbeitbare Excalidraw-Versionen (public/downloads/excalidraw/, erzeugt von
+// content-pipeline/excalidraw-export.mjs) — Datei auf excalidraw.com öffnen.
+const EXCALIDRAW_DATEI: Record<string, string> = {
+  'kaufvertrag-stoerungen': 'kaufvertrag',
+  'rechnung-umsatzsteuer': 'umsatzsteuer',
+  'buchfuehrung-kontierung': 'buchungssatz',
+  'kostenrechnung': 'zuschlagskalkulation',
+  'umsatzsteuer': 'umsatzsteuer',
+  'buchungssaetze-kontierung': 'buchungssatz',
+  'zuschlagskalkulation': 'zuschlagskalkulation',
+  'deckungsbeitrag-breakeven': 'breakeven',
+  'markt-preisbildung': 'marktpreis',
+  'berufsausbildung-arbeitsrecht': 'dualessystem',
+  'konjunktur-indikatoren': 'konjunktur',
+  'ablauf-fachaufgabe': 'muendlichablauf',
+}
+
 export function hatDiagramm(themaId: string): boolean {
   return themaId in DIAGRAMME
 }
 
 export default function ThemaDiagramm({ themaId }: { themaId: string }) {
   const D = DIAGRAMME[themaId]
-  return D ? <>{D()}</> : null
+  if (!D) return null
+  const excaliDatei = EXCALIDRAW_DATEI[themaId]
+  return (
+    <div>
+      {D()}
+      {excaliDatei && (
+        <p className="-mt-2 mb-3 text-right text-xs print:hidden">
+          <a
+            href={`./downloads/excalidraw/${excaliDatei}.excalidraw`}
+            download
+            className="text-slate-400 hover:text-sky-600"
+          >
+            ✏️ Als Excalidraw-Datei (bearbeitbar)
+          </a>
+        </p>
+      )}
+    </div>
+  )
 }
