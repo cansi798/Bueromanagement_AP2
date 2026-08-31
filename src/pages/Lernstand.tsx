@@ -5,6 +5,7 @@ import { ladeAufgaben, ladeThemen, ladeBereiche } from '../lib/data'
 import { ladeFortschritt } from '../lib/progress'
 import { ihkNote } from '../lib/noten'
 import { terminAnzeige } from '../lib/termine'
+import { zerlegeAufgabenText } from '../lib/aufgabenText'
 import type { Aufgabe, Bereich, BereichId, Thema } from '../types'
 
 const BEREICHE: BereichId[] = ['wiso', 'kbz', 'buchfuehrung', 'muendlich']
@@ -124,7 +125,12 @@ export default function Lernstand() {
                 }
                 className="block rounded-xl border border-red-100 bg-red-50/60 px-3 py-2 hover:border-red-300"
               >
-                <p className="line-clamp-2 text-sm text-slate-800">{aufgabe.text}</p>
+                <p className="line-clamp-2 text-sm text-slate-800">
+                  {(() => {
+                    const z = zerlegeAufgabenText(aufgabe.text)
+                    return (z.nr ? `Aufgabe ${z.nr}: ` : '') + z.text.replace(/\*\*/g, '')
+                  })()}
+                </p>
                 <p className="mt-0.5 text-xs text-red-700">
                   {v.falsch}× falsch · {v.richtig}× richtig · {bereichName(aufgabe.bereich)} →
                   jetzt üben
