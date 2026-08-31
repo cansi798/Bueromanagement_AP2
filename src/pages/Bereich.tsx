@@ -23,8 +23,8 @@ const STUFEN = [
   {
     nr: 3,
     pfad: 'stufe3',
-    name: 'Prüfungsjahre',
-    text: 'Komplette Prüfungen durcharbeiten – auch als Simulation mit Timer.',
+    name: 'Aufgabensammlungen',
+    text: 'Komplette Sammlungen im Prüfungsformat – auch als Simulation mit Timer.',
     icon: '🏁',
   },
 ]

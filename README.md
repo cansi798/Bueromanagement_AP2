@@ -1,10 +1,24 @@
 # KBM Prüfungscoach
 
-Statische Lern-Webapp zur Vorbereitung auf die IHK-Abschlussprüfung
-**Kaufmann/-frau für Büromanagement**: 4 Lernbereiche (WiSo, KBZ,
-Buchführung & KLR, Mündliche Prüfung), 3-Stufen-Training, Prüfungssimulation
-mit Timer, Karteikarten mit Leitner-System, Lernzettel mit Eselsbrücken,
-Quizze, Glossar und Suche. Mobil und Desktop.
+Statische Lern-Webapp für den Unterricht und die Vorbereitung auf die
+IHK-Abschlussprüfung **Kaufmann/-frau für Büromanagement**: 4 Lernbereiche
+(WiSo, KBZ, Buchführung & KLR, Mündliche Prüfung), geführte
+**Unterrichts-Sessions**, **Beamer-Präsentationen** (HTML + PDF), druckbare
+**Lernskripte** mit Deckblatt/Inhaltsverzeichnis/Eselsbrücken,
+3-Stufen-Training, Simulation mit Timer, Karteikarten (Leitner), Quizze,
+Glossar und Suche. Mobil und Desktop.
+
+**Anonymisierung:** Prüfungstermine heißen nach außen „Aufgabensammlung N".
+Die interne Zuordnung steht in `content-pipeline/termine-intern.md` und
+`src/lib/termine.ts` — beides beim Ergänzen neuer Termine pflegen.
+
+**PDFs neu erzeugen** (nach Content-Änderungen):
+
+```bash
+npm run build && npm run preview &   # Server auf :4173
+bash scripts/pdfs.sh <ZUGANGSCODE>   # schreibt public/downloads/*.pdf
+npm run build                        # PDFs in dist/ übernehmen
+```
 
 ## Befehle
 

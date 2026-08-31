@@ -21,7 +21,7 @@ export default function Layout({ children, titel }: { children: ReactNode; titel
                 type="button"
                 onClick={() => navigate(-1)}
                 aria-label="Zurück"
-                className="-ml-2 rounded-lg px-2 py-1 text-xl leading-none text-slate-500 hover:bg-slate-100"
+                className="-ml-2 min-h-11 min-w-11 rounded-lg px-2 text-xl leading-none text-slate-500 hover:bg-slate-100"
               >
                 ←
               </button>

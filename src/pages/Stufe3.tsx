@@ -32,16 +32,18 @@ function PruefungsKarte({ pruefung, bereichId }: { pruefung: Pruefung; bereichId
           <button
             type="button"
             onClick={() => setUebenOffen(!uebenOffen)}
-            className="rounded-lg border-2 border-slate-300 px-4 py-2 font-semibold text-slate-700 hover:border-slate-500"
+            className="min-h-11 rounded-lg border-2 border-slate-300 px-4 py-2 font-semibold text-slate-700 hover:border-slate-500"
           >
             {uebenOffen ? 'Schließen' : 'Üben'}
           </button>
-          <Link
-            to={`/${bereichId}/simulation/${sammlungsNummer(pruefung.termin) ?? ''}`}
-            className="rounded-lg bg-slate-900 px-4 py-2 font-semibold text-white hover:bg-slate-700"
-          >
-            Simulation ⏱
-          </Link>
+          {sammlungsNummer(pruefung.termin) !== null && (
+            <Link
+              to={`/${bereichId}/simulation/${sammlungsNummer(pruefung.termin)}`}
+              className="min-h-11 rounded-lg bg-slate-900 px-4 py-2 font-semibold text-white hover:bg-slate-700"
+            >
+              Simulation ⏱
+            </Link>
+          )}
         </div>
       </div>
 
@@ -87,7 +89,7 @@ export default function Stufe3() {
           ))}
         {!laedt && !fehler && eigene.length === 0 && (
           <p className="rounded-lg bg-white p-6 text-center text-slate-500">
-            Für diesen Bereich sind noch keine kompletten Prüfungen hinterlegt.
+            Für diesen Bereich sind noch keine Aufgabensammlungen hinterlegt.
           </p>
         )}
       </div>

@@ -24,8 +24,16 @@ export default function Stufe2() {
 
   return (
     <Layout titel="Stufe 2 · Themen-Training">
-      <p className="-mt-2 mb-5 text-slate-600">
-        Aufgaben nach Themen sortiert – Originale, Varianten und Übungsaufgaben.
+      <p className="-mt-2 mb-2 text-slate-600">
+        Aufgaben nach Themen sortiert – wähle ein Thema und leg los.
+      </p>
+      <p className="mb-5 text-xs text-slate-500">
+        <span className="mr-1 rounded-full bg-blue-100 px-2 py-0.5 font-medium text-blue-800">Aufgabensammlung N</span>
+        Aufgabe aus einer kompletten Sammlung ·{' '}
+        <span className="mx-1 rounded-full bg-teal-100 px-2 py-0.5 font-medium text-teal-800">Variante</span>
+        abgewandelte Aufgabe ·{' '}
+        <span className="mx-1 rounded-full bg-slate-200 px-2 py-0.5 font-medium text-slate-700">Training</span>
+        zusätzliche Übungsaufgabe
       </p>
       {laedt && <p className="text-slate-500">Lade …</p>}
       {fehler && <p className="rounded-lg bg-red-50 p-4 text-red-700">{fehler}</p>}

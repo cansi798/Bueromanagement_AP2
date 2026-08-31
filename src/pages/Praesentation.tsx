@@ -46,7 +46,7 @@ export default function Praesentation() {
       <div className="flex flex-1 items-center justify-center overflow-hidden p-4 sm:p-8 print:block print:overflow-visible print:p-0">
         {folien.map((f, i) => (
           <div
-            key={i}
+            key={`${f.themaId}-${i}`}
             className={`${i === aktiv ? 'flex' : 'hidden'} h-full w-full max-w-4xl flex-col justify-center print:flex print:h-[100vh] print:max-w-none print:break-after-page print:p-12`}
           >
             {f.art === 'titel' ? (

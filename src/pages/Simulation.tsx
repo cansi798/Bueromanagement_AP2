@@ -105,7 +105,7 @@ export default function Simulation() {
             MC automatisch gewertet · offene Aufgaben nach deiner Selbsteinschätzung unten.
           </p>
           <Link to={`/${bereichId}/stufe3`} className="mt-2 inline-block text-sm font-medium text-sky-700">
-            ← Zurück zu den Prüfungsjahren
+            ← Zurück zu den Aufgabensammlungen
           </Link>
         </div>
       )}
@@ -200,7 +200,7 @@ export default function Simulation() {
           onClick={abgeben}
           className="mt-6 w-full rounded-lg bg-slate-900 px-4 py-3 font-semibold text-white"
         >
-          Prüfung abgeben
+          Abgeben
         </button>
       )}
     </Layout>
