@@ -40,12 +40,32 @@ export default function Stufe2() {
 
       {themen && aufgaben && (
         <>
-          <div className="mb-4 flex flex-wrap gap-2">
+          {/* Themen-Filter: mobil als wischbare Leiste, ab md als Raster */}
+          <div className="mb-2 flex items-center justify-between">
+            <p className="text-xs font-semibold uppercase tracking-wide text-slate-400">
+              Thema wählen
+            </p>
+            <button
+              type="button"
+              onClick={() => setNurOffene(!nurOffene)}
+              aria-pressed={nurOffene}
+              className={`min-h-9 rounded-full border-2 px-3 text-xs font-semibold transition ${
+                nurOffene
+                  ? 'border-green-600 bg-green-600 text-white'
+                  : 'border-slate-200 bg-white text-slate-500 hover:border-slate-400'
+              }`}
+            >
+              {nurOffene ? '✔ Nur ungeübte' : 'Nur ungeübte'}
+            </button>
+          </div>
+          <div className="-mx-4 mb-5 flex gap-2 overflow-x-auto px-4 pb-2 md:mx-0 md:flex-wrap md:overflow-visible md:px-0">
             <button
               type="button"
               onClick={() => setThemaId(null)}
-              className={`rounded-full px-3 py-1.5 text-sm font-medium ${
-                themaId === null ? 'bg-slate-900 text-white' : 'bg-white text-slate-600'
+              className={`min-h-11 shrink-0 rounded-xl border-2 px-4 text-sm font-semibold transition ${
+                themaId === null
+                  ? 'border-slate-900 bg-slate-900 text-white shadow-sm'
+                  : 'border-slate-200 bg-white text-slate-600 hover:border-slate-400'
               }`}
             >
               Alle Themen
@@ -53,30 +73,29 @@ export default function Stufe2() {
             {themen.map((t) => {
               const anzahl = aufgaben.filter((a) => a.themaId === t.id).length
               if (anzahl === 0) return null
+              const aktivChip = themaId === t.id
               return (
                 <button
                   key={t.id}
                   type="button"
-                  onClick={() => setThemaId(themaId === t.id ? null : t.id)}
-                  className={`rounded-full px-3 py-1.5 text-sm font-medium ${
-                    themaId === t.id ? 'bg-slate-900 text-white' : 'bg-white text-slate-600'
+                  onClick={() => setThemaId(aktivChip ? null : t.id)}
+                  className={`inline-flex min-h-11 shrink-0 items-center gap-2 rounded-xl border-2 px-4 text-sm font-semibold transition ${
+                    aktivChip
+                      ? 'border-slate-900 bg-slate-900 text-white shadow-sm'
+                      : 'border-slate-200 bg-white text-slate-600 hover:border-slate-400'
                   }`}
                 >
-                  {t.name}
-                  {t.haeufigkeit.length > 0 && (
-                    <span className="ml-1 opacity-60">{t.haeufigkeit.length}×</span>
-                  )}
+                  <span className="max-w-48 truncate sm:max-w-none">{t.name}</span>
+                  <span
+                    className={`rounded-full px-2 py-0.5 text-xs font-bold ${
+                      aktivChip ? 'bg-white/20 text-white' : 'bg-sky-100 text-sky-800'
+                    }`}
+                  >
+                    {anzahl}
+                  </span>
                 </button>
               )
             })}
-            <label className="ml-auto flex items-center gap-1.5 text-sm text-slate-600">
-              <input
-                type="checkbox"
-                checked={nurOffene}
-                onChange={(e) => setNurOffene(e.target.checked)}
-              />
-              Nur offene
-            </label>
           </div>
 
           <div className="space-y-4">

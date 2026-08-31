@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom'
 import Layout from '../components/Layout'
 import Markdown from '../components/Markdown'
 import MedienSlot from '../components/MedienSlot'
+import ThemaDiagramm from '../components/diagramme'
 import { ladeThemen, useDaten } from '../lib/data'
 import type { BereichId, Thema } from '../types'
 
@@ -27,6 +28,7 @@ function ThemaKarte({ thema }: { thema: Thema }) {
       {offen && (
         <div className="border-t border-slate-100 p-4 lg:grid lg:grid-cols-[2fr_1fr] lg:gap-6">
           <div>
+            <ThemaDiagramm themaId={thema.id} />
             <Markdown text={thema.lernzettel} />
 
             {thema.selbstcheck.length > 0 && (

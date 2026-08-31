@@ -1,25 +1,51 @@
 import { useEffect, useMemo, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import Markdown from '../components/Markdown'
-import { ladeBereiche, ladeThemen, useDaten } from '../lib/data'
+import QuizMC from '../components/QuizMC'
+import ThemaDiagramm, { hatDiagramm } from '../components/diagramme'
+import { ladeAufgaben, ladeBereiche, ladeThemen, useDaten } from '../lib/data'
 import { folienAusThema, type Folie } from '../lib/folien'
-import type { BereichId } from '../types'
+import type { Aufgabe, BereichId } from '../types'
 
 // Vollbild-Präsentation für den Unterricht. Steuerung: Pfeiltasten, Leertaste,
 // Klick/Touch auf ‹ ›. Drucken gibt eine Folie pro Seite aus (→ PDF).
+// Pro Thema: Titel → Diagramm → Inhalt → Eselsbrücken → Selbstcheck → Quizfragen.
 export default function Praesentation() {
   const { bereichId, themaId } = useParams<{ bereichId: BereichId; themaId?: string }>()
   const navigate = useNavigate()
   const { daten: bereiche } = useDaten(ladeBereiche)
   const { daten: themen, fehler, laedt } = useDaten(() => ladeThemen(bereichId!))
+  const { daten: aufgaben } = useDaten(() => ladeAufgaben(bereichId!))
   const [aktiv, setAktiv] = useState(0)
 
   const bereich = bereiche?.find((b) => b.id === bereichId)
   const folien: Folie[] = useMemo(() => {
     if (!themen) return []
     const auswahl = themaId ? themen.filter((t) => t.id === themaId) : themen
-    return auswahl.flatMap(folienAusThema)
-  }, [themen, themaId])
+    return auswahl.flatMap((t) => {
+      const basis = folienAusThema(t)
+      // Diagramm-Folie direkt nach der Titelfolie einschieben.
+      if (hatDiagramm(t.id)) {
+        basis.splice(1, 0, { art: 'diagramm', titel: t.name, themaId: t.id })
+      }
+      // Bis zu 3 anklickbare MC-Quizfragen ans Themenende hängen.
+      const mc = (aufgaben ?? [])
+        .filter((a) => a.themaId === t.id && a.typ === 'mc')
+        .sort((a, b) => (a.quelle === 'generiert' ? -1 : 0) - (b.quelle === 'generiert' ? -1 : 0))
+        .slice(0, 3)
+      mc.forEach((a, i) =>
+        basis.push({
+          art: 'quiz',
+          titel: `Quizfrage ${i + 1} von ${mc.length}`,
+          themaId: t.id,
+          aufgabeId: a.id,
+        }),
+      )
+      return basis
+    })
+  }, [themen, themaId, aufgaben])
+
+  const aufgabeZu = (id?: string): Aufgabe | undefined => aufgaben?.find((a) => a.id === id)
 
   useEffect(() => {
     function taste(e: KeyboardEvent) {
@@ -47,7 +73,9 @@ export default function Praesentation() {
         {folien.map((f, i) => (
           <div
             key={`${f.themaId}-${i}`}
-            className={`${i === aktiv ? 'flex' : 'hidden'} h-full w-full max-w-4xl flex-col justify-center print:flex print:h-[100vh] print:max-w-none print:break-after-page print:p-12`}
+            className={`${i === aktiv ? 'flex' : 'hidden'} h-full w-full max-w-4xl flex-col justify-center ${
+              f.art === 'quiz' ? 'print:hidden' : 'print:flex'
+            } print:h-[100vh] print:max-w-none print:break-after-page print:p-12`}
           >
             {f.art === 'titel' ? (
               <div className="text-center">
@@ -62,6 +90,33 @@ export default function Praesentation() {
                     {f.markdown}
                   </p>
                 )}
+              </div>
+            ) : f.art === 'diagramm' ? (
+              <div className="rounded-3xl bg-white p-4 shadow-2xl sm:p-6 print:rounded-none print:p-0 print:shadow-none">
+                <h2 className="mb-2 text-xl font-bold text-slate-900 sm:text-2xl">
+                  {f.titel} — auf einen Blick
+                </h2>
+                <div className="max-h-[68vh] overflow-y-auto print:max-h-none print:overflow-visible">
+                  <ThemaDiagramm themaId={f.themaId} />
+                </div>
+              </div>
+            ) : f.art === 'quiz' ? (
+              <div className="rounded-3xl bg-white p-5 shadow-2xl sm:p-8">
+                <h2 className="mb-1 text-xl font-bold text-violet-700 sm:text-2xl">🎯 {f.titel}</h2>
+                <p className="mb-4 text-sm text-slate-500">
+                  Antippen, gemeinsam abstimmen — dann „Prüfen" für die Auflösung.
+                </p>
+                <div className="max-h-[62vh] overflow-y-auto print:max-h-none">
+                  {aufgabeZu(f.aufgabeId) ? (
+                    <QuizMC
+                      key={`${f.aufgabeId}-${aktiv}`}
+                      aufgabe={aufgabeZu(f.aufgabeId)!}
+                      onErgebnis={() => {}}
+                    />
+                  ) : (
+                    <p className="text-slate-500">Frage wird geladen …</p>
+                  )}
+                </div>
               </div>
             ) : (
               <div className="rounded-3xl bg-white p-6 shadow-2xl sm:p-10 print:rounded-none print:p-0 print:shadow-none">
