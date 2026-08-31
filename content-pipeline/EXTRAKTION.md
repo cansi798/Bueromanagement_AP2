@@ -25,7 +25,7 @@ Claude Code: einen Extraktions-Agenten pro Bereich/Termin beauftragen.
 
 ## Prioritätenliste (noch offen)
 
-1. 2024 Sommer (KBZ + WiSo) — ✅ sobald erledigt, hier abhaken
+1. ✅ 2024 Sommer (KBZ + WiSo) — erledigt 2026-08-31
 2. 2024 Winter, 2023 Sommer/Winter … rückwärts bis 2017 Winter
 3. Ältere Termine (vor 2020) haben teils andere Aufgabenformate — Themen
    trotzdem denselben IDs zuordnen, damit die Häufigkeits-Statistik stimmt.

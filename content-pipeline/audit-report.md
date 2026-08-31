@@ -48,8 +48,30 @@ Protokoll aller Auffälligkeiten aus der KI-Extraktion. Jede Extraktion muss
 - 4 von 10 Wahlqualifikationen ohne extrahierte Fragen ⇒ bewusst keine
   leeren Themen angelegt.
 
+## Sommer 2024 (Rollout, 2026-08-31)
+
+### KBZ
+- 55 Originalaufgaben, 150 Min / 150 Punkte, Punktesumme exakt 150,00.
+- **Zweitprüfung fand einen Fehler:** Aufgabe 2.6 war zunächst mit der fachlich
+  „schöneren" Antwort 5 erfasst; der offizielle Lösungsschlüssel sagt Antwort 4
+  ⇒ korrigiert. Alle 12 MC-Schlüssel stimmen jetzt mit dem Lösungsbogen überein.
+- Alle Kontierungs-Buchungssätze und Rechenlösungen gegen die Musterlösung
+  verifiziert (u. a. 2.3 = 12,62 %; 5.6 = 1.098,80 €; 6.7 = 310,62 €).
+- Neues Thema `buchfuehrung-kontierung` (Aufgabe 5); 5 bestehende Themen um
+  „2024-sommer" erweitert.
+
+### WiSo
+- 31 Originalaufgaben; alle Lösungen aus der offiziellen IHK-Musterlösung
+  („Vorläufige Lösungen"), keine einzige selbst gelöst.
+- Kompletter 31-Aufgaben-Kreuzcheck gegen den Lösungsschlüssel: alle Treffer.
+- Zuordnungs-/Reihenfolgeaufgaben als Single-Choice mit voller Zuordnung in
+  der korrekten Option modelliert (wie beim 2025er-Bestand).
+- Neue Themen: `datenschutz-digitales-arbeiten`, `prozesse-epk`;
+  7 bestehende Themen erweitert.
+
 ## Bekannte Lücken (Stand 2026-08-31)
-- Termine 2017 Winter – 2024 Winter: noch nicht extrahiert
+- Termine 2017 Winter – 2023 Winter und 2024 Winter: noch nicht extrahiert
   (Prozedur siehe EXTRAKTION.md).
-- `haeufigkeit` basiert bisher nur auf 2025 Sommer — die Landkarten-Statistik
-  wird erst mit weiteren Terminen aussagekräftig.
+- `haeufigkeit` basiert bisher auf 2024 Sommer + 2025 Sommer — die
+  Landkarten-Statistik wird mit jedem weiteren Termin aussagekräftiger.
+- Mündlich: 4 von 10 Wahlqualifikationen ohne Beispielfragen.
