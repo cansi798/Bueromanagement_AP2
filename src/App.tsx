@@ -13,6 +13,7 @@ import Suche from './pages/Suche'
 import Skript from './pages/Skript'
 import Handout from './pages/Handout'
 import Lernstand from './pages/Lernstand'
+import Anmelden from './pages/Anmelden'
 import Praesentation from './pages/Praesentation'
 import Unterricht from './pages/Unterricht'
 import UnterrichtSession from './pages/UnterrichtSession'
@@ -25,6 +26,7 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/glossar" element={<Glossar />} />
           <Route path="/lernstand" element={<Lernstand />} />
+          <Route path="/anmelden" element={<Anmelden />} />
           <Route path="/suche" element={<Suche />} />
           <Route path="/landkarte/:bereichId" element={<Landkarte />} />
           <Route path="/skript/:bereichId" element={<Skript />} />

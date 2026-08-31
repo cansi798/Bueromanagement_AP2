@@ -43,7 +43,7 @@ export default function Layout({ children, titel }: { children: ReactNode; titel
             </Link>
           </div>
           <div className="flex items-center gap-1">
-            {nutzer && (
+            {nutzer ? (
               <button
                 type="button"
                 onClick={async () => {
@@ -57,6 +57,13 @@ export default function Layout({ children, titel }: { children: ReactNode; titel
               >
                 👤 {nutzer.name || nutzer.email} ↪
               </button>
+            ) : (
+              <Link
+                to="/anmelden"
+                className="mr-1 rounded-lg border border-sky-200 bg-white px-2.5 py-1.5 text-xs font-semibold text-sky-700 hover:bg-sky-50"
+              >
+                👤 Anmelden
+              </Link>
             )}
           <nav className="hidden gap-1 md:flex">
             {NAV.map((n) => (
