@@ -5,6 +5,7 @@ import Markdown from '../components/Markdown'
 import MedienSlot from '../components/MedienSlot'
 import AufgabenKarte from '../components/AufgabenKarte'
 import ThemaDiagramm from '../components/diagramme'
+import NotizFeld from '../components/NotizFeld'
 import { ladeAufgaben, ladeThemen, useDaten } from '../lib/data'
 import { ladeFortschritt } from '../lib/progress'
 import type { BereichId } from '../types'
@@ -69,6 +70,9 @@ export default function UnterrichtSession() {
           </div>
           <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
             <MedienSlot medien={thema.medien} bereichId={thema.bereich} themaId={thema.id} />
+            <div className="mt-4">
+              <NotizFeld schluessel={`${thema.bereich}/${thema.id}`} />
+            </div>
             <Link
               to={`/praesentation/${bereichId}/${thema.id}`}
               className="mt-3 inline-block rounded-lg bg-slate-900 px-4 py-2.5 font-semibold text-white hover:bg-slate-700"
@@ -84,6 +88,9 @@ export default function UnterrichtSession() {
           <div>
             <ThemaDiagramm themaId={thema.id} />
             <Markdown text={thema.lernzettel} />
+            <div className="mt-5">
+              <NotizFeld schluessel={`${thema.bereich}/${thema.id}`} />
+            </div>
           </div>
           {thema.eselsbruecken.length > 0 && (
             <div className="mt-5 lg:mt-0">
@@ -125,6 +132,12 @@ export default function UnterrichtSession() {
               {frage}
             </button>
           ))}
+          <div className="pt-3">
+            <NotizFeld
+              schluessel={`${thema.bereich}/${thema.id}/selbstcheck`}
+              platzhalter="✍️ Schreibe deine Antworten auf, bevor ihr sie besprecht …"
+            />
+          </div>
         </div>
       )}
 

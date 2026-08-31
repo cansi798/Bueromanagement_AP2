@@ -40,62 +40,40 @@ export default function Stufe2() {
 
       {themen && aufgaben && (
         <>
-          {/* Themen-Filter: mobil als wischbare Leiste, ab md als Raster */}
-          <div className="mb-2 flex items-center justify-between">
-            <p className="text-xs font-semibold uppercase tracking-wide text-slate-400">
+          {/* Themenwahl als Dropdown + Filter-Toggle */}
+          <div className="mb-5 flex flex-wrap items-center gap-2">
+            <label className="sr-only" htmlFor="themawahl">
               Thema wählen
-            </p>
+            </label>
+            <select
+              id="themawahl"
+              value={themaId ?? ''}
+              onChange={(e) => setThemaId(e.target.value || null)}
+              className="min-h-12 min-w-0 flex-1 cursor-pointer appearance-none rounded-xl border-2 border-slate-300 bg-white bg-[url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2364748b%22%20viewBox%3D%220%200%2016%2016%22%3E%3Cpath%20d%3D%22M8%2011L3%206h10z%22%2F%3E%3C%2Fsvg%3E')] bg-[position:right_0.75rem_center] bg-no-repeat px-3 pr-9 text-[15px] font-semibold text-slate-800 shadow-sm focus:border-sky-500 focus:outline-none"
+            >
+              <option value="">📚 Alle Themen ({aufgaben.length} Aufgaben)</option>
+              {themen.map((t) => {
+                const anzahl = aufgaben.filter((a) => a.themaId === t.id).length
+                if (anzahl === 0) return null
+                return (
+                  <option key={t.id} value={t.id}>
+                    {t.name} ({anzahl})
+                  </option>
+                )
+              })}
+            </select>
             <button
               type="button"
               onClick={() => setNurOffene(!nurOffene)}
               aria-pressed={nurOffene}
-              className={`min-h-9 rounded-full border-2 px-3 text-xs font-semibold transition ${
+              className={`min-h-12 shrink-0 rounded-xl border-2 px-4 text-sm font-semibold transition ${
                 nurOffene
                   ? 'border-green-600 bg-green-600 text-white'
-                  : 'border-slate-200 bg-white text-slate-500 hover:border-slate-400'
+                  : 'border-slate-300 bg-white text-slate-600 hover:border-slate-400'
               }`}
             >
               {nurOffene ? '✔ Nur ungeübte' : 'Nur ungeübte'}
             </button>
-          </div>
-          <div className="-mx-4 mb-5 flex gap-2 overflow-x-auto px-4 pb-2 md:mx-0 md:flex-wrap md:overflow-visible md:px-0">
-            <button
-              type="button"
-              onClick={() => setThemaId(null)}
-              className={`min-h-11 shrink-0 rounded-xl border-2 px-4 text-sm font-semibold transition ${
-                themaId === null
-                  ? 'border-slate-900 bg-slate-900 text-white shadow-sm'
-                  : 'border-slate-200 bg-white text-slate-600 hover:border-slate-400'
-              }`}
-            >
-              Alle Themen
-            </button>
-            {themen.map((t) => {
-              const anzahl = aufgaben.filter((a) => a.themaId === t.id).length
-              if (anzahl === 0) return null
-              const aktivChip = themaId === t.id
-              return (
-                <button
-                  key={t.id}
-                  type="button"
-                  onClick={() => setThemaId(aktivChip ? null : t.id)}
-                  className={`inline-flex min-h-11 shrink-0 items-center gap-2 rounded-xl border-2 px-4 text-sm font-semibold transition ${
-                    aktivChip
-                      ? 'border-slate-900 bg-slate-900 text-white shadow-sm'
-                      : 'border-slate-200 bg-white text-slate-600 hover:border-slate-400'
-                  }`}
-                >
-                  <span className="max-w-48 truncate sm:max-w-none">{t.name}</span>
-                  <span
-                    className={`rounded-full px-2 py-0.5 text-xs font-bold ${
-                      aktivChip ? 'bg-white/20 text-white' : 'bg-sky-100 text-sky-800'
-                    }`}
-                  >
-                    {anzahl}
-                  </span>
-                </button>
-              )
-            })}
           </div>
 
           <div className="space-y-4">

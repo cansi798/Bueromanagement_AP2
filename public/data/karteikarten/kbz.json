@@ -1,37 +1,254 @@
 [
-  { "id": "kbz-karte-1", "themaId": "kaufvertrag-stoerungen", "bereich": "kbz", "vorderseite": "Wann kommt ein Kaufvertrag rechtlich zustande?", "rueckseite": "Durch zwei übereinstimmende Willenserklärungen: Antrag (Angebot) und Annahme." },
-  { "id": "kbz-karte-2", "themaId": "kaufvertrag-stoerungen", "bereich": "kbz", "vorderseite": "Was bedeutet ein zweiseitiges Handelsgeschäft?", "rueckseite": "Beide Vertragspartner sind Kaufleute – nur dann gilt die kaufmännische Untersuchungs- und Rügepflicht (§ 377 HGB)." },
-  { "id": "kbz-karte-3", "themaId": "kaufvertrag-stoerungen", "bereich": "kbz", "vorderseite": "Unterschied: 'freibleibend' vs. 'solange Vorrat reicht'?", "rueckseite": "'Freibleibend' = kein verbindliches Angebot; 'solange Vorrat reicht' = verbindlich, solange Ware vorhanden ist." },
-  { "id": "kbz-karte-4", "themaId": "kaufvertrag-stoerungen", "bereich": "kbz", "vorderseite": "Welche 2 vorrangigen Rechte hat der Käufer bei einem Mangel?", "rueckseite": "Nacherfüllung: Nachbesserung (Reparatur) oder Ersatzlieferung." },
-  { "id": "kbz-karte-5", "themaId": "kaufvertrag-stoerungen", "bereich": "kbz", "vorderseite": "Wie lang ist die regelmäßige Verjährungsfrist und wann beginnt sie?", "rueckseite": "3 Jahre; Beginn mit dem Ende des Jahres, in dem der Anspruch entstanden ist (31.12.)." },
-  { "id": "kbz-karte-6", "themaId": "kaufvertrag-stoerungen", "bereich": "kbz", "vorderseite": "Welche Wirkung hat eine Abschlagszahlung auf die Verjährung?", "rueckseite": "Sie ist ein Anerkenntnis – die Verjährungsfrist beginnt neu zu laufen." },
-  { "id": "kbz-karte-7", "themaId": "kaufvertrag-stoerungen", "bereich": "kbz", "vorderseite": "Was erhält der Gläubiger, wenn der Schuldner nicht auf Mahn- und Vollstreckungsbescheid reagiert?", "rueckseite": "Einen vollstreckbaren Titel – er kann die Zwangsvollstreckung einleiten." },
-
-  { "id": "kbz-karte-8", "themaId": "kundenkommunikation", "bereich": "kbz", "vorderseite": "Nenne die fünf Fragetechniken.", "rueckseite": "Offene, geschlossene, Alternativ-, Kontroll- und Suggestivfrage." },
-  { "id": "kbz-karte-9", "themaId": "kundenkommunikation", "bereich": "kbz", "vorderseite": "Was ist eine geschlossene Frage?", "rueckseite": "Eine Frage, die nur mit Ja oder Nein beantwortet werden kann (z. B. 'Ist die E-Mail angekommen?')." },
-  { "id": "kbz-karte-10", "themaId": "kundenkommunikation", "bereich": "kbz", "vorderseite": "Welche Ziele verfolgt ein Beschwerdemanagement?", "rueckseite": "Senkung der Beschwerdequote, höhere Kundenzufriedenheit, professionelles Auftreten mit Ansprechpartnern." },
-  { "id": "kbz-karte-11", "themaId": "kundenkommunikation", "bereich": "kbz", "vorderseite": "Welche Inhalte gehören neben Datum/Uhrzeit in eine Gesprächsnotiz?", "rueckseite": "Namen der Gesprächsteilnehmer und getroffene Entscheidungen/Vereinbarungen." },
-  { "id": "kbz-karte-12", "themaId": "kundenkommunikation", "bereich": "kbz", "vorderseite": "Nenne 2 Beispiele nonverbaler Kommunikation, die Wertschätzung zeigen.", "rueckseite": "Nicken (Zustimmung/Aufmerksamkeit) und offene Körperhaltung; auch Blickkontakt." },
-  { "id": "kbz-karte-13", "themaId": "kundenkommunikation", "bereich": "kbz", "vorderseite": "Nenne 3 Maßnahmen zur Kundenbindung.", "rueckseite": "Newsletter, Rabattaktionen und Tag der offenen Tür (auch: Beschwerdemanagement, Mitarbeiterschulung)." },
-
-  { "id": "kbz-karte-14", "themaId": "rechnung-umsatzsteuer", "bereich": "kbz", "vorderseite": "Nenne 3 Pflichtangaben einer Rechnung nach § 14 UStG.", "rueckseite": "Steuernummer/USt-IdNr., fortlaufende Rechnungsnummer und Steuersatz (z. B. 19 %)." },
-  { "id": "kbz-karte-15", "themaId": "rechnung-umsatzsteuer", "bereich": "kbz", "vorderseite": "Innerhalb welcher Frist muss eine B2B-Rechnung erstellt werden?", "rueckseite": "Innerhalb von 6 Monaten nach Ausführung der Leistung; Fristbeginn ist der Tag der Lieferung." },
-  { "id": "kbz-karte-16", "themaId": "rechnung-umsatzsteuer", "bereich": "kbz", "vorderseite": "Welches Warenbegleitpapier begleitet den Warentransport?", "rueckseite": "Der Lieferschein." },
-  { "id": "kbz-karte-17", "themaId": "rechnung-umsatzsteuer", "bereich": "kbz", "vorderseite": "Wie berechnet man die Umsatzsteuerzahllast?", "rueckseite": "Zahllast = vereinnahmte Umsatzsteuer − abziehbare Vorsteuer." },
-  { "id": "kbz-karte-18", "themaId": "rechnung-umsatzsteuer", "bereich": "kbz", "vorderseite": "Was ist ein Vorsteuerüberhang?", "rueckseite": "Die Vorsteuer ist größer als die Umsatzsteuer – das Finanzamt erstattet die Differenz." },
-  { "id": "kbz-karte-19", "themaId": "rechnung-umsatzsteuer", "bereich": "kbz", "vorderseite": "Wie lautet der Buchungssatz für eine Eingangsrechnung über Handelswaren?", "rueckseite": "Aufwendungen für Handelswaren + Vorsteuer an Verbindlichkeiten (Lieferant)." },
-
-  { "id": "kbz-karte-20", "themaId": "personalwirtschaft", "bereich": "kbz", "vorderseite": "Welche Angaben braucht ein Dienstreiseantrag?", "rueckseite": "Name/Vorname, Anlass/Zweck, Ort/Ziel, Dauer (Zeitraum) und Unterschriftenfeld." },
-  { "id": "kbz-karte-21", "themaId": "personalwirtschaft", "bereich": "kbz", "vorderseite": "Unterschied: Arbeitsunfall vs. Wegeunfall?", "rueckseite": "Arbeitsunfall = direkt bei der Arbeit; Wegeunfall = auf dem direkten Weg zur/von der Arbeit." },
-  { "id": "kbz-karte-22", "themaId": "personalwirtschaft", "bereich": "kbz", "vorderseite": "Ab wann muss der Arbeitgeber einen Unfall der Berufsgenossenschaft melden?", "rueckseite": "Bei mehr als 3 Tagen Arbeitsunfähigkeit (§ 193 SGB VII)." },
-  { "id": "kbz-karte-23", "themaId": "personalwirtschaft", "bereich": "kbz", "vorderseite": "Zwischen wem wird eine Betriebsvereinbarung geschlossen und welche Form ist nötig?", "rueckseite": "Zwischen Arbeitgeber und Betriebsrat; sie bedarf der Schriftform." },
-  { "id": "kbz-karte-24", "themaId": "personalwirtschaft", "bereich": "kbz", "vorderseite": "Wie viele Stunden darf man laut § 3 ArbZG werktäglich maximal arbeiten?", "rueckseite": "Grundsätzlich 8 Stunden, verlängerbar auf bis zu 10 Stunden (Durchschnitt max. 8 Std. über 6 Monate/24 Wochen)." },
-  { "id": "kbz-karte-25", "themaId": "personalwirtschaft", "bereich": "kbz", "vorderseite": "Welche Reisekostenbelege werden anerkannt?", "rueckseite": "Betrieblich veranlasste, belegte Kosten (z. B. Taxiquittung Bahnhof–Hotel); keine privaten Ausgaben wie Minibar." },
-
-  { "id": "kbz-karte-26", "themaId": "kostenrechnung", "bereich": "kbz", "vorderseite": "Wie berechnet man den Break-even-Point in Stück?", "rueckseite": "BEP = Fixkosten / Deckungsbeitrag pro Stück (DB = Verkaufspreis − variable Kosten)." },
-  { "id": "kbz-karte-27", "themaId": "kostenrechnung", "bereich": "kbz", "vorderseite": "Warum sinken die Stückkosten bei steigender Menge?", "rueckseite": "Die Fixkosten verteilen sich auf mehr Stück – Fixkostendegression." },
-  { "id": "kbz-karte-28", "themaId": "kostenrechnung", "bereich": "kbz", "vorderseite": "Nenne die Stufen der Zuschlagskalkulation.", "rueckseite": "Material + Materialgemeinkosten, Fertigungslöhne + Fertigungsgemeinkosten = Herstellkosten + Verwaltung + Vertrieb = Selbstkosten." },
-  { "id": "kbz-karte-29", "themaId": "kostenrechnung", "bereich": "kbz", "vorderseite": "Was sind Normalkosten?", "rueckseite": "Die durchschnittlichen Istkosten vergangener Perioden." },
-  { "id": "kbz-karte-30", "themaId": "kostenrechnung", "bereich": "kbz", "vorderseite": "Wann liegt eine Kostenunterdeckung vor?", "rueckseite": "Wenn die Istkosten höher sind als die kalkulierten (Normal-)Kosten." },
-  { "id": "kbz-karte-31", "themaId": "kostenrechnung", "bereich": "kbz", "vorderseite": "Wie definiert man 'Kosten' in der KLR?", "rueckseite": "Wert aller zur Erreichung des Betriebszwecks verbrauchten Güter und Dienstleistungen pro Periode." }
+  {
+    "id": "kbz-karte-1",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "vorderseite": "Wann kommt ein Kaufvertrag rechtlich zustande?",
+    "rueckseite": "Durch zwei übereinstimmende Willenserklärungen: Antrag (Angebot) und Annahme."
+  },
+  {
+    "id": "kbz-karte-2",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "vorderseite": "Was bedeutet ein zweiseitiges Handelsgeschäft?",
+    "rueckseite": "Beide Vertragspartner sind Kaufleute – nur dann gilt die kaufmännische Untersuchungs- und Rügepflicht (§ 377 HGB)."
+  },
+  {
+    "id": "kbz-karte-3",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "vorderseite": "Unterschied: 'freibleibend' vs. 'solange Vorrat reicht'?",
+    "rueckseite": "'Freibleibend' = kein verbindliches Angebot; 'solange Vorrat reicht' = verbindlich, solange Ware vorhanden ist."
+  },
+  {
+    "id": "kbz-karte-4",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "vorderseite": "Welche 2 vorrangigen Rechte hat der Käufer bei einem Mangel?",
+    "rueckseite": "Nacherfüllung: Nachbesserung (Reparatur) oder Ersatzlieferung."
+  },
+  {
+    "id": "kbz-karte-5",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "vorderseite": "Wie lang ist die regelmäßige Verjährungsfrist und wann beginnt sie?",
+    "rueckseite": "3 Jahre; Beginn mit dem Ende des Jahres, in dem der Anspruch entstanden ist (31.12.)."
+  },
+  {
+    "id": "kbz-karte-6",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "vorderseite": "Welche Wirkung hat eine Abschlagszahlung auf die Verjährung?",
+    "rueckseite": "Sie ist ein Anerkenntnis – die Verjährungsfrist beginnt neu zu laufen."
+  },
+  {
+    "id": "kbz-karte-7",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "vorderseite": "Was erhält der Gläubiger, wenn der Schuldner nicht auf Mahn- und Vollstreckungsbescheid reagiert?",
+    "rueckseite": "Einen vollstreckbaren Titel – er kann die Zwangsvollstreckung einleiten."
+  },
+  {
+    "id": "kbz-karte-8",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "vorderseite": "Nenne die fünf Fragetechniken.",
+    "rueckseite": "Offene, geschlossene, Alternativ-, Kontroll- und Suggestivfrage."
+  },
+  {
+    "id": "kbz-karte-9",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "vorderseite": "Was ist eine geschlossene Frage?",
+    "rueckseite": "Eine Frage, die nur mit Ja oder Nein beantwortet werden kann (z. B. 'Ist die E-Mail angekommen?')."
+  },
+  {
+    "id": "kbz-karte-10",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "vorderseite": "Welche Ziele verfolgt ein Beschwerdemanagement?",
+    "rueckseite": "Senkung der Beschwerdequote, höhere Kundenzufriedenheit, professionelles Auftreten mit Ansprechpartnern."
+  },
+  {
+    "id": "kbz-karte-11",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "vorderseite": "Welche Inhalte gehören neben Datum/Uhrzeit in eine Gesprächsnotiz?",
+    "rueckseite": "Namen der Gesprächsteilnehmer und getroffene Entscheidungen/Vereinbarungen."
+  },
+  {
+    "id": "kbz-karte-12",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "vorderseite": "Nenne 2 Beispiele nonverbaler Kommunikation, die Wertschätzung zeigen.",
+    "rueckseite": "Nicken (Zustimmung/Aufmerksamkeit) und offene Körperhaltung; auch Blickkontakt."
+  },
+  {
+    "id": "kbz-karte-13",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "vorderseite": "Nenne 3 Maßnahmen zur Kundenbindung.",
+    "rueckseite": "Newsletter, Rabattaktionen und Tag der offenen Tür (auch: Beschwerdemanagement, Mitarbeiterschulung)."
+  },
+  {
+    "id": "kbz-karte-14",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "vorderseite": "Nenne 3 Pflichtangaben einer Rechnung nach § 14 UStG.",
+    "rueckseite": "Steuernummer/USt-IdNr., fortlaufende Rechnungsnummer und Steuersatz (z. B. 19 %)."
+  },
+  {
+    "id": "kbz-karte-15",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "vorderseite": "Innerhalb welcher Frist muss eine B2B-Rechnung erstellt werden?",
+    "rueckseite": "Innerhalb von 6 Monaten nach Ausführung der Leistung; Fristbeginn ist der Tag der Lieferung."
+  },
+  {
+    "id": "kbz-karte-16",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "vorderseite": "Welches Warenbegleitpapier begleitet den Warentransport?",
+    "rueckseite": "Der Lieferschein."
+  },
+  {
+    "id": "kbz-karte-17",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "vorderseite": "Wie berechnet man die Umsatzsteuerzahllast?",
+    "rueckseite": "Zahllast = vereinnahmte Umsatzsteuer − abziehbare Vorsteuer."
+  },
+  {
+    "id": "kbz-karte-18",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "vorderseite": "Was ist ein Vorsteuerüberhang?",
+    "rueckseite": "Die Vorsteuer ist größer als die Umsatzsteuer – das Finanzamt erstattet die Differenz."
+  },
+  {
+    "id": "kbz-karte-19",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "vorderseite": "Wie lautet der Buchungssatz für eine Eingangsrechnung über Handelswaren?",
+    "rueckseite": "Aufwendungen für Handelswaren + Vorsteuer an Verbindlichkeiten (Lieferant)."
+  },
+  {
+    "id": "kbz-karte-20",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "vorderseite": "Welche Angaben braucht ein Dienstreiseantrag?",
+    "rueckseite": "Name/Vorname, Anlass/Zweck, Ort/Ziel, Dauer (Zeitraum) und Unterschriftenfeld."
+  },
+  {
+    "id": "kbz-karte-21",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "vorderseite": "Unterschied: Arbeitsunfall vs. Wegeunfall?",
+    "rueckseite": "Arbeitsunfall = direkt bei der Arbeit; Wegeunfall = auf dem direkten Weg zur/von der Arbeit."
+  },
+  {
+    "id": "kbz-karte-22",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "vorderseite": "Ab wann muss der Arbeitgeber einen Unfall der Berufsgenossenschaft melden?",
+    "rueckseite": "Bei mehr als 3 Tagen Arbeitsunfähigkeit (§ 193 SGB VII)."
+  },
+  {
+    "id": "kbz-karte-23",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "vorderseite": "Zwischen wem wird eine Betriebsvereinbarung geschlossen und welche Form ist nötig?",
+    "rueckseite": "Zwischen Arbeitgeber und Betriebsrat; sie bedarf der Schriftform."
+  },
+  {
+    "id": "kbz-karte-24",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "vorderseite": "Wie viele Stunden darf man laut § 3 ArbZG werktäglich maximal arbeiten?",
+    "rueckseite": "Grundsätzlich 8 Stunden, verlängerbar auf bis zu 10 Stunden (Durchschnitt max. 8 Std. über 6 Monate/24 Wochen)."
+  },
+  {
+    "id": "kbz-karte-25",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "vorderseite": "Welche Reisekostenbelege werden anerkannt?",
+    "rueckseite": "Betrieblich veranlasste, belegte Kosten (z. B. Taxiquittung Bahnhof–Hotel); keine privaten Ausgaben wie Minibar."
+  },
+  {
+    "id": "kbz-karte-26",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "vorderseite": "Wie berechnet man den Break-even-Point in Stück?",
+    "rueckseite": "BEP = Fixkosten / Deckungsbeitrag pro Stück (DB = Verkaufspreis − variable Kosten)."
+  },
+  {
+    "id": "kbz-karte-27",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "vorderseite": "Warum sinken die Stückkosten bei steigender Menge?",
+    "rueckseite": "Die Fixkosten verteilen sich auf mehr Stück – Fixkostendegression."
+  },
+  {
+    "id": "kbz-karte-28",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "vorderseite": "Nenne die Stufen der Zuschlagskalkulation.",
+    "rueckseite": "Material + Materialgemeinkosten, Fertigungslöhne + Fertigungsgemeinkosten = Herstellkosten + Verwaltung + Vertrieb = Selbstkosten."
+  },
+  {
+    "id": "kbz-karte-29",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "vorderseite": "Was sind Normalkosten?",
+    "rueckseite": "Die durchschnittlichen Istkosten vergangener Perioden."
+  },
+  {
+    "id": "kbz-karte-30",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "vorderseite": "Wann liegt eine Kostenunterdeckung vor?",
+    "rueckseite": "Wenn die Istkosten höher sind als die kalkulierten (Normal-)Kosten."
+  },
+  {
+    "id": "kbz-karte-31",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "vorderseite": "Wie definiert man 'Kosten' in der KLR?",
+    "rueckseite": "Wert aller zur Erreichung des Betriebszwecks verbrauchten Güter und Dienstleistungen pro Periode."
+  },
+  {
+    "id": "kbz-karte-buchfuehrung-kontierung-1",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "vorderseite": "Wie lautet der Grundsatz jedes Buchungssatzes?",
+    "rueckseite": "Soll an Haben — erst das/die Soll-Konto/-Konten, dann „an\", dann das/die Haben-Konto/-Konten."
+  },
+  {
+    "id": "kbz-karte-buchfuehrung-kontierung-2",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "vorderseite": "Formel der linearen Abschreibung?",
+    "rueckseite": "Jährliche AfA = Anschaffungskosten ÷ Nutzungsdauer (zeitanteilig ab Anschaffungsmonat)."
+  },
+  {
+    "id": "kbz-karte-buchfuehrung-kontierung-3",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "vorderseite": "Wo buchen Aktiv- und Passivkonten ihre Zugänge?",
+    "rueckseite": "Aktivkonten: Zugang im Soll. Passivkonten: Zugang im Haben."
+  },
+  {
+    "id": "kbz-karte-buchfuehrung-kontierung-4",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "vorderseite": "Vorsteuer und Umsatzsteuer — welche Konten, welcher Charakter?",
+    "rueckseite": "Vorsteuer (2600) = Forderung ans Finanzamt (aktiv). Umsatzsteuer (4800) = Verbindlichkeit (passiv)."
+  },
+  {
+    "id": "kbz-karte-buchfuehrung-kontierung-5",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "vorderseite": "Buchungssatz: Zielkauf Büromaterial 100 € netto + 19 % USt?",
+    "rueckseite": "Büromaterial 100 € und Vorsteuer 19 € an Verbindlichkeiten 119 €."
+  }
 ]

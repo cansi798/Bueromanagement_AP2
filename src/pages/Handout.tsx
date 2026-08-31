@@ -20,7 +20,9 @@ export default function Handout() {
 
   return (
     <div className="min-h-dvh bg-white">
-      <style>{`@media print { @page { size: A4 portrait; margin: 12mm } }`}</style>
+      <style>{`@media print { @page { size: A4 portrait; margin: 12mm 12mm 16mm 12mm;
+        @bottom-right { content: "Seite " counter(page) " von " counter(pages); font-size: 9px; color: #94a3b8; }
+        @bottom-left { content: "KBM Prüfungscoach · Handout"; font-size: 9px; color: #94a3b8; } } }`}</style>
 
       {/* Werkzeugleiste — nicht im Druck */}
       <div className="sticky top-0 z-10 border-b border-slate-200 bg-slate-50 print:hidden">

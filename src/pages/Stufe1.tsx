@@ -4,6 +4,7 @@ import Layout from '../components/Layout'
 import Markdown from '../components/Markdown'
 import MedienSlot from '../components/MedienSlot'
 import ThemaDiagramm from '../components/diagramme'
+import NotizFeld from '../components/NotizFeld'
 import { ladeThemen, useDaten } from '../lib/data'
 import type { BereichId, Thema } from '../types'
 
@@ -71,6 +72,7 @@ function ThemaKarte({ thema }: { thema: Thema }) {
               </div>
             )}
             <MedienSlot medien={thema.medien} bereichId={thema.bereich} themaId={thema.id} />
+            <NotizFeld schluessel={`${thema.bereich}/${thema.id}`} />
           </div>
         </div>
       )}

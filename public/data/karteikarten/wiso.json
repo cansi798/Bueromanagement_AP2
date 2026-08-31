@@ -1,48 +1,422 @@
 [
-  { "id": "wiso-karte-1", "themaId": "produktionsfaktoren-unternehmensziele", "bereich": "wiso", "vorderseite": "Nenne die vier betrieblichen Produktionsfaktoren.", "rueckseite": "1. Werkstoffe, 2. Betriebsmittel, 3. Ausführende (objektbezogene) Arbeit, 4. Dispositiver Faktor (Leitung/Planung)." },
-  { "id": "wiso-karte-2", "themaId": "produktionsfaktoren-unternehmensziele", "bereich": "wiso", "vorderseite": "Zu welchem Produktionsfaktor gehört ein Prokurist?", "rueckseite": "Zum dispositiven Faktor (Leitung, Planung, Organisation)." },
-  { "id": "wiso-karte-3", "themaId": "produktionsfaktoren-unternehmensziele", "bereich": "wiso", "vorderseite": "Wie berechnet man die Wirtschaftlichkeit?", "rueckseite": "Wirtschaftlichkeit = Ertrag (Leistung) / Aufwand (Kosten). Wert > 1 = wirtschaftlich." },
-  { "id": "wiso-karte-4", "themaId": "produktionsfaktoren-unternehmensziele", "bereich": "wiso", "vorderseite": "Was ist ein Zielkonflikt?", "rueckseite": "Die Erreichung eines Ziels verschlechtert ein anderes – z. B. Kosten senken (ökonomisch) vs. Betriebskindergarten erhalten (sozial)." },
-  { "id": "wiso-karte-5", "themaId": "produktionsfaktoren-unternehmensziele", "bereich": "wiso", "vorderseite": "Was bedeutet Outsourcing?", "rueckseite": "Auslagern von (Neben-)Aufgaben an eine kostengünstigere Fremdfirma, z. B. Reinigung, Marktforschung, Qualitätskontrolle." },
-  { "id": "wiso-karte-6", "themaId": "produktionsfaktoren-unternehmensziele", "bereich": "wiso", "vorderseite": "Nenne die drei Zielkategorien eines Unternehmens.", "rueckseite": "Ökonomische, ökologische und soziale Ziele." },
-
-  { "id": "wiso-karte-7", "themaId": "rechtsformen-vollmachten", "bereich": "wiso", "vorderseite": "Wie hoch ist das Mindeststammkapital einer GmbH?", "rueckseite": "25.000 €, davon bei Gründung mindestens 12.500 € eingezahlt." },
-  { "id": "wiso-karte-8", "themaId": "rechtsformen-vollmachten", "bereich": "wiso", "vorderseite": "Wann entsteht eine GmbH rechtlich?", "rueckseite": "Erst mit Eintragung ins Handelsregister – sie ist eine juristische Person." },
-  { "id": "wiso-karte-9", "themaId": "rechtsformen-vollmachten", "bereich": "wiso", "vorderseite": "Welche Geschäfte darf ein Prokurist NICHT tätigen?", "rueckseite": "Grundstücke verkaufen/belasten, Bilanzen und Steuererklärungen unterschreiben, Prokura erteilen." },
-  { "id": "wiso-karte-10", "themaId": "rechtsformen-vollmachten", "bereich": "wiso", "vorderseite": "Merkmale der allgemeinen Handlungsvollmacht (§ 54 HGB)?", "rueckseite": "Formfrei, kein Handelsregistereintrag, umfasst gewöhnliche Geschäfte, jederzeit frei widerruflich; kann auch von einem Prokuristen erteilt werden." },
-  { "id": "wiso-karte-11", "themaId": "rechtsformen-vollmachten", "bereich": "wiso", "vorderseite": "Wie berechnet man den Gewinnanteil nach Kapitaleinlage?", "rueckseite": "Anteil = eigene Einlage / Gesamtkapital × Gewinn. Bsp.: 30.000/120.000 × 300.000 = 75.000 €." },
-  { "id": "wiso-karte-12", "themaId": "rechtsformen-vollmachten", "bereich": "wiso", "vorderseite": "Wie viele Personen sind zur Gründung einer GmbH nötig?", "rueckseite": "Mindestens eine Person (Ein-Personen-GmbH ist zulässig)." },
-
-  { "id": "wiso-karte-13", "themaId": "finanzierung-kreditsicherung", "bereich": "wiso", "vorderseite": "Was kennzeichnet ein Annuitätendarlehen?", "rueckseite": "Konstante Gesamtrate; Zinsen sinken, Tilgungsanteil wächst entsprechend." },
-  { "id": "wiso-karte-14", "themaId": "finanzierung-kreditsicherung", "bereich": "wiso", "vorderseite": "Was kennzeichnet ein Abzahlungsdarlehen?", "rueckseite": "Konstante Tilgung; Restschuld und Zinsen sinken, die Gesamtrate sinkt von Monat zu Monat." },
-  { "id": "wiso-karte-15", "themaId": "finanzierung-kreditsicherung", "bereich": "wiso", "vorderseite": "Was ist Selbstfinanzierung?", "rueckseite": "Innenfinanzierung aus einbehaltenem (nicht ausgeschüttetem) Gewinn." },
-  { "id": "wiso-karte-16", "themaId": "finanzierung-kreditsicherung", "bereich": "wiso", "vorderseite": "Was passiert bei einer Sicherungsübereignung?", "rueckseite": "Eigentum geht an die Bank über, der Besitz bleibt beim Kreditnehmer, der die Sache weiter nutzen darf." },
-  { "id": "wiso-karte-17", "themaId": "finanzierung-kreditsicherung", "bereich": "wiso", "vorderseite": "Worin liegt das Risiko der Bank bei der Sicherungsübereignung?", "rueckseite": "Der Kreditnehmer bleibt im Besitz und könnte die Sache an einen gutgläubigen Dritten verkaufen." },
-  { "id": "wiso-karte-18", "themaId": "finanzierung-kreditsicherung", "bereich": "wiso", "vorderseite": "Unterschied Außen- und Innenfinanzierung?", "rueckseite": "Außenfinanzierung: Kapital von außen (Kredit, Beteiligung). Innenfinanzierung: aus dem Unternehmen selbst (z. B. Gewinn)." },
-
-  { "id": "wiso-karte-19", "themaId": "markt-preisbildung", "bereich": "wiso", "vorderseite": "Was ist ein Nachfrageüberhang?", "rueckseite": "Die Nachfrage übersteigt das Angebot (typisch bei niedrigem Preis) → Verkäufermarkt, Preis steigt tendenziell." },
-  { "id": "wiso-karte-20", "themaId": "markt-preisbildung", "bereich": "wiso", "vorderseite": "Was ist ein Angebotsüberhang?", "rueckseite": "Das Angebot übersteigt die Nachfrage (typisch bei hohem Preis) → Käufermarkt, Preis sinkt tendenziell." },
-  { "id": "wiso-karte-21", "themaId": "markt-preisbildung", "bereich": "wiso", "vorderseite": "Wo liegt das Marktgleichgewicht?", "rueckseite": "Dort, wo Angebotsmenge = Nachfragemenge. Preis = Gleichgewichtspreis, Menge = Gleichgewichtsmenge." },
-  { "id": "wiso-karte-22", "themaId": "markt-preisbildung", "bereich": "wiso", "vorderseite": "Wie berechnet man den Umsatz?", "rueckseite": "Umsatz = Preis × abgesetzte Menge. Bsp.: 2.000 € × 2.500 Stück = 5.000.000 €." },
-  { "id": "wiso-karte-23", "themaId": "markt-preisbildung", "bereich": "wiso", "vorderseite": "Wie verhält sich die Nachfrage bei sinkendem Preis?", "rueckseite": "Die Nachfrage steigt bei sinkendem Preis; das Angebot steigt bei steigendem Preis." },
-
-  { "id": "wiso-karte-24", "themaId": "konjunktur-indikatoren", "bereich": "wiso", "vorderseite": "Nenne die vier Konjunkturphasen.", "rueckseite": "Aufschwung (Expansion), Hochkonjunktur (Boom), Abschwung (Rezession), Tiefphase (Depression)." },
-  { "id": "wiso-karte-25", "themaId": "konjunktur-indikatoren", "bereich": "wiso", "vorderseite": "Merkmal der Aufschwungphase?", "rueckseite": "Investitionen, Produktion und Beschäftigung steigen; Lagerbestände nehmen ab." },
-  { "id": "wiso-karte-26", "themaId": "konjunktur-indikatoren", "bereich": "wiso", "vorderseite": "Nenne einen Frühindikator der Konjunktur.", "rueckseite": "Auftragseingänge (vorlaufend). Auch: Geschäftsklimaindex, Aktienkurse." },
-  { "id": "wiso-karte-27", "themaId": "konjunktur-indikatoren", "bereich": "wiso", "vorderseite": "Was ist ein Spätindikator?", "rueckseite": "Ein nachlaufender Indikator, z. B. die Arbeitslosenquote." },
-  { "id": "wiso-karte-28", "themaId": "konjunktur-indikatoren", "bereich": "wiso", "vorderseite": "Unterschied BIP und Bruttonationaleinkommen?", "rueckseite": "BIP = Leistung im Inland (Inlandsprinzip). Bruttonationaleinkommen = Leistung der Inländer, egal wo (Inländerprinzip)." },
-
-  { "id": "wiso-karte-29", "themaId": "berufsausbildung-arbeitsrecht", "bereich": "wiso", "vorderseite": "Bis zu welchem Alter gilt das JArbSchG?", "rueckseite": "Für Jugendliche bis zum vollendeten 18. Lebensjahr." },
-  { "id": "wiso-karte-30", "themaId": "berufsausbildung-arbeitsrecht", "bereich": "wiso", "vorderseite": "Wie viel tägliche Freizeit müssen Jugendliche mindestens haben?", "rueckseite": "Mindestens 12 Stunden ununterbrochene Freizeit (§ 13 JArbSchG)." },
-  { "id": "wiso-karte-31", "themaId": "berufsausbildung-arbeitsrecht", "bereich": "wiso", "vorderseite": "Welche Ausbildungsvertragsklausel ist unwirksam?", "rueckseite": "Eine Klausel, die den Azubi zur Weiterarbeit im Betrieb nach der Prüfung verpflichtet (§ 12 BBiG)." },
-  { "id": "wiso-karte-32", "themaId": "berufsausbildung-arbeitsrecht", "bereich": "wiso", "vorderseite": "Ist die Meldung des Ausbildungsvertrags bei der Agentur für Arbeit Pflicht?", "rueckseite": "Nein. Nötig sind Schriftform, Eintrag ins Kammerverzeichnis und Unterschrift der gesetzlichen Vertreter." },
-  { "id": "wiso-karte-33", "themaId": "berufsausbildung-arbeitsrecht", "bereich": "wiso", "vorderseite": "Wann hat die JAV bei Betriebsratssitzungen Stimm- und Teilnahmerecht?", "rueckseite": "Wenn die Angelegenheit überwiegend die von ihr vertretenen Jugendlichen/Azubis betrifft (§§ 60, 67 BetrVG)." },
-  { "id": "wiso-karte-34", "themaId": "berufsausbildung-arbeitsrecht", "bereich": "wiso", "vorderseite": "Wie rechnet man anteiligen Jugendurlaub?", "rueckseite": "Jahresurlaub / 12 × Beschäftigungsmonate. Bsp.: 27/12 × 4 = 9 Werktage." },
-
-  { "id": "wiso-karte-35", "themaId": "arbeitsschutz-umwelt", "bereich": "wiso", "vorderseite": "Wer überwacht Arbeitsschutz und Arbeitssicherheit?", "rueckseite": "Die Berufsgenossenschaft (gesetzliche Unfallversicherung)." },
-  { "id": "wiso-karte-36", "themaId": "arbeitsschutz-umwelt", "bereich": "wiso", "vorderseite": "Wann muss über Unfall- und Gesundheitsgefahren belehrt werden?", "rueckseite": "Bei Aufnahme der Beschäftigung und danach in regelmäßigen Abständen (mind. jährlich)." },
-  { "id": "wiso-karte-37", "themaId": "arbeitsschutz-umwelt", "bereich": "wiso", "vorderseite": "Rangfolge der Abfallhierarchie (KrWG)?", "rueckseite": "1. Vermeidung, 2. Wiederverwendung, 3. Recycling/Weiterverwertung, 4. sonstige Verwertung, 5. Beseitigung." },
-  { "id": "wiso-karte-38", "themaId": "arbeitsschutz-umwelt", "bereich": "wiso", "vorderseite": "Nenne erneuerbare Energien.", "rueckseite": "Wasserkraft, Windkraft, Erdwärme (Geothermie), Sonnenenergie, Biomasse. NICHT: Erdgas, Erdöl, Kohle." },
-  { "id": "wiso-karte-39", "themaId": "arbeitsschutz-umwelt", "bereich": "wiso", "vorderseite": "Wofür steht das Fairtrade-Siegel?", "rueckseite": "Für Waren aus fairem Handel, bei deren Herstellung soziale, ökologische und ökonomische Kriterien eingehalten wurden." },
-  { "id": "wiso-karte-40", "themaId": "arbeitsschutz-umwelt", "bereich": "wiso", "vorderseite": "Welche Farbe/Form haben Verbotszeichen (z. B. 'Kein offenes Feuer')?", "rueckseite": "Rund mit rotem Rand und rotem Querbalken (Verbotszeichen). Rettungszeichen sind grün, Brandschutzzeichen rot-quadratisch." }
+  {
+    "id": "wiso-karte-1",
+    "themaId": "produktionsfaktoren-unternehmensziele",
+    "bereich": "wiso",
+    "vorderseite": "Nenne die vier betrieblichen Produktionsfaktoren.",
+    "rueckseite": "1. Werkstoffe, 2. Betriebsmittel, 3. Ausführende (objektbezogene) Arbeit, 4. Dispositiver Faktor (Leitung/Planung)."
+  },
+  {
+    "id": "wiso-karte-2",
+    "themaId": "produktionsfaktoren-unternehmensziele",
+    "bereich": "wiso",
+    "vorderseite": "Zu welchem Produktionsfaktor gehört ein Prokurist?",
+    "rueckseite": "Zum dispositiven Faktor (Leitung, Planung, Organisation)."
+  },
+  {
+    "id": "wiso-karte-3",
+    "themaId": "produktionsfaktoren-unternehmensziele",
+    "bereich": "wiso",
+    "vorderseite": "Wie berechnet man die Wirtschaftlichkeit?",
+    "rueckseite": "Wirtschaftlichkeit = Ertrag (Leistung) / Aufwand (Kosten). Wert > 1 = wirtschaftlich."
+  },
+  {
+    "id": "wiso-karte-4",
+    "themaId": "produktionsfaktoren-unternehmensziele",
+    "bereich": "wiso",
+    "vorderseite": "Was ist ein Zielkonflikt?",
+    "rueckseite": "Die Erreichung eines Ziels verschlechtert ein anderes – z. B. Kosten senken (ökonomisch) vs. Betriebskindergarten erhalten (sozial)."
+  },
+  {
+    "id": "wiso-karte-5",
+    "themaId": "produktionsfaktoren-unternehmensziele",
+    "bereich": "wiso",
+    "vorderseite": "Was bedeutet Outsourcing?",
+    "rueckseite": "Auslagern von (Neben-)Aufgaben an eine kostengünstigere Fremdfirma, z. B. Reinigung, Marktforschung, Qualitätskontrolle."
+  },
+  {
+    "id": "wiso-karte-6",
+    "themaId": "produktionsfaktoren-unternehmensziele",
+    "bereich": "wiso",
+    "vorderseite": "Nenne die drei Zielkategorien eines Unternehmens.",
+    "rueckseite": "Ökonomische, ökologische und soziale Ziele."
+  },
+  {
+    "id": "wiso-karte-7",
+    "themaId": "rechtsformen-vollmachten",
+    "bereich": "wiso",
+    "vorderseite": "Wie hoch ist das Mindeststammkapital einer GmbH?",
+    "rueckseite": "25.000 €, davon bei Gründung mindestens 12.500 € eingezahlt."
+  },
+  {
+    "id": "wiso-karte-8",
+    "themaId": "rechtsformen-vollmachten",
+    "bereich": "wiso",
+    "vorderseite": "Wann entsteht eine GmbH rechtlich?",
+    "rueckseite": "Erst mit Eintragung ins Handelsregister – sie ist eine juristische Person."
+  },
+  {
+    "id": "wiso-karte-9",
+    "themaId": "rechtsformen-vollmachten",
+    "bereich": "wiso",
+    "vorderseite": "Welche Geschäfte darf ein Prokurist NICHT tätigen?",
+    "rueckseite": "Grundstücke verkaufen/belasten, Bilanzen und Steuererklärungen unterschreiben, Prokura erteilen."
+  },
+  {
+    "id": "wiso-karte-10",
+    "themaId": "rechtsformen-vollmachten",
+    "bereich": "wiso",
+    "vorderseite": "Merkmale der allgemeinen Handlungsvollmacht (§ 54 HGB)?",
+    "rueckseite": "Formfrei, kein Handelsregistereintrag, umfasst gewöhnliche Geschäfte, jederzeit frei widerruflich; kann auch von einem Prokuristen erteilt werden."
+  },
+  {
+    "id": "wiso-karte-11",
+    "themaId": "rechtsformen-vollmachten",
+    "bereich": "wiso",
+    "vorderseite": "Wie berechnet man den Gewinnanteil nach Kapitaleinlage?",
+    "rueckseite": "Anteil = eigene Einlage / Gesamtkapital × Gewinn. Bsp.: 30.000/120.000 × 300.000 = 75.000 €."
+  },
+  {
+    "id": "wiso-karte-12",
+    "themaId": "rechtsformen-vollmachten",
+    "bereich": "wiso",
+    "vorderseite": "Wie viele Personen sind zur Gründung einer GmbH nötig?",
+    "rueckseite": "Mindestens eine Person (Ein-Personen-GmbH ist zulässig)."
+  },
+  {
+    "id": "wiso-karte-13",
+    "themaId": "finanzierung-kreditsicherung",
+    "bereich": "wiso",
+    "vorderseite": "Was kennzeichnet ein Annuitätendarlehen?",
+    "rueckseite": "Konstante Gesamtrate; Zinsen sinken, Tilgungsanteil wächst entsprechend."
+  },
+  {
+    "id": "wiso-karte-14",
+    "themaId": "finanzierung-kreditsicherung",
+    "bereich": "wiso",
+    "vorderseite": "Was kennzeichnet ein Abzahlungsdarlehen?",
+    "rueckseite": "Konstante Tilgung; Restschuld und Zinsen sinken, die Gesamtrate sinkt von Monat zu Monat."
+  },
+  {
+    "id": "wiso-karte-15",
+    "themaId": "finanzierung-kreditsicherung",
+    "bereich": "wiso",
+    "vorderseite": "Was ist Selbstfinanzierung?",
+    "rueckseite": "Innenfinanzierung aus einbehaltenem (nicht ausgeschüttetem) Gewinn."
+  },
+  {
+    "id": "wiso-karte-16",
+    "themaId": "finanzierung-kreditsicherung",
+    "bereich": "wiso",
+    "vorderseite": "Was passiert bei einer Sicherungsübereignung?",
+    "rueckseite": "Eigentum geht an die Bank über, der Besitz bleibt beim Kreditnehmer, der die Sache weiter nutzen darf."
+  },
+  {
+    "id": "wiso-karte-17",
+    "themaId": "finanzierung-kreditsicherung",
+    "bereich": "wiso",
+    "vorderseite": "Worin liegt das Risiko der Bank bei der Sicherungsübereignung?",
+    "rueckseite": "Der Kreditnehmer bleibt im Besitz und könnte die Sache an einen gutgläubigen Dritten verkaufen."
+  },
+  {
+    "id": "wiso-karte-18",
+    "themaId": "finanzierung-kreditsicherung",
+    "bereich": "wiso",
+    "vorderseite": "Unterschied Außen- und Innenfinanzierung?",
+    "rueckseite": "Außenfinanzierung: Kapital von außen (Kredit, Beteiligung). Innenfinanzierung: aus dem Unternehmen selbst (z. B. Gewinn)."
+  },
+  {
+    "id": "wiso-karte-19",
+    "themaId": "markt-preisbildung",
+    "bereich": "wiso",
+    "vorderseite": "Was ist ein Nachfrageüberhang?",
+    "rueckseite": "Die Nachfrage übersteigt das Angebot (typisch bei niedrigem Preis) → Verkäufermarkt, Preis steigt tendenziell."
+  },
+  {
+    "id": "wiso-karte-20",
+    "themaId": "markt-preisbildung",
+    "bereich": "wiso",
+    "vorderseite": "Was ist ein Angebotsüberhang?",
+    "rueckseite": "Das Angebot übersteigt die Nachfrage (typisch bei hohem Preis) → Käufermarkt, Preis sinkt tendenziell."
+  },
+  {
+    "id": "wiso-karte-21",
+    "themaId": "markt-preisbildung",
+    "bereich": "wiso",
+    "vorderseite": "Wo liegt das Marktgleichgewicht?",
+    "rueckseite": "Dort, wo Angebotsmenge = Nachfragemenge. Preis = Gleichgewichtspreis, Menge = Gleichgewichtsmenge."
+  },
+  {
+    "id": "wiso-karte-22",
+    "themaId": "markt-preisbildung",
+    "bereich": "wiso",
+    "vorderseite": "Wie berechnet man den Umsatz?",
+    "rueckseite": "Umsatz = Preis × abgesetzte Menge. Bsp.: 2.000 € × 2.500 Stück = 5.000.000 €."
+  },
+  {
+    "id": "wiso-karte-23",
+    "themaId": "markt-preisbildung",
+    "bereich": "wiso",
+    "vorderseite": "Wie verhält sich die Nachfrage bei sinkendem Preis?",
+    "rueckseite": "Die Nachfrage steigt bei sinkendem Preis; das Angebot steigt bei steigendem Preis."
+  },
+  {
+    "id": "wiso-karte-24",
+    "themaId": "konjunktur-indikatoren",
+    "bereich": "wiso",
+    "vorderseite": "Nenne die vier Konjunkturphasen.",
+    "rueckseite": "Aufschwung (Expansion), Hochkonjunktur (Boom), Abschwung (Rezession), Tiefphase (Depression)."
+  },
+  {
+    "id": "wiso-karte-25",
+    "themaId": "konjunktur-indikatoren",
+    "bereich": "wiso",
+    "vorderseite": "Merkmal der Aufschwungphase?",
+    "rueckseite": "Investitionen, Produktion und Beschäftigung steigen; Lagerbestände nehmen ab."
+  },
+  {
+    "id": "wiso-karte-26",
+    "themaId": "konjunktur-indikatoren",
+    "bereich": "wiso",
+    "vorderseite": "Nenne einen Frühindikator der Konjunktur.",
+    "rueckseite": "Auftragseingänge (vorlaufend). Auch: Geschäftsklimaindex, Aktienkurse."
+  },
+  {
+    "id": "wiso-karte-27",
+    "themaId": "konjunktur-indikatoren",
+    "bereich": "wiso",
+    "vorderseite": "Was ist ein Spätindikator?",
+    "rueckseite": "Ein nachlaufender Indikator, z. B. die Arbeitslosenquote."
+  },
+  {
+    "id": "wiso-karte-28",
+    "themaId": "konjunktur-indikatoren",
+    "bereich": "wiso",
+    "vorderseite": "Unterschied BIP und Bruttonationaleinkommen?",
+    "rueckseite": "BIP = Leistung im Inland (Inlandsprinzip). Bruttonationaleinkommen = Leistung der Inländer, egal wo (Inländerprinzip)."
+  },
+  {
+    "id": "wiso-karte-29",
+    "themaId": "berufsausbildung-arbeitsrecht",
+    "bereich": "wiso",
+    "vorderseite": "Bis zu welchem Alter gilt das JArbSchG?",
+    "rueckseite": "Für Jugendliche bis zum vollendeten 18. Lebensjahr."
+  },
+  {
+    "id": "wiso-karte-30",
+    "themaId": "berufsausbildung-arbeitsrecht",
+    "bereich": "wiso",
+    "vorderseite": "Wie viel tägliche Freizeit müssen Jugendliche mindestens haben?",
+    "rueckseite": "Mindestens 12 Stunden ununterbrochene Freizeit (§ 13 JArbSchG)."
+  },
+  {
+    "id": "wiso-karte-31",
+    "themaId": "berufsausbildung-arbeitsrecht",
+    "bereich": "wiso",
+    "vorderseite": "Welche Ausbildungsvertragsklausel ist unwirksam?",
+    "rueckseite": "Eine Klausel, die den Azubi zur Weiterarbeit im Betrieb nach der Prüfung verpflichtet (§ 12 BBiG)."
+  },
+  {
+    "id": "wiso-karte-32",
+    "themaId": "berufsausbildung-arbeitsrecht",
+    "bereich": "wiso",
+    "vorderseite": "Ist die Meldung des Ausbildungsvertrags bei der Agentur für Arbeit Pflicht?",
+    "rueckseite": "Nein. Nötig sind Schriftform, Eintrag ins Kammerverzeichnis und Unterschrift der gesetzlichen Vertreter."
+  },
+  {
+    "id": "wiso-karte-33",
+    "themaId": "berufsausbildung-arbeitsrecht",
+    "bereich": "wiso",
+    "vorderseite": "Wann hat die JAV bei Betriebsratssitzungen Stimm- und Teilnahmerecht?",
+    "rueckseite": "Wenn die Angelegenheit überwiegend die von ihr vertretenen Jugendlichen/Azubis betrifft (§§ 60, 67 BetrVG)."
+  },
+  {
+    "id": "wiso-karte-34",
+    "themaId": "berufsausbildung-arbeitsrecht",
+    "bereich": "wiso",
+    "vorderseite": "Wie rechnet man anteiligen Jugendurlaub?",
+    "rueckseite": "Jahresurlaub / 12 × Beschäftigungsmonate. Bsp.: 27/12 × 4 = 9 Werktage."
+  },
+  {
+    "id": "wiso-karte-35",
+    "themaId": "arbeitsschutz-umwelt",
+    "bereich": "wiso",
+    "vorderseite": "Wer überwacht Arbeitsschutz und Arbeitssicherheit?",
+    "rueckseite": "Die Berufsgenossenschaft (gesetzliche Unfallversicherung)."
+  },
+  {
+    "id": "wiso-karte-36",
+    "themaId": "arbeitsschutz-umwelt",
+    "bereich": "wiso",
+    "vorderseite": "Wann muss über Unfall- und Gesundheitsgefahren belehrt werden?",
+    "rueckseite": "Bei Aufnahme der Beschäftigung und danach in regelmäßigen Abständen (mind. jährlich)."
+  },
+  {
+    "id": "wiso-karte-37",
+    "themaId": "arbeitsschutz-umwelt",
+    "bereich": "wiso",
+    "vorderseite": "Rangfolge der Abfallhierarchie (KrWG)?",
+    "rueckseite": "1. Vermeidung, 2. Wiederverwendung, 3. Recycling/Weiterverwertung, 4. sonstige Verwertung, 5. Beseitigung."
+  },
+  {
+    "id": "wiso-karte-38",
+    "themaId": "arbeitsschutz-umwelt",
+    "bereich": "wiso",
+    "vorderseite": "Nenne erneuerbare Energien.",
+    "rueckseite": "Wasserkraft, Windkraft, Erdwärme (Geothermie), Sonnenenergie, Biomasse. NICHT: Erdgas, Erdöl, Kohle."
+  },
+  {
+    "id": "wiso-karte-39",
+    "themaId": "arbeitsschutz-umwelt",
+    "bereich": "wiso",
+    "vorderseite": "Wofür steht das Fairtrade-Siegel?",
+    "rueckseite": "Für Waren aus fairem Handel, bei deren Herstellung soziale, ökologische und ökonomische Kriterien eingehalten wurden."
+  },
+  {
+    "id": "wiso-karte-40",
+    "themaId": "arbeitsschutz-umwelt",
+    "bereich": "wiso",
+    "vorderseite": "Welche Farbe/Form haben Verbotszeichen (z. B. 'Kein offenes Feuer')?",
+    "rueckseite": "Rund mit rotem Rand und rotem Querbalken (Verbotszeichen). Rettungszeichen sind grün, Brandschutzzeichen rot-quadratisch."
+  },
+  {
+    "id": "wiso-karte-datenschutz-digitales-arbeiten-1",
+    "themaId": "datenschutz-digitales-arbeiten",
+    "bereich": "wiso",
+    "vorderseite": "Was sind personenbezogene Daten?",
+    "rueckseite": "Alle Informationen über eine identifizierte oder identifizierbare natürliche Person (z. B. Name, Adresse, IP-Adresse, Personalnummer)."
+  },
+  {
+    "id": "wiso-karte-datenschutz-digitales-arbeiten-2",
+    "themaId": "datenschutz-digitales-arbeiten",
+    "bereich": "wiso",
+    "vorderseite": "Welche Rechte haben Betroffene nach der DSGVO?",
+    "rueckseite": "Auskunft, Berichtigung, Löschung („Recht auf Vergessenwerden\"), Einschränkung, Datenübertragbarkeit und Widerspruch."
+  },
+  {
+    "id": "wiso-karte-datenschutz-digitales-arbeiten-3",
+    "themaId": "datenschutz-digitales-arbeiten",
+    "bereich": "wiso",
+    "vorderseite": "Innerhalb welcher Frist muss eine Datenpanne gemeldet werden?",
+    "rueckseite": "Binnen 72 Stunden an die zuständige Aufsichtsbehörde (Art. 33 DSGVO)."
+  },
+  {
+    "id": "wiso-karte-datenschutz-digitales-arbeiten-4",
+    "themaId": "datenschutz-digitales-arbeiten",
+    "bereich": "wiso",
+    "vorderseite": "Was bedeutet Zweckbindung?",
+    "rueckseite": "Personenbezogene Daten dürfen nur für den festgelegten, eindeutigen Zweck verarbeitet werden, für den sie erhoben wurden."
+  },
+  {
+    "id": "wiso-karte-datenschutz-digitales-arbeiten-5",
+    "themaId": "datenschutz-digitales-arbeiten",
+    "bereich": "wiso",
+    "vorderseite": "Wann braucht ein Betrieb i. d. R. einen Datenschutzbeauftragten?",
+    "rueckseite": "Wenn mindestens 20 Personen ständig mit automatisierter Verarbeitung personenbezogener Daten beschäftigt sind."
+  },
+  {
+    "id": "wiso-karte-prozesse-epk-6",
+    "themaId": "prozesse-epk",
+    "bereich": "wiso",
+    "vorderseite": "Welche Grundsymbole hat eine EPK?",
+    "rueckseite": "Ereignis (Sechseck), Funktion (abgerundetes Rechteck), Verknüpfungen (XOR, UND, ODER) sowie Kanten/Pfeile."
+  },
+  {
+    "id": "wiso-karte-prozesse-epk-7",
+    "themaId": "prozesse-epk",
+    "bereich": "wiso",
+    "vorderseite": "Womit beginnt und endet eine EPK immer?",
+    "rueckseite": "Immer mit einem Ereignis (Zustand) — nie mit einer Funktion."
+  },
+  {
+    "id": "wiso-karte-prozesse-epk-8",
+    "themaId": "prozesse-epk",
+    "bereich": "wiso",
+    "vorderseite": "Was bedeutet die XOR-Verknüpfung?",
+    "rueckseite": "Entweder-oder: Genau EINER der Wege wird durchlaufen, nie mehrere gleichzeitig."
+  },
+  {
+    "id": "wiso-karte-prozesse-epk-9",
+    "themaId": "prozesse-epk",
+    "bereich": "wiso",
+    "vorderseite": "Was bedeutet die UND-Verknüpfung?",
+    "rueckseite": "Alle verbundenen Wege werden gemeinsam (parallel) durchlaufen."
+  },
+  {
+    "id": "wiso-karte-prozesse-epk-10",
+    "themaId": "prozesse-epk",
+    "bereich": "wiso",
+    "vorderseite": "Was bedeutet die ODER-Verknüpfung?",
+    "rueckseite": "Mindestens einer der Wege wird durchlaufen — es können auch mehrere sein."
+  },
+  {
+    "id": "wiso-karte-unternehmensorganisation-11",
+    "themaId": "unternehmensorganisation",
+    "bereich": "wiso",
+    "vorderseite": "Unterschied Aufbau- und Ablauforganisation?",
+    "rueckseite": "Aufbau = WER macht was (Stellen, Abteilungen, Hierarchie). Ablauf = WIE und in welcher Reihenfolge Prozesse ablaufen."
+  },
+  {
+    "id": "wiso-karte-unternehmensorganisation-12",
+    "themaId": "unternehmensorganisation",
+    "bereich": "wiso",
+    "vorderseite": "Was ist der Unterschied zwischen Stelle und Instanz?",
+    "rueckseite": "Stelle = kleinste organisatorische Einheit ohne Leitungsbefugnis. Instanz = Stelle MIT Leitungs-/Weisungsbefugnis."
+  },
+  {
+    "id": "wiso-karte-unternehmensorganisation-13",
+    "themaId": "unternehmensorganisation",
+    "bereich": "wiso",
+    "vorderseite": "Vorteil und Nachteil des Einliniensystems?",
+    "rueckseite": "Vorteil: klare Dienstwege und Verantwortung. Nachteil: lange Wege, Überlastung der Spitze."
+  },
+  {
+    "id": "wiso-karte-unternehmensorganisation-14",
+    "themaId": "unternehmensorganisation",
+    "bereich": "wiso",
+    "vorderseite": "Was ist eine Stabstelle?",
+    "rueckseite": "Beratende Stelle ohne Weisungsbefugnis, die eine Instanz unterstützt (z. B. Rechtsabteilung, Controlling)."
+  },
+  {
+    "id": "wiso-karte-unternehmensorganisation-15",
+    "themaId": "unternehmensorganisation",
+    "bereich": "wiso",
+    "vorderseite": "Was zeigt ein Organigramm?",
+    "rueckseite": "Die Aufbauorganisation: Stellen, Abteilungen, Leitungsbeziehungen und Hierarchieebenen."
+  },
+  {
+    "id": "wiso-karte-projektmanagement-16",
+    "themaId": "projektmanagement",
+    "bereich": "wiso",
+    "vorderseite": "Welche Merkmale kennzeichnen ein Projekt?",
+    "rueckseite": "Einmalig, zeitlich begrenzt, klares Ziel, begrenzte Ressourcen, bereichsübergreifend, gewisse Komplexität/Neuartigkeit."
+  },
+  {
+    "id": "wiso-karte-projektmanagement-17",
+    "themaId": "projektmanagement",
+    "bereich": "wiso",
+    "vorderseite": "Nenne die vier Projektphasen.",
+    "rueckseite": "Definition/Start → Planung → Durchführung/Steuerung → Abschluss (mit Abnahme und Reflexion)."
+  },
+  {
+    "id": "wiso-karte-projektmanagement-18",
+    "themaId": "projektmanagement",
+    "bereich": "wiso",
+    "vorderseite": "Was ist das magische Dreieck des Projektmanagements?",
+    "rueckseite": "Zeit, Kosten, Qualität/Leistung — die drei Zielgrößen konkurrieren miteinander."
+  },
+  {
+    "id": "wiso-karte-projektmanagement-19",
+    "themaId": "projektmanagement",
+    "bereich": "wiso",
+    "vorderseite": "Was ist ein Meilenstein?",
+    "rueckseite": "Ein überprüfbares Zwischenergebnis zu einem festgelegten Termin — Kontrollpunkt im Projektverlauf."
+  },
+  {
+    "id": "wiso-karte-projektmanagement-20",
+    "themaId": "projektmanagement",
+    "bereich": "wiso",
+    "vorderseite": "Wofür dient ein Gantt-Diagramm?",
+    "rueckseite": "Balkenplan zur zeitlichen Darstellung von Vorgängen, Dauer und Überschneidungen im Projekt."
+  }
 ]

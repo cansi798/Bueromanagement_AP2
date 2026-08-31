@@ -56,7 +56,9 @@ export default function Skript() {
 
   return (
     <div className="min-h-dvh bg-white">
-      <style>{`@media print { @page { size: A4 portrait; margin: 14mm } }`}</style>
+      <style>{`@media print { @page { size: A4 portrait; margin: 14mm 14mm 18mm 14mm;
+        @bottom-right { content: "Seite " counter(page) " von " counter(pages); font-size: 9px; color: #94a3b8; }
+        @bottom-left { content: "KBM Prüfungscoach · Lernskript"; font-size: 9px; color: #94a3b8; } } }`}</style>
       {/* Werkzeugleiste — erscheint nicht im Druck */}
       <div className="sticky top-0 z-10 border-b border-slate-200 bg-slate-50 print:hidden">
         <div className="mx-auto flex max-w-3xl items-center justify-between gap-3 px-4 py-3">

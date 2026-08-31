@@ -430,7 +430,7 @@
     "bereich": "kbz",
     "name": "Kundenbeziehungsprozesse",
     "zeitMinuten": 150,
-    "punkteGesamt": 100,
+    "punkteGesamt": 150,
     "aufgabenIds": [
       "kbz-2022w-a1-1",
       "kbz-2022w-a1-2",

@@ -208,5 +208,59 @@
     "text": "Sie arbeiten im kaufmännischen Bereich; eine neue Abteilung soll die Postabwicklung übernehmen. Welche Schritte hat der Postausgang und welche der Posteingang? Welche Hilfsmittel werden zur Postbearbeitung benötigt? Welche Aufbewahrungsfristen gelten? Wie schwer ist ein Bogen DIN A4 bei 80 g/m²?",
     "loesung": "- **Postausgang:** 1. Zusammentragen, 2. Falzen (Einfach-, Kreuz-, Zickzack-/Leporello-, Wickelfalz), 3. Kuvertieren und Verschließen, 4. Wiegen (Höhe der Postgebühr), 5. Frankieren (Briefmarke, Frankiermaschine, Internetmarke, E-Porto), 6. Übergabe an den Postdienstleister.\n- **Posteingang:** 1. Postempfang, 2. Aus-/Sortieren, 3. Öffnen, 4. Entnahme und Anlagenkontrolle, 5. Zusammenheften, 6./7. Vollständigkeitskontrolle, 8. Posteingangsstempel, 9. Sortieren nach Abteilung/Person, 10. Verteilen.\n- **Hilfsmittel:** elektronischer Brieföffner, Stempelmaschinen, Falzmaschine, Kuvertiermaschine, elektronische Briefwaage, Frankiermaschine, Verteilsysteme (Rohrpost, Umlaufwagen), elektronisches Dokumentenmanagement.\n- **Aufbewahrungsfristen:** 6 Jahre für empfangene Handelsbriefe und Kopien abgesandter Handelsbriefe; 10 Jahre für Handelsbücher, Inventare, Eröffnungsbilanzen, Jahresabschlüsse, Buchungsbelege, Eingangs- und Ausgangsrechnungen.\n- **DIN A4 Gewicht:** Ein Bogen A0 hat 1 m² und wiegt bei 80 g/m² also 80 g. Aus A0 lassen sich 16 Bögen A4 gewinnen, ein A4-Bogen wiegt also 1/16 von 80 g = **5 g**.",
     "erklaerung": "Die Fristen (6 und 10 Jahre) und die A4-Gewichtsrechnung sind typische Nachfragen."
+  },
+  {
+    "id": "muendlich-grundlagen-1",
+    "themaId": "ablauf-fachaufgabe",
+    "bereich": "muendlich",
+    "quelle": "generiert",
+    "typ": "offen",
+    "text": "Beschreibe den kompletten Ablauf der mündlichen Prüfung — vom Report bis zur Note.",
+    "loesung": "1. Report (max. 3 Seiten) zur betrieblichen Fachaufgabe der Wahlqualifikation fristgerecht einreichen. 2. Die Prüfer lesen den Report und bereiten Fragen vor (der Report selbst wird nicht benotet). 3. Ca. 20-minütiges Fachgespräch: Einstieg über die Fachaufgabe, dann vertiefende Fragen zur Wahlqualifikation. 4. Die Prüfungskommission bewertet das Gespräch und teilt die Note mit."
+  },
+  {
+    "id": "muendlich-grundlagen-2",
+    "themaId": "ablauf-fachaufgabe",
+    "bereich": "muendlich",
+    "quelle": "generiert",
+    "typ": "offen",
+    "text": "Was wird im Fachgespräch bewertet — und was ausdrücklich nicht?",
+    "loesung": "Bewertet wird NUR das Gespräch: Fachwissen zur Wahlqualifikation, Begründen von Entscheidungen, Erklären von Prozessen und Handlungsalternativen. NICHT bewertet werden der Report als Dokument und reine Auswendiglern-Vorträge."
+  },
+  {
+    "id": "muendlich-grundlagen-3",
+    "themaId": "report-schreiben",
+    "bereich": "muendlich",
+    "quelle": "generiert",
+    "typ": "offen",
+    "text": "Nenne die formalen Anforderungen an den Report.",
+    "loesung": "Max. 3 Seiten (DIN A4), beschreibt eine selbst durchgeführte betriebliche Fachaufgabe aus der gewählten Wahlqualifikation, sachlich formuliert, fristgerechte Abgabe bei der IHK; er dient nur als Grundlage des Fachgesprächs und wird nicht benotet."
+  },
+  {
+    "id": "muendlich-grundlagen-4",
+    "themaId": "report-schreiben",
+    "bereich": "muendlich",
+    "quelle": "generiert",
+    "typ": "offen",
+    "text": "Wie ist ein überzeugender Report aufgebaut?",
+    "loesung": "Bewährter Aufbau: 1. Ausgangssituation/Betriebskontext, 2. Ziel und Planung der Fachaufgabe, 3. Durchführung mit begründeten Entscheidungen, 4. Ergebnis und kritische Reflexion (Was lief gut? Was würde ich anders machen?)."
+  },
+  {
+    "id": "muendlich-grundlagen-5",
+    "themaId": "gespraechstechnik",
+    "bereich": "muendlich",
+    "quelle": "generiert",
+    "typ": "offen",
+    "text": "Nenne drei Techniken für überzeugende Antworten im Fachgespräch.",
+    "loesung": "1. Struktur: Behauptung → Begründung → Beispiel aus dem Betrieb. 2. Laut und in ganzen Sätzen antworten, Fachbegriffe verwenden UND erklären. 3. W-Fragen antizipieren (Warum so? Welche Alternativen? Was wäre wenn?) und vorab laut üben."
+  },
+  {
+    "id": "muendlich-grundlagen-6",
+    "themaId": "gespraechstechnik",
+    "bereich": "muendlich",
+    "quelle": "generiert",
+    "typ": "offen",
+    "text": "Du kennst die Antwort auf eine Prüferfrage nicht — wie reagierst du souverän?",
+    "loesung": "Ehrlich bleiben statt raten: kurz einordnen („Damit hatte ich im Betrieb wenig Berührung\"), dann laut strukturiert denken und die Frage auf bekanntes Wissen oder den eigenen Betrieb zurückführen. Prüfer honorieren nachvollziehbares Denken mehr als geratene Fakten."
   }
 ]
