@@ -3,6 +3,7 @@ import { Link, useParams } from 'react-router-dom'
 import Layout from '../components/Layout'
 import Markdown from '../components/Markdown'
 import Timer from '../components/Timer'
+import KIBewertung from '../components/KIBewertung'
 import { ladeAufgaben, ladePruefungen, useDaten } from '../lib/data'
 import { wertungMC } from '../lib/quiz'
 import { heuteISO, merkeErledigt } from '../lib/progress'
@@ -17,6 +18,7 @@ export default function Simulation() {
   const [gestartet, setGestartet] = useState(false)
   const [abgegeben, setAbgegeben] = useState(false)
   const [mcAntworten, setMcAntworten] = useState<Record<string, number[]>>({})
+  const [textAntworten, setTextAntworten] = useState<Record<string, string>>({})
   const [selbst, setSelbst] = useState<Record<string, boolean>>({})
 
   const pruefung = pruefungen?.find((p) => p.termin === termin && p.bereich === bereichId)
@@ -145,12 +147,29 @@ export default function Simulation() {
                   </div>
                 ) : abgegeben ? (
                   <div className="mt-3">
-                    <div className="rounded-lg border border-green-200 bg-green-50 p-3">
-                      <p className="mb-1 text-xs font-semibold uppercase text-green-700">
-                        Musterlösung
-                      </p>
-                      <Markdown text={a.loesung} />
+                    <div className={(textAntworten[a.id] ?? '').trim() ? 'grid gap-2 xl:grid-cols-2' : ''}>
+                      {(textAntworten[a.id] ?? '').trim() && (
+                        <div className="rounded-lg border border-sky-200 bg-sky-50 p-3">
+                          <p className="mb-1 text-xs font-semibold uppercase text-sky-700">
+                            ✍️ Deine Antwort
+                          </p>
+                          <p className="whitespace-pre-wrap text-[15px] text-slate-800">
+                            {textAntworten[a.id]}
+                          </p>
+                        </div>
+                      )}
+                      <div className="rounded-lg border border-green-200 bg-green-50 p-3">
+                        <p className="mb-1 text-xs font-semibold uppercase text-green-700">
+                          Musterlösung
+                        </p>
+                        <Markdown text={a.loesung} />
+                      </div>
                     </div>
+                    <KIBewertung
+                      frage={a.text}
+                      loesung={a.loesung}
+                      antwort={textAntworten[a.id] ?? ''}
+                    />
                     {selbst[a.id] === undefined ? (
                       <div className="mt-2 flex gap-2">
                         <button
@@ -175,10 +194,17 @@ export default function Simulation() {
                     )}
                   </div>
                 ) : (
-                  <p className="mt-3 rounded-lg bg-slate-50 p-3 text-sm text-slate-500">
-                    ✍️ Bearbeite die Aufgabe auf Papier oder im Kopf – die Musterlösung
-                    erscheint nach der Abgabe.
-                  </p>
+                  <div className="mt-3">
+                    <textarea
+                      value={textAntworten[a.id] ?? ''}
+                      onChange={(e) =>
+                        setTextAntworten((alt) => ({ ...alt, [a.id]: e.target.value }))
+                      }
+                      placeholder="✍️ Deine Antwort — wird nach der Abgabe mit der Musterlösung verglichen (KI-Bewertung möglich) …"
+                      rows={4}
+                      className="w-full rounded-lg border border-slate-300 bg-white p-3 text-[15px] focus:border-sky-500 focus:outline-none"
+                    />
+                  </div>
                 )}
               </div>
               {a.anlagenText && (
