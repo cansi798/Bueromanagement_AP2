@@ -6,12 +6,8 @@ import QuizMC from '../components/QuizMC'
 import QuizOffen from '../components/QuizOffen'
 import { ladeAufgaben, ladePruefungen, useDaten } from '../lib/data'
 import { heuteISO, merkeErledigt } from '../lib/progress'
+import { sammlungsNummer, terminAnzeige } from '../lib/termine'
 import type { BereichId, Pruefung } from '../types'
-
-function terminLabel(termin: string): string {
-  const [jahr, saison] = termin.split('-')
-  return `${saison === 'sommer' ? 'Sommer' : 'Winter'} ${jahr}`
-}
 
 function PruefungsKarte({ pruefung, bereichId }: { pruefung: Pruefung; bereichId: BereichId }) {
   const [uebenOffen, setUebenOffen] = useState(false)
@@ -26,7 +22,7 @@ function PruefungsKarte({ pruefung, bereichId }: { pruefung: Pruefung; bereichId
     <div className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
       <div className="flex flex-wrap items-center justify-between gap-3">
         <div>
-          <h2 className="font-bold text-slate-900">{terminLabel(pruefung.termin)}</h2>
+          <h2 className="font-bold text-slate-900">{terminAnzeige(pruefung.termin)}</h2>
           <p className="text-sm text-slate-500">
             {pruefung.name} · {pruefung.zeitMinuten} Min · {pruefung.punkteGesamt} Punkte ·{' '}
             {pruefung.aufgabenIds.length} Aufgaben
@@ -36,16 +32,18 @@ function PruefungsKarte({ pruefung, bereichId }: { pruefung: Pruefung; bereichId
           <button
             type="button"
             onClick={() => setUebenOffen(!uebenOffen)}
-            className="rounded-lg border-2 border-slate-300 px-4 py-2 font-semibold text-slate-700 hover:border-slate-500"
+            className="min-h-11 rounded-lg border-2 border-slate-300 px-4 py-2 font-semibold text-slate-700 hover:border-slate-500"
           >
             {uebenOffen ? 'Schließen' : 'Üben'}
           </button>
-          <Link
-            to={`/${bereichId}/simulation/${pruefung.termin}`}
-            className="rounded-lg bg-slate-900 px-4 py-2 font-semibold text-white hover:bg-slate-700"
-          >
-            Simulation ⏱
-          </Link>
+          {sammlungsNummer(pruefung.termin) !== null && (
+            <Link
+              to={`/${bereichId}/simulation/${sammlungsNummer(pruefung.termin)}`}
+              className="min-h-11 rounded-lg bg-slate-900 px-4 py-2 font-semibold text-white hover:bg-slate-700"
+            >
+              Simulation ⏱
+            </Link>
+          )}
         </div>
       </div>
 
@@ -76,22 +74,22 @@ export default function Stufe3() {
   const eigene = pruefungen?.filter((p) => p.bereich === bereichId) ?? []
 
   return (
-    <Layout titel="Stufe 3 · Prüfungsjahre">
+    <Layout titel="Stufe 3 · Aufgabensammlungen">
       <p className="-mt-2 mb-5 text-slate-600">
-        Komplette Prüfungen durcharbeiten – im Übungsmodus mit Lösungen oder als Simulation
-        unter echten Bedingungen.
+        Komplette Aufgabensammlungen im Prüfungsformat durcharbeiten – im Übungsmodus mit
+        Lösungen oder als Simulation unter echten Bedingungen.
       </p>
       {laedt && <p className="text-slate-500">Lade …</p>}
       {fehler && <p className="rounded-lg bg-red-50 p-4 text-red-700">{fehler}</p>}
       <div className="space-y-4">
         {eigene
-          .sort((a, b) => b.termin.localeCompare(a.termin))
+          .sort((a, b) => (sammlungsNummer(a.termin) ?? 0) - (sammlungsNummer(b.termin) ?? 0))
           .map((p) => (
             <PruefungsKarte key={p.termin + p.bereich} pruefung={p} bereichId={bereichId!} />
           ))}
         {!laedt && !fehler && eigene.length === 0 && (
           <p className="rounded-lg bg-white p-6 text-center text-slate-500">
-            Für diesen Bereich sind noch keine kompletten Prüfungen hinterlegt.
+            Für diesen Bereich sind noch keine Aufgabensammlungen hinterlegt.
           </p>
         )}
       </div>

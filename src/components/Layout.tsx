@@ -1,4 +1,4 @@
-import { Link, useLocation } from 'react-router-dom'
+import { Link, useLocation, useNavigate } from 'react-router-dom'
 import type { ReactNode } from 'react'
 
 const NAV = [
@@ -9,14 +9,27 @@ const NAV = [
 
 export default function Layout({ children, titel }: { children: ReactNode; titel?: string }) {
   const { pathname } = useLocation()
+  const navigate = useNavigate()
 
   return (
     <div className="min-h-dvh bg-slate-100 pb-20 md:pb-8">
-      <header className="sticky top-0 z-10 border-b border-slate-200 bg-white/90 backdrop-blur">
+      <header className="sticky top-0 z-10 border-b border-slate-200 bg-white/90 backdrop-blur print:hidden">
         <div className="mx-auto flex max-w-5xl items-center justify-between px-4 py-3">
-          <Link to="/" className="text-lg font-bold text-slate-900">
-            KBM <span className="text-sky-600">Prüfungscoach</span>
-          </Link>
+          <div className="flex items-center gap-2">
+            {pathname !== '/' && (
+              <button
+                type="button"
+                onClick={() => navigate(-1)}
+                aria-label="Zurück"
+                className="-ml-2 min-h-11 min-w-11 rounded-lg px-2 text-xl leading-none text-slate-500 hover:bg-slate-100"
+              >
+                ←
+              </button>
+            )}
+            <Link to="/" className="text-lg font-bold text-slate-900">
+              KBM <span className="text-sky-600">Prüfungscoach</span>
+            </Link>
+          </div>
           <nav className="hidden gap-1 md:flex">
             {NAV.map((n) => (
               <Link
@@ -41,7 +54,7 @@ export default function Layout({ children, titel }: { children: ReactNode; titel
       </main>
 
       {/* Mobile Bottom-Navigation */}
-      <nav className="fixed inset-x-0 bottom-0 z-10 flex border-t border-slate-200 bg-white md:hidden">
+      <nav className="fixed inset-x-0 bottom-0 z-10 flex border-t border-slate-200 bg-white md:hidden print:hidden">
         {NAV.map((n) => (
           <Link
             key={n.pfad}

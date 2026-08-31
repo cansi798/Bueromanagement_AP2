@@ -1,73 +1,17 @@
 import { useMemo, useState } from 'react'
-import { useParams } from 'react-router-dom'
+import { useParams, useSearchParams } from 'react-router-dom'
 import Layout from '../components/Layout'
-import Markdown from '../components/Markdown'
-import QuelleBadge from '../components/QuelleBadge'
-import QuizMC from '../components/QuizMC'
-import QuizOffen from '../components/QuizOffen'
+import AufgabenKarte from '../components/AufgabenKarte'
 import { ladeAufgaben, ladeThemen, useDaten } from '../lib/data'
-import { heuteISO, ladeFortschritt, merkeErledigt, merkeQuiz } from '../lib/progress'
-import type { Aufgabe, BereichId } from '../types'
-
-function AufgabenKarte({ aufgabe, erledigt }: { aufgabe: Aufgabe; erledigt: boolean }) {
-  const [zeigeAnlage, setZeigeAnlage] = useState(false)
-  const [istErledigt, setIstErledigt] = useState(erledigt)
-
-  function ergebnis(richtig: boolean) {
-    merkeErledigt(aufgabe.id, heuteISO())
-    merkeQuiz(aufgabe.themaId, richtig ? 1 : 0, 1, heuteISO())
-    setIstErledigt(true)
-  }
-
-  const quiz =
-    aufgabe.typ === 'mc' ? (
-      <QuizMC aufgabe={aufgabe} onErgebnis={ergebnis} />
-    ) : (
-      <QuizOffen aufgabe={aufgabe} onErgebnis={ergebnis} />
-    )
-
-  return (
-    <div className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
-      <div className="mb-2 flex items-center gap-2">
-        <QuelleBadge quelle={aufgabe.quelle} termin={aufgabe.termin} />
-        {istErledigt && <span className="text-sm text-green-600">✔ geübt</span>}
-      </div>
-
-      {aufgabe.anlagenText ? (
-        <div className="lg:grid lg:grid-cols-2 lg:gap-5">
-          <div>{quiz}</div>
-          <div className="mt-3 lg:mt-0">
-            <button
-              type="button"
-              onClick={() => setZeigeAnlage(!zeigeAnlage)}
-              className="mb-2 text-sm font-medium text-sky-700 lg:hidden"
-            >
-              {zeigeAnlage ? 'Anlage ausblenden ▲' : 'Anlage anzeigen ▼'}
-            </button>
-            <div
-              className={`rounded-lg border border-slate-200 bg-slate-50 p-3 ${
-                zeigeAnlage ? '' : 'hidden lg:block'
-              }`}
-            >
-              <p className="mb-1 text-xs font-semibold uppercase tracking-wide text-slate-500">
-                Anlage
-              </p>
-              <Markdown text={aufgabe.anlagenText} />
-            </div>
-          </div>
-        </div>
-      ) : (
-        quiz
-      )}
-    </div>
-  )
-}
+import { ladeFortschritt } from '../lib/progress'
+import type { BereichId } from '../types'
 
 export default function Stufe2() {
   const { bereichId } = useParams<{ bereichId: BereichId }>()
   const { daten: themen } = useDaten(() => ladeThemen(bereichId!))
   const { daten: aufgaben, fehler, laedt } = useDaten(() => ladeAufgaben(bereichId!))
-  const [themaId, setThemaId] = useState<string | null>(null)
+  const [suchParams] = useSearchParams()
+  const [themaId, setThemaId] = useState<string | null>(suchParams.get('thema'))
   const [nurOffene, setNurOffene] = useState(false)
   const erledigte = useMemo(() => new Set(ladeFortschritt().erledigteAufgaben), [])
 
@@ -80,8 +24,16 @@ export default function Stufe2() {
 
   return (
     <Layout titel="Stufe 2 · Themen-Training">
-      <p className="-mt-2 mb-5 text-slate-600">
-        Aufgaben nach Themen sortiert – Originale, Varianten und Übungsaufgaben.
+      <p className="-mt-2 mb-2 text-slate-600">
+        Aufgaben nach Themen sortiert – wähle ein Thema und leg los.
+      </p>
+      <p className="mb-5 text-xs text-slate-500">
+        <span className="mr-1 rounded-full bg-blue-100 px-2 py-0.5 font-medium text-blue-800">Aufgabensammlung N</span>
+        Aufgabe aus einer kompletten Sammlung ·{' '}
+        <span className="mx-1 rounded-full bg-teal-100 px-2 py-0.5 font-medium text-teal-800">Variante</span>
+        abgewandelte Aufgabe ·{' '}
+        <span className="mx-1 rounded-full bg-slate-200 px-2 py-0.5 font-medium text-slate-700">Training</span>
+        zusätzliche Übungsaufgabe
       </p>
       {laedt && <p className="text-slate-500">Lade …</p>}
       {fehler && <p className="rounded-lg bg-red-50 p-4 text-red-700">{fehler}</p>}

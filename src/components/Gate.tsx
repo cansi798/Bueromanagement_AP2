@@ -1,10 +1,22 @@
-import { useState, type FormEvent, type ReactNode } from 'react'
+import { useEffect, useState, type FormEvent, type ReactNode } from 'react'
 import { istFreigeschaltet, pruefeCode, schalteFrei } from '../lib/gate'
 
 export default function Gate({ children }: { children: ReactNode }) {
   const [offen, setOffen] = useState(istFreigeschaltet)
   const [eingabe, setEingabe] = useState('')
   const [fehler, setFehler] = useState(false)
+
+  // PDF-Generierung: ?code=<Zugangscode> in der URL schaltet die Sitzung frei
+  // (für den Headless-Druck der Skripte/Präsentationen — gleicher Hash-Check).
+  useEffect(() => {
+    const param = new URLSearchParams(window.location.search).get('code')
+    if (param && !offen) {
+      pruefeCode(param).then((ok) => {
+        if (ok) setOffen(true)
+      })
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
 
   if (offen) return <>{children}</>
 

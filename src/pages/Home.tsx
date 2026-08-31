@@ -27,10 +27,11 @@ export default function Home() {
     <Layout>
       <div className="mb-6 flex items-start justify-between gap-4">
         <div>
-          <h1 className="text-2xl font-bold text-slate-900">Deine Prüfungsvorbereitung</h1>
+          <h1 className="text-2xl font-bold text-slate-900">Willkommen im Prüfungscoach</h1>
           <p className="mt-1 text-slate-600">
-            Wähle einen Lernbereich – jeder hat Auffrischung, Themen-Training und echte
-            Prüfungsjahre.
+            Für Unterricht und Selbstlernen: Wähle einen Lernbereich – mit
+            Unterrichts-Sessions, Auffrischung, Themen-Training und Aufgabensammlungen im
+            Prüfungsformat.
           </p>
         </div>
         {streak.tage > 0 && (
