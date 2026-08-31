@@ -30,8 +30,22 @@ export default function Unterricht() {
           to={`/skript/${bereichId}`}
           className="rounded-lg border-2 border-slate-300 bg-white px-4 py-2 text-sm font-semibold text-slate-700 hover:border-slate-500"
         >
-          📄 Lernskript (Druck/PDF)
+          📄 Lernskript
         </Link>
+        <a
+          href={`./downloads/skript-${bereichId}.pdf`}
+          download
+          className="rounded-lg border-2 border-slate-300 bg-white px-4 py-2 text-sm font-semibold text-slate-700 hover:border-slate-500"
+        >
+          ⬇️ Skript-PDF
+        </a>
+        <a
+          href={`./downloads/praesentation-${bereichId}.pdf`}
+          download
+          className="rounded-lg border-2 border-slate-300 bg-white px-4 py-2 text-sm font-semibold text-slate-700 hover:border-slate-500"
+        >
+          ⬇️ Folien-PDF
+        </a>
       </div>
 
       {laedt && <p className="text-slate-500">Lade …</p>}

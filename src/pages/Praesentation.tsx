@@ -41,6 +41,7 @@ export default function Praesentation() {
 
   return (
     <div className="fixed inset-0 flex flex-col bg-slate-900 print:static print:block print:bg-white">
+      <style>{`@media print { @page { size: A4 landscape; margin: 0 } }`}</style>
       {/* Folien: am Bildschirm nur die aktive, im Druck alle */}
       <div className="flex flex-1 items-center justify-center overflow-hidden p-4 sm:p-8 print:block print:overflow-visible print:p-0">
         {folien.map((f, i) => (

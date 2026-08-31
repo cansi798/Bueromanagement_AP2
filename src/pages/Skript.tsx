@@ -17,6 +17,7 @@ export default function Skript() {
 
   return (
     <div className="min-h-dvh bg-white">
+      <style>{`@media print { @page { size: A4 portrait; margin: 14mm } }`}</style>
       {/* Werkzeugleiste — erscheint nicht im Druck */}
       <div className="sticky top-0 z-10 border-b border-slate-200 bg-slate-50 print:hidden">
         <div className="mx-auto flex max-w-3xl items-center justify-between gap-3 px-4 py-3">
@@ -30,13 +31,22 @@ export default function Skript() {
           <p className="hidden text-sm font-semibold text-slate-700 sm:block">
             Lernskript · {bereich.name}
           </p>
-          <button
-            type="button"
-            onClick={() => window.print()}
-            className="rounded-lg bg-slate-900 px-4 py-2 text-sm font-semibold text-white hover:bg-slate-700"
-          >
-            🖨️ Drucken / PDF speichern
-          </button>
+          <div className="flex gap-2">
+            <a
+              href={`./downloads/skript-${bereich.id}.pdf`}
+              download
+              className="rounded-lg border-2 border-slate-300 bg-white px-3 py-2 text-sm font-semibold text-slate-700 hover:border-slate-500"
+            >
+              ⬇️ PDF
+            </a>
+            <button
+              type="button"
+              onClick={() => window.print()}
+              className="rounded-lg bg-slate-900 px-4 py-2 text-sm font-semibold text-white hover:bg-slate-700"
+            >
+              🖨️ Drucken
+            </button>
+          </div>
         </div>
       </div>
 
