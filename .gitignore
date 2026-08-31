@@ -6,3 +6,4 @@ dist/
 # Original-Prüfungs-PDFs niemals ins öffentliche Repo
 *.pdf
 content-pipeline/raw/
+content-pipeline/staging/

@@ -1,35 +1,81 @@
 // KI-Bewertung offener Antworten — läuft KOMPLETT im Browser (WebLLM/WebGPU).
-// Kein Server, keine API-Keys: Das Modell (Gemma 2 2B) wird einmalig geladen
-// und im Browser-Cache gespeichert. Voraussetzung: WebGPU (aktuelles Chrome/Edge).
+// Kein Server, keine API-Keys: Das gewählte Modell wird einmalig geladen und
+// im Browser-Cache gespeichert. Voraussetzung: WebGPU (aktuelles Chrome/Edge).
 import type { MLCEngine } from '@mlc-ai/web-llm'
+import { getItem, setItem } from './storage'
 
-export const KI_MODELL = 'gemma-2-2b-it-q4f16_1-MLC'
-export const KI_MODELL_NAME = 'Gemma 2 (2B, lokal im Browser)'
+export interface KIModell {
+  id: string
+  name: string
+  groesse: string
+  hinweis: string
+}
+
+export const KI_MODELLE: KIModell[] = [
+  {
+    id: 'Llama-3.2-1B-Instruct-q4f16_1-MLC',
+    name: 'Blitz (Llama 1B)',
+    groesse: '~0,7 GB',
+    hinweis: 'Sehr schnell, einfaches Feedback — gut für schwächere Geräte.',
+  },
+  {
+    id: 'gemma-2-2b-it-q4f16_1-MLC',
+    name: 'Standard (Gemma 2B)',
+    groesse: '~1,4 GB',
+    hinweis: 'Guter Kompromiss aus Tempo und Qualität.',
+  },
+  {
+    id: 'Llama-3.1-8B-Instruct-q4f16_1-MLC',
+    name: 'Beste Qualität (Llama 8B)',
+    groesse: '~4,6 GB',
+    hinweis: 'Deutlich besseres Deutsch und Fach-Feedback — braucht viel Speicher/GPU.',
+  },
+]
+
+const MODELL_KEY = 'kbm.v1.kimodell'
+
+export function aktuellesModell(): KIModell {
+  const gespeichert = getItem<string>(MODELL_KEY)
+  return KI_MODELLE.find((m) => m.id === gespeichert) ?? KI_MODELLE[1]
+}
 
 let enginePromise: Promise<MLCEngine> | null = null
+let geladenesModell: string | null = null
+
+export function waehleModell(id: string): void {
+  setItem(MODELL_KEY, id)
+  if (geladenesModell !== id) {
+    // Nächste Bewertung lädt das neu gewählte Modell.
+    enginePromise = null
+    geladenesModell = null
+  }
+}
 
 export function kiVerfuegbar(): boolean {
   return typeof navigator !== 'undefined' && 'gpu' in navigator
 }
 
 export function kiGeladen(): boolean {
-  return enginePromise !== null
+  return enginePromise !== null && geladenesModell === aktuellesModell().id
 }
 
 export function ladeEngine(
   onProgress?: (text: string, prozent: number) => void,
 ): Promise<MLCEngine> {
-  if (!enginePromise) {
+  const modell = aktuellesModell()
+  if (!enginePromise || geladenesModell !== modell.id) {
+    geladenesModell = modell.id
     // Dynamischer Import: WebLLM landet in einem eigenen Chunk und wird erst
     // geladen, wenn die KI-Bewertung wirklich benutzt wird.
     enginePromise = import('@mlc-ai/web-llm')
       .then(({ CreateMLCEngine }) =>
-        CreateMLCEngine(KI_MODELL, {
+        CreateMLCEngine(modell.id, {
           initProgressCallback: (r) => onProgress?.(r.text, Math.round(r.progress * 100)),
         }),
       )
       .catch((e) => {
         enginePromise = null // nächster Versuch möglich
+        geladenesModell = null
         throw e
       })
   }
