@@ -1,5 +1,6 @@
 import { Link, useParams } from 'react-router-dom'
 import Layout from '../components/Layout'
+import Muendlich from './Muendlich'
 import { ladeBereiche, useDaten } from '../lib/data'
 import { farbe } from '../lib/farben'
 import type { BereichId } from '../types'
@@ -42,6 +43,9 @@ export default function Bereich() {
         </p>
       </Layout>
     )
+
+  // Die Mündliche Prüfung hat ein eigenes Format statt der drei Stufen.
+  if (!bereich.hatStufen) return <Muendlich />
 
   const f = farbe(bereich.farbe)
 

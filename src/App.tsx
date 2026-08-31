@@ -7,6 +7,7 @@ import Stufe1 from './pages/Stufe1'
 import Stufe2 from './pages/Stufe2'
 import Stufe3 from './pages/Stufe3'
 import Simulation from './pages/Simulation'
+import Karteikarten from './pages/Karteikarten'
 
 // Übergangs-Platzhalter: wird Task für Task durch echte Seiten ersetzt.
 function Folgt({ was }: { was: string }) {
@@ -31,7 +32,7 @@ export default function App() {
           <Route path="/:bereichId/stufe2" element={<Stufe2 />} />
           <Route path="/:bereichId/stufe3" element={<Stufe3 />} />
           <Route path="/:bereichId/simulation/:termin" element={<Simulation />} />
-          <Route path="/:bereichId/karten" element={<Folgt was="Karteikarten" />} />
+          <Route path="/:bereichId/karten" element={<Karteikarten />} />
         </Routes>
       </HashRouter>
     </Gate>
