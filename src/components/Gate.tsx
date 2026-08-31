@@ -23,17 +23,16 @@ export default function Gate({ children }: { children: ReactNode }) {
     if (param && !offen) {
       pruefeCode(param).then((ok) => ok && setOffen(true))
     }
-    // Besteht schon eine Server-Session? → automatisch anmelden + Sync.
-    if (!offen) {
-      backendNutzer().then((n) => {
-        if (n) {
-          merkeNutzer(n)
-          schalteFrei()
-          syncStart()
-          setOffen(true)
-        }
-      })
-    }
+    // Server-Session IMMER abgleichen (auch wenn schon offen): hält den
+    // Konto-Status aktuell und reaktiviert den Sync nach jedem Neuladen.
+    backendNutzer().then((n) => {
+      merkeNutzer(n)
+      if (n) {
+        schalteFrei()
+        syncStart()
+        setOffen(true)
+      }
+    })
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 

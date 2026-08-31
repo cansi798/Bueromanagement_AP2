@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="de"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🎓%3C/text%3E%3C/svg%3E">
 <title>Admin · KBM Prüfungscoach</title>
 <style>
   body{font-family:system-ui;max-width:860px;margin:2rem auto;padding:0 1rem;color:#0f172a;background:#f1f5f9}
@@ -17,7 +18,7 @@
 <body>
 <h1>🧑‍🏫 KBM Prüfungscoach — Verwaltung</h1>
 
-<div id="login" class="karte">
+<form id="login" class="karte" onsubmit="return false">
   <h2>Anmelden</h2>
   <div class="zeile">
     <input id="l-email" type="email" placeholder="Admin-E-Mail" style="flex:1;min-width:200px">
@@ -26,15 +27,15 @@
   <div class="zeile" style="margin-top:.6rem">
     <span>🤖-Schutz: <b id="l-frage">…</b> =</span>
     <input id="l-captcha" inputmode="numeric" placeholder="Ergebnis" style="width:6.5rem">
-    <button id="l-los">Anmelden</button>
+    <button id="l-los" type="submit">Anmelden</button>
   </div>
   <div id="l-2fa" style="display:none;margin-top:.8rem" class="zeile">
     <span>📧 Code aus der E-Mail:</span>
     <input id="l-code" inputmode="numeric" placeholder="6-stelliger Code" style="width:9rem">
-    <button id="l-code-los">Bestätigen</button>
+    <button id="l-code-los" type="button">Bestätigen</button>
   </div>
   <p id="l-m" class="rot"></p>
-</div>
+</form>
 
 <div id="app">
   <div class="karte">
@@ -180,7 +181,7 @@ async function mitgliederLaden() {
   for (const m of d.mitglieder) {
     const tr = tb.insertRow();
     tr.innerHTML = `<td>${esc(m.name)||'—'}</td><td>${esc(m.email)}</td>
-      <td>${+m.gesperrt ? '🔒 gesperrt' : '✓'}</td>
+      <td>${+m.gesperrt ? '🔒 gesperrt' : 'aktiv'}</td>
       <td><button class="zweit" data-id="${m.id}">löschen</button></td>`;
     tr.querySelector('button').onclick = async (ev) => {
       if (!confirm(m.email + ' wirklich löschen?')) return;

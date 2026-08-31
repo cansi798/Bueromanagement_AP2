@@ -1,6 +1,7 @@
 import { Link, useLocation, useNavigate } from 'react-router-dom'
-import type { ReactNode } from 'react'
+import { useEffect, useState, type ReactNode } from 'react'
 import { angemeldeterNutzer, kontoLogout } from '../lib/api'
+import { abonniereStorage } from '../lib/storage'
 import { syncStop } from '../lib/sync'
 
 const NAV = [
@@ -13,6 +14,14 @@ const NAV = [
 export default function Layout({ children, titel }: { children: ReactNode; titel?: string }) {
   const { pathname } = useLocation()
   const navigate = useNavigate()
+  const [nutzer, setNutzer] = useState(angemeldeterNutzer)
+  useEffect(
+    () =>
+      abonniereStorage((key) => {
+        if (key === 'kbm.v1.nutzer') setNutzer(angemeldeterNutzer())
+      }),
+    [],
+  )
 
   return (
     <div className="min-h-dvh bg-slate-100 pb-20 md:pb-8">
@@ -34,25 +43,21 @@ export default function Layout({ children, titel }: { children: ReactNode; titel
             </Link>
           </div>
           <div className="flex items-center gap-1">
-            {(() => {
-              const n = angemeldeterNutzer()
-              if (!n) return null
-              return (
-                <button
-                  type="button"
-                  onClick={async () => {
-                    syncStop()
-                    await kontoLogout()
-                    localStorage.removeItem('kbm.v1.gate')
-                    location.reload()
-                  }}
-                  title={`Angemeldet: ${n.name || n.email} — klicken zum Abmelden`}
-                  className="mr-1 max-w-36 truncate rounded-lg bg-sky-50 px-2.5 py-1.5 text-xs font-semibold text-sky-800 hover:bg-sky-100"
-                >
-                  👤 {n.name || n.email} ↪
-                </button>
-              )
-            })()}
+            {nutzer && (
+              <button
+                type="button"
+                onClick={async () => {
+                  syncStop()
+                  await kontoLogout()
+                  localStorage.removeItem('kbm.v1.gate')
+                  location.reload()
+                }}
+                title={`Angemeldet: ${nutzer.name || nutzer.email} — klicken zum Abmelden`}
+                className="mr-1 max-w-36 truncate rounded-lg bg-sky-50 px-2.5 py-1.5 text-xs font-semibold text-sky-800 hover:bg-sky-100"
+              >
+                👤 {nutzer.name || nutzer.email} ↪
+              </button>
+            )}
           <nav className="hidden gap-1 md:flex">
             {NAV.map((n) => (
               <Link

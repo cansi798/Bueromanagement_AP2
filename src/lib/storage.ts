@@ -30,6 +30,15 @@ export function setItem<T>(key: string, value: T): boolean {
   }
 }
 
+export function removeItem(key: string): void {
+  try {
+    localStorage.removeItem(key)
+    listeners.forEach((fn) => fn(key))
+  } catch {
+    /* Privatmodus */
+  }
+}
+
 export function storageVerfuegbar(): boolean {
   try {
     const testKey = 'kbm.v1.__test__'

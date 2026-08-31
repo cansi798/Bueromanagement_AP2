@@ -30,6 +30,26 @@ npm run build        # Produktions-Build nach dist/
 npm run preview      # Build lokal ansehen
 ```
 
+## Ordnerstruktur
+
+```
+├── src/                    App (React/TS): pages/, components/, lib/, types.ts
+├── public/
+│   ├── data/               Lerninhalte (JSON) — durch Schema-Tests abgesichert
+│   └── downloads/          Fertige PDFs: Skripte, Präsentationen, handouts/, excalidraw/
+├── server/                 Optionales Backend (PHP/MySQL) für ALL-INKL
+│   ├── api/                Endpoints (+ .htaccess, config.beispiel.php)
+│   ├── admin.html          Verwaltung (2FA) · lehrer.html Live-Klassenansicht
+│   ├── schema.sql          DB-Import · install.php Erstinstallation
+│   ├── test-e2e.mjs        28 End-to-End-Tests gegen eine Installation
+│   └── README-SERVER.md    Schritt-für-Schritt-Setup (KAS)
+├── schema/                 Content-JSON-Schema (eine Wahrheit für Tests + Pipeline)
+├── tests/                  Vitest (Logik + Schema-/Referenz-Audit der Inhalte)
+├── scripts/pdfs.sh         Regeneriert alle PDFs (Headless Chrome)
+├── content-pipeline/       Extraktions-Doku, Audit-Report, interne Termin-Zuordnung
+└── docs/superpowers/       Design-Spec, Implementierungsplan, Mehrbenutzer-Planung
+```
+
 ## Veröffentlichen
 
 - **GitHub Pages:** Repo pushen, unter *Settings → Pages → Source:

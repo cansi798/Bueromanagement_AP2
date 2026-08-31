@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="de"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🎓%3C/text%3E%3C/svg%3E">
 <title>Lehrkraft · KBM Prüfungscoach</title>
 <style>
   body{font-family:system-ui;max-width:960px;margin:2rem auto;padding:0 1rem;color:#0f172a;background:#f1f5f9}
@@ -19,7 +20,7 @@
 <body>
 <h1>🧑‍🏫 Klassenübersicht — live</h1>
 
-<div id="login" class="karte">
+<form id="login" class="karte" onsubmit="return false">
   <h2>Anmelden (Lehrkraft)</h2>
   <div class="zeile">
     <input id="l-email" type="email" placeholder="E-Mail" style="flex:1;min-width:200px">
@@ -28,10 +29,10 @@
   <div class="zeile" style="margin-top:.6rem">
     <span>🤖-Schutz: <b id="l-frage">…</b> =</span>
     <input id="l-captcha" inputmode="numeric" placeholder="Ergebnis" style="width:6.5rem">
-    <button id="l-los">Anmelden</button>
+    <button id="l-los" type="submit">Anmelden</button>
   </div>
   <p id="l-m" class="rot"></p>
-</div>
+</form>
 
 <div id="app">
   <div class="karte zeile" style="justify-content:space-between">
@@ -130,7 +131,7 @@ async function laden() {
     const tr = tb.insertRow();
     const q = m.quote;
     tr.innerHTML = `<td>${esc(m.name || m.email)}</td><td>${m.geuebt}</td>
-      <td>${q === null ? '—' : `<div class="balken" title="${q} %"><div style="width:${q}%"></div></div>`}</td>
+      <td>${q === null ? '—' : `<span style="display:flex;align-items:center;gap:.4rem"><span class="balken" style="flex:1"><div style="width:${q}%"></div></span><b style="min-width:2.6rem">${q} %</b></span>`}</td>
       <td>${m.streak > 0 ? '🔥 ' + m.streak : '—'}</td>
       <td>${m.simulationen}</td>
       <td>${m.letzteNote ?? '—'}</td>

@@ -1,7 +1,7 @@
 // Anbindung an das optionale PHP-Backend (server/api/…).
 // Ohne Backend (z. B. GitHub Pages) schlagen die Aufrufe leise fehl —
 // die App läuft dann im Gast-Modus mit localStorage weiter.
-import { getItem, setItem } from './storage'
+import { getItem, removeItem, setItem } from './storage'
 
 export interface Nutzer {
   id: number
@@ -31,7 +31,8 @@ export function angemeldeterNutzer(): Nutzer | null {
 }
 
 export function merkeNutzer(n: Nutzer | null): void {
-  setItem(NUTZER_KEY, n)
+  if (n === null) removeItem(NUTZER_KEY)
+  else setItem(NUTZER_KEY, n)
 }
 
 // Besteht auf dem Server noch eine Session? (Für Auto-Login nach Reload.)
