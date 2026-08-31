@@ -14,7 +14,7 @@ CREATE TABLE IF NOT EXISTS nutzer (
   email VARCHAR(190) NOT NULL UNIQUE,
   name VARCHAR(120) NOT NULL DEFAULT '',
   pass_hash VARCHAR(255) NOT NULL,
-  rolle ENUM('admin','schueler') NOT NULL DEFAULT 'schueler',
+  rolle ENUM('admin','lehrer','schueler') NOT NULL DEFAULT 'schueler',
   fehlversuche TINYINT UNSIGNED NOT NULL DEFAULT 0,
   gesperrt_bis DATETIME NULL,
   reset_token VARCHAR(64) NULL,
@@ -25,6 +25,15 @@ CREATE TABLE IF NOT EXISTS nutzer (
   erstellt TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
   CONSTRAINT fk_nutzer_klasse FOREIGN KEY (klasse_id)
     REFERENCES klassen(id) ON DELETE SET NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+-- Welche Lehrkraft betreut welche Klasse(n) — vom Admin zugeordnet.
+CREATE TABLE IF NOT EXISTS lehrer_klassen (
+  nutzer_id INT UNSIGNED NOT NULL,
+  klasse_id INT UNSIGNED NOT NULL,
+  PRIMARY KEY (nutzer_id, klasse_id),
+  CONSTRAINT fk_lk_nutzer FOREIGN KEY (nutzer_id) REFERENCES nutzer(id) ON DELETE CASCADE,
+  CONSTRAINT fk_lk_klasse FOREIGN KEY (klasse_id) REFERENCES klassen(id) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 CREATE TABLE IF NOT EXISTS fortschritt (

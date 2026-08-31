@@ -55,8 +55,9 @@
   <div class="karte">
     <h2>Mitglieder <span id="m-titel" style="font-weight:400;color:#64748b"></span></h2>
     <div class="zeile">
-      <input id="m-email" type="email" placeholder="schueler@mail.de" style="flex:1;min-width:200px">
+      <input id="m-email" type="email" placeholder="name@mail.de" style="flex:1;min-width:200px">
       <input id="m-name" placeholder="Name (optional)" style="flex:1;min-width:140px">
+      <select id="m-rolle"><option value="schueler">Schüler/in</option><option value="lehrer">Lehrkraft</option></select>
       <button id="m-einzeln">+ Anlegen</button>
     </div>
     <details style="margin-top:.7rem">
@@ -70,6 +71,18 @@
     <div id="m-neu"></div>
     <table id="m-tab" style="margin-top:1rem"><thead>
       <tr><th>Name</th><th>E-Mail</th><th>Status</th><th></th></tr></thead><tbody></tbody></table>
+  </div>
+
+  <div class="karte">
+    <h2>Lehrkräfte ↔ Klassen</h2>
+    <div class="zeile">
+      <select id="z-lehrer" style="flex:1;min-width:200px"></select>
+      <select id="z-klasse" style="flex:1;min-width:160px"></select>
+      <button id="z-neu">Zuordnen</button>
+    </div>
+    <div id="z-liste" style="margin-top:.8rem"></div>
+    <p style="color:#64748b;font-size:.85rem">Lehrkräfte melden sich unter <code>lehrer.html</code> an
+      und sehen dort ihre Klassen live.</p>
   </div>
 </div>
 
@@ -120,10 +133,35 @@ function anAppZeigen(n) {
 
 async function klassenLaden() {
   const d = await api('admin/klassen.php');
-  const s = $('k-liste'); s.innerHTML = '';
-  for (const k of d.klassen) s.add(new Option(`${k.name} (${k.mitglieder})`, k.id));
+  for (const s of [$('k-liste'), $('z-klasse')]) {
+    s.innerHTML = '';
+    for (const k of d.klassen) s.add(new Option(`${k.name} (${k.mitglieder})`, k.id));
+  }
   if (d.klassen.length) mitgliederLaden();
+  zuordnungLaden();
 }
+
+async function zuordnungLaden() {
+  const l = await api('admin/nutzer.php?rolle=lehrer');
+  const s = $('z-lehrer'); s.innerHTML = '';
+  for (const x of l.lehrer) s.add(new Option(x.name || x.email, x.id));
+  const z = await api('admin/zuordnung.php');
+  $('z-liste').innerHTML = z.zuordnungen.map(x =>
+    `<p style="margin:.3rem 0">${x.klasse} ← ${x.name || x.email}
+     <button class="zweit" style="min-height:30px;padding:.15rem .6rem"
+       onclick="zuordnungWeg(${x.lehrer_id},${x.klasse_id})">✕</button></p>`).join('') || '<p style="color:#64748b">Noch keine Zuordnungen.</p>';
+}
+window.zuordnungWeg = async (lehrerId, klasseId) => {
+  await api('admin/zuordnung.php', { method:'DELETE', body: JSON.stringify({ lehrer_id: lehrerId, klasse_id: klasseId }) });
+  zuordnungLaden();
+};
+$('z-neu').onclick = async () => {
+  try {
+    await api('admin/zuordnung.php', { method:'POST',
+      body: JSON.stringify({ lehrer_id: +$('z-lehrer').value, klasse_id: +$('z-klasse').value }) });
+    zuordnungLaden();
+  } catch (e) { $('g-m').textContent = e.fehler || 'Fehler'; }
+};
 $('k-liste').onchange = mitgliederLaden;
 $('k-neu').onclick = async () => {
   try { await api('admin/klassen.php', { method:'POST', body: JSON.stringify({ name: $('k-name').value }) });
@@ -149,10 +187,10 @@ async function mitgliederLaden() {
   }
 }
 
-async function anlegen(mitglieder) {
+async function anlegen(mitglieder, rolle = 'schueler') {
   try {
     const d = await api('admin/nutzer.php', { method:'POST',
-      body: JSON.stringify({ klasse_id: +$('k-liste').value, mitglieder }) });
+      body: JSON.stringify({ klasse_id: +$('k-liste').value, mitglieder, rolle }) });
     let html = '';
     if (d.angelegt.length) {
       html += `<p class="ok"><b>⚠ Startpasswörter — nur JETZT sichtbar, bitte kopieren:</b></p><ul>`;
@@ -164,7 +202,7 @@ async function anlegen(mitglieder) {
     klassenLaden();
   } catch (e) { $('g-m').textContent = e.fehler || 'Fehler'; }
 }
-$('m-einzeln').onclick = () => anlegen([{ email: $('m-email').value, name: $('m-name').value }]);
+$('m-einzeln').onclick = () => anlegen([{ email: $('m-email').value, name: $('m-name').value }], $('m-rolle').value);
 $('m-import').onclick = () => {
   try { anlegen(JSON.parse($('m-json').value)); }
   catch { $('g-m').textContent = 'JSON ungültig — Beispielformat beachten.'; }

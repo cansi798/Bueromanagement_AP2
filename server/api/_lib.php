@@ -64,6 +64,20 @@ function verlange_admin(): array {
   return $n;
 }
 
+function verlange_lehrer(): array {
+  $n = verlange_login();
+  if (!in_array($n['rolle'], ['admin', 'lehrer'], true)) antwort(403, ['fehler' => 'Nur für Lehrkräfte']);
+  return $n;
+}
+
+// Darf diese Lehrkraft diese Klasse sehen? (Admins: immer.)
+function klasse_erlaubt(array $n, int $klasseId): bool {
+  if ($n['rolle'] === 'admin') return true;
+  $s = db()->prepare('SELECT 1 FROM lehrer_klassen WHERE nutzer_id = ? AND klasse_id = ?');
+  $s->execute([$n['id'], $klasseId]);
+  return (bool)$s->fetch();
+}
+
 // Selbstgebautes Rechen-Captcha (kein externer Dienst): Antwort liegt nur in
 // der Server-Session — Bots ohne Session/JS scheitern, KI-Scraper werden gebremst.
 function captcha_neu(): array {

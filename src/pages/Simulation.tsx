@@ -7,9 +7,11 @@ import KIBewertung from '../components/KIBewertung'
 import Anlage from '../components/Anlage'
 import { ladeAufgaben, ladePruefungen, useDaten } from '../lib/data'
 import { wertungMC } from '../lib/quiz'
-import { heuteISO, merkeErledigt } from '../lib/progress'
+import { heuteISO, merkeAufgabenErgebnis, merkeErledigt, merkeSimulation } from '../lib/progress'
 import { terminVonNummer } from '../lib/termine'
 import { ihkNote } from '../lib/noten'
+import { zerlegeAufgabenText } from '../lib/aufgabenText'
+import OptionText from '../components/OptionText'
 import {
   aktuellesModell,
   bewertePruefungsAufgabe,
@@ -62,7 +64,23 @@ export default function Simulation() {
 
   function abgeben() {
     setAbgegeben(true)
-    liste.forEach((a) => merkeErledigt(a.id, heuteISO()))
+    const heute = heuteISO()
+    let mc = 0
+    let max = 0
+    liste.forEach((a) => {
+      max += a.punkte ?? 1
+      if (a.typ === 'mc') {
+        const richtig = wertungMC(a.korrekt ?? [], mcAntworten[a.id] ?? [])
+        if (richtig) mc += a.punkte ?? 1
+        merkeAufgabenErgebnis(a.id, richtig, heute)
+      } else {
+        merkeErledigt(a.id, heute)
+      }
+    })
+    // Vorläufiges Ergebnis (nur MC) — die KI-Korrektur präzisiert es später.
+    if (termin) {
+      merkeSimulation({ termin, bereich: bereichId!, punkte: mc, max, mitKI: false, datum: heute })
+    }
     window.scrollTo({ top: 0 })
   }
 
@@ -102,6 +120,24 @@ export default function Simulation() {
       }
       setKiErgebnisse(ergebnisse)
       setKiStatus('fertig')
+      // Endgültiges Ergebnis mit KI-Punkten und IHK-Note im Lernstand speichern.
+      const heute = heuteISO()
+      const offenePunkte = Object.values(ergebnisse).reduce((s, x) => s + x.punkte, 0)
+      const gesamt = Math.round((mcPunkte + offenePunkte) * 10) / 10
+      for (const [id, x] of Object.entries(ergebnisse)) {
+        merkeAufgabenErgebnis(id, x.punkte >= x.max * 0.5, heute)
+      }
+      if (termin) {
+        merkeSimulation({
+          termin,
+          bereich: bereichId!,
+          punkte: gesamt,
+          max: maxPunkteGesamt,
+          note: ihkNote(maxPunkteGesamt > 0 ? (gesamt / maxPunkteGesamt) * 100 : 0).note,
+          mitKI: true,
+          datum: heute,
+        })
+      }
     } catch {
       setKiStatus('fehler')
     }
@@ -225,15 +261,17 @@ export default function Simulation() {
       )}
 
       <div className="space-y-5">
-        {liste.map((a, idx) => (
+        {liste.map((a, idx) => {
+          const zerlegt = zerlegeAufgabenText(a.text)
+          return (
           <div key={a.id} className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
             <p className="mb-2 text-sm font-semibold text-slate-500">
-              Aufgabe {idx + 1}
+              Aufgabe {zerlegt.nr ?? idx + 1}
               {a.punkte !== undefined && ` · ${a.punkte} Punkte`}
             </p>
             <div className={a.anlagenText ? 'lg:grid lg:grid-cols-2 lg:gap-5' : ''}>
               <div>
-                <Markdown text={a.text} />
+                <Markdown text={zerlegt.text} />
                 {a.typ === 'mc' ? (
                   <div className="mt-3 space-y-2">
                     {(a.optionen ?? []).map((opt, i) => {
@@ -252,7 +290,7 @@ export default function Simulation() {
                           onClick={() => toggleMC(a, i)}
                           className={`block min-h-12 w-full rounded-lg border-2 px-3 py-2 text-left text-[15px] ${stil}`}
                         >
-                          {opt}
+                          <OptionText text={opt} />
                         </button>
                       )
                     })}
@@ -336,7 +374,8 @@ export default function Simulation() {
               )}
             </div>
           </div>
-        ))}
+          )
+        })}
       </div>
 
       {!abgegeben && (

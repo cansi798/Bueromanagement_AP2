@@ -3,7 +3,7 @@ import Anlage from './Anlage'
 import QuelleBadge from './QuelleBadge'
 import QuizMC from './QuizMC'
 import QuizOffen from './QuizOffen'
-import { heuteISO, merkeErledigt, merkeQuiz } from '../lib/progress'
+import { heuteISO, merkeAufgabenErgebnis, merkeQuiz } from '../lib/progress'
 import type { Aufgabe } from '../types'
 
 export default function AufgabenKarte({
@@ -17,7 +17,7 @@ export default function AufgabenKarte({
   const [istErledigt, setIstErledigt] = useState(erledigt)
 
   function ergebnis(richtig: boolean) {
-    merkeErledigt(aufgabe.id, heuteISO())
+    merkeAufgabenErgebnis(aufgabe.id, richtig, heuteISO())
     merkeQuiz(aufgabe.themaId, richtig ? 1 : 0, 1, heuteISO())
     setIstErledigt(true)
   }

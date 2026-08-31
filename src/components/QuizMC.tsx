@@ -2,6 +2,7 @@ import { useState } from 'react'
 import type { Aufgabe } from '../types'
 import { wertungMC } from '../lib/quiz'
 import Markdown from './Markdown'
+import OptionText from './OptionText'
 
 export default function QuizMC({
   aufgabe,
@@ -48,7 +49,7 @@ export default function QuizMC({
               onClick={() => toggle(i)}
               className={`block min-h-12 w-full rounded-lg border-2 px-3 py-2 text-left text-[15px] transition ${stil}`}
             >
-              {opt}
+              <OptionText text={opt} />
             </button>
           )
         })}

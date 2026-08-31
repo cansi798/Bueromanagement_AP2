@@ -3,6 +3,7 @@ import type { ReactNode } from 'react'
 
 const NAV = [
   { pfad: '/', label: 'Start', icon: '🏠' },
+  { pfad: '/lernstand', label: 'Lernstand', icon: '📊' },
   { pfad: '/suche', label: 'Suche', icon: '🔎' },
   { pfad: '/glossar', label: 'Glossar', icon: '📖' },
 ]

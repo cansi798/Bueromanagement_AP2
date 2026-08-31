@@ -1,9 +1,21 @@
 import { getItem, setItem } from './storage'
 import type { Aufgabe } from '../types'
 
+export interface SimulationsErgebnis {
+  termin: string
+  bereich: string
+  punkte: number
+  max: number
+  note?: number // IHK-Note, wenn per KI korrigiert
+  mitKI: boolean
+  datum: string // ISO YYYY-MM-DD
+}
+
 export interface Fortschritt {
   erledigteAufgaben: string[] // Aufgaben-IDs
   quizErgebnisse: Record<string, { richtig: number; gesamt: number }> // key: themaId
+  aufgabenStatistik: Record<string, { richtig: number; falsch: number }> // key: aufgabeId
+  simulationen: SimulationsErgebnis[]
   streak: { letzterTag: string; tage: number }
 }
 
@@ -12,11 +24,15 @@ const KEY = 'kbm.v1.fortschritt'
 const DEFAULT: Fortschritt = {
   erledigteAufgaben: [],
   quizErgebnisse: {},
+  aufgabenStatistik: {},
+  simulationen: [],
   streak: { letzterTag: '', tage: 0 },
 }
 
 export function ladeFortschritt(): Fortschritt {
-  return getItem<Fortschritt>(KEY) ?? structuredClone(DEFAULT)
+  const roh = getItem<Partial<Fortschritt>>(KEY)
+  // Ältere Speicherstände um neue Felder ergänzen (sanfte Migration).
+  return { ...structuredClone(DEFAULT), ...roh } as Fortschritt
 }
 
 function speichern(f: Fortschritt): Fortschritt {
@@ -60,6 +76,42 @@ export function merkeQuiz(
     },
   }
   return speichern(aktualisiereStreak(f, heute))
+}
+
+// Merkt sich pro Aufgabe, wie oft sie richtig/falsch beantwortet wurde —
+// Grundlage für „Deine Problem-Aufgaben" auf der Lernstand-Seite.
+export function merkeAufgabenErgebnis(
+  aufgabeId: string,
+  richtig: boolean,
+  heute: string,
+): Fortschritt {
+  let f = ladeFortschritt()
+  const bisher = f.aufgabenStatistik[aufgabeId] ?? { richtig: 0, falsch: 0 }
+  f = {
+    ...f,
+    aufgabenStatistik: {
+      ...f.aufgabenStatistik,
+      [aufgabeId]: {
+        richtig: bisher.richtig + (richtig ? 1 : 0),
+        falsch: bisher.falsch + (richtig ? 0 : 1),
+      },
+    },
+  }
+  if (!f.erledigteAufgaben.includes(aufgabeId)) {
+    f = { ...f, erledigteAufgaben: [...f.erledigteAufgaben, aufgabeId] }
+  }
+  return speichern(aktualisiereStreak(f, heute))
+}
+
+// Speichert ein Simulations-Ergebnis; gleicher Termin + gleicher Tag wird
+// überschrieben (z. B. wenn die KI-Korrektur das Ergebnis präzisiert).
+export function merkeSimulation(e: SimulationsErgebnis): Fortschritt {
+  let f = ladeFortschritt()
+  const rest = f.simulationen.filter(
+    (s) => !(s.termin === e.termin && s.bereich === e.bereich && s.datum === e.datum),
+  )
+  f = { ...f, simulationen: [...rest, e] }
+  return speichern(aktualisiereStreak(f, e.datum))
 }
 
 export function bereichsFortschritt(f: Fortschritt, aufgaben: Aufgabe[]): number {

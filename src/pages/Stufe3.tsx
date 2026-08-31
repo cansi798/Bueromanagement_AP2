@@ -5,8 +5,9 @@ import QuelleBadge from '../components/QuelleBadge'
 import QuizMC from '../components/QuizMC'
 import QuizOffen from '../components/QuizOffen'
 import { ladeAufgaben, ladePruefungen, useDaten } from '../lib/data'
-import { heuteISO, merkeErledigt } from '../lib/progress'
+import { heuteISO, merkeAufgabenErgebnis } from '../lib/progress'
 import { sammlungsNummer, terminAnzeige } from '../lib/termine'
+import { zerlegeAufgabenText } from '../lib/aufgabenText'
 import type { BereichId, Pruefung } from '../types'
 
 function PruefungsKarte({ pruefung, bereichId }: { pruefung: Pruefung; bereichId: BereichId }) {
@@ -49,19 +50,29 @@ function PruefungsKarte({ pruefung, bereichId }: { pruefung: Pruefung; bereichId
 
       {uebenOffen && (
         <div className="mt-4 space-y-4 border-t border-slate-100 pt-4">
-          {liste.map((a, i) => (
-            <div key={a.id} className="rounded-xl border border-slate-100 bg-slate-50/50 p-3">
-              <div className="mb-2 flex items-center gap-2 text-sm text-slate-500">
-                <span className="font-semibold">Aufgabe {i + 1}</span>
-                <QuelleBadge quelle={a.quelle} termin={a.termin} />
+          {liste.map((a, i) => {
+            const zerlegt = zerlegeAufgabenText(a.text)
+            const anzeige = { ...a, text: zerlegt.text }
+            return (
+              <div key={a.id} className="rounded-xl border border-slate-100 bg-slate-50/50 p-3">
+                <div className="mb-2 flex items-center gap-2 text-sm text-slate-500">
+                  <span className="font-semibold">Aufgabe {zerlegt.nr ?? i + 1}</span>
+                  <QuelleBadge quelle={a.quelle} termin={a.termin} />
+                </div>
+                {a.typ === 'mc' ? (
+                  <QuizMC
+                    aufgabe={anzeige}
+                    onErgebnis={(richtig) => merkeAufgabenErgebnis(a.id, richtig, heuteISO())}
+                  />
+                ) : (
+                  <QuizOffen
+                    aufgabe={anzeige}
+                    onErgebnis={(richtig) => merkeAufgabenErgebnis(a.id, richtig, heuteISO())}
+                  />
+                )}
               </div>
-              {a.typ === 'mc' ? (
-                <QuizMC aufgabe={a} onErgebnis={() => merkeErledigt(a.id, heuteISO())} />
-              ) : (
-                <QuizOffen aufgabe={a} onErgebnis={() => merkeErledigt(a.id, heuteISO())} />
-              )}
-            </div>
-          ))}
+            )
+          })}
         </div>
       )}
     </div>
