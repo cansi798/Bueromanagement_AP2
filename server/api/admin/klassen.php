@@ -15,7 +15,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   $name = trim(eingabe()['name'] ?? '');
-  if ($name === '' || mb_strlen($name) > 100) antwort(400, ['fehler' => 'Ungültiger Klassenname']);
+  // strlen statt mb_strlen: keine Abhängigkeit von der mbstring-Extension.
+  if ($name === '' || strlen($name) > 100) antwort(400, ['fehler' => 'Ungültiger Klassenname']);
   try {
     db()->prepare('INSERT INTO klassen (name) VALUES (?)')->execute([$name]);
   } catch (PDOException) {

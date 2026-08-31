@@ -23,6 +23,6 @@ if ($n) {
   $link = $k['app_url'] . '/server/passwort-neu.html?token=' . $token;
   $betreff = 'KBM Prüfungscoach: Passwort zurücksetzen';
   $text = "Hallo {$n['name']},\n\nüber diesen Link kannst du innerhalb von 1 Stunde ein neues Passwort setzen:\n$link\n\nFalls du das nicht warst, ignoriere diese Mail.";
-  @mail($email, $betreff, $text, 'From: ' . $k['mail_von'] . "\r\nContent-Type: text/plain; charset=utf-8");
+  mail_senden($email, $betreff, $text);
 }
 antwort(200, ['ok' => true, 'hinweis' => 'Wenn die E-Mail existiert, wurde ein Link verschickt.']);

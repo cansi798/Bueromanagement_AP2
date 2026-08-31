@@ -11,9 +11,19 @@ export function getItem<T>(key: string): T | null {
   }
 }
 
+type StorageListener = (key: string) => void
+const listeners = new Set<StorageListener>()
+
+// Benachrichtigt z. B. den Server-Sync über jede lokale Änderung.
+export function abonniereStorage(fn: StorageListener): () => void {
+  listeners.add(fn)
+  return () => listeners.delete(fn)
+}
+
 export function setItem<T>(key: string, value: T): boolean {
   try {
     localStorage.setItem(key, JSON.stringify(value))
+    listeners.forEach((fn) => fn(key))
     return true
   } catch {
     return false

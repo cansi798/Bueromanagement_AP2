@@ -86,9 +86,26 @@ Dieses Paket macht aus der statischen App eine Mehrbenutzer-Lernplattform:
 - **„Kein gültiger Code"** beim 2FA → Code ist 10 Min gültig; neu anmelden.
 - **500-Fehler** → KAS → Tools → Error-Logs ansehen.
 
-## Noch offen (nächster Schritt in der App)
+## Schüler-Login in der App (eingebaut ✅)
 
-Die App selbst speichert den Lernstand aktuell im Browser (localStorage).
-Der Schüler-Login **in der App** + automatischer Abgleich mit
-`api/fortschritt.php` ist der nächste Ausbauschritt — die API dafür ist
-fertig und wartet.
+Die App hat auf der Startseite zwei Modi: **„🔑 Zugangscode"** (Gast, nur
+dieses Gerät) und **„👤 Mein Konto"** (Schul-Konto). Nach Konto-Login wird der
+Lernfortschritt automatisch mit dem Server abgeglichen — beim ersten Login
+wird vorhandener Gast-Fortschritt übernommen, danach gilt auf jedem Gerät der
+Server-Stand. Abmelden über den 👤-Knopf oben rechts. Ist kein Backend
+installiert (z. B. GitHub Pages), erkennt die App das und zeigt nur den
+Gast-Modus als nutzbar an.
+
+## Automatischer End-to-End-Test (empfohlen vor dem ersten Einsatz)
+
+`server/test-e2e.mjs` testet die komplette Kette gegen eine Installation:
+Erstinstallation → Admin-2FA → Klassen/Nutzer/JSON-Import → Schüler-Login →
+Fortschritt speichern/laden → Lehrer-Livestatistik → Rechte-Grenzen (403) →
+3-Fehlversuche-Sperre → Passwort-Reset per Mail → Captcha/Origin/config-Schutz.
+
+Lokal (frische DB + `mail_debug_datei` gesetzt):
+
+```bash
+node server/test-e2e.mjs http://localhost:8090
+# Erwartung: „28 bestanden, 0 fehlgeschlagen“
+```

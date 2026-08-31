@@ -108,6 +108,21 @@ function verlange_origin(): void {
   if (strpos($o, konfig()['app_url']) !== 0) antwort(403, ['fehler' => 'Ungültige Herkunft']);
 }
 
+// Mail-Versand mit Debug-Modus: Ist in config.php 'mail_debug_datei' gesetzt,
+// werden Mails dorthin geschrieben statt verschickt (lokales Testen).
+function mail_senden(string $an, string $betreff, string $text): void {
+  $k = konfig();
+  if (!empty($k['mail_debug_datei'])) {
+    @file_put_contents(
+      $k['mail_debug_datei'],
+      "=== " . date('c') . " an: $an ===\n$betreff\n$text\n\n",
+      FILE_APPEND
+    );
+    return;
+  }
+  @mail($an, $betreff, $text, 'From: ' . $k['mail_von'] . "\r\nContent-Type: text/plain; charset=utf-8");
+}
+
 function passwort_generieren(int $laenge = 10): string {
   $zeichen = 'abcdefghjkmnpqrstuvwxyzABCDEFGHJKMNPQRSTUVWXYZ23456789';
   $p = '';

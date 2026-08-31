@@ -46,10 +46,8 @@ if ($n['rolle'] === 'admin') {
   $code = str_pad((string)random_int(0, 999999), 6, '0', STR_PAD_LEFT);
   db()->prepare("UPDATE nutzer SET zwei_fa_code = ?, zwei_fa_gueltig_bis = DATE_ADD(NOW(), INTERVAL 10 MINUTE), zwei_fa_versuche = 0 WHERE id = ?")
     ->execute([hash('sha256', $code), $n['id']]);
-  $k = konfig();
-  @mail($n['email'], 'KBM Prüfungscoach: Dein Anmeldecode',
-    "Dein Anmeldecode lautet: $code\n\nEr ist 10 Minuten gültig. Falls du dich nicht anmelden wolltest, ändere dein Passwort.",
-    'From: ' . $k['mail_von'] . "\r\nContent-Type: text/plain; charset=utf-8");
+  mail_senden($n['email'], 'KBM Prüfungscoach: Dein Anmeldecode',
+    "Dein Anmeldecode lautet: $code\n\nEr ist 10 Minuten gültig. Falls du dich nicht anmelden wolltest, ändere dein Passwort.");
   antwort(200, ['zwei_fa' => true, 'hinweis' => 'Code wurde an deine E-Mail geschickt.']);
 }
 

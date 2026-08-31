@@ -1,5 +1,7 @@
 import { Link, useLocation, useNavigate } from 'react-router-dom'
 import type { ReactNode } from 'react'
+import { angemeldeterNutzer, kontoLogout } from '../lib/api'
+import { syncStop } from '../lib/sync'
 
 const NAV = [
   { pfad: '/', label: 'Start', icon: '🏠' },
@@ -31,6 +33,26 @@ export default function Layout({ children, titel }: { children: ReactNode; titel
               KBM <span className="text-sky-600">Prüfungscoach</span>
             </Link>
           </div>
+          <div className="flex items-center gap-1">
+            {(() => {
+              const n = angemeldeterNutzer()
+              if (!n) return null
+              return (
+                <button
+                  type="button"
+                  onClick={async () => {
+                    syncStop()
+                    await kontoLogout()
+                    localStorage.removeItem('kbm.v1.gate')
+                    location.reload()
+                  }}
+                  title={`Angemeldet: ${n.name || n.email} — klicken zum Abmelden`}
+                  className="mr-1 max-w-36 truncate rounded-lg bg-sky-50 px-2.5 py-1.5 text-xs font-semibold text-sky-800 hover:bg-sky-100"
+                >
+                  👤 {n.name || n.email} ↪
+                </button>
+              )
+            })()}
           <nav className="hidden gap-1 md:flex">
             {NAV.map((n) => (
               <Link
@@ -46,6 +68,7 @@ export default function Layout({ children, titel }: { children: ReactNode; titel
               </Link>
             ))}
           </nav>
+          </div>
         </div>
       </header>
 

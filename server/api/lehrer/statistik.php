@@ -25,6 +25,9 @@ $aktivHeute = 0;
 
 foreach ($s->fetchAll() as $z) {
   $d = $z['daten'] ? json_decode($z['daten'], true) : null;
+  // Die App synct eine Key-Map (kbm.v1.fortschritt, kbm.v1.karten, …) —
+  // den eigentlichen Lernfortschritt daraus auspacken (beide Formate ok).
+  $d = $d['kbm.v1.fortschritt'] ?? $d;
   $stat = $d['aufgabenStatistik'] ?? [];
   $richtig = 0; $gesamt = 0;
   foreach ($stat as $aufgabeId => $v) {

@@ -12,4 +12,7 @@ return [
   'app_url' => 'https://deine-domain.de',
   // Frei wählbarer Geheimwert für die Erstinstallation (install.php):
   'setup_key' => 'BITTE-AENDERN-99',
+  // NUR für lokales Testen: Mails in Datei schreiben statt verschicken.
+  // Auf dem echten Server WEGLASSEN oder leer lassen!
+  // 'mail_debug_datei' => '/tmp/kbm-mails.txt',
 ];
