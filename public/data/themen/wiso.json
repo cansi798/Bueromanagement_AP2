@@ -1,0 +1,164 @@
+[
+  {
+    "id": "produktionsfaktoren-unternehmensziele",
+    "bereich": "wiso",
+    "name": "Produktionsfaktoren und Unternehmensziele",
+    "beschreibung": "Betriebswirtschaftliche Produktionsfaktoren, Outsourcing, Wirtschaftlichkeit sowie Ziel- und Kennzahlensysteme des Unternehmens.",
+    "haeufigkeit": ["2025-sommer"],
+    "lernzettel": "## Betriebliche Produktionsfaktoren\n\nZur Leistungserstellung kombiniert ein Betrieb **vier Produktionsfaktoren** (nach Gutenberg):\n\n1. **Werkstoffe** – Roh-, Hilfs- und Betriebsstoffe sowie Vorprodukte (z. B. Holz, Öl, Schrauben).\n2. **Betriebsmittel** – langlebige Anlagen wie Maschinen, Gebäude, Grundstücke, Fahrzeuge.\n3. **Ausführende (objektbezogene) Arbeit** – körperliche/geistige Arbeit an Produkten (z. B. Facharbeiter).\n4. **Dispositiver Faktor** – Leitung, Planung, Organisation (Geschäftsführung, Prokurist, Betriebsleiter).\n\n**Outsourcing** bedeutet, Aufgaben an eine kostengünstigere Fremdfirma auszulagern (z. B. Marktforschung, Lagerung, Personalsuche). Kerntätigkeiten wie die eigene Produktion werden meist im Haus behalten.\n\n## Unternehmensziele und Zielkonflikte\n\nZiele lassen sich in **ökonomische** (Gewinn, Wirtschaftlichkeit), **ökologische** (Umweltschutz) und **soziale** (Mitarbeiterzufriedenheit) Ziele gliedern. Ein **Zielkonflikt** liegt vor, wenn die Erreichung eines Ziels ein anderes verschlechtert – z. B. Schließung des Betriebskindergartens aus Kostengründen (ökonomisch ↑, sozial ↓).\n\n## Wirtschaftlichkeit\n\n$$\\text{Wirtschaftlichkeit} = \\frac{\\text{Ertrag (Leistung)}}{\\text{Aufwand (Kosten)}}$$\n\nEine **Verbesserung** liegt vor, wenn der Wert steigt bzw. über 1 liegt. Beispiel: Ertrag 100.000 € / Aufwand 80.000 € = **1,25** – die Werbeaktion ist wirtschaftlich, weil der Ertrag den Aufwand übersteigt.\n\n**Merke:** Kein Verlust bei gleichem Ergebnis heißt noch nicht bessere Wirtschaftlichkeit – der Quotient muss steigen.",
+    "eselsbruecken": [
+      "Produktionsfaktoren: 'Wer Baut Am Dach' – Werkstoffe, Betriebsmittel, Ausführende Arbeit, Dispositiver Faktor.",
+      "Wirtschaftlichkeit = Ertrag oben, Aufwand unten – 'E über A, alles über 1 ist okay'.",
+      "Zielkonflikt: Ökonomie gegen Öko/Sozial – was einem hilft, schadet dem anderen."
+    ],
+    "selbstcheck": [
+      "Nenne die vier betrieblichen Produktionsfaktoren.",
+      "Zu welchem Produktionsfaktor gehört ein Prokurist?",
+      "Wie berechnest du die Wirtschaftlichkeit?",
+      "Was versteht man unter einem Zielkonflikt?"
+    ],
+    "medien": {
+      "video": { "titel": "Produktionsfaktoren und Unternehmensziele erklärt", "status": "geplant" },
+      "podcast": { "titel": "Produktionsfaktoren und Unternehmensziele zum Hören", "status": "geplant" }
+    }
+  },
+  {
+    "id": "rechtsformen-vollmachten",
+    "bereich": "wiso",
+    "name": "Rechtsformen und Vollmachten",
+    "beschreibung": "Gründung und Merkmale der GmbH, Gewinnverteilung sowie Prokura und Handlungsvollmacht.",
+    "haeufigkeit": ["2025-sommer"],
+    "lernzettel": "## GmbH (Gesellschaft mit beschränkter Haftung)\n\nDie GmbH ist eine **Kapitalgesellschaft** und **juristische Person**. Sie muss ins **Handelsregister** eingetragen werden.\n\n- **Gründung** ab **einer Person** möglich (Ein-Personen-GmbH).\n- **Stammkapital: 25.000 €**, bei Gründung mindestens die Hälfte (12.500 €) einzuzahlen.\n- Gesellschafter haften nur mit ihrer Einlage, nicht mit Privatvermögen.\n- Mitarbeit in der Geschäftsführung ist **nicht verpflichtend** (Fremdgeschäftsführer möglich).\n- Gründung durch Bar- **oder** Sacheinlagen.\n\n**Gewinnverteilung** erfolgt – falls vereinbart – im Verhältnis der Kapitaleinlage:\n\n$$\\text{Anteil} = \\frac{\\text{eigene Einlage}}{\\text{Gesamtkapital}} \\times \\text{Gewinn}$$\n\nBeispiel: 30.000 € / 120.000 € × 300.000 € = **75.000 €**.\n\n## Prokura und Handlungsvollmacht\n\nDie **Prokura** (§§ 48 ff. HGB) ist die weitreichendste Vollmacht. Der Prokurist darf fast alle gerichtlichen und außergerichtlichen Geschäfte tätigen. **Nicht** erlaubt: Grundstücke verkaufen/belasten, Bilanzen/Steuererklärungen unterschreiben, Prokura erteilen. Prokura wird ins Handelsregister eingetragen.\n\nDie **allgemeine Handlungsvollmacht** (§ 54 HGB) umfasst gewöhnliche Geschäfte des Betriebs (z. B. Mitarbeiter einstellen). Sie muss **nicht** schriftlich erteilt und **nicht** ins Handelsregister eingetragen werden – und darf auch von einem Prokuristen erteilt werden. Sie ist jederzeit **frei widerruflich**.\n\n**Merke:** Der Umfang der Prokura ist gesetzlich festgelegt und Dritten gegenüber nicht beschränkbar.",
+    "eselsbruecken": [
+      "GmbH-Stammkapital: 'Ein Viertel-Hunderttausend' = 25.000 €, halb einzahlen bei Gründung.",
+      "Prokurist darf (fast) alles, aber 'GBS' nicht: Grundstücke verkaufen, Bilanzen/Steuererklärungen unterschreiben.",
+      "Handlungsvollmacht = handlich: formfrei, kein Handelsregister, jederzeit widerrufbar."
+    ],
+    "selbstcheck": [
+      "Wie hoch ist das Mindeststammkapital einer GmbH?",
+      "Welche drei Geschäfte darf ein Prokurist nicht tätigen?",
+      "Muss eine Handlungsvollmacht schriftlich erteilt werden?",
+      "Wie berechnest du den Gewinnanteil nach Kapitaleinlage?"
+    ],
+    "medien": {
+      "video": { "titel": "Rechtsformen und Vollmachten erklärt", "status": "geplant" },
+      "podcast": { "titel": "Rechtsformen und Vollmachten zum Hören", "status": "geplant" }
+    }
+  },
+  {
+    "id": "finanzierung-kreditsicherung",
+    "bereich": "wiso",
+    "name": "Finanzierung und Kreditsicherung",
+    "beschreibung": "Außen- und Innenfinanzierung, Darlehensarten sowie Kreditsicherheiten wie die Sicherungsübereignung.",
+    "haeufigkeit": ["2025-sommer"],
+    "lernzettel": "## Finanzierungsarten\n\n- **Außenfinanzierung**: Kapital von außen (Bankdarlehen = Fremdfinanzierung; neue Einlagen/Aktien = Beteiligungsfinanzierung).\n- **Innenfinanzierung / Selbstfinanzierung**: aus einbehaltenem (nicht ausgeschüttetem) Gewinn.\n\n## Darlehensarten (Rückzahlung)\n\n| Darlehen | Rate | Zinsen |\n|---|---|---|\n| **Abzahlungsdarlehen** (Tilgungsdarlehen) | konstante Tilgung, sinkende Gesamtrate | sinken laufend |\n| **Annuitätendarlehen** | konstante Gesamtrate (Annuität) | sinken, Tilgungsanteil wächst |\n| **Fälligkeitsdarlehen** (endfällig) | Tilgung in einer Summe am Ende | konstant |\n\n**Erkennungsmerkmal Annuität:** Die monatlich zu zahlende **Gesamtsumme bleibt gleich**; da die Zinsen sinken, wächst der Tilgungsanteil.\n\n## Sicherungsübereignung\n\nBei der **Sicherungsübereignung** übereignet der Kreditnehmer der Bank das Eigentum an einer beweglichen Sache (z. B. Fahrzeug), **behält aber den Besitz** und darf sie weiter betrieblich nutzen. Der Kfz-Brief (Zulassungsbescheinigung Teil II) geht meist an die Bank.\n\n**Risiko der Bank:** Da der Kreditnehmer im Besitz bleibt, könnte er die Sache trotz Übereignung an einen gutgläubigen Dritten verkaufen.\n\n**Merke:** Sicherungsübereignung = Eigentum weg, Nutzung bleibt. Beim Pfandrecht wäre es umgekehrt (Sache muss übergeben werden).",
+    "eselsbruecken": [
+      "Annuität = 'annum-gleich': jedes Jahr/monatlich gleiche Gesamtrate.",
+      "Sicherungsübereignung: 'Auto fährt, Brief geht' – Besitz beim Nutzer, Eigentum/Brief bei der Bank.",
+      "Selbstfinanzierung = aus dem eigenen (einbehaltenen) Gewinn, kein Geld von außen."
+    ],
+    "selbstcheck": [
+      "Was kennzeichnet ein Annuitätendarlehen?",
+      "Wer bleibt bei der Sicherungsübereignung im Besitz der Sache?",
+      "Was ist der Unterschied zwischen Innen- und Außenfinanzierung?",
+      "Worin liegt das Risiko der Bank bei der Sicherungsübereignung?"
+    ],
+    "medien": {
+      "video": { "titel": "Finanzierung und Kreditsicherung erklärt", "status": "geplant" },
+      "podcast": { "titel": "Finanzierung und Kreditsicherung zum Hören", "status": "geplant" }
+    }
+  },
+  {
+    "id": "markt-preisbildung",
+    "bereich": "wiso",
+    "name": "Markt und Preisbildung",
+    "beschreibung": "Angebot, Nachfrage, Marktgleichgewicht sowie Umsatzberechnung anhand von Preis-Mengen-Tabellen.",
+    "haeufigkeit": ["2025-sommer"],
+    "lernzettel": "## Angebot, Nachfrage und Marktsituationen\n\nDie **Nachfrage** steigt bei sinkendem Preis, das **Angebot** steigt bei steigendem Preis.\n\n- **Nachfrageüberhang**: Nachfrage > Angebot (typisch bei niedrigem Preis) → **Verkäufermarkt**, Preis steigt tendenziell.\n- **Angebotsüberhang**: Angebot > Nachfrage (typisch bei hohem Preis) → **Käufermarkt**, Preis sinkt tendenziell.\n- **Marktgleichgewicht**: Angebot = Nachfrage. Der zugehörige Preis ist der **Gleichgewichtspreis**, die Menge die **Gleichgewichtsmenge**.\n\nBeispiel: Bei 1.400 € ist die Nachfrage (4.000) größer als das Angebot (1.000) → **Nachfrageüberhang**. Beim Preis, bei dem beide Mengen gleich sind (hier 1.800 € → je 3.000 Stück), herrscht **Marktgleichgewicht**; die Gleichgewichtsmenge beträgt 3.000 Stück.\n\n## Umsatz berechnen\n\n$$\\text{Umsatz} = \\text{Preis} \\times \\text{abgesetzte Menge}$$\n\nBeispiel: 2.000 € × 2.500 Stück = **5.000.000 €** (5 Mio. €). Maßgeblich für die abgesetzte Menge ist die **Nachfrage** zum jeweiligen Preis.\n\n**Merke:** Beim Gleichgewichtspreis 'räumt' der Markt – es bleibt kein Angebots- oder Nachfrageüberhang.",
+    "eselsbruecken": [
+      "Nachfrageüberhang → 'Nach mehr' → Käufer wollen mehr als da ist → Verkäufermarkt.",
+      "Gleichgewicht = da, wo sich Angebots- und Nachfragekurve schneiden (gleiche Menge).",
+      "Umsatz = Preis mal Menge – 'P × M', simpel."
+    ],
+    "selbstcheck": [
+      "Was bedeutet Nachfrageüberhang und welcher Markt entsteht dadurch?",
+      "Wo liegt das Marktgleichgewicht?",
+      "Wie berechnest du den Umsatz?",
+      "Wie verhält sich die Nachfrage bei sinkendem Preis?"
+    ],
+    "medien": {
+      "video": { "titel": "Markt und Preisbildung erklärt", "status": "geplant" },
+      "podcast": { "titel": "Markt und Preisbildung zum Hören", "status": "geplant" }
+    }
+  },
+  {
+    "id": "konjunktur-indikatoren",
+    "bereich": "wiso",
+    "name": "Konjunktur und Wirtschaftsindikatoren",
+    "beschreibung": "Konjunkturphasen, volkswirtschaftliche Kennzahlen sowie Früh-, Präsenz- und Spätindikatoren.",
+    "haeufigkeit": ["2025-sommer"],
+    "lernzettel": "## Konjunkturzyklus\n\nDie Wirtschaft durchläuft im Zeitablauf wellenförmig **vier Phasen**:\n\n1. **Aufschwung (Expansion)**: Investitionen, Produktion, Beschäftigung steigen; Lagerbestände nehmen ab.\n2. **Hochkonjunktur (Boom)**: Vollauslastung, hohe Preise/Löhne, Überhitzung.\n3. **Abschwung (Rezession)**: Nachfrage und Investitionen sinken, Lagerbestände steigen.\n4. **Tief (Depression)**: Tiefpunkt, geringe Auslastung, hohe Arbeitslosigkeit.\n\nDer langfristig steigende **Wirtschaftstrend** verläuft als Gerade durch die Schwankungen.\n\n## Kennzahlen\n\n- **Bruttoinlandsprodukt (BIP)**: Wert aller im **Inland** erzeugten Waren/Dienstleistungen (Inlandsprinzip).\n- **Bruttonationaleinkommen / Bruttosozialprodukt**: Leistung der **Inländer**, unabhängig vom Ort (Inländerprinzip).\n\n## Konjunkturindikatoren\n\n- **Frühindikatoren** (vorlaufend): **Auftragseingänge**, Geschäftsklimaindex, Aktienkurse.\n- **Präsenzindikatoren** (gleichlaufend): **Produktionsmenge**, BIP, Kapazitätsauslastung.\n- **Spätindikatoren** (nachlaufend): **Arbeitslosenquote**, Preisniveau.\n\n**Merke:** Auftragseingänge kündigen die Entwicklung an (früh), Arbeitslosigkeit reagiert verzögert (spät).",
+    "eselsbruecken": [
+      "Phasen: Auf-Hoch-Ab-Tief – wie eine Welle (Expansion, Boom, Rezession, Depression).",
+      "Frühindikator = Auftragseingänge ('erst Auftrag, dann Arbeit') – die Arbeitslosenquote kommt spät.",
+      "BIP = Inland (Boden zählt), Bruttonationaleinkommen = Inländer (Personen zählen)."
+    ],
+    "selbstcheck": [
+      "Nenne die vier Konjunkturphasen in Reihenfolge.",
+      "Was ist ein typisches Merkmal der Aufschwungphase?",
+      "Welcher Indikator zeigt die Konjunktur besonders früh an?",
+      "Was ist der Unterschied zwischen BIP und Bruttonationaleinkommen?"
+    ],
+    "medien": {
+      "video": { "titel": "Konjunktur und Wirtschaftsindikatoren erklärt", "status": "geplant" },
+      "podcast": { "titel": "Konjunktur und Wirtschaftsindikatoren zum Hören", "status": "geplant" }
+    }
+  },
+  {
+    "id": "berufsausbildung-arbeitsrecht",
+    "bereich": "wiso",
+    "name": "Berufsausbildung und Arbeitsrecht",
+    "beschreibung": "Berufsbildungsgesetz, Jugendarbeitsschutzgesetz, Ausbildungsvertrag sowie Jugend- und Auszubildendenvertretung.",
+    "haeufigkeit": ["2025-sommer"],
+    "lernzettel": "## Rechtsgrundlagen der Ausbildung\n\n- **Berufsbildungsgesetz (BBiG)**: Pflichten von Azubi und Betrieb, Ausbildungsvertrag, Zeugnis, Prüfung, gestrecktes Prüfungsverfahren.\n- **Ausbildungsordnung** (VO über die Berufsausbildung): Inhalte/Struktur des Berufs, Prüfungsbereiche.\n- **Jugendarbeitsschutzgesetz (JArbSchG)**: Schutz Jugendlicher **bis zum vollendeten 18. Lebensjahr** (Urlaub, Arbeitszeit, Freizeit).\n\n## Ausbildungsvertrag – Pflichten\n\nPflichten des Azubi: sorgfältig lernen, Weisungen/Ordnung befolgen, Berichtsheft (Ausbildungsnachweis) führen, Verschwiegenheit. **Unzulässig** ist z. B. eine Klausel, die den Azubi nach der Prüfung zum Weiterarbeiten im Betrieb zwingt.\n\n**Nicht** zwingend nötig für die Wirksamkeit: eine Meldung des Vertrags bei der Agentur für Arbeit. Nötig sind hingegen Schriftform, Eintrag ins Ausbildungsverzeichnis der Kammer und Unterschrift der gesetzlichen Vertreter (bei Minderjährigen).\n\n## Jugendarbeitsschutz\n\n- **Urlaub (§ 19 JArbSchG)**: nach Alter zu Jahresbeginn – 30/27/25 Werktage (unter 16/17/18). Anteilig: Werktage/12 × Beschäftigungsmonate.\n- **Tägliche Freizeit (§ 13)**: mindestens **12 Stunden** ununterbrochen. Beispiel: Arbeitsende 13:00 + 12 h + Schulbeginn 07:30 → verpflichtbar bis 19:30 Uhr am Vortag.\n\n## Jugend- und Auszubildendenvertretung (JAV)\n\nDie JAV vertritt Jugendliche/Azubis. Bei Betriebsratssitzungen hat sie **Teilnahme-** und **Stimmrecht**, wenn Angelegenheiten überwiegend die von ihr vertretenen Beschäftigten betreffen (§§ 60, 67 BetrVG).",
+    "eselsbruecken": [
+      "JArbSchG gilt bis 18 – 'Jugend endet mit der Volljährigkeit'.",
+      "Tägliche Freizeit für Jugendliche: '12 Stunden Pause müssen sein' (§ 13 JArbSchG).",
+      "Ausbildungsvertrag: kein Zwang zum Bleiben – eine 'Bleibeklausel' nach der Prüfung ist unwirksam."
+    ],
+    "selbstcheck": [
+      "Bis zu welchem Alter gilt das Jugendarbeitsschutzgesetz?",
+      "Wie viel Freizeit muss ein Jugendlicher nach Arbeitsende mindestens haben?",
+      "Welche Ausbildungsvertragsklausel verstößt gegen das Gesetz?",
+      "Wann hat die JAV bei Betriebsratssitzungen Stimmrecht?"
+    ],
+    "medien": {
+      "video": { "titel": "Berufsausbildung und Arbeitsrecht erklärt", "status": "geplant" },
+      "podcast": { "titel": "Berufsausbildung und Arbeitsrecht zum Hören", "status": "geplant" }
+    }
+  },
+  {
+    "id": "arbeitsschutz-umwelt",
+    "bereich": "wiso",
+    "name": "Arbeitsschutz, Umwelt und Nachhaltigkeit",
+    "beschreibung": "Arbeitssicherheit und Belehrung, Sicherheitszeichen, Kreislaufwirtschaftsgesetz, erneuerbare Energien und Fairtrade.",
+    "haeufigkeit": ["2025-sommer"],
+    "lernzettel": "## Arbeitsschutz und Arbeitssicherheit\n\nFür die **Überwachung** der Gesetze zu Arbeitsschutz und Arbeitssicherheit ist die **Berufsgenossenschaft** (gesetzliche Unfallversicherung) zuständig – daneben staatliche Gewerbeaufsicht.\n\n**Belehrung/Unterweisung** über Unfall- und Gesundheitsgefahren ist erforderlich **bei Aufnahme der Beschäftigung und danach in regelmäßigen Abständen** (mind. jährlich), sowie bei Änderungen.\n\n## Sicherheitszeichen (Fluchtwegplan)\n\n- **Rettungszeichen** (grün, quadratisch): z. B. **Sammelstelle**, Notruftelefon.\n- **Brandschutzzeichen** (rot, quadratisch): **Brandmelder**, **Geräte zur Brandbekämpfung** (Feuerlöscher).\n- **Verbotszeichen** (rund, rot durchgestrichen): **Kein offenes Feuer**.\n\n## Kreislaufwirtschaftsgesetz (KrWG)\n\nZiel-Rangfolge (Abfallhierarchie): **1. Vermeidung → 2. Vorbereitung zur Wiederverwendung → 3. Recycling/Weiterverwertung → 4. sonstige Verwertung → 5. Beseitigung**. Zweck ist außerdem der Schutz von Mensch und Umwelt.\n\n- **Abfallvermeidung**: Rechnungen per E-Mail statt Post.\n- **Wiederverwendung**: gebrauchte Monitore werden gespendet und weiter genutzt.\n- **Weiterverwertung**: aus Paletten werden Gartenmöbel hergestellt (Upcycling).\n\nEin generelles Plastikverbot ist **nicht** Zweck des KrWG.\n\n## Nachhaltigkeit\n\n- **Erneuerbare Energien**: Wasserkraft, Windkraft, **Erdwärme (Geothermie)**, Sonnenenergie, Biomasse. **Nicht** erneuerbar: Erdgas, Erdöl, Kohle.\n- **Fairtrade** kennzeichnet Waren aus **fairem Handel**, bei deren Herstellung soziale, ökologische und ökonomische Kriterien eingehalten werden – relevant für Unternehmen und Privatpersonen.",
+    "eselsbruecken": [
+      "Berufsgenossenschaft = Berufs-Genosse passt auf die Arbeitssicherheit auf.",
+      "Abfallhierarchie 'V-W-R': Vermeiden vor Wiederverwenden vor Recyceln.",
+      "Erneuerbar = 'Wind, Wasser, Wärme, Sonne, Bio' – Kohle, Öl und Gas gehören NICHT dazu."
+    ],
+    "selbstcheck": [
+      "Welche Organisation überwacht Arbeitsschutz und Arbeitssicherheit?",
+      "Wann muss über Unfall- und Gesundheitsgefahren belehrt werden?",
+      "Wie lautet die Rangfolge im Kreislaufwirtschaftsgesetz?",
+      "Nenne zwei erneuerbare Energiequellen.",
+      "Wofür steht das Fairtrade-Siegel?"
+    ],
+    "medien": {
+      "video": { "titel": "Arbeitsschutz, Umwelt und Nachhaltigkeit erklärt", "status": "geplant" },
+      "podcast": { "titel": "Arbeitsschutz, Umwelt und Nachhaltigkeit zum Hören", "status": "geplant" }
+    }
+  }
+]

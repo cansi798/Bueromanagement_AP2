@@ -1,0 +1,1212 @@
+[
+  {
+    "id": "kbz-2025s-a1-1",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "mc",
+    "text": "**Aufgabe 1.1** — Sie sind in der Verkaufsabteilung der Jana Loft KG tätig. Ihnen liegt eine E-Mail des Neukunden Müller Objekteinrichtungs KG vor.\n\nGeben Sie an, um welches Handelsgeschäft es sich hierbei handelt!",
+    "punkte": 2.17391,
+    "optionen": [
+      "Es handelt sich um ein Verbrauchergeschäft, weil die bestellte Ware vom Käufer verbraucht wird.",
+      "Es handelt sich um ein Bestimmungsgeschäft, weil die Qualität des Holzes bis zum vereinbarten Liefertermin noch geändert werden kann.",
+      "Es handelt sich um ein einseitiges Handelsgeschäft, weil die Jana Loft KG einseitig die Bestimmungen ändern kann.",
+      "Es handelt sich um ein zweiseitiges Handelsgeschäft, weil beide Kaufvertragspartner Kaufleute sind und ein Handelsgeschäft betreiben.",
+      "Es handelt sich um ein Fixhandelsgeschäft, weil die Bestellmenge fix ist."
+    ],
+    "korrekt": [3],
+    "loesung": "**Antwort 4** ist richtig: Es handelt sich um ein zweiseitiges Handelsgeschäft, weil beide Kaufvertragspartner (Jana Loft KG und Müller Objekteinrichtungs KG) Kaufleute sind und ein Handelsgeschäft betreiben."
+  },
+  {
+    "id": "kbz-2025s-a1-2",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "mc",
+    "text": "**Aufgabe 1.2** — Stellen Sie fest, zu welchen Prüf- und Rügefristen die Müller Objekteinrichtungs KG verpflichtet ist!",
+    "punkte": 2.17391,
+    "optionen": [
+      "Die Müller Objekteinrichtungs KG muss unverzüglich prüfen. Da die Ware aber weiterverkauft wird, kann auch später noch gerügt werden.",
+      "Für die Prüfung und das Rügen ist der Kunde der Müller Objekteinrichtungs KG zuständig.",
+      "Die Müller Objekteinrichtungs KG muss unverzüglich prüfen. Wenn die Mängel direkt erkennbar sind, muss sie diese sofort rügen.",
+      "Die Müller Objekteinrichtungs KG muss unverzüglich prüfen, muss aber nur innerhalb der Gewährleistungsfrist rügen.",
+      "Die Müller Objekteinrichtungs KG muss die Ware erst prüfen, wenn sie weiterverkauft wird."
+    ],
+    "korrekt": [2],
+    "loesung": "**Antwort 3** ist richtig: Nach der kaufmännischen Untersuchungs- und Rügepflicht (§ 377 HGB) muss die Müller Objekteinrichtungs KG die Ware unverzüglich prüfen und offene (direkt erkennbare) Mängel sofort rügen."
+  },
+  {
+    "id": "kbz-2025s-a1-3",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "offen",
+    "text": "**Aufgabe 1.3** — In der E-Mail der Müller Objekteinrichtungs KG werden Mängel beschrieben. Geben Sie an, um welche Art von Mangel hinsichtlich der Erkennbarkeit es sich bei Position 3 (siehe Anlage) handelt!",
+    "anlagenText": "**Auszug Mängelrüge (Position 3):**\n\n| Position | Art.-Nr. | Artikelbezeichnung | Mangel |\n|---|---|---|---|\n| 3 | 5789 | Schreibtisch Easyflex Buche mit 2 Schubladen | Ein Schreibtisch hat erhebliche Kratzer auf der Oberfläche. |",
+    "punkte": 1,
+    "loesung": "Es handelt sich um einen **offenen Mangel**, da die Kratzer auf der Oberfläche bei einer normalen Prüfung sofort erkennbar sind."
+  },
+  {
+    "id": "kbz-2025s-a1-4-1",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "offen",
+    "text": "**Aufgabe 1.4.1** — Geben Sie an, welche 2 vorrangigen Rechte die Müller Objekteinrichtungs KG geltend machen kann!",
+    "punkte": 2,
+    "loesung": "Die zwei vorrangigen Rechte (Nacherfüllung) sind:\n1. **Nachbesserung (Reparatur)**\n2. **Ersatzlieferung**"
+  },
+  {
+    "id": "kbz-2025s-a1-4-2",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "offen",
+    "text": "**Aufgabe 1.4.2** — Geben Sie bei Position 1 (siehe Anlage) an, wie die Jana Loft KG unter wirtschaftlichen Aspekten den Mangel beseitigen wird!",
+    "anlagenText": "**Position 1:** Art.-Nr. 5768, Aktenschrank Easyflex Buche – Mangel: Alle 5 Schränke haben unterschiedliche Griffe.",
+    "punkte": 2,
+    "loesung": "Die Jana Loft KG wird die Griffe **austauschen**, da dies die kostengünstigste Möglichkeit der Mängelbeseitigung ist (Austausch der Griffe statt Ersatzlieferung ganzer Schränke)."
+  },
+  {
+    "id": "kbz-2025s-a1-5",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "offen",
+    "text": "**Aufgabe 1.5** — Die Müller Objekteinrichtungs KG ist sehr verärgert über diese mangelhafte Lieferung. Ihr Ziel ist es, den Kunden nicht zu verlieren. Geben Sie neben der Begrüßung und der Verabschiedung 3 weitere Inhalte an, die Sie dem Kunden in einem Telefongespräch mitteilen sollten!",
+    "punkte": 3,
+    "loesung": "Drei weitere Inhalte:\n1. **Entschuldigung** für die mangelhafte Lieferung\n2. **Versprechen, die Mängel sofort zu beseitigen**\n3. **Möglicherweise Rabatt** (z. B. auf die nächste Lieferung) als Kulanz"
+  },
+  {
+    "id": "kbz-2025s-a1-6",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "mc",
+    "text": "**Aufgabe 1.6** — Geben Sie an, in welchem Fall Fragetechnik und Frage **nicht** übereinstimmen, wenn Sie dem Kunden folgende Fragen im Telefonat stellen!",
+    "punkte": 2.17391,
+    "optionen": [
+      "Geschlossene Frage: Konnte ich Ihr Anliegen aus der Beschwerde klären?",
+      "Alternativfrage: Benötigen Sie bei zukünftigen Aufträgen die Information per E-Mail oder per Brief?",
+      "Kontrollfrage: Ist meine E-Mail von gestern bei Ihnen eingegangen?",
+      "Suggestivfrage: Kann ich davon ausgehen, dass Sie sich in Zukunft bei Beschwerden nur noch an mich wenden?",
+      "Offene Frage: Sind Sie mit den ergriffenen Maßnahmen jetzt zufrieden?"
+    ],
+    "korrekt": [4],
+    "loesung": "**Antwort 5** ist richtig: \"Sind Sie mit den ergriffenen Maßnahmen jetzt zufrieden?\" ist eine **geschlossene Frage** (nur mit Ja/Nein zu beantworten), nicht – wie behauptet – eine offene Frage. Fragetechnik und Frage stimmen hier nicht überein."
+  },
+  {
+    "id": "kbz-2025s-a1-7",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "offen",
+    "text": "**Aufgabe 1.7** — Nennen Sie 3 Ziele, die die Jana Loft KG mit der Einführung des Beschwerdemanagements verfolgt!",
+    "punkte": 3,
+    "loesung": "1. **Senkung der Beschwerdequote**\n2. **Höhere Kundenzufriedenheit**\n3. **Professionelles Auftreten mit festen Ansprechpartnern**"
+  },
+  {
+    "id": "kbz-2025s-a1-8",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "offen",
+    "text": "**Aufgabe 1.8** — Nennen Sie 2 Merkmale, die ein gutes Beschwerdemanagement ausmachen!",
+    "punkte": 4,
+    "loesung": "1. **Schnelle und kundenfreundliche Reaktionen**\n2. **Transparente Kommunikation**"
+  },
+  {
+    "id": "kbz-2025s-a1-9",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "offen",
+    "text": "**Aufgabe 1.9** — Aufgrund der Beschwerde der Müller Objekteinrichtungs KG wird eine interne Schulung zum Thema „Richtiger Umgang mit dem Kunden – Kommunikationsstrategien\" geplant. Beschreiben Sie 2 Verhaltensweisen, wie die Mitarbeiter durch nonverbale Kommunikation angemessen dem Kunden gegenübertreten!",
+    "punkte": 2,
+    "loesung": "1. **Nicken**, um Aufmerksamkeit und Zustimmung zu signalisieren\n2. **Offene Körperhaltung**, um zu signalisieren, dass man das Anliegen ernst nimmt\n(Alternativ: **Blickkontakt** halten)"
+  },
+  {
+    "id": "kbz-2025s-a1-10",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "offen",
+    "text": "**Aufgabe 1.10** — Im Rahmen des Beschwerdemanagements soll auch die Informationsweitergabe verbessert werden. Dazu soll eine einheitliche Gesprächsnotiz für Telefonate angelegt werden. Nennen Sie neben Datum und Uhrzeit 2 weitere wesentliche Informationen einer Gesprächsnotiz!",
+    "punkte": 2,
+    "loesung": "1. **Namen der Gesprächsteilnehmer**\n2. **Getroffene Entscheidungen/Vereinbarungen**"
+  },
+  {
+    "id": "kbz-2025s-a1-11",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "offen",
+    "text": "**Aufgabe 1.11** — Es soll eine intensive Kundenbindung bei der Jana Loft KG aufgebaut werden. Nennen Sie neben dem Beschwerdemanagement und der Schulung von Mitarbeitern 3 weitere Maßnahmen, durch die die Jana Loft KG die Kundenbindung fördern kann!",
+    "punkte": 3,
+    "loesung": "1. **Newsletter verschicken**\n2. **Rabattaktionen**\n3. **Tag der offenen Tür**"
+  },
+  {
+    "id": "kbz-2025s-a1-12",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "rechnen",
+    "text": "**Aufgabe 1.12** — Ihnen liegen folgende Beschwerdezahlen vor:\n\n| | Anzahl der Beschwerden im Jahr |\n|---|---|\n| Vor Einführung des Beschwerdemanagements | 40 |\n| Nach Einführung des Beschwerdemanagements | 16 |\n\nErmitteln Sie, um wie viel Prozent die Beschwerden nach Einführung des Beschwerdemanagements gesunken sind!",
+    "punkte": 2.17391,
+    "loesung": "Die Beschwerden sind um **60 %** gesunken.",
+    "erklaerung": "40 Beschwerden = 100 %. 16 Beschwerden entsprechen: 16 × 100 / 40 = 40 %. Rückgang = 100 % − 40 % = **60 %**."
+  },
+  {
+    "id": "kbz-2025s-a2-1",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "offen",
+    "text": "**Aufgabe 2.1** — Die Jana Loft KG erhält ein neues Corporate Design; dabei werden die Rechnungen überarbeitet. Prüfen Sie mit dem Auszug aus dem UStG (siehe Anlage), ob die rechtlichen Vorgaben eingehalten sind. Notieren Sie, welche 3 Angaben laut Umsatzsteuergesetz (UStG) in der Rechnung fehlen!",
+    "anlagenText": "**Auszug § 14 Abs. 4 UStG — Pflichtangaben einer Rechnung:** vollständiger Name/Anschrift von leistendem Unternehmer und Leistungsempfänger; Steuernummer oder USt-IdNr.; Ausstellungsdatum; fortlaufende Rechnungsnummer; Menge und Art der Leistung; Zeitpunkt der Lieferung; nach Steuersätzen aufgeschlüsseltes Entgelt; anzuwendender Steuersatz und Steuerbetrag.\n\nAuf der geprüften Rechnung fehlen: Steuersatz-Angabe (19 %), Steuernummer und Rechnungsnummer.",
+    "punkte": 3,
+    "loesung": "Es fehlen folgende 3 Angaben:\n1. **Steuersatz (19 %)**\n2. **Steuernummer** (bzw. USt-IdNr.)\n3. **Rechnungsnummer**"
+  },
+  {
+    "id": "kbz-2025s-a2-2",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "offen",
+    "text": "**Aufgabe 2.2** — Geben Sie unter Verwendung des Auszugs aus dem Umsatzsteuergesetz (UStG) an, in welchem Zeitraum eine Rechnung zu erstellen ist, wenn die Jana Loft KG eine Warenlieferung oder sonstige Dienstleistung an ein anderes Unternehmen erbringt!",
+    "anlagenText": "**§ 14 Abs. 2 UStG:** In den folgenden Fällen ist der Unternehmer zur Ausstellung einer Rechnung innerhalb von sechs Monaten nach Ausführung der Leistung verpflichtet: 1. für eine Leistung an einen anderen Unternehmer für dessen Unternehmen.",
+    "punkte": 2,
+    "loesung": "Die Rechnung ist **innerhalb von 6 Monaten nach Ausführung der Lieferung oder der sonstigen Dienstleistung** zu erstellen. Fristbeginn ist der Tag der Lieferung."
+  },
+  {
+    "id": "kbz-2025s-a2-3",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "mc",
+    "text": "**Aufgabe 2.3** — Geben Sie an, welches Warenbegleitpapier für den Warentransport zu erstellen ist!",
+    "punkte": 2.17391,
+    "optionen": [
+      "Auftragsbestätigung",
+      "Kopie des Kaufvertrags",
+      "Lieferschein",
+      "Bestellung",
+      "Angebot"
+    ],
+    "korrekt": [2],
+    "loesung": "**Antwort 3** ist richtig: Für den Warentransport wird ein **Lieferschein** erstellt."
+  },
+  {
+    "id": "kbz-2025s-a3-1",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "mc",
+    "text": "**Aufgabe 3.1** — Ihnen liegt die dokumentierte Auftragsabwicklung der Jana Loft KG mit der Bürowelt Ökoline GmbH vor. Prüfen Sie, welche rechtliche Bedeutung das Angebot der Jana Loft KG am 06.11.2024 für das Zustandekommen des Kaufvertrages hat!",
+    "anlagenText": "**Auftragsabwicklung (Auszug):**\n\n| Datum | Sachverhalt |\n|---|---|\n| 04.11.2024 | Anfrage der Bürowelt Ökoline GmbH über 25 Bürostühle „Ergofit\" |\n| 06.11.2024 | Angebot der Jana Loft KG, Aktionspreis 398,00 € netto/Stuhl, frei Haus, befristet bis 15.11.2024, Zahlungsziel 30 Tage oder 8 Tage mit 3 % Skonto |\n| 18.11.2024 | Bestellung der Bürowelt Ökoline GmbH zum Aktionspreis |\n| 19.11.2024 | Auftragsbestätigung der Jana Loft KG, Liefertermin 26.11.2024 |\n| 26.11.2024 | Auslieferung + Rechnung, Zahlungsziel 30 Tage oder 8 Tage mit 3 % Skonto |",
+    "punkte": 2.17391,
+    "optionen": [
+      "Es dient der Anbahnung des Kaufvertrages, der dann mit der Bestellung am 18.11.2024 zustande kommt.",
+      "Es ist eine Willenserklärung ohne rechtliche Bedeutung.",
+      "Es ist aufgrund der fehlenden Freizeichnungsklauseln der unverbindliche Antrag für einen Kaufvertrag.",
+      "Es ist der verbindliche Antrag zu einem möglichen Kaufvertrag.",
+      "Es ist die Annahme eines Kaufvertrags, dessen Antrag mit der Anfrage am 04.11.2024 erfolgte."
+    ],
+    "korrekt": [3],
+    "loesung": "**Antwort 4** ist richtig: Das befristete Angebot ohne Freizeichnungsklausel ist der **verbindliche Antrag** zu einem möglichen Kaufvertrag."
+  },
+  {
+    "id": "kbz-2025s-a3-2",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "offen",
+    "text": "**Aufgabe 3.2** — Das Angebot enthält eine Fristsetzung für die Gültigkeit. Eine andere Alternative wäre die Verwendung der Klausel „solange Vorrat reicht\" oder „Angebot freibleibend\" gewesen. Beschreiben Sie den Unterschied zwischen den beiden alternativen Klauseln!",
+    "punkte": 2,
+    "loesung": "- **„Solange Vorrat reicht\":** Das Angebot ist **rechtlich verbindlich, solange die Ware vorhanden** ist.\n- **„Angebot freibleibend\":** Es ist **kein rechtlich verbindliches Angebot**; der Anbieter kann die Annahme noch ablehnen."
+  },
+  {
+    "id": "kbz-2025s-a3-3",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "offen",
+    "text": "**Aufgabe 3.3** — Stellen Sie fest, welche rechtliche Bedeutung die Bestellung der Bürowelt Ökoline GmbH vom 18.11.2024 hat! Begründen Sie Ihre Antwort!",
+    "punkte": 2,
+    "loesung": "Mit der Bestellung vom 18.11.2024 **entsteht ein neuer Kaufvertrag**, da das befristete (verbindliche) Angebot innerhalb der Frist angenommen wurde. Die Bestellung ist die **Annahme** des verbindlichen Antrags."
+  },
+  {
+    "id": "kbz-2025s-a3-4",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "mc",
+    "text": "**Aufgabe 3.4** — Stellen Sie fest, welche rechtliche Bedeutung die Auftragsbestätigung der Jana Loft KG am 19.11.2024 hat!",
+    "punkte": 2.17391,
+    "optionen": [
+      "Die Auftragsbestätigung ist ein neuer Antrag für einen Kaufvertrag.",
+      "Die Auftragsbestätigung ist eine unwirksame Willenserklärung.",
+      "Die Auftragsbestätigung ist die Annahme des Antrags zum Abschluss des Kaufvertrages.",
+      "Die Auftragsbestätigung hat keine rechtliche Bedeutung, sondern dient der Kundenzufriedenheit.",
+      "Die Auftragsbestätigung ist die Anpreisung eines neuen Kaufvertrages."
+    ],
+    "korrekt": [2],
+    "loesung": "**Antwort 3** ist richtig: Die Auftragsbestätigung ist die **Annahme des Antrags** zum Abschluss des Kaufvertrages (da der Kunde mit der Bestellung den Antrag gestellt hat)."
+  },
+  {
+    "id": "kbz-2025s-a3-5",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "offen",
+    "text": "**Aufgabe 3.5** — Geben Sie mithilfe des Kalenderauszugs an, an welchem Tag sich die Bürowelt Ökoline GmbH im Zahlungsverzug befindet! Tragen Sie das Datum (TT.MM.JJJJ) ein!",
+    "anlagenText": "Rechnung vom 26.11.2024, Zahlungsziel 30 Tage ab Rechnungsdatum. 26.11.2024 + 30 Tage = 26.12.2024 (letzter Tag der Zahlungsfrist); Verzug ab dem Folgetag.",
+    "punkte": 2.17391,
+    "loesung": "Die Bürowelt Ökoline GmbH befindet sich ab dem **27.12.2024** im Zahlungsverzug (Rechnungsdatum 26.11.2024 + 30 Tage Zahlungsziel = 26.12.2024; Verzug ab dem Folgetag)."
+  },
+  {
+    "id": "kbz-2025s-a3-6",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "offen",
+    "text": "**Aufgabe 3.6** — Zum Ende des Jahres 2024 hat die Jana Loft KG die offenen Forderungen in einer Offenen-Posten-Liste aufgelistet und die Verjährungsfristen ermittelt. Geben Sie an, mit Ablauf welchen Datums das Ende der Verjährungsfrist der Forderung an die Bürowelt Ökoline GmbH auf der Offenen-Posten-Liste am 31.12.2024 vermerkt ist! Tragen Sie das Datum (TT.MM.JJJJ) ein!",
+    "punkte": 2.17391,
+    "loesung": "Ende der Verjährungsfrist: **31.12.2027**. Die regelmäßige Verjährungsfrist von 3 Jahren beginnt zum Jahresende (31.12.2024) und endet mit Ablauf des 31.12.2027."
+  },
+  {
+    "id": "kbz-2025s-a3-7",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "mc",
+    "text": "**Aufgabe 3.7** — Stellen Sie fest, welche rechtliche Wirkung die Abschlagszahlung der Bürowelt Ökoline GmbH am 22.04.2025 hat!",
+    "anlagenText": "Am 22.04.2025 leistet die Bürowelt Ökoline GmbH eine Abschlagszahlung in Höhe von 5.000,00 €.",
+    "punkte": 2.17391,
+    "optionen": [
+      "Durch die Abschlagszahlung wird die Verjährung der Forderung gehemmt.",
+      "Die Abschlagszahlung hat keine rechtliche Wirkung, da sie innerhalb von 6 Monaten erfolgte.",
+      "Die Abschlagszahlung hat keine rechtliche Wirkung, da bisher nur das kaufmännische Mahnverfahren angewandt wurde.",
+      "Durch die Abschlagszahlung beginnt die Verjährungsfrist neu zu laufen.",
+      "Durch die Abschlagszahlung wird die Bürowelt Ökoline GmbH Eigentümerin der gekauften Ware."
+    ],
+    "korrekt": [3],
+    "loesung": "**Antwort 4** ist richtig: Die Abschlagszahlung ist ein Anerkenntnis der Schuld; dadurch **beginnt die Verjährungsfrist neu zu laufen** (Neubeginn der Verjährung)."
+  },
+  {
+    "id": "kbz-2025s-a3-8",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "offen",
+    "text": "**Aufgabe 3.8** — Geben Sie an, mit Ablauf welchen Datums (TT.MM.JJJJ) das neue Ende der Verjährung aufgrund der Abschlagszahlung eintritt!",
+    "punkte": 2,
+    "loesung": "Das neue Ende der Verjährung tritt mit Ablauf des **31.12.2028** ein. Die Abschlagszahlung am 22.04.2025 lässt die 3-jährige Verjährungsfrist neu beginnen (Beginn zum Jahresende 31.12.2025), Ende somit 31.12.2028."
+  },
+  {
+    "id": "kbz-2025s-a3-9",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "offen",
+    "text": "**Aufgabe 3.9** — Nach der Abschlagszahlung kommen keine weiteren Zahlungen. Die Jana Loft KG leitet das gerichtliche Mahnverfahren ein. Beschreiben Sie, welches Recht die Jana Loft KG hat, wenn die Bürowelt Ökoline GmbH weder auf den Mahnbescheid noch auf den anschließenden Vollstreckungsbescheid reagiert und auch keinen Widerspruch bzw. Einspruch einlegt!",
+    "punkte": 2,
+    "loesung": "Die Jana Loft KG erhält einen **vollstreckbaren Titel** und kann die **Zwangsvollstreckung** gegen die Bürowelt Ökoline GmbH einleiten."
+  },
+  {
+    "id": "kbz-2025s-a4-1",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "offen",
+    "text": "**Aufgabe 4.1** — Sie arbeiten in der Personalabteilung der Jana Loft KG und sollen ein neues digitales Antragsformular für Dienstreisen entwerfen. Geben Sie an, welche grundsätzlichen Angaben von den Mitarbeitenden in einem Antragsformular für Dienstreisen benötigt werden! Ergänzen Sie die Auflistung (Name, Vorname; Anlass der Dienstreise) um 3 weitere Angaben!",
+    "punkte": 3,
+    "loesung": "Drei weitere Angaben:\n1. **Dauer** (Zeitraum der Dienstreise)\n2. **Ort/Ziel** der Dienstreise\n3. **Unterschriftenfeld** (zur Genehmigung)"
+  },
+  {
+    "id": "kbz-2025s-a4-2",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "offen",
+    "text": "**Aufgabe 4.2** — Die Jana Loft KG möchte die Kosten für Dienstreisen reduzieren. Beschreiben Sie 2 Möglichkeiten zur Kostenreduzierung!",
+    "punkte": 4,
+    "loesung": "1. Buchung **preiswerterer Hotels** und **preiswerterer Transportmittel**\n2. Ersatz von Dienstreisen durch **Online-Meetings** (Videokonferenzen)"
+  },
+  {
+    "id": "kbz-2025s-a4-3",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "offen",
+    "text": "**Aufgabe 4.3** — In der Personalabteilung liegen zwei Dienstreiseanträge zur Genehmigung vor. Erläutern Sie jeweils 1 Grund, warum eine Dienstreise für die Jana Loft KG bei diesen Anlässen von Vorteil sein kann!\n\n| Anlass der Dienstreise | Erläuterung (jeweils 1 Grund) |\n|---|---|\n| Eine Mitarbeiterin der Abteilung Handelswaren möchte einen Lieferanten besuchen. | ? |\n| Der Leiter Aus- und Fortbildung, Herr Dahlmann, möchte an einer Veranstaltung zum Thema Ausbildungsmarketing in Stuttgart teilnehmen. | ? |",
+    "punkte": 4,
+    "loesung": "- **Lieferantenbesuch:** Die Mitarbeiterin kann über **neue Produkte und Konditionen verhandeln** (bessere Einkaufskonditionen).\n- **Ausbildungsmarketing:** Der Mitarbeiter kann **neue Auszubildende gewinnen** (Nachwuchssicherung)."
+  },
+  {
+    "id": "kbz-2025s-a4-4",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "mc",
+    "text": "**Aufgabe 4.4** — Herr Bast, der Leiter der Abteilung Einkauf, hat die Möbelmesse in Dresden besucht und legt Ihnen die Reisekostenabrechnung vor. Geben Sie an, welche Unterlage von Herrn Bast zur Abrechnung der Reisekosten akzeptiert wird!",
+    "punkte": 2.17391,
+    "optionen": [
+      "Bestätigung des Reisebüros",
+      "Hotelreservierung",
+      "Taxiquittung Bahnhof – Hotel",
+      "Abrechnung Minibar",
+      "Einkaufsquittung für vergessene Drogerieartikel"
+    ],
+    "korrekt": [2],
+    "loesung": "**Antwort 3** ist richtig: Die **Taxiquittung Bahnhof – Hotel** ist ein betrieblich veranlasster, belegter Reisekostenbeleg und wird akzeptiert. Private Ausgaben (Minibar, Drogerieartikel) werden nicht anerkannt."
+  },
+  {
+    "id": "kbz-2025s-a4-5",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "mc",
+    "text": "**Aufgabe 4.5** — Herr Bast hat sich auf der Messe den Fuß verstaucht und wird voraussichtlich mehrere Tage arbeitsunfähig sein. Entscheiden Sie, wen Herr Bast als Arbeitnehmer unverzüglich über seinen Unfall informieren muss!",
+    "punkte": 2.17391,
+    "optionen": [
+      "Arbeitgeber",
+      "Betriebsrat",
+      "Krankenkasse",
+      "Arbeitskollegen/-innen",
+      "Aufsichtsbehörde"
+    ],
+    "korrekt": [0],
+    "loesung": "**Antwort 1** ist richtig: Herr Bast muss unverzüglich seinen **Arbeitgeber** über den Unfall informieren."
+  },
+  {
+    "id": "kbz-2025s-a4-6",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "offen",
+    "text": "**Aufgabe 4.6** — Die Berufsgenossenschaft unterscheidet zwischen Wege- und Arbeitsunfall. Beschreiben Sie, was man unter den beiden Begriffen versteht!",
+    "punkte": 2,
+    "loesung": "- **Arbeitsunfall:** ein Unfall, der sich **direkt bei der Arbeit** (der beruflichen Tätigkeit) ereignet.\n- **Wegeunfall:** ein Unfall auf dem **direkten Weg zur Arbeit** (oder direkt nach Hause)."
+  },
+  {
+    "id": "kbz-2025s-a4-7",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "mc",
+    "text": "**Aufgabe 4.7** — Entscheiden Sie mit Hilfe des Auszugs (siehe Anlage), welcher Sachverhalt in Bezug auf die Meldepflicht des Arbeitgebers bei der Berufsgenossenschaft bei Arbeits- und Wegeunfällen zutreffend ist!",
+    "anlagenText": "**§ 193 Abs. 1 SGB VII:** Die Unternehmer haben Unfälle von Versicherten dem Unfallversicherungsträger anzuzeigen, wenn Versicherte getötet oder so verletzt sind, dass sie mehr als drei Tage arbeitsunfähig werden.",
+    "punkte": 2.17391,
+    "optionen": [
+      "Es gibt keine Meldepflicht bei Arbeitsunfällen.",
+      "Die Meldepflicht bezieht sich nur auf Unfälle mit einer Ausfallzeit von mehr als 3 Tagen.",
+      "Arbeitsunfälle haben eine 2-tägige Meldepflicht, Wegeunfälle eine 5-tägige.",
+      "Der Arbeitgeber darf den Unfall nur nach Einverständnis des Mitarbeiters melden.",
+      "Unfälle im Bürobereich sind keine Arbeitsunfälle und müssen damit auch nicht gemeldet werden."
+    ],
+    "korrekt": [1],
+    "loesung": "**Antwort 2** ist richtig: Nach § 193 SGB VII bezieht sich die Meldepflicht des Arbeitgebers nur auf Unfälle mit einer **Ausfallzeit von mehr als 3 Tagen**."
+  },
+  {
+    "id": "kbz-2025s-a4-8",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "offen",
+    "text": "**Aufgabe 4.8** — Sie sind Teilnehmer/-in der Projektgruppe. Beim ersten Treffen soll ein Brainstorming zum Thema durchgeführt werden. Nennen Sie 2 Vorteile und 2 Nachteile der Methode Brainstorming in der Gruppe!",
+    "punkte": 4,
+    "loesung": "**Vorteile:**\n1. Viele Ideen in kurzer Zeit\n2. Teambildung / Förderung des Zusammengehörigkeitsgefühls\n\n**Nachteile:**\n1. Aufwendige Nachbereitung (Auswertung der Ideen)\n2. Dominanz extrovertierter Teilnehmer (zurückhaltende Personen kommen nicht zu Wort)"
+  },
+  {
+    "id": "kbz-2025s-a4-9",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "mc",
+    "text": "**Aufgabe 4.9** — Zur Regelung der Bedingungen des „Smart Work\" möchte die Geschäftsleitung eine Betriebsvereinbarung schließen. Entscheiden Sie, welche der folgenden Aussagen zu Betriebsvereinbarungen zutreffend ist!",
+    "punkte": 2.17391,
+    "optionen": [
+      "Betriebsvereinbarungen werden zwischen den Sozialpartnern geschlossen.",
+      "Betriebsvereinbarungen müssen dem Betriebsrat lediglich zur Information vorgelegt werden.",
+      "Betriebsvereinbarungen haben eine Gültigkeit von 24 Monaten.",
+      "Betriebsvereinbarungen bedürfen der Schriftform.",
+      "Betriebsvereinbarungen werden im Handelsregister eingetragen."
+    ],
+    "korrekt": [3],
+    "loesung": "**Antwort 4** ist richtig: **Betriebsvereinbarungen bedürfen der Schriftform** (§ 77 BetrVG). Sie werden zwischen Arbeitgeber und Betriebsrat geschlossen."
+  },
+  {
+    "id": "kbz-2025s-a4-10",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "mc",
+    "text": "**Aufgabe 4.10** — Nach Abschluss der Betriebsvereinbarung sollen alle Mitarbeitenden über den Inhalt informiert werden. Geben Sie an, welche Maßnahme sicherstellt, dass alle Mitarbeitenden die Information erhalten können!",
+    "punkte": 2.17391,
+    "optionen": [
+      "Aushang am schwarzen Brett in der Teeküche der Personalabteilung der Jana Loft KG",
+      "Veröffentlichung im Intranet der Jana Loft KG",
+      "Auslage in der Kantine der Jana Loft KG",
+      "Verlesen auf dem Sommerfest der Jana Loft KG",
+      "Veröffentlichung auf der Homepage der Jana Loft KG"
+    ],
+    "korrekt": [1],
+    "loesung": "**Antwort 2** ist richtig: Die **Veröffentlichung im Intranet** stellt sicher, dass alle Mitarbeitenden (auch im Homeoffice) die Information erhalten können."
+  },
+  {
+    "id": "kbz-2025s-a4-11",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "offen",
+    "text": "**Aufgabe 4.11** — Erstellen Sie einen Einsatzplan für die Mitarbeitenden vor Ort. Zwischen 08:00–12:00 Uhr und 12:30–16:30 Uhr muss immer ein Ansprechpartner erreichbar sein. Ein Wechsel zwischen Büro und Homeoffice an einem Tag soll vermieden werden.\n\n- Herr Bakut: Teilzeit, 4 Std. nachmittags (montags, donnerstags **oder** freitags)\n- Frau Wegner: Teilzeit, 4 Std. vormittags (montags, mittwochs **oder** donnerstags)\n- Herr Gehrke: Teilzeit, 24 Std./Woche, nicht im Homeoffice; Einsatztage Dienstag, Mittwoch, Freitag\n\nTragen Sie die Namen in die Tabelle ein!",
+    "punkte": 5,
+    "loesung": "| Uhrzeit | Montag | Dienstag | Mittwoch | Donnerstag | Freitag |\n|---|---|---|---|---|---|\n| 08:00–12:00 | Wegner | Gehrke | Gehrke | Wegner | Gehrke |\n| Pause | | Gehrke | Gehrke | | Gehrke |\n| 12:30–16:30 | Bakut | Gehrke | Gehrke | Bakut | Gehrke |\n\nHerr Gehrke (24 Std., ganztägig) deckt Dienstag, Mittwoch und Freitag ab. Frau Wegner (vormittags) übernimmt Montag- und Donnerstagvormittag, Herr Bakut (nachmittags) Montag- und Donnerstagnachmittag."
+  },
+  {
+    "id": "kbz-2025s-a4-12-1",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "rechnen",
+    "text": "**Aufgabe 4.12.1** — Frau Müller arbeitet Vollzeit (8 Std./Tag zzgl. 30 Min. Mittagspause). Künftig möchte sie freitags nur 6 Stunden arbeiten. Berechnen Sie die Stunden an den restlichen Tagen einer Arbeitswoche für Frau Müller (bei gleicher Verteilung)!",
+    "punkte": 2,
+    "loesung": "An den restlichen 4 Tagen (Mo–Do) arbeitet Frau Müller je **8,5 Stunden**.",
+    "erklaerung": "Wochenarbeitszeit Vollzeit = 5 × 8 = 40 Stunden. Neu: Freitag nur 6 Stunden, verbleiben 40 − 6 = 34 Stunden. Verteilt auf 4 Tage: 34 / 4 = **8,5 Stunden pro Tag**."
+  },
+  {
+    "id": "kbz-2025s-a4-12-2",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "offen",
+    "text": "**Aufgabe 4.12.2** — Prüfen Sie die Anfrage von Frau Müller anhand des abgebildeten Gesetzesauszugs und begründen Sie Ihre Antwort!",
+    "anlagenText": "**§ 3 ArbZG:** Die werktägliche Arbeitszeit der Arbeitnehmer darf acht Stunden nicht überschreiten. Sie kann auf bis zu zehn Stunden nur verlängert werden, wenn innerhalb von sechs Kalendermonaten oder innerhalb von 24 Wochen im Durchschnitt acht Stunden werktäglich nicht überschritten werden.",
+    "punkte": 3,
+    "loesung": "Die Anfrage ist **zulässig**. Die tägliche Arbeitszeit von 8,5 Stunden an vier Tagen überschreitet zwar die 8-Stunden-Regel, bleibt aber unter der Höchstgrenze von 10 Stunden. Im Wochendurchschnitt (8,5 + 8,5 + 8,5 + 8,5 + 6,0 = 40 Std. / 5 Tage = 8 Std./Tag) werden 8 Stunden nicht überschritten – damit ist die Verteilung nach § 3 ArbZG erlaubt."
+  },
+  {
+    "id": "kbz-2025s-a5-1",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "offen",
+    "text": "**Aufgabe 5.1** — Kontieren Sie den in der Anlage abgebildeten Beleg Nr. 1 (Ausgangsrechnung der Jana Loft KG an die Westmoor KG über Flipcharts)! Verwenden Sie die vierstelligen Kontonummern des Kontenplans.",
+    "anlagenText": "**Beleg 1 — Ausgangsrechnung an Westmoor KG (Kunden-Nr. 2404):** Warenwert netto 10.125,00 €, + Versandkosten netto 261,00 € = 10.386,00 €, + 19 % USt 1.973,34 € = Brutto 12.359,34 €. Konten: 2404 Westmoor KG, 5100 Umsatzerlöse, 4800 Umsatzsteuer (19 %).",
+    "punkte": 2.17391,
+    "loesung": "Buchungssatz (Forderung an Umsatzerlöse an Umsatzsteuer):\n\n**2404 (Westmoor KG) 12.359,34 €**\nan **5100 (Umsatzerlöse) 10.386,00 €**\nan **4800 (Umsatzsteuer 19 %) 1.973,34 €**"
+  },
+  {
+    "id": "kbz-2025s-a5-2",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "offen",
+    "text": "**Aufgabe 5.2** — Kontieren Sie den in der Anlage abgebildeten Beleg Nr. 2 (Eingangsrechnung der Blitz-Spedition GmbH über Ausgangsfracht)!",
+    "anlagenText": "**Beleg 2 — Eingangsrechnung Blitz-Spedition GmbH (Lieferant 4407):** Fracht 261,00 €, + 19 % USt 49,59 € = 310,59 €. Konten: 6140 Ausgangsfrachten, 2600 Vorsteuer (19 %), 4407 Blitz-Spedition GmbH.",
+    "punkte": 2.17391,
+    "loesung": "Buchungssatz (Aufwand + Vorsteuer an Verbindlichkeit):\n\n**6140 (Ausgangsfrachten) 261,00 €**\n**2600 (Vorsteuer 19 %) 49,59 €**\nan **4407 (Blitz-Spedition GmbH) 310,59 €**"
+  },
+  {
+    "id": "kbz-2025s-a5-3",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "offen",
+    "text": "**Aufgabe 5.3** — Kontieren Sie den in der Anlage abgebildeten Beleg Nr. 3 (Gutschrift der Jana Loft KG an die Westmoor KG für zurückgesandte, beschädigte Ware)!",
+    "anlagenText": "**Beleg 3 — Gutschrift an Westmoor KG (Kunde 2404):** 3 Flipcharts zu 295,00 € = 885,00 € netto, + 19 % USt 168,15 € = 1.053,15 €. Konten: 5100 Umsatzerlöse (bzw. Erlösberichtigung), 4800 Umsatzsteuer, 2404 Westmoor KG.",
+    "punkte": 2.17391,
+    "loesung": "Buchungssatz (Rückgängigmachung/Erlösberichtigung – Umsatzerlöse und Umsatzsteuer im Soll, Forderung im Haben):\n\n**5100 (Umsatzerlöse) 885,00 €**\n**4800 (Umsatzsteuer 19 %) 168,15 €**\nan **2404 (Westmoor KG) 1.053,15 €**"
+  },
+  {
+    "id": "kbz-2025s-a5-4",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "rechnen",
+    "text": "**Aufgabe 5.4** — Die Westmoor KG begleicht nach der Rücksendung die Rechnung fristgerecht mit Abzug von Skonto per Überweisung an die Jana Loft KG. Ermitteln Sie den Überweisungsbetrag! Beachten Sie Belege 1 und 3, geben Sie den Rechenweg an und runden Sie kaufmännisch auf 2 Nachkommastellen!",
+    "anlagenText": "Beleg 1: Warenwert netto 10.125,00 €, Versandkosten netto 261,00 €. Beleg 3 (Gutschrift): 885,00 € netto. Skonto 2 % auf den Warenwert. USt 19 %.",
+    "punkte": 4,
+    "loesung": "**Überweisungsbetrag: 11.086,28 €**",
+    "erklaerung": "Warenwert netto 10.125,00 € − Gutschrift 885,00 € = 9.240,00 € skontofähiger Warenwert.\nSkonto 2 % von 9.240,00 € = 184,80 €.\n9.240,00 € − 184,80 € = 9.055,20 € (Warenwert nach Skonto).\n+ Versandkosten netto 261,00 € = 9.316,20 €.\n+ 19 % USt (9.316,20 × 0,19 = 1.770,08 €) = **11.086,28 €**."
+  },
+  {
+    "id": "kbz-2025s-a5-5",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "offen",
+    "text": "**Aufgabe 5.5** — Kontieren Sie den Eingang des in Aufgabe 5.4 berechneten Überweisungsbetrags auf dem Konto der Jana Loft KG bei der Hamburger Sparkasse!",
+    "anlagenText": "Überweisungsbetrag 11.086,28 €. Skontoabzug des Kunden mindert Umsatzerlöse (Erlösberichtigung 5101) und Umsatzsteuer (4800). Konten: 2800 Hamburger Sparkasse, 4800 Umsatzsteuer, 5101 Erlösberichtigungen, 2404 Westmoor KG.",
+    "punkte": 2.17391,
+    "loesung": "Buchungssatz (Zahlungseingang mit Skontoabzug):\n\n**2800 (Hamburger Sparkasse) 11.086,28 €**\n**5101 (Erlösberichtigungen) 155,29 €** (Skonto-Netto)\n**4800 (Umsatzsteuer 19 %) 29,51 €** (USt auf Skonto)\nan **2404 (Westmoor KG) 11.271,08 €**\n\n(Hinweis der Musterlösung: Soll 2800 und 4800, Haben 5101 – der Skontobetrag mindert Erlöse und USt; der offene Forderungsbetrag wird ausgeglichen.)"
+  },
+  {
+    "id": "kbz-2025s-a5-6",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "offen",
+    "text": "**Aufgabe 5.6** — Kontieren Sie den in der Anlage abgebildeten Beleg Nr. 4 (Eingangsrechnung der Lenz KG über LED-Büro-Stehleuchten – Handelswaren mit Rabatt)!",
+    "anlagenText": "**Beleg 4 — Eingangsrechnung Lenz KG (Lieferant 4402):** Summe 17.940,00 € − 5 % Rabatt 897,00 € = 17.043,00 € netto, + 19 % USt 3.238,17 € = 20.281,17 €. Konten: 6080 Aufwendungen für Handelswaren, 2600 Vorsteuer (19 %), 4402 Lenz KG. (Der Rabatt ist bereits im Nettobetrag berücksichtigt und wird netto gebucht.)",
+    "punkte": 2.17391,
+    "loesung": "Buchungssatz (Wareneinkauf mit Vorsteuer, Rabatt bereits abgezogen):\n\n**6080 (Aufwendungen für Handelswaren) 17.043,00 €**\n**2600 (Vorsteuer 19 %) 3.238,17 €**\nan **4402 (Lenz KG) 20.281,17 €**"
+  },
+  {
+    "id": "kbz-2025s-a5-7",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "offen",
+    "text": "**Aufgabe 5.7** — Kontieren Sie den in der Anlage abgebildeten Beleg Nr. 5 (Eingangsrechnung der Papierwelt Kramer GmbH über Büromaterial)!",
+    "anlagenText": "**Beleg 5 — Eingangsrechnung Papierwelt Kramer GmbH (sonstiger Lieferant 4499):** Zwischensumme 439,00 € netto, + 19 % USt 83,41 € = 522,41 €. Konten: 6800 Büromaterial, 2600 Vorsteuer (19 %), 4499 Sonstige Lieferanten und Dienstleister.",
+    "punkte": 2.17391,
+    "loesung": "Buchungssatz (Büromaterial mit Vorsteuer):\n\n**6800 (Büromaterial) 439,00 €**\n**2600 (Vorsteuer 19 %) 83,41 €**\nan **4499 (Sonstige Lieferanten und Dienstleister) 522,41 €**"
+  },
+  {
+    "id": "kbz-2025s-a5-8-1",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "offen",
+    "text": "**Aufgabe 5.8.1** — Geben Sie an, wie sich die Geschäftsfälle der Belege Nr. 2 und Nr. 3 (siehe Anlage) auf die Zahllast der Jana Loft KG auswirken, und begründen Sie Ihre Antwort!\n\n| Geschäftsfall | Auswirkung auf die Zahllast | Begründung |\n|---|---|---|\n| Zu Beleg 2 | ? | ? |\n| Zu Beleg 3 | ? | ? |",
+    "punkte": 4,
+    "loesung": "| Geschäftsfall | Auswirkung | Begründung |\n|---|---|---|\n| Zu Beleg 2 (Frachtrechnung) | **sinkt** | Wir zahlen Vorsteuer; die abziehbare Vorsteuer erhöht sich, dadurch sinkt die Zahllast. |\n| Zu Beleg 3 (Gutschrift/Rücksendung) | **sinkt** | Wir erhalten weniger Umsatzsteuer (Erlösberichtigung mindert die vereinnahmte USt), dadurch sinkt die Zahllast. |"
+  },
+  {
+    "id": "kbz-2025s-a5-8-2",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "rechnen",
+    "text": "**Aufgabe 5.8.2** — Ihnen liegen die Umsätze und Aufwendungen der Jana Loft KG im Monat April 2025 vor. Berechnen Sie die Umsatzsteuer-Beträge (regulärer Steuersatz 19 %), kreuzen Sie an, ob Vorsteuer oder Umsatzsteuer, und ermitteln Sie die Umsatzsteuerzahllast oder den Vorsteuerüberhang! Runden Sie kaufmännisch auf 2 Nachkommastellen.\n\n| Umsatzsteuerpflichtige Umsätze/Aufwendungen | Netto-Beträge in € |\n|---|---|\n| Umsatzerlöse | 477.293,66 |\n| Erlösberichtigungen | 9.335,75 |\n| Aufwendungen | 388.749,40 |\n| Nachlässe | 12.966,22 |",
+    "punkte": 6,
+    "loesung": "| Position | Netto | USt 19 % | Konto |\n|---|---|---|---|\n| Umsatzerlöse | 477.293,66 | **90.685,80** | Umsatzsteuer |\n| Erlösberichtigungen | 9.335,75 | **1.773,79** | Umsatzsteuer |\n| Aufwendungen | 388.749,40 | **73.862,39** | Vorsteuer |\n| Nachlässe | 12.966,22 | **2.463,58** | Vorsteuer |\n\n**Umsatzsteuerzahllast: 17.513,20 €**",
+    "erklaerung": "Umsatzsteuer (Verkauf): 90.685,80 − 1.773,79 (Erlösberichtigung) = 88.912,01 €.\nVorsteuer (Einkauf): 73.862,39 − 2.463,58 (Nachlass) = 71.398,81 €.\nZahllast = 88.912,01 − 71.398,81 = **17.513,20 €** (Zahllast, da USt > Vorsteuer)."
+  },
+  {
+    "id": "kbz-2025s-a6-1",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "rechnen",
+    "text": "**Aufgabe 6.1** — Ermitteln Sie die Gewinnschwelle (Break-even-Point) in Stück für die neue Schubladenbox „Hamburg\"! Geben Sie Ihren Rechenweg an!",
+    "anlagenText": "Variable Kosten pro Stück: 65,00 €; Verkaufserlöse pro Stück: 99,00 €; Kapazitätsgrenze pro Jahr: 10.000 Stück; Fixkosten pro Jahr: 125.800,00 €.",
+    "punkte": 3,
+    "loesung": "**Break-even-Point = 3.700 Stück**",
+    "erklaerung": "Deckungsbeitrag pro Stück = Verkaufserlös − variable Kosten = 99,00 − 65,00 = 34,00 €.\nBEP = Fixkosten / DB pro Stück = 125.800 / 34 = **3.700 Stück**."
+  },
+  {
+    "id": "kbz-2025s-a6-2",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "rechnen",
+    "text": "**Aufgabe 6.2** — Ermitteln Sie die Höhe des Gewinns in €, der bei einer erwarteten jährlichen Absatzmenge von 5.000 Stück der Schubladenbox „Hamburg\" erzielt wird! Geben Sie Ihren Rechenweg an!",
+    "punkte": 2,
+    "loesung": "**Gewinn = 44.200,00 €**",
+    "erklaerung": "Gewinn = Umsatzerlöse − Fixkosten − variable Gesamtkosten.\nUmsatzerlöse = 5.000 × 99 = 495.000 €.\nFixkosten = 125.800 €.\nVariable Kosten = 5.000 × 65 = 325.000 €.\nGewinn = 495.000 − 125.800 − 325.000 = **44.200 €**."
+  },
+  {
+    "id": "kbz-2025s-a6-3",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "rechnen",
+    "text": "**Aufgabe 6.3** — Die Jana Loft KG überlegt, die Produktionsmenge bis zur Kapazitätsgrenze auszuweiten. Ermitteln Sie, wie hoch die Stückkosten in € sein werden! Geben Sie den Rechenweg an!",
+    "punkte": 3,
+    "loesung": "**Stückkosten = 77,58 €**",
+    "erklaerung": "Kapazitätsgrenze = 10.000 Stück.\nFixkosten pro Stück = 125.800 / 10.000 = 12,58 €.\nVariable Kosten pro Stück = 65,00 €.\nGesamtkosten pro Stück = 12,58 + 65,00 = **77,58 €**."
+  },
+  {
+    "id": "kbz-2025s-a6-4",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "offen",
+    "text": "**Aufgabe 6.4** — Erklären Sie, wie sich die Stückkosten bei einer steigenden Produktionsmenge verändern!",
+    "punkte": 2,
+    "loesung": "Die Stückkosten **sinken**, da die Fixkosten auf eine größere Menge verteilt werden können (**Fixkostendegression**)."
+  },
+  {
+    "id": "kbz-2025s-a6-5",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "offen",
+    "text": "**Aufgabe 6.5** — Die Entwicklung der Kosten und Erlöse des Schubladensystems „Berlin\" wird grafisch dargestellt. Ordnen Sie den Buchstaben A, B und C je einen der 7 Begriffe aus der Kostenrechnung zu (Verlustzone=1, Gesamtkosten=2, Variable Gesamtkosten=3, Fixkosten=4, Gesamterlöse=5, Gewinnschwelle=6, Gewinnzone=7)!",
+    "anlagenText": "Im Diagramm ist A die von 0 ausgehende steilste, oben höchste Gerade; B die untere ansteigende Gerade (Differenz oben rechts zu A); C der Schnittpunkt der Geraden auf der x-Achse bei ca. 1.200 Stück.",
+    "punkte": 2.17391,
+    "loesung": "**A = 5 (Gesamterlöse)**, **B = 3 (Variable Gesamtkosten)**, **C = 6 (Gewinnschwelle)**.\nLösungsziffern in Reihenfolge: 5 – 3 – 6."
+  },
+  {
+    "id": "kbz-2025s-a6-6",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "rechnen",
+    "text": "**Aufgabe 6.6** — Berechnen Sie auf Basis der folgenden Werte die Selbstkosten für einen Konferenztisch! Füllen Sie das Kalkulationsschema aus und runden Sie kaufmännisch auf 2 Nachkommastellen.",
+    "anlagenText": "Fertigungsmaterial 210,00 €/Stück; Fertigungslöhne 135,50 €/Stück; Materialgemeinkostenzuschlagssatz 62,00 %; Fertigungsgemeinkostenzuschlagssatz 122,50 %; Verwaltungsgemeinkostenzuschlagssatz 10,80 %; Vertriebsgemeinkostenzuschlagssatz 9,50 %.",
+    "punkte": 7,
+    "loesung": "| Bezeichnung | Zuschlagssatz | Kosten in € |\n|---|---|---|\n| Fertigungsmaterial | | 210,00 |\n| Materialgemeinkosten | 62,0 % | 130,20 |\n| **Fertigungslöhne** | | 135,50 |\n| Fertigungsgemeinkosten | 122,5 % | 165,99 |\n| **Herstellkosten** | | 641,69 |\n| Verwaltungsgemeinkosten | 10,8 % | 69,30 |\n| **Vertriebsgemeinkosten** | 9,5 % | 60,96 |\n| **Selbstkosten** | | 771,95 |\n\n**Hinweis (offizielle Musterlösung):** Der IHK-Lösungsbogen weist folgende Werte aus – Materialgemeinkosten 130,62 €, Fertigungsgemeinkosten 169,99 €, Herstellkosten 646,11 €, Verwaltungsgemeinkosten 69,68 €, Vertriebsgemeinkosten 61,38 €, **Selbstkosten 777,17 €**. (Siehe Auffälligkeit im Audit – die Beträge der Musterlösung sind bei Nachrechnung nicht durchgängig konsistent; maßgeblich ist der offizielle Lösungswert 777,17 €.)",
+    "erklaerung": "Kalkulationsschema:\nFertigungsmaterial 210,00\n+ Materialgemeinkosten (62 % von 210,00 = 130,20)\n+ Fertigungslöhne 135,50\n+ Fertigungsgemeinkosten (122,5 % von 135,50 = 165,99)\n= Herstellkosten\n+ Verwaltungsgemeinkosten (10,8 % der Herstellkosten)\n+ Vertriebsgemeinkosten (9,5 % der Herstellkosten)\n= Selbstkosten. Laut offiziellem Lösungsbogen ergeben sich Selbstkosten von 777,17 €."
+  },
+  {
+    "id": "kbz-2025s-a6-7-1",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "offen",
+    "text": "**Aufgabe 6.7.1** — Beschreiben Sie den Begriff Normalkosten!",
+    "punkte": 2,
+    "loesung": "Normalkosten sind die **durchschnittlichen Istkosten vergangener Perioden**."
+  },
+  {
+    "id": "kbz-2025s-a6-7-2",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "offen",
+    "text": "**Aufgabe 6.7.2** — Erläutern Sie 1 Grund, weshalb die Istkosten höher sein können als die Normalkosten!",
+    "punkte": 2,
+    "loesung": "**Preiserhöhungen für Material** (gestiegene Materialpreise) lassen die Istkosten über die Normalkosten steigen."
+  },
+  {
+    "id": "kbz-2025s-a6-7-3",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "rechnen",
+    "text": "**Aufgabe 6.7.3** — Bei der Nachkalkulation haben sich Ist-Selbstkosten von 810,00 €/Konferenztisch ergeben. Geben Sie an, ob eine Kostenüberdeckung oder Kostenunterdeckung vorliegt, und ermitteln Sie unter Angabe des Rechenwegs die Höhe in €!",
+    "punkte": 3,
+    "loesung": "Es liegt eine **Kostenunterdeckung** vor.",
+    "erklaerung": "Kostenunterdeckung = Istkosten − Normal-(Plan-)Selbstkosten = 810,00 − 777,17 = **32,83 €** je Konferenztisch. Die Istkosten liegen über den kalkulierten Selbstkosten, daher Unterdeckung."
+  },
+  {
+    "id": "kbz-2025s-a6-8",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-sommer",
+    "typ": "mc",
+    "text": "**Aufgabe 6.8** — Geben Sie an, welche der folgenden Erklärungen den Begriff Kosten richtig umschreibt!",
+    "punkte": 2.17391,
+    "optionen": [
+      "Abfluss von Geldmitteln (liquider Mittel) pro Periode.",
+      "Wert aller veräußerten Leistungen pro Periode, die das Geldvermögen des Unternehmens erhöhen.",
+      "Wert aller zur Erreichung des Betriebszwecks verbrauchten Güter und Dienstleistungen pro Periode.",
+      "Wert aller im Rahmen des Betriebszwecks erstellten Leistungen pro Periode.",
+      "Wert aller erbrachten Leistungen eines Unternehmens pro Periode."
+    ],
+    "korrekt": [2],
+    "loesung": "**Antwort 3** ist richtig: Kosten sind der **Wert aller zur Erreichung des Betriebszwecks verbrauchten Güter und Dienstleistungen pro Periode**."
+  },
+
+  {
+    "id": "kbz-kaufvertrag-stoerungen-g1",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "generiert",
+    "typ": "mc",
+    "text": "Ein Kunde erhält ein befristetes Angebot ohne Freizeichnungsklausel und bestellt innerhalb der Frist. Welche rechtliche Bedeutung hat diese Bestellung?",
+    "punkte": 1,
+    "optionen": [
+      "Sie ist eine unverbindliche Anfrage.",
+      "Sie ist die Annahme und lässt den Kaufvertrag zustande kommen.",
+      "Sie ist ein neuer, verbindlicher Antrag.",
+      "Sie hat keine rechtliche Bedeutung."
+    ],
+    "korrekt": [1],
+    "loesung": "Richtig ist Antwort 2: Die Bestellung ist die **Annahme** des verbindlichen Antrags; der Kaufvertrag kommt zustande."
+  },
+  {
+    "id": "kbz-kaufvertrag-stoerungen-g2",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "generiert",
+    "typ": "mc",
+    "text": "Welche Aussage zur regelmäßigen Verjährungsfrist ist zutreffend?",
+    "punkte": 1,
+    "optionen": [
+      "Sie beträgt 2 Jahre und beginnt am Tag des Kaufs.",
+      "Sie beträgt 3 Jahre und beginnt mit dem Ende des Jahres, in dem der Anspruch entstanden ist.",
+      "Sie beträgt 5 Jahre und beginnt mit der ersten Mahnung.",
+      "Sie beträgt 3 Jahre und beginnt mit dem Tag der Lieferung."
+    ],
+    "korrekt": [1],
+    "loesung": "Richtig ist Antwort 2: Die regelmäßige Verjährungsfrist beträgt **3 Jahre** und beginnt zum **Jahresende** (31.12.) des Entstehungsjahres."
+  },
+  {
+    "id": "kbz-kaufvertrag-stoerungen-g3",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "generiert",
+    "typ": "mc",
+    "text": "Ein Käufer entdeckt beim Auspacken sofort einen tiefen Kratzer an einem Möbelstück. Um welche Mangelart hinsichtlich der Erkennbarkeit handelt es sich?",
+    "punkte": 1,
+    "optionen": [
+      "versteckter Mangel",
+      "arglistig verschwiegener Mangel",
+      "offener Mangel",
+      "Rechtsmangel"
+    ],
+    "korrekt": [2],
+    "loesung": "Richtig ist Antwort 3: Ein sofort erkennbarer Schaden ist ein **offener Mangel** und muss unverzüglich gerügt werden."
+  },
+  {
+    "id": "kbz-kaufvertrag-stoerungen-g4",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "generiert",
+    "typ": "mc",
+    "text": "Der Schuldner reagiert weder auf den Mahnbescheid noch auf den Vollstreckungsbescheid und legt keinen Widerspruch ein. Welche Folge hat das für den Gläubiger?",
+    "punkte": 1,
+    "optionen": [
+      "Der Anspruch verjährt sofort.",
+      "Der Gläubiger erhält einen vollstreckbaren Titel und kann die Zwangsvollstreckung einleiten.",
+      "Der Gläubiger muss Klage vor dem Amtsgericht erheben.",
+      "Das Verfahren wird eingestellt."
+    ],
+    "korrekt": [1],
+    "loesung": "Richtig ist Antwort 2: Ohne Reaktion des Schuldners erhält der Gläubiger einen **vollstreckbaren Titel** und kann die **Zwangsvollstreckung** einleiten."
+  },
+  {
+    "id": "kbz-kaufvertrag-stoerungen-v1",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "abgeleitet",
+    "typ": "rechnen",
+    "text": "Eine Rechnung datiert vom 10.03.2025 mit einem Zahlungsziel von 30 Tagen ab Rechnungsdatum. An welchem Tag befindet sich der Kunde im Zahlungsverzug? Geben Sie das Datum (TT.MM.JJJJ) an.",
+    "punkte": 2,
+    "loesung": "Der Kunde befindet sich ab dem **10.04.2025** im Zahlungsverzug.",
+    "erklaerung": "10.03.2025 + 30 Tage = 09.04.2025 (letzter Tag der Zahlungsfrist). Verzug tritt ab dem Folgetag ein, also am **10.04.2025**."
+  },
+  {
+    "id": "kbz-kaufvertrag-stoerungen-v2",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "abgeleitet",
+    "typ": "offen",
+    "text": "Eine Forderung ist zum 31.12.2025 auf der Offenen-Posten-Liste vermerkt. Am 15.05.2026 leistet der Schuldner eine Abschlagszahlung. Mit Ablauf welchen Datums endet die Verjährung nun? Begründen Sie kurz.",
+    "punkte": 2,
+    "loesung": "Das neue Ende der Verjährung tritt mit Ablauf des **31.12.2029** ein. Die Abschlagszahlung ist ein Anerkenntnis, wodurch die 3-jährige Verjährungsfrist neu beginnt (Beginn zum Jahresende 31.12.2026), Ende somit 31.12.2029."
+  },
+
+  {
+    "id": "kbz-kundenkommunikation-g1",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "quelle": "generiert",
+    "typ": "mc",
+    "text": "Welche der folgenden Fragen ist eine typische Alternativfrage?",
+    "punkte": 1,
+    "optionen": [
+      "Was hat Sie an der Lieferung gestört?",
+      "Möchten Sie die Ware abholen oder sollen wir liefern?",
+      "Ist die Sendung angekommen?",
+      "Sie sind doch sicher zufrieden, oder?"
+    ],
+    "korrekt": [1],
+    "loesung": "Richtig ist Antwort 2: Eine **Alternativfrage** bietet dem Gesprächspartner zwei Optionen zur Auswahl an."
+  },
+  {
+    "id": "kbz-kundenkommunikation-g2",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "quelle": "generiert",
+    "typ": "mc",
+    "text": "Welche Angabe gehört NICHT zwingend in eine Gesprächsnotiz?",
+    "punkte": 1,
+    "optionen": [
+      "Datum und Uhrzeit",
+      "Namen der Gesprächsteilnehmer",
+      "getroffene Entscheidungen/Vereinbarungen",
+      "Lieblingsfarbe des Kunden"
+    ],
+    "korrekt": [3],
+    "loesung": "Richtig ist Antwort 4: Die Lieblingsfarbe ist keine wesentliche Information. Datum/Uhrzeit, Teilnehmer und getroffene Entscheidungen gehören dagegen in jede Gesprächsnotiz."
+  },
+  {
+    "id": "kbz-kundenkommunikation-g3",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "quelle": "generiert",
+    "typ": "mc",
+    "text": "Welche Maßnahme fördert die Kundenbindung?",
+    "punkte": 1,
+    "optionen": [
+      "Verzicht auf jegliche Nachbetreuung",
+      "Versand von Newslettern und Bonusaktionen",
+      "Erhöhung der Preise ohne Ankündigung",
+      "Abbau von Ansprechpartnern"
+    ],
+    "korrekt": [1],
+    "loesung": "Richtig ist Antwort 2: **Newsletter und Bonus-/Rabattaktionen** binden Kunden an das Unternehmen."
+  },
+  {
+    "id": "kbz-kundenkommunikation-g4",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "quelle": "generiert",
+    "typ": "mc",
+    "text": "Was ist ein Merkmal eines guten Beschwerdemanagements?",
+    "punkte": 1,
+    "optionen": [
+      "möglichst lange Bearbeitungszeiten",
+      "schnelle und kundenfreundliche Reaktion",
+      "keine Rückmeldung an den Kunden",
+      "Weitergabe der Schuld an den Kunden"
+    ],
+    "korrekt": [1],
+    "loesung": "Richtig ist Antwort 2: Eine **schnelle und kundenfreundliche Reaktion** zeichnet gutes Beschwerdemanagement aus."
+  },
+  {
+    "id": "kbz-kundenkommunikation-v1",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "quelle": "abgeleitet",
+    "typ": "offen",
+    "text": "Ein Kunde ruft verärgert wegen einer verspäteten Lieferung an. Nennen Sie neben Begrüßung und Verabschiedung 3 Inhalte, die Sie ihm im Telefonat mitteilen sollten, um ihn als Kunden zu halten.",
+    "punkte": 3,
+    "loesung": "1. **Entschuldigung** für die Verspätung\n2. **Zusage/Versprechen**, die Lieferung schnellstmöglich nachzuholen (verbindlicher neuer Termin)\n3. **Kulanzangebot**, z. B. Rabatt oder Erlass der Versandkosten bei der nächsten Bestellung"
+  },
+  {
+    "id": "kbz-kundenkommunikation-v2",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "quelle": "abgeleitet",
+    "typ": "rechnen",
+    "text": "Vor Einführung eines Beschwerdemanagements gab es 250 Beschwerden im Jahr, danach nur noch 150. Um wie viel Prozent sind die Beschwerden gesunken?",
+    "punkte": 2,
+    "loesung": "Die Beschwerden sind um **40 %** gesunken.",
+    "erklaerung": "250 = 100 %. 150 entsprechen 150 × 100 / 250 = 60 %. Rückgang = 100 % − 60 % = **40 %**."
+  },
+
+  {
+    "id": "kbz-rechnung-umsatzsteuer-g1",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "quelle": "generiert",
+    "typ": "mc",
+    "text": "Welche Angabe ist laut § 14 UStG KEINE Pflichtangabe einer Rechnung?",
+    "punkte": 1,
+    "optionen": [
+      "fortlaufende Rechnungsnummer",
+      "Steuernummer oder USt-IdNr.",
+      "Bankverbindung des Kunden",
+      "anzuwendender Steuersatz"
+    ],
+    "korrekt": [2],
+    "loesung": "Richtig ist Antwort 3: Die Bankverbindung des Kunden ist keine gesetzliche Pflichtangabe nach § 14 UStG."
+  },
+  {
+    "id": "kbz-rechnung-umsatzsteuer-g2",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "quelle": "generiert",
+    "typ": "mc",
+    "text": "Wie berechnet man die Umsatzsteuerzahllast?",
+    "punkte": 1,
+    "optionen": [
+      "Vorsteuer minus Umsatzsteuer",
+      "Umsatzsteuer minus Vorsteuer",
+      "Umsatzsteuer plus Vorsteuer",
+      "Umsatzerlöse minus Aufwendungen"
+    ],
+    "korrekt": [1],
+    "loesung": "Richtig ist Antwort 2: **Zahllast = Umsatzsteuer − Vorsteuer**. Ist die Vorsteuer größer, ergibt sich ein Vorsteuerüberhang."
+  },
+  {
+    "id": "kbz-rechnung-umsatzsteuer-g3",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "quelle": "generiert",
+    "typ": "mc",
+    "text": "Innerhalb welcher Frist muss eine Rechnung bei einer Leistung an ein anderes Unternehmen erstellt werden?",
+    "punkte": 1,
+    "optionen": [
+      "innerhalb von 14 Tagen",
+      "innerhalb von 3 Monaten",
+      "innerhalb von 6 Monaten",
+      "innerhalb von 12 Monaten"
+    ],
+    "korrekt": [2],
+    "loesung": "Richtig ist Antwort 3: Bei Leistungen an ein anderes Unternehmen ist die Rechnung **innerhalb von 6 Monaten** nach Ausführung der Leistung zu erstellen."
+  },
+  {
+    "id": "kbz-rechnung-umsatzsteuer-g4",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "quelle": "generiert",
+    "typ": "mc",
+    "text": "Auf welchem Konto wird die vom Lieferanten in Rechnung gestellte Umsatzsteuer beim Wareneinkauf gebucht?",
+    "punkte": 1,
+    "optionen": [
+      "Umsatzsteuer",
+      "Vorsteuer",
+      "Umsatzerlöse",
+      "Kasse"
+    ],
+    "korrekt": [1],
+    "loesung": "Richtig ist Antwort 2: Die vom Lieferanten berechnete USt wird als **Vorsteuer** (Forderung ans Finanzamt) gebucht."
+  },
+  {
+    "id": "kbz-rechnung-umsatzsteuer-v1",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "quelle": "abgeleitet",
+    "typ": "rechnen",
+    "text": "Ein Kunde begleicht eine Rechnung fristgerecht mit 2 % Skonto. Der skontofähige Warenwert netto beträgt 8.000,00 €, zusätzlich fallen 200,00 € Versandkosten netto an. Ermitteln Sie den Überweisungsbetrag (brutto, 19 % USt), kaufmännisch auf 2 Nachkommastellen gerundet!",
+    "punkte": 4,
+    "loesung": "**Überweisungsbetrag: 9.567,40 €**",
+    "erklaerung": "Skonto 2 % von 8.000,00 € = 160,00 €. Warenwert nach Skonto = 8.000,00 − 160,00 = 7.840,00 €. + Versandkosten netto 200,00 € = 8.040,00 €. + 19 % USt (8.040,00 × 0,19 = 1.527,60 €) = **9.567,60 €**. (Rundung: exakt 9.567,60 €.)"
+  },
+  {
+    "id": "kbz-rechnung-umsatzsteuer-v2",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "quelle": "abgeleitet",
+    "typ": "offen",
+    "text": "Kontieren Sie eine Eingangsrechnung über Büromaterial: Nettobetrag 500,00 €, zzgl. 19 % USt = 595,00 € brutto (Lieferant: Sonstige Lieferanten). Verwenden Sie die Konten 6800 Büromaterial, 2600 Vorsteuer (19 %), 4499 Sonstige Lieferanten.",
+    "punkte": 2,
+    "loesung": "Buchungssatz:\n\n**6800 (Büromaterial) 500,00 €**\n**2600 (Vorsteuer 19 %) 95,00 €**\nan **4499 (Sonstige Lieferanten und Dienstleister) 595,00 €**"
+  },
+
+  {
+    "id": "kbz-personalwirtschaft-g1",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "generiert",
+    "typ": "mc",
+    "text": "Ab welcher Ausfallzeit muss der Arbeitgeber einen Unfall bei der Berufsgenossenschaft anzeigen?",
+    "punkte": 1,
+    "optionen": [
+      "ab dem ersten Tag",
+      "bei mehr als 3 Tagen Arbeitsunfähigkeit",
+      "erst bei mehr als 6 Wochen",
+      "nur bei tödlichen Unfällen"
+    ],
+    "korrekt": [1],
+    "loesung": "Richtig ist Antwort 2: Nach § 193 SGB VII besteht Anzeigepflicht bei **mehr als 3 Tagen** Arbeitsunfähigkeit (oder Tod)."
+  },
+  {
+    "id": "kbz-personalwirtschaft-g2",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "generiert",
+    "typ": "mc",
+    "text": "Zwischen wem wird eine Betriebsvereinbarung geschlossen?",
+    "punkte": 1,
+    "optionen": [
+      "zwischen Arbeitgeberverband und Gewerkschaft",
+      "zwischen Arbeitgeber und Betriebsrat",
+      "zwischen einzelnem Arbeitnehmer und Arbeitgeber",
+      "zwischen Betriebsrat und Krankenkasse"
+    ],
+    "korrekt": [1],
+    "loesung": "Richtig ist Antwort 2: Eine Betriebsvereinbarung wird zwischen **Arbeitgeber und Betriebsrat** geschlossen und bedarf der Schriftform."
+  },
+  {
+    "id": "kbz-personalwirtschaft-g3",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "generiert",
+    "typ": "mc",
+    "text": "Wie viele Stunden darf die werktägliche Arbeitszeit laut § 3 ArbZG höchstens betragen?",
+    "punkte": 1,
+    "optionen": [
+      "8 Stunden ohne Ausnahme",
+      "10 Stunden, wenn im Durchschnitt 8 Stunden nicht überschritten werden",
+      "12 Stunden",
+      "unbegrenzt bei Zustimmung des Betriebsrats"
+    ],
+    "korrekt": [1],
+    "loesung": "Richtig ist Antwort 2: Die werktägliche Arbeitszeit darf auf bis zu **10 Stunden** verlängert werden, sofern im Durchschnitt von 6 Monaten/24 Wochen 8 Stunden nicht überschritten werden."
+  },
+  {
+    "id": "kbz-personalwirtschaft-g4",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "generiert",
+    "typ": "mc",
+    "text": "Was ist ein Wegeunfall im Sinne der gesetzlichen Unfallversicherung?",
+    "punkte": 1,
+    "optionen": [
+      "ein Unfall während der Mittagspause im Betrieb",
+      "ein Unfall auf dem direkten Weg zur oder von der Arbeit",
+      "ein Unfall im Urlaub",
+      "ein Unfall bei einer privaten Reise"
+    ],
+    "korrekt": [1],
+    "loesung": "Richtig ist Antwort 2: Ein **Wegeunfall** ereignet sich auf dem direkten Weg zur oder von der Arbeit."
+  },
+  {
+    "id": "kbz-personalwirtschaft-v1",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "abgeleitet",
+    "typ": "rechnen",
+    "text": "Eine Vollzeitkraft arbeitet 40 Stunden/Woche. Künftig möchte sie mittwochs nur 4 Stunden arbeiten. Wie viele Stunden muss sie bei gleicher Verteilung an den restlichen 4 Tagen arbeiten und ist dies laut § 3 ArbZG zulässig?",
+    "punkte": 3,
+    "loesung": "An den restlichen 4 Tagen arbeitet sie je **9 Stunden**. Das ist **zulässig**: 9 Stunden liegen unter der Höchstgrenze von 10 Stunden, und im Wochendurchschnitt (9+9+4+9+9 = 40 / 5 = 8 Std.) werden 8 Stunden nicht überschritten.",
+    "erklaerung": "40 Std. − 4 Std. (Mittwoch) = 36 Std., verteilt auf 4 Tage = 36 / 4 = **9 Stunden/Tag**. Zulässig nach § 3 ArbZG, da unter 10 Stunden und Durchschnitt = 8 Stunden."
+  },
+  {
+    "id": "kbz-personalwirtschaft-v2",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "abgeleitet",
+    "typ": "offen",
+    "text": "Ein neues Antragsformular für Dienstreisen soll erstellt werden. Nennen Sie 4 grundsätzliche Angaben, die ein solches Formular enthalten muss.",
+    "punkte": 4,
+    "loesung": "1. Name, Vorname des/der Mitarbeitenden\n2. Anlass/Zweck der Dienstreise\n3. Ort/Ziel und Dauer (Zeitraum) der Dienstreise\n4. Unterschriftenfeld (zur Genehmigung)"
+  },
+
+  {
+    "id": "kbz-kostenrechnung-g1",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "quelle": "generiert",
+    "typ": "mc",
+    "text": "Wie berechnet man den Break-even-Point in Stück?",
+    "punkte": 1,
+    "optionen": [
+      "Fixkosten geteilt durch Verkaufspreis pro Stück",
+      "Fixkosten geteilt durch Deckungsbeitrag pro Stück",
+      "variable Kosten geteilt durch Fixkosten",
+      "Umsatz geteilt durch Gesamtkosten"
+    ],
+    "korrekt": [1],
+    "loesung": "Richtig ist Antwort 2: **Break-even-Point = Fixkosten / Deckungsbeitrag pro Stück**."
+  },
+  {
+    "id": "kbz-kostenrechnung-g2",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "quelle": "generiert",
+    "typ": "mc",
+    "text": "Warum sinken die Stückkosten bei steigender Produktionsmenge?",
+    "punkte": 1,
+    "optionen": [
+      "weil die variablen Kosten pro Stück sinken",
+      "weil sich die Fixkosten auf mehr Stück verteilen (Fixkostendegression)",
+      "weil der Verkaufspreis steigt",
+      "weil keine Gemeinkosten mehr anfallen"
+    ],
+    "korrekt": [1],
+    "loesung": "Richtig ist Antwort 2: Durch die **Fixkostendegression** verteilen sich die Fixkosten auf mehr Stück, wodurch die Stückkosten sinken."
+  },
+  {
+    "id": "kbz-kostenrechnung-g3",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "quelle": "generiert",
+    "typ": "mc",
+    "text": "Was versteht man unter Normalkosten?",
+    "punkte": 1,
+    "optionen": [
+      "die geplanten Kosten der nächsten Periode",
+      "die durchschnittlichen Istkosten vergangener Perioden",
+      "die niedrigsten je gemessenen Kosten",
+      "die Kosten eines Konkurrenzunternehmens"
+    ],
+    "korrekt": [1],
+    "loesung": "Richtig ist Antwort 2: Normalkosten sind die **durchschnittlichen Istkosten vergangener Perioden**."
+  },
+  {
+    "id": "kbz-kostenrechnung-g4",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "quelle": "generiert",
+    "typ": "mc",
+    "text": "Die Istkosten liegen über den kalkulierten Normalkosten. Was liegt vor?",
+    "punkte": 1,
+    "optionen": [
+      "Kostenüberdeckung",
+      "Kostenunterdeckung",
+      "Gewinnüberschuss",
+      "Deckungsbeitrag"
+    ],
+    "korrekt": [1],
+    "loesung": "Richtig ist Antwort 2: Sind die Istkosten höher als die kalkulierten Kosten, liegt eine **Kostenunterdeckung** vor."
+  },
+  {
+    "id": "kbz-kostenrechnung-v1",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "quelle": "abgeleitet",
+    "typ": "rechnen",
+    "text": "Ein Produkt hat variable Kosten von 40,00 €/Stück, einen Verkaufspreis von 70,00 €/Stück und Fixkosten von 90.000,00 € pro Jahr. Ermitteln Sie den Break-even-Point in Stück und geben Sie den Rechenweg an!",
+    "punkte": 3,
+    "loesung": "**Break-even-Point = 3.000 Stück**",
+    "erklaerung": "Deckungsbeitrag pro Stück = 70,00 − 40,00 = 30,00 €. BEP = Fixkosten / DB = 90.000 / 30 = **3.000 Stück**."
+  },
+  {
+    "id": "kbz-kostenrechnung-v2",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "quelle": "abgeleitet",
+    "typ": "rechnen",
+    "text": "Ein Produkt hat variable Kosten von 40,00 €/Stück und Fixkosten von 90.000,00 € pro Jahr. Ermitteln Sie die Stückkosten bei einer Produktionsmenge von 6.000 Stück! Rechenweg angeben.",
+    "punkte": 3,
+    "loesung": "**Stückkosten = 55,00 €**",
+    "erklaerung": "Fixkosten pro Stück = 90.000 / 6.000 = 15,00 €. Variable Kosten pro Stück = 40,00 €. Gesamtkosten pro Stück = 15,00 + 40,00 = **55,00 €**."
+  }
+]

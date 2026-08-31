@@ -1,0 +1,200 @@
+[
+  {
+    "id": "ablauf-fachaufgabe",
+    "bereich": "muendlich",
+    "name": "Ablauf der mündlichen Prüfung",
+    "beschreibung": "Wie das fallbezogene Fachgespräch (Report- oder klassische Variante) abläuft, wie lange es dauert und was bewertet wird.",
+    "haeufigkeit": [],
+    "lernzettel": "## Die mündliche Prüfung (Teil 2 der Abschlussprüfung)\n\nDie mündliche Prüfung heißt offiziell **fallbezogenes Fachgespräch** und ist Teil 2 der Abschlussprüfung zum Kaufmann/zur Kauffrau für Büromanagement. Grundlage ist **eine** der bei der Prüfungsanmeldung gewählten **Wahlqualifikationen (WQ)**. Du wählst zwischen zwei Varianten:\n\n- **Report-Variante:** Du reichst vorab zwei Reports (je zu einer WQ) über selbst durchgeführte betriebliche Fachaufgaben ein. Im Gespräch wählt der Ausschuss einen Report als Einstieg.\n- **Klassische Variante:** Am Prüfungstag wählt der Ausschuss eine WQ. Du bekommst dazu **zwei** praxisbezogene Fachaufgaben und entscheidest dich für **eine**.\n\n### Ablauf in Phasen\n\n1. **Begrüßung und Vorbereitung** (ca. 5 Min): Kontrolle der Personalien, Übergabe des Berichtshefts, kurze Erklärung des Ablaufs.\n2. **Vorbereitungszeit** (max. 20 Min): In der klassischen Variante wählst und bearbeitest du eine Aufgabe in einem separaten Raum. Du machst Notizen in vier Schritten: **Planung, Durchführung, Rahmenbedingungen, Kontrolle**.\n3. **Prüfungsgespräch** (max. 20 Min): Ein Prüfer führt das Gespräch, andere können sich beteiligen. Du fasst die Situation kurz zusammen (nicht vorlesen!) und argumentierst frei anhand deiner Notizen.\n4. **Nachbereitung und Notenverkündung** (ca. 10–15 Min): Der Ausschuss berät, dann bekommst du Punktzahl und Note.\n\n### Bewertung\n\nBewertet wird **ausschließlich das Prüfungsgespräch**, nicht deine Notizen. Der Prüfungsausschuss besteht aus 3 bis 5 Prüfern (oft auch ein Berufsschullehrer). Mitzubringen sind Personalausweis, das Einladungsschreiben der IHK und das Berichtsheft – ohne Berichtsheft gibt es das Abschlusszeugnis erst nach Nachreichung.",
+    "eselsbruecken": [
+      "**PDRK** – Planung, Durchführung, Rahmenbedingungen, Kontrolle: die vier Schritte, in denen du jede klassische Fachaufgabe strukturierst.",
+      "**\"20 – 20 – 20\"**: max. 20 Min Vorbereitung, max. 20 Min Gespräch, dazu ca. 20 Min Drumherum (Begrüßung + Beratung)."
+    ],
+    "selbstcheck": [
+      "Wie lange dauern Vorbereitungszeit und Prüfungsgespräch jeweils maximal?",
+      "Worin unterscheiden sich Report-Variante und klassische Variante?",
+      "Welche vier Schritte sollten deine Notizen zur Fachaufgabe gliedern?",
+      "Was wird bewertet – deine Notizen oder das Gespräch?"
+    ],
+    "medien": {
+      "video": { "titel": "Ablauf der mündlichen Prüfung erklärt", "status": "geplant" },
+      "podcast": { "titel": "Ablauf der mündlichen Prüfung zum Hören", "status": "geplant" }
+    }
+  },
+  {
+    "id": "report-schreiben",
+    "bereich": "muendlich",
+    "name": "Den Report schreiben",
+    "beschreibung": "Aufbau, Formalia und typische Fehler beim Report über eine betriebliche Fachaufgabe für die Report-Variante.",
+    "haeufigkeit": [],
+    "lernzettel": "## Der Report zur betrieblichen Fachaufgabe\n\nWenn du die **Report-Variante** wählst, reichst du vor der Prüfung **zwei Reports** ein – je einen zu einer deiner beiden Wahlqualifikationen. Jeder Report beschreibt eine **selbst durchgeführte betriebliche Fachaufgabe** aus deinem Ausbildungsbetrieb. Der Report ist die Grundlage für den Gesprächseinstieg; der Prüfungsausschuss wählt einen der beiden Reports aus.\n\n### Bewährter Aufbau (max. 3 Seiten)\n\n1. **Ausgangssituation:** Betrieb, deine Abteilung, dein Aufgabenbereich und der konkrete Anlass/Auftrag. Warum wurde die Aufgabe nötig? Welches Problem sollte gelöst werden?\n2. **Planung / Vorbereitung:** Wie bist du herangegangen? Welche Fragen musstest du klären (z. B. Budget, Termine, Beteiligte)? Checklisten, Angebotsvergleiche, Absprachen mit Vorgesetzten.\n3. **Durchführung:** Was hast du konkret und in welcher Reihenfolge getan? Welche Programme/Werkzeuge (z. B. MS Word/Excel), welche Entscheidungen?\n4. **Auswertung / Reflexion:** Ergebnis, Erfolgskontrolle, was lief gut, was würdest du beim nächsten Mal anders machen?\n\n### Formalia\n\n- **Deckblatt** mit Name, Vorname, Ausbildungsberuf und WQ.\n- Ich-Form, Vergangenheitsform, sachlicher Stil.\n- Keine vertraulichen Daten (Namen anonymisieren).\n- Umfang und Formatvorgaben der zuständigen IHK einhalten.\n\n### Typische Fehler\n\n- Der Report beschreibt eine **Teamleistung** statt einer **eigenen** Fachaufgabe.\n- Reine Tätigkeitsaufzählung ohne Planung, Entscheidung und Reflexion.\n- Zu allgemein – der Prüfer erkennt nicht, was **du** entschieden hast.\n- Formalien (Umfang, Deckblatt, Abgabefrist) nicht beachtet.",
+    "eselsbruecken": [
+      "**APDA** – Ausgangssituation, Planung, Durchführung, Auswertung: die vier Kapitel eines guten Reports (analog zu den vier Notizschritten der klassischen Variante).",
+      "**\"Ich statt Wir\"**: Im Report zählt deine eigene Leistung – schreibe konsequent, was **du** geplant und entschieden hast."
+    ],
+    "selbstcheck": [
+      "Wie viele Reports musst du in der Report-Variante einreichen und wozu?",
+      "Aus welchen vier Kapiteln besteht ein sinnvoll gegliederter Report?",
+      "Warum darf der Report keine reine Teamleistung beschreiben?",
+      "Welche formalen Vorgaben (Deckblatt, Umfang) musst du beachten?"
+    ],
+    "medien": {
+      "video": { "titel": "Den Report schreiben erklärt", "status": "geplant" },
+      "podcast": { "titel": "Den Report schreiben zum Hören", "status": "geplant" }
+    }
+  },
+  {
+    "id": "gespraechstechnik",
+    "bereich": "muendlich",
+    "name": "Gesprächs- und Präsentationstechnik",
+    "beschreibung": "Wie du im Fachgespräch strukturiert präsentierst, souverän argumentierst und mit Nachfragen des Prüfungsausschusses umgehst.",
+    "haeufigkeit": [],
+    "lernzettel": "## Souverän im Fachgespräch auftreten\n\nBewertet wird das **Gespräch**, nicht deine Notizen. Deshalb entscheidet neben dem Fachwissen vor allem, **wie** du präsentierst und argumentierst.\n\n### Einstieg\n\n- Du darfst die Aufgabenstellung **kurz in eigenen Worten zusammenfassen** – aber nicht vorlesen. Das gibt dir Zeit, dich \"warmzureden\".\n- Steige mit deiner **Vorgehensweise** ein: \"Ich bin die Aufgabe in vier Schritten angegangen – zuerst die Planung ...\".\n\n### Struktur halten\n\n- Gliedere deine Antwort entlang **Planung – Durchführung – Rahmenbedingungen – Kontrolle**.\n- Formuliere deine Stichpunkte in **ganzen Sätzen** und halte **Blickkontakt** mit dem Prüfer.\n- Begründe Entscheidungen (\"Ich habe mich für X entschieden, **weil** ...\") und stelle **Alternativen** dar.\n\n### Mit Nachfragen umgehen\n\n- Prüfer fragen oft nach: \"Warum gerade so?\", \"Welche Alternative gäbe es?\", \"Was wären Vor- und Nachteile?\".\n- Bei Unsicherheit: **kurz nachdenken** ist erlaubt – lieber eine kurze Pause als vorschnelle Falschaussagen.\n- Verstehst du eine Frage nicht, **frage höflich nach**, statt am Thema vorbeizureden.\n- Gib **Fachbegriffe** korrekt wieder (z. B. Skonto, Meldebestand, AGG) – das zeigt Sicherheit.\n\n### Auftreten\n\n- Bequeme, ordentliche Kleidung – du überzeugst durch Inhalte, nicht durch Optik.\n- Ruhig sprechen, nicht hetzen; freundlich und offen bleiben.\n- Pünktlich und ausgeschlafen erscheinen, Pufferzeiten für die Anreise einplanen.",
+    "eselsbruecken": [
+      "**\"Zusammenfassen statt Vorlesen\"**: Der Gesprächseinstieg ist deine eigene, kurze Zusammenfassung der Aufgabe – nie ein Vorlesen der Angabe.",
+      "**\"Weil-Sätze\"**: Jede Entscheidung mit einem \"weil ...\" begründen – das hebt Argumentation von reiner Aufzählung ab."
+    ],
+    "selbstcheck": [
+      "Darfst du die Aufgabenstellung im Gespräch vorlesen?",
+      "Nenne drei typische Nachfragen, mit denen Prüfer dein Verständnis testen.",
+      "Wie reagierst du souverän, wenn du eine Frage nicht sofort verstehst?",
+      "Woran erkennt der Prüfer, dass du argumentierst statt nur aufzählst?"
+    ],
+    "medien": {
+      "video": { "titel": "Gesprächs- und Präsentationstechnik erklärt", "status": "geplant" },
+      "podcast": { "titel": "Gesprächs- und Präsentationstechnik zum Hören", "status": "geplant" }
+    }
+  },
+  {
+    "id": "wq-auftragssteuerung",
+    "bereich": "muendlich",
+    "name": "WQ Auftragssteuerung und -Koordination",
+    "beschreibung": "Wahlqualifikation rund um Auftragsabwicklung, Kaufvertrag, Kaufvertragsstörungen, Eigentumsvorbehalt und AGB.",
+    "haeufigkeit": [],
+    "lernzettel": "## Wahlqualifikation Auftragssteuerung und -Koordination\n\nDiese WQ dreht sich um den kompletten **Auftragsabwicklungsprozess** und das dazugehörige Vertragsrecht.\n\n### Auftragsablauf (chronologisch)\n\nKunde fragt an → Beratung → interne Klärung der Anfrage → Kalkulation → Preisfestlegung → Angebot erstellen → Vorschlag beim Kunden → endgültige Vereinbarung → Auftragsbearbeitung (Lieferung/Ausführung) → Rechnung → After-Sales-Management → Cross-Selling.\n\n- **Auftragsannahme:** Vor der Annahme wird ein Angebot erstellt; nimmt der Kunde an, entsteht ein **Kaufvertrag nach § 433 BGB**.\n- **Auftragserfassung:** Anlegen im DV-System, Kundendaten, Auftragsnummer, ggf. **Bonitätsprüfung** bei Neukunden.\n\n### Kaufvertragsstörungen\n\n- **Lieferverzug:** Lieferer hält den Termin nicht ein → Käufer kann mahnen, Nachfrist setzen, dann zurücktreten oder Schadenersatz fordern.\n- **Annahmeverzug:** Käufer nimmt ordnungsgemäße Ware nicht an → Verkäufer kann auf Abnahme bestehen oder Selbsthilfeverkauf durchführen.\n- **Zahlungsverzug:** Käufer zahlt nicht (rechtzeitig) → Verkäufer kann mahnen, Frist setzen, Schadenersatz verlangen.\n- **Mängel:** **Sachmangel** = Menge/Art fehlerhaft; **Rechtsmangel** = z. B. gestohlene Ware.\n\n### Eigentumsvorbehalt\n\nEigentum geht erst mit vollständiger Zahlung über, der Käufer darf die Sache aber schon nutzen. Formen: einfacher, **verlängerter** (Weiterverkauf) und **Verarbeitungsvorbehalt**.\n\n### AGB\n\nVorformulierte Vertragsbedingungen; unwirksam bei **Individualabreden** (persönliche Absprache geht vor) oder wenn sie nicht klar/transparent sind.",
+    "eselsbruecken": [
+      "**\"Erst zahlen, dann besitzen wird Eigentum\"**: Beim Eigentumsvorbehalt darf der Käufer die Ware nutzen (Besitz), Eigentum kommt erst mit voller Zahlung.",
+      "**LAZ** – Liefer-, Annahme-, Zahlungsverzug: die drei klassischen Kaufvertragsstörungen."
+    ],
+    "selbstcheck": [
+      "Nach welchem Paragraphen entsteht der Kaufvertrag bei Auftragsannahme?",
+      "Was unterscheidet Sachmangel von Rechtsmangel?",
+      "Wann geht beim Eigentumsvorbehalt das Eigentum über?",
+      "Wann werden AGB unwirksam?"
+    ],
+    "medien": {
+      "video": { "titel": "WQ Auftragssteuerung und -Koordination erklärt", "status": "geplant" },
+      "podcast": { "titel": "WQ Auftragssteuerung und -Koordination zum Hören", "status": "geplant" }
+    }
+  },
+  {
+    "id": "wq-kmu",
+    "bereich": "muendlich",
+    "name": "WQ Kaufmännische Abläufe in KMU",
+    "beschreibung": "Wahlqualifikation zu Aufbauorganisation, Rechtsformen, Qualitätsmanagement, Projektmanagement, Liquidität/Insolvenz und Inventur.",
+    "haeufigkeit": [],
+    "lernzettel": "## Wahlqualifikation Kaufmännische Abläufe in kleinen und mittleren Unternehmen\n\nBreite WQ zu Organisation, Rechtsformen und typischen Managementthemen in KMU.\n\n### Aufbauorganisation\n\nHierarchische Ordnung von Zuständigkeiten aus der Aufgabenverteilung. **Horizontal** = Verteilung auf Aufgabenträger (Mitarbeiter), **vertikal** = Aufbau der Instanzen (Hierarchie). Grundelemente: **Stelle** (kleinste Einheit, ausführend), **Instanz** (leitend, weisungsbefugt), **Abteilung** (fasst Stellen/Instanzen zusammen). Managementebenen: Top-, Middle-, Lower-Management.\n\n### Rechtsform KG\n\nPersonengesellschaft, mind. ein **Komplementär** haftet unbeschränkt, **Kommanditisten** nur in Höhe ihrer Einlage. Die **GmbH & Co. KG** ist eine Sonderform, bei der der Komplementär eine GmbH ist – so lassen sich Haftungsrisiken begrenzen.\n\n### Qualitätsmanagement\n\nPlanung, Lenkung, Kontrolle und Verbesserung von Prozessen (Ziel: bestimmte Qualität). Grundsätze nach **ISO 9001**: Kundenorientierung, Führung, Einbeziehung von Personen, prozessorientierter Ansatz, Verbesserung, faktengestützte Entscheidung, Beziehungsmanagement. **Audit** = interne Prüfung; **Zertifizierung** = durch externen, neutralen Prüfer.\n\n### Weitere Themen\n\n- **Projektmanagement:** systematischer Prozess zur Führung einmaliger Vorhaben (Organisation, Planung, Steuerung, Überwachung); **Meilensteine** im Zeitplan.\n- **Liquidität/Insolvenz:** Liquiditätsprobleme z. B. durch Fehlinvestitionen, zu hohe Kosten; Insolvenzantrag von Schuldner oder Gläubiger, zuständig ist das Insolvenzgericht.\n- **Inventur:** körperliche und buchmäßige Bestandsaufnahme; Formen: Stichtags-, verlegte und permanente Inventur.",
+    "eselsbruecken": [
+      "**\"Komplementär = Komplett-Haftung\"**: Der Komplementär der KG haftet unbeschränkt, der Kommanditist nur mit seiner Einlage.",
+      "**SIA** – Stelle, Instanz, Abteilung: die drei Grundelemente der Aufbauorganisation, von der kleinsten zur größten Einheit."
+    ],
+    "selbstcheck": [
+      "Was ist der Unterschied zwischen horizontaler und vertikaler Aufbauorganisation?",
+      "Wie haften Komplementär und Kommanditist in der KG?",
+      "Was unterscheidet ein Audit von einer Zertifizierung?",
+      "Welche drei Inventurarten kennst du?"
+    ],
+    "medien": {
+      "video": { "titel": "WQ Kaufmännische Abläufe in KMU erklärt", "status": "geplant" },
+      "podcast": { "titel": "WQ Kaufmännische Abläufe in KMU zum Hören", "status": "geplant" }
+    }
+  },
+  {
+    "id": "wq-einkauf-logistik",
+    "bereich": "muendlich",
+    "name": "WQ Einkauf und Logistik",
+    "beschreibung": "Wahlqualifikation zu Lagerkennzahlen, Bestellverfahren, Make-or-Buy, Angebotsvergleich und optimaler Bestellmenge.",
+    "haeufigkeit": [],
+    "lernzettel": "## Wahlqualifikation Einkauf und Logistik\n\nRechenlastige WQ rund um Lagerhaltung, Beschaffung und Lieferantenauswahl.\n\n### Lagerkennzahlen\n\n- **Meldebestand** = Tagesabsatz × Lieferzeit + Mindestbestand.\n- **Sicherheits-/Mindestbestand** darf nicht unterschritten werden (Lieferbereitschaft sichern).\n- **Durchschnittlicher Lagerbestand** = (Anfangs- + Endbestand) / 2.\n- **Umschlagshäufigkeit** = Jahresabsatz / durchschnittlicher Lagerbestand.\n- **Durchschnittliche Lagerdauer** = 360 / Umschlagshäufigkeit.\n- **Höchstbestand** = Sicherheitsbestand + Bestellmenge.\n\n### Bestellverfahren\n\n- **Bestellpunktverfahren:** Bestellung, sobald der Meldebestand erreicht ist. Geringe Gefahr der Unterdeckung, aber höherer personeller Aufwand.\n- **Bestellrhythmusverfahren:** Bestellung zu festen Zeitpunkten (z. B. je Quartal). Einfacher, aber Gefahr von Über-/Unterbeständen bei Bedarfsschwankungen.\n\n### Make-or-Buy und Angebotsvergleich\n\n- **Kritische Menge:** Ab ihr ist Eigenfertigung günstiger als Fremdbezug (Vergleich fixe + variable Kosten gegen Bezugspreis).\n- **Angebotsvergleich:** Bezugspreis = Listenpreis − Rabatt − Skonto + Bezugskosten. Zusätzlich qualitative Kriterien (Qualität, Lieferzeit, Zahlungsbedingungen).\n- **Optimale Bestellmenge:** minimiert die Summe aus Bestell- und Lagerkosten.\n- **Just-in-time:** Anlieferung erst bei Bedarf → weniger Kapitalbindung, aber Abhängigkeit vom Lieferanten.",
+    "eselsbruecken": [
+      "**\"Melde dich rechtzeitig\"** – Meldebestand = Tagesbedarf × Lieferzeit + Mindestbestand: er meldet, wann neu bestellt werden muss.",
+      "**\"Punkt vs. Rhythmus\"**: Bestellpunkt = mengenausgelöst (bei Meldebestand), Bestellrhythmus = zeitausgelöst (feste Termine)."
+    ],
+    "selbstcheck": [
+      "Wie berechnest du den Meldebestand?",
+      "Wie ist die Umschlagshäufigkeit definiert?",
+      "Was unterscheidet Bestellpunkt- von Bestellrhythmusverfahren?",
+      "Was besagt die kritische Menge bei Make-or-Buy?"
+    ],
+    "medien": {
+      "video": { "titel": "WQ Einkauf und Logistik erklärt", "status": "geplant" },
+      "podcast": { "titel": "WQ Einkauf und Logistik zum Hören", "status": "geplant" }
+    }
+  },
+  {
+    "id": "wq-marketing-vertrieb",
+    "bereich": "muendlich",
+    "name": "WQ Marketing und Vertrieb",
+    "beschreibung": "Wahlqualifikation zu ABC-Analyse, Konjunkturphasen, Marktforschung, Preiskalkulation, UWG und Werbeerfolgskontrolle.",
+    "haeufigkeit": [],
+    "lernzettel": "## Wahlqualifikation Marketing und Vertrieb\n\nWQ rund um Kundenanalyse, Marktforschung, Preisbildung und Werberecht.\n\n### ABC-Analyse\n\nKunden (oder Artikel) nach Umsatzanteil in **A, B, C** einteilen. A-Kunden: direkte, intensive Betreuung; B-Kunden: Kontakt ausbauen; C-Kunden: möglichst kostengünstig betreuen (wenig Potenzial).\n\n### Konjunkturphasen\n\nAufschwung (Expansion) → Hochkonjunktur (Boom) → Abschwung (Rezession) → Tiefphase (Depression). Merkmale je Phase: Arbeitslosigkeit, Auftragslage, Zinsniveau, Lohn-/Preisentwicklung, Erwartungen.\n\n### Marktforschung\n\n- **Primärforschung:** eigene, neue Datenerhebung. **Sekundärforschung:** vorhandene Quellen.\n- Befragungsmethoden: schriftlich, Face-to-Face, CAPI, telefonisch, CATI, Online. Jeweils Vor-/Nachteile abwägen.\n- **Offene vs. geschlossene Fragen:** geschlossene sind schnell auswertbar, können aber die Antwort in eine Richtung drängen.\n\n### Preiskalkulation (Handelskalkulation)\n\nListenpreis − Rabatt = Zieleinkaufspreis − Skonto = Bareinkaufspreis + Bezugskosten = Bezugspreis + Handlungskosten = Selbstkostenpreis + Gewinnzuschlag = Barverkaufspreis.\n\n### Werberecht und Werbeerfolg\n\n- **UWG** schützt Mitbewerber, Verbraucher und Allgemeinheit vor unlauterem Wettbewerb; Rechtsfolgen: Unterlassung, Schadenersatz.\n- **Werbeerfolgskontrolle:** ökonomisch (Umsatz, Gewinn) oder außerökonomisch (Reichweite). **Wirtschaftlichkeit** = Ertrag / Aufwand (> 1 = Erfolg).",
+    "eselsbruecken": [
+      "**\"A hätscheln, C sparen\"**: A-Kunden intensiv betreuen, C-Kunden möglichst kostengünstig (ABC-Analyse nach Umsatzanteil).",
+      "**\"Primär = ich erhebe, Sekundär = ich sammle\"**: Primärforschung erhebt neue Daten, Sekundärforschung nutzt vorhandene."
+    ],
+    "selbstcheck": [
+      "Wie werden A-, B- und C-Kunden unterschiedlich betreut?",
+      "Nenne die vier Konjunkturphasen in der richtigen Reihenfolge.",
+      "Was unterscheidet Primär- von Sekundärforschung?",
+      "Wen schützt das UWG und welche Rechtsfolgen drohen?"
+    ],
+    "medien": {
+      "video": { "titel": "WQ Marketing und Vertrieb erklärt", "status": "geplant" },
+      "podcast": { "titel": "WQ Marketing und Vertrieb zum Hören", "status": "geplant" }
+    }
+  },
+  {
+    "id": "wq-personalwirtschaft",
+    "bereich": "muendlich",
+    "name": "WQ Personalwirtschaft",
+    "beschreibung": "Wahlqualifikation zu Personalbeschaffung, Stellenanzeige, Arbeitsvertrag, Assessment-Center, AGG und Beitragsbemessungsgrenze.",
+    "haeufigkeit": [],
+    "lernzettel": "## Wahlqualifikation Personalwirtschaft\n\nWQ rund um Personalbeschaffung, -auswahl und arbeitsrechtliche Grundlagen.\n\n### Personalbeschaffung\n\n- **Interne** Besetzung: Mitarbeiter kennt das Unternehmen, oft nur Umsetzung nötig. **Externe** Besetzung: Stelle muss ausgeschrieben werden, bringt \"frischen Wind\".\n- **Stellenanzeige:** Probleme, wenn Aufgaben/Anforderungen unklar beschrieben sind oder das **AGG** missachtet wird (nicht alle Geschlechter/Altersgruppen angesprochen).\n- Internet als Medium: erreicht viele Bewerber, kostengünstig oder kostenlos, direkte Online-Bewerbung.\n\n### Einstellung und Vertrag\n\nBenötigte Unterlagen: Arbeitsvertrag, Steuer-ID/Lohnsteuerklasse, ggf. Urlaubsbescheinigung, Mitgliedsbestätigung Krankenkasse, Sozialversicherungsausweis, ggf. Arbeitserlaubnis. Der Staat schränkt die **Vertragsfreiheit** durch Gesetze ein, die Mindestrechte garantieren.\n\n### Auswahl mit Assessment-Center\n\nBewerber werden in Gruppen- und Einzelaufgaben verglichen. Geprüfte Kompetenzen: Teamfähigkeit, Motivation, Konfliktfähigkeit, Verantwortung, Hilfsbereitschaft, Toleranz. Vorteil: umfassender Vergleich; Nachteil: Stress-/Konkurrenzsituation, Verhalten nicht immer authentisch.\n\n### Rechtliche Grundlagen\n\n- **AGG (Allgemeines Gleichbehandlungsgesetz):** verbietet Benachteiligung u. a. wegen Alter, Geschlecht, Herkunft. Wer deswegen abgelehnt wird, kann klagen.\n- **Beitragsbemessungsgrenze:** Höchstbetrag des Einkommens, bis zu dem Sozialversicherungsbeiträge prozentual berechnet werden.\n- **Vom Brutto zum Netto:** Lohnsteuer, Soli, ggf. Kirchensteuer und anteilige Sozialversicherungen abziehen.",
+    "eselsbruecken": [
+      "**\"Intern kennt, extern bringt\"**: interne Besetzung – Mitarbeiter kennt den Betrieb; externe Besetzung – frischer Wind von außen.",
+      "**\"AGG = Alle Gleich\"**: Das AGG verbietet Benachteiligung wegen Alter, Geschlecht, Herkunft usw. – wichtig schon in der Stellenanzeige."
+    ],
+    "selbstcheck": [
+      "Nenne je einen Vorteil interner und externer Personalbeschaffung.",
+      "Welche Unterlagen benötigst du zur Einstellung eines neuen Mitarbeiters?",
+      "Was verbietet das AGG und wer kann klagen?",
+      "Was ist die Beitragsbemessungsgrenze?"
+    ],
+    "medien": {
+      "video": { "titel": "WQ Personalwirtschaft erklärt", "status": "geplant" },
+      "podcast": { "titel": "WQ Personalwirtschaft zum Hören", "status": "geplant" }
+    }
+  },
+  {
+    "id": "wq-assistenz-sekretariat",
+    "bereich": "muendlich",
+    "name": "WQ Assistenz und Sekretariat",
+    "beschreibung": "Wahlqualifikation zu Organigramm/Leitungssystemen, Poststelle, Serienbrief, Bürogestaltung, Zeitmanagement und Aufbewahrungsfristen.",
+    "haeufigkeit": [],
+    "lernzettel": "## Wahlqualifikation Assistenz und Sekretariat\n\nWQ rund um Büroorganisation, Kommunikation und Arbeitsmittel im Sekretariat.\n\n### Organigramm und Leitungssysteme\n\nLeitungssysteme: **Einliniensystem, Stabliniensystem, Mehrliniensystem, Matrixorganisation**. Das **Einliniensystem** ermöglicht schnelle Kommunikation und klare Kompetenzen (jede Einheit hat genau eine übergeordnete). **Stabsstellen** sind an eine Leitungsstelle gebunden und beraten, ohne weisungsbefugt zu sein.\n\n### Aufbau- vs. Ablauforganisation\n\n**Aufbauorganisation** gliedert Aufgaben in Bereiche/Stellen (Ergebnis: Organigramm). **Ablauforganisation** baut darauf auf und ordnet die Arbeitsvorgänge zeitlich/räumlich.\n\n### Poststelle und Serienbrief\n\n- **Postausgang:** Zusammentragen, Falzen, Kuvertieren, Wiegen, Frankieren, Übergabe an Postdienstleister.\n- **Posteingang:** Empfang, Sortieren, Öffnen, Kontrolle, Stempeln, Verteilen.\n- **Serienbrief:** Dokument, das sich nur in einzelnen Teilen (Anschrift/Anrede) unterscheidet; Inhalt gleich. Vorteil: schnelle Massenverarbeitung; Nachteil: nicht individuell, Datenquelle muss gepflegt werden.\n\n### Bürogestaltung und Zeitmanagement\n\n- **Großraumbüro:** schnelle Kommunikation, geringere Kosten – aber Lärm, Stress, keine vertraulichen Gespräche.\n- **Ergonomie/Bildschirmarbeit:** richtige Haltung, Beleuchtung, Pausen.\n- **ALPEN-Methode:** Aufgaben notieren, Länge schätzen, Pufferzeiten, Entscheidungen/Priorisierung, Nachkontrolle.\n\n### Aufbewahrungsfristen\n\n**6 Jahre** für empfangene Handelsbriefe und Kopien abgesandter Handelsbriefe; **10 Jahre** für Handelsbücher, Inventare, Jahresabschlüsse, Buchungsbelege, Rechnungen.",
+    "eselsbruecken": [
+      "**ALPEN** – Aufgaben notieren, Länge schätzen, Pufferzeiten, Entscheidungen priorisieren, Nachkontrolle: die Zeitmanagement-Methode.",
+      "**\"6 Briefe, 10 Bücher\"**: 6 Jahre Aufbewahrung für Handelsbriefe, 10 Jahre für Handelsbücher und Buchungsbelege."
+    ],
+    "selbstcheck": [
+      "Welche vier Leitungssysteme kennst du?",
+      "Was unterscheidet Aufbau- von Ablauforganisation?",
+      "Was ist ein Serienbrief und wo liegt sein Nachteil?",
+      "Welche Aufbewahrungsfristen gelten für Handelsbriefe und Handelsbücher?"
+    ],
+    "medien": {
+      "video": { "titel": "WQ Assistenz und Sekretariat erklärt", "status": "geplant" },
+      "podcast": { "titel": "WQ Assistenz und Sekretariat zum Hören", "status": "geplant" }
+    }
+  }
+]

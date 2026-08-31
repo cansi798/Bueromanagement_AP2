@@ -1,0 +1,127 @@
+[
+  {
+    "id": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "name": "Kaufvertrag & Kaufvertragsstörungen",
+    "beschreibung": "Zustandekommen des Kaufvertrags, Handelsgeschäfte, Mängelrüge sowie Zahlungsverzug, Verjährung und Mahnverfahren.",
+    "haeufigkeit": ["2025-sommer"],
+    "lernzettel": "## Zustandekommen des Kaufvertrags\nEin Kaufvertrag entsteht durch zwei übereinstimmende Willenserklärungen: **Antrag (Angebot)** und **Annahme**. Die Anfrage ist rechtlich unverbindlich. Ein Angebot ist grundsätzlich bindend (§ 145 BGB), außer es enthält eine **Freizeichnungsklausel** (z. B. \"freibleibend\" = kein verbindliches Angebot; \"solange Vorrat reicht\" = verbindlich, solange Ware vorhanden). Ist ein Angebot befristet, kommt der Vertrag mit der fristgerechten **Bestellung** (= Annahme) zustande. Die Auftragsbestätigung ist dann nur noch Bestätigung, kein neuer Antrag.\n\n## Handelsgeschäfte\nEin **zweiseitiges Handelsgeschäft** liegt vor, wenn beide Vertragspartner Kaufleute sind. Nur dann gilt die kaufmännische **Untersuchungs- und Rügepflicht (§ 377 HGB)**: Ware unverzüglich prüfen und Mängel unverzüglich rügen, sonst gilt sie als genehmigt.\n\n## Mängelarten\n- **Offener Mangel**: sofort bei normaler Prüfung erkennbar (z. B. Kratzer).\n- **Versteckter Mangel**: erst später erkennbar.\n- **Arglistig verschwiegener Mangel**: bewusst verschwiegen.\n\n## Rechte des Käufers\nVorrangig: **Nacherfüllung** – nach Wahl des Käufers **Nachbesserung (Reparatur)** oder **Ersatzlieferung**. Nachrangig: Minderung, Rücktritt, Schadensersatz.\n\n## Zahlungsverzug & Verjährung\nVerzug tritt ein, wenn nach Fälligkeit + Mahnung (oder 30 Tage nach Rechnung/Fälligkeit) nicht gezahlt wird. Die regelmäßige **Verjährungsfrist beträgt 3 Jahre** und beginnt zum Jahresende. Eine **Abschlagszahlung (Anerkenntnis)** unterbricht die Verjährung – sie beginnt neu zu laufen.\n\n## Mahnverfahren\nBleibt die Zahlung aus, folgt das **gerichtliche Mahnverfahren**: Mahnbescheid → Vollstreckungsbescheid. Legt der Schuldner keinen Widerspruch/Einspruch ein, erhält der Gläubiger einen **vollstreckbaren Titel** und kann die **Zwangsvollstreckung** einleiten.\n\n**Merke:** Anfrage = unverbindlich, Angebot = verbindlich (außer Freizeichnung), Bestellung = Annahme.",
+    "eselsbruecken": [
+      "AABB: Anfrage – Angebot – Bestellung – Bestätigung ist die Reihenfolge der Auftragsanbahnung.",
+      "\"Freibleibend fliegt frei\" – bei der Klausel 'freibleibend' ist der Anbieter NICHT gebunden.",
+      "Verjährung: 3 Jahre, Start Silvester – die Uhr tickt erst ab dem 31.12. des Kaufjahres.",
+      "Nacherfüllung zuerst: erst REParieren oder ERSetzen, dann erst mindern/zurücktreten."
+    ],
+    "selbstcheck": [
+      "Wann kommt ein Kaufvertrag rechtlich zustande?",
+      "Was unterscheidet die Klausel 'freibleibend' von 'solange Vorrat reicht'?",
+      "Welche zwei vorrangigen Rechte hat der Käufer bei einem Mangel?",
+      "Wie lang ist die regelmäßige Verjährungsfrist und wann beginnt sie?",
+      "Was bewirkt eine Abschlagszahlung für die Verjährung?"
+    ],
+    "medien": {
+      "video": { "titel": "Kaufvertrag & Kaufvertragsstörungen erklärt", "status": "geplant" },
+      "podcast": { "titel": "Kaufvertrag & Kaufvertragsstörungen zum Hören", "status": "geplant" }
+    }
+  },
+  {
+    "id": "kundenkommunikation",
+    "bereich": "kbz",
+    "name": "Kundenkommunikation & Beschwerdemanagement",
+    "beschreibung": "Fragetechniken, Beschwerdemanagement, Kundenbindung, nonverbale Kommunikation und die Gesprächsnotiz.",
+    "haeufigkeit": ["2025-sommer"],
+    "lernzettel": "## Fragetechniken\n- **Geschlossene Frage**: nur Ja/Nein möglich (\"Ist meine E-Mail angekommen?\").\n- **Offene Frage** (W-Frage): fördert Erzählen (\"Was genau ist passiert?\").\n- **Alternativfrage**: bietet zwei Optionen (\"E-Mail oder Brief?\").\n- **Kontrollfrage**: prüft Verständnis/Sachverhalt.\n- **Suggestivfrage**: legt Antwort in den Mund (unfair, meiden).\n\n**Achtung:** Frageform und Formulierung müssen zusammenpassen – z. B. ist \"Sind Sie zufrieden?\" eine geschlossene, keine offene Frage.\n\n## Beschwerdemanagement\nZiele: **Beschwerdequote senken**, **Kundenzufriedenheit erhöhen**, professionelles Auftreten mit festen Ansprechpartnern. Merkmale eines guten Beschwerdemanagements: **schnelle, kundenfreundliche Reaktion** und **transparente Kommunikation**.\n\nAblauf eines Reklamationsgesprächs: Begrüßung → Zuhören → **Entschuldigung** → Lösung/Versprechen zur Mängelbeseitigung → ggf. Kulanz (Rabatt) → Verabschiedung. Ziel ist immer, den Kunden zu halten.\n\n## Nonverbale Kommunikation\nKörpersprache signalisiert Wertschätzung: **Blickkontakt**, **Nicken** (Zustimmung/Aufmerksamkeit), **offene Körperhaltung**, freundliche Mimik. Sie unterstützt die verbale Botschaft.\n\n## Kundenbindung\nMaßnahmen: Beschwerdemanagement, Mitarbeiterschulung, **Newsletter**, **Rabattaktionen/Bonusprogramme**, **Tag der offenen Tür**, persönliche Betreuung.\n\n## Gesprächsnotiz\nWesentliche Inhalte: **Datum und Uhrzeit**, **Name der Gesprächsteilnehmer**, Anliegen, **getroffene Entscheidungen/Vereinbarungen** und Wiedervorlage. Sie sichert die Informationsweitergabe.\n\n**Merke:** Der Kunde soll das Unternehmen nach einer Beschwerde positiver verlassen, als er gekommen ist.",
+    "eselsbruecken": [
+      "OGAKS: Offen, Geschlossen, Alternativ, Kontroll, Suggestiv – die fünf Fragetypen.",
+      "Beschwerde = Chance: Ein zufrieden gelöster Fall bindet den Kunden stärker als gar kein Problem.",
+      "Notiz-Regel WWWW: Wer, Wann, Was, Was-vereinbart – gehört in jede Gesprächsnotiz.",
+      "Nonverbal 'NBO': Nicken, Blickkontakt, Offene Haltung zeigen Wertschätzung."
+    ],
+    "selbstcheck": [
+      "Nenne drei Fragetechniken und je ein Beispiel.",
+      "Welche drei Ziele verfolgt ein Beschwerdemanagement?",
+      "Welche Inhalte gehören neben Datum und Uhrzeit in eine Gesprächsnotiz?",
+      "Nenne zwei Beispiele nonverbaler Kommunikation, die Wertschätzung zeigen.",
+      "Welche Maßnahmen fördern die Kundenbindung?"
+    ],
+    "medien": {
+      "video": { "titel": "Kundenkommunikation & Beschwerdemanagement erklärt", "status": "geplant" },
+      "podcast": { "titel": "Kundenkommunikation & Beschwerdemanagement zum Hören", "status": "geplant" }
+    }
+  },
+  {
+    "id": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "name": "Rechnung & Umsatzsteuer",
+    "beschreibung": "Pflichtangaben einer Rechnung nach UStG, Warenbegleitpapiere sowie Umsatzsteuer, Vorsteuer und Zahllast.",
+    "haeufigkeit": ["2025-sommer"],
+    "lernzettel": "## Pflichtangaben einer Rechnung (§ 14 Abs. 4 UStG)\nEine ordnungsgemäße Rechnung muss enthalten:\n1. Name und Anschrift von leistendem Unternehmer und Leistungsempfänger\n2. **Steuernummer oder USt-IdNr.** des leistenden Unternehmers\n3. Ausstellungsdatum\n4. fortlaufende **Rechnungsnummer**\n5. Menge und Art der Leistung\n6. Zeitpunkt der Lieferung/Leistung\n7. das nach Steuersätzen aufgeschlüsselte Entgelt\n8. den anzuwendenden **Steuersatz (z. B. 19 %)** und den Steuerbetrag\n\n## Frist zur Rechnungsstellung\nBei Leistungen an ein anderes Unternehmen (B2B) muss die Rechnung **innerhalb von 6 Monaten** nach Ausführung der Leistung erstellt werden; Fristbeginn ist der Tag der Lieferung.\n\n## Warenbegleitpapiere\nBeim Warentransport wird ein **Lieferschein** erstellt. Er begleitet die Ware und listet die gelieferten Positionen (nicht Auftragsbestätigung, Angebot oder Bestellung).\n\n## Umsatzsteuer und Vorsteuer\n- **Umsatzsteuer (USt)**: fällt auf eigene Ausgangsumsätze (Erlöse) an – Verbindlichkeit gegenüber dem Finanzamt.\n- **Vorsteuer (VSt)**: die vom Lieferanten in Rechnung gestellte USt auf Eingangsrechnungen – Forderung ans Finanzamt.\n\n## Zahllast\n**Zahllast = vereinnahmte Umsatzsteuer − abziehbare Vorsteuer.**\nBei einer USt-Voranmeldung mindern Erlösberichtigungen die USt, Nachlässe mindern die Vorsteuer. Ist die Vorsteuer größer als die USt, entsteht ein **Vorsteuerüberhang** (Erstattung).\n\nBeispiel S25: USt 90.685,80 − 1.773,79 (Erlösberichtigung) = 88.912,01; VSt 73.862,39 − 2.463,58 (Nachlass) = 71.398,81. Zahllast = 88.912,01 − 71.398,81 = **17.513,20 €**.\n\n**Merke:** Vorsteuer zahlst du beim Einkauf, Umsatzsteuer kassierst du beim Verkauf – die Differenz geht ans Finanzamt.",
+    "eselsbruecken": [
+      "Zahllast = USt minus VSt: 'Einkaufssteuer runter, Verkaufssteuer rauf, Rest geht ans Amt'.",
+      "Vorsteuer = Vorkasse an den Lieferanten, die du dir vom Finanzamt zurückholst.",
+      "Rechnungs-Pflicht 'SRS': Steuernummer, Rechnungsnummer, Steuersatz dürfen nie fehlen.",
+      "B2B-Rechnung: 6 Monate Zeit – ein halbes Jahr ab Lieferung."
+    ],
+    "selbstcheck": [
+      "Nenne drei Pflichtangaben einer Rechnung nach § 14 UStG.",
+      "Innerhalb welcher Frist muss eine B2B-Rechnung erstellt werden?",
+      "Welches Warenbegleitpapier begleitet den Warentransport?",
+      "Wie berechnet man die Umsatzsteuerzahllast?",
+      "Was ist ein Vorsteuerüberhang?"
+    ],
+    "medien": {
+      "video": { "titel": "Rechnung & Umsatzsteuer erklärt", "status": "geplant" },
+      "podcast": { "titel": "Rechnung & Umsatzsteuer zum Hören", "status": "geplant" }
+    }
+  },
+  {
+    "id": "personalwirtschaft",
+    "bereich": "kbz",
+    "name": "Personalwirtschaft",
+    "beschreibung": "Dienstreisen, gesetzliche Unfallversicherung, Betriebsvereinbarung, Einsatzplanung und Arbeitszeitgesetz.",
+    "haeufigkeit": ["2025-sommer"],
+    "lernzettel": "## Dienstreisen\nEin **Dienstreiseantrag** benötigt: Name/Vorname, Anlass/Zweck, **Ort/Ziel**, **Dauer (Zeitraum)** und ein **Unterschriftenfeld**. Zur Reisekostenabrechnung werden nur betrieblich veranlasste, belegte Kosten anerkannt (z. B. **Taxiquittung Bahnhof–Hotel**), nicht aber private Ausgaben (Minibar, Drogerieartikel). Kostenreduzierung: **preiswertere Hotels/Transportmittel** oder Ersatz durch **Online-Meetings**.\n\n## Gesetzliche Unfallversicherung (SGB VII)\nTräger ist die **Berufsgenossenschaft**.\n- **Arbeitsunfall**: Unfall direkt bei der beruflichen Tätigkeit.\n- **Wegeunfall**: Unfall auf dem direkten Weg zur oder von der Arbeit.\n\n**Meldepflicht des Arbeitgebers (§ 193 SGB VII):** anzeigepflichtig sind Unfälle, bei denen der Versicherte **mehr als 3 Tage arbeitsunfähig** ist. Der Arbeitnehmer muss seinen Unfall unverzüglich dem **Arbeitgeber** melden.\n\n## Betriebsvereinbarung\nWird zwischen **Arbeitgeber und Betriebsrat** geschlossen und bedarf der **Schriftform**. Sie regelt betriebliche Angelegenheiten (z. B. Bedingungen für \"Smart Work\"/Homeoffice). Zur Information aller Mitarbeitenden eignet sich z. B. die **Veröffentlichung im Intranet**.\n\n## Einsatzplanung & Arbeitszeitgesetz (ArbZG)\nBei der Personaleinsatzplanung sind Teilzeit-, Vollzeit- und Homeoffice-Wünsche mit der Präsenzpflicht in Einklang zu bringen.\n\n**§ 3 ArbZG:** Die werktägliche Arbeitszeit darf **8 Stunden** nicht überschreiten, verlängerbar auf bis zu **10 Stunden**, wenn im Durchschnitt von 6 Monaten/24 Wochen 8 Stunden nicht überschritten werden. So darf eine Vollzeitkraft (40 Std./Woche) bei kurzem Freitag (6 Std.) an den restlichen 4 Tagen je 8,5 Std. arbeiten – zulässig, da unter 10 Std.\n\n**Merke:** Berufsgenossenschaft = Unfallversicherung; Betriebsrat + Schriftform = Betriebsvereinbarung.",
+    "eselsbruecken": [
+      "Unfall-Meldung ab '3+1': mehr als 3 Tage arbeitsunfähig = anzeigepflichtig.",
+      "Weg zur Arbeit = WEGeunfall, bei der Arbeit = ARBEITSunfall.",
+      "Betriebsvereinbarung braucht 'BS': Betriebsrat + Schriftform.",
+      "ArbZG '8 normal, 10 die Grenze' – über 10 Stunden geht nie."
+    ],
+    "selbstcheck": [
+      "Welche Angaben muss ein Dienstreiseantrag enthalten?",
+      "Was ist der Unterschied zwischen Arbeits- und Wegeunfall?",
+      "Ab welcher Ausfallzeit muss der Arbeitgeber einen Unfall der Berufsgenossenschaft melden?",
+      "Zwischen wem wird eine Betriebsvereinbarung geschlossen und welche Form ist nötig?",
+      "Wie viele Stunden darf man laut ArbZG werktäglich maximal arbeiten?"
+    ],
+    "medien": {
+      "video": { "titel": "Personalwirtschaft erklärt", "status": "geplant" },
+      "podcast": { "titel": "Personalwirtschaft zum Hören", "status": "geplant" }
+    }
+  },
+  {
+    "id": "kostenrechnung",
+    "bereich": "kbz",
+    "name": "Kosten- und Leistungsrechnung",
+    "beschreibung": "Break-even-Point, Stückkosten und Fixkostendegression, Zuschlagskalkulation sowie Normalkosten und Kostenabweichungen.",
+    "haeufigkeit": ["2025-sommer"],
+    "lernzettel": "## Grundbegriffe\n**Kosten** = Wert aller zur Erreichung des Betriebszwecks verbrauchten Güter und Dienstleistungen pro Periode. **Deckungsbeitrag (DB)** = Verkaufserlös − variable Kosten (pro Stück).\n\n## Break-even-Point (Gewinnschwelle)\nAn der Gewinnschwelle deckt der Umsatz genau die Kosten:\n**BEP (Stück) = Fixkosten / Deckungsbeitrag pro Stück.**\nBeispiel: 125.800 € / (99 − 65) = 125.800 / 34 = **3.700 Stück**.\n\n## Gewinnberechnung\n**Gewinn = Umsatzerlöse − Fixkosten − variable Gesamtkosten.**\nBeispiel bei 5.000 Stück: 5.000·99 − 125.800 − 5.000·65 = 495.000 − 125.800 − 325.000 = **44.200 €**.\n\n## Stückkosten & Fixkostendegression\n**Stückkosten (Gesamtkosten/Stück) = Fixkosten/Menge + variable Stückkosten.**\nBeispiel bei 10.000 Stück: 125.800/10.000 + 65 = 12,58 + 65 = **77,58 €**. Mit steigender Menge sinken die Stückkosten, weil sich die Fixkosten auf mehr Stück verteilen → **Fixkostendegression**.\n\n## Zuschlagskalkulation (Selbstkosten)\nSchema:\nFertigungsmaterial\n+ Materialgemeinkosten (Zuschlag auf Material)\n= Materialkosten\nFertigungslöhne\n+ Fertigungsgemeinkosten (Zuschlag auf Löhne)\n= Fertigungskosten\n**= Herstellkosten**\n+ Verwaltungsgemeinkosten\n+ Vertriebsgemeinkosten\n**= Selbstkosten**\n\n## Normalkosten & Kostenabweichung\n**Normalkosten** = durchschnittliche Istkosten vergangener Perioden. Liegen die Istkosten höher (z. B. durch Materialpreiserhöhungen), spricht man von **Kostenunterdeckung** (kalkulierte Kosten zu niedrig), sonst von **Kostenüberdeckung**.\n\n**Merke:** DB deckt zuerst die Fixkosten – ab dem Break-even beginnt der Gewinn.",
+    "eselsbruecken": [
+      "Break-even 'FiDe': Fixkosten geteilt durch Deckungsbeitrag = Gewinnschwelle.",
+      "Fixkostendegression: mehr Stück = weniger Fixkosten je Stück ('geteilte Last ist halbe Last').",
+      "Kalkulation MFHVV: Material – Fertigung – Herstellkosten – Verwaltung – Vertrieb – Selbstkosten.",
+      "Ist > Normal = UnterDeckung (zu wenig kalkuliert); Ist < Normal = ÜberDeckung."
+    ],
+    "selbstcheck": [
+      "Wie berechnet man den Break-even-Point in Stück?",
+      "Wie ermittelt man den Gewinn aus Umsatz, Fixkosten und variablen Kosten?",
+      "Warum sinken die Stückkosten bei steigender Produktionsmenge?",
+      "Nenne die Stufen der Zuschlagskalkulation bis zu den Selbstkosten.",
+      "Was sind Normalkosten und wann liegt eine Kostenunterdeckung vor?"
+    ],
+    "medien": {
+      "video": { "titel": "Kosten- und Leistungsrechnung erklärt", "status": "geplant" },
+      "podcast": { "titel": "Kosten- und Leistungsrechnung zum Hören", "status": "geplant" }
+    }
+  }
+]
