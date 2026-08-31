@@ -4809,5 +4809,2552 @@
       2
     ],
     "loesung": "Richtig ist Aussage 3: Die Absenkung der Zimmertemperatur um 1 °C und die Nachtabsenkung ab 17 Uhr senken den Energieverbrauch. (Antizyklischer Heizöleinkauf senkt Kosten, nicht den Verbrauch; Kipplüften ist energetisch ungünstig.)"
+  },
+  {
+    "id": "wiso-2019s-a1",
+    "themaId": "finanzierung-kreditsicherung",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2019-sommer",
+    "typ": "mc",
+    "text": "Ein Unternehmen plant die Erweiterung seines Fuhrparks (Anschaffungskosten 200.000 €) und diskutiert verschiedene Finanzierungsmöglichkeiten. Prüfen Sie, welcher Sachverhalt auf die Selbstfinanzierung zutrifft!",
+    "punkte": 3.33333,
+    "optionen": [
+      "Die Gesellschafter zahlen die erforderliche Summe von ihrem Privatvermögen auf das Geschäftskonto ein.",
+      "Die Komplementärin nimmt einen Kredit auf, für den sie persönlich haftet.",
+      "Teile des Unternehmensgewinns werden verwendet, um den Kauf der neuen Firmenfahrzeuge zu finanzieren.",
+      "Bei der Selbstfinanzierung wird der Kaufpreis durch Einlagen finanziert, die von den Gesellschaftern eingebracht werden.",
+      "Die Selbstfinanzierung neuer Fahrzeuge erfolgt durch Aufnahme eines neuen Kommanditisten."
+    ],
+    "korrekt": [
+      2
+    ],
+    "loesung": "Teile des Unternehmensgewinns werden verwendet, um den Kauf zu finanzieren.",
+    "erklaerung": "Selbstfinanzierung ist Innenfinanzierung aus einbehaltenem (nicht ausgeschüttetem) Gewinn. Einlagen der Gesellschafter oder neue Gesellschafter sind Beteiligungs- (Außen-)finanzierung, ein Kredit ist Fremdfinanzierung."
+  },
+  {
+    "id": "wiso-2019s-a2",
+    "themaId": "finanzierung-kreditsicherung",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2019-sommer",
+    "typ": "mc",
+    "text": "Welchen Vorteil bietet Leasing als Finanzierungsalternative?",
+    "punkte": 3.33333,
+    "optionen": [
+      "Das Unternehmen kann zusätzliche Serviceleistungen im Leasingvertrag vereinbaren.",
+      "Beim Leasing kann das Unternehmen nach einer Mindestlaufzeit des Vertrages das geleaste Fahrzeug kostenlos erwerben.",
+      "Leasing ist immer kostengünstiger als ein kreditfinanzierter Kauf.",
+      "Die geleasten Autos werden bilanziert, erhöhen das Vermögen und damit die Kreditfähigkeit.",
+      "Beim Leasing muss das Unternehmen das Fahrzeug weder gesondert versichern noch versteuern."
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Das Unternehmen kann zusätzliche Serviceleistungen im Leasingvertrag vereinbaren.",
+    "erklaerung": "Laut Lösungsschlüssel ist Kennziffer 1 (oder alternativ 5) zutreffend. Der wesentliche Vorteil ist die Möglichkeit, Serviceleistungen mit einzubeziehen; die geleaste Sache bleibt Eigentum des Leasinggebers und belastet nicht die Bilanz."
+  },
+  {
+    "id": "wiso-2019s-a3",
+    "themaId": "finanzierung-kreditsicherung",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2019-sommer",
+    "typ": "mc",
+    "text": "Welche Besonderheit kennzeichnet das Factoring, wenn sich das Unternehmen entscheidet, über diesen Weg die 200.000 € zu finanzieren?",
+    "punkte": 3.33333,
+    "optionen": [
+      "Beim Factoring werden Forderungen an eine Factoring-Gesellschaft vermietet und das Unternehmen erhält dafür ein Entgelt.",
+      "Die Factoring-Gesellschaft berechnet einen Abschlag auf die erworbenen Forderungen, um daraus eigene Kosten und Gewinn abzudecken.",
+      "Falls die Factoring-Gesellschaft die erworbenen Forderungen nicht durchsetzen kann, kann sie diese immer zurückübertragen.",
+      "Durch das Factoring steigt das Image des Unternehmens bei seinen Kunden.",
+      "Die Factoring-Gesellschaft kauft nur Forderungen von Kunden, die noch nie Zahlungsschwierigkeiten hatten."
+    ],
+    "korrekt": [
+      1
+    ],
+    "loesung": "Die Factoring-Gesellschaft berechnet einen Abschlag auf die erworbenen Forderungen, um daraus eigene Kosten und Gewinn abzudecken.",
+    "erklaerung": "Beim Factoring werden Forderungen verkauft (nicht vermietet); der Factor zieht einen Abschlag ab, der seine Kosten, sein Risiko und seinen Gewinn deckt."
+  },
+  {
+    "id": "wiso-2019s-a4",
+    "themaId": "unternehmensorganisation",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2019-sommer",
+    "typ": "mc",
+    "text": "Als Inhaber der neu geschaffenen Stabstelle „Betriebliche Organisation und Abläufe“ stehen Sie der Geschäftsführung zur Seite. Welche Bedeutung hat Ihre Stelle für die Organisation und die Prozesse im Unternehmen?",
+    "punkte": 3.33333,
+    "optionen": [
+      "Ihren Anweisungen haben die untergeordneten Stellen Folge zu leisten.",
+      "Die Geschäftsführerin kann nur nach Absprache mit Ihnen Anweisungen zur Änderung betrieblicher Prozesse erteilen.",
+      "Als Inhaber der Stabstelle erhalten Sie automatisch allgemeine Handlungsvollmacht.",
+      "Sie beraten die Geschäftsführung hinsichtlich Organisation und Ablaufplanung, haben aber selbst keinerlei Weisungsbefugnis.",
+      "Die Integration Ihrer Stelle in das betriebliche Organisationssystem führt dazu, dass es sich hier um ein Mehrliniensystem handelt."
+    ],
+    "korrekt": [
+      3
+    ],
+    "loesung": "Sie beraten die Geschäftsführung hinsichtlich Organisation und Ablaufplanung, haben aber selbst keinerlei Weisungsbefugnis.",
+    "erklaerung": "Eine Stabstelle hat ausschließlich beratende Funktion und keine Weisungsbefugnis gegenüber den Linienstellen."
+  },
+  {
+    "id": "wiso-2019s-a5",
+    "themaId": "prozesse-epk",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2019-sommer",
+    "typ": "mc",
+    "text": "Bringen Sie die folgenden Arbeitsschritte einer Prozessoptimierung in die richtige Reihenfolge (Ziffern 1 bis 5, Beginn mit 'Ist-Aufnahme der betrieblichen Arbeitsabläufe' = 1)! Reihenfolge der aufgelisteten Schritte: (a) Erstellung einer Sollkonzeption mit Zielen, (b) Ist-Aufnahme der betrieblichen Arbeitsabläufe, (c) Analyse der Ist-Situation im Unternehmen, (d) Kontrolle der Neugestaltung bzw. der realisierten Maßnahmen, (e) Umsetzung der verbesserten Arbeitsabläufe in den Abteilungen.",
+    "punkte": 3.33333,
+    "optionen": [
+      "Erstellung einer Sollkonzeption mit Zielen",
+      "Ist-Aufnahme der betrieblichen Arbeitsabläufe",
+      "Analyse der Ist-Situation im Unternehmen",
+      "Kontrolle der Neugestaltung bzw. der realisierten Maßnahmen",
+      "Umsetzung der verbesserten Arbeitsabläufe in den Abteilungen"
+    ],
+    "korrekt": [
+      1,
+      2,
+      0,
+      4,
+      3
+    ],
+    "loesung": "Reihenfolge: 1 = Ist-Aufnahme, 2 = Analyse der Ist-Situation, 3 = Erstellung einer Sollkonzeption, 4 = Umsetzung, 5 = Kontrolle. Lösungsziffernfolge (in der Reihenfolge der Auflistung a–e): 3;1;2;5;4.",
+    "erklaerung": "Optimierungszyklus: erst Ist aufnehmen, dann analysieren, ein Soll konzipieren, umsetzen und abschließend kontrollieren. Das 'korrekt'-Array gibt die Reihenfolge der Optionsindizes an."
+  },
+  {
+    "id": "wiso-2019s-a6",
+    "themaId": "prozesse-epk",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2019-sommer",
+    "typ": "mc",
+    "text": "Abläufe sollen künftig mit einer Ereignisgesteuerten Prozesskette (EPK) dargestellt werden. Geben Sie die richtige Erklärung zur EPK an!",
+    "punkte": 3.33333,
+    "optionen": [
+      "Die EPK ermöglicht als einzige grafische Darstellungsform, dass mehrere Computerbenutzer gleichzeitig an ihr arbeiten können.",
+      "Die grafische Darstellung von Arbeitsprozessen mit der EPK erfolgt über einen Zeitstrahl, der Anfang und Ende der Tätigkeiten linear verbindet.",
+      "Die EPK ist wie eine besondere Form des Balkendiagramms aufgebaut.",
+      "Das Organigramm ist die häufigste Darstellungsweise der EPK.",
+      "Mithilfe der EPK werden Geschäftsprozesse in zeitlich-logischer Abfolge grafisch dargestellt."
+    ],
+    "korrekt": [
+      4
+    ],
+    "loesung": "Mithilfe der EPK werden Geschäftsprozesse in zeitlich-logischer Abfolge grafisch dargestellt.",
+    "erklaerung": "Die EPK bildet Geschäftsprozesse als Abfolge von Ereignissen und Funktionen ab, verknüpft über logische Operatoren."
+  },
+  {
+    "id": "wiso-2019s-a7",
+    "themaId": "markt-preisbildung",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2019-sommer",
+    "typ": "mc",
+    "text": "Ein Unternehmen bringt einen neuen, patentierten Bürostuhl auf den Markt. Um welche Marktform handelt es sich, wenn es viele Nachfrager gibt?",
+    "punkte": 3.33333,
+    "optionen": [
+      "Es handelt sich um ein Angebotsmonopol, da das Unternehmen den neuen Bürostuhl vielen potenziellen Nachfragern anbietet.",
+      "Es liegt ein zweiseitiges Oligopol vor, da wenige Unternehmen Bürostühle anbieten, aber viele Nachfrager auftreten.",
+      "Da das Unternehmen den neuen Bürostuhl als technische Innovation patentieren lässt, handelt es sich um ein Angebotsoligopol.",
+      "Es handelt sich um ein Nachfragemonopol, da das Unternehmen als einzige Anbieterin zunächst nur geringe Stückzahlen anbietet.",
+      "Es handelt sich um ein Polypol, da das Unternehmen die neuen Bürostühle vielen Nachfragern anbieten möchte."
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Es handelt sich um ein Angebotsmonopol.",
+    "erklaerung": "Durch das Patent ist das Unternehmen einziger Anbieter (ein Anbieter, viele Nachfrager) = Angebotsmonopol."
+  },
+  {
+    "id": "wiso-2019s-a8",
+    "themaId": "markt-preisbildung",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2019-sommer",
+    "typ": "mc",
+    "text": "Mit welcher Preisstrategie verhält sich das Unternehmen bei dem hochwertigen, patentierten Bürostuhl ökonomisch sinnvoll?",
+    "punkte": 3.33333,
+    "optionen": [
+      "Es sollte bei hochwertigen Produkten grundsätzlich mit niedrigen Preisen auf den Markt gehen, um diese später halten zu können.",
+      "Da es sich um ein Produkt für den Massenmarkt handelt, sollte die Niedrigpreisstrategie angewendet werden.",
+      "Eine Preisstrategie ist nicht erforderlich, da das Produkt aufgrund der hohen Qualität ein Selbstläufer ist.",
+      "Es sollte ein mittleres Preissegment gewählt werden, um den Preis nach Ablauf des Patentschutzes erhöhen zu können.",
+      "Das Unternehmen sollte das neue Produkt mit einer Hochpreisstrategie auf den Markt bringen, da es diesen Bürostuhl als Premium-Produkt anbietet."
+    ],
+    "korrekt": [
+      4
+    ],
+    "loesung": "Das Unternehmen sollte das Produkt mit einer Hochpreisstrategie (Premium-Produkt) auf den Markt bringen.",
+    "erklaerung": "Als patentgeschütztes, hochwertiges Premium-Produkt lässt sich die Monopolstellung über einen hohen Preis (Skimming/Hochpreis) am besten ausschöpfen."
+  },
+  {
+    "id": "wiso-2019s-a9",
+    "themaId": "konjunktur-indikatoren",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2019-sommer",
+    "typ": "mc",
+    "text": "Welche Auswirkung hat die konjunkturelle Entwicklung auf die Absatzmöglichkeiten des neuen Bürostuhls?",
+    "punkte": 3.33333,
+    "optionen": [
+      "Im Aufschwung sinkt das Preisniveau, sodass die Nachfrage nach hochwertigen und teuren Produkten sehr beschränkt ist.",
+      "Befindet sich die Konjunktur im Abschwung, kann das Unternehmen hohe Preise verlangen, aber nur kleine Stückzahlen absetzen.",
+      "Im Boom kann das Unternehmen sein Produkt zu hohen Preisen und in hohen Stückzahlen absetzen.",
+      "Zu Beginn der Depressionsphase ist mit schnell steigenden Verkaufszahlen zu rechnen, da bei erwarteten steigenden Preisen eine hohe Investitionsneigung besteht.",
+      "Da ein Konjunkturzyklus nur maximal drei Jahre umfasst, können geringe Verkaufszahlen einer Phase durch andere Phasen kompensiert werden."
+    ],
+    "korrekt": [
+      2
+    ],
+    "loesung": "Im Boom kann das Unternehmen sein Produkt zu hohen Preisen und in hohen Stückzahlen absetzen.",
+    "erklaerung": "In der Hochkonjunktur (Boom) sind Nachfrage, Preise und Auslastung hoch, was hochwertige Produkte begünstigt."
+  },
+  {
+    "id": "wiso-2019s-a10",
+    "themaId": "konjunktur-indikatoren",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2019-sommer",
+    "typ": "mc",
+    "text": "In welcher der abgebildeten Skizzen ist der Wirtschaftskreislauf zwischen Unternehmen und Haushalten richtig dargestellt? (Beziehungen: Konsumausgaben als Geldstrom von den Haushalten zu den Unternehmen, Konsumgüter als Güterstrom von Unternehmen zu Haushalten, Arbeitsleistungen als Güterstrom von Haushalten zu Unternehmen, Einkommen als Geldstrom von Unternehmen zu Haushalten.)",
+    "anlagenText": "Fünf Skizzen mit unterschiedlichen Pfeilrichtungen der Ströme Konsumausgaben, Konsumgüter, Arbeitsleistungen und Einkommen zwischen 'Unternehmen' und 'Haushalte'.",
+    "punkte": 3.33333,
+    "optionen": [
+      "Skizze 1",
+      "Skizze 2",
+      "Skizze 3",
+      "Skizze 4",
+      "Skizze 5"
+    ],
+    "korrekt": [
+      3
+    ],
+    "loesung": "Skizze 4.",
+    "erklaerung": "Richtig ist die Darstellung, in der Konsumausgaben und Arbeitsleistungen von den Haushalten zu den Unternehmen und Konsumgüter sowie Einkommen von den Unternehmen zu den Haushalten fließen (Skizze 4)."
+  },
+  {
+    "id": "wiso-2019s-a11",
+    "themaId": "produktionsfaktoren-unternehmensziele",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2019-sommer",
+    "typ": "mc",
+    "text": "Die wirtschaftlichen Tätigkeiten werden durch das ökonomische Prinzip bestimmt. Wie ist das ökonomische Prinzip als Maximalprinzip richtig beschrieben?",
+    "punkte": 3.33333,
+    "optionen": [
+      "Mit minimalem Mitteleinsatz soll maximaler Ertrag erzielt werden.",
+      "Mit möglichst hohem Mitteleinsatz soll maximaler Ertrag erzielt werden.",
+      "Mit gegebenen Mitteln soll ein maximaler Ertrag erzielt werden.",
+      "Mit maximalem Mitteleinsatz soll maximaler Ertrag erzielt werden.",
+      "Mit möglichst geringem Mitteleinsatz soll ein gewünschter Ertrag erreicht werden."
+    ],
+    "korrekt": [
+      2
+    ],
+    "loesung": "Mit gegebenen Mitteln soll ein maximaler Ertrag erzielt werden.",
+    "erklaerung": "Maximalprinzip: gegebener Mitteleinsatz, maximaler Ertrag. (Minimalprinzip: gegebener Ertrag mit minimalem Mitteleinsatz.)"
+  },
+  {
+    "id": "wiso-2019s-a12",
+    "themaId": "produktionsfaktoren-unternehmensziele",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2019-sommer",
+    "typ": "mc",
+    "text": "Ein Beitrag soll die im Unternehmen eingesetzten Werkstoffe behandeln. Welches Gut gehört nicht in den Beitrag?",
+    "punkte": 3.33333,
+    "optionen": [
+      "Holz für die Büromöbel",
+      "Schrauben für die Bürostühle",
+      "Schmiermittel für die Maschinen",
+      "Leim für die Tischplatten",
+      "Grundstück für die Produktionshalle"
+    ],
+    "korrekt": [
+      4
+    ],
+    "loesung": "Grundstück für die Produktionshalle.",
+    "erklaerung": "Werkstoffe sind Roh-, Hilfs- und Betriebsstoffe. Ein Grundstück ist ein Betriebsmittel (langlebige Anlage), kein Werkstoff."
+  },
+  {
+    "id": "wiso-2019s-a13",
+    "themaId": "arbeitsschutz-umwelt",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2019-sommer",
+    "typ": "mc",
+    "text": "Eine im Kreislaufwirtschaftsgesetz aufgeführte Form des Umgangs mit Abfällen ist das „Recycling“. In welchem Beispiel liegt Recycling vor?",
+    "punkte": 3.33333,
+    "optionen": [
+      "Am Automaten für Trinkwasser werden keine Plastikbecher, sondern Gläser verwendet.",
+      "Alte Büromöbel werden zurückgenommen. Teile davon gehen in die Produktion neuer Büromöbel ein.",
+      "Fruchtsaftgetränke werden nicht in Dosen, sondern in Mehrwegflaschen verkauft.",
+      "Die neue Sägemaschine hat einen 10 % geringeren Holzverschnitt als die alte.",
+      "Der Vertrieb erhält zwei neue Elektrofahrzeuge anstelle der Fahrzeuge mit Verbrennungsmotor."
+    ],
+    "korrekt": [
+      1
+    ],
+    "loesung": "Alte Büromöbel werden zurückgenommen und Teile davon gehen in die Produktion neuer Büromöbel ein.",
+    "erklaerung": "Recycling ist die stoffliche Verwertung von Abfällen zu neuen Produkten. Mehrweg und Vermeidung stehen in der Abfallhierarchie vor dem Recycling."
+  },
+  {
+    "id": "wiso-2019s-a14",
+    "themaId": "arbeitsschutz-umwelt",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2019-sommer",
+    "typ": "mc",
+    "text": "Bei welcher Rechtsgrundlage handelt es sich um eine Umweltschutzvorschrift?",
+    "punkte": 3.33333,
+    "optionen": [
+      "Das Bürgerliche Gesetzbuch",
+      "Die Abgabenordnung",
+      "Die Arbeitsstättenverordnung",
+      "Das Verpackungsgesetz",
+      "Das Betriebsverfassungsgesetz"
+    ],
+    "korrekt": [
+      3
+    ],
+    "loesung": "Das Verpackungsgesetz.",
+    "erklaerung": "Das Verpackungsgesetz dient der Abfallvermeidung und -verwertung und ist damit eine Umweltschutzvorschrift."
+  },
+  {
+    "id": "wiso-2019s-a15",
+    "themaId": "arbeitsschutz-umwelt",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2019-sommer",
+    "typ": "mc",
+    "text": "Welche Maßnahme in der Verwaltung gehört zur Abfallverwertung?",
+    "punkte": 3.33333,
+    "optionen": [
+      "In die Kugelschreiber werden bei Bedarf langlebige Ersatzminen eingesetzt.",
+      "Die Getränke der Verwaltungsmitarbeiter werden in Pfandflaschen angeliefert.",
+      "Die monatlichen Absatz- und Umsatzzahlen werden digital gespeichert statt auf Papier ausgedruckt.",
+      "Alte Aktenordner aus der Verwaltung werden vernichtet.",
+      "Die Toner für die Kopiergeräte werden an ein Entsorgungsunternehmen zum Recycling gegeben."
+    ],
+    "korrekt": [
+      4
+    ],
+    "loesung": "Die Toner werden an ein Entsorgungsunternehmen zum Recycling gegeben.",
+    "erklaerung": "Abfallverwertung (Recycling) liegt vor, wenn Abfälle wieder in den Stoffkreislauf zurückgeführt werden. Ersatzminen, Pfandflaschen und Digitalisierung sind Abfallvermeidung."
+  },
+  {
+    "id": "wiso-2019s-a16",
+    "themaId": "arbeitsschutz-umwelt",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2019-sommer",
+    "typ": "mc",
+    "text": "Welche umweltrechtliche Bestimmung muss das Unternehmen bei seinen Transportverpackungen beachten?",
+    "punkte": 3.33333,
+    "optionen": [
+      "Der Vertrieb darf nur Verpackungen aus recyclingfähigen Materialien verwenden.",
+      "Es sollten nur reißfeste Folien verwendet werden, um Stöße und Erschütterungen beim Transport abzufangen.",
+      "Eine Beschriftung der Transportverpackung ist nicht zulässig, da diese ihre Wiederverwendbarkeit ausschließt.",
+      "Das Unternehmen ist verpflichtet, die Transportverpackung vom Kunden zurückzunehmen.",
+      "Das Unternehmen darf nur Transportverpackungen verwenden, die in Deutschland hergestellt wurden."
+    ],
+    "korrekt": [
+      3
+    ],
+    "loesung": "Das Unternehmen ist verpflichtet, die Transportverpackung vom Kunden zurückzunehmen.",
+    "erklaerung": "Nach dem Verpackungsrecht besteht für Transportverpackungen eine Rücknahmepflicht des Inverkehrbringers."
+  },
+  {
+    "id": "wiso-2019s-a17",
+    "themaId": "rechtsformen-vollmachten",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2019-sommer",
+    "typ": "mc",
+    "text": "Ein neuer Gesellschafter soll als Kommanditist mit 500.000 € in das Unternehmen aufgenommen werden. Welche 2 Rechte stehen ihm als Kommanditist zu?",
+    "punkte": 3.33333,
+    "optionen": [
+      "Er kann Mitarbeiter einstellen und entlassen.",
+      "Er darf den Jahresabschluss durch Einsicht in die Bücher prüfen.",
+      "Er darf während des Geschäftsjahres Geld gemäß seiner Einlage entnehmen.",
+      "Er hat das Recht, an einem Gewinn beteiligt zu werden.",
+      "Er darf Darlehen aufnehmen.",
+      "Er darf die Bilanz unterschreiben."
+    ],
+    "korrekt": [
+      1,
+      3
+    ],
+    "loesung": "Er darf den Jahresabschluss durch Einsicht in die Bücher prüfen; und er hat das Recht, am Gewinn beteiligt zu werden.",
+    "erklaerung": "Der Kommanditist hat ein Kontrollrecht (Einsicht in den Jahresabschluss) und Anspruch auf Gewinnbeteiligung, ist aber von der Geschäftsführung ausgeschlossen. Die Kennziffern [2;4] sind untereinander beliebig austauschbar."
+  },
+  {
+    "id": "wiso-2019s-a18",
+    "themaId": "rechtsformen-vollmachten",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2019-sommer",
+    "typ": "mc",
+    "text": "Welchen Vorteil hat es für das Unternehmen, wenn der neue Gesellschafter als Kommanditist eintritt?",
+    "punkte": 3.33333,
+    "optionen": [
+      "Die Leitung wird bei ihrer Arbeit entlastet, da ein Kommanditist in die Geschäftsführung eingebunden ist.",
+      "Das Unternehmen kann bei etwaigen Verlusten den an den Gesellschafter ausgeschütteten Gewinn wieder zurückfordern.",
+      "Das Unternehmen wird kreditwürdiger, da es über höheres Eigenkapital verfügt.",
+      "Das Unternehmen erwirtschaftet dadurch zwangsläufig höhere Gewinne.",
+      "Die Komplementärin haftet nicht mehr mit ihrem Privatvermögen."
+    ],
+    "korrekt": [
+      2
+    ],
+    "loesung": "Das Unternehmen wird kreditwürdiger, da es über höheres Eigenkapital verfügt.",
+    "erklaerung": "Die Kommanditeinlage erhöht das Eigenkapital und verbessert damit die Bonität; ein Kommanditist ist jedoch von der Geschäftsführung ausgeschlossen."
+  },
+  {
+    "id": "wiso-2019s-a19",
+    "themaId": "rechtsformen-vollmachten",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2019-sommer",
+    "typ": "rechnen",
+    "text": "Ermitteln Sie den Restgewinn in Euro, nachdem der gesetzlich vorgesehene Prozentsatz (4 % Verzinsung der Kapitaleinlagen) an die Gesellschafter verteilt wurde! (Zu verteilender Gewinn 650.000 €; Kapitaleinlagen: 1.000.000 €, 500.000 €, 500.000 €, 500.000 €, insgesamt 2.500.000 €)",
+    "punkte": 3.33333,
+    "loesung": "Restgewinn = 650.000 € − (2.500.000 € × 4 %) = 650.000 € − 100.000 € = 550.000 €.",
+    "erklaerung": "Nach HGB werden die Kapitaleinlagen zunächst mit 4 % verzinst (hier 100.000 €); der verbleibende Restgewinn beträgt 550.000 €."
+  },
+  {
+    "id": "wiso-2019s-a20",
+    "themaId": "rechtsformen-vollmachten",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2019-sommer",
+    "typ": "rechnen",
+    "text": "Ermitteln Sie den Gewinnanteil in Euro, den die alten Gesellschafter insgesamt durch die Aufnahme des neuen Kommanditisten weniger erhalten! (Verteilung des Restgewinns 550.000 € im Verhältnis 7:1:1:1; ohne den neuen Gesellschafter im Verhältnis 7:1:1)",
+    "punkte": 3.33333,
+    "loesung": "75.000 € (oder über Algorithmus: (650.000 − 100.000) : 5 × 1 = 110.000 €? – laut Lösungsschlüssel 75.000 €; alternativ 5 + E19:10).",
+    "erklaerung": "Der neue Kommanditist erhält 4 % Verzinsung auf 500.000 € (20.000 €) plus einen Restgewinnanteil; um diesen Betrag werden die Anteile der Altgesellschafter gemindert. Laut Lösungsschlüssel beträgt der Minderbetrag 75.000 €."
+  },
+  {
+    "id": "wiso-2019s-a21",
+    "themaId": "berufsausbildung-arbeitsrecht",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2019-sommer",
+    "typ": "offen",
+    "text": "Für einen neuen Auszubildenden liegen folgende Daten vor: Ausbildungsbeginn 1. August 2019, Ausbildungsdauer 3 Jahre (bis 31. Juli 2022), schriftliche Abschlussprüfung 4. Mai 2022, mündliche Abschlussprüfung und Bekanntgabe des Ergebnisses durch den Prüfungsausschuss 19. Juli 2022, Abschlussfeier 3. August 2022. Stellen Sie fest, wann die Ausbildung laut Berufsbildungsgesetz endet, sofern er die Prüfung besteht! Tragen Sie das Datum (TT.MM.JJJJ) ein!",
+    "punkte": 3.33333,
+    "loesung": "19.07.2022.",
+    "erklaerung": "Bei Bestehen endet das Berufsausbildungsverhältnis nach dem BBiG mit Bekanntgabe des Prüfungsergebnisses durch den Prüfungsausschuss – hier am 19.07.2022 (auch wenn der Vertrag bis 31.07.2022 lief)."
+  },
+  {
+    "id": "wiso-2019s-a22",
+    "themaId": "berufsausbildung-arbeitsrecht",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2019-sommer",
+    "typ": "mc",
+    "text": "Zu Ausbildungsbeginn ist der Auszubildende 17 Jahre alt. Prüfen Sie, welche Feststellung nach dem Jugendarbeitsschutzgesetz für ihn zutrifft!",
+    "punkte": 3.33333,
+    "optionen": [
+      "Er darf nicht länger als 6 Stunden täglich und 40 Stunden wöchentlich beschäftigt werden.",
+      "Er muss bei hohem Arbeitsaufkommen nicht am Berufsschulunterricht teilnehmen.",
+      "Er darf nicht mit Akkordarbeit und sonstigen Tätigkeiten, bei denen durch ein gesteigertes Arbeitstempo ein höheres Entgelt erzielt werden kann, beschäftigt werden.",
+      "Er muss vor jeder Prüfung einen Tag zur Prüfungsvorbereitung freigestellt werden.",
+      "Er muss die Kosten für die Erstuntersuchung beim Eintritt in das Berufsleben selbst übernehmen."
+    ],
+    "korrekt": [
+      2
+    ],
+    "loesung": "Er darf nicht mit Akkordarbeit und tempoabhängigen Tätigkeiten beschäftigt werden.",
+    "erklaerung": "Das JArbSchG verbietet für Jugendliche Akkord- und ähnliche tempoabhängige Arbeiten (§ 23 JArbSchG)."
+  },
+  {
+    "id": "wiso-2019s-a23",
+    "themaId": "berufsausbildung-arbeitsrecht",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2019-sommer",
+    "typ": "mc",
+    "text": "Geben Sie an, welche Regelung für den Auszubildenden gegen gesetzliche Rechtsvorschriften verstößt!",
+    "punkte": 3.33333,
+    "optionen": [
+      "Eine Verkürzung der Ausbildungszeit wird seitens der Ausbildenden prinzipiell nicht gestattet.",
+      "Eine über die vereinbarte regelmäßige tägliche Ausbildungszeit hinausgehende Beschäftigung ist nicht besonders zu vergüten oder durch Freizeit auszugleichen.",
+      "Die Vergütung für den laufenden Kalendermonat ist spätestens am letzten Arbeitstag des Monats zu zahlen.",
+      "Besteht der Auszubildende die Prüfung nicht, verlängert sich das Ausbildungsverhältnis auf sein Verlangen bis zur nächstmöglichen Wiederholungsprüfung, höchstens um ein Jahr.",
+      "Wird der Auszubildende im Anschluss weiterbeschäftigt, ohne dass etwas vereinbart wurde, gilt ein Arbeitsverhältnis auf unbestimmte Zeit als begründet."
+    ],
+    "korrekt": [
+      1
+    ],
+    "loesung": "„Eine über die regelmäßige tägliche Ausbildungszeit hinausgehende Beschäftigung ist nicht besonders zu vergüten oder auszugleichen“ verstößt gegen das Gesetz.",
+    "erklaerung": "Nach dem BBiG ist Mehrarbeit besonders zu vergüten oder durch Freizeit auszugleichen; die Aussage kehrt dies unzulässig um."
+  },
+  {
+    "id": "wiso-2019s-a24",
+    "themaId": "berufsausbildung-arbeitsrecht",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2019-sommer",
+    "typ": "mc",
+    "text": "Die Jugend- und Auszubildendenvertretung (JAV) stellt sich vor. Geben Sie an, in welchem Gesetz Erläuterungen zur JAV zu finden sind!",
+    "punkte": 3.33333,
+    "optionen": [
+      "Jugendarbeitsschutzgesetz",
+      "Bundesurlaubsgesetz",
+      "Arbeitszeitgesetz",
+      "Betriebsverfassungsgesetz",
+      "Allgemeines Gleichbehandlungsgesetz"
+    ],
+    "korrekt": [
+      3
+    ],
+    "loesung": "Betriebsverfassungsgesetz.",
+    "erklaerung": "Die Rechte, Pflichten und Aufgaben der JAV sind im Betriebsverfassungsgesetz (§§ 60 ff. BetrVG) geregelt."
+  },
+  {
+    "id": "wiso-2019s-a25",
+    "themaId": "berufsausbildung-arbeitsrecht",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2019-sommer",
+    "typ": "mc",
+    "text": "Stellen Sie fest, welche Erläuterung zur JAV zutreffend ist!",
+    "punkte": 3.33333,
+    "optionen": [
+      "Die JAV hat das Recht, an Betriebsratssitzungen teilzunehmen.",
+      "Die JAV kann Kündigungen von Auszubildenden während der Probezeit verhindern.",
+      "Die JAV-Mitglieder sind berechtigt, regelmäßig über die Beurteilungen und Schulnoten der Auszubildenden informiert zu werden.",
+      "Die JAV-Mitglieder sind berechtigt, Einsicht in die Personalakten der Auszubildenden zu nehmen.",
+      "Die JAV-Mitglieder sind verpflichtet, an Beurteilungsgesprächen teilzunehmen."
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Die JAV hat das Recht, an Betriebsratssitzungen teilzunehmen.",
+    "erklaerung": "Die JAV hat ein Teilnahmerecht an Betriebsratssitzungen (§ 67 BetrVG); bei Angelegenheiten, die überwiegend Jugendliche/Azubis betreffen, auch ein Stimmrecht."
+  },
+  {
+    "id": "wiso-2019s-a26",
+    "themaId": "rechtsformen-vollmachten",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2019-sommer",
+    "typ": "mc",
+    "text": "Stellen Sie fest, in welchem Fall der Auszubildende hierfür eine Artvollmacht benötigt!",
+    "punkte": 3.33333,
+    "optionen": [
+      "Er wird beauftragt, ein Informationsblatt für die Praktikanten zu erstellen.",
+      "Er wird beauftragt, ein Buffet für das Sommerfest seiner Abteilung zu bestellen.",
+      "Er wird beauftragt, regelmäßig Angebote für Stammkunden zu erstellen.",
+      "Er wird beauftragt, ein Mahnschreiben an einen guten Kunden zu erstellen.",
+      "Er wird beauftragt, Darlehen aufzunehmen."
+    ],
+    "korrekt": [
+      2
+    ],
+    "loesung": "Er wird beauftragt, regelmäßig Angebote für Stammkunden zu erstellen.",
+    "erklaerung": "Eine Artvollmacht (Gattungsvollmacht) berechtigt zu einer bestimmten Art wiederkehrender Geschäfte – hier das regelmäßige Erstellen von Angeboten."
+  },
+  {
+    "id": "wiso-2019s-a27",
+    "themaId": "berufsausbildung-arbeitsrecht",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2019-sommer",
+    "typ": "mc",
+    "text": "Personalentwicklung spielt schon während der Ausbildungszeit eine große Rolle. Welche Erläuterung hierzu ist zutreffend?",
+    "punkte": 3.33333,
+    "optionen": [
+      "Personalentwicklung zielt ausschließlich auf die Entwicklung fachlicher Kompetenzen der Mitarbeiter ab.",
+      "Ausbilder sollten an Personalentwicklungsmaßnahmen nicht mehr teilnehmen müssen, da sie sonst an ihrem Arbeitsplatz falsch eingesetzt sind.",
+      "Jobrotation ist für Auszubildende ungeeignet, da es eine große Belastung für sie darstellt.",
+      "Hohe Fehlzeiten- und Fluktuationsraten können Anlass sein, Personalentwicklungsmaßnahmen einzuleiten.",
+      "Karrieregespräche gehören nicht zur Personalentwicklung."
+    ],
+    "korrekt": [
+      3
+    ],
+    "loesung": "Hohe Fehlzeiten- und Fluktuationsraten können Anlass sein, Personalentwicklungsmaßnahmen einzuleiten.",
+    "erklaerung": "Personalentwicklung umfasst fachliche und persönliche Kompetenzen; hohe Fluktuation/Fehlzeiten sind ein typischer Auslöser für gezielte Maßnahmen."
+  },
+  {
+    "id": "wiso-2019s-a28",
+    "themaId": "arbeitsschutz-umwelt",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2019-sommer",
+    "typ": "mc",
+    "text": "Aufgrund welcher gesetzlichen Regelung muss im Unternehmen eine Fachkraft für Arbeitssicherheit bestellt werden?",
+    "punkte": 3.33333,
+    "optionen": [
+      "Bildschirmarbeitsverordnung",
+      "Arbeitssicherheitsgesetz",
+      "Betriebsverfassungsgesetz",
+      "Gewerbeordnung",
+      "Arbeitsplatzschutzgesetz"
+    ],
+    "korrekt": [
+      1
+    ],
+    "loesung": "Arbeitssicherheitsgesetz.",
+    "erklaerung": "Das Arbeitssicherheitsgesetz (ASiG) verpflichtet Arbeitgeber zur Bestellung von Fachkräften für Arbeitssicherheit und Betriebsärzten."
+  },
+  {
+    "id": "wiso-2019s-a29",
+    "themaId": "arbeitsschutz-umwelt",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2019-sommer",
+    "typ": "mc",
+    "text": "Wann sind Arbeitnehmer über die Unfall- und Gesundheitsgefahren im Unternehmen zu unterrichten?",
+    "punkte": 3.33333,
+    "optionen": [
+      "Nur vor Aufnahme der Beschäftigung",
+      "Nach Ablauf der Probezeit und anschließend nach Bedarf",
+      "Nach einer Beschäftigungsdauer von einem Jahr",
+      "Bei Aufnahme der Beschäftigung und anschließend in regelmäßigen Abständen",
+      "Nach einer Abwesenheit des Arbeitnehmers von mindestens 4 Wochen"
+    ],
+    "korrekt": [
+      3
+    ],
+    "loesung": "Bei Aufnahme der Beschäftigung und anschließend in regelmäßigen Abständen.",
+    "erklaerung": "Die Unterweisung über Unfall- und Gesundheitsgefahren erfolgt bei Beschäftigungsbeginn und danach regelmäßig (mindestens jährlich)."
+  },
+  {
+    "id": "wiso-2019s-a30",
+    "themaId": "arbeitsschutz-umwelt",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2019-sommer",
+    "typ": "mc",
+    "text": "Das abgebildete Zeichen ist auf dem Betriebsgelände zu finden. Welche Bedeutung hat diese Abbildung? (grünes quadratisches Rettungszeichen mit Personen und vier nach innen weisenden Pfeilen)",
+    "anlagenText": "Grünes, quadratisches Sicherheitszeichen: mehrere Personen, umgeben von vier nach innen gerichteten Pfeilen.",
+    "punkte": 3.33333,
+    "optionen": [
+      "Standplatz für die Einsatzleitung der Feuerwehr",
+      "Hubschrauberlandeplatz zur Evakuierung in Notfällen",
+      "Mittelpunkt des Betriebsgeländes",
+      "Hinweis des Betriebsrats zur Kennzeichnung des Ortes der Betriebsversammlung",
+      "Sammelplatz für die Mitarbeiter im Falle eines Notfalls"
+    ],
+    "korrekt": [
+      4
+    ],
+    "loesung": "Sammelplatz für die Mitarbeiter im Falle eines Notfalls.",
+    "erklaerung": "Das grüne Rettungszeichen mit den nach innen gerichteten Pfeilen kennzeichnet die Sammelstelle (Sammelplatz) im Notfall."
+  },
+  {
+    "id": "wiso-2020s-a1",
+    "themaId": "produktionsfaktoren-unternehmensziele",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2020-sommer",
+    "typ": "mc",
+    "text": "Bei der Formulierung von Zielen kann es zu Konflikten kommen. Ordnen Sie den Zielsetzungspaaren die richtige Zielbeziehung zu (1 = Komplementäre Ziele, 2 = Konkurrierende Ziele, 3 = Indifferente Ziele)! Reihenfolge der Paare: a) Steigerung des Gewinns – erhöhte Ausgaben für Recyclingpapier. b) Einkauf von Billighölzern aus dem Regenwald – Erlangung eines Gütesiegels in der Produktion. c) Gutes Arbeitsklima – Recycling der Verpackung. d) Kundenzufriedenheit durch kompetente Verkäufer – verpflichtende, jährliche Teilnahme aller Mitarbeiter an Fortbildungsschulungen. e) Rabattverhandlungen mit Lieferanten – Gewinnmaximierung.",
+    "punkte": 3.3333,
+    "optionen": [
+      "2;2;3;1;1",
+      "1;2;3;2;1",
+      "2;1;3;1;2",
+      "2;2;1;3;1"
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Richtig ist die Ziffernfolge 2;2;3;1;1.",
+    "erklaerung": "Gewinn vs. Ausgaben für Recyclingpapier: konkurrierend (2). Billighölzer vs. Gütesiegel: konkurrierend (2). Arbeitsklima vs. Verpackungsrecycling: indifferent/ohne Zusammenhang (3). Kundenzufriedenheit durch kompetente Verkäufer und Fortbildung: komplementär/fördernd (1). Rabattverhandlungen und Gewinnmaximierung: komplementär (1)."
+  },
+  {
+    "id": "wiso-2020s-a2",
+    "themaId": "produktionsfaktoren-unternehmensziele",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2020-sommer",
+    "typ": "mc",
+    "text": "Die Unternehmensleitung verfolgt auch soziale Ziele. Welche Maßnahme orientiert sich nicht an den sozialen Zielen?",
+    "punkte": 3.3333,
+    "optionen": [
+      "Verwendung von fair gehandelten Produkten in der Kantine",
+      "Schaffung eines guten Betriebsklimas",
+      "Beteiligung der Arbeitnehmer am Unternehmenserfolg",
+      "Einrichtung eines betrieblichen Kindergartens",
+      "Recycling von Holzabfällen in der Produktion"
+    ],
+    "korrekt": [
+      4
+    ],
+    "loesung": "Richtig ist Antwort 5: Recycling von Holzabfällen in der Produktion.",
+    "erklaerung": "Das Recycling von Holzabfällen ist ein ökologisches Ziel (Umweltschutz), kein soziales Ziel. Die übrigen Maßnahmen betreffen das Wohl der Mitarbeiter und sind damit soziale Ziele."
+  },
+  {
+    "id": "wiso-2020s-a3",
+    "themaId": "produktionsfaktoren-unternehmensziele",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2020-sommer",
+    "typ": "mc",
+    "text": "Zum Ziel der Gewinnmaximierung gehört der optimale Einsatz der betriebswirtschaftlichen Produktionsfaktoren. Welches Beispiel stellt den dispositiven Faktor dar?",
+    "punkte": 3.3333,
+    "optionen": [
+      "Betriebsmittel",
+      "Ausführende Arbeit",
+      "Leitende Arbeit",
+      "Rohstoffe",
+      "Betriebsstoffe"
+    ],
+    "korrekt": [
+      2
+    ],
+    "loesung": "Richtig ist Antwort 3: Leitende Arbeit.",
+    "erklaerung": "Der dispositive Faktor umfasst Leitung, Planung und Organisation, also die leitende (dispositive) Arbeit. Betriebsmittel, ausführende Arbeit und Werkstoffe (Rohstoffe, Betriebsstoffe) sind die Elementarfaktoren."
+  },
+  {
+    "id": "wiso-2020s-a4",
+    "themaId": "finanzierung-kreditsicherung",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2020-sommer",
+    "typ": "mc",
+    "text": "In welchem Fall ist der Begriff der Investition richtig beschrieben?",
+    "punkte": 3.3333,
+    "optionen": [
+      "Eine Investition liegt nur vor, wenn der Kauf des Wagens allein durch Eigenkapital finanziert wird.",
+      "Das Leasen des Firmenwagens stellt eine Investition dar, weil das Fahrzeug zum Fuhrpark des Unternehmens gehört.",
+      "Das Leasen des Firmenwagens stellt dann eine Investition dar, wenn neben der Leasingrate zusätzlich eine Anzahlung getätigt wird.",
+      "Wird das neue Fahrzeug gekauft, liegt eine Investition vor, unabhängig von der Finanzierung des Kaufpreises.",
+      "Weder bei Leasing noch beim Kauf des Fahrzeuges wird der Sachverhalt der Investition erfüllt."
+    ],
+    "korrekt": [
+      3
+    ],
+    "loesung": "Richtig ist Antwort 4: Wird das neue Fahrzeug gekauft, liegt eine Investition vor, unabhängig von der Finanzierung des Kaufpreises.",
+    "erklaerung": "Eine Investition ist die Verwendung von Kapital für die Beschaffung von Vermögen (hier Anlagevermögen). Ob mit Eigen- oder Fremdkapital finanziert wird, spielt für die Einordnung als Investition keine Rolle. Leasing ist dagegen Miete, keine Investition."
+  },
+  {
+    "id": "wiso-2020s-a5",
+    "themaId": "finanzierung-kreditsicherung",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2020-sommer",
+    "typ": "rechnen",
+    "text": "Ermitteln Sie die Leasing-Gesamtkosten für die gesamte Laufzeit in Euro! Sonderzahlung: 9.820,00 €. Monatsrate: 422,53 € netto. Laufzeit: 3 Jahre.",
+    "punkte": 3.3333,
+    "loesung": "Leasing-Gesamtkosten = Sonderzahlung + (Monatsrate × Anzahl Monate) = 9.820,00 € + (422,53 € × 36) = 9.820,00 € + 15.211,08 € = 25.031,08 €.",
+    "erklaerung": "Über 3 Jahre fallen 36 Monatsraten an. Zusammen mit der einmaligen Sonderzahlung ergeben sich die Gesamtkosten des Leasings."
+  },
+  {
+    "id": "wiso-2020s-a6",
+    "themaId": "finanzierung-kreditsicherung",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2020-sommer",
+    "typ": "mc",
+    "text": "Das Unternehmen hat sich für das Leasingangebot entschieden. Welche 2 Argumente sprechen für diese Entscheidung?",
+    "punkte": 3.3333,
+    "optionen": [
+      "Nach Rückzahlung des Kredits ist das Unternehmen Eigentümer des Fahrzeugs.",
+      "Durch die Leasingrate wird die Liquiditätsbelastung gleichmäßig auf den Leasingzeitraum verteilt.",
+      "Wird nach 3 Jahren das alte durch ein neues Fahrzeug ersetzt, entfällt die Suche nach einem Käufer für das alte Auto.",
+      "Ein deutliches Überschreiten der vereinbarten Kilometerleistung führt zu höheren Leasing-Kosten.",
+      "Das gekaufte Auto steht in der Bilanz und erhöht das Vermögen und damit die Kreditfähigkeit des Unternehmens.",
+      "Leasing ist immer kostengünstiger als ein kreditfinanzierter Kauf."
+    ],
+    "korrekt": [
+      1,
+      2
+    ],
+    "loesung": "Richtig sind die Antworten 2 und 3: gleichmäßige Verteilung der Liquiditätsbelastung durch die Leasingrate sowie Wegfall der Käufersuche beim Fahrzeugwechsel nach 3 Jahren.",
+    "erklaerung": "Für Leasing sprechen die gleichmäßige Liquiditätsbelastung und der Wegfall des Wiederverkaufsrisikos. Die übrigen Aussagen sind falsch oder sprechen gegen das Leasing (z. B. Mehrkosten bei Kilometerüberschreitung)."
+  },
+  {
+    "id": "wiso-2020s-a7",
+    "themaId": "rechtsformen-vollmachten",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2020-sommer",
+    "typ": "mc",
+    "text": "Zwei Gesellschafter wollen eine GmbH rechtswirksam gründen. Welcher Sachverhalt ist in diesem Zusammenhang richtig?",
+    "punkte": 3.3333,
+    "optionen": [
+      "Der Geschäftsführer muss die Eintragung der GmbH beim Arbeitsgericht beantragen.",
+      "Der Name des neuen Unternehmens im Antrag könnte auch auf 'Voss Abfallverwertung und Abfallentsorgung' lauten.",
+      "Die Geschäftsführung der neuen Firma musste durch eine außenstehende Person erfolgen, da zur Vermeidung von Interessenkonflikten Gesellschafter einer GmbH nicht auch deren Geschäfte führen dürfen.",
+      "Die Einlagen der Gesellschafter betragen insgesamt das 12-fache des gesetzlich geforderten Mindestkapitals der neuen GmbH.",
+      "Der Gesellschaftsvertrag zwischen den beiden Gesellschaftern kann auch mündlich abgeschlossen werden, um rechtswirksam sein zu können."
+    ],
+    "korrekt": [
+      3
+    ],
+    "loesung": "Richtig ist Antwort 4: Die Einlagen der Gesellschafter betragen insgesamt das 12-fache des gesetzlich geforderten Mindestkapitals.",
+    "erklaerung": "Bei Einlagen von 100.000 € + 200.000 € = 300.000 € entspricht dies dem 12-fachen des Mindeststammkapitals von 25.000 €. Die GmbH wird ins Handelsregister (Amtsgericht) eingetragen, der Gesellschaftsvertrag bedarf notarieller Beurkundung, und Gesellschafter dürfen auch Geschäftsführer sein."
+  },
+  {
+    "id": "wiso-2020s-a8",
+    "themaId": "rechtsformen-vollmachten",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2020-sommer",
+    "typ": "mc",
+    "text": "Die neu gegründete GmbH erwirbt eine Sortieranlage. Welche Regelung zur Haftung der GmbH bzw. der beteiligten Personen gegenüber dem Verkäufer der Anlage ist richtig?",
+    "punkte": 3.3333,
+    "optionen": [
+      "Dem Verkäufer gegenüber haftet nur der Gesellschafter mit der höchsten Einlage.",
+      "Die GmbH haftet mit ihrem Stammkapital und die Gesellschafter zusätzlich auch mit ihrem Privatvermögen.",
+      "Die GmbH haftet gegenüber dem Verkäufer mit dem gesamten Betriebsvermögen.",
+      "Die GmbH haftet dem Verkäufer der Anlage gegenüber nur bis zur Höhe des gesetzlich festgelegten und einzuzahlenden Mindestkapitals.",
+      "Die GmbH haftet gegenüber dem Verkäufer nur mit den liquiden Mitteln der Gesellschaft, da es sich um eine Gesellschaft mit beschränkter Haftung handelt."
+    ],
+    "korrekt": [
+      2
+    ],
+    "loesung": "Richtig ist Antwort 3: Die GmbH haftet gegenüber dem Verkäufer mit dem gesamten Betriebsvermögen.",
+    "erklaerung": "Die GmbH als juristische Person haftet mit ihrem gesamten Gesellschaftsvermögen. Die Gesellschafter haften nicht mit ihrem Privatvermögen; die Haftung ist nicht auf das Mindestkapital oder liquide Mittel beschränkt."
+  },
+  {
+    "id": "wiso-2020s-a9",
+    "themaId": "rechtsformen-vollmachten",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2020-sommer",
+    "typ": "mc",
+    "text": "Einer Teamleiterin wird von einem Prokuristen die allgemeine Handlungsvollmacht erteilt. Prüfen Sie, welches der folgenden Rechtsgeschäfte sie künftig ausführen darf!",
+    "punkte": 3.3333,
+    "optionen": [
+      "Sie darf ein Grundstück verkaufen.",
+      "Sie darf den Geschäftszweck verändern.",
+      "Sie darf allgemeine Handlungsvollmachten erteilen.",
+      "Sie darf Bilanzen und Steuererklärungen unterschreiben.",
+      "Sie darf neue Mitarbeiter einstellen."
+    ],
+    "korrekt": [
+      4
+    ],
+    "loesung": "Richtig ist Antwort 5: Sie darf neue Mitarbeiter einstellen.",
+    "erklaerung": "Die allgemeine Handlungsvollmacht (§ 54 HGB) umfasst die gewöhnlichen Geschäfte des Betriebs, z. B. das Einstellen von Mitarbeitern. Grundstücksverkauf, Änderung des Geschäftszwecks, Vollmachtserteilung sowie das Unterschreiben von Bilanzen/Steuererklärungen sind davon nicht gedeckt."
+  },
+  {
+    "id": "wiso-2020s-a10",
+    "themaId": "rechtsformen-vollmachten",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2020-sommer",
+    "typ": "mc",
+    "text": "Die Komplementärin ist mit der von einem Prokuristen erteilten allgemeinen Handlungsvollmacht an die Teamleiterin nicht einverstanden. Prüfen Sie die Rechtslage!",
+    "punkte": 3.3333,
+    "optionen": [
+      "Die allgemeine Handlungsvollmacht ist unwirksam, da keine Eintragung ins Handelsregister erfolgt ist.",
+      "Die Erteilung der allgemeinen Handlungsvollmacht ist ungültig, da sie nicht schriftlich erfolgte.",
+      "Die Komplementärin hätte vor der Erteilung der allgemeinen Handlungsvollmacht in jedem Fall ihre Zustimmung geben müssen.",
+      "Die Erteilung der allgemeinen Handlungsvollmacht ist ordnungsgemäß erfolgt und somit gültig. Sie kann allerdings von der Komplementärin mit sofortiger Wirkung widerrufen werden.",
+      "Der Prokurist hatte keine rechtliche Befugnis, allgemeine Handlungsvollmachten zu erteilen. Die Vollmacht muss deshalb widerrufen werden."
+    ],
+    "korrekt": [
+      3
+    ],
+    "loesung": "Richtig ist Antwort 4: Die Erteilung der allgemeinen Handlungsvollmacht ist ordnungsgemäß erfolgt und somit gültig. Sie kann allerdings mit sofortiger Wirkung widerrufen werden.",
+    "erklaerung": "Ein Prokurist darf eine allgemeine Handlungsvollmacht erteilen; diese ist formfrei und muss nicht ins Handelsregister eingetragen werden. Sie ist jederzeit frei widerruflich."
+  },
+  {
+    "id": "wiso-2020s-a11",
+    "themaId": "markt-preisbildung",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2020-sommer",
+    "typ": "mc",
+    "text": "Auf dem Markt für Büromöbel gibt es außer dem betrachteten Unternehmen 4 Mitbewerber; Büromöbel werden von einer Vielzahl von Unternehmen und Privathaushalten nachgefragt. Welche Darstellung beschreibt und begründet die vorliegende Marktform für Büromöbel korrekt?",
+    "punkte": 3.3333,
+    "optionen": [
+      "Bei den Büromöbeln ist die Marktform des Polypols gegeben, da viele Unternehmen und Haushalte als Nachfrager auftreten.",
+      "Der Markt für Büromöbel weist auf ein Angebotsoligopol hin, da neben dem Unternehmen eine kleine Zahl an Anbietern auf eine Vielzahl von Nachfragern trifft.",
+      "Das Nachfrageoligopol kennzeichnet den Markt für Büromöbel, da mit Unternehmen und Haushalten nur zwei große Gruppen von Nachfragern auftreten.",
+      "Da neben dem Unternehmen nur wenige Anbieter auf dem Büromöbelmarkt zu finden sind, liegt die Marktform des Angebotsmonopols vor.",
+      "Falls das Unternehmen das mit Abstand größte auf der Anbieterseite wäre, ist von einem Monopol als Marktform auszugehen."
+    ],
+    "korrekt": [
+      1
+    ],
+    "loesung": "Richtig ist Antwort 2: Der Markt weist auf ein Angebotsoligopol hin, da eine kleine Zahl an Anbietern auf eine Vielzahl von Nachfragern trifft.",
+    "erklaerung": "Wenige Anbieter (5) stehen vielen Nachfragern gegenüber. Das ist ein Angebotsoligopol. Ein Polypol setzt viele Anbieter voraus, ein Monopol nur einen."
+  },
+  {
+    "id": "wiso-2020s-a12",
+    "themaId": "markt-preisbildung",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2020-sommer",
+    "typ": "mc",
+    "text": "Wirtschaftliche und rechtliche Entwicklungen können ein Unternehmen und seine Konkurrenten dazu veranlassen, ihr Angebot an Büromöbeln zu reduzieren. Welche Entwicklung kann die Angebotsreduktion begründen?",
+    "punkte": 3.3333,
+    "optionen": [
+      "Tarifliche und außertarifliche Lohnerhöhungen liegen weit unter der Inflationsrate; gleichzeitig erhöht die Bundesregierung die Einkommensteuersätze.",
+      "Die Abschreibungssätze für die zur Büromöbelproduktion erforderlichen Maschinen und Anlagen werden erhöht.",
+      "Die Absatzchancen für Büromöbel verbessern sich, da Substitutionsgüter auf den Markt kommen.",
+      "Wirtschaftsforschungsinstitute prognostizieren eine Steigerung des Bruttoinlandsproduktes von 2,5 % im nächsten Jahr.",
+      "Die Bundesregierung beschließt die Zahlung von Subventionen für die Erforschung und Entwicklung digital steuerbarer Büromöbel."
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Richtig ist Antwort 1: Lohnerhöhungen unter der Inflationsrate bei gleichzeitig steigenden Einkommensteuersätzen.",
+    "erklaerung": "Sinkende reale Kaufkraft der Verbraucher (Löhne unter Inflation, höhere Steuern) senkt die Nachfrage, was die Anbieter zu einer Angebotsreduktion veranlasst. Die übrigen Faktoren wirken angebotssteigernd bzw. nachfragefördernd."
+  },
+  {
+    "id": "wiso-2020s-a13",
+    "themaId": "markt-preisbildung",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2020-sommer",
+    "typ": "mc",
+    "text": "Welchen bedeutenden Unterschied weist der Büromöbelmarkt zum Modell des vollkommenen Marktes bzw. der vollständigen Konkurrenz auf?",
+    "punkte": 3.3333,
+    "optionen": [
+      "Im Modell der vollständigen Konkurrenz kann der Staat zum Schutz der Verbraucher Mindestpreise und Höchstpreise festlegen, für den Büromöbelmarkt ist dies nicht möglich.",
+      "Der Büromöbelmarkt stellt einen Verkäufermarkt dar, während im Modell der vollständigen Konkurrenz nur der Käufermarkt vorkommt.",
+      "Im Modell des vollkommenen Marktes wird von jedem Anbieter eine eigenständige Preispolitik betrieben.",
+      "Da es sich im vorliegenden Fall um wenige Anbieter von Büromöbeln handelt, liegt auf der Nachfrageseite vollständige Markttransparenz vor. Diese ist im Modell der vollständigen Konkurrenz nicht gegeben.",
+      "Das Modell unterstellt die Homogenität der Güter; dies ist im Fall des Büromöbelmarktes jedoch nicht gegeben, da die Anbieter ihre Produkte mit verschiedenen Merkmalen und Eigenschaften auf den Markt bringen."
+    ],
+    "korrekt": [
+      4
+    ],
+    "loesung": "Richtig ist Antwort 5: Das Modell unterstellt die Homogenität der Güter; auf dem Büromöbelmarkt sind die Produkte jedoch heterogen (verschiedene Merkmale und Eigenschaften).",
+    "erklaerung": "Der vollkommene Markt setzt gleichartige (homogene) Güter voraus. Reale Büromöbel unterscheiden sich in Design, Qualität und Marke und sind damit heterogen, was ein zentraler Unterschied zur vollständigen Konkurrenz ist."
+  },
+  {
+    "id": "wiso-2020s-a14",
+    "themaId": "konjunktur-indikatoren",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2020-sommer",
+    "typ": "mc",
+    "text": "Ihnen liegen folgende Zahlen zur wirtschaftlichen Situation vor (je Quartal in %): Inflationsrate 1,2 / 1,0 / 0,8 / 0,6; Arbeitslosenquote 10 / 11 / 12 / 12,5; Wirtschaftswachstum 1 / -1,1 / -1,5 / -2. Mit welchem Begriff können Sie die gesamtwirtschaftliche Situation bezogen auf das ganze Jahr beschreiben?",
+    "punkte": 3.3333,
+    "optionen": [
+      "Aufschwung (Expansion)",
+      "Stillstand (Stagnation)",
+      "Höchststand (Boom)",
+      "Tiefstand (Depression)",
+      "Abschwung (Rezession)"
+    ],
+    "korrekt": [
+      4
+    ],
+    "loesung": "Richtig ist Antwort 5: Abschwung (Rezession).",
+    "erklaerung": "Sinkendes und negatives Wirtschaftswachstum, steigende Arbeitslosigkeit und sinkende Inflationsrate kennzeichnen die Abschwungphase (Rezession) des Konjunkturzyklus."
+  },
+  {
+    "id": "wiso-2020s-a15",
+    "themaId": "konjunktur-indikatoren",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2020-sommer",
+    "typ": "mc",
+    "text": "Geben Sie an, welches Merkmal typisch für die Abschwungphase im Konjunkturzyklus ist!",
+    "punkte": 3.3333,
+    "optionen": [
+      "Zunahme der Investitionen",
+      "Zunahme der Arbeitslosigkeit",
+      "Zunahme der gesamtwirtschaftlichen Lohnsumme",
+      "Zunahme der Kapazitätsauslastung",
+      "Abnahme der Lagerbestände"
+    ],
+    "korrekt": [
+      1
+    ],
+    "loesung": "Richtig ist Antwort 2: Zunahme der Arbeitslosigkeit.",
+    "erklaerung": "In der Abschwungphase (Rezession) sinken Nachfrage, Investitionen und Kapazitätsauslastung, während Lagerbestände und Arbeitslosigkeit steigen."
+  },
+  {
+    "id": "wiso-2020s-a16",
+    "themaId": "berufsausbildung-arbeitsrecht",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2020-sommer",
+    "typ": "mc",
+    "text": "Geben Sie an, in welchem Gesetz das deutsche System der dualen Ausbildung geregelt ist!",
+    "punkte": 3.3333,
+    "optionen": [
+      "Im Bundesurlaubsgesetz (BUrlG)",
+      "Im Bürgerlichen Gesetzbuch (BGB)",
+      "Im Berufsbildungsgesetz (BBiG)",
+      "Im Bundesausbildungsförderungsgesetz (BAföG)",
+      "Im Betriebsverfassungsgesetz (BetrVG)"
+    ],
+    "korrekt": [
+      2
+    ],
+    "loesung": "Richtig ist Antwort 3: Im Berufsbildungsgesetz (BBiG).",
+    "erklaerung": "Das Berufsbildungsgesetz (BBiG) regelt die betriebliche Berufsausbildung, den Ausbildungsvertrag, die Rechte und Pflichten sowie das Prüfungswesen der dualen Ausbildung."
+  },
+  {
+    "id": "wiso-2020s-a17",
+    "themaId": "berufsausbildung-arbeitsrecht",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2020-sommer",
+    "typ": "mc",
+    "text": "Sie sollen die Verträge für die neuen Auszubildenden schriftlich niederlegen. Welcher der folgenden Punkte ist gesetzlich nicht zwingend im Vertrag festzuhalten?",
+    "punkte": 3.3333,
+    "optionen": [
+      "Art, sachliche und zeitliche Gliederung sowie Ziel der Berufsausbildung, insbesondere die Berufstätigkeit, für die ausgebildet werden soll",
+      "Beginn und Dauer der Berufsausbildung",
+      "Dauer der regelmäßigen täglichen Ausbildungszeit",
+      "Regelungen zur Gleitzeit",
+      "Ausbildungsmaßnahmen außerhalb der Ausbildungsstätte"
+    ],
+    "korrekt": [
+      3
+    ],
+    "loesung": "Richtig ist Antwort 4: Regelungen zur Gleitzeit.",
+    "erklaerung": "Nach § 11 BBiG müssen u. a. Art/Ziel, Beginn und Dauer, tägliche Ausbildungszeit und Maßnahmen außerhalb der Ausbildungsstätte im Vertrag stehen. Regelungen zur Gleitzeit gehören nicht zum gesetzlich vorgeschriebenen Mindestinhalt."
+  },
+  {
+    "id": "wiso-2020s-a18",
+    "themaId": "berufsausbildung-arbeitsrecht",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2020-sommer",
+    "typ": "mc",
+    "text": "Ein 23-jähriger Auszubildender bekommt sieben Monate nach Ausbildungsbeginn die Mitteilung, dass er seinen beantragten Studienplatz antreten kann. Welche Möglichkeit hat er, das Ausbildungsverhältnis zu beenden?",
+    "punkte": 3.3333,
+    "optionen": [
+      "Er kann sein Ausbildungsverhältnis nur innerhalb der Probezeit kündigen.",
+      "Er kann sein Ausbildungsverhältnis jederzeit mündlich kündigen, da ein wichtiger Grund vorliegt.",
+      "Er kann sein Ausbildungsverhältnis mit einer Frist von 4 Wochen kündigen.",
+      "Er kann das Ausbildungsverhältnis mit einer Frist von zwei Wochen kündigen.",
+      "Er kann das Ausbildungsverhältnis prinzipiell nicht kündigen."
+    ],
+    "korrekt": [
+      2
+    ],
+    "loesung": "Richtig ist Antwort 3: Er kann sein Ausbildungsverhältnis mit einer Frist von 4 Wochen kündigen.",
+    "erklaerung": "Nach Ablauf der Probezeit kann der Auszubildende bei Aufgabe der Berufsausbildung oder Wechsel des Berufs mit einer Frist von vier Wochen kündigen (§ 22 Abs. 2 Nr. 2 BBiG). Die Kündigung muss schriftlich erfolgen."
+  },
+  {
+    "id": "wiso-2020s-a19",
+    "themaId": "unternehmensorganisation",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2020-sommer",
+    "typ": "mc",
+    "text": "Welches Leitungssystem liegt dem abgebildeten Organigramm des Unternehmens zugrunde? Das Organigramm zeigt eine klare Linienstruktur, ergänzt um beratende Stabstellen (z. B. Public Relations, Organisation/IT).",
+    "punkte": 3.3333,
+    "optionen": [
+      "Liniensystem",
+      "Stab-Liniensystem",
+      "Mehrliniensystem",
+      "Matrixorganisation",
+      "Spartenorganisation"
+    ],
+    "korrekt": [
+      1
+    ],
+    "loesung": "Richtig ist Antwort 2: Stab-Liniensystem.",
+    "erklaerung": "Ein Einliniensystem, das durch beratende Stabstellen ohne Weisungsbefugnis ergänzt wird, ist ein Stab-Liniensystem."
+  },
+  {
+    "id": "wiso-2020s-a20",
+    "themaId": "unternehmensorganisation",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2020-sommer",
+    "typ": "mc",
+    "text": "Sie erläutern Ihren Auszubildenden das abgebildete Organigramm. Welche Erläuterung trifft zu?",
+    "punkte": 3.3333,
+    "optionen": [
+      "Public Relations und Organisation/IT sind Stabstellen.",
+      "Stabstellen kommen auf allen Leitungsebenen des Unternehmens vor.",
+      "Die Stabstellen des Unternehmens sind allen Instanzen gegenüber weisungsbefugt.",
+      "Der Inhaber einer Stabstelle ist nicht an die Weisungen der Geschäftsleitung gebunden.",
+      "Die Marketingleitung unterstützt die Geschäftsleitung, darf aber keine Entscheidungen treffen."
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Richtig ist Antwort 1: Public Relations und Organisation/IT sind Stabstellen.",
+    "erklaerung": "Public Relations und Organisation/IT sind der Geschäftsleitung als beratende Stabstellen zugeordnet. Stabstellen haben keine Weisungsbefugnis und sind selbst an Weisungen gebunden."
+  },
+  {
+    "id": "wiso-2020s-a21",
+    "themaId": "berufsausbildung-arbeitsrecht",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2020-sommer",
+    "typ": "rechnen",
+    "text": "Mit Ablauf welchen Tages endet die Probezeit, wenn dem Auszubildenden die laut Gesetz am kürzesten mögliche Probezeit eingetragen wird? Ausbildungsbeginn ist der 01.08.2020. Tragen Sie das Datum (TT.MM.JJJJ) ein!",
+    "punkte": 3.3333,
+    "loesung": "Die gesetzlich kürzeste Probezeit beträgt einen Monat (§ 20 BBiG). Bei Ausbildungsbeginn am 01.08.2020 endet sie mit Ablauf des 31.08.2020.",
+    "erklaerung": "Nach § 20 BBiG muss die Probezeit mindestens einen Monat betragen. Beginnt die Ausbildung am 01.08., läuft der Monat mit Ablauf des 31.08. desselben Jahres ab."
+  },
+  {
+    "id": "wiso-2020s-a22",
+    "themaId": "berufsausbildung-arbeitsrecht",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2020-sommer",
+    "typ": "mc",
+    "text": "In welcher Rechtsvorschrift finden Sie Hinweise zur Kündigung in der Probezeit des Auszubildenden?",
+    "punkte": 3.3333,
+    "optionen": [
+      "Jugendarbeitsschutzgesetz",
+      "Betriebsverfassungsgesetz",
+      "Tarifvertragsgesetz",
+      "Sozialgesetzbuch",
+      "Berufsbildungsgesetz"
+    ],
+    "korrekt": [
+      4
+    ],
+    "loesung": "Richtig ist Antwort 5: Berufsbildungsgesetz.",
+    "erklaerung": "Die Regelungen zur Probezeit und zur Kündigung des Berufsausbildungsverhältnisses stehen im Berufsbildungsgesetz (BBiG, §§ 20, 22)."
+  },
+  {
+    "id": "wiso-2020s-a23",
+    "themaId": "berufsausbildung-arbeitsrecht",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2020-sommer",
+    "typ": "mc",
+    "text": "Welche Feststellung zur Kündigung des Ausbildungsvertrages in der Probezeit entspricht den gesetzlichen Vorschriften?",
+    "punkte": 3.3333,
+    "optionen": [
+      "Die Kündigung eines Ausbildungsverhältnisses kann mündlich erfolgen.",
+      "Beide Seiten können das Berufsausbildungsverhältnis in der Probezeit ohne Angabe von Gründen, aber mit Einhaltung einer Kündigungsfrist kündigen.",
+      "Beide Seiten können das Berufsausbildungsverhältnis in der Probezeit ohne Angabe von Gründen und ohne Einhaltung einer Kündigungsfrist jederzeit kündigen.",
+      "In Betrieben, in denen ein Betriebsrat besteht, muss dieser jeder Kündigung während der Probezeit durch den Arbeitgeber zustimmen.",
+      "Während einer Berufsausbildung kann vom Arbeitgeber niemals gekündigt werden."
+    ],
+    "korrekt": [
+      2
+    ],
+    "loesung": "Richtig ist Antwort 3: Beide Seiten können in der Probezeit ohne Angabe von Gründen und ohne Kündigungsfrist jederzeit kündigen.",
+    "erklaerung": "Während der Probezeit kann das Ausbildungsverhältnis von beiden Seiten jederzeit ohne Frist und ohne Grund gekündigt werden (§ 22 Abs. 1 BBiG). Die Kündigung bedarf allerdings der Schriftform."
+  },
+  {
+    "id": "wiso-2020s-a24",
+    "themaId": "berufsausbildung-arbeitsrecht",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2020-sommer",
+    "typ": "rechnen",
+    "text": "Ermitteln Sie, wie viele Werktage Urlaub der Auszubildende (geb. 13.07.2003) im Jahr 2021 mehr erhält, als im Jugendarbeitsschutzgesetz als Mindesturlaub vorgeschrieben ist! Laut Vertrag erhält er 2021 insgesamt 30 Werktage Urlaub. § 19 JArbSchG: mind. 30 Werktage (unter 16), mind. 27 (unter 17), mind. 25 (unter 18).",
+    "punkte": 3.3333,
+    "loesung": "Zu Beginn des Jahres 2021 ist der Auszubildende bereits 17 Jahre alt (geb. 13.07.2003), aber noch nicht 18. Der Mindesturlaub beträgt somit 25 Werktage. 30 − 25 = 5 Werktage mehr.",
+    "erklaerung": "Maßgeblich ist das Alter zu Beginn des Kalenderjahres. Am 01.01.2021 ist der Jugendliche 17 Jahre alt (noch nicht 18), daher gelten mindestens 25 Werktage. Der Vertrag gewährt 30 Werktage, also 5 Werktage mehr."
+  },
+  {
+    "id": "wiso-2020s-a25",
+    "themaId": "arbeitsschutz-umwelt",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2020-sommer",
+    "typ": "mc",
+    "text": "Zum Arbeitsschutz und zur Unfallverhütung gibt es wichtige Gesetze und Verordnungen. Welches Gesetz bzw. welche Verordnung gehört nicht dazu?",
+    "punkte": 3.3333,
+    "optionen": [
+      "Mutterschutzgesetz",
+      "Jugendarbeitsschutzgesetz",
+      "Handelsgesetzbuch",
+      "Arbeitsstättenverordnung",
+      "Gewerbeordnung"
+    ],
+    "korrekt": [
+      2
+    ],
+    "loesung": "Richtig ist Antwort 3: Handelsgesetzbuch.",
+    "erklaerung": "Das Handelsgesetzbuch (HGB) regelt das Handelsrecht, nicht den Arbeitsschutz. Mutterschutzgesetz, Jugendarbeitsschutzgesetz, Arbeitsstättenverordnung und Gewerbeordnung enthalten dagegen Arbeitsschutzbestimmungen."
+  },
+  {
+    "id": "wiso-2020s-a26",
+    "themaId": "arbeitsschutz-umwelt",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2020-sommer",
+    "typ": "mc",
+    "text": "Welche 2 Sofortmaßnahmen sind im Falle eines Brandes im Unternehmen zu ergreifen?",
+    "punkte": 3.3333,
+    "optionen": [
+      "Alle Fenster öffnen, damit der Rauch abziehen kann",
+      "Notruf tätigen",
+      "Den Sicherheitsbeauftragten informieren, da er für die technischen Anlagen zuständig ist",
+      "Den Vorgesetzten informieren, da dieser die Verantwortung für die Abteilung hat",
+      "Gefährdete Personen evakuieren",
+      "Alle erreichbaren Wasserstellen öffnen"
+    ],
+    "korrekt": [
+      1,
+      4
+    ],
+    "loesung": "Richtig sind die Antworten 2 und 5: Notruf tätigen und gefährdete Personen evakuieren.",
+    "erklaerung": "Im Brandfall gelten die Grundregeln Alarmieren (Notruf 112), Retten (Personen in Sicherheit bringen) und dann ggf. Löschen. Fenster öffnen würde das Feuer mit Sauerstoff versorgen."
+  },
+  {
+    "id": "wiso-2020s-a27",
+    "themaId": "arbeitsschutz-umwelt",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2020-sommer",
+    "typ": "mc",
+    "text": "Das Unternehmen sucht Maßnahmen zur Förderung der Gesundheit am Arbeitsplatz. Nach einer Umfrage steht der Wunsch nach Stressreduzierung an erster Stelle. Welche 2 Maßnahmen sind nicht geeignet?",
+    "punkte": 3.3333,
+    "optionen": [
+      "Die Kundenbeschwerden nicht mehr in Gegenwart des Kunden, sondern am Telefon bearbeiten",
+      "Teilnahme an Ernährungsberatung anbieten",
+      "Angenehme Arbeitsatmosphäre schaffen",
+      "Gemeinsamen Betriebssport anbieten",
+      "Bekanntgabe des Erfolges oder Misserfolges der Mitarbeitertätigkeit für alle und nicht nur für Vorgesetzte",
+      "Meditationskurse anbieten"
+    ],
+    "korrekt": [
+      0,
+      4
+    ],
+    "loesung": "Richtig sind die Antworten 1 und 5: Kundenbeschwerden ans Telefon verlagern sowie die öffentliche Bekanntgabe von Erfolg/Misserfolg für alle.",
+    "erklaerung": "Beide Maßnahmen erhöhen eher den Stress: Das Bearbeiten von Beschwerden am Telefon löst das Problem nicht, und die öffentliche Bekanntgabe von Leistungen erzeugt zusätzlichen Druck. Ernährungsberatung, gute Atmosphäre, Betriebssport und Meditation reduzieren dagegen Stress."
+  },
+  {
+    "id": "wiso-2020s-a28",
+    "themaId": "arbeitsschutz-umwelt",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2020-sommer",
+    "typ": "mc",
+    "text": "Eine ökologische Steuergruppe organisiert ein internes Audit. Welches Beispiel könnte ein ökologisches Ziel im QM-Handbuch sein?",
+    "punkte": 3.3333,
+    "optionen": [
+      "Ein Ziel ist, alle Materialien von ökologisch zertifizierten Lieferanten zu beziehen, ohne die Qualität der produzierten Büromöbel zu beeinträchtigen.",
+      "Hohe Investitionen zur Verringerung der Umweltbelastung führen zur Zielharmonie zwischen einem ökologischen und einem ökonomischen Ziel.",
+      "Ein Ziel im QM-Handbuch ist die Umsatzsteigerung durch stetige Ausweitung der Produktion.",
+      "Ein ökologisches Ziel liegt in der Verbesserung der Kundenzufriedenheit und damit der Kundenbindung.",
+      "Die Umstellung des Fuhrparks für Außendienstmitarbeiter auf größere und leistungsstärkere Fahrzeuge wird als ökologisches Ziel definiert."
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Richtig ist Antwort 1: Alle Materialien von ökologisch zertifizierten Lieferanten zu beziehen, ohne die Qualität zu beeinträchtigen.",
+    "erklaerung": "Der Bezug von Materialien von zertifizierten (nachhaltigen) Lieferanten ist ein ökologisches Ziel. Umsatzsteigerung und Kundenzufriedenheit sind ökonomische Ziele; größere Fahrzeuge belasten die Umwelt zusätzlich."
+  },
+  {
+    "id": "wiso-2020s-a29",
+    "themaId": "arbeitsschutz-umwelt",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2020-sommer",
+    "typ": "mc",
+    "text": "Die Analyse ergibt, dass im Einkauf in geringem Maße Wert auf die Vermeidung betrieblich verursachter Umweltbelastungen gelegt wird. In welchem Beispiel wird das ökologische Ziel im Einkauf nicht erreicht?",
+    "punkte": 3.3333,
+    "optionen": [
+      "In enger Abstimmung mit den Anforderungen der Produktionsabteilung werden möglichst recyclingfähige Materialien bestellt.",
+      "Bei Beschaffung der verwendeten Lacke wird auf einen hohen Wirkungsgrad Wert gelegt, sodass die Büromöbel mit möglichst geringem Materialeinsatz gefertigt werden können.",
+      "Bei der Auswahl der Lieferanten für hochwertige Hölzer werden vorzugsweise weit entfernte Unternehmen beauftragt.",
+      "Die Schutzverpackungen der beschafften Holzbalken und -paneele werden von einem Recyclingunternehmen entsorgt.",
+      "Die Lieferanten der Hilfsstoffe wie z. B. Schrauben und Nägel verzichten weitgehend auf Verpackungen aus Plastik."
+    ],
+    "korrekt": [
+      2
+    ],
+    "loesung": "Richtig ist Antwort 3: Bei der Lieferantenauswahl für hochwertige Hölzer werden vorzugsweise weit entfernte Unternehmen beauftragt.",
+    "erklaerung": "Weit entfernte Lieferanten verursachen lange Transportwege und damit hohe Umweltbelastungen (Emissionen). Das widerspricht dem ökologischen Ziel der Umweltvermeidung. Die übrigen Beispiele fördern den Umweltschutz."
+  },
+  {
+    "id": "wiso-2020s-a30",
+    "themaId": "arbeitsschutz-umwelt",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2020-sommer",
+    "typ": "mc",
+    "text": "Im Produktionsbereich werden zu hohe umweltbelastende Emissionen festgestellt. Welche Darstellung ist in diesem Zusammenhang richtig?",
+    "punkte": 3.3333,
+    "optionen": [
+      "Emissionen entstehen durch den Transport von Materialien oder unfertigen Erzeugnissen zwischen den Maschinen durch manuell bewegte Hubwagen.",
+      "Zu den umweltbelastenden Emissionen gehören neben Rauch und umweltschädlichen Abgasen auch Schallemissionen und Elektrosmog.",
+      "Emissionen können durch den Bau höherer Schornsteine auf den Produktionsgebäuden reduziert oder vermieden werden.",
+      "Für die Luftreinhaltung durch Produktionsbetriebe sind gemäß Bundesimmissionsschutzgesetz die Sicherheitsbeauftragten der Unternehmen zuständig.",
+      "Die Verringerung der Emissionen ist wichtiger als deren Vermeidung, da auch die Verwertung von Abfällen wichtiger ist als deren Vermeidung."
+    ],
+    "korrekt": [
+      1
+    ],
+    "loesung": "Richtig ist Antwort 2: Zu den umweltbelastenden Emissionen gehören neben Rauch und Abgasen auch Schallemissionen und Elektrosmog.",
+    "erklaerung": "Emissionen umfassen alle von einer Anlage ausgehenden Umwelteinwirkungen, also Luftschadstoffe, Lärm (Schall) und elektromagnetische Felder (Elektrosmog). Höhere Schornsteine verlagern nur, statt zu vermeiden; Vermeidung hat Vorrang vor Verringerung."
+  },
+  {
+    "id": "wiso-2020w-a1",
+    "themaId": "produktionsfaktoren-unternehmensziele",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2020-winter",
+    "typ": "mc",
+    "text": "Um größeren Einfluss auf die Preisgestaltung zu erhalten, sucht das Unternehmen einen Kooperationspartner aus dem primären und einen aus dem sekundären Sektor. Welche 2 Unternehmen kommen infrage?",
+    "optionen": [
+      "Spediteur Radler GmbH",
+      "Lagerhalter Groß KG",
+      "Büromöbelgroßhändler Ansmann OHG",
+      "Forstwirtschaft Franz Meyer e. K.",
+      "Handelsvertretung Bürospezial GmbH",
+      "Sägewerk Matthias König KG"
+    ],
+    "korrekt": [
+      3,
+      5
+    ],
+    "punkte": 3,
+    "loesung": "Antworten 4 und 6: Forstwirtschaft Franz Meyer e. K. (primärer Sektor) und Sägewerk Matthias König KG (sekundärer Sektor).",
+    "erklaerung": "Der primäre Sektor gewinnt Rohstoffe (Forstwirtschaft), der sekundäre Sektor verarbeitet sie (Sägewerk). Spedition, Lagerung und Handel gehören zum tertiären Sektor."
+  },
+  {
+    "id": "wiso-2020w-a2",
+    "themaId": "produktionsfaktoren-unternehmensziele",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2020-winter",
+    "typ": "mc",
+    "text": "Auch bei den betriebswirtschaftlichen Produktionsfaktoren sollen Kosten gesenkt werden. Welche Maßnahme betrifft den Produktionsfaktor 'Werkstoffe'?",
+    "optionen": [
+      "Die Reparatur der Produktionsmaschinen wird durch einen neuen Anbieter günstiger.",
+      "Ein ungenutztes Grundstück wird verkauft.",
+      "Einem Prokuristen wird gekündigt.",
+      "Die Warenauslieferung wird an einen Dienstleister ausgelagert.",
+      "Die Schmiermittel für die Produktionsanlage werden günstiger bezogen."
+    ],
+    "korrekt": [
+      4
+    ],
+    "punkte": 3,
+    "loesung": "Antwort 5: Die Schmiermittel für die Produktionsanlage werden günstiger bezogen.",
+    "erklaerung": "Werkstoffe umfassen Roh-, Hilfs- und Betriebsstoffe. Schmiermittel sind Betriebsstoffe und gehören damit zum Produktionsfaktor Werkstoffe."
+  },
+  {
+    "id": "wiso-2020w-a3",
+    "themaId": "produktionsfaktoren-unternehmensziele",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2020-winter",
+    "typ": "mc",
+    "text": "Aufgaben des Beschaffungsbereichs sollen an eine kostengünstigere Fremdfirma vergeben werden. Welche Aufgabe käme dafür infrage?",
+    "optionen": [
+      "Die Qualitätskontrolle der benötigten Farben und Lacke wird an ein unabhängiges Labor ausgelagert.",
+      "Die Personalsuche für einen zusätzlichen Verkäufer wird einem Personaldienstleister übertragen.",
+      "Der Verkauf über unternehmenseigene Filialen wird abgegeben.",
+      "Das Mahnwesen wird an eine Fremdfirma abgegeben.",
+      "Die Marktforschung wird ausgelagert."
+    ],
+    "korrekt": [
+      0
+    ],
+    "punkte": 3,
+    "loesung": "Antwort 1: Die Qualitätskontrolle der benötigten Farben und Lacke wird an ein unabhängiges Labor ausgelagert.",
+    "erklaerung": "Die Prüfung beschaffter Farben und Lacke gehört zum Beschaffungsbereich (Wareneingangs-/Qualitätskontrolle) und lässt sich sinnvoll an ein externes Labor auslagern."
+  },
+  {
+    "id": "wiso-2020w-a4",
+    "themaId": "unternehmensorganisation",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2020-winter",
+    "typ": "mc",
+    "text": "Zur Kostensenkung sollen die Arbeitsabläufe in der Auftragsbearbeitung verbessert werden. Für die Ist-Analyse findet eine Beobachtung der Prozesse statt; die Multimomentmethode soll angewendet werden. Welchen Vorteil hat diese Methode?",
+    "optionen": [
+      "Diese Methode ermöglicht eine ununterbrochene Beobachtung der Arbeitsabläufe über einen langen Zeitraum.",
+      "Bei dieser Methode bringt der Beobachtete seine Meinung zur Verbesserung der Arbeitsabläufe ein.",
+      "Durch eine Vielzahl von Beobachtungen werden viele Arbeitssituationen erfasst.",
+      "Der Beobachtete kennt den Beobachtungszeitraum und kann sein Arbeitsverhalten optimieren.",
+      "Zu dieser Methode gehört die Selbstaufschreibung des Beobachteten zur Verbesserung der Leistungsfähigkeit."
+    ],
+    "korrekt": [
+      2
+    ],
+    "punkte": 3,
+    "loesung": "Antwort 3: Durch eine Vielzahl von Beobachtungen werden viele Arbeitssituationen erfasst.",
+    "erklaerung": "Die Multimomentaufnahme erfasst durch viele kurze Stichproben-Beobachtungen zu zufälligen Zeitpunkten ein repräsentatives Bild des Arbeitsablaufs, ohne ihn durchgehend beobachten zu müssen."
+  },
+  {
+    "id": "wiso-2020w-a5",
+    "themaId": "prozesse-epk",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2020-winter",
+    "typ": "mc",
+    "text": "Der verbesserte Ablauf der Auftragsbearbeitung soll mit einer ereignisgesteuerten Prozesskette (EPK) dargestellt werden. Ordnen Sie den Symbolen 'Funktion', 'XOR' und 'UND' die passenden Beschreibungen zu (in dieser Reihenfolge)!",
+    "optionen": [
+      "Das Symbol beschreibt das Eintreten eines Zustandes.",
+      "Das Symbol beschreibt, was gemacht werden soll.",
+      "Das Symbol bedeutet, dass alle Möglichkeiten eingetreten sein müssen, bevor es weitergeht.",
+      "Das Symbol bedeutet, dass nur eine der Möglichkeiten eintreten darf, damit der Prozess fortgesetzt werden kann.",
+      "Das Symbol bedeutet, dass mindestens eine der Möglichkeiten eintreten muss, damit der Prozess fortgesetzt werden kann."
+    ],
+    "korrekt": [
+      1,
+      3,
+      2
+    ],
+    "punkte": 3,
+    "loesung": "Reihenfolge Funktion - XOR - UND: 2, 4, 3. Funktion = beschreibt, was gemacht werden soll (2). XOR = nur eine der Möglichkeiten darf eintreten (4). UND = alle Möglichkeiten müssen eingetreten sein (3).",
+    "erklaerung": "In der EPK beschreibt die Funktion eine Tätigkeit, der XOR-Operator lässt genau einen von mehreren sich ausschließenden Pfaden zu, der UND-Operator verlangt, dass alle Pfade (parallel) erfüllt sind."
+  },
+  {
+    "id": "wiso-2020w-a6",
+    "themaId": "projektmanagement",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2020-winter",
+    "typ": "mc",
+    "text": "Damit die verbesserten Arbeitsabläufe umgesetzt werden, wird eine Projektgruppe eingerichtet. Ordnen Sie den Projektphasen Definition, Planung, Durchführung und Abschluss die passenden Tätigkeiten zu (in dieser Reihenfolge)!",
+    "optionen": [
+      "Sitzungsprotokolle und Statusberichte werden erstellt.",
+      "Es erfolgt eine Reflexion des Projekts.",
+      "Es werden ein Projektstrukturplan und ein Projektablaufplan erstellt.",
+      "Es wird ein Lastenheft formuliert."
+    ],
+    "korrekt": [
+      3,
+      2,
+      0,
+      1
+    ],
+    "punkte": 3,
+    "loesung": "Reihenfolge Definition - Planung - Durchführung - Abschluss: 4, 3, 1, 2. Definition = Lastenheft formulieren (4). Planung = Projektstruktur- und Projektablaufplan erstellen (3). Durchführung = Sitzungsprotokolle/Statusberichte erstellen (1). Abschluss = Reflexion des Projekts (2).",
+    "erklaerung": "Zuerst wird der Auftrag im Lastenheft festgehalten (Definition), dann geplant (Struktur-/Ablaufplan), umgesetzt und dokumentiert (Durchführung) und am Ende reflektiert (Abschluss)."
+  },
+  {
+    "id": "wiso-2020w-a7",
+    "themaId": "rechtsformen-vollmachten",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2020-winter",
+    "typ": "mc",
+    "text": "Zur Auslagerung der Verkaufsabteilung soll ein Tochterunternehmen als GmbH gegründet werden. Was ist bei der Gründung einer GmbH zu beachten?",
+    "optionen": [
+      "Zur Gründung einer GmbH müssen sich mindestens 2 Personen mit den gleichen geschäftlichen Interessen zusammenschließen.",
+      "Die GmbH kann nur durch das Einbringen von Sacheinlagen gegründet werden.",
+      "Die persönliche Mitarbeit in der Geschäftsführung ist verpflichtend.",
+      "Die GmbH muss als juristische Person im Handelsregister eingetragen werden.",
+      "Das Stammkapital in Höhe von 50.000 EUR muss bei Gründung vollständig eingezahlt werden."
+    ],
+    "korrekt": [
+      3
+    ],
+    "punkte": 3,
+    "loesung": "Antwort 4: Die GmbH muss als juristische Person im Handelsregister eingetragen werden.",
+    "erklaerung": "Die GmbH ist eine juristische Person und entsteht erst mit Eintragung ins Handelsregister. Sie kann von einer Person gegründet werden, das Stammkapital beträgt 25.000 EUR (nicht 50.000) und muss bei Gründung nur zur Hälfte eingezahlt werden."
+  },
+  {
+    "id": "wiso-2020w-a8",
+    "themaId": "rechtsformen-vollmachten",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2020-winter",
+    "typ": "rechnen",
+    "text": "Im ersten Geschäftsjahr wurde ein Gewinn in Höhe von 300.000 EUR erwirtschaftet. Für die Gewinnverteilung ist keine vertragliche Regelung vereinbart. Berechnen Sie, welcher Gewinnanteil in Euro auf die Gesellschafterin mit 35.000 EUR Einlage entfällt! (Kapitaleinlagen: 85.000 EUR und 35.000 EUR.)",
+    "punkte": 3,
+    "loesung": "Ohne vertragliche Regelung erfolgt die Verteilung nach dem Verhältnis der Geschäftsanteile (§ 29 GmbHG). Gesamtkapital = 85.000 + 35.000 = 120.000 EUR. Anteil = 35.000 / 120.000 x 300.000 = 87.500 EUR."
+  },
+  {
+    "id": "wiso-2020w-a9",
+    "themaId": "rechtsformen-vollmachten",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2020-winter",
+    "typ": "mc",
+    "text": "Die Geschäftsführung, die Vertretung und deren Kontrolle werden durch die vorgesehenen Organe der GmbH vorgenommen. Welche Erläuterung hierzu ist richtig?",
+    "optionen": [
+      "Die Gesellschafterin mit der höchsten Kapitaleinlage muss die GmbH allein nach außen vertreten.",
+      "Die Gesellschafterversammlung übernimmt die Geschäftsführung der GmbH.",
+      "Bei mehr als 500 Arbeitnehmern muss ein Aufsichtsrat gewählt werden.",
+      "Der Geschäftsführer ist von Weisungen der Gesellschafter völlig unabhängig.",
+      "Der Aufsichtsrat der GmbH bestellt die Geschäftsführung."
+    ],
+    "korrekt": [
+      2
+    ],
+    "punkte": 3,
+    "loesung": "Antwort 3: Bei mehr als 500 Arbeitnehmern muss ein Aufsichtsrat gewählt werden.",
+    "erklaerung": "Nach dem Drittelbeteiligungsgesetz ist bei einer GmbH mit mehr als 500 Arbeitnehmern ein Aufsichtsrat zu bilden. Die Geschäftsführung wird durch die Gesellschafterversammlung bestellt und ist deren Weisungen unterworfen."
+  },
+  {
+    "id": "wiso-2020w-a10",
+    "themaId": "markt-preisbildung",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2020-winter",
+    "typ": "mc",
+    "text": "Ein Mitbewerber hat als erstes Unternehmen einen Schreibtisch angeboten, dessen Höhe mithilfe eines Smartphones verstellt werden kann. Ab nächstem Monat wird auch das eigene Unternehmen einen solchen Schreibtisch vertreiben. Welche Marktform liegt ab nächstem Monat auf dem Markt für diese Art der höhenverstellbaren Schreibtische vor?",
+    "optionen": [
+      "Angebotsmonopol",
+      "Nachfragemonopol",
+      "Angebotspolypol",
+      "Nachfragepolypol",
+      "Angebotsoligopol",
+      "Nachfrageoligopol"
+    ],
+    "korrekt": [
+      4
+    ],
+    "punkte": 3,
+    "loesung": "Antwort 5: Angebotsoligopol.",
+    "erklaerung": "Wenn nur zwei (bzw. wenige) Anbieter dieses spezielle Produkt anbieten, aber viele Nachfrager existieren, liegt ein Angebotsoligopol vor (wenige Anbieter, viele Nachfrager)."
+  },
+  {
+    "id": "wiso-2020w-a11",
+    "themaId": "markt-preisbildung",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2020-winter",
+    "typ": "mc",
+    "text": "Die für den Büromöbelmarkt ermittelten Nachfrage- und Angebotszahlen sind in einer Grafik dargestellt. Welche Schlussfolgerung können Sie aus der Grafik ziehen?",
+    "anlagenText": "Preis-Mengen-Grafik: Die Nachfragekurve fällt von ca. 3.000 EUR (bei 50.000 Stück) auf ca. 2.000 EUR (bei 100.000 Stück); die Angebotskurve steigt von ca. 2.000 EUR (bei 50.000 Stück) auf ca. 3.000 EUR (bei 100.000 Stück). Schnittpunkt (Gleichgewicht) bei etwa 2.500 EUR und rund 75.000 Stück.",
+    "optionen": [
+      "Der Gleichgewichtspreis liegt bei 2.000 EUR.",
+      "Bei einem Preis von 2.200 EUR liegt ein Angebotsüberhang vor.",
+      "Bei einem Preis von 2.800 EUR liegt ein Nachfrageüberhang vor.",
+      "Bei einem Preis von 2.500 EUR liegt ein Nachfrageüberhang vor.",
+      "Bei einem Preis von 2.700 EUR liegt ein Angebotsüberhang vor."
+    ],
+    "korrekt": [
+      4
+    ],
+    "punkte": 3,
+    "loesung": "Antwort 5: Bei einem Preis von 2.700 EUR liegt ein Angebotsüberhang vor.",
+    "erklaerung": "Der Gleichgewichtspreis liegt bei ca. 2.500 EUR. Über dem Gleichgewichtspreis (2.700 EUR) ist das Angebot größer als die Nachfrage - es liegt ein Angebotsüberhang vor."
+  },
+  {
+    "id": "wiso-2020w-a12",
+    "themaId": "konjunktur-indikatoren",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2020-winter",
+    "typ": "mc",
+    "text": "Ihnen liegen folgende Zahlen zur wirtschaftlichen Situation in Europa vor (aktuelles Jahr): Bruttoinlandsprodukt -1,0 %, Inflationsrate 2,2 %, Arbeitslosenquote 8,5 % (Vorjahr: BIP -0,5 %, Arbeitslosenquote 7,0 %). Mit welchem Begriff können Sie die gesamtwirtschaftliche Entwicklung im aktuellen Jahr zusammenfassen?",
+    "optionen": [
+      "Abschwung/Rezession",
+      "Aufschwung/Expansion",
+      "Stillstand/Stagnation",
+      "Höchststand/Boom",
+      "Tiefstand/Depression"
+    ],
+    "korrekt": [
+      0
+    ],
+    "punkte": 3,
+    "loesung": "Antwort 1: Abschwung/Rezession.",
+    "erklaerung": "Ein rückläufiges (negatives und sich verschlechterndes) BIP zusammen mit steigender Arbeitslosenquote sind typische Merkmale der Abschwungphase (Rezession)."
+  },
+  {
+    "id": "wiso-2020w-a13",
+    "themaId": "konjunktur-indikatoren",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2020-winter",
+    "typ": "mc",
+    "text": "Stellen Sie fest, welches Merkmal typisch für die Abschwungphase ist!",
+    "optionen": [
+      "Zunahme der Investitionen",
+      "Zunahme des Bruttoinlandsprodukts",
+      "Zunahme der gesamtwirtschaftlichen Lohnsumme",
+      "Zunahme der Kapazitätsauslastung",
+      "Zunahme der Lagerbestände"
+    ],
+    "korrekt": [
+      4
+    ],
+    "punkte": 3,
+    "loesung": "Antwort 5: Zunahme der Lagerbestände.",
+    "erklaerung": "Im Abschwung sinkt die Nachfrage, sodass produzierte Waren nicht abgesetzt werden - die Lagerbestände steigen. Investitionen, BIP, Lohnsumme und Kapazitätsauslastung gehen dagegen zurück."
+  },
+  {
+    "id": "wiso-2020w-a14",
+    "themaId": "finanzierung-kreditsicherung",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2020-winter",
+    "typ": "mc",
+    "text": "Das Unternehmen plant die Umstellung des Fuhrparks auf Elektrofahrzeuge (Anschaffungskosten 300.000 EUR). Die Geschäftsleitung diskutiert Finanzierungsalternativen. Welcher Sachverhalt ist zutreffend?",
+    "optionen": [
+      "Die Aufnahme eines Kontokorrentkredits ist wirtschaftlich sinnvoll, da die Rückzahlung über feste monatliche Raten die Kalkulation erleichtert.",
+      "Das Unternehmen könnte neue Aktien herausgeben und so die erforderliche Summe bereitstellen.",
+      "Die Aufnahme eines Bankdarlehens im Rahmen der Außen- und Eigenfinanzierung der neuen Fahrzeuge ist eine mögliche Alternative.",
+      "Falls sich die Geschäftsleitung für eine Finanzierung aus dem nicht ausgeschütteten Gewinn des letzten Geschäftsjahres entscheidet, handelt es sich um eine Maßnahme der Selbstfinanzierung.",
+      "Die Möglichkeit des Leasings der Fahrzeuge wird kritisch gesehen, da die Leasingraten im Gegensatz zu den Zinszahlungen bei einer Darlehensaufnahme nicht als Betriebsausgaben steuerlich geltend gemacht werden können."
+    ],
+    "korrekt": [
+      3
+    ],
+    "punkte": 3,
+    "loesung": "Antwort 4: Wird die Anschaffung aus nicht ausgeschüttetem Gewinn finanziert, handelt es sich um Selbstfinanzierung.",
+    "erklaerung": "Selbstfinanzierung ist eine Form der Innenfinanzierung aus einbehaltenem Gewinn. Ein Kontokorrentkredit hat keine festen Raten, eine KG gibt keine Aktien aus, ein Bankdarlehen ist Fremd- (nicht Eigen-)finanzierung, und Leasingraten sind steuerlich abzugsfähig."
+  },
+  {
+    "id": "wiso-2020w-a15",
+    "themaId": "finanzierung-kreditsicherung",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2020-winter",
+    "typ": "mc",
+    "text": "Das Unternehmen beschließt die Aufnahme eines Bankdarlehens. Die Vertragsklausel zur Rückzahlung lautet: 'Die monatlich am 15. zu zahlende Gesamtsumme beträgt 3.500 EUR. Die monatliche Rate setzt sich aus steigender Tilgung und sinkenden Zinsen zusammen.' Welche Erläuterung hierzu ist korrekt?",
+    "optionen": [
+      "Das Unternehmen nimmt ein Abzahlungsdarlehen auf, da die Darlehenssumme monatlich sinkt.",
+      "Es handelt sich in diesem Fall um ein Annuitätendarlehen zur Finanzierung der neu anzuschaffenden Fahrzeuge.",
+      "Der Vorteil dieser Darlehensart liegt in einer Maßnahme der Selbstfinanzierung.",
+      "In diesem Fall handelt es sich um ein Beispiel für eine Fremdfinanzierung und Innenfinanzierung, da das Unternehmen die Rückzahlung aus erzielten Umsatzerlösen bestreiten muss.",
+      "Das Unternehmen hat hier ein Fälligkeitsdarlehen aufgenommen, weil die Tilgung monatlich zu einem festen Termin fällig ist."
+    ],
+    "korrekt": [
+      1
+    ],
+    "punkte": 3,
+    "loesung": "Antwort 2: Es handelt sich um ein Annuitätendarlehen.",
+    "erklaerung": "Eine gleichbleibende monatliche Gesamtrate (Annuität) aus sinkenden Zinsen und steigender Tilgung kennzeichnet das Annuitätendarlehen."
+  },
+  {
+    "id": "wiso-2020w-a16",
+    "themaId": "finanzierung-kreditsicherung",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2020-winter",
+    "typ": "mc",
+    "text": "Zur Absicherung des Darlehens für die Fahrzeuge wird zwischen dem Unternehmen und seiner Hausbank eine Sicherungsübereignung vereinbart. Welche Erläuterung zur Sicherungsübereignung ist richtig?",
+    "optionen": [
+      "Das Unternehmen darf die Fahrzeuge betrieblich nutzen, verliert aber ihr Eigentum im Rahmen dieser Sicherungsform.",
+      "Diese Sicherungsart ermöglicht der Hausbank, die Fahrzeuge jederzeit in Besitz zu nehmen, da sie ihr übereignet wurden.",
+      "Es handelt sich um eine Art Lombardkredit, sodass die Hausbank die Fahrzeuge nach Absprache nutzen kann, das Unternehmen aber die Eigentümerpapiere behält.",
+      "Ein Vorteil für das Unternehmen besteht darin, dass es Eigentümerin der angeschafften Fahrzeuge bleibt.",
+      "Ein Risiko der Hausbank liegt darin begründet, dass das Unternehmen die Fahrzeuge trotz der Sicherungsübereignung jederzeit verkaufen darf."
+    ],
+    "korrekt": [
+      0
+    ],
+    "punkte": 3,
+    "loesung": "Antwort 1: Das Unternehmen darf die Fahrzeuge betrieblich nutzen, verliert aber ihr Eigentum im Rahmen dieser Sicherungsform.",
+    "erklaerung": "Bei der Sicherungsübereignung geht das Eigentum an die Bank über, während der Kreditnehmer den Besitz behält und die Sache weiter nutzen darf."
+  },
+  {
+    "id": "wiso-2020w-a17",
+    "themaId": "berufsausbildung-arbeitsrecht",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2020-winter",
+    "typ": "mc",
+    "text": "Am 1. Februar 2021 wird eine 20-jährige Auszubildende eine Berufsausbildung zur Kauffrau für Büromanagement beginnen. Sie überprüfen ihren Ausbildungsvertrag. Welchen Vertragsinhalt müssen Sie korrigieren?",
+    "optionen": [
+      "Die jetzt gültigen Ausbildungsvergütungen sind für alle Ausbildungsjahre eingetragen.",
+      "Die Angaben der Eltern fehlen.",
+      "Die Kündigungsvoraussetzungen sind aufgeführt.",
+      "Die Probezeit beträgt sechs Monate.",
+      "Die Ausbildung dauert 36 Monate."
+    ],
+    "korrekt": [
+      3
+    ],
+    "punkte": 3,
+    "loesung": "Antwort 4: Die Probezeit beträgt sechs Monate.",
+    "erklaerung": "Die Probezeit in der Berufsausbildung beträgt nach § 20 BBiG höchstens vier Monate; sechs Monate wären unzulässig und müssen korrigiert werden. Bei einer Volljährigen sind keine Angaben der Eltern nötig."
+  },
+  {
+    "id": "wiso-2020w-a18",
+    "themaId": "berufsausbildung-arbeitsrecht",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2020-winter",
+    "typ": "mc",
+    "text": "Welche 2 der folgenden Regelungen entsprechen den Bestimmungen des Berufsbildungsgesetzes?",
+    "optionen": [
+      "Während der Probezeit kann das Berufsausbildungsverhältnis nur mit einer Kündigungsfrist von vier Wochen gekündigt werden.",
+      "Eine Kündigung des Berufsausbildungsverhältnisses durch die Auszubildende nach der Probezeit ist möglich, wenn sie eine Ausbildung in einem anderen Beruf beginnen will.",
+      "Vereinbarungen über die Tätigkeit nach der Ausbildung können bereits im Berufsausbildungsvertrag festgelegt werden.",
+      "Das Ausbildungsverhältnis endet erst mit Ablauf der Ausbildungszeit, auch wenn die Auszubildende die IHK-Abschlussprüfung vorher besteht.",
+      "Das Unternehmen muss der Auszubildenden bei Beendigung des Berufsausbildungsverhältnisses ein Zeugnis ausstellen.",
+      "Das Unternehmen muss der Auszubildenden am Tag nach dem Bestehen der Abschlussprüfung einen unbefristeten Arbeitsvertrag ausstellen."
+    ],
+    "korrekt": [
+      1,
+      4
+    ],
+    "punkte": 3,
+    "loesung": "Antworten 2 und 5: Kündigung nach der Probezeit ist möglich, wenn eine Ausbildung in einem anderen Beruf begonnen werden soll; und bei Beendigung ist ein Zeugnis auszustellen.",
+    "erklaerung": "Nach § 22 BBiG kann der Auszubildende nach der Probezeit mit vierwöchiger Frist kündigen, u. a. zur Aufgabe/zum Wechsel des Berufs; nach § 16 BBiG ist ein Ausbildungszeugnis auszustellen. Das Ausbildungsverhältnis endet zudem mit Bestehen der Prüfung."
+  },
+  {
+    "id": "wiso-2020w-a19",
+    "themaId": "berufsausbildung-arbeitsrecht",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2020-winter",
+    "typ": "mc",
+    "text": "Was ist gemäß den Vorschriften des Berufsbildungsgesetzes Teil des Berufsausbildungsvertrages der Auszubildenden?",
+    "optionen": [
+      "Der fachlich gegliederte Stoffplan der Berufsschule",
+      "Der gemeinsame Ausbildungsplan der Berufsschule und des Betriebes",
+      "Der Rahmenlehrplan der Berufsschule",
+      "Der Ausbildungsplan des Ausbildungsbetriebes",
+      "Die Dauer der täglichen Ruhepausen"
+    ],
+    "korrekt": [
+      3
+    ],
+    "punkte": 3,
+    "loesung": "Antwort 4: Der Ausbildungsplan des Ausbildungsbetriebes.",
+    "erklaerung": "Nach § 11 BBiG gehört die sachliche und zeitliche Gliederung der Ausbildung (betrieblicher Ausbildungsplan) zum Ausbildungsvertrag. Stoff- und Rahmenlehrpläne der Berufsschule sind nicht Vertragsbestandteil."
+  },
+  {
+    "id": "wiso-2020w-a20",
+    "themaId": "berufsausbildung-arbeitsrecht",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2020-winter",
+    "typ": "mc",
+    "text": "Die Auszubildende möchte sich bei der Jugend- und Auszubildendenvertretung (JAV) engagieren. Sie benötigt Informationen über deren Aufgaben. Welches Gesetz enthält entsprechende Regelungen?",
+    "optionen": [
+      "BGB",
+      "HGB",
+      "Berufsbildungsgesetz",
+      "Jugendarbeitsschutzgesetz",
+      "Betriebsverfassungsgesetz"
+    ],
+    "korrekt": [
+      4
+    ],
+    "punkte": 3,
+    "loesung": "Antwort 5: Betriebsverfassungsgesetz.",
+    "erklaerung": "Die Jugend- und Auszubildendenvertretung sowie ihre Aufgaben sind im Betriebsverfassungsgesetz (§§ 60 ff. BetrVG) geregelt."
+  },
+  {
+    "id": "wiso-2020w-a21",
+    "themaId": "arbeitsschutz-umwelt",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2020-winter",
+    "typ": "mc",
+    "text": "Welche Rechtsgrundlage beschreibt die grundsätzlichen Mindestanforderungen wie Lüftung und Beleuchtung sowie Zielvorgaben an Arbeitsplätze zum Schutz der Mitarbeiter?",
+    "optionen": [
+      "Arbeitsstättenverordnung",
+      "Tarifvertragsgesetz",
+      "Betriebsverfassungsgesetz",
+      "Arbeitsschutzgesetz",
+      "Arbeitssicherheitsgesetz"
+    ],
+    "korrekt": [
+      0
+    ],
+    "punkte": 3,
+    "loesung": "Antwort 1: Arbeitsstättenverordnung.",
+    "erklaerung": "Die Arbeitsstättenverordnung (ArbStättV) regelt Mindestanforderungen an Arbeitsstätten wie Beleuchtung, Lüftung, Raumtemperatur und Sicherheit der Arbeitsplätze."
+  },
+  {
+    "id": "wiso-2020w-a22",
+    "themaId": "arbeitsschutz-umwelt",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2020-winter",
+    "typ": "mc",
+    "text": "Das Unternehmen hat die Beschäftigten über Sicherheit und Gesundheitsschutz bei der Arbeit während ihrer Arbeitszeit ausreichend und angemessen zu unterweisen. Welche Regelung zur Unterweisung ist zutreffend?",
+    "optionen": [
+      "Unterweisungen sind ausschließlich bei ungelernten Arbeitskräften notwendig, da diese nicht über Vorkenntnisse verfügen.",
+      "Auf Unterweisungen kann verzichtet werden, da in den vergangenen Jahren keine Unfälle vorgekommen sind.",
+      "Die Unterweisungen sind bei Neueinstellungen sowie in regelmäßigen Abständen notwendig.",
+      "Auf Unterweisungen kann verzichtet werden, da die Unfallverhütungsvorschriften für jedermann zugänglich ausliegen.",
+      "Die Unterweisungen sind ab einer Beschäftigungsdauer von 6 Monaten notwendig."
+    ],
+    "korrekt": [
+      2
+    ],
+    "punkte": 3,
+    "loesung": "Antwort 3: Die Unterweisungen sind bei Neueinstellungen sowie in regelmäßigen Abständen notwendig.",
+    "erklaerung": "Nach § 12 ArbSchG hat die Unterweisung bei der Einstellung, bei Veränderungen und danach regelmäßig (mindestens jährlich) zu erfolgen - unabhängig von Qualifikation oder bisheriger Unfallfreiheit."
+  },
+  {
+    "id": "wiso-2020w-a23",
+    "themaId": "arbeitsschutz-umwelt",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2020-winter",
+    "typ": "mc",
+    "text": "Herr S. ist Sicherheitsbeauftragter des Unternehmens. Welche Erläuterung trifft auf den Sicherheitsbeauftragten zu?",
+    "optionen": [
+      "Der Sicherheitsbeauftragte besitzt gegenüber den Mitarbeitern Weisungsbefugnis.",
+      "Der Sicherheitsbeauftragte unterstützt die Geschäftsleitung bei der Unfallverhütung.",
+      "Aus- und Fortbildungsmaßnahmen müssen von dem Sicherheitsbeauftragten selbst übernommen werden.",
+      "Der Sicherheitsbeauftragte ist ein Organ laut Betriebsverfassungsgesetz.",
+      "Der Sicherheitsbeauftragte haftet bei Arbeitsunfällen aufgrund von Sicherheitsmängeln."
+    ],
+    "korrekt": [
+      1
+    ],
+    "punkte": 3,
+    "loesung": "Antwort 2: Der Sicherheitsbeauftragte unterstützt die Geschäftsleitung bei der Unfallverhütung.",
+    "erklaerung": "Der Sicherheitsbeauftragte (§ 22 SGB VII) berät und unterstützt bei der Unfallverhütung, hat aber keine Weisungsbefugnis, ist kein BetrVG-Organ und haftet nicht persönlich für Unfälle."
+  },
+  {
+    "id": "wiso-2020w-a24",
+    "themaId": "arbeitsschutz-umwelt",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2020-winter",
+    "typ": "mc",
+    "text": "Ordnen Sie den 5 abgebildeten Sicherheitsschildern die passenden Fachbegriffe für die Kennzeichnung zu! Reihenfolge der Schilder nach Farbgebung: Weiß/Rot, Gelb/Schwarz, Grün/Weiß, Rot/Weiß, Weiß/Rot/Schwarz.",
+    "anlagenText": "Schild 1 (Weiß/Rot): rundes Zeichen mit rotem Rand und Querbalken (Verbot). Schild 2 (Gelb/Schwarz): gelbes Dreieck (Warnung). Schild 3 (Grün/Weiß): grünes Zeichen mit laufender Person und Pfeil (Rettung/Fluchtweg). Schild 4 (Rot/Weiß): rotes Zeichen mit Flamme (Brandschutz). Schild 5 (Weiß/Rot/Schwarz): Gefahrstoffsymbol (Gefahr).",
+    "optionen": [
+      "Brandschutzzeichen",
+      "Gefahrenzeichen",
+      "Verbotszeichen",
+      "Warnzeichen",
+      "Rettungszeichen"
+    ],
+    "korrekt": [
+      2,
+      3,
+      4,
+      0,
+      1
+    ],
+    "punkte": 3,
+    "loesung": "Reihenfolge der Schilder (Weiß/Rot, Gelb/Schwarz, Grün/Weiß, Rot/Weiß, Weiß/Rot/Schwarz): 3, 4, 5, 1, 2. Also Verbotszeichen, Warnzeichen, Rettungszeichen, Brandschutzzeichen, Gefahrenzeichen.",
+    "erklaerung": "Verbotszeichen sind rund weiß/rot, Warnzeichen gelb/schwarz-dreieckig, Rettungszeichen grün/weiß, Brandschutzzeichen rot/weiß, Gefahrstoffzeichen weiß/rot/schwarz."
+  },
+  {
+    "id": "wiso-2020w-a25",
+    "themaId": "rechtsformen-vollmachten",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2020-winter",
+    "typ": "mc",
+    "text": "Dem Prokuristen wurde am 23. November die Prokura entzogen. Welches Rechtsgeschäft durfte er trotz der Prokura nicht tätigen?",
+    "optionen": [
+      "Einkauf von Textilien",
+      "Kauf mehrerer Firmenfahrzeuge",
+      "Einstellung einer kaufmännischen Führungskraft",
+      "Erteilung einer Prokura",
+      "Erteilung einer Handlungsvollmacht"
+    ],
+    "korrekt": [
+      3
+    ],
+    "punkte": 3,
+    "loesung": "Antwort 4: Erteilung einer Prokura.",
+    "erklaerung": "Der Prokurist darf zwar weitreichende Geschäfte tätigen, aber keine Prokura an Dritte erteilen (§ 52 Abs. 2 HGB). Eine Handlungsvollmacht darf er hingegen erteilen."
+  },
+  {
+    "id": "wiso-2020w-a26",
+    "themaId": "rechtsformen-vollmachten",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2020-winter",
+    "typ": "mc",
+    "text": "Die Löschung der Prokura im Handelsregister ist bis heute (25. November) noch nicht erfolgt. Am 24. November nahm der frühere Prokurist für den Kauf einer Anlage einen Kredit in Höhe von 300.000 EUR bei der Hausbank auf. Die Geschäftsführung ist mit der Kreditaufnahme nicht einverstanden. Prüfen Sie, ob ein rechtsgültiger Kreditvertrag zustande gekommen ist!",
+    "optionen": [
+      "Ja, da die Eintragung im Handelsregister noch Gültigkeit hat.",
+      "Ja, da es sich um ein außergewöhnliches Rechtsgeschäft handelt.",
+      "Nein, da der Vertrag noch notariell beurkundet werden muss.",
+      "Nein, weil dem Prokuristen die Prokura bereits entzogen wurde.",
+      "Nein, da der Prokurist über so eine hohe Summe nicht eigenmächtig entscheiden durfte."
+    ],
+    "korrekt": [
+      0
+    ],
+    "punkte": 3,
+    "loesung": "Antwort 1: Ja, da die Eintragung im Handelsregister noch Gültigkeit hat.",
+    "erklaerung": "Solange die Prokura nicht im Handelsregister gelöscht ist, kann sich ein gutgläubiger Dritter auf den eingetragenen Rechtsschein verlassen (§ 15 HGB) - der Vertrag ist wirksam."
+  },
+  {
+    "id": "wiso-2020w-a27",
+    "themaId": "rechtsformen-vollmachten",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2020-winter",
+    "typ": "mc",
+    "text": "In welchem Gesetz kann der Prokurist nachlesen, ob ihm eine Prokura entzogen werden kann?",
+    "optionen": [
+      "Im Bürgerlichen Gesetzbuch",
+      "Im Betriebsverfassungsgesetz",
+      "Im Tarifvertragsgesetz",
+      "Im Handelsgesetzbuch",
+      "Im GmbH-Gesetz"
+    ],
+    "korrekt": [
+      3
+    ],
+    "punkte": 3,
+    "loesung": "Antwort 4: Im Handelsgesetzbuch.",
+    "erklaerung": "Die Prokura und ihr Widerruf sind im Handelsgesetzbuch geregelt (§ 52 HGB: Prokura ist jederzeit widerruflich)."
+  },
+  {
+    "id": "wiso-2020w-a28",
+    "themaId": "arbeitsschutz-umwelt",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2020-winter",
+    "typ": "mc",
+    "text": "In welchem Fall besteht bei dem Unternehmen Handlungsbedarf, den Umweltschutz zu verbessern?",
+    "optionen": [
+      "Die Beleuchtung der Büroräume erfolgt mittels Energiesparlampen.",
+      "In der Werkskantine wird der Kaffee in Plastikbechern ausgegeben.",
+      "Für die Auslieferung der Waren wird der Transportweg mithilfe eines EDV-Programms optimiert.",
+      "Die Reinigung der Gebäudefenster erfolgt mit biologisch abbaubaren Reinigungsmitteln.",
+      "Im Büro wird Recycling-Papier verwendet."
+    ],
+    "korrekt": [
+      1
+    ],
+    "punkte": 3,
+    "loesung": "Antwort 2: In der Werkskantine wird der Kaffee in Plastikbechern ausgegeben.",
+    "erklaerung": "Einweg-Plastikbecher verursachen vermeidbaren Abfall. Hier besteht Handlungsbedarf (z. B. auf Mehrwegbecher umsteigen); die übrigen Maßnahmen sind bereits umweltfreundlich."
+  },
+  {
+    "id": "wiso-2020w-a29",
+    "themaId": "arbeitsschutz-umwelt",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2020-winter",
+    "typ": "mc",
+    "text": "Für das Unternehmen ist das Kreislaufwirtschaftsgesetz von großer Bedeutung. Welche Zielsetzung findet sich nicht in dem Gesetz?",
+    "optionen": [
+      "Abfälle vermeiden",
+      "Das Recycling von Abfällen fördern",
+      "Die Beseitigung von Abfall reduzieren",
+      "Mensch und Umwelt bei der Erzeugung und Bewirtschaftung von Abfällen schützen",
+      "Die Verwendung von Plastikverpackungen ab 2025 verbieten"
+    ],
+    "korrekt": [
+      4
+    ],
+    "punkte": 3,
+    "loesung": "Antwort 5: Die Verwendung von Plastikverpackungen ab 2025 verbieten.",
+    "erklaerung": "Das Kreislaufwirtschaftsgesetz regelt die Abfallhierarchie (Vermeidung, Wiederverwendung, Recycling, Verwertung, Beseitigung) und den Schutz von Mensch und Umwelt, enthält aber kein generelles Plastikverbot."
+  },
+  {
+    "id": "wiso-2020w-a30",
+    "themaId": "arbeitsschutz-umwelt",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2020-winter",
+    "typ": "mc",
+    "text": "Auf den Verpackungen vieler Produkte befinden sich unterschiedliche Kennzeichnungen. Prüfen Sie, welche Abbildung auf das Recyceln von Verpackung hinweist!",
+    "anlagenText": "Fünf Kennzeichen: 1 Der Blaue Engel, 2 Fairtrade-Siegel, 3 Recycling-Symbol (drei verschlungene Pfeile im Kreis), 4 CE-Kennzeichnung, 5 Symbol 'nach dem Öffnen haltbar' (geöffnete Dose, '12 M').",
+    "optionen": [
+      "Der Blaue Engel",
+      "Fairtrade-Siegel",
+      "Recycling-Symbol (drei verschlungene Pfeile)",
+      "CE-Kennzeichnung",
+      "Symbol 'nach dem Öffnen haltbar'"
+    ],
+    "korrekt": [
+      2
+    ],
+    "punkte": 3,
+    "loesung": "Antwort 3: Das Recycling-Symbol (drei verschlungene Pfeile im Kreis).",
+    "erklaerung": "Die drei zu einem Kreis verschlungenen Pfeile (Recycling-Symbol) weisen darauf hin, dass die Verpackung recycelbar ist bzw. dem Wertstoffkreislauf zugeführt werden kann."
+  },
+  {
+    "id": "wiso-2021w-a1",
+    "themaId": "produktionsfaktoren-unternehmensziele",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2021-winter",
+    "typ": "mc",
+    "text": "Ein Unternehmen unterstützt die Geschäftsleitung bei der Öko-Zertifizierung und überprüft freiwillig sein Umweltverhalten. Bestimmen Sie innerhalb der IST-Analyse die Handlung, bei der nachhaltiges Wirtschaften NICHT realisiert ist!",
+    "punkte": 3,
+    "optionen": [
+      "Verkauf von Fair-Trade-Produkten in der Kantine",
+      "Verwendung von umweltfreundlichen Produkten",
+      "Umweltschonende Produktionsverfahren",
+      "Ersatz des Zentraldruckers durch Einzeldrucker am Arbeitsplatz",
+      "Rationelle Ressourcenverwaltung"
+    ],
+    "korrekt": [
+      3
+    ],
+    "loesung": "Der Ersatz eines gemeinsam genutzten Zentraldruckers durch viele Einzeldrucker am Arbeitsplatz erhöht den Ressourcen- und Energieverbrauch und ist damit nicht nachhaltig."
+  },
+  {
+    "id": "wiso-2021w-a2",
+    "themaId": "produktionsfaktoren-unternehmensziele",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2021-winter",
+    "typ": "mc",
+    "text": "Ordnen Sie die drei Grundbegriffe bezüglich Zielbeziehungen den drei Mehrfachzielen zu! Grundbegriffe: 1 = Indifferente Ziele (Zielneutralität), 2 = Konkurrierende Ziele (Zielkonflikt), 3 = Komplementäre Ziele (Zielharmonie). Zu bewerten sind die Mehrfachziele in dieser Reihenfolge: (a) Erhöhung der Kundenzufriedenheit und Verbesserung des Lärmschutzes in der Produktion, (b) Kauf neuer Filteranlagen zur Abgasreinigung und Investitionsstopp im Sachanlagenbereich, (c) Imagegewinn und Verbesserung des Umweltschutzes.",
+    "punkte": 3,
+    "optionen": [
+      "Indifferente Ziele (Zielneutralität)",
+      "Konkurrierende Ziele (Zielkonflikt)",
+      "Komplementäre Ziele (Zielharmonie)"
+    ],
+    "korrekt": [
+      0,
+      1,
+      2
+    ],
+    "loesung": "(a) Kundenzufriedenheit und Lärmschutz in der Produktion beeinflussen sich nicht gegenseitig = indifferent (1). (b) Kauf neuer Filteranlagen und gleichzeitiger Investitionsstopp schließen sich aus = konkurrierend (2). (c) Imagegewinn und besserer Umweltschutz fördern sich gegenseitig = komplementär (3). Reihenfolge der Lösungsziffern: 1; 2; 3."
+  },
+  {
+    "id": "wiso-2021w-a3",
+    "themaId": "produktionsfaktoren-unternehmensziele",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2021-winter",
+    "typ": "mc",
+    "text": "Ein ökonomisches Ziel soll mithilfe einer neuen Maschine erreicht werden: Mit der neuen Maschine werden in derselben Arbeitszeit doppelt so viele Teile produziert wie mit der alten. Welche Feststellung können Sie aus dieser Information ableiten?",
+    "punkte": 3,
+    "optionen": [
+      "Es wird mehr Personal benötigt.",
+      "Der mit den Teilen erzielte Umsatz wurde verdoppelt.",
+      "Die Arbeitsproduktivität wurde erhöht.",
+      "Die Arbeitszeit der Mitarbeitenden im Unternehmen wird halbiert.",
+      "Die Personalkosten verdoppeln sich."
+    ],
+    "korrekt": [
+      2
+    ],
+    "loesung": "Werden in gleicher Zeit doppelt so viele Teile produziert, steigt die Ausbringungsmenge je Zeiteinheit, also die Arbeitsproduktivität. Aussagen über Umsatz, Personal oder Kosten lassen sich daraus nicht ableiten."
+  },
+  {
+    "id": "wiso-2021w-a4",
+    "themaId": "produktionsfaktoren-unternehmensziele",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2021-winter",
+    "typ": "mc",
+    "text": "Entscheiden Sie, welche 2 Zielsetzungen dem ökonomischen Prinzip nach dem Minimalprinzip entsprechen!",
+    "punkte": 3,
+    "optionen": [
+      "Das Unternehmen möchte mit möglichst günstigen Maßnahmen eine maximale Energieersparnis erzielen.",
+      "Die Öko-Zertifizierung soll möglichst kostengünstig erreicht werden.",
+      "Die Raumtemperatur von 20 °C in den Büroräumen soll mit minimalem Energieverbrauch erreicht und gehalten werden.",
+      "Das Unternehmen sollte einen möglichst hohen Gewinn erzielen, da dies neue Investitionen ermöglicht.",
+      "Die Produktionskapazität sollte immer voll ausgelastet sein, weil dies die Kosten konstant hält.",
+      "Das Sortiment sollte breit, aber nicht besonders tief gestaffelt sein."
+    ],
+    "korrekt": [
+      1,
+      2
+    ],
+    "loesung": "Beim Minimalprinzip ist ein festes Ziel mit möglichst geringem Mitteleinsatz zu erreichen. Das trifft auf (2) kostengünstige Zertifizierung und (3) feste Raumtemperatur mit minimalem Energieverbrauch zu. Reihenfolge der Lösungsziffern: 2; 3."
+  },
+  {
+    "id": "wiso-2021w-a5",
+    "themaId": "rechtsformen-vollmachten",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2021-winter",
+    "typ": "mc",
+    "text": "Aus einer Tabelle mit Forderungsausfällen nach Rechtsform sollen Sie ermitteln, gegenüber welcher Gruppe von Unternehmen der höchste durchschnittliche Forderungsbestand besteht. Werte: Einzelunternehmung 11 Unternehmen / 39.090 €, OHG 7 / 27.680 €, KG 5 / 22.740 €, GmbH 19 / 54.780 €, AG 3 / 12.440 €, Sonstige 9 / 28.040 €. Geben Sie die entsprechende Rechtsform an!",
+    "punkte": 3,
+    "optionen": [
+      "Einzelunternehmung",
+      "OHG",
+      "KG",
+      "GmbH",
+      "AG",
+      "Sonstige"
+    ],
+    "korrekt": [
+      2
+    ],
+    "loesung": "Durchschnittlicher Forderungsbestand = Summe / Anzahl. KG: 22.740 € / 5 = 4.548 € je Unternehmen. Das ist der höchste Wert (Einzelunternehmung 3.554 €, OHG 3.954 €, GmbH 2.883 €, AG 4.147 €, Sonstige 3.116 €). Antwort: KG."
+  },
+  {
+    "id": "wiso-2021w-a6",
+    "themaId": "rechtsformen-vollmachten",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2021-winter",
+    "typ": "mc",
+    "text": "Mit welchem Kapital haften die jeweiligen Personen? Ordnen Sie die 2 Arten von Haftungskapital zu: 1 = Geschäfts- und Privatvermögen, 2 = Nur Geschäftsvermögen. Zuzuordnen in dieser Reihenfolge: (a) Einzelunternehmer, (b) Komplementär, (c) Kommanditist, (d) GmbH-Gesellschafter.",
+    "punkte": 3,
+    "optionen": [
+      "Geschäfts- und Privatvermögen",
+      "Nur Geschäftsvermögen"
+    ],
+    "korrekt": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "loesung": "Einzelunternehmer haftet mit Geschäfts- und Privatvermögen (1), der Komplementär ebenfalls voll (1). Der Kommanditist haftet nur mit seiner Einlage / dem Geschäftsvermögen (2), der GmbH-Gesellschafter nur mit seiner Einlage (2). Reihenfolge der Lösungsziffern: 1; 1; 2; 2."
+  },
+  {
+    "id": "wiso-2021w-a7",
+    "themaId": "rechtsformen-vollmachten",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2021-winter",
+    "typ": "mc",
+    "text": "Die Forderungsausfälle haben den Gewinn des Unternehmens verringert. Welcher Sachverhalt trifft zu, wenn die gesetzlichen Bestimmungen zur Gewinnverteilung (KG) zur Anwendung kommen?",
+    "punkte": 3,
+    "optionen": [
+      "Der Gewinn wird nach Köpfen verteilt.",
+      "Zunächst erhält jeder Gesellschafter 4 % der Kapitaleinlage, der Rest wird im angemessenen Verhältnis verteilt.",
+      "Der Gewinn wird nach dem Verhältnis der Kapitaleinlage der Gesellschafter verteilt.",
+      "Zunächst erhält jeder Gesellschafter 4 % der Kapitaleinlage, der Rest wird nach Köpfen verteilt.",
+      "Zunächst erhält jeder Gesellschafter 4 % des Gewinns, der Rest wird im angemessenen Verhältnis verteilt."
+    ],
+    "korrekt": [
+      1
+    ],
+    "loesung": "Bei der KG erhält gesetzlich (§ 168 i. V. m. § 121 HGB) zunächst jeder Gesellschafter 4 % seiner Kapitaleinlage; der verbleibende Rest wird in einem den Umständen nach angemessenen Verhältnis verteilt."
+  },
+  {
+    "id": "wiso-2021w-a8",
+    "themaId": "finanzierung-kreditsicherung",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2021-winter",
+    "typ": "mc",
+    "text": "Zur Absicherung gegen Forderungsausfälle wird bei einigen kleinen Einzelunternehmen an eine Bürgschaft gedacht. Welcher Sachverhalt trifft zu?",
+    "punkte": 3,
+    "optionen": [
+      "Selbstschuldnerische Bürgschaften werden nur von Banken gegeben.",
+      "Der Bürge einer Einzelunternehmung kann nur eine Personengesellschaft sein.",
+      "Zahlt das Einzelunternehmen seine Schulden nicht bei Fälligkeit, kann bei einer selbstschuldnerischen Bürgschaft der Bürge erst nach vergeblicher Ausnutzung aller Rechtsmittel gegenüber der Einzelunternehmung zur Zahlung verpflichtet werden.",
+      "Bürgschaften müssen immer schriftlich dokumentiert werden.",
+      "Das Unternehmen kann bei einer selbstschuldnerischen Bürgschaft sofort den Bürgen zur Zahlung verpflichten, nachdem der Einzelunternehmer bei Fälligkeit nicht gezahlt hat."
+    ],
+    "korrekt": [
+      4
+    ],
+    "loesung": "Bei der selbstschuldnerischen Bürgschaft verzichtet der Bürge auf die Einrede der Vorausklage. Der Gläubiger kann den Bürgen daher sofort in Anspruch nehmen, sobald der Hauptschuldner bei Fälligkeit nicht zahlt."
+  },
+  {
+    "id": "wiso-2021w-a9",
+    "themaId": "finanzierung-kreditsicherung",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2021-winter",
+    "typ": "mc",
+    "text": "Ordnen Sie die 3 Finanzierungsarten den betrieblichen Beispielen zu: 1 = Beteiligungsfinanzierung, 2 = Fremdfinanzierung, 3 = Selbstfinanzierung. Beispiele in dieser Reihenfolge: (a) Das Unternehmen nimmt eine Kauffrau als Gesellschafterin gegen Leistung einer Kapitaleinlage auf. (b) Das Unternehmen besitzt Aktien eines Zulieferers; beim Verkauf zur Finanzierung wird ein außerordentlicher Ertrag erzielt. (c) Das Unternehmen nimmt bei seiner Hausbank ein Darlehen zur Finanzierung auf.",
+    "punkte": 3,
+    "optionen": [
+      "Beteiligungsfinanzierung",
+      "Fremdfinanzierung",
+      "Selbstfinanzierung"
+    ],
+    "korrekt": [
+      0,
+      2,
+      1
+    ],
+    "loesung": "(a) Aufnahme einer Gesellschafterin gegen Einlage = Beteiligungsfinanzierung (1). (b) Verkauf eigener Aktien aus dem Vermögen mit außerordentlichem Ertrag = Selbstfinanzierung (3). (c) Bankdarlehen = Fremdfinanzierung (2). Reihenfolge der Lösungsziffern: 1; 3; 2."
+  },
+  {
+    "id": "wiso-2021w-a10",
+    "themaId": "finanzierung-kreditsicherung",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2021-winter",
+    "typ": "rechnen",
+    "text": "Das Unternehmen nimmt am 25.11.2021 ein Fälligkeitsdarlehen in Höhe von 1.800.000,00 € über eine Laufzeit von 6 Jahren zu einem Zinssatz von 2,8 % p. a. auf. Berechnen Sie die Zinsen in Euro, die das Geschäftskonto in diesem Geschäftsjahr belasten! (Zinsmethode 30/360)",
+    "punkte": 3,
+    "loesung": "Vom 25.11. bis 31.12. sind es nach der Methode 30/360 = 35 Tage (5 Tage im November + 30 Tage im Dezember). Zinsen = (1.800.000,00 € × 2,8 × 35) / (100 × 360) = 4.900,00 €.",
+    "erklaerung": "Beim Fälligkeitsdarlehen wird die volle Kreditsumme verzinst; für das laufende Geschäftsjahr werden nur die Tage ab Auszahlung bis Jahresende (35 Tage) berechnet."
+  },
+  {
+    "id": "wiso-2021w-a11",
+    "themaId": "unternehmensorganisation",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2021-winter",
+    "typ": "mc",
+    "text": "In einem Organigramm ist Herr Klein im Bereich Organisation/IT als Stabstelle der Geschäftsleitung zugeordnet. Welche Tätigkeit zählt zu seinem Aufgabenbereich?",
+    "punkte": 3,
+    "optionen": [
+      "Herr Klein kann nur nach Abstimmung mit der Public Relations der Geschäftsleitung Vorschläge unterbreiten.",
+      "Herr Klein erteilt der Geschäftsleitung die Anweisung, die Unternehmensstruktur umzuorganisieren.",
+      "Herr Klein unterstützt die Geschäftsleitung in Organisationsangelegenheiten.",
+      "Herr Klein kann Mitarbeiter in den Abteilungen einstellen, wenn Schwachstellen bei Prozessabläufen entstehen.",
+      "Herr Klein ist Inhaber einer so genannten Instanz."
+    ],
+    "korrekt": [
+      2
+    ],
+    "loesung": "Eine Stabstelle hat nur beratende Funktion und keine Weisungsbefugnis. Herr Klein unterstützt die Geschäftsleitung in Organisationsangelegenheiten, kann aber weder anweisen noch selbst einstellen."
+  },
+  {
+    "id": "wiso-2021w-a12",
+    "themaId": "projektmanagement",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2021-winter",
+    "typ": "mc",
+    "text": "Die Lagerhaltung soll umstrukturiert werden. Mit welcher Tätigkeit muss begonnen werden?",
+    "punkte": 3,
+    "optionen": [
+      "Zusammenfassung der verschiedenen Aufgaben zu einem Tätigkeitsbereich",
+      "Zerlegung der Tätigkeiten der Mitarbeiter in Teilaufgaben",
+      "Festlegung der neuen Stellenbeschreibungen",
+      "Ist-Aufnahme der Tätigkeiten der Lagerarbeiter",
+      "Zuordnung der Stellen im Organisationsplan"
+    ],
+    "korrekt": [
+      3
+    ],
+    "loesung": "Am Anfang jeder Umstrukturierung/Organisationsanalyse steht die Ist-Aufnahme (Erhebung des bestehenden Zustands). Erst danach folgen Analyse, Aufgabenzerlegung und Neugestaltung."
+  },
+  {
+    "id": "wiso-2021w-a13",
+    "themaId": "unternehmensorganisation",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2021-winter",
+    "typ": "mc",
+    "text": "Der Bereich Organisation hat Beschwerden über den Bereich Finanzen erhalten, wonach dort den Mitarbeitern die Möglichkeit fehlt, auf unvorhergesehene Situationen zu reagieren. Welcher Zustand wird beschrieben?",
+    "punkte": 3,
+    "optionen": [
+      "Im Bereich Finanzen gibt es ein Übermaß an Organisation und Disposition.",
+      "Im Bereich Finanzen gibt es zu wenige generelle Regelungen.",
+      "Im Bereich Finanzen gibt es zu viel Improvisation.",
+      "Im Bereich Finanzen herrscht ein Mangel an Disposition.",
+      "Im Bereich Finanzen überwiegt der Anteil von Disposition und Improvisation."
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Fehlt der Spielraum, auf unvorhergesehene Situationen zu reagieren (zu starre, festgelegte Abläufe), liegt ein Übermaß an genereller Regelung (Organisation) und Disposition auf Kosten der Improvisation vor - eine Überorganisation."
+  },
+  {
+    "id": "wiso-2021w-a14",
+    "themaId": "markt-preisbildung",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2021-winter",
+    "typ": "rechnen",
+    "text": "Ermitteln Sie aufgrund der Marktforschungszahlen den Gleichgewichtspreis in Euro für den Bürostuhl. Nachfrage (Stück) je Preis: 2.600 €=1.000, 2.400 €=1.500, 2.200 €=2.000, 2.000 €=2.500, 1.800 €=3.000, 1.600 €=3.500, 1.400 €=4.000. Angebot (Stück) je Preis: 2.600 €=7.000, 2.400 €=6.000, 2.200 €=5.000, 2.000 €=4.000, 1.800 €=3.000, 1.600 €=2.000, 1.400 €=1.000.",
+    "punkte": 3,
+    "loesung": "Der Gleichgewichtspreis liegt dort, wo Angebot = Nachfrage. Bei 1.800,00 € sind sowohl Nachfrage als auch Angebot 3.000 Stück. Gleichgewichtspreis = 1.800,00 €.",
+    "erklaerung": "Im Marktgleichgewicht 'räumt' der Markt: Es bleibt weder ein Angebots- noch ein Nachfrageüberhang."
+  },
+  {
+    "id": "wiso-2021w-a15",
+    "themaId": "markt-preisbildung",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2021-winter",
+    "typ": "rechnen",
+    "text": "Berechnen Sie den Umsatz in Euro, der aufgrund der vorliegenden Zahlen bei einem Preis von 2.000,00 € erwartet werden kann!",
+    "punkte": 3,
+    "loesung": "Maßgeblich für die absetzbare Menge ist die Nachfrage. Bei 2.000,00 € beträgt die Nachfrage 2.500 Stück. Umsatz = Preis × Menge = 2.000,00 € × 2.500 = 5.000.000,00 €.",
+    "erklaerung": "Der Umsatz ergibt sich aus Preis mal abgesetzter (nachgefragter) Menge."
+  },
+  {
+    "id": "wiso-2021w-a16",
+    "themaId": "markt-preisbildung",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2021-winter",
+    "typ": "mc",
+    "text": "Welche Marktsituation ist bei einem Preis von 1.400,00 € gegeben? (Nachfrage 4.000 Stück, Angebot 1.000 Stück)",
+    "punkte": 3,
+    "optionen": [
+      "Nachfrageüberhang",
+      "Nachfragelücke",
+      "Marktgleichgewicht",
+      "Käufermarkt",
+      "Angebotsüberhang"
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Bei 1.400,00 € ist die Nachfrage (4.000 Stück) größer als das Angebot (1.000 Stück). Es liegt ein Nachfrageüberhang vor (Verkäufermarkt)."
+  },
+  {
+    "id": "wiso-2021w-a17",
+    "themaId": "konjunktur-indikatoren",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2021-winter",
+    "typ": "mc",
+    "text": "Die Abbildung zeigt eine mögliche konjunkturelle Entwicklung im Zeitablauf (wellenförmige Kurve mit steigender Trendgeraden). Ordnen Sie den 3 markierten Stellen A, B und C je einen Begriff zu. Begriffe: 1 = Bruttoinlandsprodukt, 2 = Bruttosozialprodukt, 3 = Wirtschaftstrend, 4 = Expansion, 5 = Boom, 6 = Rezession. A = senkrechte Achse (Wirtschaftsleistung), B = fallender Abschnitt der Welle, C = ansteigende Gerade durch die Schwankungen.",
+    "punkte": 3,
+    "optionen": [
+      "Bruttoinlandsprodukt",
+      "Bruttosozialprodukt",
+      "Wirtschaftstrend",
+      "Expansion",
+      "Boom",
+      "Rezession"
+    ],
+    "korrekt": [
+      0,
+      5,
+      2
+    ],
+    "loesung": "A (senkrechte Achse = Wirtschaftsleistung) = Bruttoinlandsprodukt (1). B (abfallender Kurvenabschnitt) = Rezession (6). C (langfristig steigende Gerade) = Wirtschaftstrend (3). Reihenfolge der Lösungsziffern: 1; 6; 3."
+  },
+  {
+    "id": "wiso-2021w-a18",
+    "themaId": "konjunktur-indikatoren",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2021-winter",
+    "typ": "mc",
+    "text": "Geben Sie an, welches Merkmal typisch für die Aufschwungphase ist!",
+    "punkte": 3,
+    "optionen": [
+      "Abnahme der Investitionen",
+      "Abnahme der Lagerbestände",
+      "Abnahme der gesamtwirtschaftlichen Lohnsumme",
+      "Abnahme der Kapazitätsauslastung",
+      "Abnahme der Kreditzinsen"
+    ],
+    "korrekt": [
+      1
+    ],
+    "loesung": "Im Aufschwung steigen Nachfrage und Produktion, sodass vorhandene Lager abgebaut werden - die Lagerbestände nehmen ab. Investitionen, Auslastung und Lohnsumme steigen dagegen."
+  },
+  {
+    "id": "wiso-2021w-a19",
+    "themaId": "konjunktur-indikatoren",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2021-winter",
+    "typ": "mc",
+    "text": "An welchem Indikator lässt sich die Konjunkturentwicklung besonders früh erkennen?",
+    "punkte": 3,
+    "optionen": [
+      "Inflationsrate",
+      "Produktionsmenge",
+      "Sparaufkommen",
+      "Auftragseingänge",
+      "Steueraufkommen"
+    ],
+    "korrekt": [
+      3
+    ],
+    "loesung": "Auftragseingänge sind ein Frühindikator (vorlaufend): Sie kündigen die künftige Produktion und damit die konjunkturelle Entwicklung an."
+  },
+  {
+    "id": "wiso-2021w-a20",
+    "themaId": "berufsausbildung-arbeitsrecht",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2021-winter",
+    "typ": "mc",
+    "text": "Das Unternehmen stellt zwei Praktikanten für acht Monate und zwei Auszubildende ein. Alle Personen sind 17 Jahre alt. Sind wegen ihres Alters rechtliche Vorgaben zu beachten?",
+    "punkte": 3,
+    "optionen": [
+      "Für diese Beschäftigten müssen keine weiteren rechtlichen Regelungen beachtet werden.",
+      "Das Jugendarbeitsschutzgesetz gilt nur für Auszubildende, die noch nicht 18 Jahre alt sind.",
+      "Wenn die Praktikanten länger als sechs Monate arbeiten, fallen sie - unabhängig vom Alter - nicht unter das Jugendarbeitsschutzgesetz.",
+      "Das Jugendarbeitsschutzgesetz ist nur für den Betriebsrat von Bedeutung.",
+      "Für diese Beschäftigten gilt das Jugendarbeitsschutzgesetz, weil sie noch keine 18 Jahre alt sind."
+    ],
+    "korrekt": [
+      4
+    ],
+    "loesung": "Das Jugendarbeitsschutzgesetz gilt für alle Jugendlichen, die noch nicht 18 Jahre alt sind - unabhängig davon, ob sie Auszubildende oder Praktikanten sind. Da alle 17 Jahre alt sind, gilt es für sie."
+  },
+  {
+    "id": "wiso-2021w-a21",
+    "themaId": "berufsausbildung-arbeitsrecht",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2021-winter",
+    "typ": "mc",
+    "text": "Muss für die Einstellung der Jugendlichen eine gesundheitliche Eignung in Form einer ärztlichen Bescheinigung vorliegen? Welche Darstellung entspricht der gesetzlichen Regelung?",
+    "punkte": 3,
+    "optionen": [
+      "Ein Jugendlicher darf nur beschäftigt werden, wenn er innerhalb der letzten vierzehn Monate von einem Arzt untersucht worden ist (Erstuntersuchung) und dem Arbeitgeber eine von diesem Arzt ausgestellte Bescheinigung vorliegt.",
+      "Dem rechtlichen Anspruch wird entsprochen, wenn der Beschäftigte dem Arbeitgeber glaubhaft versichert, dass er gesund ist.",
+      "Wenn auf dem Einstellungsbogen die gesundheitliche Eignung mit \"ja\" angekreuzt wird, reicht dies als rechtliche Grundlage.",
+      "Anstelle einer ärztlichen Bescheinigung kann auch vor Einstellung ein betriebsinterner Fitnesstest durchgeführt werden.",
+      "Betriebsrat und Geschäftsführung einigen sich, eine ärztliche Bescheinigung nur im Einzelfall zu verlangen."
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Nach § 32 JArbSchG darf ein Jugendlicher nur beschäftigt werden, wenn er innerhalb der letzten vierzehn Monate ärztlich untersucht wurde (Erstuntersuchung) und dem Arbeitgeber die entsprechende Bescheinigung vorliegt."
+  },
+  {
+    "id": "wiso-2021w-a22",
+    "themaId": "berufsausbildung-arbeitsrecht",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2021-winter",
+    "typ": "mc",
+    "text": "Die Jugend- und Auszubildendenvertretung (JAV) vertritt die Interessen der Auszubildenden. Welche wirksame Möglichkeit hat die JAV, Anträge an die Geschäftsleitung zu stellen?",
+    "punkte": 3,
+    "optionen": [
+      "Sie kann Anträge direkt stellen.",
+      "Sie kann Anträge nur mit Einschaltung der Gewerkschaft stellen.",
+      "Sie kann Anträge nur über den Betriebsrat stellen.",
+      "Sie kann Anträge nur mithilfe der Einigungsstelle stellen.",
+      "Sie kann Anträge nur bei Anwesenheit der betroffenen Jugendlichen oder Auszubildenden stellen."
+    ],
+    "korrekt": [
+      2
+    ],
+    "loesung": "Die JAV hat kein eigenes Antragsrecht gegenüber dem Arbeitgeber. Sie kann Anträge und Stellungnahmen wirksam nur über den Betriebsrat einbringen (§ 70 BetrVG)."
+  },
+  {
+    "id": "wiso-2021w-a23",
+    "themaId": "berufsausbildung-arbeitsrecht",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2021-winter",
+    "typ": "mc",
+    "text": "Sie weisen eine neue Auszubildende ausdrücklich auf ihre Verschwiegenheitspflicht hin. Geben Sie die richtige Erläuterung an!",
+    "punkte": 3,
+    "optionen": [
+      "Auszubildende müssen gegenüber Dritten über sämtliche Vorkommnisse in ihrem Unternehmen Stillschweigen wahren.",
+      "Auszubildende müssen über alle Betriebs- und Geschäftsgeheimnisse des Unternehmens Stillschweigen wahren.",
+      "Auszubildende müssen ihre Verschwiegenheitspflicht in jedem Ausbildungsjahr schriftlich bestätigen.",
+      "Auszubildende dürfen in Ausübung ihrer Tätigkeit außerhalb des Unternehmens nicht mit anderen Personen sprechen.",
+      "Auszubildende haben keine Verschwiegenheitspflicht gegenüber ihren Lebenspartnern."
+    ],
+    "korrekt": [
+      1
+    ],
+    "loesung": "Die Verschwiegenheitspflicht bezieht sich auf Betriebs- und Geschäftsgeheimnisse des Unternehmens, nicht auf sämtliche Vorkommnisse."
+  },
+  {
+    "id": "wiso-2021w-a24",
+    "themaId": "berufsausbildung-arbeitsrecht",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2021-winter",
+    "typ": "mc",
+    "text": "Geben Sie an, was gemäß den Vorschriften des Berufsbildungsgesetzes Teil des Berufsausbildungsvertrages ist!",
+    "punkte": 3,
+    "optionen": [
+      "Der fachlich gegliederte Stoffplan der Berufsschule",
+      "Der gemeinsame Ausbildungsplan der Berufsschule und des Betriebes",
+      "Der Ausbildungsplan des Ausbildungsbetriebes (sachliche und zeitliche Gliederung der Berufsausbildung)",
+      "Der Rahmenlehrplan der Berufsschule",
+      "Die Dauer der täglichen Ruhepausen"
+    ],
+    "korrekt": [
+      2
+    ],
+    "loesung": "Nach § 11 BBiG gehört die sachliche und zeitliche Gliederung der Berufsausbildung (der betriebliche Ausbildungsplan) zum Inhalt des Berufsausbildungsvertrages."
+  },
+  {
+    "id": "wiso-2021w-a25",
+    "themaId": "berufsausbildung-arbeitsrecht",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2021-winter",
+    "typ": "mc",
+    "text": "Im Berufsausbildungsvertrag sind Wahlqualifikationen aufgeführt. Geben Sie an, wer für die Vermittlung der Fertigkeiten, Kenntnisse und Fähigkeiten der Wahlqualifikationen zuständig ist!",
+    "punkte": 3,
+    "optionen": [
+      "Der Auszubildende",
+      "Der Ausbildende",
+      "Die Berufsschule",
+      "Der Betriebsrat",
+      "Die zuständige Kammer"
+    ],
+    "korrekt": [
+      1
+    ],
+    "loesung": "Der Ausbildende (der Ausbildungsbetrieb) ist verpflichtet, die im Ausbildungsvertrag festgelegten Wahlqualifikationen und die dafür nötigen Fertigkeiten, Kenntnisse und Fähigkeiten zu vermitteln."
+  },
+  {
+    "id": "wiso-2021w-a26",
+    "themaId": "arbeitsschutz-umwelt",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2021-winter",
+    "typ": "mc",
+    "text": "Das Unternehmen führt eine Informationsveranstaltung zu Arbeitsschutz und Arbeitssicherheit durch. Geben Sie die Organisation an, die für die Überwachung der Gesetze zu Arbeitsschutz und Arbeitssicherheit zuständig ist!",
+    "punkte": 3,
+    "optionen": [
+      "Die gesetzliche Krankenkasse",
+      "Die Berufsgenossenschaft",
+      "Die Industrie- und Handelskammer",
+      "Das Finanzamt",
+      "Die Agentur für Arbeit"
+    ],
+    "korrekt": [
+      1
+    ],
+    "loesung": "Die Berufsgenossenschaft (Träger der gesetzlichen Unfallversicherung) überwacht die Einhaltung der Vorschriften zu Arbeitsschutz und Arbeitssicherheit."
+  },
+  {
+    "id": "wiso-2021w-a27",
+    "themaId": "arbeitsschutz-umwelt",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2021-winter",
+    "typ": "mc",
+    "text": "Welche Regelung zur Belehrung von Arbeitnehmer/-innen über die Unfall- und Gesundheitsgefahren ist richtig dargestellt? Die Belehrung ist erforderlich ...",
+    "punkte": 3,
+    "optionen": [
+      "... nur bei Aufnahme der Beschäftigung.",
+      "... bei Aufnahme der Beschäftigung, anschließend in regelmäßigen Abständen.",
+      "... nach Ablauf der Probezeit, anschließend bei Bedarf.",
+      "... nur vor Aufnahme der Beschäftigung, ansonsten im Einzelfall nur bei Bedarf.",
+      "... wenn der Arbeitnehmer sich nicht selbst informiert hat."
+    ],
+    "korrekt": [
+      1
+    ],
+    "loesung": "Die Unterweisung über Unfall- und Gesundheitsgefahren muss bei Aufnahme der Beschäftigung und danach in regelmäßigen Abständen (mindestens jährlich) erfolgen."
+  },
+  {
+    "id": "wiso-2021w-a28",
+    "themaId": "arbeitsschutz-umwelt",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2021-winter",
+    "typ": "mc",
+    "text": "Das abgebildete Zeichen (grünes Quadrat mit zwei Personen und nach innen weisenden Pfeilen) ist auf dem Betriebsgelände zu finden. Welche Bedeutung hat diese Abbildung?",
+    "punkte": 3,
+    "optionen": [
+      "Standplatz für die Einsatzleitung der Feuerwehr",
+      "Hubschrauberlandeplatz zur Evakuierung in Notfällen",
+      "Mittelpunkt des Betriebsgeländes",
+      "Hinweis des Betriebsrats zur Kennzeichnung des Ortes der Betriebsversammlung",
+      "Sammelplatz für die Mitarbeitenden im Falle eines Notfalls"
+    ],
+    "korrekt": [
+      4
+    ],
+    "loesung": "Das grüne Rettungszeichen mit den nach innen gerichteten Pfeilen kennzeichnet die Sammelstelle - den Sammelplatz für die Mitarbeitenden im Notfall."
+  },
+  {
+    "id": "wiso-2021w-a29",
+    "themaId": "arbeitsschutz-umwelt",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2021-winter",
+    "typ": "mc",
+    "text": "Ordnen Sie die 3 Maßnahmen den Beispielen zu: 1 = Abfallvermeidung, 2 = Abfallverminderung, 3 = Abfallverwertung. Beispiele in dieser Reihenfolge: (a) Warenlieferungen werden nur noch sparsam mit Verpackungsmaterial verpackt. (b) Beim Büromaterial werden ausschließlich wiederauffüllbare Stifte gekauft. (c) Die Kartonagen der eingehenden Waren werden gesammelt, sortiert und zu geringem Preis an ein Unternehmen weiterverkauft, das sie zu Dämmmaterial weiterverarbeitet.",
+    "punkte": 3,
+    "optionen": [
+      "Abfallvermeidung",
+      "Abfallverminderung",
+      "Abfallverwertung"
+    ],
+    "korrekt": [
+      1,
+      0,
+      2
+    ],
+    "loesung": "(a) sparsamer Verpackungseinsatz reduziert die Abfallmenge = Abfallverminderung (2). (b) wiederauffüllbare Stifte vermeiden Abfall von vornherein = Abfallvermeidung (1). (c) Weiterverkauf und Weiterverarbeitung der Kartonagen = Abfallverwertung (3). Reihenfolge der Lösungsziffern: 2; 1; 3."
+  },
+  {
+    "id": "wiso-2021w-a30",
+    "themaId": "arbeitsschutz-umwelt",
+    "bereich": "wiso",
+    "quelle": "original",
+    "termin": "2021-winter",
+    "typ": "mc",
+    "text": "Das Kreislaufwirtschaftsgesetz ist von großer Bedeutung. Welche Zielsetzung findet sich NICHT in dem Gesetz?",
+    "punkte": 3,
+    "optionen": [
+      "Abfälle zu vermeiden",
+      "Das Recycling von Abfällen zu fördern",
+      "Die Verwendung von Plastikverpackungen ab 2025 zu verbieten",
+      "Mensch und Umwelt bei der Erzeugung und Bewirtschaftung von Abfällen zu schützen",
+      "Die Beseitigung von Abfall zu reduzieren"
+    ],
+    "korrekt": [
+      2
+    ],
+    "loesung": "Ein generelles Verbot von Plastikverpackungen ab 2025 ist kein Ziel des Kreislaufwirtschaftsgesetzes. Das Gesetz verfolgt die Abfallhierarchie (Vermeidung, Verwertung, Recycling) und den Schutz von Mensch und Umwelt."
   }
 ]
