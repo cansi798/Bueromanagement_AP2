@@ -40,8 +40,17 @@ export default function Landkarte() {
               <Link to={`/${bereichId}/stufe1`} className="text-sky-700 hover:underline">
                 📚 Auffrischen
               </Link>
-              <Link to={`/${bereichId}/stufe2`} className="text-sky-700 hover:underline">
+              <Link
+                to={`/${bereichId}/stufe2?thema=${t.id}`}
+                className="text-sky-700 hover:underline"
+              >
                 🎯 Üben
+              </Link>
+              <Link
+                to={`/unterricht/${bereichId}/${t.id}`}
+                className="text-sky-700 hover:underline"
+              >
+                🧑‍🏫 Session
               </Link>
             </div>
           </div>

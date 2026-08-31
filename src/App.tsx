@@ -10,6 +10,10 @@ import Karteikarten from './pages/Karteikarten'
 import Landkarte from './pages/Landkarte'
 import Glossar from './pages/Glossar'
 import Suche from './pages/Suche'
+import Skript from './pages/Skript'
+import Praesentation from './pages/Praesentation'
+import Unterricht from './pages/Unterricht'
+import UnterrichtSession from './pages/UnterrichtSession'
 
 export default function App() {
   return (
@@ -20,11 +24,16 @@ export default function App() {
           <Route path="/glossar" element={<Glossar />} />
           <Route path="/suche" element={<Suche />} />
           <Route path="/landkarte/:bereichId" element={<Landkarte />} />
+          <Route path="/skript/:bereichId" element={<Skript />} />
+          <Route path="/praesentation/:bereichId" element={<Praesentation />} />
+          <Route path="/praesentation/:bereichId/:themaId" element={<Praesentation />} />
+          <Route path="/unterricht/:bereichId" element={<Unterricht />} />
+          <Route path="/unterricht/:bereichId/:themaId" element={<UnterrichtSession />} />
           <Route path="/:bereichId" element={<Bereich />} />
           <Route path="/:bereichId/stufe1" element={<Stufe1 />} />
           <Route path="/:bereichId/stufe2" element={<Stufe2 />} />
           <Route path="/:bereichId/stufe3" element={<Stufe3 />} />
-          <Route path="/:bereichId/simulation/:termin" element={<Simulation />} />
+          <Route path="/:bereichId/simulation/:nr" element={<Simulation />} />
           <Route path="/:bereichId/karten" element={<Karteikarten />} />
         </Routes>
       </HashRouter>

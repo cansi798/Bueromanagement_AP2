@@ -53,6 +53,41 @@ export default function Bereich() {
     <Layout titel={bereich.name}>
       <p className="-mt-2 mb-6 text-slate-600">{bereich.beschreibung}</p>
       <div className="space-y-3">
+        <Link
+          to={`/unterricht/${bereich.id}`}
+          className="flex items-center gap-4 rounded-2xl border-2 border-slate-900 bg-slate-900 p-4 text-white shadow-sm transition hover:bg-slate-800"
+        >
+          <span className="text-3xl">🧑‍🏫</span>
+          <div className="min-w-0 flex-1">
+            <h2 className="font-bold">Unterricht</h2>
+            <p className="text-sm text-slate-300">
+              Geführte Sessions mit Präsentation, Selbstcheck und Übungen.
+            </p>
+          </div>
+          <span className="text-slate-400">→</span>
+        </Link>
+        <div className="grid grid-cols-2 gap-3">
+          <Link
+            to={`/praesentation/${bereich.id}`}
+            className={`flex items-center gap-3 rounded-2xl border-2 p-4 shadow-sm transition ${f.kachel}`}
+          >
+            <span className="text-2xl">🖥️</span>
+            <div>
+              <h2 className="text-sm font-bold text-slate-900 sm:text-base">Präsentation</h2>
+              <p className="hidden text-sm text-slate-600 sm:block">Folien für den Beamer.</p>
+            </div>
+          </Link>
+          <Link
+            to={`/skript/${bereich.id}`}
+            className={`flex items-center gap-3 rounded-2xl border-2 p-4 shadow-sm transition ${f.kachel}`}
+          >
+            <span className="text-2xl">📄</span>
+            <div>
+              <h2 className="text-sm font-bold text-slate-900 sm:text-base">Lernskript</h2>
+              <p className="hidden text-sm text-slate-600 sm:block">Zum Drucken & als PDF.</p>
+            </div>
+          </Link>
+        </div>
         {STUFEN.map((s) => (
           <Link
             key={s.nr}

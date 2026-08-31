@@ -6,10 +6,12 @@ import Timer from '../components/Timer'
 import { ladeAufgaben, ladePruefungen, useDaten } from '../lib/data'
 import { wertungMC } from '../lib/quiz'
 import { heuteISO, merkeErledigt } from '../lib/progress'
+import { terminVonNummer } from '../lib/termine'
 import type { Aufgabe, BereichId } from '../types'
 
 export default function Simulation() {
-  const { bereichId, termin } = useParams<{ bereichId: BereichId; termin: string }>()
+  const { bereichId, nr } = useParams<{ bereichId: BereichId; nr: string }>()
+  const termin = terminVonNummer(nr ?? '')
   const { daten: pruefungen } = useDaten(ladePruefungen)
   const { daten: aufgaben } = useDaten(() => ladeAufgaben(bereichId!))
   const [gestartet, setGestartet] = useState(false)
