@@ -115,3 +115,11 @@ validiert.
 - `haeufigkeit` basiert bisher auf 2024 Sommer + 2025 Sommer — die
   Landkarten-Statistik wird mit jedem weiteren Termin aussagekräftiger.
 - Mündlich: 4 von 10 Wahlqualifikationen ohne Beispielfragen.
+
+## Winter 2025/26 (Rollout 2026-09-02, Aufgabensammlung 17)
+
+- KBZ: 53 Teilaufgaben, 150,00006 P. (100 P. ungebunden exakt laut Lösungshinweisen + 22 gebundene à 2,27273 P.). Keine neuen Themen.
+- **Vorbehalt:** Für die 22 gebundenen Aufgaben (14 MC, 7 Kontierungen, Zuordnung 5.2) existieren keine offiziellen Lösungen — fachlich selbst hergeleitet, doppelt geprüft und gegen die Lösungshinweise der ungebundenen Aufgaben plausibilisiert (2.1↔LO 2.3, 4.10↔LO 4.11, 4.6↔LO 4.5, 5.2↔LO 5.1). Vorgehen analog 2021-winter.
+- Kontierungen/Zuordnung als typ "offen" erfasst (Lösungsbogen-Format), 14 echte Auswahlaufgaben als "mc".
+- Aufgabe 3.5: "Vielleicht"-Diagrammwerte teils unleserlich, aus 100-%-Differenz rekonstruiert; "Ja"-Werte durch LO bestätigt.
+- WiSo Winter 2025/26 lag nicht im Ordner (nur KBZ-Aufgaben + LO ungebunden) — bei Nachlieferung nachziehen.

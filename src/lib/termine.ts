@@ -22,6 +22,7 @@ export const SAMMLUNGEN: Record<string, number> = {
   '2018-sommer': 14,
   '2018-winter': 15,
   '2017-winter': 16,
+  '2025-winter': 17,
 }
 
 export function sammlungsNummer(termin: string): number | null {

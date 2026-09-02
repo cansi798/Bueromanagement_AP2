@@ -21,6 +21,7 @@ Nach außen heißen die Prüfungen neutral „Aufgabensammlung N".
 | 14 | Sommer 2018 | " |
 | 15 | Winter 2018/19 | " |
 | 16 | Winter 2017/18 | " |
+| 17 | Winter 2025/26 | KBZ (150 Min/150 P; WiSo-PDF lag nicht vor) |
 
 Beim Extrahieren neuer Termine: nächste freie Nummer in
 `src/lib/termine.ts` (SAMMLUNGEN) eintragen und diese Tabelle ergänzen.

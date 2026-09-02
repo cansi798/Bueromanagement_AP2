@@ -11105,5 +11105,774 @@
     "punkte": 2,
     "loesung": "7030 Kraftfahrzeugsteuer an 2800 Hamburger Sparkasse.",
     "erklaerung": "Die Kfz-Steuer für die Lkw wird auf dem Aufwandskonto Kraftfahrzeugsteuer (7030) gebucht; die Zahlung erfolgt über das Bankkonto (2800)."
+  },
+  {
+    "id": "kbz-2025w-a1-1",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-winter",
+    "typ": "mc",
+    "text": "Sie sind Mitarbeiter/Mitarbeiterin in der Jana Loft KG Hamburg, einem Hersteller von Büromöbeln. Da durch Homeoffice viele Unternehmen Büroräume einsparen, plant die Jana Loft KG, vermehrt flexible Büromöbel (von verstellbaren Tischen bis zu wandelbaren Regallösungen) anzubieten – verbunden mit dem Ziel, immer mehr nachhaltige Möbel zu bauen.\n\nDie Jana Loft KG möchte wissen, ob es Käufer für die neuen Produkte gibt. Innerhalb des Unternehmens wird diskutiert, ob eine Primär- oder Sekundärforschung durchgeführt werden soll.\n\n**Prüfen Sie, welche Aussage zur Primärforschung zutreffend ist!**",
+    "punkte": 2.27273,
+    "optionen": [
+      "Bei der Primärforschung handelt es sich um eine Datenabfrage bei der zuständigen Industrie- und Handelskammer.",
+      "Bei der Primärforschung führt die Jana Loft KG selbst eine Befragung bei den Kunden durch.",
+      "Bei der Primärforschung greift die Jana Loft KG auf eine Befragung ihrer Kunden aus dem vergangenen Geschäftsjahr zurück.",
+      "Bei der Primärforschung werden die Daten direkt beim Verband der Deutschen Möbelindustrie (VDM) abgefragt.",
+      "Bei der Primärforschung werden die aktuellen Berichte der führenden Möbelhersteller ausgewertet."
+    ],
+    "korrekt": [
+      1
+    ],
+    "loesung": "Richtig ist Aussage 2: Bei der Primärforschung führt die Jana Loft KG selbst eine Befragung bei den Kunden durch.",
+    "erklaerung": "Primärforschung (Feldforschung) = eigene, erstmalige Erhebung neuer Daten für den konkreten Untersuchungszweck (z. B. eigene Kundenbefragung). Die übrigen Aussagen beschreiben Sekundärforschung (Schreibtischforschung): Auswertung bereits vorhandener Daten (IHK-Abfragen, alte Befragungen, Verbandsdaten, Berichte Dritter)."
+  },
+  {
+    "id": "kbz-2025w-a1-2-1",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-winter",
+    "typ": "offen",
+    "text": "Die Bestandskunden sind bei der Einführung der neuen flexiblen Büromöbel eine nicht zu vernachlässigende Zielgruppe. Um die umsatzstarken Kunden zu ermitteln, soll die ABC-Analyse angewandt werden.\n\n**Erläutern Sie 1 Ziel, das mit der ABC-Analyse verfolgt wird!**",
+    "punkte": 2,
+    "loesung": "1 Ziel (2 Punkte), z. B.:\n- Ziel ist es, die Kunden in umsatzstarke und umsatzschwache Kunden einzugruppieren.\n- Die ABC-Analyse ermöglicht eine zielgenaue Betreuung der Kunden.\n- Ziel ist es, Ausbaupotenziale und Fördermöglichkeiten bei Kunden zu erkennen.\n- Durch die ABC-Analyse können vorhandene Ressourcen besser eingesetzt werden (z. B. Mitarbeiter).\n- oder andere sinnvolle Lösungen."
+  },
+  {
+    "id": "kbz-2025w-a1-2-2",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-winter",
+    "typ": "offen",
+    "text": "Neben Bestandskunden sollen auch neue Kunden für die flexiblen Büromöbel gewonnen werden.\n\n**Geben Sie 3 Möglichkeiten an, wie die Jana Loft KG neue Kunden finden kann!**",
+    "punkte": 3,
+    "loesung": "3 Möglichkeiten (je 1 Punkt), z. B.:\n- Messen\n- Werbung im Internet\n- Kundenbesuche\n- IHK-Verzeichnisse\n- Social Media\n- Internetrecherche\n- oder andere sinnvolle Lösungen."
+  },
+  {
+    "id": "kbz-2025w-a1-3",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-winter",
+    "typ": "mc",
+    "text": "Einer Ihrer A-Kunden, die Brandes GmbH & Co. KG, interessiert sich sehr für das angebotene wandelbare Regalsystem aus recycelten Rohstoffen.\n\n**Geben Sie an, wie sich Ihr A-Kunde am besten beschreiben lässt!**",
+    "punkte": 2.27273,
+    "optionen": [
+      "Die Brandes GmbH & Co. KG hat im Jahr 2025 die meisten Bestellungen getätigt.",
+      "Die Brandes GmbH & Co. KG hat im Jahr 2025 keine Reklamation getätigt.",
+      "Die Brandes GmbH & Co. KG ist einer der vielen Kunden mit einem geringen Umsatzanteil.",
+      "Die Brandes GmbH & Co. KG zählt zu den wenigen Kunden mit einem sehr hohen Umsatzanteil.",
+      "Die Brandes GmbH & Co. KG hat bisher alle Rechnungen umgehend beglichen."
+    ],
+    "korrekt": [
+      3
+    ],
+    "loesung": "Richtig ist Aussage 4: Die Brandes GmbH & Co. KG zählt zu den wenigen Kunden mit einem sehr hohen Umsatzanteil.",
+    "erklaerung": "A-Kunden sind nach der ABC-Analyse die (zahlenmäßig wenigen) Kunden, die den größten Anteil am Umsatz erwirtschaften (typisch: ca. 20 % der Kunden mit ca. 80 % des Umsatzes). Bestellhäufigkeit, Reklamationsverhalten und Zahlungsmoral sind nicht das Einteilungskriterium."
+  },
+  {
+    "id": "kbz-2025w-a1-4",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-winter",
+    "typ": "offen",
+    "text": "Die Bestandskunden der Jana Loft KG sollen zum Thema Nachhaltigkeit und zu neuen Produkten befragt werden.\n\n**Entwickeln Sie 3 Fragen im abgebildeten Auszug des Fragebogens!** Tragen Sie Ihre Fragen in die entsprechenden Felder der Tabelle ein!",
+    "anlagenText": "**Auszug aus dem Fragebogen:**\n\n| Feld | Eintrag |\n|---|---|\n| Kunde | xxx |\n| Kundennummer | xxx |\n| Offene Frage | *(auszufüllen)* |\n| Geschlossene Frage | *(auszufüllen)* |\n| Alternativfrage | *(auszufüllen)* |",
+    "punkte": 6,
+    "loesung": "3 Fragen (je 2 Punkte), z. B.:\n- Offene Frage: „Welche nachhaltigen neuen Produkte benötigen Sie?“ (o. a. s. L.)\n- Geschlossene Frage: „Würden Sie mehr Geld für nachhaltig hergestellte Produkte ausgeben?“ (o. a. s. L.)\n- Alternativfrage: „Bevorzugen Sie Teak- oder Eichenholz?“ (o. a. s. L.)",
+    "erklaerung": "Offene Fragen (W-Fragen) lassen freie Antworten zu, geschlossene Fragen sind mit Ja/Nein beantwortbar, Alternativfragen geben zwei Auswahlmöglichkeiten vor."
+  },
+  {
+    "id": "kbz-2025w-a1-5",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-winter",
+    "typ": "mc",
+    "text": "Um die Kommunikation mit den Kunden besser gestalten zu können, wird verstärkt auf die Bedeutung des 4-Ohren-Modells geachtet.\n\n**Geben Sie an, welche Aussage das 4-Ohren-Modell richtig beschreibt!**",
+    "punkte": 2.27273,
+    "optionen": [
+      "Beim 4-Ohren-Modell handelt es sich um ein Streitschlichtungsmodell.",
+      "Beim 4-Ohren-Modell handelt es sich um den Einsatz der verbalen und nonverbalen Kommunikation.",
+      "Beim 4-Ohren-Modell betrachtet man Beziehungsebene, Sachebene, Selbstoffenbarung und Appell.",
+      "Beim 4-Ohren-Modell betrachtet man den Gesprächsverlauf.",
+      "Beim 4-Ohren-Modell handelt es sich um ein Marketinginstrument."
+    ],
+    "korrekt": [
+      2
+    ],
+    "loesung": "Richtig ist Aussage 3: Beim 4-Ohren-Modell betrachtet man Beziehungsebene, Sachebene, Selbstoffenbarung und Appell.",
+    "erklaerung": "Das 4-Ohren-Modell (Kommunikationsquadrat) nach Friedemann Schulz von Thun besagt, dass jede Nachricht auf vier Ebenen gesendet und gehört wird: Sachebene, Selbstoffenbarung, Beziehungsebene und Appell."
+  },
+  {
+    "id": "kbz-2025w-a1-6",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-winter",
+    "typ": "offen",
+    "text": "Die Jana Loft KG möchte sich die Nachhaltigkeit ihrer neuen Produktlinie zertifizieren lassen.\n\n**Beschreiben Sie 1 Vorteil eines solchen Zertifikats!**",
+    "punkte": 2,
+    "loesung": "1 Vorteil (2 Punkte), z. B.:\n- Gezielte Ansprache der stark wachsenden Zielgruppe\n- Steigerung des Ansehens des Unternehmens\n- Beweis für die Zukunftsfähigkeit des Unternehmens\n- Ausgezeichneter Marketingnutzen des Zertifikats\n- Steigerung der unternehmerischen Attraktivität\n- oder andere sinnvolle Lösungen."
+  },
+  {
+    "id": "kbz-2025w-a1-7",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-winter",
+    "typ": "rechnen",
+    "text": "Sie haben der Brandes GmbH & Co. KG fünf wandelbare Regalsysteme zu einem Angebotspreis in Höhe von insgesamt 14.900,00 € zuzüglich Lieferung und Montage angeboten, um so einen ersten Referenzkunden zu erhalten. Dieser Angebotspreis liegt nur 5 % über Ihren Selbstkosten.\n\n**Ermitteln Sie die Selbstkosten für 1 Regalsystem in Euro! Geben Sie Ihren Rechenweg an! Runden Sie kaufmännisch auf 2 Nachkommastellen!**",
+    "punkte": 3,
+    "loesung": "14.900,00 € × 100 % : 105 % = 14.190,48 € (2 P.)\n14.190,48 € : 5 = **2.838,10 €** Selbstkosten je Regalsystem (1 P.)\n\noder:\n14.900,00 € : 5 = 2.980,00 € (1 P.)\n2.980,00 € × 100 % : 105 % = **2.838,10 €** (2 P.)\n\nHinweis: Folgefehler führen nicht zum Punktabzug!"
+  },
+  {
+    "id": "kbz-2025w-a1-8",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-winter",
+    "typ": "mc",
+    "text": "Die Jana Loft KG nutzt die Ermittlung der Selbstkosten als Grundlage ihrer Kalkulation.\n\n**Geben Sie an, welche Aussage zu den Selbstkosten richtig ist!**",
+    "punkte": 2.27273,
+    "optionen": [
+      "Die Selbstkosten beinhalten neben den Kosten auch den Gewinnzuschlag.",
+      "Die Selbstkosten sind alle Kosten, die für Material, Fertigung, Verwaltung und Vertrieb anfallen.",
+      "Die Selbstkosten setzen sich nur aus allen Gemeinkosten zusammen.",
+      "Die Selbstkosten entsprechen dem Deckungsbeitrag.",
+      "Die Selbstkosten entsprechen den Fixkosten."
+    ],
+    "korrekt": [
+      1
+    ],
+    "loesung": "Richtig ist Aussage 2: Die Selbstkosten sind alle Kosten, die für Material, Fertigung, Verwaltung und Vertrieb anfallen.",
+    "erklaerung": "Selbstkosten = Herstellkosten (Material- und Fertigungskosten) + Verwaltungs- und Vertriebsgemeinkosten. Sie enthalten Einzel- UND Gemeinkosten, aber keinen Gewinnzuschlag; erst Selbstkosten + Gewinn ergeben den Barverkaufspreis."
+  },
+  {
+    "id": "kbz-2025w-a1-9",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-winter",
+    "typ": "rechnen",
+    "text": "Die Jana Loft KG erwartet von dem Großhändler Brandes GmbH & Co. KG, dass er das Regalsystem weiterempfiehlt. Deshalb verlangt die Brandes GmbH & Co. KG freie Lieferung und Montage. Zu den Kosten für Lieferung und Montage liegen Ihnen folgende Daten vor:\n\n- Übernachtung für 2 Personen inklusive Frühstück: 242,00 €\n- Montage und Fahrt 2 Mitarbeiter: 1.100,00 €\n\n**Ermitteln Sie die gesamten Kosten der Jana Loft KG für den Auftrag über fünf Regalsysteme und die Erlöse gemäß Angebotspreis (siehe vorige Teilaufgabe)! Berechnen Sie den Verlust bzw. Gewinn in Euro, wenn den Erwartungen der Brandes GmbH & Co. KG entsprochen wird! Geben Sie Ihren Rechenweg an! Geben Sie an, ob ein Verlust oder ein Gewinn vorliegt!**",
+    "punkte": 5,
+    "loesung": "Kosten: 242,00 € + 1.100,00 € + 14.190,48 € = 15.532,48 € (3 P.)\nErlöse: 14.900,00 € (aus voriger Teilaufgabe)\n14.900,00 € − 15.532,48 € = **−632,48 € → Verlust** (2 P., davon 1 P. für das Ergebnis in € und 1 P. für „Verlust“)\n\nHinweis: Folgefehler führen nicht zum Punktabzug!"
+  },
+  {
+    "id": "kbz-2025w-a1-10",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-winter",
+    "typ": "offen",
+    "text": "**Erläutern Sie, wie Sie sich gegenüber der Brandes GmbH & Co. KG aufgrund der Kalkulation aus der vorigen Teilaufgabe (Verlustgeschäft) verhalten sollen (1 Angabe)!**",
+    "punkte": 2,
+    "loesung": "1 Angabe (2 Punkte), z. B.:\n- Forderung akzeptieren, da man mit diesem Kunden das neue wandelbare Regalsystem in den Markt bringen will.\n- Forderung akzeptieren, um das neue wandelbare Regalsystem bekannt zu machen.\n- Forderung ablehnen bzw. reduzieren, da dies zu einem Verlustgeschäft führt.\n- oder andere sinnvolle Lösungen.\n\nHinweis: Folgefehler aus der Vorrechnung werden berücksichtigt, wenn statt Verlust ein Gewinn ermittelt wurde."
+  },
+  {
+    "id": "kbz-2025w-a2-1",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-winter",
+    "typ": "mc",
+    "text": "Ihnen liegt eine Telefonnotiz (siehe Anlage) zur Bearbeitung vor. Sie haben sich die passende Auftragsbestätigung (siehe Anlage) besorgt. Inzwischen haben Sie herausgefunden, dass die Lieferung aufgrund der Erkrankung des zuständigen Lkw-Fahrers der Spedition nicht ausgeführt wurde.\n\nDie Feder GmbH möchte heute noch einen Deckungskauf vornehmen und mögliche Mehrkosten in Rechnung stellen.\n\n**Geben Sie an, welcher Sachverhalt zutrifft!**",
+    "anlagenText": "**Telefonnotiz** (Verfasserin: Vera Schulze, Datum: 26.11.2025, 08:15 Uhr, Notiz für Abteilung Verkauf)\n\nAnrufer: Heinz Reiser, Feder GmbH (Tel. 05631 2813-111, E-Mail: h.reiser@feder-korbach.de)\n\nInhalt: Herr Reiser fragt an, warum die Lieferung der Bürostühle nicht wie vereinbart am 25.11.2025 bei ihm eingetroffen ist. Da er die Stühle dringend braucht, beabsichtigt er, heute noch einen Deckungskauf vorzunehmen und uns die eventuellen Mehrkosten in Rechnung zu stellen.\n\nMit der Bitte um: Prüfung\n\n---\n\n**Auftragsbestätigung der Jana Loft KG an die Feder GmbH, Einsteinring 4, 34497 Korbach (Auszug, Datum: 10.10.2025):**\n\nAuftragsbestätigung zur Bestellung von ergonomischen Bürostühlen Typ Ergoline\n\n| Pos. | Art.-Nr. | Artikelbezeichnung | Menge | Einzelpreis in EUR | Gesamtpreis in EUR |\n|---|---|---|---|---|---|\n| 1 | BS1523698 | Bürostuhl Ergoline | 15 Stück | 825,00 | 12.375,00 |\n\nWarenwert zzgl. 19 % Umsatzsteuer: 12.375,00 EUR\n\nDie Lieferung erfolgt frei Haus am 25.11.2025.\n\nBei Zahlung innerhalb von 8 Tagen nach Rechnungsdatum gewähren wir 2 % Skonto.\n\nAnsonsten gelten die beigefügten Allgemeinen Geschäftsbedingungen (AGB) der Jana Loft KG.",
+    "punkte": 2.27273,
+    "optionen": [
+      "Die Feder GmbH kann der Jana Loft KG die Mehrkosten in Rechnung stellen, da die Jana Loft KG am 25.11.2025 nicht geliefert hat und daher sofort zu Schadensersatz verpflichtet ist.",
+      "Die Feder GmbH kann der Jana Loft KG die Mehrkosten in Rechnung stellen, da die Jana Loft KG am 25.11.2025 nicht geliefert und am Tag der Lieferung keine Begründung für die Nichtlieferung abgegeben hat.",
+      "Die Feder GmbH kann der Jana Loft KG die Mehrkosten erst in Rechnung stellen, wenn die Feder GmbH eine angemessene Nachfrist gesetzt hat und die Jana Loft KG in dieser Zeit nicht liefert.",
+      "Die Feder GmbH kann gegenüber der Jana Loft KG keinen Schadensersatz verlangen, da die Feder GmbH nicht noch am Tag der Nichtlieferung reklamiert hat.",
+      "Die Feder GmbH kann der Jana Loft KG die Mehrkosten nicht in Rechnung stellen, die Feder GmbH kann aber umgehend vom Kaufvertrag zurücktreten."
+    ],
+    "korrekt": [
+      2
+    ],
+    "loesung": "Richtig ist Aussage 3: Die Feder GmbH kann die Mehrkosten erst in Rechnung stellen, wenn sie eine angemessene Nachfrist gesetzt hat und die Jana Loft KG in dieser Zeit nicht liefert.",
+    "erklaerung": "Es liegt ein Lieferungsverzug (Nichtrechtzeitig-Lieferung) vor, aber kein Fixkauf. Vor Schadensersatz statt der Leistung (z. B. Mehrkosten eines Deckungskaufs) oder Rücktritt muss der Käufer grundsätzlich eine angemessene Nachfrist setzen (§§ 281, 323 BGB). Dies bestätigen auch die offiziellen Lösungshinweise zur Folgeaufgabe („Rücktritt und Deckungskauf ist noch nicht möglich, da Nachfrist gesetzt werden müsste“, „kein Fixkauf“)."
+  },
+  {
+    "id": "kbz-2025w-a2-2",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-winter",
+    "typ": "offen",
+    "text": "Bei Nichtrechtzeitig-Lieferung kann in bestimmten Fällen Schadensersatz vom Schuldner verlangt werden. Hierbei unterscheidet man konkreten und abstrakten Schaden.\n\n**Erläutern Sie die beiden Arten und geben Sie jeweils 1 Beispiel an!**",
+    "punkte": 4,
+    "loesung": "Ein konkreter Schaden lässt sich mit einem Geldbetrag genau bestimmen. (1 P.)\nBeispiel: Die Preisdifferenz zwischen ursprünglichem Preis und dem höheren Preis bei einem Deckungskauf. (1 P.)\n\nEin abstrakter Schaden ist nicht objektiv und eindeutig mit einem Geldbetrag zu bestimmen, sondern nur schätzbar. (1 P.)\nBeispiel: Der entgangene Gewinn durch die Nichtlieferung. (1 P.)\n\noder andere sinnvolle Lösungen."
+  },
+  {
+    "id": "kbz-2025w-a2-3",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-winter",
+    "typ": "offen",
+    "text": "Nachdem Sie mit dem Versand der Jana Loft KG geklärt haben, dass die Lieferung morgen früh beim Kunden eintreffen wird, telefonieren Sie umgehend mit der Feder GmbH und entschuldigen sich.\n\n**Geben Sie 3 fachliche Informationen an, die Sie dem Kunden mitteilen! Gehen Sie dabei auch auf die Inhalte der Telefonnotiz ein!**",
+    "anlagenText": "**Telefonnotiz** (Verfasserin: Vera Schulze, Datum: 26.11.2025, 08:15 Uhr, Notiz für Abteilung Verkauf)\n\nAnrufer: Heinz Reiser, Feder GmbH\n\nInhalt: Herr Reiser fragt an, warum die Lieferung der Bürostühle nicht wie vereinbart am 25.11.2025 bei ihm eingetroffen ist. Da er die Stühle dringend braucht, beabsichtigt er, heute noch einen Deckungskauf vorzunehmen und uns die eventuellen Mehrkosten in Rechnung zu stellen.\n\nMit der Bitte um: Prüfung",
+    "punkte": 3,
+    "loesung": "3 fachliche Informationen (je 1 Punkt), z. B.:\n- Begründung für die Nichtlieferung (Erkrankung des Lkw-Fahrers der Spedition)\n- Zustellung morgen früh\n- Schadensersatz statt Leistung nicht möglich, da Nachfrist zu gewähren ist\n- Rücktritt und Deckungskauf ist noch nicht möglich, da Nachfrist gesetzt werden müsste\n- Kein Fixkauf\n- Anbieten eines Rabattes bei nächster Bestellung\n- oder andere sinnvolle Lösungen."
+  },
+  {
+    "id": "kbz-2025w-a2-4",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-winter",
+    "typ": "mc",
+    "text": "Die Bestellung der Feder GmbH erfolgte aufgrund einer Werbeanzeige in der Fachzeitschrift „Das Büro der Zukunft“.\n\n**Prüfen Sie, welcher Sachverhalt zur Auftragsbestätigung der Jana Loft KG zutreffend ist!**",
+    "punkte": 2.27273,
+    "optionen": [
+      "Die Auftragsbestätigung wiederholt die Inhalte der Bestellung der Feder GmbH und hat keine rechtliche Bedeutung.",
+      "Die Auftragsbestätigung ist rechtlich ein Antrag, der mit der Lieferung der Ware angenommen wird.",
+      "Die Auftragsbestätigung dient der Anbahnung des Kaufvertrages.",
+      "Die Auftragsbestätigung ist die Annahme des Antrags der Feder GmbH.",
+      "Die Auftragsbestätigung hat keine rechtliche Bedeutung, da die Lieferung der Ware die Annahme des Antrags der Feder GmbH ist."
+    ],
+    "korrekt": [
+      3
+    ],
+    "loesung": "Richtig ist Aussage 4: Die Auftragsbestätigung ist die Annahme des Antrags der Feder GmbH.",
+    "erklaerung": "Die Werbeanzeige ist nur eine unverbindliche Aufforderung zur Abgabe eines Angebots (invitatio ad offerendum). Die Bestellung der Feder GmbH ist damit der rechtsverbindliche Antrag (§ 145 BGB); mit der Auftragsbestätigung nimmt die Jana Loft KG diesen Antrag an – der Kaufvertrag kommt zustande."
+  },
+  {
+    "id": "kbz-2025w-a2-5",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-winter",
+    "typ": "offen",
+    "text": "Der Auftragsbestätigung wurden die Allgemeinen Geschäftsbedingungen (AGB) der Jana Loft KG beigefügt.\n\n**Geben Sie 2 Vorteile an, die sich durch die Verwendung von Allgemeinen Geschäftsbedingungen (AGB) für die Jana Loft KG ergeben!**",
+    "punkte": 4,
+    "loesung": "2 Vorteile (je 2 Punkte), z. B.:\n- Rationalisierung der Vertragsabschlüsse\n- Vereinheitlichung der Vertragsbedingungen\n- Vorteile gegenüber den gesetzlichen Regelungen\n- oder andere sinnvolle Lösungen."
+  },
+  {
+    "id": "kbz-2025w-a2-6",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-winter",
+    "typ": "mc",
+    "text": "Die Jana Loft KG hat den Gerichtsstand in ihren Allgemeinen Geschäftsbedingungen (AGB) zu ihren Gunsten festgelegt.\n\n**Prüfen Sie, welche Folgen es hätte, wenn stattdessen der gesetzliche Gerichtsstand gelten würde!**",
+    "anlagenText": "**Unternehmensbeschreibung Jana Loft KG (Auszug):** Herstellung und Vertrieb von Büromöbeln und Bürozubehör, Geschäftssitz: Volksdorfer Damm 46, 22359 Hamburg (Amtsgericht Hamburg HRA 1201).\n\nKunde: Feder GmbH, Einsteinring 4, 34497 Korbach.",
+    "punkte": 2.27273,
+    "optionen": [
+      "Die Jana Loft KG kann bei dem Gericht Klage einreichen, das zurzeit die wenigsten Klagen zu bearbeiten hat.",
+      "Die Jana Loft KG muss bei Zahlungsstreitigkeiten bei dem für Korbach zuständigen Gericht klagen.",
+      "Die Feder GmbH muss bei Warenstreitigkeiten bei dem für Korbach zuständigen Gericht klagen.",
+      "Die Jana Loft KG muss sich mit der Feder GmbH einigen, welches Gericht im Streitfall gewählt wird.",
+      "Die Jana Loft KG muss bei Waren- und Zahlungsstreitigkeiten in Hamburg klagen."
+    ],
+    "korrekt": [
+      1
+    ],
+    "loesung": "Richtig ist Aussage 2: Die Jana Loft KG muss bei Zahlungsstreitigkeiten bei dem für Korbach zuständigen Gericht klagen.",
+    "erklaerung": "Gesetzlicher Gerichtsstand ist grundsätzlich der (Wohn-)Sitz des Beklagten (§§ 12, 17 ZPO). Will die Jana Loft KG die Feder GmbH verklagen (z. B. wegen ausstehender Zahlung), muss sie am Sitz der Beklagten in Korbach klagen. Umgekehrt müsste die Feder GmbH bei Warenstreitigkeiten in Hamburg klagen – Aussage 3 ist daher falsch."
+  },
+  {
+    "id": "kbz-2025w-a2-7",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-winter",
+    "typ": "offen",
+    "text": "Die Feder GmbH wünscht sich wegen der verspäteten Lieferung einen weiteren Preisnachlass. Auf Nachfrage weist Sie Ihre Vorgesetzte darauf hin, dass neben dem Skonto nur noch Boni gewährt werden könnten.\n\n**Erläutern Sie die beiden Begriffe!**",
+    "punkte": 4,
+    "loesung": "Skonto wird für die Zahlung innerhalb einer bestimmten Frist gewährt. (2 P.)\n\nBonus erfolgt nachträglich für eine bestimmte Leistung (z. B. am Jahresende bei einer bestimmten Umsatzhöhe). (2 P.)"
+  },
+  {
+    "id": "kbz-2025w-a3-1-1",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-winter",
+    "typ": "rechnen",
+    "text": "Aufgrund der gestiegenen Nachfrage nach Büromöbeln wird die Jana Loft KG im nächsten Jahr die Produktion in der Produktgruppe 1 erweitern und benötigt deshalb weitere Mitarbeiter/-innen.\n\nDen aktuellen Personalbestand können Sie dem abgebildeten Auszug aus der Personaldatei (siehe Anlage) entnehmen. Auszubildende sowie Mitarbeiter/-innen in Elternzeit gehören nicht zum aktiven Personalbestand.\n\nIhre Vorgesetzte Anne Ohlsen beauftragt Sie, den aktiven Personalbestand zu ermitteln.\n\n**Geben Sie den aktiven Personalbestand zum 01.01.2026 an!**",
+    "anlagenText": "**Auszug aus der Personaldatei (Produktion):**\n\n| Lfd. Nr. | Name | Vorname | Berufsbezeichnung | Bemerkung |\n|---|---|---|---|---|\n| 1 | Müller | Bernd | Tischler | |\n| 2 | Kramer | Martin | Tischlermeister | Renteneintritt 1. Dezember 2025 |\n| 3 | Faber | Jonas | Elektriker | |\n| 4 | Derdak | Kerim | Polsterer | |\n| 5 | Sommer | Jörg | Tischler | |\n| 6 | Rahnke | Dominik | Auszubildender zum Tischler | Ausbildungsende Februar 2026 |\n| 7 | Bader | Peter | Tischler | |\n| 8 | Hamad | Shana | Auszubildende zur Tischlerin | Ausbildungsende Mitte Juli 2026 |\n| 9 | Finster | Gerd | Maler und Lackierer | |\n| 10 | Yilmaz | Mehmet | Maler und Lackierer | |\n| 11 | Özkuk | Derya | Tischlerin | in Elternzeit bis 15. Dezember 2025 |\n| 12 | Schneider | Ottmar | Tischler | in Elternzeit bis 20. Januar 2026 |",
+    "punkte": 2,
+    "loesung": "**8 Beschäftigte** (2 P.)\n\nHerleitung: 12 Personen in der Datei, davon nicht zum aktiven Personalbestand am 01.01.2026: Kramer (Renteneintritt 01.12.2025), Rahnke und Hamad (Auszubildende), Schneider (Elternzeit bis 20.01.2026). Özkuk zählt wieder mit (Elternzeit endet 15.12.2025). 12 − 4 = 8."
+  },
+  {
+    "id": "kbz-2025w-a3-1-2",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-winter",
+    "typ": "rechnen",
+    "text": "Zur Erweiterung der Produktion soll der aktive Personalbestand in der Produktion (8 Beschäftigte) ab 2026 um 35 % erhöht werden.\n\n**Berechnen Sie, wie viele zusätzliche Vollzeitkräfte benötigt werden, um diese Vorgabe zu erreichen! Geben Sie Ihren Rechenweg an!**",
+    "punkte": 2,
+    "loesung": "8 : 100 × 35 = 2,8 → **3 Vollzeitkräfte**\n\nRichtiger Rechenweg: 1 Punkt\nRichtiges Runden (Aufrunden auf ganze Vollzeitkräfte): 1 Punkt\n\nHinweis: Folgefehler führen nicht zum Punktabzug!"
+  },
+  {
+    "id": "kbz-2025w-a3-2",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-winter",
+    "typ": "offen",
+    "text": "Durch den Renteneintritt von Herrn Martin Kramer ist die Stelle eines/einer Tischlermeisters/-meisterin unbesetzt. Die Stelle soll zum 1. Januar 2026 neu mit einem/einer ausbildungserfahrenen Tischlermeister/-in besetzt werden. Sie werden von Ihrer Vorgesetzten Anne Ohlsen mit der Personalbeschaffung beauftragt.\n\n**Prüfen Sie anhand der abgebildeten Personaldatei (siehe Anlage), ob eine interne Stellenbesetzung mit einem/einer vorhandenen Mitarbeiter/-in aus der Produktion möglich ist! Teilen Sie Frau Ohlsen das Ergebnis Ihrer Überprüfung mit und begründen Sie Ihre Antwort!**",
+    "anlagenText": "**Auszug aus der Personaldatei (Produktion):**\n\n| Lfd. Nr. | Name | Vorname | Berufsbezeichnung | Bemerkung |\n|---|---|---|---|---|\n| 1 | Müller | Bernd | Tischler | |\n| 2 | Kramer | Martin | Tischlermeister | Renteneintritt 1. Dezember 2025 |\n| 3 | Faber | Jonas | Elektriker | |\n| 4 | Derdak | Kerim | Polsterer | |\n| 5 | Sommer | Jörg | Tischler | |\n| 6 | Rahnke | Dominik | Auszubildender zum Tischler | Ausbildungsende Februar 2026 |\n| 7 | Bader | Peter | Tischler | |\n| 8 | Hamad | Shana | Auszubildende zur Tischlerin | Ausbildungsende Mitte Juli 2026 |\n| 9 | Finster | Gerd | Maler und Lackierer | |\n| 10 | Yilmaz | Mehmet | Maler und Lackierer | |\n| 11 | Özkuk | Derya | Tischlerin | in Elternzeit bis 15. Dezember 2025 |\n| 12 | Schneider | Ottmar | Tischler | in Elternzeit bis 20. Januar 2026 |",
+    "punkte": 2,
+    "loesung": "Ergebnis der Überprüfung: Nein, eine interne Besetzung der Stelle ist nicht möglich. (1 P.)\nBegründung: Es gibt keinen Tischlermeister/keine Tischlermeisterin mehr. (1 P.)"
+  },
+  {
+    "id": "kbz-2025w-a3-3",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-winter",
+    "typ": "mc",
+    "text": "Die Jana Loft KG hat sich entschlossen, die Stelle eines/einer Tischlermeisters/-meisterin extern auszuschreiben.\n\n**Entscheiden Sie, welche der folgenden Maßnahmen NICHT zur externen Personalbeschaffung gehört!**",
+    "punkte": 2.27273,
+    "optionen": [
+      "Personalbeschaffung durch Aushang der Stellenanzeige am schwarzen Brett in der Jana Loft KG.",
+      "Personalbeschaffung durch Vermittlung der Agentur für Arbeit.",
+      "Personalbeschaffung durch Stellenanzeige in der lokalen Tageszeitung.",
+      "Personalbeschaffung durch ein Zeitarbeitsunternehmen.",
+      "Personalbeschaffung durch Stellenausschreibung auf der Homepage der Jana Loft KG."
+    ],
+    "korrekt": [
+      0
+    ],
+    "loesung": "Richtig ist Aussage 1: Der Aushang am schwarzen Brett im eigenen Unternehmen ist interne Personalbeschaffung.",
+    "erklaerung": "Der Aushang am schwarzen Brett richtet sich ausschließlich an die eigene Belegschaft und ist damit eine Maßnahme der internen Personalbeschaffung. Agentur für Arbeit, Zeitungsanzeige, Zeitarbeit und die (öffentlich zugängliche) Unternehmens-Homepage sprechen externe Bewerber/-innen an."
+  },
+  {
+    "id": "kbz-2025w-a3-4",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-winter",
+    "typ": "offen",
+    "text": "Ihre Vorgesetzte Anne Ohlsen legt Ihnen die abgebildete alte Stellenanzeige vor. Sie vermutet, dass diese Anzeige nicht gut formuliert war, da damals nur sehr wenige Bewerbungen eingegangen sind. Deshalb sollen Sie die alte Anzeige verbessern.\n\n**Geben Sie 4 Verbesserungsvorschläge an!**",
+    "anlagenText": "**Alte Stellenanzeige:**\n\n> Die Jana Loft KG ist als Hersteller und Verkäufer von Büromöbeln und Büromöbelzubehör mit 230 Beschäftigten die Nummer 1 im Norden. Wir möchten unsere Produktionsstätte in Hamburg erweitern und brauchen Sie!\n>\n> Wir suchen einen\n>\n> **Tischlermeister**\n>\n> Wir wünschen uns von Ihnen\n> - Abgeschlossene Berufsausbildung\n> - Weiterbildung zum Tischlermeister/Techniker im Bereich …\n> - Idealerweise mehrjährige Berufserfahrung\n> - Produktverständnis im Bereich Möbel und Innenausbau\n> - Selbstständige, strukturierte und ergebnisorientierte Arbeitsweise\n> - Leidenschaft für die Arbeit\n>\n> Wir freuen uns auf Ihre Bewerbung!\n>\n> Jana Loft KG, Volksdorfer Damm 46, 22359 Hamburg, Telefon: 040 6033825-0, E-Mail: info@hamburg.loft.de",
+    "punkte": 4,
+    "loesung": "4 Verbesserungsvorschläge (je 1 Punkt), z. B.:\n- Berufsbezeichnung nicht AGG-konform (m/w/d fehlt)\n- Einstellungsbeginn nicht genannt\n- Anforderungsprofil fehlt/keine Angabe notwendiger Qualifikationen\n- Ansprechpartner nicht angegeben\n- Kein Hinweis auf Vergütung/Tarifvertrag\n- Kein Hinweis auf Vertragsdauer (befristet/unbefristet)\n- Sonderleistungen des Unternehmens nicht genannt\n- oder andere sinnvolle Lösungen."
+  },
+  {
+    "id": "kbz-2025w-a3-5",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-winter",
+    "typ": "offen",
+    "text": "Auf einer Bewertungsplattform, bei der Bewerbungsverfahren von Arbeitgebern beurteilt werden, hat Ihre Vorgesetzte Anne Ohlsen eine Auswertung der Jana Loft KG entdeckt und legt Ihnen die abgebildete Auswertung (siehe Anlage) zur Analyse vor.\n\n**Beschreiben Sie 2 Kriterien, bei denen die Jana Loft KG besonders schlecht abgeschnitten hat! Gehen Sie auf die Werte ein!**",
+    "anlagenText": "**Bewertung Bewerbungsverfahren der Jana Loft KG** (Anteile der Antworten Ja / Vielleicht / Nein):\n\n| Aussage | Ja | Vielleicht | Nein |\n|---|---|---|---|\n| Es erfolgt keine Absage nach Besetzung der angebotenen Stelle. | 63 % | – | 37 % |\n| Das Bewerbungsverfahren ist zu umständlich/erfolgt noch per Post. | 42 % | 35 % | 23 % |\n| Ansprechpartner/-innen im Stellenangebot fehlen. | 15 % | 41 % | 44 % |\n| Arbeitgeber gibt keine Rückmeldung über den Bewerbungseingang/Bewerbungsstand. | 18 % | 72 % | 10 % |\n| Arbeitgeber geht zu langsam auf Bewerbungen ein. | 35 % | 53 % | 12 % |",
+    "punkte": 4,
+    "loesung": "2 Kriterien (je 2 Punkte), z. B.:\n- 63 % der Betroffenen haben keine Absage nach Besetzung der Stelle erhalten.\n- 42 % der Betroffenen finden das Bewerbungsverfahren zu umständlich.\n- 15 % der Betroffenen fehlen der/die Ansprechpartner/-innen im Stellenangebot.\n- 18 % der Betroffenen haben keine Rückmeldung über den Bewerbungseingang/Bewerbungsstand erhalten.\n- 35 % der Betroffenen finden, dass der Arbeitgeber zu langsam auf Bewerbungen eingeht.\n- oder andere sinnvolle Lösungen."
+  },
+  {
+    "id": "kbz-2025w-a3-6",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-winter",
+    "typ": "offen",
+    "text": "Die Jana Loft KG möchte ein Online-Bewerberportal über die eigene Website einrichten.\n\n**Beschreiben Sie 2 Verbesserungen, die dadurch im Bewerbungsprozess erreicht werden können!**",
+    "punkte": 4,
+    "loesung": "2 Verbesserungen (je 2 Punkte), z. B.:\n- Bestätigung des Bewerbungseingangs erfolgt automatisch\n- Bewerbungsverfahren ist für die Bewerber/-innen einfacher/schneller\n- Die Jana Loft KG kann die Bewerbungen so besser verwalten\n- Imagegewinn durch schnelleres Bewerbungsverfahren\n- Besseres Feedback in der Zukunft\n- Mehrere Mitarbeiter können auf die Bewerbungsunterlagen zeitgleich zugreifen\n- Nachreichen von Unterlagen ist kostenfrei und sofort verfügbar\n- oder andere sinnvolle Lösungen."
+  },
+  {
+    "id": "kbz-2025w-a3-7",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-winter",
+    "typ": "mc",
+    "text": "Die Jana Loft KG hat das Bewerberportal über ihre Website eingerichtet und einige Bewerbungen für die Stelle des Tischlermeisters/der Tischlermeisterin erhalten. Frau Ohlsen beauftragt Sie, die eingegangenen Bewerbungen zu sichten und geeignete Kandidaten/Kandidatinnen auszuwählen.\n\n**Prüfen Sie, welche 2 Rechte der Betriebsrat beim Einstellungsverfahren hat!**",
+    "punkte": 2.27273,
+    "optionen": [
+      "Der Betriebsrat hat beim Einstellungsverfahren nur ein Informationsrecht.",
+      "Der Betriebsrat ist für die Erstellung einer Stellenausschreibung zuständig.",
+      "Der Betriebsrat kann seine Zustimmung zu einer Einstellung ohne Angaben von Gründen verweigern.",
+      "Der Betriebsrat kann verlangen, alle Bewerbungsunterlagen zu sichten.",
+      "Der Betriebsrat muss einer Einstellung zustimmen, bevor der Bewerber den Vertrag erhält.",
+      "Der Betriebsrat kann verlangen, dass ein Mitglied des Betriebsrates bei der Besetzung einer Stelle bevorzugt wird."
+    ],
+    "korrekt": [
+      3,
+      4
+    ],
+    "loesung": "Richtig sind die Aussagen 4 und 5: Der Betriebsrat kann verlangen, alle Bewerbungsunterlagen zu sichten, und er muss einer Einstellung zustimmen, bevor der Bewerber den Vertrag erhält.",
+    "erklaerung": "Nach § 99 BetrVG (Unternehmen mit mehr als 20 wahlberechtigten Arbeitnehmern – die Jana Loft KG hat 230 Beschäftigte) muss der Arbeitgeber den Betriebsrat vor jeder Einstellung unterrichten, ihm die Bewerbungsunterlagen vorlegen und seine Zustimmung einholen. Die Zustimmung darf nur aus den im Gesetz genannten Gründen verweigert werden (Aussage 3 falsch); ein bloßes Informationsrecht (Aussage 1) greift zu kurz; die Aussagen 2 und 6 sind frei erfunden."
+  },
+  {
+    "id": "kbz-2025w-a3-8",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-winter",
+    "typ": "offen",
+    "text": "**Nennen Sie 3 weitere Kriterien (neben der Vollständigkeit der geforderten Unterlagen), auf die Sie bei der Sichtung der Bewerbungsunterlagen achten und nach denen Sie geeignete Bewerber/-innen auswählen!**",
+    "punkte": 3,
+    "loesung": "3 weitere Kriterien (je 1 Punkt), z. B.:\n- Geeignete Qualifikationen für die Stelle\n- Zeugnisse/Zertifikate\n- Berufserfahrung als Tischler/-in\n- Erfahrung als Ausbilder/-in\n- Fehlerfreiheit des Anschreibens\n- Lücken im Lebenslauf\n- Arbeitszeugnisse\n- oder andere sinnvolle Lösungen."
+  },
+  {
+    "id": "kbz-2025w-a3-9",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-winter",
+    "typ": "offen",
+    "text": "Sie haben zwei Bewerber/-innen in der engeren Auswahl für die Stelle. In einem der Arbeitszeugnisse finden Sie folgende Formulierung: „Herr Bartosch hat sich stets bemüht, die an ihn gestellten Anforderungen zu bewältigen.“\n\n**Erläutern Sie, warum Sie sich NICHT für diesen Bewerber entscheiden (1 Erläuterung)!**",
+    "punkte": 3,
+    "loesung": "Das Wort „stets bemüht“ deutet darauf hin, dass … (1 P.)\n- … der Mitarbeiter zwar die Anforderungen bewältigen wollte, aber damit überfordert war. (2 P.)\n- … die Leistung durch den früheren Arbeitgeber schlecht bewertet wurde.\n- … der neue Mitarbeiter auch bei uns schnell überfordert wäre.\n- oder andere sinnvolle Lösungen.",
+    "erklaerung": "Arbeitszeugnisse müssen wohlwollend formuliert sein – „stets bemüht“ ist eine verschlüsselte Formulierung (Zeugnissprache) für eine ungenügende Leistung."
+  },
+  {
+    "id": "kbz-2025w-a3-10",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-winter",
+    "typ": "mc",
+    "text": "Die Jana Loft KG hat sich für den Bewerber, Herrn Müller, als neuen Mitarbeiter entschieden. Er erhält einen unbefristeten Arbeitsvertrag, in dem eine Probezeit von 6 Monaten vereinbart wurde.\n\n**Stellen Sie fest, welcher Sachverhalt hierzu richtig ist!**",
+    "punkte": 2.27273,
+    "optionen": [
+      "Die Probezeit sollte mindestens 8 Monate betragen.",
+      "Eine Probezeit kann nur bei befristeten Verträgen vereinbart werden.",
+      "Wird eine Probezeit vereinbart, braucht der Betriebsrat der Einstellung nicht zuzustimmen.",
+      "Die Jana Loft KG kann das Arbeitsverhältnis erst nach der Probezeit kündigen.",
+      "Eine Probezeit von 6 Monaten ist gesetzlich zulässig."
+    ],
+    "korrekt": [
+      4
+    ],
+    "loesung": "Richtig ist Aussage 5: Eine Probezeit von 6 Monaten ist gesetzlich zulässig.",
+    "erklaerung": "Nach § 622 Abs. 3 BGB kann eine Probezeit von längstens 6 Monaten vereinbart werden (verkürzte Kündigungsfrist von 2 Wochen). Sie ist bei befristeten und unbefristeten Verträgen möglich; die Zustimmungspflicht des Betriebsrats zur Einstellung (§ 99 BetrVG) bleibt bestehen; gekündigt werden kann auch während der Probezeit."
+  },
+  {
+    "id": "kbz-2025w-a3-11",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-winter",
+    "typ": "mc",
+    "text": "**Geben Sie an, welche 2 Unterlagen Sie zwingend für die Einstellung von Herrn Müller benötigen!**",
+    "punkte": 2.27273,
+    "optionen": [
+      "Mitgliedsausweis der Gewerkschaft",
+      "Nachweis der Sozialversicherungsnummer",
+      "Krankmeldungen der letzten 6 Monate",
+      "Bescheinigung über die Berufsunfähigkeitsversicherung",
+      "Mitgliedsbescheinigung der Krankenkasse",
+      "Geburtsurkunde"
+    ],
+    "korrekt": [
+      1,
+      4
+    ],
+    "loesung": "Richtig sind die Aussagen 2 und 5: Nachweis der Sozialversicherungsnummer und Mitgliedsbescheinigung der Krankenkasse.",
+    "erklaerung": "Für die Anmeldung zur Sozialversicherung benötigt der Arbeitgeber die Sozialversicherungsnummer und die Angabe der Krankenkasse (Mitgliedsbescheinigung). Gewerkschaftszugehörigkeit, alte Krankmeldungen, private Berufsunfähigkeitsversicherung und Geburtsurkunde sind für die Einstellung nicht erforderlich (teils sogar unzulässig zu erfragen)."
+  },
+  {
+    "id": "kbz-2025w-a3-12",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-winter",
+    "typ": "mc",
+    "text": "Herr Müller erhält seinen Arbeitsvertrag.\n\n**Prüfen Sie, welche 2 Angaben in einem Arbeitsvertrag aufgeführt sein müssen!**",
+    "punkte": 2.27273,
+    "optionen": [
+      "Art der Tätigkeit",
+      "Urlaubsrichtlinien",
+      "Beurteilungssystem",
+      "Name des Vorgesetzten",
+      "Vertragsbeginn",
+      "Regelung über Zuschüsse zum Kantinenessen"
+    ],
+    "korrekt": [
+      0,
+      4
+    ],
+    "loesung": "Richtig sind die Aussagen 1 und 5: Art der Tätigkeit und Vertragsbeginn.",
+    "erklaerung": "Nach dem Nachweisgesetz gehören u. a. der Beginn des Arbeitsverhältnisses und die Beschreibung der zu leistenden Tätigkeit zu den zwingenden Vertragsbestandteilen. Urlaubsrichtlinien, Beurteilungssystem, Name des Vorgesetzten und Kantinenzuschüsse sind keine Pflichtangaben."
+  },
+  {
+    "id": "kbz-2025w-a3-13",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-winter",
+    "typ": "mc",
+    "text": "Durch den höheren Personalbestand steigen auch die Personalzusatzkosten (Personalnebenkosten).\n\n**Stellen Sie fest, bei welchem Zweig der Sozialversicherung der Arbeitgeber 100 Prozent der Beiträge übernimmt!**",
+    "punkte": 2.27273,
+    "optionen": [
+      "Krankenversicherung",
+      "Rentenversicherung",
+      "Pflegeversicherung",
+      "Unfallversicherung",
+      "Arbeitslosenversicherung"
+    ],
+    "korrekt": [
+      3
+    ],
+    "loesung": "Richtig ist Aussage 4: Die Beiträge zur gesetzlichen Unfallversicherung trägt der Arbeitgeber allein (100 %).",
+    "erklaerung": "Die gesetzliche Unfallversicherung (Berufsgenossenschaften) wird ausschließlich vom Arbeitgeber finanziert. Kranken-, Renten-, Pflege- und Arbeitslosenversicherung werden grundsätzlich je zur Hälfte von Arbeitgeber und Arbeitnehmer getragen."
+  },
+  {
+    "id": "kbz-2025w-a3-14",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-winter",
+    "typ": "offen",
+    "text": "Der Auszubildende Dominik Rahnke beendet im Februar 2026 seine Ausbildung zum Tischler. Die Jana Loft KG möchte Herrn Rahnke nach erfolgreich absolvierter Prüfung übernehmen.\n\n**Geben Sie an, welche 2 Vorteile sich aus der Übernahme des Auszubildenden für die Jana Loft KG ergeben!**",
+    "punkte": 2,
+    "loesung": "2 Vorteile (je 1 Punkt), z. B.:\n- Der Mitarbeiter ist dem Unternehmen bekannt.\n- Die Motivation für die Auszubildenden während der Ausbildung ist höher, wenn eine Übernahme erfolgen soll.\n- Aufwendige Suche nach neuen Arbeitnehmern entfällt.\n- Kostengünstiger als externe Suche.\n- oder andere sinnvolle Lösungen."
+  },
+  {
+    "id": "kbz-2025w-a3-15-1",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-winter",
+    "typ": "offen",
+    "text": "Der Auszubildende Dominik Rahnke soll zunächst einen befristeten Arbeitsvertrag erhalten.\n\n**Prüfen Sie anhand des abgebildeten Gesetzesauszuges, ob eine Befristung zulässig ist!**",
+    "anlagenText": "**Gesetz über Teilzeitarbeit und befristete Arbeitsverträge (Teilzeit- und Befristungsgesetz – TzBfG), § 14 Zulässigkeit der Befristung:**\n\n(1) Die Befristung eines Arbeitsvertrages ist zulässig, wenn sie durch einen sachlichen Grund gerechtfertigt ist. Ein sachlicher Grund liegt insbesondere vor, wenn\n\n1. der betriebliche Bedarf an der Arbeitsleistung nur vorübergehend besteht,\n2. die Befristung im Anschluss an eine Ausbildung oder ein Studium erfolgt, um den Übergang des Arbeitnehmers in eine Anschlussbeschäftigung zu erleichtern,\n3. der Arbeitnehmer zur Vertretung eines anderen Arbeitnehmers beschäftigt wird,\n4. die Eigenart der Arbeitsleistung die Befristung rechtfertigt,\n…",
+    "punkte": 1,
+    "loesung": "Gemäß Punkt 2 ist eine Befristung im Anschluss an eine Ausbildung zulässig. (1 P.)"
+  },
+  {
+    "id": "kbz-2025w-a3-15-2",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-winter",
+    "typ": "offen",
+    "text": "**Begründen Sie, warum eine Befristung des Arbeitsvertrages mit dem übernommenen Auszubildenden aus Sicht der Jana Loft KG sinnvoll ist (1 Angabe)!**",
+    "punkte": 2,
+    "loesung": "1 Angabe (2 Punkte), z. B.:\n- Motivation und Zuverlässigkeit können so geprüft werden.\n- Es kann geprüft werden, ob Herr Rahnke ins Team passt.\n- Auf zukünftigen Personalbedarf kann flexibel reagiert werden.\n- oder andere sinnvolle Lösungen."
+  },
+  {
+    "id": "kbz-2025w-a4-1",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-winter",
+    "typ": "offen",
+    "text": "Die Jana Loft KG möchte ihr Absatzprogramm um Halterungen für Monitore erweitern. Die Handelsware wurde bei dem neuen Lieferanten Wüland PC-Bedarf GmbH bezogen. Ihnen liegen Unterlagen zur Rechnungsprüfung vor.\n\n**Nennen Sie 2 Inhalte der sachlichen Rechnungsprüfung und 2 Inhalte der rechnerischen!**",
+    "punkte": 4,
+    "loesung": "2 Inhalte der sachlichen Rechnungsprüfung (je 1 Punkt), z. B.:\n- Stimmt die Empfängeradresse?\n- Übereinstimmung mit Angaben auf dem Lieferschein?\n- Übereinstimmung mit Angaben auf der Bestellung?\n- Übereinstimmung mit vereinbarten Preisnachlässen?\n- Pflichtbestandteile einer Rechnung?\n\n2 Inhalte der rechnerischen Rechnungsprüfung (je 1 Punkt), z. B.:\n- Richtige Berechnung der Gesamtbeträge?\n- Richtige Berechnung des Nettorechnungsbetrags?\n- Richtige Berechnung der Preisnachlässe?\n- Richtige Berechnung der Umsatzsteuer?\n\noder andere sinnvolle Lösungen."
+  },
+  {
+    "id": "kbz-2025w-a4-2",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-winter",
+    "typ": "offen",
+    "text": "Ihnen liegt die Rechnung des neuen Lieferanten Wüland PC-Bedarf GmbH vor (Abbildung 1 in der Anlage). Die Lieferung ist am 21.11.2025 ohne Beanstandung bei der Jana Loft KG eingetroffen. Verwenden Sie für die Rechnungskontrolle die Informationen des Angebots der Wüland PC-Bedarf GmbH (Abbildung 2 in der Anlage), die ohne Änderungen in der Bestellung der Jana Loft KG wiederholt wurden.\n\n**Nennen Sie 1 sachlichen und 1 rechnerischen Fehler, den Sie bei der Rechnungskontrolle festgestellt haben, und geben Sie an, wie die korrekte Angabe oder der korrekte Betrag lautet!**",
+    "anlagenText": "**Abbildung 1 – Rechnung Nr. 2025-53347-14 der Wüland PC-Bedarf GmbH, Siegen (Datum: 24.11.2025, Eingang: 25.11.2025, Lieferung vom 21.11.2025):**\n\nZahlungsbedingungen: Zahlbar ab Rechnungsdatum in 30 Tagen oder innerhalb von 10 Tagen mit Abzug von 2 % Skonto auf den Netto-Warenwert.\n\n| Pos. | Art.-Nr. | Artikelbezeichnung | Menge | Einzelpreis in EUR | Gesamtpreis in EUR |\n|---|---|---|---|---|---|\n| 1 | 302.550 | Monitorhalterung X-55 für Monitore bis 29 Zoll, max. Belastbarkeit 15,5 kg | 25 Stück | 35,50 | 887,50 |\n| 2 | 302.750 | Monitorhalterung X-75 für Monitore bis 34 Zoll, max. Belastbarkeit 22,5 kg | 25 Stück | 42,50 | 1.062,50 |\n\n| | EUR |\n|---|---|\n| Summe | 1.950,00 |\n| − 15 % Rabatt | 239,25 |\n| Netto gesamt | 1.715,75 |\n| + 19 % Umsatzsteuer | 325,99 |\n| **Brutto gesamt** | **2.041,74** |\n\n**Abbildung 2 – Angebot 2025/3515 der Wüland PC-Bedarf GmbH (Datum: 06.11.2025):**\n\n| Pos. | Art.-Nr. | Artikelbezeichnung | Einzelpreis in EUR |\n|---|---|---|---|\n| 1 | 302.550 | Monitorhalterung X-55 für Monitore bis 29 Zoll, max. Belastbarkeit 15,5 kg | 35,50 |\n| 2 | 302.750 | Monitorhalterung X-75 für Monitore bis 34 Zoll, max. Belastbarkeit 22,5 kg | 42,50 |\n\n„Wie bereits telefonisch besprochen, liefern wir Ihnen die gewünschte Menge am 21.11.2025 frei Haus. Als Neukunde bieten wir Ihnen für Ihre erste Bestellung von mindestens 20 Monitorhalterungen einen Rabatt in Höhe von 15 % auf den Netto-Warenwert an. Der Rechnungsbetrag ist zahlbar ab Rechnungsdatum in 30 Tagen ohne Abzug oder innerhalb von 10 Tagen mit Abzug von 3 % Skonto auf den Netto-Warenwert.“",
+    "punkte": 4,
+    "loesung": "- Sachlicher Fehler: Die Zahlungsbedingungen (2 % Skonto) sind falsch (1 P.). Laut dem Angebot wird der Jana Loft KG ein Skonto von 3 % angeboten (1 P.).\n- Rechnerischer Fehler: Der auf der Rechnung vermerkte Rabattbetrag in Höhe von 239,25 € ist falsch (1 P.). Der korrekte Betrag lautet 292,50 € (15 % von 1.950,00 €) (1 P.).\n- oder andere sinnvolle Lösungen."
+  },
+  {
+    "id": "kbz-2025w-a4-3",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-winter",
+    "typ": "offen",
+    "text": "**Entscheiden Sie, ob die fehlerhafte Eingangsrechnung der Wüland PC-Bedarf GmbH (siehe Abbildung 1 in der Anlage der vorigen Teilaufgabe) von der Jana Loft KG gebucht werden kann! Begründen Sie Ihre Entscheidung!**",
+    "punkte": 2,
+    "loesung": "Nein, es ist nicht möglich (1 P.). Eine korrigierte Rechnung ist wegen rechnerischer Fehler neu anzufordern (1 P.).\noder andere sinnvolle Lösungen."
+  },
+  {
+    "id": "kbz-2025w-a4-4",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-winter",
+    "typ": "offen",
+    "text": "Ihnen liegen weitere Belege zur Bearbeitung und Kontierung vor. Verwenden Sie ausschließlich die vierstelligen Kontonummern aus dem in der Anlage abgebildeten Auszug des Kontenplans der Jana Loft KG. Werden Unterkonten im Kontenplan genannt, so ist auf diesen Unterkonten zu buchen. Wenn nichts anderes angegeben ist, muss aufwandsrechnerisch und netto gebucht werden.\n\n**Kontieren Sie den in der Anlage abgebildeten Beleg Nr. 1 (Soll an Haben)!**",
+    "anlagenText": "**Beleg 1 – Eingangsrechnung der Bürotec GmbH, Berlin (Rechnung Nr. 2025/25475 vom 13.11.2025, Eingang: 14.11.2025, Lieferung vom 13.11.2025):**\n\n| Pos. | Art.-Nr. | Artikelbezeichnung | Menge | Einzelpreis in EUR | Gesamtpreis in EUR |\n|---|---|---|---|---|---|\n| 1 | 420.15 | Aktenvernichter AKV-15, bis zu 15 Seiten pro Minute | 20 Stück | 32,20 | 644,00 |\n| 2 | 420.25 | Aktenvernichter AKV-25, bis zu 25 Seiten pro Minute | 30 Stück | 39,90 | 1.197,00 |\n| 3 | 420.30 | Aktenvernichter AKV-30, bis zu 30 Seiten pro Minute | 15 Stück | 44,20 | 663,00 |\n\n| | EUR |\n|---|---|\n| Summe | 2.504,00 |\n| − 10 % Rabatt | 250,40 |\n| Netto gesamt | 2.253,60 |\n| + 19 % Umsatzsteuer | 428,18 |\n| **Brutto gesamt** | **2.681,78** |\n\nZahlungsbedingungen: Zahlbar ab Rechnungsdatum in 30 Tagen oder innerhalb von 12 Tagen mit Abzug von 3 % Skonto auf den Netto-Warenwert.\n\n**Auszug aus dem Kontenplan der Jana Loft KG:**\n\n| Konto | Bezeichnung |\n|---|---|\n| 0500 | Unbebaute Grundstücke |\n| 0700 | Technische Anlagen und Maschinen |\n| 0840 | Fuhrpark |\n| 0860 | Büromaschinen, Kommunikationsanlagen |\n| 0870 | Büromöbel und sonstige Geschäftsausstattung |\n| 2280 | Waren (Handelswaren) |\n| 2401–2499 | Forderungen aus Lieferungen und Leistungen gegenüber Kunden (u. a. 2405 Büroausstatter Winter OHG, 2406 Brandes GmbH & Co. KG, 2499 Sonstige Kunden) |\n| 2600 | Vorsteuer (19 %) |\n| 2610 | Vorsteuer (ermäßigter Steuersatz) |\n| 2800 | Hamburger Sparkasse |\n| 2880 | Kasse |\n| 3000 | Kapital Jana Loft (Komplementärin) |\n| 4250 | Langfristige Bankverbindlichkeiten (Darlehen) |\n| 4401–4499 | Verbindlichkeiten aus Lieferungen und Leistungen (u. a. 4403 Naturholz AG, 4407 Blitz-Spedition GmbH, 4408 Franz Meyer e. K., 4409 Bürotec GmbH, 4499 Sonstige Lieferanten und Dienstleister) |\n| 4800 | Umsatzsteuer (19 %) |\n| 5100 | Umsatzerlöse für Handelswaren (5101 Erlösberichtigungen) |\n| 5401 | Nebenerlöse aus Vermietung und Verpachtung |\n| 5710 | Zinserträge |\n| 6050 | Aufwendungen für Energie |\n| 6080 | Aufwendungen für Handelswaren (6082 Nachlässe) |\n| 6140 | Ausgangsfrachten |\n| 6150 | Vertriebsprovision |\n| 6520 | Abschreibungen auf Sachanlagen |\n| 6700 | Mieten, Pachten |\n| 6710 | Leasing |\n| 6800 | Büromaterial |\n| 6810 | Zeitungen und Fachliteratur |\n| 6870 | Werbung |\n| 6900 | Versicherungsbeiträge |\n| 6920 | Beiträge zu Wirtschaftsverbänden und Berufsvertretungen |\n| 7020 | Grundsteuer |\n| 7030 | Kraftfahrzeugsteuer |\n| 7090 | Sonstige betriebliche Steuern |\n| 7510 | Zinsaufwendungen |\n| 8010 | Schlussbilanzkonto |\n| 8020 | Gewinn- und Verlust-Konto |",
+    "punkte": 2.27273,
+    "loesung": "**6080 (2.253,60 €), 2600 (428,18 €) an 4409 (2.681,78 €)**\n\nAktenvernichter sind Handelswaren; laut Vorgabe ist aufwandsrechnerisch und netto zu buchen: Aufwendungen für Handelswaren (6080) netto im Soll, Vorsteuer (2600) im Soll, Verbindlichkeit gegenüber dem Lieferanten Bürotec GmbH (4409) brutto im Haben.",
+    "erklaerung": "Gebundene Aufgabe (Lösungsbogen) ohne offizielle Lösungshinweise – Buchungssatz eigenständig hergeleitet und gegen den Kontenplan geprüft."
+  },
+  {
+    "id": "kbz-2025w-a4-5",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-winter",
+    "typ": "rechnen",
+    "text": "**Ermitteln Sie den Netto-Skontobetrag aus Beleg 1 (Eingangsrechnung der Bürotec GmbH: Netto gesamt 2.253,60 €, Zahlungsbedingungen: innerhalb von 12 Tagen 3 % Skonto auf den Netto-Warenwert)! Geben Sie Ihren Rechenweg an! Runden Sie Ihr Ergebnis kaufmännisch auf 2 Nachkommastellen!**",
+    "punkte": 2,
+    "loesung": "2.253,60 € × 3 % = **67,61 €**"
+  },
+  {
+    "id": "kbz-2025w-a4-6",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-winter",
+    "typ": "offen",
+    "text": "Die Rechnung der Bürotec GmbH (Beleg 1, Brutto 2.681,78 €) wurde am 24.11.2025 durch Überweisung bezahlt.\n\n**Kontieren Sie die zugehörige Position 1 des in der Anlage abgebildeten Belegs Nr. 2 (Soll an Haben)!**",
+    "anlagenText": "**Beleg 2 – Kontoauszug 72/2025 der Hamburger Sparkasse vom 25.11.2025:**\n\n| Position | Wert | Buchungsangaben | Betrag EUR |\n|---|---|---|---|\n| | | Kontostand am 20.11.2025, Auszug Nr. 71 | 32.450,77 |\n| 1 | 24.11.2025 | Bürotec GmbH, Rg.-Nr. 2025/25475 vom 13.11.2025, abzüglich 3 % Skonto | −2.601,33 |\n| 2 | 24.11.2025 | Heizungsbau Meyering GmbH, Rg.-Nr. 2025/210272-X, jährliche Heizungswartung am 14.11.2025 | −855,33 |\n| 3 | 25.11.2025 | SEPA Mandat Nr. 0049238655, Stadtwerke Hamburg, Abschlagszahlung Gas Dezember 2025, inkl. 19 % USt. | −1.511,33 |\n| | | Kontostand am 25.11.2025 | 27.482,78 |\n\n*(Kontenplan-Auszug: siehe Aufgabe „Beleg Nr. 1 kontieren“.)*",
+    "punkte": 2.27273,
+    "loesung": "**4409 (2.681,78 €) an 2800 (2.601,33 €), 6082 (67,61 €), 2600 (12,84 €)**\n\nDie Verbindlichkeit gegenüber der Bürotec GmbH (4409) wird in voller Höhe ausgebucht. Bezahlt wurden per Bank (2800) 2.601,33 €. Der Skontoabzug (brutto 80,45 €) wird aufgeteilt in den Netto-Nachlass 67,61 € (Unterkonto 6082 Nachlässe, da aufwandsrechnerisch gebucht wird) und die Vorsteuerkorrektur 12,84 € (2600).",
+    "erklaerung": "Gebundene Aufgabe (Lösungsbogen) ohne offizielle Lösungshinweise – Buchungssatz eigenständig hergeleitet; der Netto-Skontobetrag 67,61 € entspricht den offiziellen Lösungshinweisen zur vorigen Teilaufgabe."
+  },
+  {
+    "id": "kbz-2025w-a4-7",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-winter",
+    "typ": "offen",
+    "text": "**Kontieren Sie die Position 2 des in der Anlage abgebildeten Belegs Nr. 2 (Heizungsbau Meyering GmbH, jährliche Heizungswartung, 855,33 €)! Die Rechnung wurde bereits gebucht. (Soll an Haben)**\n\n*(Beleg 2 und Kontenplan-Auszug: siehe vorige Teilaufgaben.)*",
+    "punkte": 2.27273,
+    "loesung": "**4499 (855,33 €) an 2800 (855,33 €)**\n\nDa die Rechnung bereits gebucht wurde, besteht eine Verbindlichkeit. Die Heizungsbau Meyering GmbH hat kein eigenes Konto im Kontenplan, daher wird die Zahlung über 4499 (Sonstige Lieferanten und Dienstleister) gegen die Bank (2800) gebucht.",
+    "erklaerung": "Gebundene Aufgabe (Lösungsbogen) ohne offizielle Lösungshinweise – Buchungssatz eigenständig hergeleitet und gegen den Kontenplan geprüft."
+  },
+  {
+    "id": "kbz-2025w-a4-8",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-winter",
+    "typ": "offen",
+    "text": "**Kontieren Sie die Position 3 des in der Anlage abgebildeten Belegs Nr. 2 (Stadtwerke Hamburg, Abschlagszahlung Gas Dezember 2025, 1.511,33 € inkl. 19 % USt.)! Die Rechnung wurde noch nicht gebucht. (Soll an Haben)**\n\n*(Beleg 2 und Kontenplan-Auszug: siehe vorige Teilaufgaben.)*",
+    "punkte": 2.27273,
+    "loesung": "**6050 (1.270,03 €), 2600 (241,30 €) an 2800 (1.511,33 €)**\n\nDa die Rechnung noch nicht gebucht wurde, erfolgt die Buchung direkt gegen die Bank: Netto-Betrag 1.511,33 € : 1,19 = 1.270,03 € auf Aufwendungen für Energie (6050), Vorsteuer 241,30 € (2600), Bank (2800) 1.511,33 € im Haben.",
+    "erklaerung": "Gebundene Aufgabe (Lösungsbogen) ohne offizielle Lösungshinweise – Buchungssatz eigenständig hergeleitet (Gas = Energie, Konto 6050; netto und aufwandsrechnerisch gemäß Vorgabe)."
+  },
+  {
+    "id": "kbz-2025w-a4-9",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-winter",
+    "typ": "offen",
+    "text": "Die Jana Loft KG kauft für einen CO₂-neutralen Vertrieb drei Elektro-Transporter. Sie bearbeiten die Anschaffung (siehe Beleg 3 und 4 in der Anlage) und bereiten die Abschreibung zum Ende des Geschäftsjahres vor. Die Nutzungsdauer laut AfA-Tabelle beträgt 6 Jahre.\n\n**Kontieren Sie den in der Anlage abgebildeten Beleg Nr. 3 (Soll an Haben)!**",
+    "anlagenText": "**Beleg 3 – Rechnung Nr. 2025400381019 des Autohauses Fresen KG, Barsbüttel (Datum: 21.11.2025, Eingang: 25.11.2025, Lieferung vom 20.11.2025, zahlbar in 30 Tagen):**\n\n| Pos. | Art.-Nr. | Artikelbezeichnung | Menge | Einzelpreis in EUR | Gesamtpreis in EUR |\n|---|---|---|---|---|---|\n| 1 | 266917 | Elektro-Transporter Soli 600, Kastenwagen, 3,5 t | 3 | 68.500,00 | 205.500,00 |\n\n| | EUR |\n|---|---|\n| Summe | 205.500,00 |\n| − 12 % Rabatt | 24.660,00 |\n| Netto gesamt | 180.840,00 |\n| + 19 % Umsatzsteuer | 34.359,60 |\n| **Brutto gesamt** | **215.199,60** |\n\n**Beleg 4 – Rechnung Nr. 5549/2225 der Carstens GmbH, Hamburg (Datum: 21.11.2025, Eingang: 25.11.2025, Lieferdatum 21.11.2025):**\n\n| Pos. | Art.-Nr. | Artikelbezeichnung | Menge | Einzelpreis in EUR | Gesamtpreis in EUR |\n|---|---|---|---|---|---|\n| 1 | 12763 | Kfz-Kennzeichen für Transporter | 3 Sets | 48,00 | 144,00 |\n\n| | EUR |\n|---|---|\n| Netto gesamt | 144,00 |\n| + 19 % Umsatzsteuer | 27,36 |\n| **Brutto gesamt** | **171,36** |\n\n*(Kontenplan-Auszug: siehe Aufgabe „Beleg Nr. 1 kontieren“.)*",
+    "punkte": 2.27273,
+    "loesung": "**0840 (180.840,00 €), 2600 (34.359,60 €) an 4499 (215.199,60 €)**\n\nDie Elektro-Transporter sind Anlagevermögen und werden netto auf dem Konto Fuhrpark (0840) aktiviert; Vorsteuer (2600) im Soll. Das Autohaus Fresen KG hat kein eigenes Konto im Kontenplan, daher Verbindlichkeit über 4499 (Sonstige Lieferanten und Dienstleister).",
+    "erklaerung": "Gebundene Aufgabe (Lösungsbogen) ohne offizielle Lösungshinweise – Buchungssatz eigenständig hergeleitet und gegen den Kontenplan geprüft."
+  },
+  {
+    "id": "kbz-2025w-a4-10",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-winter",
+    "typ": "offen",
+    "text": "**Kontieren Sie den in der Anlage abgebildeten Beleg Nr. 4 (Kfz-Kennzeichen für die drei Elektro-Transporter, Carstens GmbH: netto 144,00 €, USt 27,36 €, brutto 171,36 €)! (Soll an Haben)**\n\n*(Beleg 4 und Kontenplan-Auszug: siehe vorige Teilaufgaben.)*",
+    "punkte": 2.27273,
+    "loesung": "**0840 (144,00 €), 2600 (27,36 €) an 4499 (171,36 €)**\n\nDie Kfz-Kennzeichen sind Anschaffungsnebenkosten der Transporter und werden daher ebenfalls auf dem Konto Fuhrpark (0840) aktiviert (vgl. die Anschaffungskosten-Berechnung in der Folgeaufgabe, die die 48,00 € je Transporter einbezieht). Vorsteuer (2600) im Soll, Verbindlichkeit über 4499, da die Carstens GmbH kein eigenes Konto im Kontenplan hat.",
+    "erklaerung": "Gebundene Aufgabe (Lösungsbogen) ohne offizielle Lösungshinweise – Buchungssatz eigenständig hergeleitet; Aktivierung als Anschaffungsnebenkosten wird durch die offiziellen Lösungshinweise zur Anschaffungskosten-Berechnung (60.280,00 € + 48,00 € + 170,00 €) bestätigt."
+  },
+  {
+    "id": "kbz-2025w-a4-11",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-winter",
+    "typ": "rechnen",
+    "text": "**Ermitteln Sie die Anschaffungskosten anhand der abgebildeten Belege 3 und 4 (siehe Anlage der vorigen Teilaufgaben) für 1 Elektro-Transporter! Zusätzlich fallen Zulassungsgebühren von 170,00 € pro Transporter an. Geben Sie Ihren Rechenweg an!**",
+    "punkte": 3,
+    "loesung": "68.500,00 € × 88 : 100 = 60.280,00 € (oder 180.840,00 € : 3 = 60.280,00 €) (1 P.)\n60.280,00 € + 48,00 € + 170,00 € = **60.498,00 €** (2 P.)\n\nHinweis: Folgefehler führen nicht zum Punktabzug!"
+  },
+  {
+    "id": "kbz-2025w-a4-12",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-winter",
+    "typ": "rechnen",
+    "text": "Die Nutzungsdauer der Elektro-Transporter beträgt laut AfA-Tabelle 6 Jahre. Die Lieferung erfolgte am 20.11.2025.\n\n**Berechnen Sie die zeitanteilige Abschreibung für 1 Elektro-Transporter (Anschaffungskosten 60.498,00 €) für das Jahr 2025! Geben Sie Ihren Rechenweg an!**",
+    "punkte": 3,
+    "loesung": "60.498,00 € : 6 = 10.083,00 € (1 P.)\n10.083,00 € × 2 : 12 = **1.680,50 €** (2 P.)\n\n(Zeitanteilig für 2 Monate: November und Dezember.)\n\nHinweis: Folgefehler führen nicht zum Punktabzug!"
+  },
+  {
+    "id": "kbz-2025w-a4-13",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-winter",
+    "typ": "offen",
+    "text": "**Kontieren Sie die Abschreibung der Elektro-Transporter zum Ende des Geschäftsjahres 2025 (Soll an Haben)!**\n\n*(Kontenplan-Auszug: siehe Aufgabe „Beleg Nr. 1 kontieren“.)*",
+    "punkte": 2.27273,
+    "loesung": "**6520 an 0840** (Abschreibungen auf Sachanlagen an Fuhrpark)\n\nBetrag: 1.680,50 € × 3 Transporter = 5.041,50 €.",
+    "erklaerung": "Gebundene Aufgabe (Lösungsbogen) ohne offizielle Lösungshinweise – Buchungssatz eigenständig hergeleitet: Die planmäßige Abschreibung mindert den Buchwert des Fuhrparks (0840 im Haben) und wird als Aufwand auf 6520 erfasst."
+  },
+  {
+    "id": "kbz-2025w-a5-1",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-winter",
+    "typ": "rechnen",
+    "text": "Durch Rationalisierungsmaßnahmen ist es der Jana Loft KG gelungen, bei gleicher Produktionskapazität von 800 Stück den Anteil der Fixkosten bei der Fertigung des Schreibtisches „Labora“ zu senken. Ihr Abteilungsleiter bittet Sie, auf Grundlage der gesunkenen Fixkosten zu ermitteln, bei welcher Stückzahl die Jana Loft KG bei der Produktion des Schreibtisches „Labora“ die Gewinnschwelle erreicht.\n\n**Berechnen Sie die fehlenden Beträge der abgebildeten Tabelle (siehe Anlage)! Geben Sie anschließend die Gewinnschwelle (in Stück) an!**",
+    "anlagenText": "**Kosten- und Erlöstabelle Schreibtisch „Labora“ (fehlende Werte sind mit „?“ markiert):**\n\n| Stück | Umsatz in EUR | Variable Kosten in EUR | Fixkosten in EUR | Gesamtkosten in EUR | Gewinn in EUR |\n|---|---|---|---|---|---|\n| 100 | 69.550,00 | 24.000,00 | 136.650,00 | 160.650,00 | −91.100,00 |\n| 200 | ? | 48.000,00 | 136.650,00 | 184.650,00 | ? |\n| 300 | 208.650,00 | 72.000,00 | 136.650,00 | 208.650,00 | ? |\n| 400 | 278.200,00 | 96.000,00 | 136.650,00 | 232.650,00 | 45.550,00 |\n| 500 | 347.750,00 | 120.000,00 | 136.650,00 | 256.650,00 | 91.100,00 |\n| 600 | 417.300,00 | 144.000,00 | 136.650,00 | 280.650,00 | 136.650,00 |\n| 700 | 486.850,00 | ? | 136.650,00 | 304.650,00 | 182.200,00 |\n| 800 | 556.400,00 | 192.000,00 | 136.650,00 | ? | 227.750,00 |",
+    "punkte": 6,
+    "loesung": "Fehlende Beträge (je 1 Punkt):\n- Umsatz bei 200 Stück: **139.100,00 €** (695,50 € × 200)\n- Gewinn bei 200 Stück: **−45.550,00 €** (139.100,00 − 184.650,00)\n- Gewinn bei 300 Stück: **0,00 €** (208.650,00 − 208.650,00)\n- Variable Kosten bei 700 Stück: **168.000,00 €** (240,00 € × 700)\n- Gesamtkosten bei 800 Stück: **328.650,00 €** (192.000,00 + 136.650,00)\n\nGewinnschwelle: **300 Stück** (1 Punkt) – hier ist der Gewinn 0, Umsatz = Gesamtkosten.\n\nHinweis: Folgefehler führen nicht zum Punktabzug!"
+  },
+  {
+    "id": "kbz-2025w-a5-2",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-winter",
+    "typ": "offen",
+    "text": "Ein Diagramm zeigt vereinfacht die Kosten- und Erlössituation des Schreibtisches „Labora“ (siehe Anlage).\n\n**Ordnen Sie zu, indem Sie die Kennziffern der 4 Begriffe aus der Abbildung den 4 Bedeutungen zuordnen! Geben Sie Ihre Lösungsziffern in der Reihenfolge Fixkosten – Variable Kosten – Erlöse – Gesamtkosten an!**",
+    "anlagenText": "**Diagramm (Kosten/Erlöse in EUR auf der y-Achse bis 500.000,00; Menge 0–800 Stück auf der x-Achse):**\n\n- Kennziffer **1**: steil ansteigende Gerade, die im Ursprung (0/0) beginnt und bei ca. 700–800 Stück etwa 500.000,00 € erreicht.\n- Kennziffer **2**: ansteigende Gerade, die bei 136.650,00 € auf der y-Achse beginnt und bei 800 Stück ca. 330.000,00 € erreicht; sie schneidet die Gerade 1 bei ca. 300 Stück.\n- Kennziffer **3**: Klammer, die den senkrechten Abstand zwischen der Geraden 2 und der waagerechten Geraden 4 kennzeichnet.\n- Kennziffer **4**: waagerechte Gerade in Höhe von 136.650,00 €.\n\n**Bedeutungen:** Fixkosten, Variable Kosten, Erlöse, Gesamtkosten.",
+    "punkte": 2.27273,
+    "loesung": "**Fixkosten = 4, Variable Kosten = 3, Erlöse = 1, Gesamtkosten = 2** (Lösungsziffernfolge: 4 – 3 – 1 – 2)\n\nBegründung: Die waagerechte Gerade (4) ist mengenunabhängig = Fixkosten. Die im Ursprung beginnende, steilste Gerade (1) sind die Erlöse (0 Stück = 0 €). Die bei den Fixkosten beginnende steigende Gerade (2) sind die Gesamtkosten. Der Abstand zwischen Gesamtkosten und Fixkosten (Klammer 3) sind die variablen Kosten.",
+    "erklaerung": "Gebundene Zuordnungsaufgabe (Lösungsbogen) ohne offizielle Lösungshinweise – Zuordnung eigenständig hergeleitet; konsistent mit den Tabellenwerten der vorigen Teilaufgabe (Fixkosten 136.650,00 €, Break-even bei 300 Stück am Schnittpunkt von Erlös- und Gesamtkostengerade)."
+  },
+  {
+    "id": "kbz-2025w-a5-3",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-winter",
+    "typ": "mc",
+    "text": "**Geben Sie an, welche Beschreibung zu den variablen Kosten des Schreibtisches „Labora“ richtig ist!**",
+    "punkte": 2.27273,
+    "optionen": [
+      "Die variablen Kosten sind bei jeder Stückzahl halb so groß wie die Gesamtkosten.",
+      "Die variablen Kosten pro Stück sind konstant.",
+      "Die variablen Kosten sind abhängig von den Fixkosten.",
+      "Die variablen Kosten pro Stück steigen proportional.",
+      "Die variablen Kosten pro Stück fallen degressiv."
+    ],
+    "korrekt": [
+      1
+    ],
+    "loesung": "Richtig ist Aussage 2: Die variablen Kosten pro Stück sind konstant.",
+    "erklaerung": "Die variablen Kosten betragen bei jeder Menge 240,00 € pro Stück (z. B. 24.000 € : 100 = 240 €; 192.000 € : 800 = 240 €). Die variablen Gesamtkosten steigen proportional zur Menge, die variablen Stückkosten bleiben konstant."
+  },
+  {
+    "id": "kbz-2025w-a5-4",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-winter",
+    "typ": "offen",
+    "text": "Frau Schulze aus der Auftragsbearbeitung leitet Ihnen eine E-Mail des Stammkunden Büroausstatter Winter OHG weiter: Der Kunde hat Interesse an einer Ausführung des Schreibtisches „Labora“ in Esche und würde bei einem entsprechenden Angebot 100 Schreibtische bestellen. Sie beschaffen sich die notwendigen Informationen zur Kalkulation der Selbstkosten aus dem Betriebsabrechnungsbogen (BAB), der Ihnen in Auszügen vorliegt.\n\nEine wichtige Aufgabe des Betriebsabrechnungsbogens (BAB) ist die Ermittlung der Gemeinkostenzuschlagssätze.\n\n**Nennen Sie 1 weitere Aufgabe!**",
+    "punkte": 2,
+    "loesung": "Z. B.: (Verursachungsgerechte) Verteilung der Gemeinkosten auf die Kostenstellen.\noder andere sinnvolle Lösungen."
+  },
+  {
+    "id": "kbz-2025w-a5-5",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "quelle": "original",
+    "termin": "2025-winter",
+    "typ": "rechnen",
+    "text": "**Ermitteln Sie die Selbstkosten in Euro für 1 Schreibtisch „Labora“ in Esche! Die Kosten für das Fertigungsmaterial betragen 105,00 €, die Fertigungslöhne 132,00 €. Füllen Sie im Kalkulationsschema die fehlenden Bezeichnungen, Zuschlagssätze und Werte aus! Runden Sie für jede Eintragung Ihr Ergebnis kaufmännisch auf 2 Nachkommastellen!**",
+    "anlagenText": "**Auszug aus dem Betriebsabrechnungsbogen (BAB) der Jana Loft KG:**\n\n| | Material | Fertigung | Verwaltung | Vertrieb |\n|---|---|---|---|---|\n| Summen Gemeinkosten | 32.600,00 | 281.200,00 | 74.450,00 | 19.390,00 |\n| Zuschlagssätze | 65,20 % | 99,32 % | 11,51 % | 3,00 % |\n\n**Kalkulationsschema (grau hinterlegte Felder auszufüllen):**\n\n| Kalkulation | Zuschlagssätze | Euro |\n|---|---|---|\n| Fertigungsmaterial | | 105,00 |\n| + Materialgemeinkosten | ? | ? |\n| + Fertigungslöhne | | 132,00 |\n| + ? | ? | ? |\n| = Herstellkosten | | ? |\n| + ? | ? | ? |\n| + Vertriebsgemeinkosten | ? | ? |\n| = Selbstkosten | | ? |",
+    "punkte": 7,
+    "loesung": "| Kalkulation | Zuschlagssätze | Euro |\n|---|---|---|\n| Fertigungsmaterial | | 105,00 |\n| + Materialgemeinkosten | 65,20 % | **68,46** |\n| + Fertigungslöhne | | 132,00 |\n| + **Fertigungsgemeinkosten** | 99,32 % | **131,10** |\n| = Herstellkosten | | **436,56** |\n| + **Verwaltungsgemeinkosten** | 11,51 % | **50,25** |\n| + Vertriebsgemeinkosten | 3,00 % | **13,10** |\n| = Selbstkosten | | **499,91** |\n\n(Je Betrag 1 Punkt, beide Begriffe 1 Punkt.)\n\nRechenwege: MGK = 105,00 × 65,20 % = 68,46; FGK = 132,00 × 99,32 % = 131,10; HK = 105,00 + 68,46 + 132,00 + 131,10 = 436,56; VwGK = 436,56 × 11,51 % = 50,25; VtGK = 436,56 × 3 % = 13,10; SK = 436,56 + 50,25 + 13,10 = 499,91.\n\nHinweis: Folgefehler führen nicht zum Punktabzug!"
   }
 ]
