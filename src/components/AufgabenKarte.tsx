@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Anlage from './Anlage'
+import AnlagenDiagramm from './AnlagenDiagramm'
 import QuelleBadge from './QuelleBadge'
 import QuizMC from './QuizMC'
 import QuizOffen from './QuizOffen'
@@ -29,6 +30,8 @@ export default function AufgabenKarte({
       <QuizOffen aufgabe={aufgabe} onErgebnis={ergebnis} />
     )
 
+  const hatAnlage = Boolean(aufgabe.anlagenText || aufgabe.anlagenDiagramm)
+
   return (
     <div className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
       <div className="mb-2 flex items-center gap-2">
@@ -36,7 +39,7 @@ export default function AufgabenKarte({
         {istErledigt && <span className="text-sm text-green-600">✔ geübt</span>}
       </div>
 
-      {aufgabe.anlagenText ? (
+      {hatAnlage ? (
         <div className="lg:grid lg:grid-cols-2 lg:gap-5">
           <div>{quiz}</div>
           <div className="mt-3 lg:mt-0">
@@ -47,8 +50,9 @@ export default function AufgabenKarte({
             >
               {zeigeAnlage ? 'Anlage ausblenden ▲' : 'Anlage anzeigen ▼'}
             </button>
-            <div className={zeigeAnlage ? '' : 'hidden lg:block'}>
-              <Anlage text={aufgabe.anlagenText} />
+            <div className={`space-y-3 ${zeigeAnlage ? '' : 'hidden lg:block'}`}>
+              {aufgabe.anlagenDiagramm && <AnlagenDiagramm diagramm={aufgabe.anlagenDiagramm} />}
+              {aufgabe.anlagenText && <Anlage text={aufgabe.anlagenText} />}
             </div>
           </div>
         </div>
