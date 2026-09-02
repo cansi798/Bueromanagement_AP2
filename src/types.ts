@@ -35,6 +35,21 @@ export interface Thema {
 export type AufgabenQuelle = 'original' | 'abgeleitet' | 'generiert'
 export type AufgabenTyp = 'mc' | 'offen' | 'rechnen'
 
+export interface DiagrammPunkt {
+  x: string
+  y: number
+}
+
+export interface AnlagenDiagramm {
+  typ: 'linie' | 'balken' | 'kreis'
+  titel: string
+  xAchse?: string
+  yAchse?: string
+  einheit?: string
+  quelle?: string
+  serien: { name: string; punkte: DiagrammPunkt[] }[]
+}
+
 export interface Aufgabe {
   id: string
   themaId: string
@@ -44,6 +59,7 @@ export interface Aufgabe {
   typ: AufgabenTyp
   text: string
   anlagenText?: string
+  anlagenDiagramm?: AnlagenDiagramm
   punkte?: number
   optionen?: string[] // nur typ 'mc'
   korrekt?: number[] // nur typ 'mc'
@@ -66,6 +82,19 @@ export interface Karteikarte {
   bereich: BereichId
   vorderseite: string
   rueckseite: string
+}
+
+// MC-Lernfrage für das Themen-Quiz (Leitner-gestützt).
+export interface Lernpaar {
+  id: string
+  themaId: string
+  bereich: BereichId
+  frage: string
+  optionen: string[]
+  korrekt: number[]
+  erklaerung: string
+  schwierigkeit?: 1 | 2 | 3
+  quellTermin?: string
 }
 
 export interface GlossarEintrag {

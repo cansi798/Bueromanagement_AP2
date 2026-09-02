@@ -66,7 +66,19 @@ export default function Bereich() {
           </div>
           <span className="text-slate-400">→</span>
         </Link>
-        <div className="grid grid-cols-2 gap-3">
+        <Link
+          to={`/${bereich.id}/quiz`}
+          className={`flex items-center gap-4 rounded-2xl border-2 p-4 shadow-sm transition ${f.kachel}`}
+        >
+          <span className="text-3xl">🧠</span>
+          <div>
+            <h2 className="font-bold text-slate-900">Themen-Quiz</h2>
+            <p className="text-sm text-slate-600">
+              Multiple-Choice nach Themen – täglich im Leitner-System.
+            </p>
+          </div>
+        </Link>
+        <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
           <Link
             to={`/praesentation/${bereich.id}`}
             className={`flex items-center gap-3 rounded-2xl border-2 p-4 shadow-sm transition ${f.kachel}`}

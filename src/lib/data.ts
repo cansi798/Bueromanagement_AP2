@@ -5,6 +5,7 @@ import type {
   BereichId,
   GlossarEintrag,
   Karteikarte,
+  Lernpaar,
   Pruefung,
   Thema,
 } from '../types'
@@ -30,6 +31,7 @@ export const ladeThemen = (b: BereichId) => lade<Thema[]>(`themen/${b}.json`)
 export const ladeAufgaben = (b: BereichId) => lade<Aufgabe[]>(`aufgaben/${b}.json`)
 export const ladePruefungen = () => lade<Pruefung[]>('pruefungen/index.json')
 export const ladeKarteikarten = (b: BereichId) => lade<Karteikarte[]>(`karteikarten/${b}.json`)
+export const ladeLernpaare = (b: BereichId) => lade<Lernpaar[]>(`lernpaare/${b}.json`)
 export const ladeGlossar = () => lade<GlossarEintrag[]>('glossar.json')
 
 export function useDaten<T>(loader: () => Promise<T>): {
