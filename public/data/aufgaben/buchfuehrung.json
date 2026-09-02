@@ -774,5 +774,239 @@
     "text": "Die Normalkosten betragen 620,00 €/Stück, die Ist-Selbstkosten 668,50 €/Stück. Ermitteln Sie Art und Höhe der Kostenabweichung.",
     "loesung": "Kostenunterdeckung in Höhe von 48,50 €.",
     "erklaerung": "Abweichung = Istkosten − Normalkosten = 668,50 − 620,00 = 48,50 €. Die Istkosten liegen über den Normalkosten, also liegt eine Kostenunterdeckung von 48,50 € vor."
+  },
+  {
+    "id": "bufu-2025w-a1",
+    "themaId": "zuschlagskalkulation",
+    "bereich": "buchfuehrung",
+    "quelle": "abgeleitet",
+    "termin": "2025-winter",
+    "typ": "rechnen",
+    "text": "Sie haben der Brandes GmbH & Co. KG fünf wandelbare Regalsysteme zu einem Angebotspreis in Höhe von insgesamt 14.900,00 € zuzüglich Lieferung und Montage angeboten, um so einen ersten Referenzkunden zu erhalten. Dieser Angebotspreis liegt nur 5 % über Ihren Selbstkosten.\n\n**Ermitteln Sie die Selbstkosten für 1 Regalsystem in Euro! Geben Sie Ihren Rechenweg an! Runden Sie kaufmännisch auf 2 Nachkommastellen!**",
+    "punkte": 3,
+    "loesung": "14.900,00 € × 100 % : 105 % = 14.190,48 € (2 P.)\n14.190,48 € : 5 = **2.838,10 €** Selbstkosten je Regalsystem (1 P.)\n\noder:\n14.900,00 € : 5 = 2.980,00 € (1 P.)\n2.980,00 € × 100 % : 105 % = **2.838,10 €** (2 P.)\n\nHinweis: Folgefehler führen nicht zum Punktabzug!"
+  },
+  {
+    "id": "bufu-2025w-a2",
+    "themaId": "zuschlagskalkulation",
+    "bereich": "buchfuehrung",
+    "quelle": "abgeleitet",
+    "termin": "2025-winter",
+    "typ": "mc",
+    "text": "Die Jana Loft KG nutzt die Ermittlung der Selbstkosten als Grundlage ihrer Kalkulation.\n\n**Geben Sie an, welche Aussage zu den Selbstkosten richtig ist!**",
+    "punkte": 2.27273,
+    "optionen": [
+      "Die Selbstkosten beinhalten neben den Kosten auch den Gewinnzuschlag.",
+      "Die Selbstkosten sind alle Kosten, die für Material, Fertigung, Verwaltung und Vertrieb anfallen.",
+      "Die Selbstkosten setzen sich nur aus allen Gemeinkosten zusammen.",
+      "Die Selbstkosten entsprechen dem Deckungsbeitrag.",
+      "Die Selbstkosten entsprechen den Fixkosten."
+    ],
+    "korrekt": [
+      1
+    ],
+    "loesung": "Richtig ist Aussage 2: Die Selbstkosten sind alle Kosten, die für Material, Fertigung, Verwaltung und Vertrieb anfallen.",
+    "erklaerung": "Selbstkosten = Herstellkosten (Material- und Fertigungskosten) + Verwaltungs- und Vertriebsgemeinkosten. Sie enthalten Einzel- UND Gemeinkosten, aber keinen Gewinnzuschlag; erst Selbstkosten + Gewinn ergeben den Barverkaufspreis."
+  },
+  {
+    "id": "bufu-2025w-a3",
+    "themaId": "zuschlagskalkulation",
+    "bereich": "buchfuehrung",
+    "quelle": "abgeleitet",
+    "termin": "2025-winter",
+    "typ": "rechnen",
+    "text": "Die Jana Loft KG erwartet von dem Großhändler Brandes GmbH & Co. KG, dass er das Regalsystem weiterempfiehlt. Deshalb verlangt die Brandes GmbH & Co. KG freie Lieferung und Montage. Zu den Kosten für Lieferung und Montage liegen Ihnen folgende Daten vor:\n\n- Übernachtung für 2 Personen inklusive Frühstück: 242,00 €\n- Montage und Fahrt 2 Mitarbeiter: 1.100,00 €\n\n**Ermitteln Sie die gesamten Kosten der Jana Loft KG für den Auftrag über fünf Regalsysteme und die Erlöse gemäß Angebotspreis (14.900,00 € für fünf Regalsysteme; Selbstkosten laut vorheriger Aufgabe: 14.190,48 €)! Berechnen Sie den Verlust bzw. Gewinn in Euro, wenn den Erwartungen der Brandes GmbH & Co. KG entsprochen wird! Geben Sie Ihren Rechenweg an! Geben Sie an, ob ein Verlust oder ein Gewinn vorliegt!**",
+    "punkte": 5,
+    "loesung": "Kosten: 242,00 € + 1.100,00 € + 14.190,48 € = 15.532,48 € (3 P.)\nErlöse: 14.900,00 € (aus vorheriger Aufgabe)\n14.900,00 € − 15.532,48 € = **−632,48 € → Verlust** (2 P., davon 1 P. für das Ergebnis in € und 1 P. für „Verlust“)\n\nHinweis: Folgefehler führen nicht zum Punktabzug!"
+  },
+  {
+    "id": "bufu-2025w-a4",
+    "themaId": "zuschlagskalkulation",
+    "bereich": "buchfuehrung",
+    "quelle": "abgeleitet",
+    "termin": "2025-winter",
+    "typ": "offen",
+    "text": "**Erläutern Sie, wie Sie sich gegenüber der Brandes GmbH & Co. KG aufgrund der Kalkulation aus der vorherigen Aufgabe (Verlustgeschäft) verhalten sollen (1 Angabe)!**",
+    "punkte": 2,
+    "loesung": "1 Angabe (2 Punkte), z. B.:\n- Forderung akzeptieren, da man mit diesem Kunden das neue wandelbare Regalsystem in den Markt bringen will.\n- Forderung akzeptieren, um das neue wandelbare Regalsystem bekannt zu machen.\n- Forderung ablehnen bzw. reduzieren, da dies zu einem Verlustgeschäft führt.\n- oder andere sinnvolle Lösungen.\n\nHinweis: Folgefehler aus der Vorrechnung werden berücksichtigt, wenn statt Verlust ein Gewinn ermittelt wurde."
+  },
+  {
+    "id": "bufu-2025w-a5",
+    "themaId": "buchungssaetze-kontierung",
+    "bereich": "buchfuehrung",
+    "quelle": "abgeleitet",
+    "termin": "2025-winter",
+    "typ": "offen",
+    "text": "Ihnen liegen weitere Belege zur Bearbeitung und Kontierung vor. Verwenden Sie ausschließlich die vierstelligen Kontonummern aus dem in der Anlage abgebildeten Auszug des Kontenplans der Jana Loft KG. Werden Unterkonten im Kontenplan genannt, so ist auf diesen Unterkonten zu buchen. Wenn nichts anderes angegeben ist, muss aufwandsrechnerisch und netto gebucht werden.\n\n**Kontieren Sie den in der Anlage abgebildeten Beleg Nr. 1 (Soll an Haben)!**",
+    "anlagenText": "**Beleg 1 – Eingangsrechnung der Bürotec GmbH, Berlin (Rechnung Nr. 2025/25475 vom 13.11.2025, Eingang: 14.11.2025, Lieferung vom 13.11.2025):**\n\n| Pos. | Art.-Nr. | Artikelbezeichnung | Menge | Einzelpreis in EUR | Gesamtpreis in EUR |\n|---|---|---|---|---|---|\n| 1 | 420.15 | Aktenvernichter AKV-15, bis zu 15 Seiten pro Minute | 20 Stück | 32,20 | 644,00 |\n| 2 | 420.25 | Aktenvernichter AKV-25, bis zu 25 Seiten pro Minute | 30 Stück | 39,90 | 1.197,00 |\n| 3 | 420.30 | Aktenvernichter AKV-30, bis zu 30 Seiten pro Minute | 15 Stück | 44,20 | 663,00 |\n\n| | EUR |\n|---|---|\n| Summe | 2.504,00 |\n| − 10 % Rabatt | 250,40 |\n| Netto gesamt | 2.253,60 |\n| + 19 % Umsatzsteuer | 428,18 |\n| **Brutto gesamt** | **2.681,78** |\n\nZahlungsbedingungen: Zahlbar ab Rechnungsdatum in 30 Tagen oder innerhalb von 12 Tagen mit Abzug von 3 % Skonto auf den Netto-Warenwert.\n\n**Auszug aus dem Kontenplan der Jana Loft KG:**\n\n| Konto | Bezeichnung |\n|---|---|\n| 0500 | Unbebaute Grundstücke |\n| 0700 | Technische Anlagen und Maschinen |\n| 0840 | Fuhrpark |\n| 0860 | Büromaschinen, Kommunikationsanlagen |\n| 0870 | Büromöbel und sonstige Geschäftsausstattung |\n| 2280 | Waren (Handelswaren) |\n| 2401–2499 | Forderungen aus Lieferungen und Leistungen gegenüber Kunden (u. a. 2405 Büroausstatter Winter OHG, 2406 Brandes GmbH & Co. KG, 2499 Sonstige Kunden) |\n| 2600 | Vorsteuer (19 %) |\n| 2610 | Vorsteuer (ermäßigter Steuersatz) |\n| 2800 | Hamburger Sparkasse |\n| 2880 | Kasse |\n| 3000 | Kapital Jana Loft (Komplementärin) |\n| 4250 | Langfristige Bankverbindlichkeiten (Darlehen) |\n| 4401–4499 | Verbindlichkeiten aus Lieferungen und Leistungen (u. a. 4403 Naturholz AG, 4407 Blitz-Spedition GmbH, 4408 Franz Meyer e. K., 4409 Bürotec GmbH, 4499 Sonstige Lieferanten und Dienstleister) |\n| 4800 | Umsatzsteuer (19 %) |\n| 5100 | Umsatzerlöse für Handelswaren (5101 Erlösberichtigungen) |\n| 5401 | Nebenerlöse aus Vermietung und Verpachtung |\n| 5710 | Zinserträge |\n| 6050 | Aufwendungen für Energie |\n| 6080 | Aufwendungen für Handelswaren (6082 Nachlässe) |\n| 6140 | Ausgangsfrachten |\n| 6150 | Vertriebsprovision |\n| 6520 | Abschreibungen auf Sachanlagen |\n| 6700 | Mieten, Pachten |\n| 6710 | Leasing |\n| 6800 | Büromaterial |\n| 6810 | Zeitungen und Fachliteratur |\n| 6870 | Werbung |\n| 6900 | Versicherungsbeiträge |\n| 6920 | Beiträge zu Wirtschaftsverbänden und Berufsvertretungen |\n| 7020 | Grundsteuer |\n| 7030 | Kraftfahrzeugsteuer |\n| 7090 | Sonstige betriebliche Steuern |\n| 7510 | Zinsaufwendungen |\n| 8010 | Schlussbilanzkonto |\n| 8020 | Gewinn- und Verlust-Konto |",
+    "punkte": 2.27273,
+    "loesung": "**6080 (2.253,60 €), 2600 (428,18 €) an 4409 (2.681,78 €)**\n\nAktenvernichter sind Handelswaren; laut Vorgabe ist aufwandsrechnerisch und netto zu buchen: Aufwendungen für Handelswaren (6080) netto im Soll, Vorsteuer (2600) im Soll, Verbindlichkeit gegenüber dem Lieferanten Bürotec GmbH (4409) brutto im Haben.",
+    "erklaerung": "Gebundene Aufgabe (Lösungsbogen) ohne offizielle Lösungshinweise – Buchungssatz eigenständig hergeleitet und gegen den Kontenplan geprüft."
+  },
+  {
+    "id": "bufu-2025w-a6",
+    "themaId": "buchungssaetze-kontierung",
+    "bereich": "buchfuehrung",
+    "quelle": "abgeleitet",
+    "termin": "2025-winter",
+    "typ": "offen",
+    "text": "Die Rechnung der Bürotec GmbH (Beleg 1, Brutto 2.681,78 €) wurde am 24.11.2025 durch Überweisung bezahlt.\n\n**Kontieren Sie die zugehörige Position 1 des in der Anlage abgebildeten Belegs Nr. 2 (Soll an Haben)!**",
+    "anlagenText": "**Beleg 2 – Kontoauszug 72/2025 der Hamburger Sparkasse vom 25.11.2025:**\n\n| Position | Wert | Buchungsangaben | Betrag EUR |\n|---|---|---|---|\n| | | Kontostand am 20.11.2025, Auszug Nr. 71 | 32.450,77 |\n| 1 | 24.11.2025 | Bürotec GmbH, Rg.-Nr. 2025/25475 vom 13.11.2025, abzüglich 3 % Skonto | −2.601,33 |\n| 2 | 24.11.2025 | Heizungsbau Meyering GmbH, Rg.-Nr. 2025/210272-X, jährliche Heizungswartung am 14.11.2025 | −855,33 |\n| 3 | 25.11.2025 | SEPA Mandat Nr. 0049238655, Stadtwerke Hamburg, Abschlagszahlung Gas Dezember 2025, inkl. 19 % USt. | −1.511,33 |\n| | | Kontostand am 25.11.2025 | 27.482,78 |\n\n*(Kontenplan-Auszug: siehe Aufgabe „Beleg Nr. 1 kontieren“.)*",
+    "punkte": 2.27273,
+    "loesung": "**4409 (2.681,78 €) an 2800 (2.601,33 €), 6082 (67,61 €), 2600 (12,84 €)**\n\nDie Verbindlichkeit gegenüber der Bürotec GmbH (4409) wird in voller Höhe ausgebucht. Bezahlt wurden per Bank (2800) 2.601,33 €. Der Skontoabzug (brutto 80,45 €) wird aufgeteilt in den Netto-Nachlass 67,61 € (Unterkonto 6082 Nachlässe, da aufwandsrechnerisch gebucht wird) und die Vorsteuerkorrektur 12,84 € (2600).",
+    "erklaerung": "Gebundene Aufgabe (Lösungsbogen) ohne offizielle Lösungshinweise – Buchungssatz eigenständig hergeleitet; der Netto-Skontobetrag 67,61 € entspricht den offiziellen Lösungshinweisen zur vorherigen Aufgabe."
+  },
+  {
+    "id": "bufu-2025w-a7",
+    "themaId": "buchungssaetze-kontierung",
+    "bereich": "buchfuehrung",
+    "quelle": "abgeleitet",
+    "termin": "2025-winter",
+    "typ": "offen",
+    "text": "**Kontieren Sie die Position 2 des in der Anlage abgebildeten Belegs Nr. 2 (Heizungsbau Meyering GmbH, jährliche Heizungswartung, 855,33 €)! Die Rechnung wurde bereits gebucht. (Soll an Haben)**\n\n*(Beleg 2 und Kontenplan-Auszug: siehe vorherige Aufgaben.)*",
+    "punkte": 2.27273,
+    "loesung": "**4499 (855,33 €) an 2800 (855,33 €)**\n\nDa die Rechnung bereits gebucht wurde, besteht eine Verbindlichkeit. Die Heizungsbau Meyering GmbH hat kein eigenes Konto im Kontenplan, daher wird die Zahlung über 4499 (Sonstige Lieferanten und Dienstleister) gegen die Bank (2800) gebucht.",
+    "erklaerung": "Gebundene Aufgabe (Lösungsbogen) ohne offizielle Lösungshinweise – Buchungssatz eigenständig hergeleitet und gegen den Kontenplan geprüft."
+  },
+  {
+    "id": "bufu-2025w-a8",
+    "themaId": "umsatzsteuer",
+    "bereich": "buchfuehrung",
+    "quelle": "abgeleitet",
+    "termin": "2025-winter",
+    "typ": "offen",
+    "text": "**Kontieren Sie die Position 3 des in der Anlage abgebildeten Belegs Nr. 2 (Stadtwerke Hamburg, Abschlagszahlung Gas Dezember 2025, 1.511,33 € inkl. 19 % USt.)! Die Rechnung wurde noch nicht gebucht. (Soll an Haben)**\n\n*(Beleg 2 und Kontenplan-Auszug: siehe vorherige Aufgaben.)*",
+    "punkte": 2.27273,
+    "loesung": "**6050 (1.270,03 €), 2600 (241,30 €) an 2800 (1.511,33 €)**\n\nDa die Rechnung noch nicht gebucht wurde, erfolgt die Buchung direkt gegen die Bank: Netto-Betrag 1.511,33 € : 1,19 = 1.270,03 € auf Aufwendungen für Energie (6050), Vorsteuer 241,30 € (2600), Bank (2800) 1.511,33 € im Haben.",
+    "erklaerung": "Gebundene Aufgabe (Lösungsbogen) ohne offizielle Lösungshinweise – Buchungssatz eigenständig hergeleitet (Gas = Energie, Konto 6050; netto und aufwandsrechnerisch gemäß Vorgabe)."
+  },
+  {
+    "id": "bufu-2025w-a9",
+    "themaId": "buchungssaetze-kontierung",
+    "bereich": "buchfuehrung",
+    "quelle": "abgeleitet",
+    "termin": "2025-winter",
+    "typ": "offen",
+    "text": "Die Jana Loft KG kauft für einen CO₂-neutralen Vertrieb drei Elektro-Transporter. Sie bearbeiten die Anschaffung (siehe Beleg 3 und 4 in der Anlage) und bereiten die Abschreibung zum Ende des Geschäftsjahres vor. Die Nutzungsdauer laut AfA-Tabelle beträgt 6 Jahre.\n\n**Kontieren Sie den in der Anlage abgebildeten Beleg Nr. 3 (Soll an Haben)!**",
+    "anlagenText": "**Beleg 3 – Rechnung Nr. 2025400381019 des Autohauses Fresen KG, Barsbüttel (Datum: 21.11.2025, Eingang: 25.11.2025, Lieferung vom 20.11.2025, zahlbar in 30 Tagen):**\n\n| Pos. | Art.-Nr. | Artikelbezeichnung | Menge | Einzelpreis in EUR | Gesamtpreis in EUR |\n|---|---|---|---|---|---|\n| 1 | 266917 | Elektro-Transporter Soli 600, Kastenwagen, 3,5 t | 3 | 68.500,00 | 205.500,00 |\n\n| | EUR |\n|---|---|\n| Summe | 205.500,00 |\n| − 12 % Rabatt | 24.660,00 |\n| Netto gesamt | 180.840,00 |\n| + 19 % Umsatzsteuer | 34.359,60 |\n| **Brutto gesamt** | **215.199,60** |\n\n**Beleg 4 – Rechnung Nr. 5549/2225 der Carstens GmbH, Hamburg (Datum: 21.11.2025, Eingang: 25.11.2025, Lieferdatum 21.11.2025):**\n\n| Pos. | Art.-Nr. | Artikelbezeichnung | Menge | Einzelpreis in EUR | Gesamtpreis in EUR |\n|---|---|---|---|---|---|\n| 1 | 12763 | Kfz-Kennzeichen für Transporter | 3 Sets | 48,00 | 144,00 |\n\n| | EUR |\n|---|---|\n| Netto gesamt | 144,00 |\n| + 19 % Umsatzsteuer | 27,36 |\n| **Brutto gesamt** | **171,36** |\n\n*(Kontenplan-Auszug: siehe Aufgabe „Beleg Nr. 1 kontieren“.)*",
+    "punkte": 2.27273,
+    "loesung": "**0840 (180.840,00 €), 2600 (34.359,60 €) an 4499 (215.199,60 €)**\n\nDie Elektro-Transporter sind Anlagevermögen und werden netto auf dem Konto Fuhrpark (0840) aktiviert; Vorsteuer (2600) im Soll. Das Autohaus Fresen KG hat kein eigenes Konto im Kontenplan, daher Verbindlichkeit über 4499 (Sonstige Lieferanten und Dienstleister).",
+    "erklaerung": "Gebundene Aufgabe (Lösungsbogen) ohne offizielle Lösungshinweise – Buchungssatz eigenständig hergeleitet und gegen den Kontenplan geprüft."
+  },
+  {
+    "id": "bufu-2025w-a10",
+    "themaId": "buchungssaetze-kontierung",
+    "bereich": "buchfuehrung",
+    "quelle": "abgeleitet",
+    "termin": "2025-winter",
+    "typ": "offen",
+    "text": "**Kontieren Sie den in der Anlage abgebildeten Beleg Nr. 4 (Kfz-Kennzeichen für die drei Elektro-Transporter, Carstens GmbH: netto 144,00 €, USt 27,36 €, brutto 171,36 €)! (Soll an Haben)**\n\n*(Beleg 4 und Kontenplan-Auszug: siehe vorherige Aufgaben.)*",
+    "punkte": 2.27273,
+    "loesung": "**0840 (144,00 €), 2600 (27,36 €) an 4499 (171,36 €)**\n\nDie Kfz-Kennzeichen sind Anschaffungsnebenkosten der Transporter und werden daher ebenfalls auf dem Konto Fuhrpark (0840) aktiviert (vgl. die Anschaffungskosten-Berechnung in der nachfolgenden Aufgabe, die die 48,00 € je Transporter einbezieht). Vorsteuer (2600) im Soll, Verbindlichkeit über 4499, da die Carstens GmbH kein eigenes Konto im Kontenplan hat.",
+    "erklaerung": "Gebundene Aufgabe (Lösungsbogen) ohne offizielle Lösungshinweise – Buchungssatz eigenständig hergeleitet; Aktivierung als Anschaffungsnebenkosten wird durch die offiziellen Lösungshinweise zur Anschaffungskosten-Berechnung (60.280,00 € + 48,00 € + 170,00 €) bestätigt."
+  },
+  {
+    "id": "bufu-2025w-a11",
+    "themaId": "buchungssaetze-kontierung",
+    "bereich": "buchfuehrung",
+    "quelle": "abgeleitet",
+    "termin": "2025-winter",
+    "typ": "rechnen",
+    "text": "**Ermitteln Sie die Anschaffungskosten anhand der abgebildeten Belege 3 und 4 (siehe Anlage der vorherigen Aufgaben) für 1 Elektro-Transporter! Zusätzlich fallen Zulassungsgebühren von 170,00 € pro Transporter an. Geben Sie Ihren Rechenweg an!**",
+    "punkte": 3,
+    "loesung": "68.500,00 € × 88 : 100 = 60.280,00 € (oder 180.840,00 € : 3 = 60.280,00 €) (1 P.)\n60.280,00 € + 48,00 € + 170,00 € = **60.498,00 €** (2 P.)\n\nHinweis: Folgefehler führen nicht zum Punktabzug!"
+  },
+  {
+    "id": "bufu-2025w-a12",
+    "themaId": "buchungssaetze-kontierung",
+    "bereich": "buchfuehrung",
+    "quelle": "abgeleitet",
+    "termin": "2025-winter",
+    "typ": "rechnen",
+    "text": "Die Nutzungsdauer der Elektro-Transporter beträgt laut AfA-Tabelle 6 Jahre. Die Lieferung erfolgte am 20.11.2025.\n\n**Berechnen Sie die zeitanteilige Abschreibung für 1 Elektro-Transporter (Anschaffungskosten 60.498,00 €) für das Jahr 2025! Geben Sie Ihren Rechenweg an!**",
+    "punkte": 3,
+    "loesung": "60.498,00 € : 6 = 10.083,00 € (1 P.)\n10.083,00 € × 2 : 12 = **1.680,50 €** (2 P.)\n\n(Zeitanteilig für 2 Monate: November und Dezember.)\n\nHinweis: Folgefehler führen nicht zum Punktabzug!"
+  },
+  {
+    "id": "bufu-2025w-a13",
+    "themaId": "buchungssaetze-kontierung",
+    "bereich": "buchfuehrung",
+    "quelle": "abgeleitet",
+    "termin": "2025-winter",
+    "typ": "offen",
+    "text": "**Kontieren Sie die Abschreibung der Elektro-Transporter zum Ende des Geschäftsjahres 2025 (Soll an Haben)!**\n\n*(Kontenplan-Auszug: siehe Aufgabe „Beleg Nr. 1 kontieren“.)*",
+    "punkte": 2.27273,
+    "loesung": "**6520 an 0840** (Abschreibungen auf Sachanlagen an Fuhrpark)\n\nBetrag: 1.680,50 € × 3 Transporter = 5.041,50 €.",
+    "erklaerung": "Gebundene Aufgabe (Lösungsbogen) ohne offizielle Lösungshinweise – Buchungssatz eigenständig hergeleitet: Die planmäßige Abschreibung mindert den Buchwert des Fuhrparks (0840 im Haben) und wird als Aufwand auf 6520 erfasst."
+  },
+  {
+    "id": "bufu-2025w-a14",
+    "themaId": "deckungsbeitrag-breakeven",
+    "bereich": "buchfuehrung",
+    "quelle": "abgeleitet",
+    "termin": "2025-winter",
+    "typ": "rechnen",
+    "text": "Durch Rationalisierungsmaßnahmen ist es der Jana Loft KG gelungen, bei gleicher Produktionskapazität von 800 Stück den Anteil der Fixkosten bei der Fertigung des Schreibtisches „Labora“ zu senken. Ihr Abteilungsleiter bittet Sie, auf Grundlage der gesunkenen Fixkosten zu ermitteln, bei welcher Stückzahl die Jana Loft KG bei der Produktion des Schreibtisches „Labora“ die Gewinnschwelle erreicht.\n\n**Berechnen Sie die fehlenden Beträge der abgebildeten Tabelle (siehe Anlage)! Geben Sie anschließend die Gewinnschwelle (in Stück) an!**",
+    "anlagenText": "**Kosten- und Erlöstabelle Schreibtisch „Labora“ (fehlende Werte sind mit „?“ markiert):**\n\n| Stück | Umsatz in EUR | Variable Kosten in EUR | Fixkosten in EUR | Gesamtkosten in EUR | Gewinn in EUR |\n|---|---|---|---|---|---|\n| 100 | 69.550,00 | 24.000,00 | 136.650,00 | 160.650,00 | −91.100,00 |\n| 200 | ? | 48.000,00 | 136.650,00 | 184.650,00 | ? |\n| 300 | 208.650,00 | 72.000,00 | 136.650,00 | 208.650,00 | ? |\n| 400 | 278.200,00 | 96.000,00 | 136.650,00 | 232.650,00 | 45.550,00 |\n| 500 | 347.750,00 | 120.000,00 | 136.650,00 | 256.650,00 | 91.100,00 |\n| 600 | 417.300,00 | 144.000,00 | 136.650,00 | 280.650,00 | 136.650,00 |\n| 700 | 486.850,00 | ? | 136.650,00 | 304.650,00 | 182.200,00 |\n| 800 | 556.400,00 | 192.000,00 | 136.650,00 | ? | 227.750,00 |",
+    "punkte": 6,
+    "loesung": "Fehlende Beträge (je 1 Punkt):\n- Umsatz bei 200 Stück: **139.100,00 €** (695,50 € × 200)\n- Gewinn bei 200 Stück: **−45.550,00 €** (139.100,00 − 184.650,00)\n- Gewinn bei 300 Stück: **0,00 €** (208.650,00 − 208.650,00)\n- Variable Kosten bei 700 Stück: **168.000,00 €** (240,00 € × 700)\n- Gesamtkosten bei 800 Stück: **328.650,00 €** (192.000,00 + 136.650,00)\n\nGewinnschwelle: **300 Stück** (1 Punkt) – hier ist der Gewinn 0, Umsatz = Gesamtkosten.\n\nHinweis: Folgefehler führen nicht zum Punktabzug!"
+  },
+  {
+    "id": "bufu-2025w-a15",
+    "themaId": "deckungsbeitrag-breakeven",
+    "bereich": "buchfuehrung",
+    "quelle": "abgeleitet",
+    "termin": "2025-winter",
+    "typ": "offen",
+    "text": "Ein Diagramm zeigt vereinfacht die Kosten- und Erlössituation des Schreibtisches „Labora“ (siehe Anlage).\n\n**Ordnen Sie zu, indem Sie die Kennziffern der 4 Begriffe aus der Abbildung den 4 Bedeutungen zuordnen! Geben Sie Ihre Lösungsziffern in der Reihenfolge Fixkosten – Variable Kosten – Erlöse – Gesamtkosten an!**",
+    "anlagenText": "**Diagramm (Kosten/Erlöse in EUR auf der y-Achse bis 500.000,00; Menge 0–800 Stück auf der x-Achse):**\n\n- Kennziffer **1**: steil ansteigende Gerade, die im Ursprung (0/0) beginnt und bei ca. 700–800 Stück etwa 500.000,00 € erreicht.\n- Kennziffer **2**: ansteigende Gerade, die bei 136.650,00 € auf der y-Achse beginnt und bei 800 Stück ca. 330.000,00 € erreicht; sie schneidet die Gerade 1 bei ca. 300 Stück.\n- Kennziffer **3**: Klammer, die den senkrechten Abstand zwischen der Geraden 2 und der waagerechten Geraden 4 kennzeichnet.\n- Kennziffer **4**: waagerechte Gerade in Höhe von 136.650,00 €.\n\n**Bedeutungen:** Fixkosten, Variable Kosten, Erlöse, Gesamtkosten.",
+    "punkte": 2.27273,
+    "loesung": "**Fixkosten = 4, Variable Kosten = 3, Erlöse = 1, Gesamtkosten = 2** (Lösungsziffernfolge: 4 – 3 – 1 – 2)\n\nBegründung: Die waagerechte Gerade (4) ist mengenunabhängig = Fixkosten. Die im Ursprung beginnende, steilste Gerade (1) sind die Erlöse (0 Stück = 0 €). Die bei den Fixkosten beginnende steigende Gerade (2) sind die Gesamtkosten. Der Abstand zwischen Gesamtkosten und Fixkosten (Klammer 3) sind die variablen Kosten.",
+    "erklaerung": "Gebundene Zuordnungsaufgabe (Lösungsbogen) ohne offizielle Lösungshinweise – Zuordnung eigenständig hergeleitet; konsistent mit den Tabellenwerten der vorherigen Aufgabe (Fixkosten 136.650,00 €, Break-even bei 300 Stück am Schnittpunkt von Erlös- und Gesamtkostengerade)."
+  },
+  {
+    "id": "bufu-2025w-a16",
+    "themaId": "stueckkosten-kostenrechnung",
+    "bereich": "buchfuehrung",
+    "quelle": "abgeleitet",
+    "termin": "2025-winter",
+    "typ": "mc",
+    "text": "**Geben Sie an, welche Beschreibung zu den variablen Kosten des Schreibtisches „Labora“ richtig ist!**",
+    "punkte": 2.27273,
+    "optionen": [
+      "Die variablen Kosten sind bei jeder Stückzahl halb so groß wie die Gesamtkosten.",
+      "Die variablen Kosten pro Stück sind konstant.",
+      "Die variablen Kosten sind abhängig von den Fixkosten.",
+      "Die variablen Kosten pro Stück steigen proportional.",
+      "Die variablen Kosten pro Stück fallen degressiv."
+    ],
+    "korrekt": [
+      1
+    ],
+    "loesung": "Richtig ist Aussage 2: Die variablen Kosten pro Stück sind konstant.",
+    "erklaerung": "Die variablen Kosten betragen bei jeder Menge 240,00 € pro Stück (z. B. 24.000 € : 100 = 240 €; 192.000 € : 800 = 240 €). Die variablen Gesamtkosten steigen proportional zur Menge, die variablen Stückkosten bleiben konstant."
+  },
+  {
+    "id": "bufu-2025w-a17",
+    "themaId": "zuschlagskalkulation",
+    "bereich": "buchfuehrung",
+    "quelle": "abgeleitet",
+    "termin": "2025-winter",
+    "typ": "offen",
+    "text": "Frau Schulze aus der Auftragsbearbeitung leitet Ihnen eine E-Mail des Stammkunden Büroausstatter Winter OHG weiter: Der Kunde hat Interesse an einer Ausführung des Schreibtisches „Labora“ in Esche und würde bei einem entsprechenden Angebot 100 Schreibtische bestellen. Sie beschaffen sich die notwendigen Informationen zur Kalkulation der Selbstkosten aus dem Betriebsabrechnungsbogen (BAB), der Ihnen in Auszügen vorliegt.\n\nEine wichtige Aufgabe des Betriebsabrechnungsbogens (BAB) ist die Ermittlung der Gemeinkostenzuschlagssätze.\n\n**Nennen Sie 1 weitere Aufgabe!**",
+    "punkte": 2,
+    "loesung": "Z. B.: (Verursachungsgerechte) Verteilung der Gemeinkosten auf die Kostenstellen.\noder andere sinnvolle Lösungen."
+  },
+  {
+    "id": "bufu-2025w-a18",
+    "themaId": "zuschlagskalkulation",
+    "bereich": "buchfuehrung",
+    "quelle": "abgeleitet",
+    "termin": "2025-winter",
+    "typ": "rechnen",
+    "text": "**Ermitteln Sie die Selbstkosten in Euro für 1 Schreibtisch „Labora“ in Esche! Die Kosten für das Fertigungsmaterial betragen 105,00 €, die Fertigungslöhne 132,00 €. Füllen Sie im Kalkulationsschema die fehlenden Bezeichnungen, Zuschlagssätze und Werte aus! Runden Sie für jede Eintragung Ihr Ergebnis kaufmännisch auf 2 Nachkommastellen!**",
+    "anlagenText": "**Auszug aus dem Betriebsabrechnungsbogen (BAB) der Jana Loft KG:**\n\n| | Material | Fertigung | Verwaltung | Vertrieb |\n|---|---|---|---|---|\n| Summen Gemeinkosten | 32.600,00 | 281.200,00 | 74.450,00 | 19.390,00 |\n| Zuschlagssätze | 65,20 % | 99,32 % | 11,51 % | 3,00 % |\n\n**Kalkulationsschema (grau hinterlegte Felder auszufüllen):**\n\n| Kalkulation | Zuschlagssätze | Euro |\n|---|---|---|\n| Fertigungsmaterial | | 105,00 |\n| + Materialgemeinkosten | ? | ? |\n| + Fertigungslöhne | | 132,00 |\n| + ? | ? | ? |\n| = Herstellkosten | | ? |\n| + ? | ? | ? |\n| + Vertriebsgemeinkosten | ? | ? |\n| = Selbstkosten | | ? |",
+    "punkte": 7,
+    "loesung": "| Kalkulation | Zuschlagssätze | Euro |\n|---|---|---|\n| Fertigungsmaterial | | 105,00 |\n| + Materialgemeinkosten | 65,20 % | **68,46** |\n| + Fertigungslöhne | | 132,00 |\n| + **Fertigungsgemeinkosten** | 99,32 % | **131,10** |\n| = Herstellkosten | | **436,56** |\n| + **Verwaltungsgemeinkosten** | 11,51 % | **50,25** |\n| + Vertriebsgemeinkosten | 3,00 % | **13,10** |\n| = Selbstkosten | | **499,91** |\n\n(Je Betrag 1 Punkt, beide Begriffe 1 Punkt.)\n\nRechenwege: MGK = 105,00 × 65,20 % = 68,46; FGK = 132,00 × 99,32 % = 131,10; HK = 105,00 + 68,46 + 132,00 + 131,10 = 436,56; VwGK = 436,56 × 11,51 % = 50,25; VtGK = 436,56 × 3 % = 13,10; SK = 436,56 + 50,25 + 13,10 = 499,91.\n\nHinweis: Folgefehler führen nicht zum Punktabzug!"
   }
 ]

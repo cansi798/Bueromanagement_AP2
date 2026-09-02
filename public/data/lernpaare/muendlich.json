@@ -1496,7 +1496,7 @@
     "bereich": "muendlich",
     "frage": "Welche Aufbewahrungsfristen gelten für Handelsbriefe und Handelsbücher?",
     "optionen": [
-      "6 Jahre für Handelsbriefe, 10 Jahre für Handelsbücher und Buchungsbelege",
+      "6 Jahre für Handelsbriefe, 10 Jahre für Handelsbücher, 8 Jahre für Buchungsbelege",
       "10 Jahre für Handelsbriefe, 6 Jahre für Handelsbücher",
       "Jeweils 5 Jahre für beides",
       "Handelsbriefe müssen gar nicht aufbewahrt werden"
@@ -1504,7 +1504,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Merksatz „6 Briefe, 10 Bücher“: Empfangene Handelsbriefe und Kopien abgesandter Handelsbriefe sind 6 Jahre aufzubewahren; Handelsbücher, Inventare, Jahresabschlüsse, Buchungsbelege und Rechnungen 10 Jahre. Option 2 vertauscht die Fristen – ein beliebter Distraktor.",
+    "erklaerung": "Merksatz „6 Briefe, 10 Bücher, 8 Belege“: Empfangene Handelsbriefe und Kopien abgesandter Handelsbriefe sind 6 Jahre aufzubewahren; Handelsbücher, Inventare und Jahresabschlüsse 10 Jahre. Für Buchungsbelege (z. B. Rechnungen) gilt seit 2025 durch das Bürokratieentlastungsgesetz IV eine verkürzte Frist von 8 Jahren (vorher 10). Option 2 vertauscht die Fristen – ein beliebter Distraktor.",
     "schwierigkeit": 1
   },
   {
@@ -1539,6 +1539,1086 @@
       0
     ],
     "erklaerung": "ALPEN steht für: Aufgaben notieren, Länge schätzen, Pufferzeiten einplanen, Entscheidungen treffen (priorisieren) und Nachkontrolle. Die Methode strukturiert die Tagesplanung im Büro. Die anderen Optionen sind frei erfundene Wortreihen ohne methodischen Hintergrund.",
+    "schwierigkeit": 3
+  },
+  {
+    "id": "muendlich-lp-ablauf-fachaufgabe-11",
+    "themaId": "ablauf-fachaufgabe",
+    "bereich": "muendlich",
+    "frage": "Mit welchem Anteil geht der Prüfungsbereich „Fachaufgabe in der Wahlqualifikation“ in die Gesamtnote ein?",
+    "optionen": [
+      "10 %",
+      "25 %",
+      "35 %",
+      "50 %"
+    ],
+    "korrekt": [
+      2
+    ],
+    "erklaerung": "Die Fachaufgabe in der Wahlqualifikation zählt 35 % der Gesamtnote – die höchste Gewichtung aller vier Prüfungsbereiche. Merkhilfe „35 für 20“: 20 Minuten Fachgespräch bringen 35 % der Note. Deshalb lohnt sich die gezielte Vorbereitung auf die mündliche Prüfung besonders.",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "muendlich-lp-ablauf-fachaufgabe-12",
+    "themaId": "ablauf-fachaufgabe",
+    "bereich": "muendlich",
+    "frage": "Wer legt fest, ob du die Report-Variante oder die klassische Variante machst?",
+    "optionen": [
+      "Du selbst, spontan am Prüfungstag",
+      "Der Ausbildungsbetrieb bei der Anmeldung zur Prüfung",
+      "Der Prüfungsausschuss per Losentscheid",
+      "Die Berufsschule per Konferenzbeschluss"
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Die Variante legt der Ausbildungsbetrieb bei der Anmeldung zur Prüfung fest – kläre also frühzeitig, welche für dich gilt. Am Prüfungstag selbst gibt es kein Wahlrecht mehr, und weder Ausschuss noch Berufsschule entscheiden darüber.",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "muendlich-lp-ablauf-fachaufgabe-13",
+    "themaId": "ablauf-fachaufgabe",
+    "bereich": "muendlich",
+    "frage": "Du machst die Report-Variante. Welche Vorbereitungszeit steht dir am Prüfungstag zu?",
+    "optionen": [
+      "20 Minuten wie in der klassischen Variante",
+      "60 Minuten in einem separaten Raum",
+      "10 Minuten, um beide Reports noch einmal zu lesen",
+      "Keine gesonderte Vorbereitungszeit – das Gespräch steigt direkt über den gewählten Report ein"
+    ],
+    "korrekt": [
+      3
+    ],
+    "erklaerung": "In der Report-Variante gibt es keine gesonderte Vorbereitungszeit: Der Ausschuss wählt einen deiner beiden vorab eingereichten Reports und steigt direkt darüber ins Gespräch ein. Die 20-minütige Vorbereitungszeit mit Notizen gehört ausschließlich zur klassischen Variante.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "muendlich-lp-ablauf-fachaufgabe-14",
+    "themaId": "ablauf-fachaufgabe",
+    "bereich": "muendlich",
+    "frage": "Nach welchen Kriterien bewertet der Ausschuss das Fachgespräch vor allem? (2 richtige Antworten)",
+    "optionen": [
+      "Strukturierte Darstellung und fachliche Richtigkeit",
+      "Begründung von Entscheidungen und souveräner Umgang mit Nachfragen",
+      "Länge und sprachliche Qualität des eingereichten Reports",
+      "Sauberkeit und Vollständigkeit der Notizen aus der Vorbereitungszeit"
+    ],
+    "korrekt": [
+      0,
+      1
+    ],
+    "erklaerung": "Bewertet werden vor allem die strukturierte Darstellung, die fachliche Richtigkeit, die Begründung von Entscheidungen, Kunden- und Serviceorientierung sowie der Umgang mit Nachfragen. Report und Notizen fließen dagegen nicht in die Bewertung ein – sie dienen nur als Einstieg bzw. Gedankenstütze.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "muendlich-lp-ablauf-fachaufgabe-15",
+    "themaId": "ablauf-fachaufgabe",
+    "bereich": "muendlich",
+    "frage": "In welcher Reihenfolge laufen die vier Phasen des Prüfungstags in der klassischen Variante ab?",
+    "optionen": [
+      "Vorbereitungszeit → Begrüßung → Notenverkündung → Prüfungsgespräch",
+      "Begrüßung → Vorbereitungszeit → Prüfungsgespräch → Beratung und Notenverkündung",
+      "Prüfungsgespräch → Vorbereitungszeit → Begrüßung → Beratung",
+      "Begrüßung → Prüfungsgespräch → Vorbereitungszeit → Notenverkündung"
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Der Prüfungstag beginnt mit Begrüßung und Kontrolle der Personalien (ca. 5 Min), dann folgen die Vorbereitungszeit (max. 20 Min), das Prüfungsgespräch (max. 20 Min) und schließlich die Beratung des Ausschusses mit Verkündung von Punktzahl und Note. Ein Gespräch vor der Vorbereitungszeit wäre unlogisch – die Notizen entstehen ja erst dort.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "muendlich-lp-ablauf-fachaufgabe-16",
+    "themaId": "ablauf-fachaufgabe",
+    "bereich": "muendlich",
+    "frage": "Mitten im Fachgespräch hast du einen Blackout. Was ist die beste Strategie?",
+    "optionen": [
+      "Das Gespräch abbrechen und um einen neuen Termin bitten",
+      "Schnell irgendein anderes Thema anschneiden, damit keine Pause entsteht",
+      "Kurz durchatmen, den zuletzt genannten Punkt wiederholen und daran anknüpfen",
+      "Den Ausschuss bitten, nur den bisherigen Gesprächsteil zu bewerten"
+    ],
+    "korrekt": [
+      2
+    ],
+    "erklaerung": "Bei einem Blackout hilft: kurz durchatmen und den letzten Punkt wiederholen – so findest du den roten Faden wieder, und die kleine Pause wirkt nicht negativ. Ein Abbruch oder ein Themenwechsel würde dagegen wertvolle Gesprächszeit und Punkte kosten; einen Anspruch auf Teilbewertung gibt es nicht.",
+    "schwierigkeit": 3
+  },
+  {
+    "id": "muendlich-lp-ablauf-fachaufgabe-17",
+    "themaId": "ablauf-fachaufgabe",
+    "bereich": "muendlich",
+    "frage": "Klassische Variante: Der Ausschuss wählt die WQ „Einkauf und Logistik“ – du hättest lieber deine zweite Wahlqualifikation präsentiert. Was gilt?",
+    "optionen": [
+      "Du kannst verlangen, dass stattdessen die andere WQ geprüft wird",
+      "Die WQ-Wahl liegt beim Ausschuss – du wählst nur zwischen den zwei Fachaufgaben zur gewählten WQ",
+      "Bei Widerspruch wird die Wahlqualifikation neu ausgelost",
+      "Du darfst eine Mischaufgabe aus beiden Wahlqualifikationen bearbeiten"
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "In der klassischen Variante wählt der Prüfungsausschuss die Wahlqualifikation aus – ein Wunschrecht des Prüflings gibt es nicht. Deine Wahlmöglichkeit besteht nur darin, dich für eine der beiden praxisbezogenen Fachaufgaben zu entscheiden. Deshalb musst du beide Wahlqualifikationen gleich gut vorbereiten.",
+    "schwierigkeit": 3
+  },
+  {
+    "id": "muendlich-lp-report-schreiben-11",
+    "themaId": "report-schreiben",
+    "bereich": "muendlich",
+    "frage": "Was gehört in das Kapitel **Auswertung/Reflexion** deines Reports?",
+    "optionen": [
+      "Betrieb, Abteilung und der Anlass der Fachaufgabe",
+      "Die detaillierte Schrittfolge der Durchführung",
+      "Ergebnis, Erfolgskontrolle und was du beim nächsten Mal anders machen würdest",
+      "Name, Ausbildungsberuf und Wahlqualifikation"
+    ],
+    "korrekt": [
+      2
+    ],
+    "erklaerung": "Die Auswertung/Reflexion beschreibt das Ergebnis, die Erfolgskontrolle und eine ehrliche Einschätzung: Was lief gut, was würdest du künftig anders machen? Betrieb und Anlass gehören in die Ausgangssituation, die Schrittfolge in die Durchführung und die persönlichen Angaben auf das Deckblatt.",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "muendlich-lp-report-schreiben-12",
+    "themaId": "report-schreiben",
+    "bereich": "muendlich",
+    "frage": "Welche drei Kriterien sollte die Fachaufgabe für deinen Report erfüllen?",
+    "optionen": [
+      "Aktualität, Umfang und möglichst viele Fachbegriffe",
+      "Teamleistung, hohes Budget und Zeitdruck",
+      "Eigenleistung, Entscheidungsspielraum und eindeutiger WQ-Bezug",
+      "Theoriebezug, Benotung und Freigabe durch die Berufsschule"
+    ],
+    "korrekt": [
+      2
+    ],
+    "erklaerung": "Eine gute Report-Aufgabe erfüllt drei Kriterien: Eigenleistung (du hast selbst geplant und entschieden), Entscheidungsspielraum (es gab Alternativen zum Abwägen) und einen eindeutigen Bezug zur gewählten Wahlqualifikation. Merkhilfe: „Drei Seiten, drei Kriterien“. Budget, Zeitdruck oder Fachbegriff-Dichte sind keine Auswahlkriterien.",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "muendlich-lp-report-schreiben-13",
+    "themaId": "report-schreiben",
+    "bereich": "muendlich",
+    "frage": "Warum ist es riskant, im Report Maßnahmen oder Fachbegriffe zu erwähnen, die du selbst nicht erklären kannst?",
+    "optionen": [
+      "Weil der Report dann nachträglich benotet wird",
+      "Weil jeder Satz im Report Nachfragen im Fachgespräch auslösen kann",
+      "Weil die IHK den Report in diesem Fall zurückschickt",
+      "Es ist nicht riskant – der Report spielt im Gespräch keine Rolle"
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Der Ausschuss liest den Report genau, und jeder Satz kann eine Nachfrage auslösen – etwa „Erklären Sie das genauer!“. Wer Dinge hineinschreibt, die er nicht erklären kann, gerät im Gespräch schnell ins Schwimmen. Schreibe deshalb nur, was du sicher beherrschst.",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "muendlich-lp-report-schreiben-14",
+    "themaId": "report-schreiben",
+    "bereich": "muendlich",
+    "frage": "Ein Prüfer liest deinen Report und fragt gleich zu Beginn: „Und was genau war dabei **Ihr** Anteil?“ Welcher typische Report-Fehler liegt vermutlich vor?",
+    "optionen": [
+      "Der Report enthält zu viele Ich-Formulierungen",
+      "Der Report ist mit drei Seiten zu kurz geraten",
+      "Der Report ist zu allgemein formuliert – deine eigenen Entscheidungen und deine Leistung werden nicht deutlich",
+      "Solche Fragen darf der Ausschuss gar nicht stellen"
+    ],
+    "korrekt": [
+      2
+    ],
+    "erklaerung": "Wenn der Prüfer nach deinem Anteil fragen muss, war der Report zu allgemein: Deine eigene Planung, deine Entscheidungen und deine Durchführung sind nicht erkennbar. Genau dagegen hilft die konsequente Ich-Form – „Ich statt Wir“. Drei Seiten sind das erlaubte Maximum, kein Mangel.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "muendlich-lp-report-schreiben-15",
+    "themaId": "report-schreiben",
+    "bereich": "muendlich",
+    "frage": "Mit welchen Nachfragen zum Report solltest du im Fachgespräch typischerweise rechnen?",
+    "optionen": [
+      "„Welche Alternative hätten Sie gehabt? Was hat die Maßnahme gekostet? Wie würden Sie heute vorgehen?“",
+      "„Welche Note erwarten Sie für Ihren Report?“",
+      "„Können Sie den Report bitte auswendig aufsagen?“",
+      "„Wer hat Ihren Report Korrektur gelesen?“"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Typische Prüfer-Nachfragen zielen auf Alternativen, Kosten und Reflexion: „Welche Alternative hätten Sie gehabt?“, „Was hat die Maßnahme gekostet?“, „Wie würden Sie heute vorgehen?“. Der Report wird nicht benotet, muss nicht auswendig gelernt werden, und die Frage nach einem Korrekturleser gehört nicht ins fallbezogene Fachgespräch.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "muendlich-lp-report-schreiben-16",
+    "themaId": "report-schreiben",
+    "bereich": "muendlich",
+    "frage": "Welche Aussagen zu den Formalia des Reports treffen zu? (2 richtige Antworten)",
+    "optionen": [
+      "Die Abgabefrist der zuständigen IHK muss zwingend eingehalten werden",
+      "Format- und Umfangsvorgaben der eigenen IHK sind zu prüfen, da sie sich regional unterscheiden können",
+      "Bei komplexen Themen darf der Report ausnahmsweise fünf Seiten umfassen",
+      "Auf ein Deckblatt wird verzichtet, damit der Report anonym bleibt"
+    ],
+    "korrekt": [
+      0,
+      1
+    ],
+    "erklaerung": "Abgabefrist sowie Format- und Umfangsvorgaben der eigenen IHK sind verbindlich – und sie können sich regional unterscheiden, deshalb immer die konkreten Vorgaben prüfen. Die Obergrenze von maximal 3 Seiten gilt ohne Ausnahme, und das Deckblatt mit Name, Ausbildungsberuf und WQ ist Pflicht, nicht verboten.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "muendlich-lp-report-schreiben-17",
+    "themaId": "report-schreiben",
+    "bereich": "muendlich",
+    "frage": "In deinem Entwurf steht: „Wir haben drei Angebote eingeholt und uns für Anbieter B entschieden.“ Wie formulierst du den Satz report-gerecht um?",
+    "optionen": [
+      "„Man hat drei Angebote eingeholt und Anbieter B beauftragt.“",
+      "„Wir als Team haben nach langer Diskussion gemeinsam Anbieter B ausgewählt.“",
+      "„Anbieter B wird demnächst beauftragt werden.“",
+      "„Ich habe drei Angebote eingeholt, verglichen und mich für Anbieter B entschieden, weil er das beste Preis-Leistungs-Verhältnis bot.“"
+    ],
+    "korrekt": [
+      3
+    ],
+    "erklaerung": "Report-gerecht heißt: Ich-Form, Vergangenheitsform und eine begründete Entscheidung („weil …“) – so wird deine Eigenleistung sichtbar. „Man“- und „Wir“-Formulierungen verschleiern deinen Anteil, und die Zukunftsform widerspricht der geforderten Vergangenheitsform.",
+    "schwierigkeit": 3
+  },
+  {
+    "id": "muendlich-lp-gespraechstechnik-11",
+    "themaId": "gespraechstechnik",
+    "bereich": "muendlich",
+    "frage": "Wie solltest du Nachfragen des Prüfungsausschusses grundsätzlich einordnen?",
+    "optionen": [
+      "Als Fallen, mit denen die Prüfer dich hereinlegen wollen",
+      "Als Chancen – die Prüfer wollen dich bestehen sehen",
+      "Als sicheres Zeichen, dass deine Antwort falsch war",
+      "Als Aufforderung, schneller und knapper zu antworten"
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Die Prüfer wollen dich bestehen sehen – Nachfragen sind Chancen, dein Wissen und deine Argumentation zu zeigen, keine Fallen. Wer Nachfragen als Angriff versteht, wird unnötig nervös und verschenkt die Gelegenheit, mit Begründungen zu punkten.",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "muendlich-lp-gespraechstechnik-12",
+    "themaId": "gespraechstechnik",
+    "bereich": "muendlich",
+    "frage": "Mit welcher Formulierung leitest du elegant von der Planung zur Durchführung über?",
+    "optionen": [
+      "„So, das war die Planung – mehr weiß ich dazu nicht.“",
+      "„Als Nächstes lese ich Ihnen meine Notizen zur Durchführung vor.“",
+      "„Damit komme ich zur Durchführung: Zuerst habe ich …“",
+      "„Wollen Sie überhaupt noch etwas zur Durchführung hören?“"
+    ],
+    "korrekt": [
+      2
+    ],
+    "erklaerung": "Übergangssätze wie „Damit komme ich zur Durchführung …“ oder „Dabei musste ich beachten, dass …“ machen deine Struktur hörbar und führen den Prüfer durch deine Argumentation. Vorlesen, abrupte Abbrüche oder unsichere Rückfragen wirken dagegen unstrukturiert und unselbstständig.",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "muendlich-lp-gespraechstechnik-13",
+    "themaId": "gespraechstechnik",
+    "bereich": "muendlich",
+    "frage": "Wie bereitest du dich am wirkungsvollsten auf das Fachgespräch vor?",
+    "optionen": [
+      "Den Lernstoff ausschließlich still im Kopf durchgehen",
+      "Das Fachgespräch mit Ausbilder oder Mitazubis simulieren und Nachfragen trainieren",
+      "Erst am Prüfungstag mit dem lauten Sprechen beginnen, um frisch zu bleiben",
+      "Möglichst viele fremde Reports auswendig lernen"
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Ein simuliertes Fachgespräch mit Ausbilder oder Mitazubis trainiert genau das, was bewertet wird: frei sprechen, begründen und auf Nachfragen reagieren. Stilles Lernen allein bereitet nicht auf die Gesprächssituation vor, und fremde Reports helfen dir bei deiner eigenen Fachaufgabe nicht weiter.",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "muendlich-lp-gespraechstechnik-14",
+    "themaId": "gespraechstechnik",
+    "bereich": "muendlich",
+    "frage": "Mitten in deiner Darstellung stellt ein Prüfer eine Zwischenfrage. Wie reagierst du am besten?",
+    "optionen": [
+      "Ich bitte darum, erst meine komplette Struktur zu Ende führen zu dürfen",
+      "Ich überhöre die Frage höflich und rede weiter",
+      "Ich beginne meine Darstellung sicherheitshalber komplett von vorn",
+      "Ich beantworte die Frage und kehre danach mit einem Übergangssatz zu meiner Struktur zurück"
+    ],
+    "korrekt": [
+      3
+    ],
+    "erklaerung": "Zwischenfragen gehören zum Fachgespräch – beantworte sie direkt und kehre dann mit einem Übergangssatz („Damit komme ich zurück zur Durchführung …“) zu deinem roten Faden zurück. Die Frage abzuwehren oder zu ignorieren wirkt unflexibel, ein kompletter Neustart kostet unnötig Zeit.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "muendlich-lp-gespraechstechnik-15",
+    "themaId": "gespraechstechnik",
+    "bereich": "muendlich",
+    "frage": "Wie fängst du Nervosität am Prüfungstag wirksam ab? (2 richtige Antworten)",
+    "optionen": [
+      "Ruhige Atmung und aufrechte Sitzhaltung mit sichtbaren Händen",
+      "Pufferzeit für die Anreise einplanen und ausgeschlafen erscheinen",
+      "Möglichst schnell sprechen, damit das Gespräch schneller vorbei ist",
+      "Bis tief in die Nacht vor der Prüfung lernen, um sich sicher zu fühlen"
+    ],
+    "korrekt": [
+      0,
+      1
+    ],
+    "erklaerung": "Nervosität fängst du körperlich ab: ruhig atmen, aufrecht sitzen, Hände sichtbar halten. Organisatorisch helfen Pufferzeiten für die Anreise und ausreichend Schlaf – wer hetzt oder übermüdet ist, wirkt fahrig. Schnelles Sprechen verstärkt Nervosität eher, statt sie zu kaschieren.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "muendlich-lp-gespraechstechnik-16",
+    "themaId": "gespraechstechnik",
+    "bereich": "muendlich",
+    "frage": "Der Prüfer fragt nach einem Thema, zu dem dir spontan nichts einfällt. Welche Notlösung empfiehlt sich?",
+    "optionen": [
+      "Schweigen und warten, bis der Prüfer zur nächsten Frage übergeht",
+      "Laut strukturiert überlegen: „Spontan würde ich so vorgehen: …“",
+      "Erklären, dass dieses Thema in deinem Betrieb grundsätzlich nicht relevant ist",
+      "Ein anderes, auswendig gelerntes Thema aufsagen"
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Bei einer Wissenslücke ist lautes, strukturiertes Überlegen die beste Notlösung – Prüfer honorieren nachvollziehbares Denken deutlich mehr als Schweigen. Die Relevanz des Themas abzustreiten oder am Thema vorbei Auswendiggelerntes aufzusagen wirkt ausweichend und kostet Punkte.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "muendlich-lp-gespraechstechnik-17",
+    "themaId": "gespraechstechnik",
+    "bereich": "muendlich",
+    "frage": "Mitten im Satz merkst du, dass du gerade etwas Falsches gesagt hast (z. B. zwei Fristen verwechselt). Wie verhältst du dich souverän?",
+    "optionen": [
+      "Einfach weiterreden und hoffen, dass es niemandem auffällt",
+      "Das Gespräch unterbrechen und den Ausschuss um Nachsicht bitten",
+      "Mich kurz selbst korrigieren: „Ich muss mich korrigieren, richtig ist …“",
+      "Die Aussage später abstreiten, falls ein Prüfer nachfragt"
+    ],
+    "korrekt": [
+      2
+    ],
+    "erklaerung": "Eine kurze, sachliche Selbstkorrektur zeigt Souveränität und fachliche Sicherheit – Fehler bemerken und richtigstellen ist besser als eine stehengelassene Falschaussage. Weiterreden oder gar Abstreiten fliegt bei der nächsten Nachfrage auf und beschädigt deine Glaubwürdigkeit.",
+    "schwierigkeit": 3
+  },
+  {
+    "id": "muendlich-lp-wq-auftragssteuerung-11",
+    "themaId": "wq-auftragssteuerung",
+    "bereich": "muendlich",
+    "frage": "Welche Pflichten ergeben sich aus § 433 BGB für Verkäufer und Käufer?",
+    "optionen": [
+      "Verkäufer: Ware übergeben und Eigentum verschaffen; Käufer: Kaufpreis zahlen und Ware abnehmen",
+      "Verkäufer: nur liefern; Käufer: nur zahlen – eine Abnahmepflicht gibt es nicht",
+      "Verkäufer: Kaufpreis zahlen; Käufer: Ware übergeben",
+      "Beide Parteien müssen lediglich in Verhandlungen eintreten"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Aus § 433 BGB folgt: Der Verkäufer muss die Ware übergeben und das Eigentum verschaffen, der Käufer muss den Kaufpreis zahlen und die Ware abnehmen. Die Abnahmepflicht ist wichtig – verletzt der Käufer sie, gerät er in Annahmeverzug.",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "muendlich-lp-wq-auftragssteuerung-12",
+    "themaId": "wq-auftragssteuerung",
+    "bereich": "muendlich",
+    "frage": "Der Ausschuss fragt: „Wodurch kommt ein Kaufvertrag zustande?“ Welche Antwort ist richtig?",
+    "optionen": [
+      "Durch die Zusendung der Rechnung",
+      "Erst durch die Lieferung der Ware",
+      "Durch zwei übereinstimmende Willenserklärungen – Antrag und Annahme",
+      "Nur durch einen schriftlichen Vertrag mit beiden Unterschriften"
+    ],
+    "korrekt": [
+      2
+    ],
+    "erklaerung": "Merksatz: „Antrag + Annahme = Vertrag“ – zwei übereinstimmende Willenserklärungen lassen den Kaufvertrag entstehen. Schriftform ist beim Kaufvertrag grundsätzlich nicht erforderlich; Rechnung und Lieferung sind nur Folgen des bereits geschlossenen Vertrags.",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "muendlich-lp-wq-auftragssteuerung-13",
+    "themaId": "wq-auftragssteuerung",
+    "bereich": "muendlich",
+    "frage": "Warum prüfst du bei einem Neukunden vor der Auftragsannahme die Bonität?",
+    "optionen": [
+      "Weil das BGB eine Bonitätsprüfung zwingend vorschreibt",
+      "Um das Risiko eines Zahlungsausfalls zu senken",
+      "Um dem Kunden automatisch bessere Preise berechnen zu können",
+      "Um die Lieferzeit zu verkürzen"
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Die Bonitätsprüfung bei Neukunden senkt das Zahlungsausfallrisiko: Vor der Auftragserfassung wird geprüft, ob der Kunde voraussichtlich zahlen kann – ggf. wird nur gegen Vorkasse geliefert. Eine gesetzliche Pflicht dazu gibt es nicht, und mit Preisen oder Lieferzeit hat die Prüfung nichts zu tun.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "muendlich-lp-wq-auftragssteuerung-14",
+    "themaId": "wq-auftragssteuerung",
+    "bereich": "muendlich",
+    "frage": "Statt der bestellten 100 Stück werden nur 80 Stück geliefert. Welche Vertragsstörung liegt vor?",
+    "optionen": [
+      "Ein Rechtsmangel",
+      "Annahmeverzug des Käufers",
+      "Zahlungsverzug des Käufers",
+      "Ein Sachmangel in Form einer Mengenabweichung"
+    ],
+    "korrekt": [
+      3
+    ],
+    "erklaerung": "Eine Mengenabweichung ist ein klassischer Sachmangel – die gelieferte Ware weicht in der Menge von der vereinbarten ab. Ein Rechtsmangel läge z. B. bei gestohlener Ware vor; Annahme- und Zahlungsverzug betreffen das Verhalten des Käufers, nicht die Beschaffenheit der Lieferung.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "muendlich-lp-wq-auftragssteuerung-15",
+    "themaId": "wq-auftragssteuerung",
+    "bereich": "muendlich",
+    "frage": "Ein Kunde zahlt trotz Mahnung nicht. Welche Schritte sind jetzt richtig? (2 richtige Antworten)",
+    "optionen": [
+      "Eine angemessene Nachfrist zur Zahlung setzen",
+      "Nach erfolglosem Fristablauf Schadenersatz verlangen oder das gerichtliche Mahnverfahren einleiten",
+      "Die gelieferte Ware eigenmächtig beim Kunden zurückholen",
+      "Den Zahlungsrückstand öffentlich in den sozialen Medien machen"
+    ],
+    "korrekt": [
+      0,
+      1
+    ],
+    "erklaerung": "Beim Zahlungsverzug gilt die Reihenfolge: mahnen, Nachfrist setzen, dann Rücktritt, Schadenersatz oder gerichtliches Mahnverfahren. Eigenmächtiges Zurückholen der Ware wäre verbotene Eigenmacht, und eine öffentliche Bloßstellung könnte sogar Schadenersatzansprüche des Kunden auslösen.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "muendlich-lp-wq-auftragssteuerung-16",
+    "themaId": "wq-auftragssteuerung",
+    "bereich": "muendlich",
+    "frage": "Eine Tischlerei bezieht Holz unter Eigentumsvorbehalt und fertigt daraus Möbel. Welche Form des Eigentumsvorbehalts schützt den Holzlieferanten hier?",
+    "optionen": [
+      "Der einfache Eigentumsvorbehalt",
+      "Der verlängerte Eigentumsvorbehalt",
+      "Der Verarbeitungsvorbehalt",
+      "Der Gerichtsstandsvorbehalt"
+    ],
+    "korrekt": [
+      2
+    ],
+    "erklaerung": "Wird die Vorbehaltsware zu einer neuen Sache verarbeitet (Holz → Möbel), greift der Verarbeitungsvorbehalt: Der Lieferant bleibt auch an der neu entstandenen Sache abgesichert. Der verlängerte Eigentumsvorbehalt deckt dagegen den Weiterverkauf unveränderter Ware ab, der einfache nur die Nutzung bis zur Zahlung.",
+    "schwierigkeit": 3
+  },
+  {
+    "id": "muendlich-lp-wq-auftragssteuerung-17",
+    "themaId": "wq-auftragssteuerung",
+    "bereich": "muendlich",
+    "frage": "Ein Kunde reklamiert: „Ihre AGB habe ich nie gelesen – die gelten für mich nicht!“ Was entgegnest du fachlich korrekt?",
+    "optionen": [
+      "Er hat Recht – AGB gelten nur, wenn der Kunde sie nachweislich gelesen hat",
+      "AGB werden Vertragsbestandteil, wenn bei Vertragsschluss auf sie hingewiesen wurde und der Kunde sie in zumutbarer Weise zur Kenntnis nehmen konnte",
+      "AGB gelten immer automatisch, auch ganz ohne Hinweis",
+      "AGB gelten nur, wenn sie notariell beurkundet wurden"
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Für die Einbeziehung von AGB genügt es, dass bei Vertragsschluss auf sie hingewiesen wurde und der Kunde die Möglichkeit hatte, sie in zumutbarer Weise zur Kenntnis zu nehmen – tatsächliches Lesen ist nicht erforderlich. Ganz ohne Hinweis werden sie aber nicht Vertragsbestandteil, und eine notarielle Beurkundung ist nie nötig.",
+    "schwierigkeit": 3
+  },
+  {
+    "id": "muendlich-lp-wq-kmu-11",
+    "themaId": "wq-kmu",
+    "bereich": "muendlich",
+    "frage": "Der Ausschuss fragt: „Erklären Sie den Unterschied zwischen Stelle und Instanz.“ Welche Antwort ist richtig?",
+    "optionen": [
+      "Die Stelle ist ein ausführendes Organ, die Instanz ein leitendes, weisungsbefugtes Organ",
+      "Die Stelle ist weisungsbefugt, die Instanz führt nur aus",
+      "Beide Begriffe bezeichnen dasselbe",
+      "Instanzen gibt es nur in Großkonzernen, Stellen nur in KMU"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Die Stelle ist die kleinste, ausführende Organisationseinheit; die Instanz ist ein leitendes Organ mit Weisungsbefugnis. Zusammen mit der Abteilung ergeben sie das Merkwort SIA. Diese Abgrenzung „ausführend vs. weisungsbefugt“ ist eine typische Prüfernachfrage.",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "muendlich-lp-wq-kmu-12",
+    "themaId": "wq-kmu",
+    "bereich": "muendlich",
+    "frage": "„Was macht ein Projekt zum Projekt?“ – Welche Merkmale nennst du dem Ausschuss?",
+    "optionen": [
+      "Es muss mindestens ein Jahr dauern und extern vergeben werden",
+      "Es ist einmalig, zielgerichtet und zeitlich begrenzt – mit eigenen Ressourcen",
+      "Es wiederholt sich in festen Abständen wie das Tagesgeschäft",
+      "Es hat bewusst kein festes Ziel, um flexibel zu bleiben"
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Merkhilfe „Einmalig, Ziel, Frist“: Ein Projekt ist ein einmaliges Vorhaben mit klarem Ziel, begrenzter Zeit und eigenen Ressourcen – sonst ist es Tagesgeschäft. Eine Mindestdauer oder externe Vergabe sind keine Projektmerkmale, und ohne Ziel wäre keine Steuerung möglich.",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "muendlich-lp-wq-kmu-13",
+    "themaId": "wq-kmu",
+    "bereich": "muendlich",
+    "frage": "Prüferfrage: „Wie sichern Sie in Ihrer Abteilung konkret die Qualität?“ Welche Antwort überzeugt?",
+    "optionen": [
+      "„Wir verzichten auf Kontrollen, um Zeit zu sparen.“",
+      "„Qualität ist allein Sache der Geschäftsführung.“",
+      "„Durch Checklisten, das Vier-Augen-Prinzip und dokumentierte Prozessbeschreibungen.“",
+      "„Wir halten unsere Abläufe geheim, damit keine Fehler bekannt werden.“"
+    ],
+    "korrekt": [
+      2
+    ],
+    "erklaerung": "Praktische Qualitätssicherung im Büroalltag gelingt mit Checklisten, dem Vier-Augen-Prinzip und Prozessbeschreibungen – konkrete Instrumente, die du im Fachgespräch mit Beispielen aus deinem Betrieb belegen solltest. Kontrollverzicht oder Geheimhaltung widersprechen den QM-Grundsätzen wie Verbesserung und Einbeziehung von Personen.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "muendlich-lp-wq-kmu-14",
+    "themaId": "wq-kmu",
+    "bereich": "muendlich",
+    "frage": "Ein kleiner Handelsbetrieb mit gepflegter Lagerverwaltungssoftware möchte die große Zählaktion am 31.12. vermeiden. Welche Inventurart empfiehlst du?",
+    "optionen": [
+      "Die Stichtagsinventur mit Vollzählung am 31.12.",
+      "Die permanente Inventur mit laufender Fortschreibung über die Lagerdatei",
+      "Den kompletten Verzicht auf eine Inventur",
+      "Eine wöchentliche Vollinventur des gesamten Lagers"
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Mit einer gepflegten Lagerbuchführung ist die permanente Inventur ideal: Die Bestände werden laufend fortgeschrieben, die körperliche Aufnahme kann je Artikel einmal jährlich zu einem beliebigen, günstigen Zeitpunkt erfolgen – die Zählaktion am Stichtag entfällt. Ganz ohne Inventur geht es nicht, und eine wöchentliche Vollzählung wäre unwirtschaftlich.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "muendlich-lp-wq-kmu-15",
+    "themaId": "wq-kmu",
+    "bereich": "muendlich",
+    "frage": "Welche Ursachen führen typischerweise zu Liquiditätsproblemen in einem KMU? (2 richtige Antworten)",
+    "optionen": [
+      "Fehlinvestitionen, die Kapital binden, ohne Erträge zu bringen",
+      "Dauerhaft zu hohe laufende Kosten",
+      "Eine hohe Umschlagshäufigkeit des Lagers",
+      "Kunden, die ihre Rechnungen pünktlich bezahlen"
+    ],
+    "korrekt": [
+      0,
+      1
+    ],
+    "erklaerung": "Typische Ursachen für Liquiditätsprobleme sind Fehlinvestitionen und zu hohe laufende Kosten – das Geld ist gebunden oder fließt ab, ohne dass Erträge entstehen. Eine hohe Umschlagshäufigkeit und pünktlich zahlende Kunden verbessern die Liquidität dagegen sogar.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "muendlich-lp-wq-kmu-16",
+    "themaId": "wq-kmu",
+    "bereich": "muendlich",
+    "frage": "Eine GmbH & Co. KG wird zahlungsunfähig. Der Prüfer fragt: „Wer haftet jetzt konkret – und womit?“",
+    "optionen": [
+      "Die Komplementär-GmbH mit ihrem Gesellschaftsvermögen, die Kommanditisten mit ihrer Einlage – keine natürliche Person unbeschränkt",
+      "Der Geschäftsführer der GmbH stets unbeschränkt mit seinem Privatvermögen",
+      "Alle Kommanditisten unbeschränkt mit ihrem Privatvermögen",
+      "Niemand – bei dieser Rechtsform ist jede Haftung ausgeschlossen"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Genau das ist der Konstruktionszweck der GmbH & Co. KG: Der unbeschränkt haftende Komplementär ist eine GmbH, die nur mit ihrem Gesellschaftsvermögen haftet; die Kommanditisten haften mit ihrer Einlage. Keine natürliche Person haftet unbeschränkt – ganz ohne Haftung geht es aber nicht.",
+    "schwierigkeit": 3
+  },
+  {
+    "id": "muendlich-lp-wq-kmu-17",
+    "themaId": "wq-kmu",
+    "bereich": "muendlich",
+    "frage": "Darf ein Kommanditist die laufenden Geschäfte der KG führen?",
+    "optionen": [
+      "Ja, er ist gleichberechtigt mit dem Komplementär geschäftsführungsbefugt",
+      "Ja, aber nur mit Genehmigung der IHK",
+      "Nein – die Geschäftsführung obliegt dem Komplementär; der Kommanditist ist davon grundsätzlich ausgeschlossen",
+      "Nein, er darf nicht einmal den Jahresabschluss einsehen"
+    ],
+    "korrekt": [
+      2
+    ],
+    "erklaerung": "Die laufende Geschäftsführung der KG liegt beim Komplementär; der Kommanditist ist davon grundsätzlich ausgeschlossen – passend zu seiner beschränkten Haftung. Kontrollrechte hat er aber sehr wohl, etwa die Einsicht in den Jahresabschluss, und bei außergewöhnlichen Geschäften kann er widersprechen.",
+    "schwierigkeit": 3
+  },
+  {
+    "id": "muendlich-lp-wq-einkauf-logistik-11",
+    "themaId": "wq-einkauf-logistik",
+    "bereich": "muendlich",
+    "frage": "Wie berechnet sich der **durchschnittliche Lagerbestand** (einfache Methode)?",
+    "optionen": [
+      "Jahresabsatz geteilt durch 360",
+      "(Anfangsbestand + Endbestand) geteilt durch 2",
+      "Meldebestand minus Mindestbestand",
+      "Höchstbestand mal Umschlagshäufigkeit"
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Durchschnittlicher Lagerbestand = (Anfangsbestand + Endbestand) / 2. Er ist die Basis für weitere Kennzahlen wie die Umschlagshäufigkeit (Jahresabsatz / durchschnittlicher Lagerbestand). Die anderen Formeln mischen Kennzahlen, die hier nichts zu suchen haben.",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "muendlich-lp-wq-einkauf-logistik-12",
+    "themaId": "wq-einkauf-logistik",
+    "bereich": "muendlich",
+    "frage": "Welche Aufgabe hat der **Mindest- bzw. Sicherheitsbestand**?",
+    "optionen": [
+      "Er markiert den Zeitpunkt, zu dem spätestens bestellt werden muss",
+      "Er begrenzt den maximal zulässigen Lagerbestand",
+      "Er sichert die Lieferbereitschaft bei Lieferverzögerungen oder Mehrverbrauch und wird im Normalfall nicht angetastet",
+      "Er entspricht dem täglichen Verbrauch eines Artikels"
+    ],
+    "korrekt": [
+      2
+    ],
+    "erklaerung": "Der Mindest-/Sicherheitsbestand ist die „eiserne Reserve“: Er sichert die Lieferbereitschaft, wenn der Lieferant später liefert oder mehr verbraucht wird als geplant – im Normalbetrieb wird er nicht angetastet. Den Bestellzeitpunkt markiert dagegen der Meldebestand, die Obergrenze der Höchstbestand.",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "muendlich-lp-wq-einkauf-logistik-13",
+    "themaId": "wq-einkauf-logistik",
+    "bereich": "muendlich",
+    "frage": "Welche Folgen hat ein dauerhaft zu hoher Lagerbestand? (2 richtige Antworten)",
+    "optionen": [
+      "Hohe Kapitalbindung – das Geld steckt in der Ware statt auf dem Konto",
+      "Gefahr von Veralterung und Schwund der gelagerten Ware",
+      "Sinkende Lagerkosten durch bessere Auslastung",
+      "Eine automatisch steigende Umschlagshäufigkeit"
+    ],
+    "korrekt": [
+      0,
+      1
+    ],
+    "erklaerung": "Ein zu hoher Lagerbestand bindet Kapital, verursacht Lagerkosten und erhöht das Risiko von Veralterung und Schwund. Die Lagerkosten steigen mit der Menge – sie sinken nicht –, und die Umschlagshäufigkeit sinkt bei hohem Bestand, weil der Nenner (durchschnittlicher Lagerbestand) größer wird.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "muendlich-lp-wq-einkauf-logistik-14",
+    "themaId": "wq-einkauf-logistik",
+    "bereich": "muendlich",
+    "frage": "Prüferfrage: „Welches Bestellverfahren empfehlen Sie bei stark schwankendem Verbrauch – und warum?“",
+    "optionen": [
+      "Das Bestellrhythmusverfahren, weil feste Termine Planungssicherheit geben",
+      "Das Bestellpunktverfahren, weil es auf den tatsächlichen Bestand reagiert",
+      "Eine einzige Jahresbestellung, um Mengenrabatte zu sichern",
+      "Gar keines – bei Schwankungen bestellt man nach Gefühl"
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Bei stark schwankendem Verbrauch passt das Bestellpunktverfahren: Bestellt wird, sobald der Meldebestand erreicht ist – das Verfahren reagiert also auf den tatsächlichen Bestand. Das Bestellrhythmusverfahren mit festen Terminen birgt bei Schwankungen die Gefahr von Über- oder Unterbeständen.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "muendlich-lp-wq-einkauf-logistik-15",
+    "themaId": "wq-einkauf-logistik",
+    "bereich": "muendlich",
+    "frage": "Wozu dient die **Nutzwertanalyse** beim Angebotsvergleich?",
+    "optionen": [
+      "Sie berechnet ausschließlich den günstigsten Bezugspreis",
+      "Sie ermittelt die optimale Bestellmenge",
+      "Sie ersetzt die Bonitätsprüfung des Lieferanten",
+      "Sie bewertet qualitative Kriterien wie Qualität, Lieferzeit und Service gewichtet mit Punkten"
+    ],
+    "korrekt": [
+      3
+    ],
+    "erklaerung": "Mit der Nutzwertanalyse werden qualitative Kriterien (Qualität, Lieferzeit, Zuverlässigkeit, Service) gewichtet und mit Punkten bewertet – so wird der Vergleich nachvollziehbar und objektiv. Im Fachgespräch punktest du mit dem Hinweis: „Der günstigste Bezugspreis allein entscheidet nicht.“",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "muendlich-lp-wq-einkauf-logistik-16",
+    "themaId": "wq-einkauf-logistik",
+    "bereich": "muendlich",
+    "frage": "Prüfer-Nachfrage: „Warum gewährt ein Lieferant überhaupt Skonto – und lohnt sich die Ausnutzung für den Käufer?“",
+    "optionen": [
+      "Der Lieferant will schnell an sein Geld; die Ausnutzung lohnt sich, weil der Skontoabzug einem sehr hohen effektiven Jahreszins entspricht",
+      "Skonto ist ein Mengenrabatt und lohnt sich nur bei Großaufträgen",
+      "Skonto senkt die Umsatzsteuer und lohnt sich deshalb für beide Seiten",
+      "Die Ausnutzung lohnt sich nie, weil Bankkredite immer günstiger sind"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Skonto ist ein Preisnachlass für schnelle Zahlung – der Lieferant verbessert damit seine eigene Liquidität. Für den Käufer lohnt sich die Ausnutzung fast immer, weil der Verzicht auf Skonto einem sehr hohen effektiven Jahreszins entspricht; notfalls ist sogar ein Bankkredit zur Skontoausnutzung günstiger. Mit Mengenrabatt oder Umsatzsteuer hat Skonto nichts zu tun.",
+    "schwierigkeit": 3
+  },
+  {
+    "id": "muendlich-lp-wq-einkauf-logistik-17",
+    "themaId": "wq-einkauf-logistik",
+    "bereich": "muendlich",
+    "frage": "Der Meldebestand beträgt 400 Stück, der Mindestbestand 200 Stück, die Lieferzeit 4 Tage. Wie hoch ist der Tagesabsatz?",
+    "optionen": [
+      "100 Stück",
+      "50 Stück",
+      "150 Stück",
+      "800 Stück"
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Die Meldebestandsformel wird umgestellt: Tagesabsatz = (Meldebestand − Mindestbestand) / Lieferzeit = (400 − 200) / 4 = 50 Stück. Wer den Mindestbestand nicht abzieht, landet beim falschen Ergebnis 100 Stück – zeige dem Prüfer immer erst die Umstellung der Formel, dann das Einsetzen.",
+    "schwierigkeit": 3
+  },
+  {
+    "id": "muendlich-lp-wq-marketing-vertrieb-11",
+    "themaId": "wq-marketing-vertrieb",
+    "bereich": "muendlich",
+    "frage": "Wie sollten **B-Kunden** nach der ABC-Analyse betreut werden?",
+    "optionen": [
+      "Gar nicht – sie sind wirtschaftlich uninteressant",
+      "Noch intensiver als A-Kunden, um sie zu belohnen",
+      "Den Kontakt gezielt ausbauen – sie haben Potenzial zum A-Kunden",
+      "Ausschließlich über automatisierte Standard-Mailings wie C-Kunden"
+    ],
+    "korrekt": [
+      2
+    ],
+    "erklaerung": "B-Kunden liegen zwischen A und C: Der Kontakt wird gezielt ausgebaut, weil sie Potenzial haben, zum A-Kunden zu werden. Die intensivste Betreuung bleibt den A-Kunden vorbehalten, die reine Minimalbetreuung den C-Kunden.",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "muendlich-lp-wq-marketing-vertrieb-12",
+    "themaId": "wq-marketing-vertrieb",
+    "bereich": "muendlich",
+    "frage": "Welche Vorteile bietet die **Sekundärforschung** gegenüber der Primärforschung? (2 richtige Antworten)",
+    "optionen": [
+      "Sie ist schneller, weil die Daten bereits vorliegen",
+      "Sie ist kostengünstiger als eine eigene Erhebung",
+      "Ihre Daten sind garantiert aktuell",
+      "Sie passt immer exakt zur eigenen Fragestellung"
+    ],
+    "korrekt": [
+      0,
+      1
+    ],
+    "erklaerung": "Sekundärforschung wertet vorhandene Quellen aus – das geht schneller und ist deutlich günstiger als eine eigene Erhebung. Genau darin liegen aber auch die Risiken: Die Daten können veraltet sein oder nicht exakt zur eigenen Fragestellung passen. Diese Abwägung erwarten Prüfer im Fachgespräch.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "muendlich-lp-wq-marketing-vertrieb-13",
+    "themaId": "wq-marketing-vertrieb",
+    "bereich": "muendlich",
+    "frage": "Welche Rechtsfolgen drohen bei einem Verstoß gegen das UWG, z. B. durch irreführende Werbung?",
+    "optionen": [
+      "Automatischer Entzug der Gewerbeerlaubnis",
+      "Unterlassung und Schadenersatz",
+      "Haftstrafen für alle Beschäftigten der Marketingabteilung",
+      "Keine – das UWG ist eine unverbindliche Empfehlung"
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Bei unlauterem Wettbewerb drohen als zentrale Rechtsfolgen Unterlassungs- und Schadenersatzansprüche – etwa nach einer Abmahnung durch Mitbewerber oder Verbände. Ein automatischer Gewerbeentzug oder Haftstrafen für ganze Abteilungen sind nicht die Regelfolgen, und unverbindlich ist das UWG keinesfalls.",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "muendlich-lp-wq-marketing-vertrieb-14",
+    "themaId": "wq-marketing-vertrieb",
+    "bereich": "muendlich",
+    "frage": "Deine Kampagne wird über Reichweite und Bekanntheitsgrad ausgewertet. Um welche Art der Werbeerfolgskontrolle handelt es sich?",
+    "optionen": [
+      "Um die ökonomische Werbeerfolgskontrolle",
+      "Um die Wirtschaftlichkeitsrechnung",
+      "Um eine Bonitätsprüfung",
+      "Um die außerökonomische Werbeerfolgskontrolle"
+    ],
+    "korrekt": [
+      3
+    ],
+    "erklaerung": "Reichweite und Bekanntheitsgrad sind außerökonomische Größen – sie messen die Wirkung der Werbung, nicht direkt Geldgrößen. Die ökonomische Werbeerfolgskontrolle arbeitet dagegen mit Umsatz und Gewinn, etwa über die Wirtschaftlichkeit (Ertrag / Aufwand).",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "muendlich-lp-wq-marketing-vertrieb-15",
+    "themaId": "wq-marketing-vertrieb",
+    "bereich": "muendlich",
+    "frage": "Ihre Anzeige hat 2.000 € gekostet und 5.000 € Mehrertrag gebracht. War sie wirtschaftlich?",
+    "optionen": [
+      "Ja – Wirtschaftlichkeit = 5.000 / 2.000 = 2,5 und damit größer als 1",
+      "Nein – 2.000 € Werbekosten sind grundsätzlich unwirtschaftlich",
+      "Ja – Wirtschaftlichkeit = 2.000 / 5.000 = 0,4 und damit größer als 0",
+      "Das lässt sich ohne die Reichweite der Anzeige nicht beurteilen"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Wirtschaftlichkeit = Ertrag / Aufwand = 5.000 / 2.000 = 2,5. Da der Wert über 1 liegt, war die Kampagne ökonomisch erfolgreich. Option 3 kehrt den Bruch um – ein typischer Fehler; die Reichweite gehört zur außerökonomischen Kontrolle und ist hier nicht nötig.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "muendlich-lp-wq-marketing-vertrieb-16",
+    "themaId": "wq-marketing-vertrieb",
+    "bereich": "muendlich",
+    "frage": "Die Wirtschaft befindet sich in einer **Rezession**. Wie passt du Marketing und Vertrieb sinnvoll an?",
+    "optionen": [
+      "Die Preise kräftig erhöhen, um sinkende Absätze auszugleichen",
+      "Eher preisorientierte Aktionen und kostenbewusste Werbung einsetzen, weil Kunden zurückhaltender kaufen",
+      "Die Werbung komplett einstellen, bis der Aufschwung kommt",
+      "Nur noch Luxusprodukte bewerben"
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "In der Rezession sinkt die Nachfrage und Kunden achten stärker auf den Preis – sinnvoll sind daher Preisaktionen und kostenbewusste Werbemaßnahmen. Kräftige Preiserhöhungen oder ein Fokus auf Luxus würden die Kaufzurückhaltung verstärken; Werbung ganz einzustellen kostet Marktanteile und Bekanntheit.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "muendlich-lp-wq-marketing-vertrieb-17",
+    "themaId": "wq-marketing-vertrieb",
+    "bereich": "muendlich",
+    "frage": "Vollbeschäftigung, hohe Zinsen, voll ausgelastete Kapazitäten und steigende Preise – welche Konjunkturphase liegt vor, und was bedeutet das für den Vertrieb?",
+    "optionen": [
+      "Hochkonjunktur (Boom) – Kapazitäten und Lieferfähigkeit sichern, statt zusätzliche Nachfrage anzuheizen",
+      "Tiefphase (Depression) – massive Rabattaktionen starten",
+      "Aufschwung (Expansion) – Personal abbauen und Investitionen stoppen",
+      "Abschwung (Rezession) – die Preise deutlich anheben"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Vollbeschäftigung, hohe Zinsen, ausgelastete Kapazitäten und steigende Preise kennzeichnen die Hochkonjunktur. Für den Vertrieb heißt das: Kapazitäten und Lieferfähigkeit sichern, denn zusätzliche Nachfrage könnte ohnehin kaum bedient werden. Im Aufschwung wären die Zinsen dagegen noch niedrig und Kapazitäten frei.",
+    "schwierigkeit": 3
+  },
+  {
+    "id": "muendlich-lp-wq-personalwirtschaft-11",
+    "themaId": "wq-personalwirtschaft",
+    "bereich": "muendlich",
+    "frage": "Welche vier Sozialversicherungszweige werden als Arbeitnehmeranteil vom Bruttolohn abgezogen (Merkwort **KRAP**)?",
+    "optionen": [
+      "Kranken-, Renten-, Arbeitslosen- und Pflegeversicherung",
+      "Kfz-, Rechtsschutz-, Auslands- und Privathaftpflichtversicherung",
+      "Kranken-, Renten-, Unfall- und Hausratversicherung",
+      "Kirchensteuer, Rentensteuer, Arbeitssteuer und Pflegesteuer"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "KRAP steht für Kranken-, Renten-, Arbeitslosen- und Pflegeversicherung – diese vier Zweige werden anteilig vom Bruttolohn abgezogen. Die gesetzliche Unfallversicherung trägt dagegen allein der Arbeitgeber, und private Versicherungen wie Kfz oder Hausrat haben mit der Lohnabrechnung nichts zu tun.",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "muendlich-lp-wq-personalwirtschaft-12",
+    "themaId": "wq-personalwirtschaft",
+    "bereich": "muendlich",
+    "frage": "Welche Übungen sind typisch für ein Assessment-Center?",
+    "optionen": [
+      "Ein mehrmonatiges unbezahltes Probearbeiten",
+      "Postkorbübung, Rollenspiel und Präsentation",
+      "Ausschließlich ein IQ-Test am Computer",
+      "Ein einzelnes Telefoninterview ohne Gruppenbezug"
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Typische AC-Übungen sind die Postkorbübung (Priorisieren unter Zeitdruck), Rollenspiele (z. B. Konfliktgespräch) und Präsentationen – ergänzt um Gruppendiskussionen und Einzelinterviews. So werden Teamfähigkeit, Motivation und Konfliktfähigkeit im direkten Vergleich beobachtet, was ein reiner Test oder ein Telefonat nicht leisten kann.",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "muendlich-lp-wq-personalwirtschaft-13",
+    "themaId": "wq-personalwirtschaft",
+    "bereich": "muendlich",
+    "frage": "Welcher **Nachteil** ist mit der internen Stellenbesetzung verbunden?",
+    "optionen": [
+      "Der Mitarbeiter kennt den Betrieb und die Abläufe nicht",
+      "Die Einarbeitung dauert besonders lange",
+      "Es kommt kein neues Wissen und keine frische Perspektive von außen ins Unternehmen",
+      "Die Stelle muss zwingend öffentlich ausgeschrieben werden"
+    ],
+    "korrekt": [
+      2
+    ],
+    "erklaerung": "Die Kehrseite von „Intern kennt“: Bei der internen Besetzung kommt kein neues Wissen von außen ins Unternehmen – es droht Betriebsblindheit. Betriebskenntnis und kurze Einarbeitung sind gerade die Vorteile der internen Besetzung, und eine öffentliche Ausschreibung ist dafür nicht nötig.",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "muendlich-lp-wq-personalwirtschaft-14",
+    "themaId": "wq-personalwirtschaft",
+    "bereich": "muendlich",
+    "frage": "Welche Vorteile bieten Online-Stellenbörsen bei der Personalbeschaffung? (2 richtige Antworten)",
+    "optionen": [
+      "Große Reichweite – es werden viele potenzielle Bewerber erreicht",
+      "Kostengünstig bis kostenlos, und eine direkte Online-Bewerbung ist möglich",
+      "Alle eingehenden Bewerbungen sind automatisch vorqualifiziert",
+      "Es bewerben sich garantiert nur passende Kandidaten"
+    ],
+    "korrekt": [
+      0,
+      1
+    ],
+    "erklaerung": "Online-Stellenbörsen erreichen viele Bewerber, sind kostengünstig oder sogar kostenlos und ermöglichen die direkte Online-Bewerbung. Eine automatische Vorqualifizierung gibt es aber nicht – im Gegenteil kann die große Reichweite viele unpassende Bewerbungen erzeugen, die gesichtet werden müssen.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "muendlich-lp-wq-personalwirtschaft-15",
+    "themaId": "wq-personalwirtschaft",
+    "bereich": "muendlich",
+    "frage": "Prüferfrage: „Was ist an der Stellenanzeige ‚Junger Verkäufer gesucht‘ rechtlich problematisch?“",
+    "optionen": [
+      "Nichts – die Anzeige ist kurz und präzise",
+      "Sie verstößt nur gegen das Arbeitszeitgesetz",
+      "Sie diskriminiert allein wegen der Herkunft",
+      "Sie diskriminiert gleich doppelt: wegen des Alters („jung“) und des Geschlechts (nur männliche Form ohne m/w/d)"
+    ],
+    "korrekt": [
+      3
+    ],
+    "erklaerung": "„Junger Verkäufer gesucht“ verstößt gleich zweifach gegen das AGG: „jung“ benachteiligt wegen des Alters, die rein männliche Berufsbezeichnung ohne m/w/d wegen des Geschlechts. Abgelehnte Bewerber können auf Entschädigung klagen – korrekt wäre z. B. „Verkäufer (m/w/d)“ ohne Altersbezug.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "muendlich-lp-wq-personalwirtschaft-16",
+    "themaId": "wq-personalwirtschaft",
+    "bereich": "muendlich",
+    "frage": "Du sollst das Onboarding eines neuen Mitarbeiters vorbereiten. Was gehört typischerweise dazu?",
+    "optionen": [
+      "Das Gehalt des neuen Mitarbeiters neu verhandeln",
+      "Unterlagen anfordern, den Arbeitsplatz einrichten und die Erstunterweisung planen",
+      "Die Arbeitszeugnisse des Vorgängers prüfen",
+      "Die Probezeit im Arbeitsvertrag streichen"
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Zum Onboarding gehören: die Einstellungsunterlagen anfordern (z. B. Sozialversicherungsausweis, Krankenkassenbestätigung, Steuer-ID), den Arbeitsplatz einrichten und die Erstunterweisung planen. Gehaltsverhandlung und Vertragsinhalte wie die Probezeit sind Sache der Personalleitung, nicht der Onboarding-Vorbereitung.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "muendlich-lp-wq-personalwirtschaft-17",
+    "themaId": "wq-personalwirtschaft",
+    "bereich": "muendlich",
+    "frage": "Prüfer-Nachfrage: „Warum kostet ein Mitarbeiter den Arbeitgeber mehr als sein Bruttogehalt?“",
+    "optionen": [
+      "Weil der Arbeitgeber zusätzlich seinen eigenen Anteil zur Sozialversicherung trägt (plus z. B. Beiträge zur Unfallversicherung)",
+      "Weil der Arbeitgeber die Lohnsteuer des Mitarbeiters doppelt abführen muss",
+      "Das stimmt nicht – das Bruttogehalt entspricht genau den Gesamtkosten",
+      "Weil das Nettogehalt immer höher ist als das Bruttogehalt"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Neben dem Bruttogehalt trägt der Arbeitgeber seinen eigenen Anteil zu Kranken-, Renten-, Arbeitslosen- und Pflegeversicherung sowie z. B. die Beiträge zur gesetzlichen Unfallversicherung. Die Personalkosten liegen deshalb deutlich über dem Brutto. Die Lohnsteuer zahlt wirtschaftlich der Arbeitnehmer – der Arbeitgeber führt sie nur ab.",
+    "schwierigkeit": 3
+  },
+  {
+    "id": "muendlich-lp-wq-assistenz-sekretariat-11",
+    "themaId": "wq-assistenz-sekretariat",
+    "bereich": "muendlich",
+    "frage": "Im Posteingang liegt ein Brief mit dem Vermerk „Persönlich/Vertraulich“. Wie gehst du korrekt vor?",
+    "optionen": [
+      "Öffnen, stempeln und wie normale Geschäftspost verteilen",
+      "Ungeöffnet an den genannten Empfänger weiterleiten",
+      "Zurück an den Absender schicken",
+      "Im Sekretariat sammeln und einmal monatlich verteilen"
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Als „Persönlich“ oder „Vertraulich“ gekennzeichnete Post darf in der Poststelle nicht geöffnet werden – sie wird ungeöffnet an den Empfänger weitergeleitet. Öffnen würde das Briefgeheimnis verletzen; Rücksendung oder monatliches Sammeln wären grobe Bearbeitungsfehler.",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "muendlich-lp-wq-assistenz-sekretariat-12",
+    "themaId": "wq-assistenz-sekretariat",
+    "bereich": "muendlich",
+    "frage": "Welcher **Nachteil** kennzeichnet das Einliniensystem?",
+    "optionen": [
+      "Unklare Zuständigkeiten durch viele Vorgesetzte",
+      "Ständige Kompetenzüberschneidungen zwischen den Abteilungen",
+      "Lange Dienst- und Kommunikationswege über alle Hierarchieebenen",
+      "Entscheidungen lassen sich niemandem zuordnen"
+    ],
+    "korrekt": [
+      2
+    ],
+    "erklaerung": "Der Preis für die klaren Zuständigkeiten im Einliniensystem sind lange Dienstwege: Jede Information muss die Linie über alle Ebenen hinauf- und hinunterlaufen. Mehrere Vorgesetzte und Kompetenzüberschneidungen sind dagegen typische Probleme des Mehrliniensystems – im Einliniensystem gerade ausgeschlossen.",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "muendlich-lp-wq-assistenz-sekretariat-13",
+    "themaId": "wq-assistenz-sekretariat",
+    "bereich": "muendlich",
+    "frage": "Nach welchen zwei Kriterien priorisiert das **Eisenhower-Prinzip** Aufgaben?",
+    "optionen": [
+      "Kosten und Nutzen",
+      "Dauer und Schwierigkeit",
+      "Absender und Empfänger",
+      "Wichtigkeit und Dringlichkeit"
+    ],
+    "korrekt": [
+      3
+    ],
+    "erklaerung": "Das Eisenhower-Prinzip ordnet Aufgaben nach Wichtigkeit und Dringlichkeit in vier Felder: sofort selbst erledigen (wichtig + dringend), terminieren (wichtig, nicht dringend), delegieren (dringend, nicht wichtig) oder weglassen. Es ergänzt die ALPEN-Methode beim Schritt „Entscheidungen treffen“.",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "muendlich-lp-wq-assistenz-sekretariat-14",
+    "themaId": "wq-assistenz-sekretariat",
+    "bereich": "muendlich",
+    "frage": "In welcher Reihenfolge laufen die Schritte des **Posteingangs** ab?",
+    "optionen": [
+      "Empfang → Sortieren → Öffnen → Kontrolle → Stempeln → Verteilen",
+      "Öffnen → Empfang → Verteilen → Stempeln → Sortieren → Kontrolle",
+      "Verteilen → Sortieren → Öffnen → Empfang → Kontrolle → Stempeln",
+      "Stempeln → Öffnen → Sortieren → Empfang → Verteilen → Kontrolle"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Der Posteingang läuft logisch ab: Empfang, Sortieren (dabei „Persönlich/Vertraulich“ aussondern), Öffnen, Kontrolle (z. B. auf Anlagen), Stempeln mit dem Eingangsdatum und schließlich Verteilen an die Abteilungen. Verteilen vor dem Öffnen oder Stempeln vor dem Empfang wäre unlogisch.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "muendlich-lp-wq-assistenz-sekretariat-15",
+    "themaId": "wq-assistenz-sekretariat",
+    "bereich": "muendlich",
+    "frage": "Welche Aussagen zum **Großraumbüro** treffen zu? (2 richtige Antworten)",
+    "optionen": [
+      "Die Kommunikation zwischen den Kollegen ist schnell und direkt",
+      "Lärm, Stress und fehlende Vertraulichkeit sind typische Nachteile",
+      "Es verursacht immer höhere Kosten als Einzelbüros",
+      "Vertrauliche Personalgespräche lassen sich dort ideal führen"
+    ],
+    "korrekt": [
+      0,
+      1
+    ],
+    "erklaerung": "Das Großraumbüro punktet mit schneller, direkter Kommunikation und vergleichsweise geringen Kosten. Dem stehen Lärm, Stress und fehlende Vertraulichkeit gegenüber – vertrauliche Gespräche brauchen einen separaten Raum. Diese Abwägung erwarten Prüfer bei der Frage nach der passenden Büroform.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "muendlich-lp-wq-assistenz-sekretariat-16",
+    "themaId": "wq-assistenz-sekretariat",
+    "bereich": "muendlich",
+    "frage": "Warum plant die ALPEN-Methode rund 40 % des Arbeitstags als **Pufferzeit** ein?",
+    "optionen": [
+      "Damit man den Arbeitstag früher beenden kann",
+      "Damit Unvorhergesehenes wie Störungen und spontane Aufgaben den Tagesplan nicht sprengt",
+      "Weil das Arbeitszeitgesetz diese Quote vorschreibt",
+      "Um Besprechungen grundsätzlich zu vermeiden"
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Beim „P“ der ALPEN-Methode werden rund 40 % der Zeit bewusst nicht verplant: Störungen, Anrufe und spontane Aufgaben lassen sich so abfangen, ohne dass der ganze Tagesplan kippt. Gesetzlich vorgeschrieben ist die Quote nicht – sie ist eine bewährte Planungsregel des Zeitmanagements.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "muendlich-lp-wq-assistenz-sekretariat-17",
+    "themaId": "wq-assistenz-sekretariat",
+    "bereich": "muendlich",
+    "frage": "Eine Kollegin berichtet fachlich an die Projektleitung und disziplinarisch an die Abteilungsleitung. Welches Leitungssystem liegt vor – und was ist sein typisches Risiko?",
+    "optionen": [
+      "Einliniensystem – das Risiko sind lange Dienstwege",
+      "Stabliniensystem – der Stab trifft alle Entscheidungen allein",
+      "Matrixorganisation – Kompetenzkonflikte durch zwei sich kreuzende Weisungslinien",
+      "Mehrliniensystem – es gibt dabei grundsätzlich kein Konfliktpotenzial"
+    ],
+    "korrekt": [
+      2
+    ],
+    "erklaerung": "Zwei sich kreuzende Weisungslinien – fachlich die Projektleitung, disziplinarisch die Abteilungsleitung – kennzeichnen die Matrixorganisation. Ihr typisches Risiko sind Kompetenzkonflikte, wenn beide Vorgesetzte widersprüchliche Prioritäten setzen. Im Einliniensystem gäbe es dagegen nur genau einen Vorgesetzten.",
     "schwierigkeit": 3
   }
 ]

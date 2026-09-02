@@ -2217,5 +2217,1562 @@
     "erklaerung": "Lieferantenskonto ist ein **nachträglicher Preisnachlass beim Einkauf**: Er mindert netto den Wareneinkaufsaufwand (6080 bzw. über das Nachlasskonto 6082) und zugleich anteilig die **Vorsteuer (2600)**, da sich die Bemessungsgrundlage verringert. Der Buchungssatz lautet z. B.: 4400 an 2800, 6082 und 2600. Umsatzerlöse (5100) und Umsatzsteuer (4800) betreffen nur Verkäufe, und eine Bagatellgrenze von 5 % existiert nicht – jeder Skonto muss gebucht werden.",
     "schwierigkeit": 3,
     "quellTermin": "2022-sommer"
+  },
+  {
+    "id": "kbz-lp-kaufvertrag-stoerungen-22",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "frage": "Die Feder GmbH hat bei der Jana Loft KG 15 Bürostühle bestellt; als Liefertermin wurde der 25.11. vereinbart (kein Fixkauf). Die Lieferung bleibt aus, weil der Lkw-Fahrer der Spedition erkrankt ist. Die Feder GmbH möchte noch am Folgetag einen Deckungskauf bei einem anderen Händler tätigen und die Mehrkosten der Jana Loft KG in Rechnung stellen. Wie ist die Rechtslage?",
+    "optionen": [
+      "Die Feder GmbH kann sofort einen Deckungskauf vornehmen und die Mehrkosten verlangen, da der Liefertermin kalendermäßig bestimmt war.",
+      "Die Feder GmbH muss der Jana Loft KG zunächst eine angemessene Nachfrist setzen; erst nach deren erfolglosem Ablauf kann sie Schadensersatz statt der Leistung (Mehrkosten des Deckungskaufs) verlangen.",
+      "Die Feder GmbH kann keinerlei Rechte geltend machen, da die Jana Loft KG die Verspätung nicht verschuldet hat – die Erkrankung des Fahrers ist höhere Gewalt.",
+      "Die Feder GmbH kann nur vom Vertrag zurücktreten, ein Schadensersatzanspruch ist beim Lieferungsverzug gesetzlich ausgeschlossen.",
+      "Die Feder GmbH muss die Ware abnehmen, sobald sie eintrifft, und kann lediglich den Kaufpreis mindern."
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Es liegt Lieferungsverzug (Nicht-rechtzeitig-Lieferung) vor, aber kein Fix(handels)kauf – der Termin ist zwar kalendermäßig bestimmt (dadurch entfällt die Mahnung, § 286 Abs. 2 Nr. 1 BGB), das ersetzt aber nicht die Nachfrist. Für Schadensersatz statt der Leistung (§ 281 BGB) oder Rücktritt (§ 323 BGB) muss der Käufer dem Verkäufer grundsätzlich erst eine angemessene Nachfrist zur Lieferung setzen. Erst wenn diese erfolglos verstreicht, darf die Feder GmbH den Deckungskauf tätigen und die Mehrkosten als konkreten Schaden geltend machen. Das Verschulden der Spedition wird der Jana Loft KG als Erfüllungsgehilfin zugerechnet (§ 278 BGB), Option 3 ist daher ebenfalls falsch.",
+    "schwierigkeit": 2,
+    "quellTermin": "2025-winter"
+  },
+  {
+    "id": "kbz-lp-kaufvertrag-stoerungen-23",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "frage": "Beim Schadensersatz wegen Nicht-rechtzeitig-Lieferung wird zwischen konkretem und abstraktem Schaden unterschieden. Welche Zuordnung ist richtig?",
+    "optionen": [
+      "Konkreter Schaden: der entgangene Gewinn aus abgesagten Weiterverkäufen; abstrakter Schaden: die Preisdifferenz beim Deckungskauf.",
+      "Konkreter Schaden: die exakt bezifferbare Preisdifferenz zwischen ursprünglichem Kaufpreis und dem teureren Deckungskauf; abstrakter Schaden: der nur schätzbare entgangene Gewinn.",
+      "Konkreter Schaden entsteht nur bei Verbrauchern, abstrakter Schaden nur zwischen Kaufleuten.",
+      "Konkreter Schaden muss gerichtlich festgestellt werden, abstrakter Schaden kann formlos geltend gemacht werden.",
+      "Beide Begriffe bezeichnen denselben Sachverhalt und werden nur synonym verwendet."
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Ein konkreter Schaden lässt sich mit einem Geldbetrag genau belegen und nachweisen – typisches Beispiel ist die Preisdifferenz zwischen dem vereinbarten Preis und dem höheren Preis eines tatsächlich durchgeführten Deckungskaufs (Beleg: die beiden Rechnungen). Ein abstrakter Schaden ist nicht objektiv exakt bezifferbar, sondern nur schätzbar – typisches Beispiel ist der entgangene Gewinn, der ohne die verspätete bzw. ausgebliebene Lieferung voraussichtlich erzielt worden wäre. Die Unterscheidung hat nichts mit der Kaufmannseigenschaft oder dem Rechtsweg zu tun.",
+    "schwierigkeit": 2,
+    "quellTermin": "2025-winter"
+  },
+  {
+    "id": "kbz-lp-kaufvertrag-stoerungen-24",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "frage": "Die Feder GmbH hatte 15 Bürostühle zum Preis von 825,00 € je Stück bestellt. Nach erfolglosem Ablauf der Nachfrist tätigt sie einen Deckungskauf bei einem anderen Anbieter zu 872,00 € je Stück. Welche Mehrkosten kann sie als konkreten Schaden geltend machen?",
+    "optionen": [
+      "470,00 €",
+      "705,00 €",
+      "825,00 €",
+      "1.410,00 €"
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Der konkrete Schaden ist die Preisdifferenz zwischen Deckungskauf und ursprünglich vereinbartem Preis: $$ (872{,}00\\ € - 825{,}00\\ €) \\times 15 = 47{,}00\\ € \\times 15 = 705{,}00\\ € $$ Diese Mehrkosten sind exakt belegbar (beide Rechnungen liegen vor) und können nach erfolglosem Ablauf der Nachfrist als Schadensersatz statt der Leistung verlangt werden.",
+    "schwierigkeit": 1,
+    "quellTermin": "2025-winter"
+  },
+  {
+    "id": "kbz-lp-kaufvertrag-stoerungen-25",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "frage": "Die Messebau GmbH bestellt bei der Jana Loft KG Präsentationsmöbel mit der Vereinbarung: „Lieferung fix bis 03.03., da am 04.03. die Messe beginnt.“ Die Lieferung erfolgt nicht. Beide Parteien sind Kaufleute. Welche Aussage zum Fixhandelskauf (§ 376 HGB) ist richtig?",
+    "optionen": [
+      "Die Messebau GmbH muss auch hier zunächst eine angemessene Nachfrist setzen, bevor sie zurücktreten kann.",
+      "Die Messebau GmbH kann ohne Nachfristsetzung sofort vom Vertrag zurücktreten oder Schadensersatz statt der Leistung verlangen.",
+      "Der Vertrag wird automatisch nichtig, sobald der Fixtermin verstrichen ist; Ansprüche bestehen nicht mehr.",
+      "Die Messebau GmbH kann nur noch Erfüllung verlangen, ein Rücktritt ist beim Fixhandelskauf ausgeschlossen."
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Beim Fixhandelskauf (§ 376 HGB) ist die Einhaltung des Termins so wesentlich, dass das Geschäft mit ihm „stehen und fallen“ soll (erkennbar an Formulierungen wie „fix“, „spätestens“, verbunden mit dem Messetermin). Verstreicht der Fixtermin, kann der Käufer ohne Nachfristsetzung sofort zurücktreten oder Schadensersatz statt der Leistung verlangen. Will er ausnahmsweise weiterhin Erfüllung, muss er dies dem Verkäufer unverzüglich nach Fälligkeit anzeigen. Der Vertrag wird nicht automatisch nichtig – der Käufer wählt zwischen seinen Rechten.",
+    "schwierigkeit": 3
+  },
+  {
+    "id": "kbz-lp-kaufvertrag-stoerungen-26",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "frage": "Die Feder GmbH bestellt aufgrund einer Werbeanzeige in der Fachzeitschrift „Das Büro der Zukunft“ 15 Bürostühle bei der Jana Loft KG. Diese sendet daraufhin eine Auftragsbestätigung. Welche rechtliche Einordnung der drei Schritte ist korrekt?",
+    "optionen": [
+      "Werbeanzeige = verbindliches Angebot; Bestellung = Annahme; Auftragsbestätigung = reine Höflichkeitsformel.",
+      "Werbeanzeige = unverbindliche Aufforderung zur Abgabe eines Angebots; Bestellung = rechtsverbindlicher Antrag; Auftragsbestätigung = Annahme des Antrags.",
+      "Werbeanzeige = Antrag; Bestellung = Aufforderung zur Angebotsabgabe; Auftragsbestätigung = Annahme.",
+      "Alle drei Erklärungen sind unverbindlich; der Kaufvertrag kommt erst mit der Lieferung der Ware zustande.",
+      "Die Auftragsbestätigung ist ein neuer Antrag, den die Feder GmbH erst noch annehmen muss."
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Eine Werbeanzeige richtet sich an einen unbestimmten Personenkreis und ist daher nur eine unverbindliche Aufforderung zur Abgabe eines Angebots (invitatio ad offerendum) – der Werbende will sich noch nicht binden. Die Bestellung der Feder GmbH ist damit der rechtsverbindliche Antrag (§ 145 BGB). Mit der unveränderten Auftragsbestätigung nimmt die Jana Loft KG diesen Antrag an (§ 147 BGB) – erst dadurch kommt der Kaufvertrag durch zwei übereinstimmende Willenserklärungen zustande. Auf die Lieferung kommt es für den Vertragsschluss nicht mehr an.",
+    "schwierigkeit": 1,
+    "quellTermin": "2025-winter"
+  },
+  {
+    "id": "kbz-lp-kaufvertrag-stoerungen-27",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "frage": "Die Jana Loft KG fügt ihren Auftragsbestätigungen stets ihre Allgemeinen Geschäftsbedingungen (AGB) bei. Welche **zwei** Vorteile ergeben sich daraus für die Jana Loft KG als Verwenderin? (2 Antworten)",
+    "optionen": [
+      "Rationalisierung der Vertragsabschlüsse, da nicht jeder Vertrag einzeln ausgehandelt werden muss.",
+      "Die AGB gehen in jedem Fall allen gesetzlichen Regelungen und individuellen Absprachen vor.",
+      "Vereinheitlichung der Vertragsbedingungen gegenüber allen Kunden, teilweise mit für den Verwender günstigeren Regelungen als das dispositive Gesetzesrecht.",
+      "AGB machen eine Auftragsbestätigung rechtlich überflüssig.",
+      "AGB verlängern automatisch die gesetzliche Verjährungsfrist aller Forderungen auf zehn Jahre."
+    ],
+    "korrekt": [
+      0,
+      2
+    ],
+    "erklaerung": "AGB sind für eine Vielzahl von Verträgen vorformulierte Vertragsbedingungen (§ 305 BGB). Ihre Vorteile für den Verwender: (1) Rationalisierung – Verträge müssen nicht einzeln ausgehandelt werden, was Zeit und Kosten spart; (2) Vereinheitlichung der Vertragsbedingungen und die Möglichkeit, dispositives (abdingbares) Gesetzesrecht zu eigenen Gunsten abzuwandeln, z. B. beim Gerichtsstand oder Eigentumsvorbehalt. Falsch: AGB gehen individuellen Abreden gerade nicht vor (§ 305b BGB), unwirksame oder überraschende Klauseln gelten nicht, und Verjährungsfristen lassen sich nicht beliebig verlängern.",
+    "schwierigkeit": 1,
+    "quellTermin": "2025-winter"
+  },
+  {
+    "id": "kbz-lp-kaufvertrag-stoerungen-28",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "frage": "In den AGB der Jana Loft KG steht: „Zahlung innerhalb von 30 Tagen netto.“ Im Verkaufsgespräch vereinbart der Vertriebsleiter mit einem Kunden jedoch ausdrücklich: „Sie erhalten ausnahmsweise 60 Tage Zahlungsziel.“ Welche Regelung gilt?",
+    "optionen": [
+      "Die AGB-Klausel (30 Tage), denn AGB gehen mündlichen Absprachen immer vor.",
+      "Die individuelle Abrede (60 Tage), denn Individualvereinbarungen haben Vorrang vor AGB (§ 305b BGB).",
+      "Keine von beiden – bei Widerspruch zwischen AGB und Absprache ist der Vertrag insgesamt nichtig.",
+      "Automatisch die gesetzliche Regelung, also Zahlung sofort bei Übergabe."
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Nach § 305b BGB haben individuelle Vertragsabreden Vorrang vor Allgemeinen Geschäftsbedingungen. Die ausdrücklich ausgehandelte Vereinbarung (60 Tage Zahlungsziel) verdrängt also die widersprechende AGB-Klausel – unabhängig davon, ob sie mündlich oder schriftlich getroffen wurde (aus Beweisgründen empfiehlt sich die schriftliche Bestätigung). Der Vertrag bleibt im Übrigen wirksam; ergänzend gelten auch überraschende Klauseln in AGB nicht (§ 305c BGB).",
+    "schwierigkeit": 3
+  },
+  {
+    "id": "kbz-lp-kaufvertrag-stoerungen-29",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "frage": "Die Jana Loft KG (Sitz Hamburg) hat in ihren AGB gegenüber der Feder GmbH (Sitz Korbach) den Gerichtsstand Hamburg vereinbart. Beide sind Kaufleute. Welche Aussage zur Gerichtsstandsvereinbarung ist richtig?",
+    "optionen": [
+      "Die Klausel ist unwirksam, weil der Gerichtsstand gesetzlich zwingend beim Sitz des Beklagten liegt und nie abbedungen werden kann.",
+      "Die Klausel ist wirksam, denn zwischen Kaufleuten sind Gerichtsstandsvereinbarungen zulässig (§ 38 ZPO); die Jana Loft KG kann Zahlungsklagen dann in Hamburg erheben.",
+      "Die Klausel ist nur wirksam, wenn die Feder GmbH ihr in jedem Einzelfall gesondert schriftlich zustimmt.",
+      "Gerichtsstandsklauseln sind nur gegenüber Verbrauchern zulässig, nicht zwischen Unternehmen."
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Der gesetzliche Gerichtsstand liegt grundsätzlich am (Wohn-)Sitz des Beklagten (§§ 12, 17 ZPO) – ohne Klausel müsste die Jana Loft KG die Feder GmbH also in Korbach verklagen. Zwischen Kaufleuten (sowie juristischen Personen des öffentlichen Rechts) darf davon jedoch durch Vereinbarung abgewichen werden (§ 38 ZPO); solche Klauseln sind auch in AGB üblich und wirksam, wenn die AGB wirksam einbezogen wurden. Gegenüber Verbrauchern ist eine vorherige Gerichtsstandsvereinbarung dagegen grundsätzlich unzulässig – Option 4 kehrt die Rechtslage genau um.",
+    "schwierigkeit": 2,
+    "quellTermin": "2025-winter"
+  },
+  {
+    "id": "kbz-lp-kaufvertrag-stoerungen-30",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "frage": "Ein Lieferant der Jana Loft KG hat kein festes Lieferdatum zugesagt („Lieferung baldmöglichst“). Der vereinbarte Liefergegenstand ist fällig, wird aber nicht geliefert. Wodurch gerät der Lieferant in Lieferungsverzug?",
+    "optionen": [
+      "Automatisch mit Ablauf des Tages, an dem die Jana Loft KG die Ware erstmals benötigt hätte.",
+      "Grundsätzlich erst durch eine Mahnung der Jana Loft KG nach Fälligkeit; die Mahnung ist nur entbehrlich, wenn die Lieferzeit kalendermäßig bestimmt ist oder der Lieferant die Lieferung ernsthaft und endgültig verweigert.",
+      "Bereits mit Vertragsschluss, denn ab diesem Zeitpunkt schuldet er die Lieferung.",
+      "Erst durch einen gerichtlichen Mahnbescheid, eine private Mahnung genügt nicht."
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Voraussetzungen des Lieferungsverzugs (§ 286 BGB): fälliger, einredefreier Anspruch, Nichtleistung, Verschulden des Schuldners (wird vermutet) und grundsätzlich eine Mahnung des Gläubigers nach Fälligkeit. Die Mahnung ist entbehrlich, wenn die Leistungszeit kalendermäßig bestimmt ist (z. B. „Lieferung am 25.11.“), sich aus einem Ereignis berechnen lässt („2 Wochen nach Abruf“) oder der Schuldner die Leistung ernsthaft und endgültig verweigert. Da hier kein Termin bestimmt wurde („baldmöglichst“), muss die Jana Loft KG mahnen, um den Verzug herbeizuführen. Ein gerichtlicher Mahnbescheid ist dafür nicht erforderlich.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "kbz-lp-kaufvertrag-stoerungen-31",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "frage": "Die Objekta KG hat mangelhafte Regale rechtzeitig gerügt und dem Lieferanten eine angemessene Frist zur Nacherfüllung gesetzt. Die Frist ist erfolglos abgelaufen. Welche **zwei** Rechte kann die Objekta KG jetzt (neben oder statt Schadensersatz) geltend machen? (2 Antworten)",
+    "optionen": [
+      "Rücktritt vom Kaufvertrag",
+      "Minderung des Kaufpreises",
+      "Erneute Lieferung derselben mangelhaften Ware verlangen",
+      "Eigenmächtige Verrechnung mit beliebigen anderen Verbindlichkeiten des Lieferanten",
+      "Strafanzeige wegen Betrugs, die automatisch den Kaufpreis entfallen lässt"
+    ],
+    "korrekt": [
+      0,
+      1
+    ],
+    "erklaerung": "Die Nacherfüllung (Nachbesserung oder Ersatzlieferung, § 439 BGB) ist vorrangig. Erst wenn die gesetzte angemessene Frist erfolglos abgelaufen, die Nacherfüllung fehlgeschlagen oder unzumutbar ist, stehen dem Käufer die sekundären Gewährleistungsrechte zu: Rücktritt vom Vertrag (§ 323 BGB) oder Minderung des Kaufpreises (§ 441 BGB) – jeweils wahlweise, ggf. zusätzlich Schadensersatz (§ 437 BGB). Eine erneute Lieferung mangelhafter Ware ist kein Recht, und weder eigenmächtige Verrechnung noch eine Strafanzeige sind Gewährleistungsrechte.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "kbz-lp-kaufvertrag-stoerungen-32",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "frage": "Die Contora GmbH behält einen Konferenztisch mit Oberflächenfehlern (Kaufpreis 3.600,00 € netto) und einigt sich mit dem Lieferanten nach fehlgeschlagener Nacherfüllung auf eine Minderung von 15 %. Welchen Betrag muss die Contora GmbH noch zahlen?",
+    "optionen": [
+      "540,00 €",
+      "3.060,00 €",
+      "3.085,00 €",
+      "3.546,00 €"
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Bei der Minderung (§ 441 BGB) wird der Kaufpreis herabgesetzt – der Käufer behält die mangelhafte Ware, zahlt aber weniger: $$ 3.600{,}00\\ € \\times 15\\ \\% = 540{,}00\\ € \\text{ Minderungsbetrag} $$ $$ 3.600{,}00\\ € - 540{,}00\\ € = 3.060{,}00\\ € \\text{ geminderter Kaufpreis} $$ 540,00 € ist nur der Minderungsbetrag, nicht der Zahlbetrag. Bei bereits vollständig gezahltem Kaufpreis wäre der Minderungsbetrag zu erstatten.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "kbz-lp-kaufvertrag-stoerungen-33",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "frage": "Die Jana Loft KG liefert vertragsgemäß 20 Schreibtische an die Konzepta KG (beide Kaufleute) an. Die Konzepta KG verweigert grundlos die Annahme, weil ihr Lager „gerade voll“ sei. Welche **zwei** Möglichkeiten hat die Jana Loft KG beim Annahmeverzug des Käufers? (2 Antworten)",
+    "optionen": [
+      "Die Ware auf Kosten und Gefahr der Konzepta KG in einem öffentlichen Lagerhaus hinterlegen.",
+      "Nach vorheriger Androhung einen Selbsthilfeverkauf durchführen und einen Mindererlös als Schaden geltend machen (§ 373 HGB).",
+      "Die Ware ohne weitere Voraussetzungen entschädigungslos vernichten und trotzdem den vollen Kaufpreis behalten.",
+      "Vom Kaufvertrag ohne jede Fristsetzung zurücktreten und zusätzlich eine Vertragsstrafe in beliebiger Höhe festsetzen.",
+      "Die Konzepta KG durch einstweilige Verfügung zwingen, ihr Lager zu erweitern."
+    ],
+    "korrekt": [
+      0,
+      1
+    ],
+    "erklaerung": "Nimmt der Käufer die ordnungsgemäß angebotene Ware nicht ab, gerät er in Annahmeverzug (Gläubigerverzug, §§ 293 ff. BGB). Beim Handelskauf gibt § 373 HGB dem Verkäufer besondere Rechte: Er kann die Ware auf Gefahr und Kosten des Käufers in einem öffentlichen Lagerhaus oder sonst sicher hinterlegen und er kann die Ware nach vorheriger Androhung öffentlich versteigern lassen bzw. bei Waren mit Börsen-/Marktpreis freihändig verkaufen (Selbsthilfeverkauf); einen Mindererlös kann er als Schaden geltend machen. Daneben bleibt der Anspruch auf Abnahme und Zahlung bestehen. Vernichtung, willkürliche Vertragsstrafen oder eine erzwungene Lagererweiterung sind keine gesetzlichen Rechte.",
+    "schwierigkeit": 3
+  },
+  {
+    "id": "kbz-lp-kaufvertrag-stoerungen-34",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "frage": "Die Objekta KG bestellt 30 Bürodrehstühle „Modell Comfort“. Geliefert werden stattdessen 30 Besucherstühle „Modell Visit“ (Falschlieferung). Wie ist diese Lieferung rechtlich zu behandeln?",
+    "optionen": [
+      "Die Falschlieferung (aliud) steht einem Sachmangel gleich; die Objekta KG muss beim beiderseitigen Handelskauf unverzüglich rügen und hat dann die üblichen Gewährleistungsrechte.",
+      "Es liegt überhaupt keine Lieferung vor; Gewährleistungsrecht und Rügepflicht sind nicht anwendbar, die Objekta KG kann unbegrenzt lange reklamieren.",
+      "Die Objekta KG wird automatisch Eigentümerin der falschen Stühle und muss diese bezahlen.",
+      "Falschlieferungen dürfen nur innerhalb von 24 Stunden zurückgewiesen werden, danach gelten sie stets als genehmigt."
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Die Lieferung einer anderen als der geschuldeten Sache (aliud/Falschlieferung) steht nach § 434 Abs. 5 BGB einem Sachmangel gleich. Folge: Es gelten die normalen Gewährleistungsregeln (Nacherfüllung, danach ggf. Rücktritt, Minderung, Schadensersatz). Beim beiderseitigen Handelskauf greift zusätzlich die Rügepflicht des § 377 HGB – die offensichtliche Falschlieferung muss unverzüglich gerügt werden, sonst gilt die Ware als genehmigt. Eine starre 24-Stunden-Frist gibt es nicht („unverzüglich“ = ohne schuldhaftes Zögern), und bezahlen muss die Objekta KG die falschen Stühle selbstverständlich nicht ohne Weiteres.",
+    "schwierigkeit": 3
+  },
+  {
+    "id": "kbz-lp-kaufvertrag-stoerungen-35",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "frage": "Die Feder GmbH wünscht wegen einer verspäteten Lieferung einen zusätzlichen Preisnachlass. Die Vorgesetzte erklärt, neben dem Skonto könne allenfalls ein Bonus gewährt werden. Worin unterscheiden sich Skonto und Bonus?",
+    "optionen": [
+      "Skonto wird für die Zahlung innerhalb einer bestimmten Frist gewährt; ein Bonus wird nachträglich für eine bestimmte Leistung gewährt, z. B. am Jahresende bei Erreichen einer vereinbarten Umsatzhöhe.",
+      "Skonto wird nachträglich am Jahresende gewährt; ein Bonus ist ein Abzug für schnelle Zahlung.",
+      "Skonto und Bonus bezeichnen denselben Sofortabzug beim Kauf großer Mengen.",
+      "Ein Bonus wird nur Verbrauchern gewährt, Skonto nur Unternehmen."
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Skonto ist ein Preisnachlass für die Zahlung innerhalb einer bestimmten (kurzen) Frist – er belohnt schnelles Zahlen und wird beim Rechnungsausgleich sofort abgezogen. Ein Bonus ist dagegen ein nachträglich gewährter Preisnachlass für eine bestimmte Leistung im Abrechnungszeitraum, typischerweise als Jahresbonus/Umsatzbonus bei Erreichen einer vereinbarten Abnahme- oder Umsatzhöhe (Treue-/Mengenbonus). Vom Rabatt (Sofortnachlass beim Kauf, z. B. Mengenrabatt) sind beide zu unterscheiden. Die Kaufmannseigenschaft spielt für die Begriffe keine Rolle.",
+    "schwierigkeit": 1,
+    "quellTermin": "2025-winter"
+  },
+  {
+    "id": "kbz-lp-kaufvertrag-stoerungen-36",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "frage": "In einer Auftragsbestätigung heißt es: „Die Lieferung erfolgt frei Haus am 25.11.“ Was bedeutet die Lieferklausel „frei Haus“?",
+    "optionen": [
+      "Der Käufer holt die Ware auf eigene Kosten beim Verkäufer ab.",
+      "Der Verkäufer trägt die Transportkosten bis zum (Geschäfts-)Sitz des Käufers.",
+      "Der Verkäufer trägt die Transportkosten nur bis zum nächstgelegenen Bahnhof des Käufers.",
+      "Die Klausel regelt ausschließlich den Zahlungszeitpunkt, nicht die Transportkosten."
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "„Frei Haus“ ist eine Lieferklausel (Lieferungsbedingung) zur Verteilung der Transportkosten: Der Verkäufer übernimmt die Kosten der Beförderung bis zur Anschrift bzw. zum Geschäftssitz des Käufers – für den Käufer entstehen keine gesonderten Frachtkosten. „Ab Werk“ wäre das Gegenteil (Käufer trägt alle Transportkosten ab Verkäuferstandort), „frei Bahnhof“ deckte nur die Strecke bis zum Empfangsbahnhof. Mit dem Zahlungszeitpunkt haben Lieferklauseln nichts zu tun – dafür gibt es Zahlungsbedingungen (z. B. Skontofristen).",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "kbz-lp-kundenkommunikation-21",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "frage": "Die Jana Loft KG will herausfinden, ob es Käufer für ihre neuen flexiblen, nachhaltigen Büromöbel gibt. Der Vertrieb schlägt vor, dazu eine eigene Befragung bei Geschäftskunden durchzuführen; das Controlling möchte lieber vorhandene Branchenberichte des Möbelverbands auswerten. Wie sind die beiden Vorschläge der Marktforschung zuzuordnen?",
+    "optionen": [
+      "Eigene Kundenbefragung = Sekundärforschung; Auswertung der Verbandsberichte = Primärforschung.",
+      "Eigene Kundenbefragung = Primärforschung (Feldforschung); Auswertung der Verbandsberichte = Sekundärforschung (Schreibtischforschung).",
+      "Beide Vorschläge sind Primärforschung, da beide dem gleichen Untersuchungszweck dienen.",
+      "Beide Vorschläge sind Sekundärforschung, da die Daten in beiden Fällen von Kunden stammen."
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Primärforschung (Feldforschung) bedeutet, dass für den konkreten Untersuchungszweck erstmalig neue Daten erhoben werden – z. B. durch eine eigene Kundenbefragung, Beobachtung oder ein Experiment. Sekundärforschung (Schreibtischforschung) wertet dagegen bereits vorhandenes Datenmaterial aus, das ursprünglich für andere Zwecke erhoben wurde – z. B. Verbandsberichte, Statistiken, IHK-Daten oder frühere Befragungen. Entscheidend ist also nicht, von wem die Daten stammen, sondern ob sie neu erhoben oder bereits vorhanden sind.",
+    "schwierigkeit": 1,
+    "quellTermin": "2025-winter"
+  },
+  {
+    "id": "kbz-lp-kundenkommunikation-22",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "frage": "Die Geschäftsleitung der Jana Loft KG entscheidet sich zunächst für Sekundärforschung, bevor eine teure eigene Erhebung gestartet wird. Welche **zwei** Vorteile sprechen für die Sekundärforschung? (2 Antworten)",
+    "optionen": [
+      "Die Daten sind meist schneller verfügbar als bei einer eigenen Erhebung.",
+      "Die Daten sind stets exakt auf die eigene Fragestellung zugeschnitten.",
+      "Die Beschaffung ist in der Regel kostengünstiger als eine eigene Feldforschung.",
+      "Die Daten sind immer aktueller als selbst erhobene Daten.",
+      "Nur die Sekundärforschung liefert rechtlich verwertbare Ergebnisse."
+    ],
+    "korrekt": [
+      0,
+      2
+    ],
+    "erklaerung": "Vorteile der Sekundärforschung: Das Material (Statistiken, Verbands- und Marktberichte, interne Vertriebsdaten) liegt bereits vor und ist daher schnell und vergleichsweise kostengünstig verfügbar. Nachteile – und damit die falschen Optionen: Die Daten wurden für andere Zwecke erhoben, passen also oft nicht genau auf die eigene Fragestellung, und sie können veraltet sein. Gerade deshalb wird Sekundärforschung häufig als erster Schritt genutzt, bevor gezielt Primärforschung betrieben wird. Eine besondere „rechtliche Verwertbarkeit“ nur von Sekundärdaten gibt es nicht.",
+    "schwierigkeit": 2,
+    "quellTermin": "2025-winter"
+  },
+  {
+    "id": "kbz-lp-kundenkommunikation-23",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "frage": "Um die umsatzstarken Bestandskunden für die Einführung der neuen Produktlinie zu ermitteln, wendet die Jana Loft KG die ABC-Analyse an. Welches Ziel wird damit in der Kundenbetreuung vor allem verfolgt?",
+    "optionen": [
+      "Alle Kunden sollen künftig völlig gleich behandelt werden, um niemanden zu benachteiligen.",
+      "Die Kunden sollen nach ihrem Umsatzanteil eingruppiert werden, um Betreuungsaufwand und Ressourcen gezielt auf die wichtigsten Kunden auszurichten.",
+      "Die Analyse soll unzuverlässige Zahler ermitteln, damit ihnen gekündigt werden kann.",
+      "Die Analyse soll ausschließlich die Lagerbestände nach Umschlagshäufigkeit ordnen."
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Die ABC-Analyse gruppiert Kunden nach ihrem Anteil am Gesamtumsatz in A- (sehr wichtig), B- (wichtig) und C-Kunden (weniger wichtig). Ziel ist eine zielgenaue Betreuung: Vorhandene Ressourcen (z. B. Außendienstbesuche, Beratungszeit, Sonderkonditionen) werden vorrangig auf die umsatzstarken A-Kunden konzentriert, außerdem lassen sich Ausbau- und Förderpotenziale (etwa bei B-Kunden) erkennen. Gerade die bewusste Ungleichbehandlung nach Bedeutung ist der Kern der Analyse. Zahlungsmoral ist nicht das Einteilungskriterium; die Anwendung auf Lagerbestände ist ein anderer Einsatzbereich der ABC-Analyse, nicht ihr Ziel in der Kundenbetreuung.",
+    "schwierigkeit": 1,
+    "quellTermin": "2025-winter"
+  },
+  {
+    "id": "kbz-lp-kundenkommunikation-24",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "frage": "Im Vertriebsmeeting wird diskutiert, nach welchem Kriterium die Kunden bei der ABC-Analyse eingeteilt werden. Welche Aussage ist richtig?",
+    "optionen": [
+      "Maßgeblich ist die Anzahl der Bestellungen: Wer am häufigsten bestellt, ist automatisch A-Kunde.",
+      "Maßgeblich ist der Anteil am Gesamtumsatz: A-Kunden sind typischerweise wenige Kunden mit sehr hohem Umsatzanteil (ca. 80/20-Regel), C-Kunden viele Kunden mit geringem Umsatzanteil.",
+      "Maßgeblich ist die Zahlungsmoral: Kunden ohne Mahnungen sind A-Kunden.",
+      "Maßgeblich ist die Dauer der Geschäftsbeziehung: Die ältesten Kunden sind A-Kunden.",
+      "Maßgeblich ist die Reklamationsquote: Kunden ohne Reklamationen sind A-Kunden."
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Einteilungskriterium der ABC-Kundenanalyse ist der Umsatzanteil (alternativ der Deckungsbeitrag). Typisch ist die Pareto-Verteilung (80/20-Regel): Etwa 20 % der Kunden (A-Kunden) erwirtschaften rund 80 % des Umsatzes, während die zahlreichen C-Kunden nur einen kleinen Umsatzanteil beisteuern. Bestellhäufigkeit, Zahlungsmoral, Kundendauer oder Reklamationsverhalten können für andere Auswertungen interessant sein, sind aber nicht das Kriterium der klassischen ABC-Analyse.",
+    "schwierigkeit": 1,
+    "quellTermin": "2025-winter"
+  },
+  {
+    "id": "kbz-lp-kundenkommunikation-25",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "frage": "Die Jana Loft KG erzielt einen Gesamtumsatz von 2.400.000,00 €. Die Brandes GmbH & Co. KG trägt dazu 432.000,00 € bei; die beiden einzigen umsatzstärkeren Kunden erreichen Anteile von 35 % und 25 %. A-Kunden sollen zusammen bis ca. 80 % des Umsatzes abdecken. Wie ist die Brandes GmbH & Co. KG einzustufen?",
+    "optionen": [
+      "Als C-Kunde, weil ihr Umsatzanteil unter 20 % liegt.",
+      "Als B-Kunde, weil nur die beiden größten Kunden A-Kunden sein können.",
+      "Als A-Kunde, denn ihr Anteil beträgt 18 % und der kumulierte Anteil der drei größten Kunden liegt mit 78 % noch innerhalb der A-Grenze von ca. 80 %.",
+      "Eine Einstufung ist unmöglich, da die ABC-Analyse nur mit Absatzmengen arbeitet."
+    ],
+    "korrekt": [
+      2
+    ],
+    "erklaerung": "Zuerst den Umsatzanteil berechnen: $$ \\frac{432.000{,}00\\ €}{2.400.000{,}00\\ €} \\times 100\\ \\% = 18\\ \\% $$ Dann die Anteile absteigend kumulieren: $$ 35\\ \\% + 25\\ \\% + 18\\ \\% = 78\\ \\% $$ Da der kumulierte Umsatzanteil mit 78 % die A-Grenze von ca. 80 % noch nicht überschreitet, gehört die Brandes GmbH & Co. KG zu den A-Kunden. Genau so funktioniert die ABC-Analyse: Kunden nach Umsatz sortieren, Anteile kumulieren und anhand der Klassengrenzen (z. B. A bis 80 %, B bis 95 %, C darüber) eingruppieren.",
+    "schwierigkeit": 2,
+    "quellTermin": "2025-winter"
+  },
+  {
+    "id": "kbz-lp-kundenkommunikation-26",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "frage": "Nach der ABC-Analyse stellt die Jana Loft KG fest, dass rund 60 % ihrer Kunden C-Kunden mit sehr geringem Umsatzanteil sind. Wie sollte sie mit diesen Kunden sinnvollerweise umgehen?",
+    "optionen": [
+      "Alle C-Kunden sofort aufgeben, da sie sich nie lohnen werden.",
+      "C-Kunden mit demselben persönlichen Betreuungsaufwand bedienen wie A-Kunden, um Gleichbehandlung sicherzustellen.",
+      "Die Betreuung standardisieren und kosteneffizient gestalten (z. B. Onlineshop, Newsletter, Telefonvertrieb) und dabei Entwicklungspotenziale einzelner Kunden im Blick behalten.",
+      "C-Kunden künftig nur noch gegen Vorkasse mit einem Preisaufschlag von 50 % beliefern."
+    ],
+    "korrekt": [
+      2
+    ],
+    "erklaerung": "C-Kunden tragen einzeln wenig zum Umsatz bei, verursachen aber in Summe erheblichen Betreuungsaufwand. Betriebswirtschaftlich sinnvoll ist daher eine standardisierte, kostengünstige Betreuung – etwa über Onlineshop, Selfservice, Newsletter oder Telefon- statt Außendienstbetreuung. Ein pauschaler Abschied von allen C-Kunden wäre falsch: Sie sichern Grundauslastung, streuen das Risiko und können sich zu B- oder A-Kunden entwickeln. Identischer Aufwand wie bei A-Kunden verschwendet dagegen Ressourcen, und Strafkonditionen würden Kunden nur vertreiben.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "kbz-lp-kundenkommunikation-27",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "frage": "Zur Verbesserung der Kundenkommunikation schult die Jana Loft KG ihre Mitarbeiter im 4-Ohren-Modell nach Schulz von Thun. Auf welchen vier Ebenen wird danach jede Nachricht gesendet und gehört?",
+    "optionen": [
+      "Sachebene, Selbstoffenbarung, Beziehungsebene und Appell",
+      "Einleitung, Hauptteil, Einwandbehandlung und Abschluss",
+      "Verbale, nonverbale, paraverbale und schriftliche Ebene",
+      "Frage, Antwort, Feedback und Zusammenfassung",
+      "Sender, Empfänger, Kanal und Störung"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Das 4-Ohren-Modell (Kommunikationsquadrat) von Friedemann Schulz von Thun besagt, dass jede Nachricht gleichzeitig vier Seiten hat: die Sachebene (worüber ich informiere), die Selbstoffenbarung (was ich von mir zeige), die Beziehungsebene (was ich vom Gegenüber halte bzw. wie wir zueinander stehen) und den Appell (wozu ich das Gegenüber veranlassen möchte). Sender und Empfänger können unterschiedliche „Ohren“ betonen – daraus entstehen viele Missverständnisse im Kundengespräch. Die anderen Optionen mischen Gesprächsphasen, Kommunikationskanäle bzw. das Sender-Empfänger-Modell.",
+    "schwierigkeit": 1,
+    "quellTermin": "2025-winter"
+  },
+  {
+    "id": "kbz-lp-kundenkommunikation-28",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "frage": "Ein Kunde sagt am Telefon: „Die Lieferung ist schon wieder nicht vollständig!“ Die Mitarbeiterin versteht die Aussage vor allem so: „Sorgen Sie dafür, dass mir die fehlenden Teile sofort nachgeliefert werden.“ Mit welchem „Ohr“ des 4-Ohren-Modells hat sie die Nachricht aufgenommen?",
+    "optionen": [
+      "Mit dem Sach-Ohr, denn sie hat nur die reine Information über die Liefermenge gehört.",
+      "Mit dem Appell-Ohr, denn sie hört die Aufforderung heraus, etwas Bestimmtes zu tun.",
+      "Mit dem Selbstoffenbarungs-Ohr, denn sie erfährt etwas über die Gefühlslage des Kunden.",
+      "Mit dem Beziehungs-Ohr, denn sie bezieht die Aussage auf das Verhältnis zwischen Kunde und Unternehmen."
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Wer aus einer Nachricht die Handlungsaufforderung heraushört („Liefere nach!“, „Kümmere dich!“), empfängt sie mit dem Appell-Ohr. Zum Vergleich: Das Sach-Ohr hörte nur die Information „Es fehlen Teile“, das Selbstoffenbarungs-Ohr „Der Kunde ist verärgert/enttäuscht“, das Beziehungs-Ohr „Der Kunde hält uns für unzuverlässig“ (Signalwort „schon wieder“). Im Beschwerdemanagement ist es professionell, neben dem Appell auch die Beziehungs- und Gefühlsebene bewusst wahrzunehmen und anzusprechen, bevor die Sachlösung erarbeitet wird.",
+    "schwierigkeit": 3,
+    "quellTermin": "2025-winter"
+  },
+  {
+    "id": "kbz-lp-kundenkommunikation-29",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "frage": "Die Jana Loft KG will für ihre neuen flexiblen Büromöbel gezielt neue Geschäftskunden gewinnen. Welche **zwei** Maßnahmen eignen sich zur Neukundengewinnung? (2 Antworten)",
+    "optionen": [
+      "Präsentation der Produkte auf Fachmessen der Büro- und Möbelbranche.",
+      "Gewährung von 3 % Skonto an bestehende Kunden bei Zahlung innerhalb von 10 Tagen.",
+      "Gezielte Ansprache potenzieller Kunden über Social Media und Online-Werbung.",
+      "Verlängerung der Aufbewahrungsfristen für Geschäftsbriefe.",
+      "Einführung einer neuen Kostenstellenrechnung im Rechnungswesen."
+    ],
+    "korrekt": [
+      0,
+      2
+    ],
+    "erklaerung": "Zur Neukundengewinnung (Akquise) eignen sich Maßnahmen, mit denen bisher fremde potenzielle Kunden erreicht und angesprochen werden: Messen und Ausstellungen, Werbung im Internet und in Fachmedien, Social-Media-Auftritte, Kundenbesuche des Außendienstes oder die Recherche in IHK- und Branchenverzeichnissen. Skonto ist eine Zahlungsbedingung für bereits bestehende Geschäftsbeziehungen, und Aufbewahrungsfristen oder die Kostenstellenrechnung sind interne organisatorische Themen ohne Akquisewirkung.",
+    "schwierigkeit": 1,
+    "quellTermin": "2025-winter"
+  },
+  {
+    "id": "kbz-lp-kundenkommunikation-30",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "frage": "Die Jana Loft KG lässt die Nachhaltigkeit ihrer neuen Produktlinie von einer unabhängigen Stelle zertifizieren. Welcher Vorteil ergibt sich daraus vor allem für die Kommunikation mit (potenziellen) Kunden?",
+    "optionen": [
+      "Das Zertifikat befreit das Unternehmen von der gesetzlichen Gewährleistungspflicht für die zertifizierten Produkte.",
+      "Das Zertifikat belegt die Nachhaltigkeitsaussagen glaubwürdig durch eine unabhängige Stelle, steigert das Ansehen und ermöglicht die gezielte Ansprache der wachsenden nachhaltigkeitsorientierten Zielgruppe.",
+      "Das Zertifikat garantiert dem Unternehmen dauerhaft höhere Verkaufspreise, die Kunden akzeptieren müssen.",
+      "Das Zertifikat ersetzt sämtliche Pflichtangaben auf Rechnungen und in Werbematerialien."
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Ein Nachhaltigkeitszertifikat einer unabhängigen Stelle macht Werbeaussagen glaubwürdig und überprüfbar – das schützt zugleich vor dem Vorwurf des „Greenwashings“. Es steigert das Ansehen und die Attraktivität des Unternehmens, hat hohen Marketingnutzen und erlaubt die gezielte Ansprache der stark wachsenden Zielgruppe nachhaltigkeitsbewusster Kunden; zudem signalisiert es Zukunftsfähigkeit. Rechtliche Pflichten wie Gewährleistung oder Rechnungspflichtangaben bleiben davon unberührt, und eine Preisgarantie gibt es selbstverständlich nicht.",
+    "schwierigkeit": 2,
+    "quellTermin": "2025-winter"
+  },
+  {
+    "id": "kbz-lp-kundenkommunikation-31",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "frage": "Die Jana Loft KG plant eine schriftliche Befragung von 800 Bestandskunden zum Thema Nachhaltigkeit. Die Ergebnisse sollen anschließend statistisch ausgewertet und in Diagrammen dargestellt werden. Welcher Fragetyp sollte im Fragebogen deshalb überwiegen?",
+    "optionen": [
+      "Offene W-Fragen, weil sie die ausführlichsten Antworten liefern.",
+      "Suggestivfragen, weil sie die gewünschten Antworten sicherstellen.",
+      "Geschlossene Fragen mit vorgegebenen Antwortmöglichkeiten, weil sie sich bei großen Teilnehmerzahlen schnell und eindeutig auswerten lassen.",
+      "Gegenfragen, weil sie den Dialog mit dem Kunden fördern."
+    ],
+    "korrekt": [
+      2
+    ],
+    "erklaerung": "Für die quantitative Auswertung großer Stichproben eignen sich geschlossene Fragen (Ja/Nein, Auswahl- oder Skalenfragen): Die Antworten sind standardisiert, vergleichbar und lassen sich maschinell auszählen und grafisch darstellen. Offene Fragen liefern zwar reichhaltige, individuelle Informationen, sind aber bei 800 Teilnehmern nur mit großem Aufwand auswertbar – sie werden sinnvollerweise nur ergänzend eingesetzt. Suggestivfragen verfälschen die Ergebnisse und sind in der Marktforschung unprofessionell; Gegenfragen sind ein Instrument des Gesprächs, nicht des Fragebogens.",
+    "schwierigkeit": 2,
+    "quellTermin": "2025-winter"
+  },
+  {
+    "id": "kbz-lp-kundenkommunikation-32",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "frage": "Bei der letzten Kundenbefragung der Jana Loft KG lag die Rücklaufquote nur bei 8 %. Welche Maßnahme ist am besten geeignet, die Rücklaufquote der nächsten Befragung zu erhöhen?",
+    "optionen": [
+      "Den Fragebogen deutlich verlängern, damit sich die Teilnahme für die Kunden „mehr lohnt“.",
+      "Den Fragebogen kurz und verständlich halten, die Teilnahme so einfach wie möglich machen (z. B. Online-Formular) und einen Anreiz wie ein Gewinnspiel oder einen Gutschein bieten.",
+      "Nur noch Kunden befragen, die sich in der Vergangenheit beschwert haben.",
+      "Die Befragung ohne Ankündigung mehrfach täglich per Telefon wiederholen, bis jeder Kunde geantwortet hat."
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Die Rücklaufquote steigt, wenn die Teilnahmehürden sinken und ein Nutzen erkennbar ist: kurzer, klar formulierter Fragebogen, bequemer Kanal (Online-Link, QR-Code), persönliche Ansprache mit Erläuterung des Zwecks, ggf. Erinnerung nach angemessener Zeit sowie Anreize (Gewinnspiel, Gutschein, Ergebniszusammenfassung). Ein längerer Fragebogen senkt die Teilnahmebereitschaft, die Beschränkung auf Beschwerdeführer verzerrt die Ergebnisse (keine repräsentative Auswahl), und aggressives Nachtelefonieren verärgert Kunden und schadet der Kundenbeziehung.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "kbz-lp-kundenkommunikation-33",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "frage": "Eine Mitarbeiterin erklärt einem Kunden am Telefon die Montage eines Regalsystems. Der Kunde versteht die Anleitung falsch, weil im Großraumbüro des Kunden Lärm herrscht und die Mitarbeiterin viele Fachbegriffe verwendet. Welche Maßnahme reduziert solche Kommunikationsstörungen am wirksamsten?",
+    "optionen": [
+      "Die Mitarbeiterin sollte schneller sprechen, damit die Information vor der nächsten Störung vollständig übermittelt ist.",
+      "Die Mitarbeiterin sollte verständlich und in angemessenem Tempo formulieren, Fachbegriffe erklären und sich durch Rückfragen (Feedback) vergewissern, dass der Kunde die Inhalte richtig verstanden hat.",
+      "Der Kunde ist allein für das richtige Verständnis verantwortlich; die Mitarbeiterin muss nichts ändern.",
+      "Die Mitarbeiterin sollte das Gespräch sofort beenden und stattdessen kommentarlos ein Fachdatenblatt zusenden."
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Im Sender-Empfänger-Modell können Störungen auf dem Übertragungsweg (Lärm, schlechte Verbindung) und bei der Codierung/Decodierung (Fachjargon, unklare Formulierungen) auftreten. Der Sender minimiert sie durch empfängergerechte Sprache, angemessenes Tempo und das aktive Einholen von Feedback („Habe ich das verständlich erklärt?“, Zusammenfassen lassen) – so wird das Verständnis überprüft, bevor Fehler entstehen. Kommunikation ist beidseitige Verantwortung; schnelleres Sprechen verschärft das Problem, und der Abbruch des Gesprächs ohne Klärung ist kundenunfreundlich (ein ergänzendes Datenblatt kann aber sinnvoll sein).",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "kbz-lp-kundenkommunikation-34",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "frage": "Die Jana Loft KG führt ein CRM-System (Customer-Relationship-Management) ein. Ein Kunde ruft an und muss sein Anliegen nicht erneut schildern, weil die Mitarbeiterin die gesamte Kontakthistorie einsehen kann. Welcher Nutzen des CRM-Systems für die Kundenkommunikation zeigt sich hier vor allem?",
+    "optionen": [
+      "Das CRM-System ersetzt die persönliche Kundenbetreuung vollständig durch automatisierte Antworten.",
+      "Alle Kundendaten und Kontakte (Angebote, Bestellungen, Reklamationen, Gesprächsnotizen) sind zentral dokumentiert, sodass jeder Mitarbeiter auskunftsfähig ist und der Kunde konsistent und individuell betreut werden kann.",
+      "Das CRM-System dient in erster Linie der Überwachung der Arbeitszeiten der Vertriebsmitarbeiter.",
+      "Das CRM-System macht Gesprächsnotizen überflüssig, da Telefonate nicht mehr dokumentiert werden müssen."
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Kernnutzen eines CRM-Systems ist die zentrale, für alle berechtigten Mitarbeiter zugängliche Dokumentation der gesamten Kundenbeziehung: Stammdaten, Angebote, Aufträge, Reklamationen und Gesprächsnotizen. Dadurch ist jeder Ansprechpartner sofort auskunftsfähig, der Kunde muss sein Anliegen nicht wiederholen, Zusagen bleiben nachvollziehbar und Ansprachen (z. B. Angebote zur ABC-Klasse passend) lassen sich individualisieren – das stärkt die Kundenbindung. Gesprächsnotizen werden dadurch nicht überflüssig, sondern gerade im CRM erfasst; die persönliche Betreuung wird unterstützt, nicht ersetzt.",
+    "schwierigkeit": 3
+  },
+  {
+    "id": "kbz-lp-rechnung-umsatzsteuer-23",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "frage": "Die Jana Loft KG prüft die Eingangsrechnung eines neuen Lieferanten. Dabei wird zwischen sachlicher und rechnerischer Rechnungsprüfung unterschieden. Welche Zuordnung ist richtig?",
+    "optionen": [
+      "Sachliche Prüfung: Kontrolle der Additionen und der Umsatzsteuerberechnung; rechnerische Prüfung: Abgleich mit der Bestellung.",
+      "Sachliche Prüfung: Abgleich der Rechnung mit Bestellung, Lieferschein und vereinbarten Konditionen (z. B. Preise, Nachlässe, Empfängeradresse); rechnerische Prüfung: Kontrolle der Beträge, Summen, Nachlass- und Umsatzsteuerberechnung.",
+      "Beide Prüfungen sind identisch; die Begriffe werden nur synonym verwendet.",
+      "Die sachliche Prüfung übernimmt immer das Finanzamt, die rechnerische Prüfung der Lieferant."
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Bei der sachlichen Rechnungsprüfung wird kontrolliert, ob die Rechnung inhaltlich mit dem Geschäftsvorfall übereinstimmt: Stimmen Empfängeradresse, Artikel, Mengen und Preise mit Bestellung und Lieferschein überein? Wurden die vereinbarten Preisnachlässe und Zahlungsbedingungen übernommen? Sind die Pflichtangaben nach § 14 UStG enthalten? Bei der rechnerischen Prüfung wird kontrolliert, ob richtig gerechnet wurde: Positionssummen, Nachlassbeträge, Nettobetrag, Umsatzsteuer und Bruttobetrag. Beide Prüfungen führt das rechnungsempfangende Unternehmen selbst durch, bevor die Rechnung gebucht und bezahlt wird.",
+    "schwierigkeit": 1,
+    "quellTermin": "2025-winter"
+  },
+  {
+    "id": "kbz-lp-rechnung-umsatzsteuer-24",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "frage": "Sie führen die Prüfung einer Eingangsrechnung über Monitorhalterungen durch. Welche **zwei** der folgenden Prüfschritte gehören zur **sachlichen** Rechnungsprüfung? (2 Antworten)",
+    "optionen": [
+      "Kontrolle, ob die berechneten Artikel und Mengen mit Bestellung und Lieferschein übereinstimmen.",
+      "Nachrechnen, ob der Rabattbetrag korrekt vom Warenwert abgezogen wurde.",
+      "Kontrolle, ob die im Angebot zugesagten Zahlungsbedingungen (z. B. Skontosatz) korrekt übernommen wurden.",
+      "Nachrechnen der 19 % Umsatzsteuer auf den Nettobetrag.",
+      "Nachrechnen der Additionen aller Rechnungspositionen zur Gesamtsumme."
+    ],
+    "korrekt": [
+      0,
+      2
+    ],
+    "erklaerung": "Sachliche Prüfung = inhaltlicher Abgleich mit den Vertragsunterlagen: Stimmen Artikel, Mengen und Einzelpreise mit Bestellung und Lieferschein überein (Option 1)? Wurden vereinbarte Konditionen wie Rabatt- und Skontosätze oder die Lieferklausel korrekt übernommen (Option 3)? Auch Empfängeradresse und Pflichtangaben gehören dazu. Rechnerische Prüfung = Kontrolle der Rechenoperationen: Nachlassbeträge (Option 2), Umsatzsteuerbetrag (Option 4) und Summenbildung (Option 5) nachrechnen. Merkhilfe: sachlich = „Was steht drin und ist es vereinbart?“, rechnerisch = „Ist es richtig gerechnet?“",
+    "schwierigkeit": 2,
+    "quellTermin": "2025-winter"
+  },
+  {
+    "id": "kbz-lp-rechnung-umsatzsteuer-25",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "frage": "Eine Eingangsrechnung weist aus: Warenwert 2.600,00 €, „− 15 % Neukundenrabatt: 338,00 €“. Bei der rechnerischen Prüfung stutzen Sie. Welcher Rabattbetrag wäre korrekt?",
+    "optionen": [
+      "338,00 € – die Rechnung ist korrekt.",
+      "390,00 €",
+      "364,00 €",
+      "260,00 €"
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Der Rabatt wird auf den Warenwert berechnet: $$ 2.600{,}00\\ € \\times 15\\ \\% = 390{,}00\\ € $$ Der ausgewiesene Betrag von 338,00 € (das wären nur 13 %) ist also rechnerisch falsch – der Nettobetrag, die darauf berechnete Umsatzsteuer und der Bruttobetrag wären dadurch ebenfalls falsch. Konsequenz in der Praxis: Die fehlerhafte Rechnung wird nicht gebucht; vom Lieferanten ist eine korrigierte Rechnung anzufordern.",
+    "schwierigkeit": 2,
+    "quellTermin": "2025-winter"
+  },
+  {
+    "id": "kbz-lp-rechnung-umsatzsteuer-26",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "frage": "Bei der Rechnungsprüfung stellt die Jana Loft KG fest, dass der Lieferant den Rabatt falsch berechnet hat; dadurch stimmen auch Nettobetrag, Umsatzsteuer und Bruttobetrag nicht. Wie ist mit der fehlerhaften Eingangsrechnung umzugehen?",
+    "optionen": [
+      "Die Rechnung wird trotzdem unverändert gebucht und bezahlt, kleine Fehler gleichen sich über das Jahr aus.",
+      "Die Rechnung wird nicht gebucht; vom Lieferanten wird eine korrigierte Rechnung (Rechnungsberichtigung) angefordert.",
+      "Die Buchhaltung korrigiert die Beträge eigenmächtig auf dem Originalbeleg mit Korrekturstift und bucht dann.",
+      "Die Rechnung wird vernichtet, damit sie nicht versehentlich bezahlt wird; ein neuer Beleg ist nicht erforderlich."
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Eine rechnerisch oder sachlich fehlerhafte Rechnung darf nicht gebucht werden – Belege müssen den Geschäftsvorfall richtig wiedergeben (Grundsatz: keine Buchung ohne ordnungsgemäßen Beleg). Richtig ist, den Lieferanten zu informieren und eine berichtigte Rechnung anzufordern; auch der Vorsteuerabzug setzt eine ordnungsgemäße Rechnung voraus. Eigenmächtige Änderungen am Fremdbeleg verstoßen gegen die Grundsätze ordnungsmäßiger Buchführung, und Vernichten scheidet aus – auch fehlerhafte Belege und der Schriftwechsel dazu sind aufzubewahren.",
+    "schwierigkeit": 2,
+    "quellTermin": "2025-winter"
+  },
+  {
+    "id": "kbz-lp-rechnung-umsatzsteuer-27",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "frage": "Eine Eingangsrechnung lautet über netto 3.184,20 €; die Zahlungsbedingung gewährt „innerhalb von 10 Tagen 2 % Skonto auf den Netto-Warenwert“. Wie hoch ist der Netto-Skontobetrag (kaufmännisch gerundet)?",
+    "optionen": [
+      "31,84 €",
+      "63,68 €",
+      "63,69 €",
+      "636,84 €"
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Der Skontobetrag wird laut Zahlungsbedingung auf den Netto-Warenwert berechnet: $$ 3.184{,}20\\ € \\times 2\\ \\% = 63{,}684\\ € \\approx 63{,}68\\ € $$ Kaufmännisch wird ab der Ziffer 5 aufgerundet, hier steht an der dritten Nachkommastelle eine 4 – also abrunden auf 63,68 €. 31,84 € wären 1 %, 636,84 € wären 20 %. Achtung bei solchen Klauseln: Das Skonto mindert hier nur den Warenwert, nicht z. B. gesondert berechnete, nicht skontofähige Nebenkosten.",
+    "schwierigkeit": 1,
+    "quellTermin": "2025-winter"
+  },
+  {
+    "id": "kbz-lp-rechnung-umsatzsteuer-28",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "frage": "Ein Lieferant hat auf einer Rechnung versehentlich 19 % Umsatzsteuer berechnet, obwohl für die gelieferten Waren nur der ermäßigte Satz von 7 % gilt. Welche Folge hat der zu hohe Steuerausweis für den Lieferanten?",
+    "optionen": [
+      "Keine – maßgeblich ist immer nur der gesetzlich richtige Steuersatz, der Ausweis auf der Rechnung ist unerheblich.",
+      "Der Lieferant schuldet den zu hoch ausgewiesenen Steuerbetrag dem Finanzamt (§ 14c UStG), solange er die Rechnung nicht berichtigt.",
+      "Der Rechnungsempfänger darf sich den Differenzbetrag direkt vom Finanzamt erstatten lassen.",
+      "Die Rechnung wird automatisch nichtig und muss nicht bezahlt werden."
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Wer in einer Rechnung einen höheren Steuerbetrag ausweist, als gesetzlich geschuldet ist (unrichtiger Steuerausweis), schuldet dem Finanzamt auch den Mehrbetrag (§ 14c Abs. 1 UStG) – hier also die vollen 19 %, obwohl nur 7 % richtig wären. Erst mit einer Rechnungsberichtigung kann der Lieferant die Mehrsteuer korrigieren. Für den Empfänger ist der Vorsteuerabzug grundsätzlich nur in Höhe der gesetzlich geschuldeten Steuer (7 %) möglich – auch er sollte daher auf einer korrigierten Rechnung bestehen. Die Rechnung ist nicht nichtig, sondern fehlerhaft und zu berichtigen.",
+    "schwierigkeit": 3
+  },
+  {
+    "id": "kbz-lp-rechnung-umsatzsteuer-29",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "frage": "Die Buchhaltung der Jana Loft KG diskutiert, welche Rechnungen als „E-Rechnung“ im Sinne des Umsatzsteuerrechts (Stand 2025/2026) gelten. Welche Aussage ist richtig?",
+    "optionen": [
+      "Jede per E-Mail versendete PDF-Rechnung ist eine E-Rechnung im Sinne des Gesetzes.",
+      "Eine E-Rechnung muss in einem strukturierten elektronischen Format vorliegen, das eine elektronische Verarbeitung ermöglicht (z. B. XRechnung oder ZUGFeRD gemäß Norm EN 16931).",
+      "Nur eingescannte und archivierte Papierrechnungen gelten als E-Rechnungen.",
+      "E-Rechnungen sind nur zulässig, wenn der Empfänger ein Verbraucher ist."
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Seit dem 01.01.2025 ist die E-Rechnung im inländischen B2B-Geschäft der gesetzliche Standard. Eine E-Rechnung im Sinne des § 14 UStG liegt nur vor, wenn die Rechnung in einem strukturierten elektronischen Format ausgestellt, übermittelt und empfangen wird, das der europäischen Norm EN 16931 entspricht und eine automatische elektronische Verarbeitung ermöglicht – etwa XRechnung (reines XML) oder ZUGFeRD (Hybrid aus PDF mit eingebettetem XML). Eine einfache PDF- oder Papierrechnung ist dagegen nur eine „sonstige Rechnung“. Verbrauchergeschäfte (B2C) sind von der Pflicht gerade nicht erfasst.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "kbz-lp-rechnung-umsatzsteuer-30",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "frage": "Ein kleiner Lieferant (Vorjahresumsatz 350.000 €) erklärt im Januar 2026, er könne E-Rechnungen „weder empfangen noch ausstellen, das gelte für ihn alles noch nicht“. Welche Aussage zur Rechtslage (E-Rechnungspflicht im inländischen B2B-Bereich) ist richtig?",
+    "optionen": [
+      "Er hat recht – die E-Rechnungspflicht beginnt für alle Unternehmen erst 2030.",
+      "Empfangen können muss er E-Rechnungen bereits seit dem 01.01.2025; für das Ausstellen gelten Übergangsfristen, während derer u. a. Papier- und (mit Zustimmung) PDF-Rechnungen noch zulässig sind.",
+      "Er muss seit 2025 ausnahmslos jede Rechnung als E-Rechnung ausstellen, auch an private Endkunden.",
+      "Die E-Rechnungspflicht betrifft nur Unternehmen mit mehr als 100 Mitarbeitern."
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Seit dem 01.01.2025 müssen alle inländischen Unternehmen im B2B-Bereich E-Rechnungen empfangen können – dafür gibt es keine Übergangsfrist und keine Umsatzgrenze; ein E-Mail-Postfach genügt. Für das Ausstellen gelten Übergangsregelungen: Bis Ende 2026 dürfen für B2B-Umsätze weiterhin Papierrechnungen und (mit Zustimmung des Empfängers) sonstige elektronische Formate wie PDF verwendet werden; Unternehmen mit einem Vorjahresumsatz bis 800.000 € haben dafür sogar bis Ende 2027 Zeit. Danach ist die E-Rechnung im B2B-Geschäft verpflichtend. Rechnungen an Verbraucher (B2C) sind nicht betroffen.",
+    "schwierigkeit": 3
+  },
+  {
+    "id": "kbz-lp-rechnung-umsatzsteuer-31",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "frage": "Eine Existenzgründerin fertigt Büroaccessoires und erwartet zunächst geringe Umsätze. Sie fragt nach der Kleinunternehmerregelung (§ 19 UStG, Rechtsstand 2025). Welche **zwei** Aussagen sind richtig? (2 Antworten)",
+    "optionen": [
+      "Die Regelung gilt, wenn der Gesamtumsatz im Vorjahr 25.000 € nicht überschritten hat und im laufenden Jahr 100.000 € nicht überschreitet.",
+      "Kleinunternehmer weisen in ihren Rechnungen keine Umsatzsteuer aus und können im Gegenzug keine Vorsteuer aus Eingangsrechnungen abziehen.",
+      "Die Umsatzgrenzen liegen unverändert bei 22.000 € und 50.000 €.",
+      "Kleinunternehmer dürfen Umsatzsteuer ausweisen und behalten diese als zusätzlichen Gewinn.",
+      "Die Kleinunternehmerregelung ist für alle Gründer in den ersten fünf Jahren verpflichtend."
+    ],
+    "korrekt": [
+      0,
+      1
+    ],
+    "erklaerung": "Seit dem 01.01.2025 gelten für die Kleinunternehmerregelung neue Grenzen: Der Gesamtumsatz darf im Vorjahr 25.000 € nicht überschritten haben und im laufenden Jahr 100.000 € nicht überschreiten (bei Überschreiten der 100.000 € entfällt die Regelung ab diesem Umsatz). Die alten Grenzen 22.000 €/50.000 € sind überholt. Folgen: Kleinunternehmer erheben keine Umsatzsteuer und dürfen sie nicht ausweisen – tun sie es doch, schulden sie den Betrag nach § 14c UStG; im Gegenzug haben sie keinen Vorsteuerabzug. Die Regelung ist ein Wahlrecht, keine Pflicht – wer z. B. hohe Anfangsinvestitionen hat, kann zur Regelbesteuerung optieren, um die Vorsteuer zu erhalten.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "kbz-lp-rechnung-umsatzsteuer-32",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "frage": "Die Möbelwerk KG hatte im Vorjahr eine Umsatzsteuer-Zahllast von 26.400,00 €. Welche Aussage zur Umsatzsteuer-Voranmeldung (Rechtsstand 2025) ist richtig?",
+    "optionen": [
+      "Sie muss die Voranmeldung monatlich elektronisch übermitteln, da die Vorjahres-Zahllast über 9.000 € lag; Frist ist grundsätzlich der 10. Tag nach Ablauf des Voranmeldungszeitraums.",
+      "Sie muss die Voranmeldung nur einmal jährlich zusammen mit der Steuererklärung in Papierform abgeben.",
+      "Sie kann sich von der Voranmeldung befreien lassen, da die Zahllast unter 100.000 € liegt.",
+      "Voranmeldungen sind freiwillig; verpflichtend ist nur die Zahlung am Jahresende."
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Der Voranmeldungszeitraum richtet sich nach der Zahllast des Vorjahres (Rechtsstand 2025): über 9.000 € → monatlich; bis 9.000 € → vierteljährlich; bis 2.000 € → auf Antrag Befreiung von der Voranmeldungspflicht (nur Jahreserklärung). Mit 26.400 € Vorjahres-Zahllast muss die Möbelwerk KG also monatlich voranmelden. Die Voranmeldung ist elektronisch (ELSTER) bis zum 10. Tag nach Ablauf des Voranmeldungszeitraums zu übermitteln und die Zahllast zu entrichten; mit Dauerfristverlängerung verschiebt sich die Frist um einen Monat (bei Monatszahlern gegen Sondervorauszahlung von 1/11).",
+    "schwierigkeit": 3
+  },
+  {
+    "id": "kbz-lp-rechnung-umsatzsteuer-33",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "frage": "Im Voranmeldungszeitraum verkauft die Jana Loft KG Waren für 85.000,00 € netto (Regelsteuersatz 19 %) und kauft Material für 42.000,00 € netto (ebenfalls 19 %) ein. Wie hoch ist die Umsatzsteuer-Zahllast?",
+    "optionen": [
+      "8.170,00 €",
+      "16.150,00 €",
+      "7.980,00 €",
+      "24.130,00 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Zuerst Umsatzsteuer und Vorsteuer aus den Nettowerten berechnen: $$ \\text{USt} = 85.000{,}00\\ € \\times 19\\ \\% = 16.150{,}00\\ € $$ $$ \\text{VSt} = 42.000{,}00\\ € \\times 19\\ \\% = 7.980{,}00\\ € $$ Dann die Zahllast ermitteln: $$ \\text{Zahllast} = 16.150{,}00\\ € - 7.980{,}00\\ € = 8.170{,}00\\ € $$ Die vereinnahmte Umsatzsteuer aus den Verkäufen wird um die an Lieferanten gezahlte, als Vorsteuer abziehbare Umsatzsteuer gemindert – nur die Differenz ist an das Finanzamt abzuführen. 16.150,00 € und 7.980,00 € sind nur Zwischenwerte, 24.130,00 € wäre die (falsche) Addition.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "kbz-lp-rechnung-umsatzsteuer-34",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "frage": "Ein Verlag berechnet der Jana Loft KG für Fachbücher (ermäßigter Steuersatz 7 %) einen Bruttobetrag von 1.605,00 €. Wie hoch sind Nettobetrag und enthaltene Umsatzsteuer?",
+    "optionen": [
+      "Netto 1.500,00 €; USt 105,00 €",
+      "Netto 1.492,65 €; USt 112,35 €",
+      "Netto 1.348,74 €; USt 256,26 €",
+      "Netto 1.605,00 €; USt 112,35 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Der Bruttobetrag entspricht 107 % des Nettobetrags. Herausrechnen des Nettowerts: $$ \\text{Netto} = \\frac{1.605{,}00\\ €}{1{,}07} = 1.500{,}00\\ € $$ $$ \\text{USt} = 1.605{,}00\\ € - 1.500{,}00\\ € = 105{,}00\\ € $$ Probe: 1.500,00 € × 7 % = 105,00 €. Häufiger Fehler: 7 % direkt vom Bruttobetrag zu berechnen (1.605,00 € × 7 % = 112,35 €) – das ist falsch, weil die Steuer im Bruttobetrag bereits enthalten ist und sich auf den Nettowert bezieht.",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "kbz-lp-rechnung-umsatzsteuer-35",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "frage": "Die Jana Loft KG hat einem Kunden 25 Stühle berechnet (Rechnung bereits versandt). Der Kunde sendet 5 beschädigte Stühle berechtigt zurück. Wie wird der Vorgang abgerechnet, und welche Wirkung hat er auf die Umsatzsteuer der Jana Loft KG?",
+    "optionen": [
+      "Die ursprüngliche Rechnung bleibt unverändert bestehen; der Kunde muss den vollen Betrag zahlen und die Stühle entsorgen.",
+      "Die Jana Loft KG erstellt eine (kaufmännische) Gutschrift bzw. Rechnungskorrektur über die 5 Stühle; ihre Forderung und die geschuldete Umsatzsteuer mindern sich entsprechend.",
+      "Die Jana Loft KG erhöht die Umsatzsteuer, da Rücksendungen als zusätzlicher Umsatz gelten.",
+      "Der Kunde muss selbst eine Rechnung an das Finanzamt stellen, um die Umsatzsteuer zurückzuerhalten."
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Bei einer berechtigten Warenrücksendung mindert sich das vereinbarte Entgelt. Die Jana Loft KG dokumentiert das durch eine Rechnungskorrektur – im Geschäftsalltag „Gutschrift“ genannt (korrekt: Rechnungskorrektur/Stornorechnung; die umsatzsteuerliche „Gutschrift“ i. S. d. § 14 UStG ist dagegen eine vom Leistungsempfänger ausgestellte Abrechnung). Folge: Die Forderung gegenüber dem Kunden sinkt um den Wert der 5 Stühle, und die geschuldete Umsatzsteuer mindert sich anteilig (Änderung der Bemessungsgrundlage, § 17 UStG). Spiegelbildlich muss der Kunde seinen Vorsteuerabzug kürzen.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "kbz-lp-rechnung-umsatzsteuer-36",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "frage": "Beim Aufräumen des Archivs fragt ein Auszubildender, welche Aufbewahrungsfristen (Rechtsstand 2025, nach dem Bürokratieentlastungsgesetz IV) für verschiedene Unterlagen gelten. Welche Aussage ist richtig?",
+    "optionen": [
+      "Alle Geschäftsunterlagen müssen einheitlich 10 Jahre aufbewahrt werden.",
+      "Buchungsbelege (z. B. Ein- und Ausgangsrechnungen) sind 8 Jahre, empfangene und abgesandte Handelsbriefe 6 Jahre, Handelsbücher, Inventare und Jahresabschlüsse 10 Jahre aufzubewahren.",
+      "Handelsbriefe sind 10 Jahre, Jahresabschlüsse nur 6 Jahre aufzubewahren.",
+      "Nach der Umstellung auf E-Rechnungen entfallen sämtliche Aufbewahrungspflichten."
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Durch das Bürokratieentlastungsgesetz IV wurde die Aufbewahrungsfrist für Buchungsbelege (dazu zählen Ein- und Ausgangsrechnungen) ab 2025 von 10 auf 8 Jahre verkürzt. Unverändert gelten: 6 Jahre für empfangene und abgesandte Handels- und Geschäftsbriefe sowie 10 Jahre für Handelsbücher, Inventare, Eröffnungsbilanzen, Jahresabschlüsse und Lageberichte (§ 257 HGB, § 147 AO). Die Fristen beginnen mit dem Schluss des Kalenderjahres, in dem die Unterlage entstanden ist. Auch elektronische Rechnungen unterliegen der Aufbewahrungspflicht – sie sind im strukturierten Originalformat revisionssicher zu archivieren.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "kbz-lp-rechnung-umsatzsteuer-37",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "frage": "Die Jana Loft KG möchte aus einer Eingangsrechnung die Vorsteuer geltend machen. Welche **zwei** Voraussetzungen müssen dafür u. a. erfüllt sein? (2 Antworten)",
+    "optionen": [
+      "Es liegt eine ordnungsgemäße Rechnung mit den Pflichtangaben nach § 14 Abs. 4 UStG vor (bei Beträgen über 250 € brutto keine Kleinbetragsrechnung ausreichend ohne Empfängerangabe).",
+      "Die Lieferung oder Leistung wurde von einem Unternehmer für das Unternehmen der Jana Loft KG ausgeführt.",
+      "Die Rechnung wurde bereits vollständig bezahlt – vorher ist ein Vorsteuerabzug generell ausgeschlossen.",
+      "Der Lieferant ist Kleinunternehmer nach § 19 UStG und weist deshalb keine Umsatzsteuer aus.",
+      "Die Rechnung wurde von der Geschäftsleitung persönlich unterschrieben."
+    ],
+    "korrekt": [
+      0,
+      1
+    ],
+    "erklaerung": "Voraussetzungen des Vorsteuerabzugs (§ 15 UStG): Die Lieferung/Leistung muss von einem anderen Unternehmer für das eigene Unternehmen erbracht worden sein, und es muss eine ordnungsgemäße Rechnung mit den Pflichtangaben des § 14 Abs. 4 UStG vorliegen (bei Kleinbetragsrechnungen bis 250 € brutto gelten erleichterte Angaben). Nicht erforderlich ist bei der Sollversteuerung die vorherige Bezahlung – der Abzug ist grundsätzlich bereits mit Leistungsbezug und Rechnungserhalt möglich. Aus Rechnungen von Kleinunternehmern gibt es keinen Vorsteuerabzug, da dort gar keine Umsatzsteuer ausgewiesen wird; eine Unterschrift ist keine Rechnungspflichtangabe.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "kbz-lp-personalwirtschaft-21",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "frage": "In der Personaldatei der Produktion sind **15 Personen** erfasst, darunter **3 Auszubildende**, **2 Mitarbeiterinnen in Elternzeit** (über den Stichtag hinaus) und **1 Mitarbeiter**, der zum 01.12. in Rente gegangen ist. Auszubildende und Mitarbeiter/-innen in Elternzeit gehören nicht zum aktiven Personalbestand. Wie hoch ist der **aktive Personalbestand** zum 01.01.?",
+    "optionen": [
+      "9 Beschäftigte",
+      "10 Beschäftigte",
+      "11 Beschäftigte",
+      "15 Beschäftigte"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Rechenweg: 15 erfasste Personen − 3 Auszubildende − 2 Mitarbeiterinnen in Elternzeit − 1 Rentner = **9 aktive Beschäftigte**. Die Distraktoren zeigen typische Fehler: 10 vergisst, den ausgeschiedenen Rentner abzuziehen (15 − 3 − 2), 11 zieht die Elternzeit nicht ab (15 − 3 − 1), und 15 zählt einfach alle in der Datei erfassten Personen, obwohl Auszubildende, Elternzeitler und Ausgeschiedene nicht zum aktiven Bestand gehören.",
+    "schwierigkeit": 1,
+    "quellTermin": "2025-winter"
+  },
+  {
+    "id": "kbz-lp-personalwirtschaft-22",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "frage": "Der aktive Personalbestand in der Produktion beträgt **10 Beschäftigte** und soll wegen einer Produktionserweiterung um **35 %** erhöht werden. Wie viele **zusätzliche Vollzeitkräfte** werden benötigt?",
+    "optionen": [
+      "4 zusätzliche Vollzeitkräfte",
+      "3 zusätzliche Vollzeitkräfte",
+      "3,5 zusätzliche Vollzeitkräfte",
+      "14 zusätzliche Vollzeitkräfte"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Rechenweg: $$10 \\cdot \\frac{35}{100} = 3{,}5$$ Da der zusätzliche Personalbedarf vollständig gedeckt werden muss, wird auf ganze Vollzeitkräfte **aufgerundet: 4**. Mit nur 3 Kräften (abgerundet) würde die Vorgabe von 35 % verfehlt. 3,5 Vollzeitkräfte sind keine einstellbare ganze Person, und 14 wäre der neue Gesamtbestand (10 + 4), nicht die Zahl der zusätzlich benötigten Kräfte.",
+    "schwierigkeit": 2,
+    "quellTermin": "2025-winter"
+  },
+  {
+    "id": "kbz-lp-personalwirtschaft-23",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "frage": "Eine frei gewordene Stelle als Tischlermeister/-in soll besetzt werden. Welche Maßnahme gehört zur **internen Personalbeschaffung**?",
+    "optionen": [
+      "Aushang der Stellenanzeige am schwarzen Brett bzw. im Intranet des Unternehmens",
+      "Stellenanzeige in der lokalen Tageszeitung",
+      "Vermittlung durch die Agentur für Arbeit",
+      "Überlassung von Arbeitskräften durch ein Zeitarbeitsunternehmen",
+      "Stellenausschreibung auf der Karriereseite der Unternehmens-Homepage"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Interne Personalbeschaffung richtet sich an die **eigenen Mitarbeiter/-innen**, z. B. per Aushang am schwarzen Brett oder im Intranet. Alle anderen Wege sprechen externe Bewerber an: Tageszeitung, Agentur für Arbeit und Zeitarbeit sind klassische externe Kanäle. Achtung Stolperfalle: Auch die **eigene Homepage** zählt zur externen Beschaffung, denn sie wendet sich an Interessenten außerhalb des Unternehmens.",
+    "schwierigkeit": 1,
+    "quellTermin": "2025-winter"
+  },
+  {
+    "id": "kbz-lp-personalwirtschaft-24",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "frage": "Für die Stelle eines Tischlermeisters/einer Tischlermeisterin soll eine Stellenanzeige formuliert werden. Welche Formulierung verstößt gegen das **Allgemeine Gleichbehandlungsgesetz (AGG)**?",
+    "optionen": [
+      "„Tischlermeister/-in (m/w/d) mit Ausbildereignung gesucht“",
+      "„Junger, belastbarer Tischlermeister gesucht“",
+      "„Tischlermeister/-in (m/w/d), Berufserfahrung erwünscht“",
+      "„Tischlermeister/-in (m/w/d) in Vollzeit, unbefristet“"
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Die Formulierung „**junger** Tischlermeister“ diskriminiert wegen des **Alters**, und die ausschließlich männliche Berufsbezeichnung ohne den Zusatz (m/w/d) diskriminiert wegen des **Geschlechts** – beides verstößt gegen § 1 i. V. m. § 11 AGG (Benachteiligungsverbote gelten auch für Stellenausschreibungen). Die übrigen Anzeigen sind AGG-konform: Der Zusatz (m/w/d) ist geschlechtsneutral, und Anforderungen wie Ausbildereignung oder Berufserfahrung sind zulässige, tätigkeitsbezogene Kriterien.",
+    "schwierigkeit": 2,
+    "quellTermin": "2025-winter"
+  },
+  {
+    "id": "kbz-lp-personalwirtschaft-25",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "frage": "In einem Betrieb mit Betriebsrat sollen Bewerbungen gesichtet und ein neuer Mitarbeiter eingestellt werden. Welche **2 Aussagen** zu den Rechten des **Betriebsrats bei der Einstellung** (§ 99 BetrVG) sind richtig?",
+    "optionen": [
+      "Der Betriebsrat hat beim Einstellungsverfahren lediglich ein Informationsrecht.",
+      "Der Betriebsrat kann verlangen, die Bewerbungsunterlagen aller Bewerber/-innen einzusehen.",
+      "Der Betriebsrat muss der geplanten Einstellung zustimmen, bevor der Bewerber eingestellt wird.",
+      "Der Betriebsrat erstellt die Stellenausschreibung und wählt die Bewerber aus.",
+      "Der Betriebsrat kann seine Zustimmung ohne Angabe von Gründen verweigern."
+    ],
+    "korrekt": [
+      1,
+      2
+    ],
+    "erklaerung": "Nach § 99 BetrVG ist der Betriebsrat (in Unternehmen mit i. d. R. mehr als 20 wahlberechtigten Arbeitnehmern) vor jeder Einstellung zu beteiligen: Der Arbeitgeber muss ihm die **Bewerbungsunterlagen vorlegen** und seine **Zustimmung** einholen. Falsch: Ein bloßes Informationsrecht greift zu kurz (es besteht ein echtes Zustimmungsverweigerungsrecht). Die Stellenausschreibung und Auswahl bleiben Sache des Arbeitgebers. Und die Zustimmung darf der Betriebsrat nur aus den in § 99 Abs. 2 BetrVG genannten **Gründen** verweigern – nicht grundlos.",
+    "schwierigkeit": 3,
+    "quellTermin": "2025-winter"
+  },
+  {
+    "id": "kbz-lp-personalwirtschaft-26",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "frage": "Bei der Sichtung von Bewerbungen vergleichen Sie die **Arbeitszeugnisse**. Welche Formulierung entspricht in der „Zeugnissprache“ der **besten Leistungsbeurteilung**?",
+    "optionen": [
+      "„Er hat sich stets bemüht, die an ihn gestellten Anforderungen zu erfüllen.“",
+      "„Er hat die Aufgaben im Großen und Ganzen zu unserer Zufriedenheit erledigt.“",
+      "„Er hat die Aufgaben stets zu unserer vollsten Zufriedenheit erledigt.“",
+      "„Er hat die Aufgaben zu unserer vollen Zufriedenheit erledigt.“"
+    ],
+    "korrekt": [
+      2
+    ],
+    "erklaerung": "In der verschlüsselten Zeugnissprache steht „**stets zu unserer vollsten Zufriedenheit**“ für die Note **sehr gut**. „Zu unserer vollen Zufriedenheit“ (ohne „stets“, ohne Superlativ) entspricht etwa der Note 3, „im Großen und Ganzen zu unserer Zufriedenheit“ der Note 4. „Hat sich stets bemüht“ ist eine der schlechtesten Bewertungen: Der Mitarbeiter wollte zwar, war den Anforderungen aber nicht gewachsen – ein solcher Bewerber würde bei der Auswahl aussortiert.",
+    "schwierigkeit": 2,
+    "quellTermin": "2025-winter"
+  },
+  {
+    "id": "kbz-lp-personalwirtschaft-27",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "frage": "Mit einem neuen Mitarbeiter wurde eine **Probezeit von 6 Monaten** vereinbart. Mit welcher **Kündigungsfrist** kann das Arbeitsverhältnis während der Probezeit nach § 622 Abs. 3 BGB gekündigt werden?",
+    "optionen": [
+      "Mit einer Frist von 2 Wochen (zu jedem beliebigen Tag)",
+      "Mit einer Frist von 4 Wochen zum 15. oder zum Ende eines Kalendermonats",
+      "Mit einer Frist von 1 Monat zum Monatsende",
+      "Eine Kündigung ist während der Probezeit nicht möglich"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Während einer vereinbarten Probezeit (längstens 6 Monate) gilt nach § 622 Abs. 3 BGB die verkürzte Kündigungsfrist von **2 Wochen** – ohne festen Kündigungstermin, also zu jedem beliebigen Tag. Die 4 Wochen zum 15. oder Monatsende sind die **Grundkündigungsfrist außerhalb** der Probezeit, 1 Monat zum Monatsende ist die verlängerte Arbeitgeberfrist ab 2 Jahren Betriebszugehörigkeit. Dass in der Probezeit gar nicht gekündigt werden könne, ist genau umgekehrt falsch – die Kündigung ist dort besonders einfach möglich.",
+    "schwierigkeit": 1,
+    "quellTermin": "2025-winter"
+  },
+  {
+    "id": "kbz-lp-personalwirtschaft-28",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "frage": "Ein übernommener Auszubildender soll zunächst einen **sachgrundlos befristeten** Arbeitsvertrag erhalten. Wie lange ist eine kalendermäßige Befristung **ohne Sachgrund** nach § 14 Abs. 2 TzBfG höchstens zulässig?",
+    "optionen": [
+      "Höchstens 6 Monate",
+      "Höchstens 1 Jahr ohne Verlängerungsmöglichkeit",
+      "Bis zu 2 Jahre, mit höchstens dreimaliger Verlängerung innerhalb dieser Gesamtdauer",
+      "Höchstens 5 Jahre",
+      "Unbegrenzt, solange beide Vertragsparteien einverstanden sind"
+    ],
+    "korrekt": [
+      2
+    ],
+    "erklaerung": "Nach § 14 Abs. 2 TzBfG ist die kalendermäßige Befristung ohne sachlichen Grund bis zur Gesamtdauer von **2 Jahren** zulässig; innerhalb dieser 2 Jahre darf der Vertrag höchstens **dreimal verlängert** werden. 6 Monate sind die maximale Probezeit, keine Befristungsgrenze. 5 Jahre oder eine unbegrenzte Dauer wären nur mit **Sachgrund** denkbar (z. B. Vertretung, Projektarbeit – der Anschluss an eine Ausbildung ist ebenfalls ein Sachgrund nach § 14 Abs. 1 TzBfG). Zu beachten: Mit demselben Arbeitgeber darf zuvor kein Arbeitsverhältnis bestanden haben (die Ausbildung zählt nicht als Arbeitsverhältnis).",
+    "schwierigkeit": 3,
+    "quellTermin": "2025-winter"
+  },
+  {
+    "id": "kbz-lp-personalwirtschaft-29",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "frage": "Ein neuer Mitarbeiter erhält seinen Arbeitsvertrag. Welche **2 Angaben** gehören zu den **wesentlichen Vertragsbedingungen**, die nach dem Nachweisgesetz schriftlich niederzulegen sind?",
+    "optionen": [
+      "Die Namen der unmittelbaren Kolleginnen und Kollegen",
+      "Höhe und Zusammensetzung des Arbeitsentgelts",
+      "Regelungen zum betrieblichen Vorschlagswesen",
+      "Die Dauer des jährlichen Erholungsurlaubs",
+      "Zuschüsse zum Kantinenessen"
+    ],
+    "korrekt": [
+      1,
+      3
+    ],
+    "erklaerung": "Das Nachweisgesetz (§ 2 NachwG) verlangt u. a. die schriftliche Niederlegung von **Zusammensetzung und Höhe des Arbeitsentgelts** sowie der **Dauer des jährlichen Erholungsurlaubs** – daneben z. B. Vertragsbeginn, Arbeitsort, Tätigkeitsbeschreibung, Arbeitszeit und Kündigungsfristen. Kollegennamen, Vorschlagswesen, Kantinenzuschüsse und Beurteilungssysteme sind freiwillige bzw. organisatorische Punkte und keine gesetzlich geforderten wesentlichen Vertragsbedingungen.",
+    "schwierigkeit": 2,
+    "quellTermin": "2025-winter"
+  },
+  {
+    "id": "kbz-lp-personalwirtschaft-30",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "frage": "Im **Vorstellungsgespräch** mit einer Bewerberin für die Stelle einer Tischlermeisterin werden verschiedene Fragen gestellt. Welche Frage ist **unzulässig** (die Bewerberin dürfte darauf wahrheitswidrig antworten)?",
+    "optionen": [
+      "Die Frage nach der bisherigen Berufserfahrung",
+      "Die Frage nach einer bestehenden Schwangerschaft",
+      "Die Frage nach der Gehaltsvorstellung",
+      "Die Frage nach den beruflichen Qualifikationen und Abschlüssen"
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Die Frage nach einer **Schwangerschaft** ist eine unzulässige Benachteiligung wegen des Geschlechts (AGG, Rechtsprechung des BAG): Sie darf grundsätzlich nicht gestellt werden, und die Bewerberin darf sie sanktionslos falsch beantworten („Recht zur Lüge“). Fragen nach Berufserfahrung, Qualifikationen und Gehaltsvorstellung sind dagegen zulässig, weil sie einen unmittelbaren Bezug zur ausgeschriebenen Stelle haben.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "kbz-lp-personalwirtschaft-31",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "frage": "Eine Aushilfskraft arbeitet im Januar 2026 insgesamt **80 Stunden** und wird mit dem **gesetzlichen Mindestlohn** (13,90 €/Stunde seit 01.01.2026) vergütet. Wie hoch ist ihr **Bruttoentgelt** für diesen Monat?",
+    "optionen": [
+      "1.112,00 €",
+      "1.025,60 €",
+      "992,80 €",
+      "1.251,00 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Rechenweg: $$80 \\text{ Std.} \\cdot 13{,}90 \\text{ €/Std.} = 1.112{,}00 \\text{ €}$$ Die Distraktoren rechnen mit veralteten Werten oder falscher Stundenzahl: 1.025,60 € verwendet den alten Mindestlohn 2025 von 12,82 €/Std., 992,80 € den Mindestlohn 2024 von 12,41 €/Std., und 1.251,00 € rechnet fälschlich mit 90 statt 80 Stunden (90 · 13,90).",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "kbz-lp-personalwirtschaft-32",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "frage": "Ein Tischlermeister geht zum 01.12. in **Rente**; seine Stelle soll zum 01.01. wieder besetzt werden. Gleichzeitig werden für die **Produktionserweiterung** drei weitere Stellen geschaffen. Welche Art von Personalbedarf liegt bei der **Wiederbesetzung der Meisterstelle** vor?",
+    "optionen": [
+      "Ersatzbedarf",
+      "Neubedarf",
+      "Reservebedarf",
+      "Freistellungsbedarf"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Wird eine vorhandene Stelle nach dem Ausscheiden eines Mitarbeiters (Rente, Kündigung, Tod) **wieder besetzt**, spricht man von **Ersatzbedarf**. Die drei zusätzlichen Stellen für die Produktionserweiterung wären dagegen **Neubedarf** (zusätzliche, bisher nicht vorhandene Stellen). Reservebedarf bezeichnet Personal für Ausfälle (z. B. Krankheit, Urlaub), Freistellungsbedarf entsteht bei Personalabbau – beides passt hier nicht.",
+    "schwierigkeit": 2,
+    "quellTermin": "2025-winter"
+  },
+  {
+    "id": "kbz-lp-personalwirtschaft-33",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "frage": "Ein Auszubildender beendet erfolgreich seine Ausbildung zum Tischler und soll **übernommen** werden. Welche **2 Vorteile** hat die Übernahme für das Unternehmen?",
+    "optionen": [
+      "Der neue Mitarbeiter kennt Betrieb, Arbeitsabläufe und Kollegen bereits – die Einarbeitung entfällt weitgehend.",
+      "Kosten und Zeitaufwand einer externen Personalbeschaffung entfallen.",
+      "Durch die Übernahme kommen neue Impulse und Erfahrungen von außen in den Betrieb.",
+      "Die Auswahl an Bewerbern ist bei der Übernahme größer als bei einer externen Ausschreibung.",
+      "Bei übernommenen Auszubildenden entfällt die Zustimmung des Betriebsrats zur Einstellung."
+    ],
+    "korrekt": [
+      0,
+      1
+    ],
+    "erklaerung": "Richtig sind die ersten beiden Aussagen: Der übernommene Auszubildende ist dem Unternehmen **bekannt und eingearbeitet**, und die **teure, zeitaufwendige externe Suche** (Anzeigen, Auswahlverfahren) entfällt; zudem steigt die Motivation der Auszubildenden, wenn Übernahmen üblich sind. Neue Impulse von außen und eine größere Bewerberauswahl sind gerade Vorteile der **externen** Beschaffung – bei der Übernahme treffen sie nicht zu. Und auch bei der Übernahme eines Auszubildenden in ein Arbeitsverhältnis ist der Betriebsrat nach § 99 BetrVG zu beteiligen.",
+    "schwierigkeit": 2,
+    "quellTermin": "2025-winter"
+  },
+  {
+    "id": "kbz-lp-personalwirtschaft-34",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "frage": "Ein Unternehmen richtet ein **Online-Bewerberportal** auf seiner Website ein. Welcher Vorteil ergibt sich dadurch für den Bewerbungsprozess?",
+    "optionen": [
+      "Der Eingang jeder Bewerbung kann automatisch bestätigt werden, und mehrere Mitarbeiter können die Unterlagen gleichzeitig digital bearbeiten.",
+      "Die Zustimmung des Betriebsrats zur Einstellung ist bei Online-Bewerbungen nicht mehr erforderlich.",
+      "Das Allgemeine Gleichbehandlungsgesetz gilt für Online-Bewerbungen nicht.",
+      "Absagen an nicht berücksichtigte Bewerber/-innen werden überflüssig."
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Ein Bewerberportal beschleunigt und vereinfacht den Prozess: **automatische Eingangsbestätigungen**, bessere Verwaltung, zeitgleicher Zugriff mehrerer Mitarbeiter, kostenfreies Nachreichen von Unterlagen – das verbessert auch das Arbeitgeberimage. Die übrigen Aussagen sind falsch: Die Beteiligungsrechte des Betriebsrats (§ 99 BetrVG) und das AGG gelten unabhängig vom Bewerbungsweg, und Absagen bleiben aus Gründen der Fairness und des Arbeitgeberimages weiterhin geboten (fehlende Absagen waren ein Hauptkritikpunkt auf Bewertungsplattformen).",
+    "schwierigkeit": 1,
+    "quellTermin": "2025-winter"
+  },
+  {
+    "id": "kbz-lp-kostenrechnung-21",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "frage": "Einem Referenzkunden werden **4 Regalsysteme** zum Gesamtangebotspreis von **16.800,00 €** angeboten. Der Angebotspreis liegt nur **5 % über den Selbstkosten**. Ermitteln Sie die **Selbstkosten für 1 Regalsystem**.",
+    "optionen": [
+      "4.000,00 €",
+      "3.990,00 €",
+      "4.200,00 €",
+      "16.000,00 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Die Selbstkosten entsprechen 100 %, der Angebotspreis 105 %: $$16.800{,}00 \\cdot \\frac{100}{105} = 16.000{,}00 \\text{ €}$$ Selbstkosten je Stück: 16.000,00 € : 4 = **4.000,00 €**. Typische Fehler: 3.990,00 € zieht fälschlich 5 % vom Angebotspreis ab (16.800 · 0,95 : 4) – der Aufschlag bezieht sich aber auf die Selbstkosten als Basis (100 %), nicht auf den Preis. 4.200,00 € (16.800 : 4) ignoriert den Gewinnaufschlag komplett, und 16.000,00 € sind die Selbstkosten aller 4 Systeme, nicht je Stück.",
+    "schwierigkeit": 3,
+    "quellTermin": "2025-winter"
+  },
+  {
+    "id": "kbz-lp-kostenrechnung-22",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "frage": "Für den Auftrag über 4 Regalsysteme (Erlös **16.800,00 €**, Selbstkosten **16.000,00 €**) verlangt der Kunde **kostenlose Lieferung und Montage**. Dafür fallen zusätzlich an: Übernachtungskosten **260,00 €** sowie Montage und Fahrt **990,00 €**. Ermitteln Sie das Ergebnis des Auftrags.",
+    "optionen": [
+      "Verlust von 450,00 €",
+      "Gewinn von 800,00 €",
+      "Verlust von 1.250,00 €",
+      "Gewinn von 450,00 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Gesamtkosten des Auftrags: 16.000,00 + 260,00 + 990,00 = 17.250,00 €. Ergebnis: $$16.800{,}00 - 17.250{,}00 = -450{,}00 \\text{ €} \\Rightarrow \\textbf{Verlust}$$ Die Distraktoren zeigen typische Fehler: 800,00 € Gewinn (16.800 − 16.000) vergisst die zusätzlichen Kosten für Lieferung und Montage, 1.250,00 € Verlust betrachtet nur die Zusatzkosten und ignoriert die Gewinnspanne von 800,00 €, und „Gewinn von 450,00 €“ verwechselt das Vorzeichen.",
+    "schwierigkeit": 2,
+    "quellTermin": "2025-winter"
+  },
+  {
+    "id": "kbz-lp-kostenrechnung-23",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "frage": "Welche Aussage beschreibt die Situation **am Break-even-Point (Gewinnschwelle)** richtig?",
+    "optionen": [
+      "Die Erlöse decken genau die gesamten Kosten (fixe und variable Kosten); der Gewinn ist null.",
+      "Die Erlöse decken genau die Fixkosten.",
+      "Die Erlöse decken genau die variablen Kosten.",
+      "Der Deckungsbeitrag je Stück ist null.",
+      "Der Gewinn ist an diesem Punkt maximal."
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Am Break-even-Point gilt: **Erlöse = Gesamtkosten**, also Gewinn = 0; der gesamte Deckungsbeitrag deckt hier genau die Fixkosten. Falsch: Würden die Erlöse nur die Fixkosten oder nur die variablen Kosten decken, läge man noch unter der Gewinnschwelle. Der Deckungsbeitrag **je Stück** (Preis − variable Stückkosten) ist am BEP nicht null – null ist die Summe aus Deckungsbeitrag und Fixkosten. Und der Gewinn ist am BEP nicht maximal, sondern beginnt dort erst zu entstehen.",
+    "schwierigkeit": 1,
+    "quellTermin": "2025-winter"
+  },
+  {
+    "id": "kbz-lp-kostenrechnung-24",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "frage": "Für einen Schreibtisch liegen vor: Verkaufspreis **240,00 €/Stück**, variable Kosten **150,00 €/Stück**, Fixkosten **36.000,00 €/Jahr**. Bei welcher Stückzahl wird die **Gewinnschwelle** erreicht?",
+    "optionen": [
+      "400 Stück",
+      "150 Stück",
+      "240 Stück",
+      "93 Stück"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Deckungsbeitrag je Stück = 240,00 − 150,00 = 90,00 €. $$\\text{BEP} = \\frac{36.000}{90} = 400 \\text{ Stück}$$ Die Distraktoren zeigen typische Fehler: 150 Stück teilt die Fixkosten durch den Verkaufspreis (36.000 : 240), 240 Stück durch die variablen Kosten (36.000 : 150), und 93 Stück durch die Summe aus Preis und variablen Kosten (36.000 : 390) – richtig ist allein die Division durch den Deckungsbeitrag.",
+    "schwierigkeit": 2,
+    "quellTermin": "2025-winter"
+  },
+  {
+    "id": "kbz-lp-kostenrechnung-25",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "frage": "In einem **Break-even-Diagramm** (Menge auf der x-Achse, Euro auf der y-Achse) sind Fixkosten, Gesamtkosten und Erlöse als Geraden dargestellt. Welche **2 Aussagen** sind richtig?",
+    "optionen": [
+      "Die Erlösgerade beginnt im Koordinatenursprung, da bei 0 Stück keine Erlöse anfallen.",
+      "Die Fixkostengerade verläuft waagerecht, also parallel zur Mengenachse.",
+      "Die Gesamtkostengerade beginnt im Koordinatenursprung.",
+      "Die Gewinnschwelle liegt im Schnittpunkt von Erlösgerade und Fixkostengerade.",
+      "Die Fixkostengerade steigt mit zunehmender Menge an."
+    ],
+    "korrekt": [
+      0,
+      1
+    ],
+    "erklaerung": "Richtig: Die **Erlösgerade** startet im Ursprung (0 Stück = 0 € Erlös) und steigt mit dem Verkaufspreis je Stück; die **Fixkostengerade** verläuft waagerecht, weil Fixkosten mengenunabhängig sind. Falsch: Die Gesamtkostengerade beginnt nicht im Ursprung, sondern in Höhe der **Fixkosten** auf der y-Achse (bei 0 Stück fallen bereits die Fixkosten an). Die Gewinnschwelle liegt im Schnittpunkt von Erlösgerade und **Gesamtkostengerade** – nicht der Fixkostengerade. Und Fixkosten steigen definitionsgemäß nicht mit der Menge.",
+    "schwierigkeit": 2,
+    "quellTermin": "2025-winter"
+  },
+  {
+    "id": "kbz-lp-kostenrechnung-26",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "frage": "Wie verhalten sich die **gesamten variablen Kosten** eines Produkts bei steigender Produktionsmenge?",
+    "optionen": [
+      "Sie steigen proportional zur Produktionsmenge.",
+      "Sie bleiben unabhängig von der Menge konstant.",
+      "Sie sinken mit steigender Menge (Degression).",
+      "Sie steigen nur, wenn auch die Fixkosten steigen."
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Die **gesamten** variablen Kosten steigen (im Standardmodell) **proportional** mit der Menge: variable Stückkosten · Stückzahl. Wichtig ist die Unterscheidung: **Pro Stück** sind die variablen Kosten konstant – konstant für die Gesamtsumme gilt das dagegen nur für die Fixkosten. Eine Degression bei steigender Menge tritt bei den **fixen Stückkosten** auf (Fixkostendegression), nicht bei den gesamten variablen Kosten. Und variable Kosten hängen von der Menge ab, nicht von den Fixkosten.",
+    "schwierigkeit": 1,
+    "quellTermin": "2025-winter"
+  },
+  {
+    "id": "kbz-lp-kostenrechnung-27",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "frage": "Im Betriebsabrechnungsbogen wurden für die Kostenstelle Fertigung **Gemeinkosten von 148.500,00 €** ermittelt. Die **Fertigungslöhne** (Einzelkosten) betragen **110.000,00 €**. Berechnen Sie den **Fertigungsgemeinkosten-Zuschlagssatz**.",
+    "optionen": [
+      "135,00 %",
+      "74,07 %",
+      "57,45 %",
+      "13,50 %"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Zuschlagsbasis für die Fertigungsgemeinkosten sind die Fertigungslöhne: $$\\frac{148.500}{110.000} \\cdot 100 = 135{,}00\\,\\%$$ Typische Fehler: 74,07 % kehrt den Bruch um (110.000 : 148.500 – Einzelkosten durch Gemeinkosten), 57,45 % bezieht die Gemeinkosten auf die Summe aus Gemeinkosten und Löhnen (148.500 : 258.500), und 13,50 % ist ein Kommafehler (Faktor 10 verrutscht).",
+    "schwierigkeit": 2,
+    "quellTermin": "2025-winter"
+  },
+  {
+    "id": "kbz-lp-kostenrechnung-28",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "frage": "**Zuschlagskalkulation:** Fertigungsmaterial **200,00 €**, Materialgemeinkosten **40 %**, Fertigungslöhne **150,00 €**, Fertigungsgemeinkosten **120 %**, Verwaltungsgemeinkosten **10 %**, Vertriebsgemeinkosten **5 %** (jeweils auf die Herstellkosten). Berechnen Sie die **Selbstkosten**.",
+    "optionen": [
+      "701,50 €",
+      "610,00 €",
+      "704,55 €",
+      "747,50 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Rechenweg: MGK = 200,00 · 40 % = 80,00 €; FGK = 150,00 · 120 % = 180,00 €; Herstellkosten = 200,00 + 80,00 + 150,00 + 180,00 = 610,00 €. VwGK = 610,00 · 10 % = 61,00 €; VtGK = 610,00 · 5 % = 30,50 €. $$610{,}00 + 61{,}00 + 30{,}50 = 701{,}50 \\text{ €}$$ Distraktoren: 610,00 € sind nur die Herstellkosten (VwGK/VtGK vergessen), 704,55 € rechnet die Zuschläge fälschlich nacheinander auf die jeweils erhöhte Zwischensumme (610 · 1,10 · 1,05), 747,50 € vertauscht die Zuschlagssätze von MGK und FGK (200 · 120 % bzw. 150 · 40 %). VwGK und VtGK werden beide auf die **Herstellkosten** bezogen.",
+    "schwierigkeit": 3,
+    "quellTermin": "2025-winter"
+  },
+  {
+    "id": "kbz-lp-kostenrechnung-29",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "frage": "Ein Schreibtisch erzielt einen **Deckungsbeitrag von 90,00 €/Stück**; die **Fixkosten** betragen **36.000,00 €**. Im Jahr werden nur **350 Stück** abgesetzt. Wie hoch ist das **Betriebsergebnis**?",
+    "optionen": [
+      "Verlust von 4.500,00 €",
+      "Gewinn von 31.500,00 €",
+      "Verlust von 36.000,00 €",
+      "Gewinn von 4.500,00 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Gesamtdeckungsbeitrag: 350 · 90,00 = 31.500,00 €. Betriebsergebnis: $$31.500{,}00 - 36.000{,}00 = -4.500{,}00 \\text{ €} \\Rightarrow \\textbf{Verlust}$$ Die Absatzmenge liegt unter der Gewinnschwelle (400 Stück), daher entsteht ein Verlust. Distraktoren: 31.500,00 € Gewinn vergisst den Abzug der Fixkosten, 36.000,00 € Verlust ignoriert den erwirtschafteten Deckungsbeitrag, und „Gewinn von 4.500,00 €“ verwechselt das Vorzeichen.",
+    "schwierigkeit": 2,
+    "quellTermin": "2025-winter"
+  },
+  {
+    "id": "kbz-lp-kostenrechnung-30",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "frage": "Die Kosten- und Leistungsrechnung gliedert sich in Kostenarten-, Kostenstellen- und Kostenträgerrechnung. Welche Frage beantwortet die **Kostenstellenrechnung**?",
+    "optionen": [
+      "Wo sind die Kosten angefallen? (Verteilung auf die betrieblichen Bereiche)",
+      "Welche Kosten sind angefallen? (Erfassung nach Kostenarten)",
+      "Wofür sind die Kosten angefallen? (Zurechnung auf die Produkte)",
+      "Wann sind die Kosten angefallen? (zeitliche Abgrenzung)"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Die **Kostenstellenrechnung** beantwortet die Frage „**Wo** sind die Kosten angefallen?“ – sie verteilt die Gemeinkosten (z. B. im BAB) auf Bereiche wie Material, Fertigung, Verwaltung und Vertrieb. „Welche Kosten?“ beantwortet die **Kostenartenrechnung**, „Wofür?“ die **Kostenträgerrechnung** (Kalkulation der Produkte). Die zeitliche Frage „Wann?“ ist keine der drei klassischen Stufen der KLR.",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "kbz-lp-kostenrechnung-31",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "frage": "In einem Möbelunternehmen fallen verschiedene Kosten an. Welche **2 Positionen** zählen zu den **Gemeinkosten**?",
+    "optionen": [
+      "Gehalt des Werkstattmeisters, der die Fertigung aller Aufträge beaufsichtigt",
+      "Abschreibung der Produktionsmaschinen",
+      "Eichenholz für einen bestimmten Schreibtisch (Fertigungsmaterial)",
+      "Fertigungslöhne der Tischler für einen konkreten Auftrag",
+      "Speditionskosten, die einem einzelnen Auftrag direkt zugerechnet werden"
+    ],
+    "korrekt": [
+      0,
+      1
+    ],
+    "erklaerung": "**Gemeinkosten** lassen sich einem einzelnen Kostenträger nicht direkt zurechnen und werden über Zuschlagssätze verteilt: Das **Meistergehalt** (beaufsichtigt alle Aufträge) und die **Abschreibung der Maschinen** (werden für viele Produkte genutzt) sind typische Beispiele. Fertigungsmaterial und Fertigungslöhne sind dagegen **Einzelkosten**, weil sie dem einzelnen Produkt direkt zugerechnet werden können; direkt zurechenbare Speditionskosten sind **Sondereinzelkosten des Vertriebs** – ebenfalls Einzelkosten.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "kbz-lp-kostenrechnung-32",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "frage": "Die Kalkulation eines Auftrags für einen **ersten Referenzkunden** ergibt einen kleinen **Verlust**, wenn dessen Forderung nach kostenloser Lieferung und Montage erfüllt wird. Welches Argument spricht dafür, den Auftrag **trotzdem anzunehmen**?",
+    "optionen": [
+      "Der Auftrag macht das neue Produkt am Markt bekannt und kann über den Referenzkunden Folgeaufträge bringen.",
+      "Verluste aus einzelnen Aufträgen sind steuerlich grundsätzlich vorteilhaft.",
+      "Durch die Annahme des Auftrags sinken die Fixkosten des Unternehmens.",
+      "Bei Großaufträgen werden variable Kosten automatisch zu Fixkosten."
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Bei strategischen Entscheidungen zählt nicht nur das einzelne Auftragsergebnis: Ein **Referenzkunde** kann das neue Produkt weiterempfehlen und den Markteintritt ermöglichen – der kalkulierte Verlust ist dann eine Investition in die **Markterschließung** (Alternative wäre, die Forderung abzulehnen oder nachzuverhandeln). Die anderen Aussagen sind sachlich falsch: Verluste sind kein Steuervorteil, der die Annahme rechtfertigt, Fixkosten sinken durch einen zusätzlichen Auftrag nicht, und variable Kosten werden nicht zu Fixkosten.",
+    "schwierigkeit": 2,
+    "quellTermin": "2025-winter"
+  },
+  {
+    "id": "kbz-lp-kostenrechnung-33",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "frage": "Kalkulatorische Kosten werden in **Anderskosten** und **Zusatzkosten** unterteilt. Welche Position zählt zu den **Anderskosten**?",
+    "optionen": [
+      "Kalkulatorische Abschreibungen",
+      "Kalkulatorischer Unternehmerlohn",
+      "Kalkulatorische Miete für unentgeltlich eingebrachte Privaträume",
+      "Fertigungslöhne"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "**Anderskosten** steht ein Aufwand in **anderer Höhe** gegenüber: Den kalkulatorischen Abschreibungen (z. B. vom Wiederbeschaffungswert, über die tatsächliche Nutzungsdauer) steht die bilanzielle Abschreibung gegenüber – gleicher Sachverhalt, andere Höhe. Kalkulatorischer Unternehmerlohn und kalkulatorische Miete sind **Zusatzkosten**, denen gar kein Aufwand gegenübersteht (der Einzelunternehmer erhält kein Gehalt, für eigene Räume wird keine Miete gezahlt). Fertigungslöhne sind **Grundkosten** – ihnen entspricht der Aufwand in gleicher Höhe.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "kbz-lp-kostenrechnung-34",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "frage": "Ein Kunde bittet um einen Sonderpreis. Welche Kosten bilden die **kurzfristige Preisuntergrenze** eines Produkts?",
+    "optionen": [
+      "Die variablen Kosten je Stück",
+      "Die Selbstkosten je Stück",
+      "Die anteiligen Fixkosten je Stück",
+      "Die Herstellkosten je Stück"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Kurzfristig gilt: Solange der Preis mindestens die **variablen Stückkosten** deckt (Deckungsbeitrag ≥ 0), verschlechtert ein Auftrag das Betriebsergebnis nicht, denn die Fixkosten fallen ohnehin an. Die **Selbstkosten** sind die **langfristige** Preisuntergrenze – auf Dauer müssen alle Kosten gedeckt sein. Die anteiligen Fixkosten allein oder die Herstellkosten sind keine betriebswirtschaftlich begründeten Preisuntergrenzen.",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "kbz-lp-buchfuehrung-kontierung-21",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "frage": "Die Rechnung für die jährliche **Heizungswartung** (928,20 € brutto) wurde bei Rechnungseingang **bereits gebucht**. Der Wartungsbetrieb hat kein eigenes Konto im Kontenplan. Nun wird der Betrag überwiesen. Wie lautet der **Buchungssatz** für die Zahlung?",
+    "optionen": [
+      "4499 Sonstige Lieferanten und Dienstleister 928,20 € an 2800 Bank 928,20 €",
+      "6160 Fremdinstandhaltung 780,00 € und 2600 Vorsteuer 148,20 € an 2800 Bank 928,20 €",
+      "2800 Bank 928,20 € an 4499 Sonstige Lieferanten und Dienstleister 928,20 €",
+      "4499 Sonstige Lieferanten und Dienstleister 928,20 € an 2880 Kasse 928,20 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Da die Rechnung **bereits gebucht** wurde, bestehen Aufwand und Vorsteuer schon in den Büchern – offen ist nur die **Verbindlichkeit**. Die Zahlung bucht daher **4499 an 2800** (brutto). Option 2 würde Aufwand und Vorsteuer **doppelt** erfassen, Option 3 vertauscht Soll und Haben (die Bank nimmt ab, also Haben; die Verbindlichkeit wird im Soll ausgebucht), und Option 4 bucht gegen die Kasse, obwohl per **Überweisung** (Bank) gezahlt wird.",
+    "schwierigkeit": 1,
+    "quellTermin": "2025-winter"
+  },
+  {
+    "id": "kbz-lp-buchfuehrung-kontierung-22",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "frage": "Die **Abschlagszahlung für Gas** über **1.428,00 € (inkl. 19 % USt)** wird per Bank bezahlt. Die Rechnung wurde **noch nicht gebucht**. Wie lautet der **Buchungssatz**?",
+    "optionen": [
+      "6050 Aufwendungen für Energie 1.200,00 € und 2600 Vorsteuer 228,00 € an 2800 Bank 1.428,00 €",
+      "6050 Aufwendungen für Energie 1.428,00 € an 2800 Bank 1.428,00 €",
+      "4499 Sonstige Lieferanten und Dienstleister 1.428,00 € an 2800 Bank 1.428,00 €",
+      "6050 Aufwendungen für Energie 1.156,68 € und 2600 Vorsteuer 271,32 € an 2800 Bank 1.428,00 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Da die Rechnung **noch nicht gebucht** wurde, werden Aufwand und Vorsteuer direkt bei Zahlung erfasst. Netto: $$\\frac{1.428{,}00}{1{,}19} = 1.200{,}00 \\text{ €}$$ Vorsteuer: 1.428,00 − 1.200,00 = 228,00 €. Option 2 bucht brutto als Aufwand und verschenkt den Vorsteuerabzug, Option 3 bucht gegen eine Verbindlichkeit, die nie eingebucht wurde, und Option 4 rechnet fälschlich 19 % **vom Bruttobetrag** (1.428 · 0,19 = 271,32) statt die USt aus dem Brutto herauszurechnen (÷ 1,19).",
+    "schwierigkeit": 2,
+    "quellTermin": "2025-winter"
+  },
+  {
+    "id": "kbz-lp-buchfuehrung-kontierung-23",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "frage": "Für den Vertrieb werden **drei Elektro-Transporter** auf Ziel gekauft: je **55.000,00 € netto** (gesamt 165.000,00 € netto, 19 % USt 31.350,00 €, brutto 196.350,00 €). Das Autohaus hat kein eigenes Konto im Kontenplan. Wie lautet der **Buchungssatz**?",
+    "optionen": [
+      "0840 Fuhrpark 165.000,00 € und 2600 Vorsteuer 31.350,00 € an 4499 Sonstige Lieferanten und Dienstleister 196.350,00 €",
+      "6080 Aufwendungen für Handelswaren 165.000,00 € und 2600 Vorsteuer 31.350,00 € an 4499 Sonstige Lieferanten und Dienstleister 196.350,00 €",
+      "0840 Fuhrpark 196.350,00 € an 4499 Sonstige Lieferanten und Dienstleister 196.350,00 €",
+      "0840 Fuhrpark 165.000,00 € und 2600 Vorsteuer 31.350,00 € an 2800 Bank 196.350,00 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Die Transporter dienen dauerhaft dem Geschäftsbetrieb und sind **Anlagevermögen**: Aktivierung **netto** auf 0840 Fuhrpark, Vorsteuer 2600 im Soll, Verbindlichkeit brutto im Haben – mangels eigenem Kreditorenkonto über **4499**. Option 2 bucht fälschlich Aufwand für Handelswaren (die Fahrzeuge werden nicht weiterverkauft), Option 3 aktiviert den **Bruttobetrag** und verschenkt den Vorsteuerabzug, und Option 4 bucht gegen Bank, obwohl auf **Ziel** gekauft wurde.",
+    "schwierigkeit": 2,
+    "quellTermin": "2025-winter"
+  },
+  {
+    "id": "kbz-lp-buchfuehrung-kontierung-24",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "frage": "Für neu angeschaffte Firmenfahrzeuge werden **Kfz-Kennzeichen** und **Überführungskosten** in Rechnung gestellt. Wie sind diese Beträge buchhalterisch zu behandeln?",
+    "optionen": [
+      "Als Anschaffungsnebenkosten erhöhen sie die Anschaffungskosten auf dem Konto 0840 Fuhrpark und werden mit abgeschrieben.",
+      "Sie werden sofort in voller Höhe als sonstiger betrieblicher Aufwand gebucht.",
+      "Sie werden als Handelswaren auf dem Konto 6080 erfasst.",
+      "Sie werden als eigenständige Wirtschaftsgüter über eine eigene Nutzungsdauer abgeschrieben."
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Zu den Anschaffungskosten gehören nach § 255 HGB neben dem Kaufpreis (abzüglich Preisminderungen) auch alle **Anschaffungsnebenkosten**, die anfallen, um den Gegenstand in einen betriebsbereiten Zustand zu versetzen – z. B. Kennzeichen, Überführung, Zulassung, Montage. Sie werden daher auf 0840 Fuhrpark **aktiviert** und über die Nutzungsdauer der Fahrzeuge mit abgeschrieben. Eine Sofortbuchung als Aufwand würde den Gewinn des Anschaffungsjahres zu stark mindern, Handelswaren liegen nicht vor, und eigenständige Wirtschaftsgüter sind Kennzeichen und Überführung nicht – sie sind untrennbar mit dem Fahrzeug verbunden.",
+    "schwierigkeit": 2,
+    "quellTermin": "2025-winter"
+  },
+  {
+    "id": "kbz-lp-buchfuehrung-kontierung-25",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "frage": "Ein Elektro-Transporter hat einen **Listenpreis von 62.500,00 € netto**; das Autohaus gewährt **12 % Rabatt**. Zusätzlich fallen je Fahrzeug **50,00 € für das Kennzeichen** und **180,00 € Zulassungsgebühren** an. Berechnen Sie die **Anschaffungskosten** für 1 Transporter.",
+    "optionen": [
+      "55.230,00 €",
+      "55.000,00 €",
+      "62.730,00 €",
+      "65.723,70 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Rechenweg: $$62.500{,}00 \\cdot 0{,}88 = 55.000{,}00 \\text{ €}$$ (Rabatt mindert die Anschaffungskosten), zuzüglich Anschaffungsnebenkosten: 55.000,00 + 50,00 + 180,00 = **55.230,00 €**. Distraktoren: 55.000,00 € vergisst die aktivierungspflichtigen Nebenkosten (Kennzeichen, Zulassung), 62.730,00 € zieht den Rabatt nicht ab (62.500 + 230), und 65.723,70 € rechnet fälschlich brutto (55.230 · 1,19) – die abziehbare Vorsteuer gehört nicht zu den Anschaffungskosten.",
+    "schwierigkeit": 2,
+    "quellTermin": "2025-winter"
+  },
+  {
+    "id": "kbz-lp-buchfuehrung-kontierung-26",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "frage": "Drei Elektro-Transporter (Anschaffungskosten je **54.000,00 €**, Nutzungsdauer laut AfA-Tabelle **6 Jahre**, lineare Abschreibung) werden am **10. November 2025** geliefert. Wie hoch ist die **gesamte Abschreibung** für alle drei Fahrzeuge im Jahr 2025?",
+    "optionen": [
+      "4.500,00 €",
+      "1.500,00 €",
+      "27.000,00 €",
+      "2.250,00 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Jahres-AfA je Fahrzeug: 54.000,00 : 6 = 9.000,00 €. Zeitanteilig ab dem Anschaffungsmonat November, also 2 Monate: $$9.000{,}00 \\cdot \\frac{2}{12} = 1.500{,}00 \\text{ €}$$ Für drei Fahrzeuge: 1.500,00 · 3 = **4.500,00 €**. Distraktoren: 1.500,00 € ist die AfA für nur **ein** Fahrzeug, 27.000,00 € setzt für alle drei ein **volles Jahr** an (3 · 9.000) statt zeitanteilig zu rechnen, und 2.250,00 € rechnet nur mit einem Monat (750 · 3) – abgeschrieben wird aber ab dem Anschaffungsmonat, hier also für November **und** Dezember.",
+    "schwierigkeit": 2,
+    "quellTermin": "2025-winter"
+  },
+  {
+    "id": "kbz-lp-buchfuehrung-kontierung-27",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "frage": "Ein Elektro-Transporter (Anschaffungskosten **54.000,00 €**, Nutzungsdauer **6 Jahre**, linear) wurde im **November 2025** angeschafft (AfA 2025: 1.500,00 €). Wie hoch ist der **Buchwert am 31.12.2026**?",
+    "optionen": [
+      "43.500,00 €",
+      "36.000,00 €",
+      "45.000,00 €",
+      "52.500,00 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Rechenweg: AfA 2025 (zeitanteilig, 2 Monate) = 1.500,00 €; AfA 2026 (volles Jahr) = 54.000,00 : 6 = 9.000,00 €. $$54.000{,}00 - 1.500{,}00 - 9.000{,}00 = 43.500{,}00 \\text{ €}$$ Distraktoren: 36.000,00 € zieht fälschlich zwei **volle** Jahres-AfA ab (54.000 − 18.000), 45.000,00 € berücksichtigt nur ein volles Jahr und vergisst die zeitanteilige AfA 2025, und 52.500,00 € zieht nur die anteilige AfA 2025 ab und vergisst das komplette Jahr 2026.",
+    "schwierigkeit": 3,
+    "quellTermin": "2025-winter"
+  },
+  {
+    "id": "kbz-lp-buchfuehrung-kontierung-28",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "frage": "Eine Eingangsrechnung über **Handelswaren** (netto 3.000,00 €, USt 570,00 €, brutto **3.570,00 €**) wurde aufwandsrechnerisch gebucht. Sie wird innerhalb der Skontofrist unter Abzug von **3 % Skonto** per Bank bezahlt. Wie lautet der **Buchungssatz**?",
+    "optionen": [
+      "4400 Verbindlichkeiten aLL 3.570,00 € an 2800 Bank 3.462,90 €, 6082 Nachlässe 90,00 € und 2600 Vorsteuer 17,10 €",
+      "4400 Verbindlichkeiten aLL 3.570,00 € an 2800 Bank 3.462,90 € und 6082 Nachlässe 107,10 €",
+      "4400 Verbindlichkeiten aLL 3.570,00 € an 2800 Bank 3.462,90 €, 5101 Erlösberichtigungen 90,00 € und 4800 Umsatzsteuer 17,10 €",
+      "4400 Verbindlichkeiten aLL 3.462,90 € an 2800 Bank 3.462,90 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Skonto: 3 % von 3.570,00 € = 107,10 € brutto, davon netto $$\\frac{107{,}10}{1{,}19} = 90{,}00 \\text{ €}$$ (**6082 Nachlässe**, da aufwandsrechnerisch gebucht wird) und 17,10 € **Vorsteuerkorrektur (2600 im Haben)**; Banküberweisung 3.570,00 − 107,10 = 3.462,90 €. Die Verbindlichkeit wird in voller Höhe ausgebucht. Option 2 bucht den Bruttoskonto als Nachlass und unterlässt die Vorsteuerkorrektur, Option 3 verwendet die **Verkaufskonten** (Erlösberichtigungen/USt) statt der Einkaufsseite, und Option 4 ignoriert den Skonto – es bliebe eine Restverbindlichkeit von 107,10 € stehen, die nie ausgeglichen wird.",
+    "schwierigkeit": 3,
+    "quellTermin": "2025-winter"
+  },
+  {
+    "id": "kbz-lp-buchfuehrung-kontierung-29",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "frage": "Bei der Kontierung von Zahlungsbelegen ist entscheidend, ob die zugrunde liegende Eingangsrechnung **bereits gebucht** wurde oder nicht. Welche **2 Aussagen** sind richtig?",
+    "optionen": [
+      "Wurde die Rechnung bereits gebucht, wird die Zahlung gegen das Verbindlichkeitskonto gebucht (z. B. 4499 an 2800).",
+      "Wurde die Rechnung noch nicht gebucht, werden bei der Zahlung Aufwand und Vorsteuer direkt gegen die Bank gebucht.",
+      "Wurde die Rechnung bereits gebucht, muss der Aufwand bei der Zahlung erneut gebucht werden.",
+      "Die Vorsteuer darf grundsätzlich erst im Zeitpunkt der Zahlung gebucht werden.",
+      "Noch nicht gebuchte Rechnungen dürfen nicht bezahlt werden."
+    ],
+    "korrekt": [
+      0,
+      1
+    ],
+    "erklaerung": "Richtig sind die ersten beiden Aussagen: Bei **bereits gebuchter** Rechnung stehen Aufwand und Vorsteuer schon in den Büchern; die Zahlung tilgt nur noch die **Verbindlichkeit**. Bei **noch nicht gebuchter** Rechnung werden Aufwand (netto) und Vorsteuer direkt mit der Zahlung gegen die Bank erfasst. Falsch: Eine erneute Aufwandsbuchung würde den Aufwand verdoppeln, die Vorsteuer wird bereits mit der **Rechnungsbuchung** (nicht erst bei Zahlung) erfasst, und selbstverständlich dürfen auch noch nicht gebuchte Rechnungen bezahlt werden – die Buchung erfolgt dann eben in einem Schritt.",
+    "schwierigkeit": 2,
+    "quellTermin": "2025-winter"
+  },
+  {
+    "id": "kbz-lp-buchfuehrung-kontierung-30",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "frage": "Eine Eingangsrechnung stammt von einem Dienstleister, für den im Kontenplan **kein eigenes Kreditorenkonto** eingerichtet ist. Über welches Konto wird die Verbindlichkeit gebucht?",
+    "optionen": [
+      "4499 Sonstige Lieferanten und Dienstleister",
+      "2499 Sonstige Kunden",
+      "6080 Aufwendungen für Handelswaren",
+      "Es muss zwingend ein neues Kreditorenkonto eingerichtet werden, bevor gebucht werden darf."
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Hat der Lieferant oder Dienstleister kein eigenes Konto im Kontenplan, wird die Verbindlichkeit auf dem Sammelkonto **4499 Sonstige Lieferanten und Dienstleister** erfasst – so verlangen es auch die Prüfungsaufgaben („Verwenden Sie ausschließlich die Konten des Kontenplans“). 2499 Sonstige Kunden ist das Gegenstück auf der **Forderungsseite** (Debitoren), 6080 ist ein Aufwands- und kein Verbindlichkeitskonto, und ein neues Konto muss nicht zwingend eingerichtet werden.",
+    "schwierigkeit": 1,
+    "quellTermin": "2025-winter"
+  },
+  {
+    "id": "kbz-lp-buchfuehrung-kontierung-31",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "frage": "Welche **2 Aussagen** zum Konto **0840 Fuhrpark** sind richtig?",
+    "optionen": [
+      "Es ist ein aktives Bestandskonto.",
+      "Zugänge (Fahrzeugkäufe) werden im Soll gebucht.",
+      "Es wird am Jahresende über das GuV-Konto abgeschlossen.",
+      "Die jährliche Abschreibung wird im Soll des Kontos gebucht.",
+      "Es ist ein Aufwandskonto."
+    ],
+    "korrekt": [
+      0,
+      1
+    ],
+    "erklaerung": "0840 Fuhrpark weist Anlagevermögen aus und ist damit ein **aktives Bestandskonto**: Anfangsbestand und **Zugänge im Soll**, Abgänge und Abschreibungen im **Haben**. Falsch: Bestandskonten werden über das **Schlussbilanzkonto (8010)** abgeschlossen, nicht über das GuV-Konto (8020) – dorthin gehören nur Erfolgskonten. Die Abschreibung mindert den Buchwert und steht deshalb im **Haben** des Fuhrparkkontos (Buchungssatz 6520 an 0840); ein Aufwandskonto ist 0840 gerade nicht – der Aufwand steht auf 6520.",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "kbz-lp-buchfuehrung-kontierung-32",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "frage": "Am Jahresende wird das Aufwandskonto **6520 Abschreibungen auf Sachanlagen** abgeschlossen. Wie lautet der **Abschlussbuchungssatz**?",
+    "optionen": [
+      "8020 Gewinn- und Verlust-Konto an 6520 Abschreibungen auf Sachanlagen",
+      "6520 Abschreibungen auf Sachanlagen an 8020 Gewinn- und Verlust-Konto",
+      "8010 Schlussbilanzkonto an 6520 Abschreibungen auf Sachanlagen",
+      "6520 Abschreibungen auf Sachanlagen an 8010 Schlussbilanzkonto"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Aufwandskonten haben einen **Sollsaldo**; zum Ausgleich wird der Saldo im **Haben** des Aufwandskontos gebucht – der Buchungssatz lautet daher **8020 (GuV) an 6520**. Option 2 dreht den Satz um (so schließt man **Ertragskonten** ab: Ertragskonto an GuV). Die Optionen 3 und 4 verwenden das Schlussbilanzkonto, über das nur **Bestandskonten** abgeschlossen werden – Erfolgskonten (Aufwand und Ertrag) laufen immer über das GuV-Konto.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "kbz-lp-buchfuehrung-kontierung-33",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "frage": "Die Rechnung für einen neuen **Firmentransporter (Anlagevermögen)** wird innerhalb der Skontofrist unter Abzug von **2 % Skonto** bezahlt. Welche **2 Aussagen** zur buchhalterischen Behandlung des Skontos sind richtig?",
+    "optionen": [
+      "Der Skontoabzug mindert die Anschaffungskosten und damit die Bemessungsgrundlage der Abschreibung.",
+      "Die Vorsteuer ist anteilig zu korrigieren.",
+      "Der Skontobetrag wird als sonstiger betrieblicher Ertrag gebucht.",
+      "Die Abschreibung wird weiterhin von den ungekürzten Anschaffungskosten berechnet.",
+      "Ein Skontoabzug ist beim Kauf von Anlagevermögen unzulässig."
+    ],
+    "korrekt": [
+      0,
+      1
+    ],
+    "erklaerung": "Skonti sind **Anschaffungspreisminderungen** (§ 255 Abs. 1 HGB): Beim Anlagenkauf wird der Netto-Skonto direkt vom Anlagenkonto (z. B. 0840 Fuhrpark) abgesetzt – die **AfA-Bemessungsgrundlage sinkt** entsprechend. Da sich das Entgelt mindert, ist auch die **Vorsteuer anteilig zu korrigieren** (Buchung z. B.: 4499 an 2800, 0840 und 2600). Falsch: Eine Buchung als Ertrag würde die Anschaffungskosten unzulässig hoch ausweisen, die AfA von ungekürzten Anschaffungskosten wäre zu hoch, und selbstverständlich ist Skonto auch beim Anlagenkauf zulässig.",
+    "schwierigkeit": 3
+  },
+  {
+    "id": "kbz-lp-buchfuehrung-kontierung-34",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "frage": "Ein Büromöbelhändler kauft einen **Aktenvernichter für 250,00 € netto** – nicht zum Weiterverkauf, sondern für das **eigene Sekretariat**. Wie ist der Kauf zu behandeln?",
+    "optionen": [
+      "Als geringwertiges Wirtschaftsgut (GWG) kann er im Jahr der Anschaffung sofort in voller Höhe abgeschrieben werden, da die Anschaffungskosten 800,00 € netto nicht übersteigen.",
+      "Er muss zwingend aktiviert und über die betriebsgewöhnliche Nutzungsdauer abgeschrieben werden.",
+      "Er wird als Handelsware auf dem Konto 6080 Aufwendungen für Handelswaren gebucht.",
+      "Maßgeblich für die GWG-Grenze ist der Bruttopreis von 297,50 €."
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Entscheidend ist der **Verwendungszweck**: Zum Weiterverkauf bestimmte Aktenvernichter wären Handelswaren (6080) – hier dient das Gerät aber dauerhaft dem eigenen Betrieb und ist damit Anlagevermögen. Da die Anschaffungskosten die **GWG-Grenze von 800,00 € netto** (§ 6 Abs. 2 EStG) nicht übersteigen und das Gerät selbstständig nutzbar ist, kann es im Anschaffungsjahr **sofort voll abgeschrieben** werden. Eine Verteilung über die Nutzungsdauer ist nicht zwingend (Wahlrecht), und für die GWG-Grenze zählt bei Vorsteuerabzugsberechtigung immer der **Nettobetrag**, nicht der Bruttopreis.",
+    "schwierigkeit": 2,
+    "quellTermin": "2025-winter"
   }
 ]
