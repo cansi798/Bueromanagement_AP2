@@ -10,3 +10,4 @@ content-pipeline/staging/
 # … aber die selbst erzeugten Download-PDFs (Skripte/Präsentationen) gehören dazu
 !public/downloads/**/*.pdf
 server/api/config.php
+tsconfig.tsbuildinfo
