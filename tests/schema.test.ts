@@ -23,6 +23,7 @@ describe('Content-Schema-Audit', () => {
     themen: 'themaListe',
     aufgaben: 'aufgabeListe',
     karteikarten: 'karteikarteListe',
+    lernpaare: 'lernpaarListe',
   } as const
 
   for (const [sub, def] of Object.entries(unterordner)) {
@@ -73,6 +74,41 @@ describe('Referenz-Audit (Kreuz-Checks)', () => {
     for (const p of JSON.parse(readFileSync(idx, 'utf8'))) {
       for (const id of p.aufgabenIds) {
         expect(aufgabenIds.has(id), `Prüfung ${p.termin}/${p.bereich}: unbekannte Aufgabe ${id}`).toBe(true)
+      }
+    }
+  })
+
+  it('jedes Lernpaar verweist auf ein existierendes Thema und gültige korrekt-Indizes', () => {
+    const themenIds = new Set<string>()
+    const themenDir = join(dataDir, 'themen')
+    if (existsSync(themenDir)) {
+      for (const f of readdirSync(themenDir).filter((f) => f.endsWith('.json'))) {
+        for (const t of JSON.parse(readFileSync(join(themenDir, f), 'utf8'))) themenIds.add(t.id)
+      }
+    }
+    const dir = join(dataDir, 'lernpaare')
+    if (!existsSync(dir)) return
+    const ids = new Set<string>()
+    for (const f of readdirSync(dir).filter((f) => f.endsWith('.json'))) {
+      for (const p of JSON.parse(readFileSync(join(dir, f), 'utf8'))) {
+        expect(themenIds.has(p.themaId), `Lernpaar ${p.id}: unbekanntes Thema ${p.themaId}`).toBe(true)
+        expect(ids.has(p.id), `Lernpaar-ID doppelt: ${p.id}`).toBe(false)
+        ids.add(p.id)
+        for (const k of p.korrekt) {
+          expect(k < p.optionen.length, `Lernpaar ${p.id}: korrekt-Index ${k} außerhalb`).toBe(true)
+        }
+      }
+    }
+  })
+
+  it('anlagenDiagramm-Serien sind beim Kreisdiagramm einreihig', () => {
+    const aufgabenDir = join(dataDir, 'aufgaben')
+    if (!existsSync(aufgabenDir)) return
+    for (const f of readdirSync(aufgabenDir).filter((f) => f.endsWith('.json'))) {
+      for (const a of JSON.parse(readFileSync(join(aufgabenDir, f), 'utf8'))) {
+        if (a.anlagenDiagramm?.typ === 'kreis') {
+          expect(a.anlagenDiagramm.serien.length, `Aufgabe ${a.id}: Kreisdiagramm braucht genau 1 Serie`).toBe(1)
+        }
       }
     }
   })

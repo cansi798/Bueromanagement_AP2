@@ -5,6 +5,7 @@ import Markdown from '../components/Markdown'
 import Timer from '../components/Timer'
 import KIBewertung from '../components/KIBewertung'
 import Anlage from '../components/Anlage'
+import AnlagenDiagramm from '../components/AnlagenDiagramm'
 import { ladeAufgaben, ladePruefungen, useDaten } from '../lib/data'
 import { wertungMC } from '../lib/quiz'
 import { heuteISO, merkeAufgabenErgebnis, merkeErledigt, merkeSimulation } from '../lib/progress'
@@ -277,7 +278,7 @@ export default function Simulation() {
               Aufgabe {zerlegt.nr ?? idx + 1}
               {a.punkte !== undefined && ` · ${a.punkte} Punkte`}
             </p>
-            <div className={a.anlagenText ? 'lg:grid lg:grid-cols-2 lg:gap-5' : ''}>
+            <div className={a.anlagenText || a.anlagenDiagramm ? 'lg:grid lg:grid-cols-2 lg:gap-5' : ''}>
               <div>
                 <Markdown text={zerlegt.text} />
                 {a.typ === 'mc' ? (
@@ -375,9 +376,10 @@ export default function Simulation() {
                   </div>
                 )}
               </div>
-              {a.anlagenText && (
-                <div className="mt-3 lg:mt-0">
-                  <Anlage text={a.anlagenText} />
+              {(a.anlagenText || a.anlagenDiagramm) && (
+                <div className="mt-3 space-y-3 lg:mt-0">
+                  {a.anlagenDiagramm && <AnlagenDiagramm diagramm={a.anlagenDiagramm} />}
+                  {a.anlagenText && <Anlage text={a.anlagenText} />}
                 </div>
               )}
             </div>

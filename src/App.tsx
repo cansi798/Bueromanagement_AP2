@@ -7,6 +7,7 @@ import Stufe2 from './pages/Stufe2'
 import Stufe3 from './pages/Stufe3'
 import Simulation from './pages/Simulation'
 import Karteikarten from './pages/Karteikarten'
+import Quiz from './pages/Quiz'
 import Landkarte from './pages/Landkarte'
 import Glossar from './pages/Glossar'
 import Suche from './pages/Suche'
@@ -41,6 +42,8 @@ export default function App() {
           <Route path="/:bereichId/stufe3" element={<Stufe3 />} />
           <Route path="/:bereichId/simulation/:nr" element={<Simulation />} />
           <Route path="/:bereichId/karten" element={<Karteikarten />} />
+          <Route path="/:bereichId/quiz" element={<Quiz />} />
+          <Route path="/:bereichId/quiz/:themaId" element={<Quiz />} />
         </Routes>
       </HashRouter>
     </Gate>

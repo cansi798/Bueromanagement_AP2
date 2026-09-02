@@ -53,6 +53,41 @@
         "medien": { "$ref": "#/$defs/medien" }
       }
     },
+    "diagrammPunkt": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["x", "y"],
+      "properties": {
+        "x": { "type": "string", "minLength": 1 },
+        "y": { "type": "number" }
+      }
+    },
+    "anlagenDiagramm": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["typ", "titel", "serien"],
+      "properties": {
+        "typ": { "enum": ["linie", "balken", "kreis"] },
+        "titel": { "type": "string", "minLength": 1 },
+        "xAchse": { "type": "string" },
+        "yAchse": { "type": "string" },
+        "einheit": { "type": "string" },
+        "quelle": { "type": "string" },
+        "serien": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["name", "punkte"],
+            "properties": {
+              "name": { "type": "string", "minLength": 1 },
+              "punkte": { "type": "array", "items": { "$ref": "#/$defs/diagrammPunkt" }, "minItems": 1 }
+            }
+          }
+        }
+      }
+    },
     "aufgabe": {
       "type": "object",
       "additionalProperties": false,
@@ -66,6 +101,7 @@
         "typ": { "enum": ["mc", "offen", "rechnen"] },
         "text": { "type": "string", "minLength": 1 },
         "anlagenText": { "type": "string" },
+        "anlagenDiagramm": { "$ref": "#/$defs/anlagenDiagramm" },
         "punkte": { "type": "number", "minimum": 0 },
         "optionen": { "type": "array", "items": { "type": "string", "minLength": 1 }, "minItems": 2 },
         "korrekt": { "type": "array", "items": { "type": "integer", "minimum": 0 }, "minItems": 1 },
@@ -100,6 +136,22 @@
         "rueckseite": { "type": "string", "minLength": 1 }
       }
     },
+    "lernpaar": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "themaId", "bereich", "frage", "optionen", "korrekt", "erklaerung"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "themaId": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "bereich": { "$ref": "#/$defs/bereichId" },
+        "frage": { "type": "string", "minLength": 1 },
+        "optionen": { "type": "array", "items": { "type": "string", "minLength": 1 }, "minItems": 2 },
+        "korrekt": { "type": "array", "items": { "type": "integer", "minimum": 0 }, "minItems": 1 },
+        "erklaerung": { "type": "string", "minLength": 1 },
+        "schwierigkeit": { "enum": [1, 2, 3] },
+        "quellTermin": { "type": "string", "pattern": "^[0-9]{4}-(sommer|winter)$" }
+      }
+    },
     "glossarEintrag": {
       "type": "object",
       "additionalProperties": false,
@@ -115,6 +167,7 @@
     "aufgabeListe": { "type": "array", "items": { "$ref": "#/$defs/aufgabe" } },
     "pruefungListe": { "type": "array", "items": { "$ref": "#/$defs/pruefung" } },
     "karteikarteListe": { "type": "array", "items": { "$ref": "#/$defs/karteikarte" } },
+    "lernpaarListe": { "type": "array", "items": { "$ref": "#/$defs/lernpaar" } },
     "glossarListe": { "type": "array", "items": { "$ref": "#/$defs/glossarEintrag" } }
   }
 }

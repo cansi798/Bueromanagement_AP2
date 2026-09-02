@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import Markdown from '../components/Markdown'
 import QuizMC from '../components/QuizMC'
@@ -8,7 +8,8 @@ import { folienAusThema, type Folie } from '../lib/folien'
 import type { Aufgabe, BereichId } from '../types'
 
 // Vollbild-Präsentation für den Unterricht. Steuerung: Pfeiltasten, Leertaste,
-// Klick/Touch auf ‹ ›. Drucken gibt eine Folie pro Seite aus (→ PDF).
+// Klick/Touch auf ‹ › sowie horizontales Wischen auf Touchgeräten.
+// Drucken gibt eine Folie pro Seite aus (→ PDF).
 // Pro Thema: Titel → Diagramm → Inhalt → Eselsbrücken → Selbstcheck → Quizfragen.
 export default function Praesentation() {
   const { bereichId, themaId } = useParams<{ bereichId: BereichId; themaId?: string }>()
@@ -17,6 +18,7 @@ export default function Praesentation() {
   const { daten: themen, fehler, laedt } = useDaten(() => ladeThemen(bereichId!))
   const { daten: aufgaben } = useDaten(() => ladeAufgaben(bereichId!))
   const [aktiv, setAktiv] = useState(0)
+  const touchStart = useRef<{ x: number; y: number } | null>(null)
 
   const bereich = bereiche?.find((b) => b.id === bereichId)
   const folien: Folie[] = useMemo(() => {
@@ -70,7 +72,23 @@ export default function Praesentation() {
       <style>{`@media print { @page { size: A4 landscape; margin: 0 0 8mm 0;
         @bottom-right { content: "Folie " counter(page) " / " counter(pages); font-size: 9px; color: #94a3b8; } } }`}</style>
       {/* Folien: am Bildschirm nur die aktive, im Druck alle */}
-      <div className="flex flex-1 items-center justify-center overflow-hidden p-4 sm:p-8 print:block print:overflow-visible print:p-0">
+      <div
+        className="flex flex-1 items-center justify-center overflow-hidden p-4 sm:p-8 print:block print:overflow-visible print:p-0"
+        onTouchStart={(e) => {
+          touchStart.current = { x: e.touches[0].clientX, y: e.touches[0].clientY }
+        }}
+        onTouchEnd={(e) => {
+          const start = touchStart.current
+          touchStart.current = null
+          if (!start) return
+          const dx = e.changedTouches[0].clientX - start.x
+          const dy = e.changedTouches[0].clientY - start.y
+          // Nur klar horizontale Wischer zählen, damit Scrollen auf Folien geht.
+          if (Math.abs(dx) < 60 || Math.abs(dx) < Math.abs(dy) * 1.5) return
+          if (dx < 0) setAktiv((a) => Math.min(a + 1, folien.length - 1))
+          else setAktiv((a) => Math.max(a - 1, 0))
+        }}
+      >
         {folien.map((f, i) => (
           <div
             key={`${f.themaId}-${i}`}

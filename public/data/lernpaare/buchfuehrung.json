@@ -1,0 +1,1462 @@
+[
+  {
+    "id": "buchfuehrung-lp-buchungssaetze-kontierung-01",
+    "themaId": "buchungssaetze-kontierung",
+    "bereich": "buchfuehrung",
+    "frage": "Die Jana Loft KG verkauft Waren für **3.000,00 € netto** zuzüglich 19 % Umsatzsteuer **auf Ziel**. Wie lautet der Buchungssatz mit Beträgen?",
+    "optionen": [
+      "Forderungen 2404 3.570,00 € an Umsatzerlöse 5100 3.000,00 € und Umsatzsteuer 4800 570,00 €",
+      "Forderungen 2404 3.000,00 € an Umsatzerlöse 5100 2.521,01 € und Umsatzsteuer 4800 478,99 €",
+      "Umsatzerlöse 5100 3.000,00 € und Umsatzsteuer 4800 570,00 € an Forderungen 2404 3.570,00 €",
+      "Bank 2800 3.570,00 € an Umsatzerlöse 5100 3.000,00 € und Umsatzsteuer 4800 570,00 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Umsatzsteuer = 3.000,00 € × 19 % = 570,00 €; Bruttoforderung = 3.000,00 + 570,00 = 3.570,00 €. Beim Zielverkauf nimmt das Aktivkonto Forderungen (2404) im Soll mit dem Bruttobetrag zu, im Haben stehen Nettoerlös (5100) und Umsatzsteuer (4800). Option 2 rechnet fälschlich die Steuer aus dem Nettobetrag heraus, als wäre er brutto (3.000 ÷ 1,19). Option 3 vertauscht Soll und Haben (das wäre eine Gutschrift). Option 4 bucht Bank statt Forderungen – bei Zielverkauf fließt aber noch kein Geld.",
+    "schwierigkeit": 1,
+    "quellTermin": "2025-sommer"
+  },
+  {
+    "id": "buchfuehrung-lp-buchungssaetze-kontierung-02",
+    "themaId": "buchungssaetze-kontierung",
+    "bereich": "buchfuehrung",
+    "frage": "Kauf von Büromaterial **gegen Rechnung** (auf Ziel): **500,00 € netto** zuzüglich 19 % Umsatzsteuer. Wie lautet der Buchungssatz mit Beträgen?",
+    "optionen": [
+      "Büromaterial 6080 500,00 € und Vorsteuer 2600 95,00 € an Verbindlichkeiten 4402 595,00 €",
+      "Büromaterial 6080 595,00 € an Verbindlichkeiten 4402 595,00 €",
+      "Büromaterial 6080 500,00 € und Umsatzsteuer 4800 95,00 € an Verbindlichkeiten 4402 595,00 €",
+      "Verbindlichkeiten 4402 595,00 € an Büromaterial 6080 500,00 € und Vorsteuer 2600 95,00 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Vorsteuer = 500,00 € × 19 % = 95,00 €; brutto = 595,00 €. Nettoaufwand (6080) und abziehbare Vorsteuer (2600, Forderung ans Finanzamt) stehen im Soll, die Verbindlichkeit (4402) mit dem Bruttobetrag im Haben. Option 2 bucht fälschlich brutto als Aufwand und unterschlägt den Vorsteuerabzug. Option 3 verwechselt Vorsteuer (Einkauf, 2600) mit Umsatzsteuer (Verkauf, 4800). Option 4 vertauscht Soll und Haben – das wäre die Stornierung des Einkaufs.",
+    "schwierigkeit": 1,
+    "quellTermin": "2025-sommer"
+  },
+  {
+    "id": "buchfuehrung-lp-buchungssaetze-kontierung-03",
+    "themaId": "buchungssaetze-kontierung",
+    "bereich": "buchfuehrung",
+    "frage": "Ein Kunde überweist **1.785,00 €** zum Ausgleich einer offenen Rechnung auf das Bankkonto. Wie wird der Zahlungseingang gebucht?",
+    "optionen": [
+      "Bank 2800 1.785,00 € an Forderungen 2404 1.785,00 €",
+      "Forderungen 2404 1.785,00 € an Bank 2800 1.785,00 €",
+      "Bank 2800 1.785,00 € an Umsatzerlöse 5100 1.500,00 € und Umsatzsteuer 4800 285,00 €",
+      "Verbindlichkeiten 4400 1.785,00 € an Bank 2800 1.785,00 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Beim Zahlungseingang wird nur der Aktivtausch gebucht: Das Bankguthaben (2800, Aktivkonto) nimmt im Soll zu, die Forderung (2404) wird im Haben abgebaut. Option 2 vertauscht die Seiten. Option 3 bucht Erlös und Umsatzsteuer erneut – die wurden aber bereits beim Verkauf erfasst; sonst würde der Umsatz doppelt gezählt. Option 4 beschreibt eine Zahlung an einen Lieferanten (Verbindlichkeit), nicht den Eingang von einem Kunden.",
+    "schwierigkeit": 1,
+    "quellTermin": "2025-sommer"
+  },
+  {
+    "id": "buchfuehrung-lp-buchungssaetze-kontierung-04",
+    "themaId": "buchungssaetze-kontierung",
+    "bereich": "buchfuehrung",
+    "frage": "Ein Kunde sendet mangelhafte Ware zurück. Die Gutschrift lautet über **800,00 € netto** zuzüglich 19 % Umsatzsteuer. Wie wird die Erlösberichtigung gebucht?",
+    "optionen": [
+      "Umsatzerlöse 5100 800,00 € und Umsatzsteuer 4800 152,00 € an Forderungen 2404 952,00 €",
+      "Forderungen 2404 952,00 € an Umsatzerlöse 5100 800,00 € und Umsatzsteuer 4800 152,00 €",
+      "Umsatzerlöse 5100 952,00 € an Forderungen 2404 952,00 €",
+      "Umsatzerlöse 5100 800,00 € und Vorsteuer 2600 152,00 € an Forderungen 2404 952,00 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "USt-Anteil = 800,00 € × 19 % = 152,00 €; brutto = 952,00 €. Die Gutschrift ist die Umkehrung des Zielverkaufs: Umsatzerlöse und Umsatzsteuer werden im Soll gemindert, die Forderung im Haben abgebaut. Option 2 ist der ursprüngliche Verkauf, nicht die Rücknahme. Option 3 mindert den Erlös fälschlich um den Bruttobetrag und vergisst die Umsatzsteuerkorrektur. Option 4 verwechselt Umsatzsteuer (4800) mit Vorsteuer (2600) – bei Ausgangsumsätzen wird immer 4800 korrigiert.",
+    "schwierigkeit": 2,
+    "quellTermin": "2025-sommer"
+  },
+  {
+    "id": "buchfuehrung-lp-buchungssaetze-kontierung-05",
+    "themaId": "buchungssaetze-kontierung",
+    "bereich": "buchfuehrung",
+    "frage": "Ein Kunde begleicht eine Forderung über **2.380,00 € brutto** (Ware zu 19 % USt) unter Abzug von **2 % Skonto** per Banküberweisung. Wie lautet der Buchungssatz?",
+    "optionen": [
+      "Bank 2800 2.332,40 €, gewährte Skonti 5101 40,00 €, Umsatzsteuer 4800 7,60 € an Forderungen 2404 2.380,00 €",
+      "Bank 2800 2.332,40 €, gewährte Skonti 5101 47,60 € an Forderungen 2404 2.380,00 €",
+      "Bank 2800 2.332,40 € an Forderungen 2404 2.332,40 €",
+      "Bank 2800 2.380,00 € an Forderungen 2404 2.332,40 € und gewährte Skonti 5101 47,60 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Skonto brutto = 2.380,00 € × 2 % = 47,60 €; Überweisungsbetrag = 2.380,00 − 47,60 = 2.332,40 €. Das Skonto ist in netto und Steuer aufzuteilen: Skonto netto = 47,60 ÷ 1,19 = 40,00 € (gewährte Skonti 5101), enthaltene USt-Korrektur = 47,60 − 40,00 = 7,60 € (Umsatzsteuer 4800). Im Haben wird die volle Forderung 2.380,00 € ausgeglichen. Option 2 vergisst die Umsatzsteuerkorrektur (bucht das Bruttoskonto komplett als Erlösschmälerung). Option 3 lässt die Forderung in Höhe des Skontos offen stehen. Option 4 bucht den falschen Bankbetrag und vertauscht die Logik.",
+    "schwierigkeit": 2,
+    "quellTermin": "2025-sommer"
+  },
+  {
+    "id": "buchfuehrung-lp-buchungssaetze-kontierung-06",
+    "themaId": "buchungssaetze-kontierung",
+    "bereich": "buchfuehrung",
+    "frage": "Kauf von Fachbüchern auf Ziel: **200,00 € netto** zuzüglich **7 %** (ermäßigter Steuersatz) Umsatzsteuer. Welcher Buchungssatz ist richtig?",
+    "optionen": [
+      "Aufwand 200,00 € und Vorsteuer 2600 14,00 € an Verbindlichkeiten 214,00 €",
+      "Aufwand 200,00 € und Vorsteuer 2600 38,00 € an Verbindlichkeiten 238,00 €",
+      "Aufwand 214,00 € an Verbindlichkeiten 214,00 €",
+      "Aufwand 200,00 € und Umsatzsteuer 4800 14,00 € an Verbindlichkeiten 214,00 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Bücher unterliegen dem ermäßigten Steuersatz von 7 %: Vorsteuer = 200,00 € × 7 % = 14,00 €; brutto = 214,00 €. Nettoaufwand und Vorsteuer im Soll, Bruttoverbindlichkeit im Haben. Option 2 rechnet fälschlich mit dem Regelsteuersatz 19 % (38,00 €). Option 3 bucht brutto als Aufwand und verschenkt den Vorsteuerabzug. Option 4 verwechselt die Vorsteuer (Einkaufsseite, 2600) mit der Umsatzsteuer (Verkaufsseite, 4800).",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "buchfuehrung-lp-buchungssaetze-kontierung-07",
+    "themaId": "buchungssaetze-kontierung",
+    "bereich": "buchfuehrung",
+    "frage": "Welche **zwei** Aussagen zu den Kontenarten sind richtig?",
+    "optionen": [
+      "Auf Aktivkonten werden Zugänge im Soll gebucht.",
+      "Auf Passivkonten werden Zugänge im Haben gebucht.",
+      "Auf Aktivkonten werden Zugänge im Haben gebucht.",
+      "Aufwandskonten werden im Haben bebucht, Ertragskonten im Soll."
+    ],
+    "korrekt": [
+      0,
+      1
+    ],
+    "erklaerung": "Merkregel: Aktiv-Mehrung im Soll, Passiv-Mehrung im Haben. Ein Zugang auf einem Aktivkonto (z. B. Bank, Forderungen, Vorsteuer) steht im Soll, ein Zugang auf einem Passivkonto (z. B. Verbindlichkeiten, Umsatzsteuer) im Haben. Option 3 ist die genaue Umkehrung und damit falsch. Option 4 vertauscht die Erfolgskonten: Aufwendungen stehen im Soll, Erträge im Haben.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "buchfuehrung-lp-buchungssaetze-kontierung-08",
+    "themaId": "buchungssaetze-kontierung",
+    "bereich": "buchfuehrung",
+    "frage": "Eine Eingangsrechnung lautet über **1.190,00 € brutto** (19 % USt). Wie hoch ist die abziehbare **Vorsteuer**?",
+    "optionen": [
+      "190,00 €",
+      "226,10 €",
+      "119,00 €",
+      "1.000,00 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Aus dem Bruttobetrag muss die Steuer herausgerechnet werden: Netto = 1.190,00 ÷ 1,19 = 1.000,00 €; Vorsteuer = 1.190,00 − 1.000,00 = 190,00 € (bzw. 1.000 × 19 %). Kontrolle: $$1.000 + 190 = 1.190$$. Option 2 (226,10 €) rechnet fälschlich 19 % vom Bruttobetrag (1.190 × 0,19). Option 3 wendet 10 % an. Option 4 (1.000,00 €) ist der Nettobetrag, nicht die Steuer.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "buchfuehrung-lp-buchungssaetze-kontierung-09",
+    "themaId": "buchungssaetze-kontierung",
+    "bereich": "buchfuehrung",
+    "frage": "Die Jana Loft KG begleicht eine Lieferantenverbindlichkeit über **2.975,00 € brutto** (19 % USt) unter Abzug von **3 % Skonto** per Bank. Wie lautet der Buchungssatz?",
+    "optionen": [
+      "Verbindlichkeiten 2.975,00 € an Bank 2.885,75 €, erhaltene Skonti 75,00 € und Vorsteuer 2600 14,25 €",
+      "Verbindlichkeiten 2.975,00 € an Bank 2.885,75 € und erhaltene Skonti 89,25 €",
+      "Verbindlichkeiten 2.885,75 € an Bank 2.885,75 €",
+      "Bank 2.885,75 €, erhaltene Skonti 75,00 € und Vorsteuer 14,25 € an Verbindlichkeiten 2.975,00 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Skonto brutto = 2.975,00 € × 3 % = 89,25 €; Überweisung = 2.975,00 − 89,25 = 2.885,75 €. Das Skonto ist aufzuteilen: netto 89,25 ÷ 1,19 = 75,00 € (erhaltene Skonti, mindern den Aufwand) und 14,25 € Vorsteuerkorrektur (die ursprünglich gebuchte Vorsteuer wird anteilig zurückgenommen). Die volle Verbindlichkeit 2.975,00 € steht im Soll. Option 2 vergisst die Vorsteuerkorrektur. Option 3 tilgt die Verbindlichkeit nur teilweise. Option 4 vertauscht Soll und Haben – bei einer Zahlung an den Lieferanten wird die Verbindlichkeit im Soll abgebaut.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "buchfuehrung-lp-buchungssaetze-kontierung-10",
+    "themaId": "buchungssaetze-kontierung",
+    "bereich": "buchfuehrung",
+    "frage": "Ein Kunde zahlt eine Forderung über **1.190,00 € brutto** (19 % USt) unter Abzug von **2 % Skonto**. Um welchen Betrag muss die **Umsatzsteuer** korrigiert werden?",
+    "optionen": [
+      "3,80 €",
+      "4,52 €",
+      "23,80 €",
+      "20,00 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Skonto brutto = 1.190,00 € × 2 % = 23,80 €. Darin steckt die Umsatzsteuer: Skonto netto = 23,80 ÷ 1,19 = 20,00 €; USt-Korrektur = 23,80 − 20,00 = 3,80 € (bzw. 20,00 × 19 %). Option 2 (4,52 €) rechnet fälschlich 19 % vom Bruttoskonto (23,80 × 0,19). Option 3 ist das gesamte Bruttoskonto, Option 4 nur der Nettoanteil (das sind die gewährten Skonti 5101, nicht die USt-Korrektur).",
+    "schwierigkeit": 3
+  },
+  {
+    "id": "buchfuehrung-lp-buchungssaetze-kontierung-11",
+    "themaId": "buchungssaetze-kontierung",
+    "bereich": "buchfuehrung",
+    "frage": "Welcher Grundsatz gilt für jeden Buchungssatz?",
+    "optionen": [
+      "Soll an Haben – die Summe der Sollbuchungen entspricht der Summe der Habenbuchungen.",
+      "Haben an Soll – zuerst wird das Habenkonto genannt.",
+      "Es wird immer genau ein Konto bebucht.",
+      "Die Sollseite darf größer sein als die Habenseite, wenn Steuern enthalten sind."
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Jeder Geschäftsfall wird auf mindestens zwei Konten gebucht: zuerst das/die Sollkonto(en), dann mit „an“ das/die Habenkonto(en). Die Summe im Soll ist stets gleich der Summe im Haben – nur so bleibt die Bilanzgleichung erhalten. Option 2 dreht die Reihenfolge um, Option 3 widerspricht der Doppik (mindestens zwei Konten), Option 4 ist falsch, weil Soll- und Habensumme auch bei Steuerbuchungen immer identisch sind.",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "buchfuehrung-lp-buchungssaetze-kontierung-12",
+    "themaId": "buchungssaetze-kontierung",
+    "bereich": "buchfuehrung",
+    "frage": "Ein Kunde sendet Ware zurück; die Gutschrift lautet über **714,00 € brutto** (19 % USt). Mit welchen Beträgen werden Umsatzerlöse (5100) und Umsatzsteuer (4800) im Soll korrigiert?",
+    "optionen": [
+      "Umsatzerlöse 600,00 € und Umsatzsteuer 114,00 €",
+      "Umsatzerlöse 714,00 € und Umsatzsteuer 135,66 €",
+      "Umsatzerlöse 578,34 € und Umsatzsteuer 135,66 €",
+      "Umsatzerlöse 664,00 € und Umsatzsteuer 50,00 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Netto = 714,00 ÷ 1,19 = 600,00 €; USt = 714,00 − 600,00 = 114,00 €. Buchungssatz: Umsatzerlöse 5100 600,00 € und Umsatzsteuer 4800 114,00 € an Forderungen 2404 714,00 €. Kontrolle: 600 + 114 = 714 – Soll- und Habensumme stimmen überein. Option 2 nimmt zusätzlich zu den 714 € noch 19 % darauf (Erlös brutto statt netto). Option 3 rechnet 19 % vom Bruttobetrag (714 × 0,19 = 135,66) und zieht diese vom Brutto ab – klassischer Brutto/Netto-Fehler. Option 4 ist eine willkürliche Aufteilung, bei der die Steuer nicht 19 % des Nettobetrags entspricht.",
+    "schwierigkeit": 3
+  },
+  {
+    "id": "buchfuehrung-lp-buchungssaetze-kontierung-13",
+    "themaId": "buchungssaetze-kontierung",
+    "bereich": "buchfuehrung",
+    "frage": "Welche **zwei** Buchungssätze sind fachlich korrekt gebildet?",
+    "optionen": [
+      "Zahlungseingang eines Kunden: Bank 2800 an Forderungen 2404",
+      "Einkauf von Werbematerial auf Ziel: Werbeaufwand 6800 und Vorsteuer 2600 an Verbindlichkeiten 4499",
+      "Verkauf auf Ziel: Umsatzerlöse 5100 an Forderungen 2404 und Umsatzsteuer 4800",
+      "Kauf von Büromaterial auf Ziel: Verbindlichkeiten 4402 an Büromaterial 6080 und Vorsteuer 2600"
+    ],
+    "korrekt": [
+      0,
+      1
+    ],
+    "erklaerung": "Option 1: Der Zahlungseingang mehrt die Bank (Soll) und baut die Forderung ab (Haben) – korrekt. Option 2: Nettoaufwand (6800) und Vorsteuer (2600) im Soll, Bruttoverbindlichkeit (4499) im Haben – korrekt (vgl. Beleg 5 der Prüfung 2025). Option 3 vertauscht die Seiten: Beim Verkauf auf Ziel stehen die Forderungen im Soll, Erlöse und Umsatzsteuer im Haben. Option 4 ist ebenfalls seitenverkehrt – so würde man den Einkauf stornieren, nicht buchen.",
+    "schwierigkeit": 2,
+    "quellTermin": "2025-sommer"
+  },
+  {
+    "id": "buchfuehrung-lp-buchungssaetze-kontierung-14",
+    "themaId": "buchungssaetze-kontierung",
+    "bereich": "buchfuehrung",
+    "frage": "Eine Eingangsrechnung für Werbeaufwand lautet über **2.856,00 € brutto** (19 % USt, Zielkauf). Welcher Betrag wird auf dem Aufwandskonto **6800 im Soll** gebucht?",
+    "optionen": [
+      "2.400,00 €",
+      "2.856,00 €",
+      "2.313,36 €",
+      "456,00 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Gebucht wird der Nettoaufwand: 2.856,00 ÷ 1,19 = 2.400,00 €. Vollständiger Buchungssatz: Werbeaufwand 6800 2.400,00 € und Vorsteuer 2600 456,00 € an Verbindlichkeiten 2.856,00 €. Option 2 wäre die Bruttobuchung ohne Vorsteuerabzug – falsch, da netto gebucht wird. Option 3 zieht fälschlich 19 % vom Bruttobetrag ab (2.856 − 542,64). Option 4 (456,00 €) ist die Vorsteuer, die auf Konto 2600 gehört, nicht der Aufwand.",
+    "schwierigkeit": 3
+  },
+  {
+    "id": "buchfuehrung-lp-umsatzsteuer-01",
+    "themaId": "umsatzsteuer",
+    "bereich": "buchfuehrung",
+    "frage": "Ein Unternehmen kauft Waren für **10.000,00 € netto** bei 19 % Steuersatz ein. Wie hoch ist die abziehbare **Vorsteuer**?",
+    "optionen": [
+      "1.900,00 €",
+      "700,00 €",
+      "1.596,64 €",
+      "11.900,00 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Vorsteuer = Nettobetrag × Steuersatz = 10.000,00 € × 19 % = 1.900,00 €. Sie ist eine Forderung an das Finanzamt (Konto 2600). Option 2 rechnet mit dem ermäßigten Satz 7 %. Option 3 behandelt die 10.000 € fälschlich als Bruttobetrag und rechnet die Steuer heraus (10.000 ÷ 1,19 × 0,19). Option 4 ist der Bruttobetrag der Rechnung, nicht die Steuer.",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "buchfuehrung-lp-umsatzsteuer-02",
+    "themaId": "umsatzsteuer",
+    "bereich": "buchfuehrung",
+    "frage": "In einem Voranmeldungszeitraum wurden **19.000,00 € Umsatzsteuer** vereinnahmt und **11.400,00 € Vorsteuer** gezahlt. Wie hoch ist die Zahllast?\n\n$$\\text{Zahllast} = \\text{Umsatzsteuer} - \\text{Vorsteuer}$$",
+    "optionen": [
+      "7.600,00 €",
+      "30.400,00 €",
+      "11.400,00 €",
+      "−7.600,00 € (Erstattung)"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Zahllast = 19.000,00 − 11.400,00 = 7.600,00 €. Da die Umsatzsteuer größer als die Vorsteuer ist, muss der Betrag ans Finanzamt gezahlt werden. Option 2 addiert beide Beträge, statt die Vorsteuer abzuziehen. Option 3 ist nur die Vorsteuer. Option 4 unterstellt einen Vorsteuerüberhang – der läge nur vor, wenn die Vorsteuer größer als die Umsatzsteuer wäre.",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "buchfuehrung-lp-umsatzsteuer-03",
+    "themaId": "umsatzsteuer",
+    "bereich": "buchfuehrung",
+    "frage": "Welche **zwei** Aussagen zum Vorsteuerüberhang sind richtig?",
+    "optionen": [
+      "Er entsteht, wenn die Vorsteuer größer ist als die Umsatzsteuer.",
+      "Das Finanzamt erstattet dem Unternehmen den Überhang.",
+      "Er entsteht, wenn die Umsatzsteuer größer ist als die Vorsteuer.",
+      "Der Überhang muss zusätzlich ans Finanzamt gezahlt werden."
+    ],
+    "korrekt": [
+      0,
+      1
+    ],
+    "erklaerung": "Übersteigt die auf Einkäufe gezahlte Vorsteuer die auf Verkäufe vereinnahmte Umsatzsteuer (z. B. bei hohen Investitionen oder schwachem Umsatz), ergibt sich ein Vorsteuerüberhang – das Finanzamt erstattet die Differenz. Option 3 beschreibt die Zahllast, nicht den Überhang. Option 4 ist die Umkehrung der Wahrheit: Ein Überhang wird erstattet, nicht gezahlt.",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "buchfuehrung-lp-umsatzsteuer-04",
+    "themaId": "umsatzsteuer",
+    "bereich": "buchfuehrung",
+    "frage": "Ein Unternehmen erzielt im Monat **Umsatzerlöse von 120.000,00 € netto** und hat **Aufwendungen von 75.000,00 € netto** (jeweils 19 %). Wie hoch ist die Umsatzsteuerzahllast?",
+    "optionen": [
+      "8.550,00 €",
+      "22.800,00 €",
+      "14.250,00 €",
+      "37.050,00 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Umsatzsteuer = 120.000 × 19 % = 22.800,00 €. Vorsteuer = 75.000 × 19 % = 14.250,00 €. Zahllast = 22.800,00 − 14.250,00 = 8.550,00 €. Option 2 ist nur die Umsatzsteuer (Vorsteuerabzug vergessen), Option 3 nur die Vorsteuer. Option 4 addiert beide Steuerbeträge, statt sie zu saldieren.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "buchfuehrung-lp-umsatzsteuer-05",
+    "themaId": "umsatzsteuer",
+    "bereich": "buchfuehrung",
+    "frage": "Für die Voranmeldung liegen vor: Umsatzerlöse **200.000,00 € netto**, Erlösberichtigungen **10.000,00 € netto**, Aufwendungen **120.000,00 € netto** (jeweils 19 %). Wie hoch ist die Zahllast?",
+    "optionen": [
+      "13.300,00 €",
+      "15.200,00 €",
+      "36.100,00 €",
+      "11.400,00 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Umsatzsteuer = (200.000 − 10.000) × 19 % = 190.000 × 0,19 = 36.100,00 € (Erlösberichtigungen mindern die USt). Vorsteuer = 120.000 × 19 % = 22.800,00 €. Zahllast = 36.100,00 − 22.800,00 = 13.300,00 €. Option 2 (15.200,00 €) ignoriert die Erlösberichtigungen (38.000 − 22.800). Option 3 ist nur die Umsatzsteuer ohne Vorsteuerabzug. Option 4 zieht die Erlösberichtigung fälschlich doppelt bzw. von der falschen Seite ab.",
+    "schwierigkeit": 2,
+    "quellTermin": "2025-sommer"
+  },
+  {
+    "id": "buchfuehrung-lp-umsatzsteuer-06",
+    "themaId": "umsatzsteuer",
+    "bereich": "buchfuehrung",
+    "frage": "Eine Buchhandlung verkauft im Monat **Bücher für 40.000,00 € netto (7 %)** und **Büroartikel für 30.000,00 € netto (19 %)**. Wie hoch ist die gesamte Umsatzsteuer?",
+    "optionen": [
+      "8.500,00 €",
+      "13.300,00 €",
+      "4.900,00 €",
+      "10.640,00 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Die Steuersätze müssen getrennt angewendet werden: Bücher 40.000 × 7 % = 2.800,00 €; Büroartikel 30.000 × 19 % = 5.700,00 €; Summe = 8.500,00 €. Option 2 wendet fälschlich 19 % auf den Gesamtumsatz von 70.000 € an. Option 3 wendet 7 % auf alles an. Option 4 vertauscht die Steuersätze (40.000 × 19 % + 30.000 × 7 % = 7.600 + 2.100 = 9.700 – bzw. mischt die Sätze falsch).",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "buchfuehrung-lp-umsatzsteuer-07",
+    "themaId": "umsatzsteuer",
+    "bereich": "buchfuehrung",
+    "frage": "Ein Start-up hat im Monat **Umsatzerlöse von 30.000,00 € netto** und **Aufwendungen von 50.000,00 € netto** (jeweils 19 %). Was ergibt sich für die Voranmeldung?",
+    "optionen": [
+      "Ein Vorsteuerüberhang von 3.800,00 € – das Finanzamt erstattet diesen Betrag.",
+      "Eine Zahllast von 3.800,00 € – der Betrag ist ans Finanzamt zu zahlen.",
+      "Eine Zahllast von 5.700,00 €.",
+      "Ein Vorsteuerüberhang von 9.500,00 €."
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Umsatzsteuer = 30.000 × 19 % = 5.700,00 €; Vorsteuer = 50.000 × 19 % = 9.500,00 €. Da die Vorsteuer größer ist, entsteht ein Vorsteuerüberhang von 9.500,00 − 5.700,00 = 3.800,00 €, den das Finanzamt erstattet. Option 2 hat den richtigen Betrag, aber die falsche Richtung (keine Zahllast, da VSt > USt). Option 3 ist nur die Umsatzsteuer. Option 4 ist die volle Vorsteuer statt des Saldos.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "buchfuehrung-lp-umsatzsteuer-08",
+    "themaId": "umsatzsteuer",
+    "bereich": "buchfuehrung",
+    "frage": "Die Kasse weist Bruttoeinnahmen von **59.500,00 €** aus (alles zu 19 %). Wie viel **Umsatzsteuer** ist darin enthalten?",
+    "optionen": [
+      "9.500,00 €",
+      "11.305,00 €",
+      "50.000,00 €",
+      "4.165,00 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Aus dem Bruttobetrag wird die Steuer herausgerechnet: Netto = 59.500 ÷ 1,19 = 50.000,00 €; enthaltene USt = 59.500 − 50.000 = 9.500,00 € (bzw. 50.000 × 19 %). Option 2 rechnet fälschlich 19 % vom Bruttobetrag (59.500 × 0,19). Option 3 ist der Nettoumsatz, nicht die Steuer. Option 4 wendet 7 % auf den Bruttobetrag an – doppelt falsch (falscher Satz und falsche Basis).",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "buchfuehrung-lp-umsatzsteuer-09",
+    "themaId": "umsatzsteuer",
+    "bereich": "buchfuehrung",
+    "frage": "Welche Kontenart ist das Konto **Umsatzsteuer (4800)** und warum?",
+    "optionen": [
+      "Ein passives Bestandskonto, weil die vereinnahmte Umsatzsteuer eine Verbindlichkeit gegenüber dem Finanzamt ist.",
+      "Ein aktives Bestandskonto, weil die Umsatzsteuer eine Forderung an das Finanzamt ist.",
+      "Ein Ertragskonto, weil die Umsatzsteuer die Erlöse erhöht.",
+      "Ein Aufwandskonto, weil die Umsatzsteuer den Gewinn mindert."
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Die beim Verkauf vereinnahmte Umsatzsteuer steht dem Finanzamt zu – das Unternehmen schuldet sie und weist sie als Verbindlichkeit (passives Bestandskonto, Zugang im Haben) aus. Option 2 beschreibt die Vorsteuer (2600). Optionen 3 und 4 sind falsch: Die Umsatzsteuer ist erfolgsneutral, sie ist weder Ertrag noch Aufwand, sondern ein durchlaufender Posten.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "buchfuehrung-lp-umsatzsteuer-10",
+    "themaId": "umsatzsteuer",
+    "bereich": "buchfuehrung",
+    "frage": "Bereiten Sie die Voranmeldung vor: Umsatzerlöse **300.000,00 €**, Erlösberichtigungen **12.000,00 €**, Aufwendungen **180.000,00 €**, erhaltene Nachlässe **8.000,00 €** (alle Beträge netto, 19 %). Wie hoch ist die Zahllast?",
+    "optionen": [
+      "22.040,00 €",
+      "20.520,00 €",
+      "24.320,00 €",
+      "22.800,00 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Umsatzsteuer = (300.000 − 12.000) × 19 % = 288.000 × 0,19 = 54.720,00 € (Erlösberichtigungen mindern die USt). Vorsteuer = (180.000 − 8.000) × 19 % = 172.000 × 0,19 = 32.680,00 € (Nachlässe mindern die Vorsteuer). Zahllast = 54.720,00 − 32.680,00 = 22.040,00 €. Option 2 vergisst die Nachlasskorrektur bei der Vorsteuer (54.720 − 34.200). Option 3 vergisst die Erlösberichtigungen (57.000 − 32.680). Option 4 ignoriert beide Korrekturen (57.000 − 34.200).",
+    "schwierigkeit": 3,
+    "quellTermin": "2025-sommer"
+  },
+  {
+    "id": "buchfuehrung-lp-umsatzsteuer-11",
+    "themaId": "umsatzsteuer",
+    "bereich": "buchfuehrung",
+    "frage": "Welche **zwei** Aussagen zur Wirkung von Korrekturen auf die Voranmeldung sind richtig?",
+    "optionen": [
+      "Erlösberichtigungen (z. B. Kundengutschriften) mindern die Umsatzsteuer.",
+      "Erhaltene Nachlässe von Lieferanten mindern die Vorsteuer.",
+      "Erhaltene Nachlässe erhöhen die Vorsteuer.",
+      "Die Zahllast berechnet sich als Vorsteuer minus Umsatzsteuer."
+    ],
+    "korrekt": [
+      0,
+      1
+    ],
+    "erklaerung": "Erlösberichtigungen machen einen Teil des Umsatzes rückgängig – die darauf entfallende Umsatzsteuer wird zurückgenommen, die USt sinkt. Nachlässe der Lieferanten (Rabatte, Boni, Skonti) verringern den Einkaufswert – die ursprünglich zu hoch gebuchte Vorsteuer wird korrigiert, die VSt sinkt. Option 3 behauptet das Gegenteil. Option 4 vertauscht die Formel: Zahllast = Umsatzsteuer − Vorsteuer.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "buchfuehrung-lp-umsatzsteuer-12",
+    "themaId": "umsatzsteuer",
+    "bereich": "buchfuehrung",
+    "frage": "Ein Verlag kauft im Monat Material für **20.000,00 € netto (19 %)** und Papier für **10.000,00 € netto (7 %)** ein; verkauft werden Bücher für **22.000,00 € netto (7 %)**. Was ergibt die Voranmeldung?",
+    "optionen": [
+      "Vorsteuerüberhang von 2.960,00 €",
+      "Zahllast von 2.960,00 €",
+      "Vorsteuerüberhang von 320,00 €",
+      "Zahllast von 4.500,00 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Vorsteuer = 20.000 × 19 % + 10.000 × 7 % = 3.800 + 700 = 4.500,00 €. Umsatzsteuer = 22.000 × 7 % = 1.540,00 € (Bücher: ermäßigter Satz). Da VSt > USt: Vorsteuerüberhang = 4.500,00 − 1.540,00 = 2.960,00 € (Erstattung). Option 2 verwechselt Überhang und Zahllast. Option 3 entsteht, wenn man die Buchverkäufe fälschlich mit 19 % besteuert (USt 4.180 → Überhang nur 320 €). Option 4 nimmt nur die Vorsteuer als Zahllast – Richtung und Begriff falsch.",
+    "schwierigkeit": 3
+  },
+  {
+    "id": "buchfuehrung-lp-umsatzsteuer-13",
+    "themaId": "umsatzsteuer",
+    "bereich": "buchfuehrung",
+    "frage": "Bis wann muss die Umsatzsteuervoranmeldung regelmäßig abgegeben werden?",
+    "optionen": [
+      "Bis zum 10. Tag des Folgemonats.",
+      "Bis zum letzten Tag des laufenden Monats.",
+      "Bis zum 31. Mai des Folgejahres.",
+      "Bis zum 15. Tag des übernächsten Monats."
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Die Umsatzsteuervoranmeldung ist regelmäßig bis zum 10. des Folgemonats elektronisch an das Finanzamt zu übermitteln und die Zahllast zu entrichten (ohne Dauerfristverlängerung). Option 2 wäre zu früh (der Zeitraum ist dann noch nicht abgeschlossen), Option 3 verwechselt die Voranmeldung mit der Jahressteuererklärung, Option 4 nennt eine frei erfundene Frist.",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "buchfuehrung-lp-umsatzsteuer-14",
+    "themaId": "umsatzsteuer",
+    "bereich": "buchfuehrung",
+    "frage": "Im Voranmeldungszeitraum stehen **12.000,00 € Umsatzsteuer** (4800) **9.000,00 € Vorsteuer** (2600) gegenüber. Die Vorsteuer wurde bereits auf das USt-Konto umgebucht. Wie wird die Überweisung der Zahllast an das Finanzamt gebucht?",
+    "optionen": [
+      "Umsatzsteuer 4800 3.000,00 € an Bank 2800 3.000,00 €",
+      "Bank 2800 3.000,00 € an Umsatzsteuer 4800 3.000,00 €",
+      "Vorsteuer 2600 3.000,00 € an Bank 2800 3.000,00 €",
+      "Umsatzsteuer 4800 12.000,00 € an Bank 2800 12.000,00 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Nach der Umbuchung der Vorsteuer (Umsatzsteuer an Vorsteuer 9.000,00 €) verbleibt auf dem USt-Konto die Zahllast von 12.000 − 9.000 = 3.000,00 €. Die Überweisung tilgt diese Verbindlichkeit: Umsatzsteuer (Passivkonto, Abgang im Soll) an Bank (Aktivkonto, Abgang im Haben). Option 2 vertauscht die Seiten und würde einen Geldeingang darstellen. Option 3 bucht das falsche Konto – die Vorsteuer wurde bereits verrechnet. Option 4 überweist die volle Umsatzsteuer ohne Vorsteuerverrechnung.",
+    "schwierigkeit": 3
+  },
+  {
+    "id": "buchfuehrung-lp-deckungsbeitrag-breakeven-01",
+    "themaId": "deckungsbeitrag-breakeven",
+    "bereich": "buchfuehrung",
+    "frage": "Ein Produkt wird für **120,00 €/Stück** verkauft, die variablen Kosten betragen **75,00 €/Stück**. Wie hoch ist der Deckungsbeitrag je Stück?\n\n$$db = p - k_v$$",
+    "optionen": [
+      "45,00 €",
+      "195,00 €",
+      "75,00 €",
+      "0,625 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Deckungsbeitrag je Stück = Verkaufserlös je Stück − variable Kosten je Stück = 120,00 − 75,00 = 45,00 €. Dieser Betrag steht je verkauftem Stück zur Deckung der Fixkosten und danach als Gewinn zur Verfügung. Option 2 addiert Preis und variable Kosten statt zu subtrahieren. Option 3 sind die variablen Kosten selbst. Option 4 ist der Quotient 75 ÷ 120 – eine Verwechslung mit einer Quote.",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "buchfuehrung-lp-deckungsbeitrag-breakeven-02",
+    "themaId": "deckungsbeitrag-breakeven",
+    "bereich": "buchfuehrung",
+    "frage": "Verkaufspreis **120,00 €/Stück**, variable Kosten **75,00 €/Stück**, Fixkosten **90.000,00 €/Jahr**. Bei welcher Menge liegt die Gewinnschwelle (Break-even-Point)?\n\n$$x_{BEP} = \\frac{K_f}{db}$$",
+    "optionen": [
+      "2.000 Stück",
+      "750 Stück",
+      "1.200 Stück",
+      "4.000 Stück"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Deckungsbeitrag = 120,00 − 75,00 = 45,00 €/Stück. Break-even-Menge = Fixkosten ÷ db = 90.000 ÷ 45 = 2.000 Stück. Ab diesem Absatz sind die Fixkosten vollständig gedeckt. Option 2 teilt die Fixkosten fälschlich durch den Verkaufspreis (90.000 ÷ 120). Option 3 teilt durch die variablen Kosten (90.000 ÷ 75). Option 4 verdoppelt das richtige Ergebnis ohne fachlichen Grund.",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "buchfuehrung-lp-deckungsbeitrag-breakeven-03",
+    "themaId": "deckungsbeitrag-breakeven",
+    "bereich": "buchfuehrung",
+    "frage": "Ein Produkt hat einen Deckungsbeitrag von **45,00 €/Stück** und Fixkosten von **90.000,00 €**. Wie hoch ist der Gewinn bei einem Absatz von **3.500 Stück**?",
+    "optionen": [
+      "67.500,00 €",
+      "157.500,00 €",
+      "90.000,00 €",
+      "−22.500,00 € (Verlust)"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Gewinn = Menge × db − Fixkosten = 3.500 × 45 − 90.000 = 157.500 − 90.000 = 67.500,00 €. Option 2 ist der Gesamtdeckungsbeitrag ohne Abzug der Fixkosten. Option 3 sind nur die Fixkosten. Option 4 wäre das Ergebnis, wenn man fälschlich die Fixkosten von einem zu kleinen Deckungsbeitrag abzieht – bei 3.500 Stück liegt der Absatz aber deutlich über der Gewinnschwelle von 2.000 Stück, es entsteht Gewinn.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "buchfuehrung-lp-deckungsbeitrag-breakeven-04",
+    "themaId": "deckungsbeitrag-breakeven",
+    "bereich": "buchfuehrung",
+    "frage": "Was gilt genau an der Gewinnschwelle (Break-even-Point)?",
+    "optionen": [
+      "Gesamterlöse und Gesamtkosten sind gleich groß – es entsteht weder Gewinn noch Verlust.",
+      "Der Gewinn ist maximal.",
+      "Die Fixkosten sind gleich null.",
+      "Die variablen Kosten sind vollständig durch die Fixkosten gedeckt."
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "An der Gewinnschwelle schneiden sich Gesamterlös- und Gesamtkostengerade: Die kumulierten Deckungsbeiträge decken genau die Fixkosten, das Ergebnis ist null. Darunter liegt die Verlustzone, darüber die Gewinnzone. Option 2 ist falsch – der Gewinn steigt oberhalb des BEP weiter an. Option 3 ist falsch, die Fixkosten fallen unabhängig von der Menge an. Option 4 verdreht die Logik: Die Deckungsbeiträge decken die Fixkosten, nicht umgekehrt.",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "buchfuehrung-lp-deckungsbeitrag-breakeven-05",
+    "themaId": "deckungsbeitrag-breakeven",
+    "bereich": "buchfuehrung",
+    "frage": "Die Jana Loft KG plant einen Rollcontainer: Verkaufspreis **60,00 €/Stück**, variable Kosten **42,00 €/Stück**, Fixkosten **63.000,00 €/Jahr**. Wie viele Stück müssen für die Gewinnschwelle abgesetzt werden?",
+    "optionen": [
+      "3.500 Stück",
+      "1.050 Stück",
+      "1.500 Stück",
+      "2.646 Stück"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "db = 60,00 − 42,00 = 18,00 €/Stück. Break-even = 63.000 ÷ 18 = 3.500 Stück. Option 2 teilt die Fixkosten durch den Verkaufspreis (63.000 ÷ 60), Option 3 durch die variablen Kosten (63.000 ÷ 42) – beides typische Fehler, weil nur der Deckungsbeitrag zur Fixkostendeckung beiträgt. Option 4 (63.000 × 0,042) ist ein reiner Rechenfehler ohne fachliche Grundlage.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "buchfuehrung-lp-deckungsbeitrag-breakeven-06",
+    "themaId": "deckungsbeitrag-breakeven",
+    "bereich": "buchfuehrung",
+    "frage": "Die Gewinnschwelle eines Produkts liegt bei **4.000 Stück**, die Fixkosten betragen **100.000,00 €**. Wie hoch ist der Deckungsbeitrag je Stück?",
+    "optionen": [
+      "25,00 €",
+      "40,00 €",
+      "0,04 €",
+      "400,00 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Die Break-even-Formel wird umgestellt: db = Fixkosten ÷ Break-even-Menge = 100.000 ÷ 4.000 = 25,00 €/Stück. Kontrolle: 4.000 × 25 = 100.000 € – die Deckungsbeiträge decken genau die Fixkosten. Option 2 entsteht durch fehlerhafte Division (100.000 ÷ 2.500). Option 3 kehrt den Bruch um (4.000 ÷ 100.000). Option 4 ist um den Faktor 16 falsch – ein Kommafehler kombiniert mit Umkehrfehler.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "buchfuehrung-lp-deckungsbeitrag-breakeven-07",
+    "themaId": "deckungsbeitrag-breakeven",
+    "bereich": "buchfuehrung",
+    "frage": "Die Schubladenbox 'Hamburg' (db **34,00 €/Stück**, Fixkosten **125.800,00 €**, Break-even **3.700 Stück**) wird **4.500-mal** verkauft. Wie hoch ist der Gewinn?",
+    "optionen": [
+      "27.200,00 €",
+      "153.000,00 €",
+      "125.800,00 €",
+      "44.200,00 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Weg 1: Gewinn = Menge × db − Fixkosten = 4.500 × 34 − 125.800 = 153.000 − 125.800 = 27.200,00 €. Weg 2 (über den BEP): Nur die Stücke oberhalb der Gewinnschwelle bringen Gewinn: (4.500 − 3.700) × 34 = 800 × 34 = 27.200,00 €. Beide Wege führen zum selben Ergebnis. Option 2 ist der Gesamtdeckungsbeitrag ohne Fixkostenabzug. Option 3 sind die Fixkosten. Option 4 wäre der Gewinn bei 5.000 Stück (Aufgabenwert der Prüfung), nicht bei 4.500.",
+    "schwierigkeit": 2,
+    "quellTermin": "2025-sommer"
+  },
+  {
+    "id": "buchfuehrung-lp-deckungsbeitrag-breakeven-08",
+    "themaId": "deckungsbeitrag-breakeven",
+    "bereich": "buchfuehrung",
+    "frage": "Die Schubladenbox 'Hamburg' (bisher: Preis **99,00 €**, variable Kosten **65,00 €**, Fixkosten **125.800,00 €**, Break-even 3.700 Stück) soll künftig für **105,00 €/Stück** verkauft werden. Wie verändert sich die Gewinnschwelle?",
+    "optionen": [
+      "Sie sinkt auf 3.145 Stück, weil der Deckungsbeitrag auf 40,00 € steigt.",
+      "Sie steigt auf 3.145 Stück.",
+      "Sie bleibt bei 3.700 Stück, weil sich die Fixkosten nicht ändern.",
+      "Sie sinkt auf 1.198 Stück, weil die Fixkosten durch den neuen Preis geteilt werden."
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Neuer Deckungsbeitrag = 105,00 − 65,00 = 40,00 €/Stück. Neuer Break-even = 125.800 ÷ 40 = 3.145 Stück. Da jedes Stück nun mehr zur Fixkostendeckung beiträgt, sind weniger Stück nötig – die Gewinnschwelle sinkt (von 3.700 auf 3.145). Option 2 nennt die richtige Zahl, aber die falsche Richtung. Option 3 übersieht, dass der BEP nicht nur von den Fixkosten, sondern auch vom db abhängt. Option 4 teilt die Fixkosten fälschlich durch den Preis (125.800 ÷ 105).",
+    "schwierigkeit": 3,
+    "quellTermin": "2025-sommer"
+  },
+  {
+    "id": "buchfuehrung-lp-deckungsbeitrag-breakeven-09",
+    "themaId": "deckungsbeitrag-breakeven",
+    "bereich": "buchfuehrung",
+    "frage": "Welche **zwei** Aussagen zum Kosten-Erlös-Diagramm (Break-even-Diagramm) sind richtig?",
+    "optionen": [
+      "Die Gerade der Gesamterlöse verläuft steiler als die Gerade der Gesamtkosten.",
+      "Die Fixkosten verlaufen als waagerechte Linie parallel zur Mengenachse.",
+      "Der Schnittpunkt von Erlös- und Kostengerade zeigt den maximalen Gewinn.",
+      "Unterhalb der Gewinnschwelle liegt die Gewinnzone."
+    ],
+    "korrekt": [
+      0,
+      1
+    ],
+    "erklaerung": "Die Erlösgerade steigt mit dem Verkaufspreis je Stück, die Gesamtkostengerade nur mit den variablen Kosten je Stück – da der Preis über den variablen Stückkosten liegt, ist die Erlösgerade steiler (sonst gäbe es nie einen Break-even). Die Fixkosten sind mengenunabhängig und bilden eine waagerechte Linie. Option 3 ist falsch: Der Schnittpunkt markiert die Gewinnschwelle (Gewinn = 0), nicht das Maximum. Option 4 verwechselt die Zonen – unterhalb des BEP liegt die Verlustzone.",
+    "schwierigkeit": 2,
+    "quellTermin": "2025-sommer"
+  },
+  {
+    "id": "buchfuehrung-lp-deckungsbeitrag-breakeven-10",
+    "themaId": "deckungsbeitrag-breakeven",
+    "bereich": "buchfuehrung",
+    "frage": "Fixkosten **96.000,00 €**, Deckungsbeitrag **30,00 €/Stück**. Wie viele Stück müssen abgesetzt werden, um einen **Gewinn von 24.000,00 €** zu erzielen?",
+    "optionen": [
+      "4.000 Stück",
+      "3.200 Stück",
+      "800 Stück",
+      "2.400 Stück"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Die Deckungsbeiträge müssen Fixkosten und Zielgewinn abdecken: Menge = (Fixkosten + Zielgewinn) ÷ db = (96.000 + 24.000) ÷ 30 = 120.000 ÷ 30 = 4.000 Stück. Kontrolle: 4.000 × 30 − 96.000 = 24.000 €. Option 2 ist nur die Gewinnschwelle (96.000 ÷ 30) ohne Zielgewinn. Option 3 deckt nur den Zielgewinn (24.000 ÷ 30) und vergisst die Fixkosten. Option 4 subtrahiert den Gewinn statt ihn zu addieren ((96.000 − 24.000) ÷ 30).",
+    "schwierigkeit": 3
+  },
+  {
+    "id": "buchfuehrung-lp-deckungsbeitrag-breakeven-11",
+    "themaId": "deckungsbeitrag-breakeven",
+    "bereich": "buchfuehrung",
+    "frage": "Welche **zwei** Kostenarten zählen typischerweise zu den **Fixkosten**?",
+    "optionen": [
+      "Miete für die Produktionshalle",
+      "Gehälter der Verwaltung",
+      "Fertigungsmaterial je produziertem Stück",
+      "Akkordlöhne der Fertigung"
+    ],
+    "korrekt": [
+      0,
+      1
+    ],
+    "erklaerung": "Fixkosten fallen unabhängig von der Produktionsmenge an: Miete und Verwaltungsgehälter bleiben auch bei Produktionsstillstand bestehen. Fertigungsmaterial (Option 3) und Akkordlöhne (Option 4) steigen dagegen proportional mit der Menge – das sind klassische variable Kosten. Die Trennung ist die Grundlage der Deckungsbeitragsrechnung: Nur variable Kosten gehen in den db ein, die Fixkosten werden als Block gedeckt.",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "buchfuehrung-lp-deckungsbeitrag-breakeven-12",
+    "themaId": "deckungsbeitrag-breakeven",
+    "bereich": "buchfuehrung",
+    "frage": "Verkaufspreis **120,00 €/Stück**, Break-even-Menge **2.000 Stück**. Wie hoch ist der **Umsatz an der Gewinnschwelle** (Break-even-Umsatz)?",
+    "optionen": [
+      "240.000,00 €",
+      "90.000,00 €",
+      "150.000,00 €",
+      "2.000,00 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Break-even-Umsatz = Break-even-Menge × Verkaufspreis = 2.000 × 120,00 = 240.000,00 €. Bei diesem Umsatz sind Gesamtkosten und Gesamterlöse gleich groß. Option 2 wären nur die Fixkosten (bei db 45 €: 2.000 × 45 = 90.000) – das ist der Gesamtdeckungsbeitrag am BEP, nicht der Umsatz. Option 3 multipliziert mit den variablen Kosten (2.000 × 75). Option 4 verwechselt Menge und Umsatz.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "buchfuehrung-lp-deckungsbeitrag-breakeven-13",
+    "themaId": "deckungsbeitrag-breakeven",
+    "bereich": "buchfuehrung",
+    "frage": "Von der Schubladenbox 'Hamburg' (db **34,00 €/Stück**, Fixkosten **125.800,00 €**, Break-even 3.700 Stück) werden nur **3.000 Stück** abgesetzt. Was ist das Ergebnis?",
+    "optionen": [
+      "Ein Verlust von 23.800,00 €",
+      "Ein Gewinn von 23.800,00 €",
+      "Ein Verlust von 125.800,00 €",
+      "Ein Gewinn von 102.000,00 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Ergebnis = Menge × db − Fixkosten = 3.000 × 34 − 125.800 = 102.000 − 125.800 = −23.800,00 € → Verlust von 23.800,00 €. Alternativ: Es fehlen 3.700 − 3.000 = 700 Stück bis zur Gewinnschwelle, also 700 × 34 = 23.800 € Unterdeckung der Fixkosten. Option 2 hat den richtigen Betrag, aber das falsche Vorzeichen – unterhalb des BEP entsteht Verlust. Option 3 unterstellt, dass gar nichts verkauft wurde. Option 4 ist der Gesamtdeckungsbeitrag ohne Fixkostenabzug.",
+    "schwierigkeit": 3,
+    "quellTermin": "2025-sommer"
+  },
+  {
+    "id": "buchfuehrung-lp-deckungsbeitrag-breakeven-14",
+    "themaId": "deckungsbeitrag-breakeven",
+    "bereich": "buchfuehrung",
+    "frage": "Bei einem Absatz von **6.000 Stück** und einem Deckungsbeitrag von **34,00 €/Stück** – wie hoch ist der **Gesamtdeckungsbeitrag** (DB)?",
+    "optionen": [
+      "204.000,00 €",
+      "78.200,00 €",
+      "125.800,00 €",
+      "34.000,00 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Gesamtdeckungsbeitrag = Menge × db = 6.000 × 34,00 = 204.000,00 €. Dieser Betrag steht zur Deckung der Fixkosten zur Verfügung; was übrig bleibt, ist Gewinn (bei Fixkosten von 125.800 € also 78.200 € Gewinn). Option 2 ist bereits der Gewinn nach Fixkostenabzug – gefragt war aber der DB vor Fixkosten. Option 3 sind die Fixkosten. Option 4 ist ein Kommafehler (Faktor 1.000 statt 6.000).",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "buchfuehrung-lp-stueckkosten-kostenrechnung-01",
+    "themaId": "stueckkosten-kostenrechnung",
+    "bereich": "buchfuehrung",
+    "frage": "Fixkosten **60.000,00 €**, variable Kosten **40,00 €/Stück**, Produktionsmenge **5.000 Stück**. Wie hoch sind die Stückkosten?\n\n$$k = \\frac{K_f + k_v \\cdot x}{x}$$",
+    "optionen": [
+      "52,00 €/Stück",
+      "40,00 €/Stück",
+      "12,00 €/Stück",
+      "100,00 €/Stück"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Variable Gesamtkosten = 40 × 5.000 = 200.000 €. Gesamtkosten = 60.000 + 200.000 = 260.000 €. Stückkosten = 260.000 ÷ 5.000 = 52,00 €/Stück (= 40 € variabel + 12 € Fixkostenanteil). Option 2 vergisst den Fixkostenanteil. Option 3 ist nur der Fixkostenanteil je Stück (60.000 ÷ 5.000). Option 4 addiert fälschlich 60 € (Fixkosten ÷ 1.000) auf die variablen Kosten – ein Kommafehler.",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "buchfuehrung-lp-stueckkosten-kostenrechnung-02",
+    "themaId": "stueckkosten-kostenrechnung",
+    "bereich": "buchfuehrung",
+    "frage": "Wie setzen sich die **Gesamtkosten** einer Periode zusammen?",
+    "optionen": [
+      "Fixkosten + variable Kosten je Stück × Menge",
+      "Fixkosten × Menge + variable Kosten je Stück",
+      "Nur variable Kosten je Stück × Menge",
+      "Verkaufspreis × Menge − Gewinn"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Gesamtkosten = Fixkosten + variable Gesamtkosten, wobei die variablen Gesamtkosten = variable Kosten je Stück × Menge sind. Die Fixkosten gehen als konstanter Block ein, sie werden nicht mit der Menge multipliziert – genau das macht Option 2 falsch. Option 3 unterschlägt die Fixkosten. Option 4 beschreibt formal die Erlösseite abzüglich Gewinn – das ist keine Kostendefinition, sondern eine Umformung, die in der Kostenrechnung nicht verwendet wird.",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "buchfuehrung-lp-stueckkosten-kostenrechnung-03",
+    "themaId": "stueckkosten-kostenrechnung",
+    "bereich": "buchfuehrung",
+    "frage": "Die Jana Loft KG produziert **9.000 Regale** pro Jahr. Fixkosten **144.000,00 €**, variable Kosten **58,00 €/Stück**. Berechnen Sie die Stückkosten.",
+    "optionen": [
+      "74,00 €/Stück",
+      "58,00 €/Stück",
+      "16,00 €/Stück",
+      "89,00 €/Stück"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Variable Gesamtkosten = 58 × 9.000 = 522.000 €. Gesamtkosten = 144.000 + 522.000 = 666.000 €. Stückkosten = 666.000 ÷ 9.000 = 74,00 €/Stück. Alternativ direkt: 58 € variabel + 144.000 ÷ 9.000 = 16 € Fixanteil = 74 €. Option 2 sind nur die variablen Stückkosten (Fixkosten vergessen). Option 3 ist nur der Fixkostenanteil. Option 4 entsteht, wenn man versehentlich mit zu wenig Stück (z. B. 4.645) teilt – kein nachvollziehbarer Rechenweg.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "buchfuehrung-lp-stueckkosten-kostenrechnung-04",
+    "themaId": "stueckkosten-kostenrechnung",
+    "bereich": "buchfuehrung",
+    "frage": "Ein Betrieb produziert **7.000 Stück** (Fixkosten **84.000,00 €**, variable Kosten **45,00 €/Stück**). Wegen eines Auftragseinbruchs wird die Menge auf **3.500 Stück halbiert**. Wie hoch sind die neuen Stückkosten?",
+    "optionen": [
+      "69,00 €/Stück",
+      "57,00 €/Stück",
+      "114,00 €/Stück",
+      "45,00 €/Stück"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Bei 3.500 Stück: Fixkostenanteil = 84.000 ÷ 3.500 = 24,00 €/Stück; Stückkosten = 45,00 + 24,00 = 69,00 €. Zum Vergleich bei 7.000 Stück: 45,00 + 12,00 = 57,00 € (Option 2 – das sind die alten Stückkosten). Die Stückkosten steigen bei sinkender Menge, weil sich die konstanten Fixkosten auf weniger Stück verteilen (Umkehrung der Fixkostenregression). Option 3 verdoppelt fälschlich die gesamten Stückkosten statt nur den Fixanteil. Option 4 ignoriert die Fixkosten komplett.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "buchfuehrung-lp-stueckkosten-kostenrechnung-05",
+    "themaId": "stueckkosten-kostenrechnung",
+    "bereich": "buchfuehrung",
+    "frage": "Warum sinken die Stückkosten, wenn die Produktionsmenge steigt (Fixkostenregression)?",
+    "optionen": [
+      "Weil sich die in Summe konstanten Fixkosten auf mehr Stück verteilen und der Fixkostenanteil je Stück sinkt.",
+      "Weil die variablen Kosten je Stück bei höherer Menge sinken.",
+      "Weil die Fixkosten in Summe sinken, wenn mehr produziert wird.",
+      "Weil bei höherer Menge automatisch höhere Verkaufspreise erzielt werden."
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Die Fixkosten (Miete, Abschreibungen, Gehälter) bleiben in Summe gleich, egal wie viel produziert wird. Verteilt man sie auf mehr Stück, sinkt der Fixkostenanteil je Stück – und damit die gesamten Stückkosten. Die variablen Kosten je Stück bleiben dabei konstant (Option 2 falsch). Option 3 verwechselt Summe und Stückbetrag: Die Fixkostensumme ändert sich nicht. Option 4 vermischt Kosten- und Erlösseite – Verkaufspreise haben mit Stückkosten nichts zu tun.",
+    "schwierigkeit": 1,
+    "quellTermin": "2025-sommer"
+  },
+  {
+    "id": "buchfuehrung-lp-stueckkosten-kostenrechnung-06",
+    "themaId": "stueckkosten-kostenrechnung",
+    "bereich": "buchfuehrung",
+    "frage": "Fixkosten **120.000,00 €**, Produktionsmenge **6.000 Stück**. Wie hoch ist der **Fixkostenanteil je Stück**?",
+    "optionen": [
+      "20,00 €/Stück",
+      "2,00 €/Stück",
+      "50,00 €/Stück",
+      "120.000,00 € unabhängig von der Menge"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Fixkostenanteil je Stück = Fixkosten ÷ Menge = 120.000 ÷ 6.000 = 20,00 €/Stück. Option 2 ist ein Kommafehler (÷ 60.000). Option 3 kehrt den Bruch teilweise um (6.000 ÷ 120). Option 4 verwechselt die Fixkostensumme mit dem Stückbetrag: In Summe sind die Fixkosten zwar mengenunabhängig konstant, je Stück verändert sich der Anteil aber sehr wohl mit der Menge.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "buchfuehrung-lp-stueckkosten-kostenrechnung-07",
+    "themaId": "stueckkosten-kostenrechnung",
+    "bereich": "buchfuehrung",
+    "frage": "Eine CNC-Fräse verursacht **Maschinenkosten von 180.000,00 € pro Jahr** bei einer geplanten Laufzeit von **1.500 Stunden**. Wie hoch ist der Maschinenstundensatz?\n\n$$\\text{Maschinenstundensatz} = \\frac{\\text{Maschinenkosten p. a.}}{\\text{Laufstunden p. a.}}$$",
+    "optionen": [
+      "120,00 €/Stunde",
+      "12,00 €/Stunde",
+      "83,33 €/Stunde",
+      "1.200,00 €/Stunde"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Maschinenstundensatz = 180.000 ÷ 1.500 = 120,00 €/Stunde. Mit diesem Satz werden die Maschinenkosten den Aufträgen nach ihrer Bearbeitungszeit verursachungsgerecht zugerechnet. Option 2 ist ein Kommafehler (÷ 15.000). Option 3 kehrt die Division um bzw. teilt durch falsche Stunden (z. B. 2.160). Option 4 ist ebenfalls ein Kommafehler (÷ 150).",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "buchfuehrung-lp-stueckkosten-kostenrechnung-08",
+    "themaId": "stueckkosten-kostenrechnung",
+    "bereich": "buchfuehrung",
+    "frage": "Für eine Maschine sind zu verrechnen: Abschreibung **40.000,00 €**, kalkulatorische Zinsen **8.000,00 €**, Raumkosten **6.000,00 €**, Energiekosten **18.000,00 €** pro Jahr; Laufzeit **2.000 Stunden/Jahr**. Wie hoch ist der Maschinenstundensatz?",
+    "optionen": [
+      "36,00 €/Stunde",
+      "27,00 €/Stunde",
+      "32,00 €/Stunde",
+      "72,00 €/Stunde"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Maschinenkosten gesamt = 40.000 + 8.000 + 6.000 + 18.000 = 72.000,00 €. Maschinenstundensatz = 72.000 ÷ 2.000 = 36,00 €/Stunde. Option 2 vergisst die Energiekosten (54.000 ÷ 2.000 = 27). Option 3 vergisst die kalkulatorischen Zinsen (64.000 ÷ 2.000 = 32). Option 4 ist die Kostensumme in Tausend statt des Stundensatzes – hier wurde die Division durch die Laufstunden vergessen (bzw. durch 1.000 statt 2.000 geteilt).",
+    "schwierigkeit": 3
+  },
+  {
+    "id": "buchfuehrung-lp-stueckkosten-kostenrechnung-09",
+    "themaId": "stueckkosten-kostenrechnung",
+    "bereich": "buchfuehrung",
+    "frage": "Bei einer Produktionsmenge von **4.000 Stück** betragen die Stückkosten **75,00 €**, die variablen Kosten **55,00 €/Stück**. Wie hoch sind die **Fixkosten** der Periode?",
+    "optionen": [
+      "80.000,00 €",
+      "300.000,00 €",
+      "220.000,00 €",
+      "20,00 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Fixkostenanteil je Stück = Stückkosten − variable Stückkosten = 75,00 − 55,00 = 20,00 €. Fixkosten gesamt = 20,00 × 4.000 = 80.000,00 €. Kontrolle: (80.000 + 55 × 4.000) ÷ 4.000 = 300.000 ÷ 4.000 = 75,00 € ✓. Option 2 sind die Gesamtkosten (75 × 4.000), Option 3 die variablen Gesamtkosten (55 × 4.000). Option 4 ist nur der Fixkostenanteil je Stück – gefragt war die Summe der Periode.",
+    "schwierigkeit": 3
+  },
+  {
+    "id": "buchfuehrung-lp-stueckkosten-kostenrechnung-10",
+    "themaId": "stueckkosten-kostenrechnung",
+    "bereich": "buchfuehrung",
+    "frage": "Bei **5.000 Stück** betragen die Stückkosten **80,00 €**; die Fixkosten der Periode sind **100.000,00 €**. Die Produktion wird auf **10.000 Stück** verdoppelt. Wie hoch sind die neuen Stückkosten?",
+    "optionen": [
+      "70,00 €/Stück",
+      "40,00 €/Stück",
+      "80,00 €/Stück",
+      "60,00 €/Stück"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Zuerst die variablen Stückkosten ermitteln: Fixanteil bei 5.000 Stück = 100.000 ÷ 5.000 = 20,00 € → variable Kosten = 80,00 − 20,00 = 60,00 €/Stück. Bei 10.000 Stück: Fixanteil = 100.000 ÷ 10.000 = 10,00 € → Stückkosten = 60,00 + 10,00 = 70,00 €. Option 2 halbiert fälschlich die gesamten Stückkosten – nur der Fixanteil halbiert sich. Option 3 unterstellt konstante Stückkosten und ignoriert die Fixkostenregression. Option 4 sind nur die variablen Stückkosten ohne Fixanteil.",
+    "schwierigkeit": 3
+  },
+  {
+    "id": "buchfuehrung-lp-stueckkosten-kostenrechnung-11",
+    "themaId": "stueckkosten-kostenrechnung",
+    "bereich": "buchfuehrung",
+    "frage": "Welche **zwei** Aussagen über variable Kosten sind richtig?",
+    "optionen": [
+      "Die variablen Kosten je Stück bleiben bei Mengenänderungen konstant.",
+      "Die variablen Gesamtkosten steigen proportional mit der Produktionsmenge.",
+      "Die variablen Kosten je Stück sinken mit steigender Menge.",
+      "Die variablen Gesamtkosten sind unabhängig von der Menge."
+    ],
+    "korrekt": [
+      0,
+      1
+    ],
+    "erklaerung": "Variable Kosten (z. B. Fertigungsmaterial, Akkordlöhne) verhalten sich proportional: Je Stück bleiben sie konstant, in Summe wachsen sie linear mit der Menge (variable Gesamtkosten = kv × x). Option 3 beschreibt fälschlich das Verhalten des Fixkostenanteils – nur dieser sinkt je Stück (Fixkostenregression). Option 4 beschreibt die Fixkosten, nicht die variablen Kosten.",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "buchfuehrung-lp-stueckkosten-kostenrechnung-12",
+    "themaId": "stueckkosten-kostenrechnung",
+    "bereich": "buchfuehrung",
+    "frage": "Fixkosten **75.000,00 €**, variable Kosten **32,00 €/Stück**, Menge **2.500 Stück**. Wie hoch sind die **Gesamtkosten** der Periode?",
+    "optionen": [
+      "155.000,00 €",
+      "80.000,00 €",
+      "75.032,00 €",
+      "187.500,00 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Variable Gesamtkosten = 32 × 2.500 = 80.000,00 €. Gesamtkosten = Fixkosten + variable Gesamtkosten = 75.000 + 80.000 = 155.000,00 €. Option 2 sind nur die variablen Gesamtkosten (Fixkosten vergessen). Option 3 addiert fälschlich die variablen Stückkosten statt der variablen Gesamtkosten auf die Fixkosten. Option 4 multipliziert die Fixkosten mit 2,5 – Fixkosten werden aber nie mit der Menge multipliziert.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "buchfuehrung-lp-stueckkosten-kostenrechnung-13",
+    "themaId": "stueckkosten-kostenrechnung",
+    "bereich": "buchfuehrung",
+    "frage": "Welche **zwei** Aussagen zur Fixkostenregression (Fixkostendegression) sind richtig?",
+    "optionen": [
+      "Eine höhere Auslastung der Kapazität führt zu niedrigeren Stückkosten.",
+      "Die Fixkostensumme der Periode bleibt bei Mengenänderungen unverändert.",
+      "Bei höherer Menge sinken auch die variablen Kosten je Stück.",
+      "Die Fixkostenregression bewirkt, dass die Gesamtkosten mit steigender Menge sinken."
+    ],
+    "korrekt": [
+      0,
+      1
+    ],
+    "erklaerung": "Kern der Fixkostenregression: Die konstante Fixkostensumme verteilt sich bei höherer Menge auf mehr Stück, der Fixanteil je Stück und damit die Stückkosten sinken – deshalb ist eine hohe Kapazitätsauslastung je Stück kostengünstiger. Option 3 ist falsch: Die variablen Stückkosten bleiben konstant. Option 4 verwechselt Stück- und Gesamtkosten: Die Gesamtkosten steigen mit der Menge (um die variablen Kosten), nur die Kosten je Stück sinken.",
+    "schwierigkeit": 2,
+    "quellTermin": "2025-sommer"
+  },
+  {
+    "id": "buchfuehrung-lp-stueckkosten-kostenrechnung-14",
+    "themaId": "stueckkosten-kostenrechnung",
+    "bereich": "buchfuehrung",
+    "frage": "Die Kapazitätsgrenze liegt bei **7.500 Stück**. Fixkosten **90.000,00 €**, variable Kosten **24,00 €/Stück**. Wie hoch sind die Stückkosten bei voller Auslastung?",
+    "optionen": [
+      "36,00 €/Stück",
+      "24,00 €/Stück",
+      "12,00 €/Stück",
+      "42,00 €/Stück"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Fixkostenanteil = 90.000 ÷ 7.500 = 12,00 €/Stück. Stückkosten = variable Kosten + Fixanteil = 24,00 + 12,00 = 36,00 €/Stück. Ausführlich: Gesamtkosten = 90.000 + 24 × 7.500 = 90.000 + 180.000 = 270.000 €; 270.000 ÷ 7.500 = 36,00 €. Option 2 vergisst den Fixkostenanteil, Option 3 die variablen Kosten. Option 4 rechnet mit einem falschen Fixanteil von 18 € (90.000 ÷ 5.000), z. B. weil nicht mit der Kapazitätsgrenze gerechnet wurde.",
+    "schwierigkeit": 2,
+    "quellTermin": "2025-sommer"
+  },
+  {
+    "id": "buchfuehrung-lp-zuschlagskalkulation-01",
+    "themaId": "zuschlagskalkulation",
+    "bereich": "buchfuehrung",
+    "frage": "Das Fertigungsmaterial für einen Schreibtisch beträgt **400,00 €**, der Materialgemeinkostenzuschlag **25 %**. Wie hoch sind die Materialgemeinkosten (MGK)?",
+    "optionen": [
+      "100,00 €",
+      "25,00 €",
+      "500,00 €",
+      "16,00 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "MGK = MGK-Satz × Fertigungsmaterial = 25 % von 400,00 € = 100,00 €. Die Materialgemeinkosten (z. B. Lagerhaltung, Einkauf) werden immer prozentual auf das Fertigungsmaterial bezogen. Option 2 verwechselt den Prozentsatz mit dem Eurobetrag. Option 3 ist Material plus MGK (die Materialkosten gesamt), nicht die MGK allein. Option 4 rechnet 400 ÷ 25 – eine Umkehrung der Prozentrechnung.",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "buchfuehrung-lp-zuschlagskalkulation-02",
+    "themaId": "zuschlagskalkulation",
+    "bereich": "buchfuehrung",
+    "frage": "Die Fertigungslöhne betragen **250,00 €**, der Fertigungsgemeinkostenzuschlag **120 %**. Wie hoch sind die Fertigungsgemeinkosten (FGK)?",
+    "optionen": [
+      "300,00 €",
+      "30,00 €",
+      "208,33 €",
+      "120,00 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "FGK = 120 % von 250,00 € = 1,2 × 250 = 300,00 €. Zuschlagssätze über 100 % sind bei Fertigungsgemeinkosten üblich (Maschinen, Energie, Meistergehälter übersteigen oft die Lohneinzelkosten). Option 2 ist ein Kommafehler (12 % statt 120 %). Option 3 teilt fälschlich durch 1,2 statt zu multiplizieren. Option 4 verwechselt den Prozentsatz mit dem Eurobetrag.",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "buchfuehrung-lp-zuschlagskalkulation-03",
+    "themaId": "zuschlagskalkulation",
+    "bereich": "buchfuehrung",
+    "frage": "Berechnen Sie die **Herstellkosten**: Fertigungsmaterial **250,00 €**, MGK-Zuschlag **20 %**, Fertigungslöhne **180,00 €**, FGK-Zuschlag **150 %**.",
+    "optionen": [
+      "750,00 €",
+      "855,00 €",
+      "480,00 €",
+      "700,00 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "MGK = 20 % von 250 = 50,00 €; FGK = 150 % von 180 = 270,00 €. Herstellkosten = FM + MGK + FL + FGK = 250 + 50 + 180 + 270 = 750,00 €. Option 2 berechnet die FGK fälschlich auf das Fertigungsmaterial (150 % von 250 = 375 → 855) statt auf die Löhne. Option 3 addiert nur die Einzelkosten samt MGK und vergisst die FGK. Option 4 rechnet die FGK mit falscher Basis (150 % von (250+50) ÷ 2 o. ä.) – die korrekte Basis der FGK sind allein die Fertigungslöhne.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "buchfuehrung-lp-zuschlagskalkulation-04",
+    "themaId": "zuschlagskalkulation",
+    "bereich": "buchfuehrung",
+    "frage": "Die Herstellkosten eines Auftrags betragen **900,00 €**. VwGK-Zuschlag **12 %**, VtGK-Zuschlag **8 %**. Wie hoch sind die **Selbstkosten**?",
+    "optionen": [
+      "1.080,00 €",
+      "1.088,64 €",
+      "972,00 €",
+      "1.180,00 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "VwGK = 12 % von 900 = 108,00 €; VtGK = 8 % von 900 = 72,00 €. Selbstkosten = 900 + 108 + 72 = 1.080,00 €. Wichtig: Beide Zuschläge beziehen sich auf dieselbe Basis, die Herstellkosten. Option 2 (1.088,64 €) rechnet die VtGK fälschlich auf HK + VwGK (900 × 1,12 × 1,08) – die Zuschläge werden aber nicht nacheinander „aufgezinst“. Option 3 berücksichtigt nur die VwGK. Option 4 addiert fälschlich 20 % + weitere 100 € durch Rechenfehler.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "buchfuehrung-lp-zuschlagskalkulation-05",
+    "themaId": "zuschlagskalkulation",
+    "bereich": "buchfuehrung",
+    "frage": "Kalkulieren Sie die **Selbstkosten** eines Sideboards: Fertigungsmaterial **180,00 €**, MGK **50 %**, Fertigungslöhne **240,00 €**, FGK **125 %**, VwGK **10 %**, VtGK **5 %**. Runden Sie kaufmännisch.",
+    "optionen": [
+      "931,50 €",
+      "810,00 €",
+      "891,00 €",
+      "922,05 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "MGK = 50 % von 180 = 90,00 €; FGK = 125 % von 240 = 300,00 €. Herstellkosten = 180 + 90 + 240 + 300 = 810,00 €. VwGK = 10 % von 810 = 81,00 €; VtGK = 5 % von 810 = 40,50 €. Selbstkosten = 810 + 81 + 40,50 = 931,50 €. Option 2 sind nur die Herstellkosten – Verwaltung und Vertrieb fehlen. Option 3 berücksichtigt nur die VwGK (810 + 81). Option 4 entsteht, wenn die VtGK fälschlich auf die Fertigungslöhne statt auf die HK bezogen werden.",
+    "schwierigkeit": 3,
+    "quellTermin": "2025-sommer"
+  },
+  {
+    "id": "buchfuehrung-lp-zuschlagskalkulation-06",
+    "themaId": "zuschlagskalkulation",
+    "bereich": "buchfuehrung",
+    "frage": "Im Betriebsabrechnungsbogen wurden **Materialgemeinkosten von 45.000,00 €** bei einem **Fertigungsmaterial von 180.000,00 €** ermittelt. Wie hoch ist der MGK-Zuschlagssatz?\n\n$$\\text{MGK-Satz} = \\frac{\\text{MGK}}{\\text{FM}} \\cdot 100$$",
+    "optionen": [
+      "25 %",
+      "400 %",
+      "4 %",
+      "2,5 %"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "MGK-Satz = MGK ÷ Fertigungsmaterial × 100 = 45.000 ÷ 180.000 × 100 = 25 %. In der Kalkulation werden dann auf jedes Fertigungsmaterial 25 % MGK aufgeschlagen. Option 2 kehrt den Bruch um (180.000 ÷ 45.000 = 4 → 400 %). Option 3 ist die umgekehrte Division als Dezimalwert. Option 4 ist ein Kommafehler beim richtigen Ergebnis.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "buchfuehrung-lp-zuschlagskalkulation-07",
+    "themaId": "zuschlagskalkulation",
+    "bereich": "buchfuehrung",
+    "frage": "Die Fertigungsgemeinkosten einer Periode betragen **264.000,00 €**, die Fertigungslöhne **220.000,00 €**. Wie hoch ist der FGK-Zuschlagssatz?",
+    "optionen": [
+      "120 %",
+      "83,33 %",
+      "12 %",
+      "44 %"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "FGK-Satz = FGK ÷ Fertigungslöhne × 100 = 264.000 ÷ 220.000 × 100 = 120 %. Die Gemeinkosten übersteigen hier die Lohneinzelkosten – bei maschinenintensiver Fertigung normal. Option 2 kehrt den Bruch um (220.000 ÷ 264.000). Option 3 ist ein Kommafehler. Option 4 (44 %) entstünde, wenn man die FGK fälschlich auf die Summe aus Löhnen und FGK bezieht oder schlicht falsche Basiswerte verwendet.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "buchfuehrung-lp-zuschlagskalkulation-08",
+    "themaId": "zuschlagskalkulation",
+    "bereich": "buchfuehrung",
+    "frage": "Welche **zwei** Gemeinkostenarten werden in der Zuschlagskalkulation auf die **Herstellkosten** bezogen?",
+    "optionen": [
+      "Verwaltungsgemeinkosten (VwGK)",
+      "Vertriebsgemeinkosten (VtGK)",
+      "Materialgemeinkosten (MGK)",
+      "Fertigungsgemeinkosten (FGK)"
+    ],
+    "korrekt": [
+      0,
+      1
+    ],
+    "erklaerung": "Verwaltungs- und Vertriebsgemeinkosten werden mit ihren Zuschlagssätzen auf die Herstellkosten berechnet und führen zu den Selbstkosten. Die Materialgemeinkosten (Option 3) werden dagegen auf das Fertigungsmaterial und die Fertigungsgemeinkosten (Option 4) auf die Fertigungslöhne bezogen – jeweils auf ihre Einzelkostenbasis, bevor die Herstellkosten überhaupt feststehen.",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "buchfuehrung-lp-zuschlagskalkulation-09",
+    "themaId": "zuschlagskalkulation",
+    "bereich": "buchfuehrung",
+    "frage": "Welche **zwei** Aussagen zum Kalkulationsschema der Zuschlagskalkulation sind richtig?",
+    "optionen": [
+      "Herstellkosten = Fertigungsmaterial + MGK + Fertigungslöhne + FGK.",
+      "Selbstkosten = Herstellkosten + Verwaltungs- und Vertriebsgemeinkosten.",
+      "Die Materialgemeinkosten werden prozentual auf die Fertigungslöhne berechnet.",
+      "Selbstkosten = Herstellkosten − Verwaltungsgemeinkosten."
+    ],
+    "korrekt": [
+      0,
+      1
+    ],
+    "erklaerung": "Das Schema läuft zweistufig: Zuerst werden Material- und Fertigungskosten (Einzel- plus Gemeinkosten) zu den Herstellkosten addiert, dann kommen VwGK und VtGK (jeweils Prozent der HK) hinzu und ergeben die Selbstkosten. Option 3 vertauscht die Basen: MGK beziehen sich auf das Fertigungsmaterial, FGK auf die Löhne. Option 4 subtrahiert statt zu addieren – Gemeinkosten erhöhen die Selbstkosten immer.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "buchfuehrung-lp-zuschlagskalkulation-10",
+    "themaId": "zuschlagskalkulation",
+    "bereich": "buchfuehrung",
+    "frage": "Die Selbstkosten eines Produkts betragen **1.150,00 €**. VwGK-Zuschlag **15 %** und VtGK-Zuschlag **10 %** (jeweils auf die Herstellkosten). Wie hoch sind die **Herstellkosten**?",
+    "optionen": [
+      "920,00 €",
+      "862,50 €",
+      "1.000,00 €",
+      "977,50 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Rückwärtskalkulation: Selbstkosten = HK × (1 + 0,15 + 0,10) = HK × 1,25. Also HK = 1.150 ÷ 1,25 = 920,00 €. Kontrolle: 920 + 138 (15 %) + 92 (10 %) = 1.150,00 € ✓. Option 2 zieht fälschlich 25 % von den Selbstkosten ab (1.150 × 0,75) – klassischer Fehler „vom Hundert statt im Hundert“. Option 3 teilt nur durch 1,15. Option 4 zieht nur 15 % ab und ignoriert die VtGK.",
+    "schwierigkeit": 3
+  },
+  {
+    "id": "buchfuehrung-lp-zuschlagskalkulation-11",
+    "themaId": "zuschlagskalkulation",
+    "bereich": "buchfuehrung",
+    "frage": "Die Selbstkosten eines Regals betragen **800,00 €**, der Gewinnzuschlag **15 %**. Wie hoch ist der Barverkaufspreis?",
+    "optionen": [
+      "920,00 €",
+      "120,00 €",
+      "680,00 €",
+      "941,18 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Der Gewinnzuschlag wird auf die Selbstkosten aufgeschlagen: Gewinn = 15 % von 800 = 120,00 €; Barverkaufspreis = 800 + 120 = 920,00 €. Option 2 ist nur der Gewinnbetrag, nicht der Preis. Option 3 zieht den Gewinn fälschlich ab. Option 4 rechnet im Hundert (800 ÷ 0,85), als wäre der Gewinn im Zielpreis enthalten – beim einfachen Gewinnzuschlag wird aber „auf Hundert“ gerechnet.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "buchfuehrung-lp-zuschlagskalkulation-12",
+    "themaId": "zuschlagskalkulation",
+    "bereich": "buchfuehrung",
+    "frage": "Selbstkosten **600,00 €**, Gewinnzuschlag **20 %**. Auf den Listenpreis soll ein **Kundenrabatt von 10 %** gewährt werden können, ohne den Zielverkaufspreis zu unterschreiten. Wie hoch muss der Listenpreis sein?",
+    "optionen": [
+      "800,00 €",
+      "792,00 €",
+      "720,00 €",
+      "648,00 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Zielverkaufspreis = Selbstkosten + 20 % Gewinn = 600 × 1,20 = 720,00 €. Der Rabatt wird vom Listenpreis gewährt, der Listenpreis ist also die Basis (Rechnung „im Hundert“): Listenpreis = 720 ÷ 0,90 = 800,00 €. Kontrolle: 800 − 10 % (80) = 720,00 € ✓. Option 2 schlägt fälschlich 10 % auf 720 auf (720 × 1,10 = 792; davon 10 % Rabatt = 712,80 – zu wenig!). Option 3 vergisst den Rabatt ganz. Option 4 wendet die 20 % nur auf einen Teil an bzw. verrechnet Rabatt und Gewinn falsch.",
+    "schwierigkeit": 3
+  },
+  {
+    "id": "buchfuehrung-lp-zuschlagskalkulation-13",
+    "themaId": "zuschlagskalkulation",
+    "bereich": "buchfuehrung",
+    "frage": "Worin unterscheiden sich **Herstellkosten** und **Selbstkosten**?",
+    "optionen": [
+      "Die Selbstkosten enthalten zusätzlich die Verwaltungs- und Vertriebsgemeinkosten, die Herstellkosten nicht.",
+      "Die Herstellkosten enthalten den Gewinnzuschlag, die Selbstkosten nicht.",
+      "Herstellkosten und Selbstkosten sind zwei Begriffe für denselben Wert.",
+      "Die Selbstkosten enthalten nur die Einzelkosten, die Herstellkosten auch die Gemeinkosten."
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Herstellkosten = Material- und Fertigungskosten (Einzel- plus Gemeinkosten). Erst durch den Aufschlag von Verwaltungs- und Vertriebsgemeinkosten auf die Herstellkosten entstehen die Selbstkosten – sie umfassen damit alle Kosten des Betriebs für das Produkt. Option 2 ist falsch: Der Gewinn ist gar kein Kostenbestandteil, er kommt erst nach den Selbstkosten hinzu. Option 3 ignoriert die VwGK/VtGK-Stufe. Option 4 verdreht Einzel- und Gemeinkosten – beide Kostenbegriffe enthalten Gemeinkosten.",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "buchfuehrung-lp-zuschlagskalkulation-14",
+    "themaId": "zuschlagskalkulation",
+    "bereich": "buchfuehrung",
+    "frage": "Die Herstellkosten eines Konferenzstuhls betragen **736,00 €**, der VwGK-Zuschlag **8,75 %**. Wie hoch sind die Verwaltungsgemeinkosten?",
+    "optionen": [
+      "64,40 €",
+      "92,00 €",
+      "73,60 €",
+      "644,00 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "VwGK = 8,75 % von 736,00 € = 0,0875 × 736 = 64,40 €. Auch krumme Zuschlagssätze werden einfach als Prozentsatz der Herstellkosten berechnet und kaufmännisch gerundet. Option 2 rechnet mit 12,5 % statt 8,75 %. Option 3 rechnet mit 10 %. Option 4 ist ein Kommafehler (Faktor 10) des richtigen Ergebnisses.",
+    "schwierigkeit": 2,
+    "quellTermin": "2025-sommer"
+  },
+  {
+    "id": "buchfuehrung-lp-normalkosten-kostenabweichung-01",
+    "themaId": "normalkosten-kostenabweichung",
+    "bereich": "buchfuehrung",
+    "frage": "Was versteht man unter **Normalkosten**?",
+    "optionen": [
+      "Die durchschnittlichen Istkosten vergangener Perioden.",
+      "Die tatsächlich in der aktuellen Periode angefallenen Kosten.",
+      "Die für die Zukunft geplanten Kosten der nächsten Periode.",
+      "Die niedrigsten jemals gemessenen Kosten."
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Normalkosten werden aus den Istkosten mehrerer vergangener Perioden gemittelt. Sie glätten zufällige Schwankungen (z. B. einmalige Preisspitzen) und dienen in der Normalkostenrechnung als Verrechnungs- und Vergleichsmaßstab. Option 2 beschreibt die Istkosten, Option 3 die Plan- bzw. Sollkosten. Option 4 ist kein Kostenrechnungsbegriff – ein Minimum wäre als Maßstab auch nicht repräsentativ.",
+    "schwierigkeit": 1,
+    "quellTermin": "2025-sommer"
+  },
+  {
+    "id": "buchfuehrung-lp-normalkosten-kostenabweichung-02",
+    "themaId": "normalkosten-kostenabweichung",
+    "bereich": "buchfuehrung",
+    "frage": "Die Normalkosten eines Produkts betragen **500,00 €/Stück**, die Nachkalkulation ergibt Istkosten von **540,00 €/Stück**. Was liegt vor?",
+    "optionen": [
+      "Eine Kostenunterdeckung von 40,00 €.",
+      "Eine Kostenüberdeckung von 40,00 €.",
+      "Eine Kostenunterdeckung von 1.040,00 €.",
+      "Weder Über- noch Unterdeckung, da gerundet wird."
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Abweichung = Istkosten − Normalkosten = 540,00 − 500,00 = +40,00 €. Da die Istkosten über den verrechneten Normalkosten liegen, wurde zu wenig verrechnet: Kostenunterdeckung von 40,00 €. Option 2 verwechselt die Richtung – eine Überdeckung läge nur vor, wenn die Normalkosten höher wären. Option 3 addiert die Beträge statt sie zu subtrahieren. Option 4 ist unsinnig: Rundung beseitigt keine Abweichung von 40 €.",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "buchfuehrung-lp-normalkosten-kostenabweichung-03",
+    "themaId": "normalkosten-kostenabweichung",
+    "bereich": "buchfuehrung",
+    "frage": "Verrechnete Normalkosten **510,00 €/Stück**, Istkosten laut Nachkalkulation **480,00 €/Stück**. Was ergibt der Vergleich?",
+    "optionen": [
+      "Eine Kostenüberdeckung von 30,00 €.",
+      "Eine Kostenunterdeckung von 30,00 €.",
+      "Eine Kostenüberdeckung von 990,00 €.",
+      "Eine Kostenunterdeckung von 480,00 €."
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Abweichung = Istkosten − Normalkosten = 480,00 − 510,00 = −30,00 €. Der negative Wert bedeutet: Es wurde mehr verrechnet als tatsächlich angefallen ist – eine Kostenüberdeckung von 30,00 € (positiv für das Unternehmen). Option 2 verwechselt Über- und Unterdeckung. Option 3 addiert statt zu subtrahieren. Option 4 nennt schlicht die Istkosten als Abweichung.",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "buchfuehrung-lp-normalkosten-kostenabweichung-04",
+    "themaId": "normalkosten-kostenabweichung",
+    "bereich": "buchfuehrung",
+    "frage": "Welche Aussage zur Bewertung einer **Kostenüberdeckung** ist richtig?",
+    "optionen": [
+      "Sie ist für das Unternehmen günstig, weil die tatsächlichen Kosten niedriger waren als die verrechneten Normalkosten.",
+      "Sie ist für das Unternehmen ungünstig, weil zu wenig Kosten verrechnet wurden.",
+      "Sie zeigt an, dass die Istkosten gestiegen sind.",
+      "Sie muss als Verlust in der Bilanz ausgewiesen werden."
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Bei einer Überdeckung gilt Normalkosten > Istkosten: In der Kalkulation wurden mehr Kosten verrechnet (und über die Preise hereingeholt), als tatsächlich anfielen – das verbessert das Ergebnis. Option 2 beschreibt die Unterdeckung. Option 3 ist die Ursache einer Unterdeckung, nicht einer Überdeckung. Option 4 ist falsch: Die Über-/Unterdeckung ist eine Größe der internen Kostenrechnung, kein Bilanzposten.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "buchfuehrung-lp-normalkosten-kostenabweichung-05",
+    "themaId": "normalkosten-kostenabweichung",
+    "bereich": "buchfuehrung",
+    "frage": "Die Selbstkosten je Stück betrugen in den letzten drei Perioden **720,00 €**, **750,00 €** und **780,00 €**. Welche Normalkosten ergeben sich als Durchschnitt?",
+    "optionen": [
+      "750,00 €",
+      "780,00 €",
+      "2.250,00 €",
+      "735,00 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Normalkosten = Durchschnitt der Istkosten vergangener Perioden = (720 + 750 + 780) ÷ 3 = 2.250 ÷ 3 = 750,00 €. Option 2 nimmt nur den letzten (höchsten) Wert – das wäre keine Glättung. Option 3 ist die Summe ohne Division durch die Periodenzahl. Option 4 wäre der Durchschnitt aus nur zwei Werten (720 und 750) – alle Perioden müssen einbezogen werden.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "buchfuehrung-lp-normalkosten-kostenabweichung-06",
+    "themaId": "normalkosten-kostenabweichung",
+    "bereich": "buchfuehrung",
+    "frage": "Aus den Vorperioden ergeben sich durchschnittliche Gemeinkosten von **90.000,00 €** bei Fertigungslöhnen von **75.000,00 €**. Welcher **Normalzuschlagssatz** wird für die Kalkulation verwendet?",
+    "optionen": [
+      "120 %",
+      "83,33 %",
+      "15 %",
+      "165 %"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Normalzuschlagssatz = durchschnittliche Gemeinkosten ÷ Bezugsbasis × 100 = 90.000 ÷ 75.000 × 100 = 120 %. Mit diesem aus Vergangenheitswerten gewonnenen Satz werden die Gemeinkosten in der Normalkalkulation verrechnet. Option 2 kehrt den Bruch um (75.000 ÷ 90.000). Option 3 nimmt fälschlich die Differenz (15.000) als Prozentsatz. Option 4 addiert die Werte in falscher Weise (165.000 als 165 %).",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "buchfuehrung-lp-normalkosten-kostenabweichung-07",
+    "themaId": "normalkosten-kostenabweichung",
+    "bereich": "buchfuehrung",
+    "frage": "In der Kalkulation wurden Fertigungsgemeinkosten mit einem **Normalzuschlag von 80 %** auf Fertigungslöhne von **50.000,00 €** verrechnet. Die **Ist-Gemeinkosten** betragen **43.500,00 €**. Was ergibt der Vergleich?",
+    "optionen": [
+      "Eine Kostenunterdeckung von 3.500,00 €.",
+      "Eine Kostenüberdeckung von 3.500,00 €.",
+      "Eine Kostenunterdeckung von 6.500,00 €.",
+      "Weder Über- noch Unterdeckung."
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Verrechnete Normalgemeinkosten = 80 % von 50.000 = 40.000,00 €. Ist-Gemeinkosten = 43.500,00 €. Abweichung = Ist − Normal = 43.500 − 40.000 = +3.500,00 € → es fielen mehr Kosten an als verrechnet: Kostenunterdeckung von 3.500,00 €. Option 2 verwechselt die Richtung. Option 3 rechnet mit falsch verrechneten Gemeinkosten (z. B. 74 % oder Zahlendreher 37.000). Option 4 träfe nur zu, wenn Ist- und Normalkosten exakt gleich wären.",
+    "schwierigkeit": 3
+  },
+  {
+    "id": "buchfuehrung-lp-normalkosten-kostenabweichung-08",
+    "themaId": "normalkosten-kostenabweichung",
+    "bereich": "buchfuehrung",
+    "frage": "Bei einem Produkt beträgt die Kostenunterdeckung **12,50 €/Stück**. In der Periode wurden **400 Stück** gefertigt. Wie hoch ist die gesamte Unterdeckung der Periode?",
+    "optionen": [
+      "5.000,00 €",
+      "412,50 €",
+      "500,00 €",
+      "3.125,00 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Gesamte Unterdeckung = Unterdeckung je Stück × Menge = 12,50 × 400 = 5.000,00 €. Um diesen Betrag lagen die Istkosten der Periode über den verrechneten Normalkosten. Option 2 addiert die beiden Zahlen statt zu multiplizieren. Option 3 ist ein Kommafehler (12,50 × 40). Option 4 entsteht durch fehlerhafte Multiplikation (12,50 × 250).",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "buchfuehrung-lp-normalkosten-kostenabweichung-09",
+    "themaId": "normalkosten-kostenabweichung",
+    "bereich": "buchfuehrung",
+    "frage": "Welche **zwei** Aussagen zu Normalkosten und Kostenabweichungen sind richtig?",
+    "optionen": [
+      "Eine Kostenüberdeckung liegt vor, wenn die Normalkosten über den Istkosten liegen.",
+      "Normalkosten glätten zufällige Kostenschwankungen einzelner Perioden.",
+      "Eine Kostenunterdeckung liegt vor, wenn die Normalkosten über den Istkosten liegen.",
+      "Normalkosten sind die geplanten Kosten zukünftiger Perioden."
+    ],
+    "korrekt": [
+      0,
+      1
+    ],
+    "erklaerung": "Überdeckung: Normal > Ist – es wurde mehr verrechnet als angefallen. Da Normalkosten Durchschnittswerte mehrerer Perioden sind, gleichen sie Ausreißer einzelner Perioden aus – das ist ihr Hauptzweck als Vergleichsmaßstab. Option 3 widerspricht Option 1 direkt: Bei Normal > Ist liegt gerade keine Unterdeckung vor. Option 4 beschreibt Plan-/Sollkosten – Normalkosten blicken in die Vergangenheit, nicht in die Zukunft.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "buchfuehrung-lp-normalkosten-kostenabweichung-10",
+    "themaId": "normalkosten-kostenabweichung",
+    "bereich": "buchfuehrung",
+    "frage": "Die Normalselbstkosten eines Schranks betragen laut Kalkulation **850,00 €**, die Nachkalkulation ergibt Ist-Selbstkosten von **892,30 €**. Ermitteln Sie Art und Höhe der Abweichung.",
+    "optionen": [
+      "Kostenunterdeckung von 42,30 €",
+      "Kostenüberdeckung von 42,30 €",
+      "Kostenunterdeckung von 47,70 €",
+      "Kostenüberdeckung von 850,00 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Abweichung = Istkosten − Normalkosten = 892,30 − 850,00 = +42,30 €. Die Istkosten übersteigen die verrechneten Normalkosten, es liegt eine Kostenunterdeckung von 42,30 € vor – z. B. durch gestiegene Materialpreise oder Löhne. Option 2 hat den richtigen Betrag, aber die falsche Richtung. Option 3 beruht auf einem Subtraktionsfehler (892,30 − 844,60 o. ä.). Option 4 verwechselt die Normalkosten mit der Abweichung.",
+    "schwierigkeit": 3,
+    "quellTermin": "2025-sommer"
+  },
+  {
+    "id": "buchfuehrung-lp-normalkosten-kostenabweichung-11",
+    "themaId": "normalkosten-kostenabweichung",
+    "bereich": "buchfuehrung",
+    "frage": "Welche Erklärung umschreibt den Begriff **Kosten** im Sinne der Kosten- und Leistungsrechnung richtig?",
+    "optionen": [
+      "Der in Geld bewertete Verbrauch von Gütern und Dienstleistungen zur Erreichung des Betriebszwecks pro Periode.",
+      "Jeder Abfluss liquider Mittel pro Periode.",
+      "Der Wert aller erstellten Leistungen pro Periode.",
+      "Alle Ausgaben, die per Bank oder Kasse bezahlt werden."
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Kosten haben drei Merkmale: bewerteter Verbrauch (in Geld), Betriebszweckbezug und Periodenbezug. Option 2 beschreibt Auszahlungen – nicht jede Auszahlung ist Kosten (z. B. Kredittilgung) und nicht alle Kosten sind Auszahlungen (z. B. Abschreibungen). Option 3 ist die Definition der Leistung – das Gegenstück zu den Kosten. Option 4 verengt Kosten fälschlich auf Zahlungsvorgänge.",
+    "schwierigkeit": 1,
+    "quellTermin": "2025-sommer"
+  },
+  {
+    "id": "buchfuehrung-lp-normalkosten-kostenabweichung-12",
+    "themaId": "normalkosten-kostenabweichung",
+    "bereich": "buchfuehrung",
+    "frage": "Welche **zwei** Ursachen können zu einer **Kostenunterdeckung** (Istkosten über Normalkosten) führen?",
+    "optionen": [
+      "Gestiegene Einkaufspreise für Fertigungsmaterial.",
+      "Eine Lohnerhöhung für die Mitarbeiter der Fertigung.",
+      "Eine Senkung der Verkaufspreise.",
+      "Eine gestiegene Absatzmenge."
+    ],
+    "korrekt": [
+      0,
+      1
+    ],
+    "erklaerung": "Die Unterdeckung entsteht auf der Kostenseite: Steigen Materialpreise oder Löhne gegenüber dem Durchschnitt der Vorperioden, liegen die Istkosten über den verrechneten Normalkosten. Option 3 betrifft die Erlösseite – Verkaufspreise haben keinen Einfluss auf die Kostenabweichung. Option 4 würde über die Fixkostenregression die Stückkosten eher senken und spricht damit gegen eine Unterdeckung.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "buchfuehrung-lp-normalkosten-kostenabweichung-13",
+    "themaId": "normalkosten-kostenabweichung",
+    "bereich": "buchfuehrung",
+    "frage": "Normalkosten **800,00 €/Stück**, Istkosten **836,00 €/Stück**. Um wie viel **Prozent** liegen die Istkosten über den Normalkosten?",
+    "optionen": [
+      "4,5 %",
+      "4,31 %",
+      "36 %",
+      "104,5 % Unterdeckung"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Abweichung = 836,00 − 800,00 = 36,00 €. Prozentuale Abweichung = Abweichung ÷ Normalkosten × 100 = 36 ÷ 800 × 100 = 4,5 %. Basis ist der Vergleichsmaßstab, also die Normalkosten. Option 2 teilt fälschlich durch die Istkosten (36 ÷ 836). Option 3 verwechselt den Eurobetrag mit dem Prozentsatz. Option 4 gibt das Verhältnis Ist/Normal (104,5 %) an – das ist nicht die Abweichung, sondern der Gesamtwert.",
+    "schwierigkeit": 3
+  },
+  {
+    "id": "buchfuehrung-lp-normalkosten-kostenabweichung-14",
+    "themaId": "normalkosten-kostenabweichung",
+    "bereich": "buchfuehrung",
+    "frage": "Wie unterscheiden sich **Istkosten** und **Normalkosten**?",
+    "optionen": [
+      "Istkosten sind die tatsächlich angefallenen Kosten der Periode, Normalkosten die Durchschnittswerte vergangener Perioden.",
+      "Istkosten sind Durchschnittswerte, Normalkosten die tatsächlichen Kosten.",
+      "Beide Begriffe bezeichnen dieselben Werte zu unterschiedlichen Zeitpunkten.",
+      "Istkosten enthalten nur variable Kosten, Normalkosten nur Fixkosten."
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Istkosten werden nach Ablauf der Periode aus den tatsächlichen Verbräuchen und Preisen ermittelt (Nachkalkulation). Normalkosten sind die geglätteten Durchschnitte der Istkosten mehrerer Vorperioden und dienen als Verrechnungsgrundlage in der Vorkalkulation. Option 2 vertauscht die Definitionen exakt. Option 3 ist falsch – die Werte weichen regelmäßig voneinander ab, genau daraus entstehen Über- und Unterdeckungen. Option 4 hat mit der Unterscheidung nichts zu tun; beide Kostenbegriffe umfassen fixe und variable Bestandteile.",
+    "schwierigkeit": 2
+  }
+]

@@ -45,6 +45,12 @@ export default function Muendlich() {
         >
           🃏 Karteikarten
         </Link>
+        <Link
+          to="/muendlich/quiz"
+          className="rounded-full bg-white px-4 py-2 text-sm font-semibold text-slate-600"
+        >
+          🧠 Themen-Quiz
+        </Link>
       </div>
 
       {laedt && <p className="text-slate-500">Lade …</p>}
