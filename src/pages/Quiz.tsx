@@ -105,9 +105,19 @@ function Uebersicht({
           <span className="text-slate-400">→</span>
         </Link>
       ) : (
-        <div className="mb-5 rounded-2xl bg-green-50 p-4 text-sm text-green-800">
-          🎉 Alle Wiederholungen für heute erledigt! Du kannst jedes Thema trotzdem weiter üben.
-        </div>
+        <Link
+          to={`/${bereichId}/quiz/alle`}
+          className="mb-5 flex items-center gap-4 rounded-2xl border-2 border-green-200 bg-green-50 p-4 shadow-sm transition hover:border-green-400"
+        >
+          <span className="text-3xl">🎉</span>
+          <div className="min-w-0 flex-1">
+            <h2 className="font-bold text-green-900">Alle Wiederholungen für heute erledigt!</h2>
+            <p className="text-sm text-green-800">
+              Extra-Runde starten (alle Themen gemischt) – oder unten ein Thema wählen.
+            </p>
+          </div>
+          <span className="text-green-600">→</span>
+        </Link>
       )}
 
       <div className="space-y-3">
