@@ -283,7 +283,115 @@
       0
     ],
     "loesung": "Richtig ist Option 1: A = Bruttoinlandsprodukt (1), B = Rezession (6), C = Wirtschaftstrend (3).",
-    "erklaerung": "A steht auf der Werteachse für das Bruttoinlandsprodukt, B markiert die absteigende Phase (Rezession) und C die langfristig steigende Gerade (Wirtschaftstrend)."
+    "erklaerung": "A steht auf der Werteachse für das Bruttoinlandsprodukt, B markiert die absteigende Phase (Rezession) und C die langfristig steigende Gerade (Wirtschaftstrend).",
+    "anlagenText": "**Abbildung zur 15. Aufgabe:** Wellenförmige, insgesamt ansteigende Kurve (mehrere Auf- und Abschwünge) und eine stetig steigende Gerade, die durch die Wellen verläuft; waagerechte Achse „Jahre“. Die Achsen tragen keine Zahlenwerte (idealtypische Darstellung); die Werte im Diagramm sind daher nur näherungsweise Indexwerte.\n\nMarkierte Positionen:\n- **A:** Beschriftung an der senkrechten Achse (Wertachse) links oben.\n- **B:** Pfeil auf die **Abwärtsbewegung** der wellenförmigen Kurve nach dem ersten Hochpunkt.\n- **C:** Pfeil auf die stetig steigende **Gerade**, die durch die Wellen verläuft.",
+    "anlagenDiagramm": {
+      "typ": "linie",
+      "titel": "Mögliche wirtschaftliche Entwicklung in Deutschland im Zeitablauf",
+      "xAchse": "Jahre",
+      "yAchse": "Wert der Wirtschaftsleistung (Achse A)",
+      "einheit": "Indexwerte (idealtypisch, ohne Einheit)",
+      "serien": [
+        {
+          "name": "Wellenförmige Kurve (B markiert die Abwärtsbewegung)",
+          "punkte": [
+            {
+              "x": "1",
+              "y": 1
+            },
+            {
+              "x": "2",
+              "y": 2.6
+            },
+            {
+              "x": "3",
+              "y": 4
+            },
+            {
+              "x": "4",
+              "y": 3
+            },
+            {
+              "x": "5",
+              "y": 3.6
+            },
+            {
+              "x": "6",
+              "y": 5
+            },
+            {
+              "x": "7",
+              "y": 4.2
+            },
+            {
+              "x": "8",
+              "y": 5.4
+            },
+            {
+              "x": "9",
+              "y": 6.6
+            },
+            {
+              "x": "10",
+              "y": 7.2
+            },
+            {
+              "x": "11",
+              "y": 6.4
+            }
+          ]
+        },
+        {
+          "name": "Stetig steigende Gerade (C)",
+          "punkte": [
+            {
+              "x": "1",
+              "y": 1.8
+            },
+            {
+              "x": "2",
+              "y": 2.3
+            },
+            {
+              "x": "3",
+              "y": 2.8
+            },
+            {
+              "x": "4",
+              "y": 3.3
+            },
+            {
+              "x": "5",
+              "y": 3.8
+            },
+            {
+              "x": "6",
+              "y": 4.3
+            },
+            {
+              "x": "7",
+              "y": 4.8
+            },
+            {
+              "x": "8",
+              "y": 5.3
+            },
+            {
+              "x": "9",
+              "y": 5.8
+            },
+            {
+              "x": "10",
+              "y": 6.3
+            },
+            {
+              "x": "11",
+              "y": 6.8
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "id": "wiso-2025s-a16",
@@ -1335,7 +1443,8 @@
       1
     ],
     "loesung": "Richtig ist Option 2: Die GmbH haftet dem Verkäufer gegenüber mit dem gesamten Gesellschaftsvermögen.",
-    "erklaerung": "Als juristische Person haftet die GmbH mit ihrem gesamten Gesellschaftsvermögen. Die Gesellschafter haften grundsätzlich nicht mit ihrem Privatvermögen."
+    "erklaerung": "Als juristische Person haftet die GmbH mit ihrem gesamten Gesellschaftsvermögen. Die Gesellschafter haften grundsätzlich nicht mit ihrem Privatvermögen.",
+    "anlagenText": "**Situation zur 4. und 5. Aufgabe:** Die Geschäftsführung der Jana Loft KG beschließt, die Verwertung und Entsorgung der bei der Produktion von Büromöbeln anfallenden Abfallstoffe bzw. Abfallprodukte in die neu zu gründende Reststoff-Verwertungs GmbH mit Sitz in Hamburg auszugliedern. Die Kommanditisten der Jana Loft KG werden als Gesellschafter in die neue GmbH eintreten.\n\n- Anna Voss wird sich mit einer Einlage in Höhe von 100.000,00 € an der GmbH beteiligen.\n- Lukas Voss wird sich mit einer Einlage in Höhe von 200.000,00 € an der GmbH beteiligen.\n\nAls Geschäftsführer wird Peter Schneider für die GmbH eingestellt. Im Gesellschaftsvertrag wird auf die gesetzlichen Bestimmungen bezüglich Haftung und Vertretung verwiesen."
   },
   {
     "id": "wiso-2024s-a6",
@@ -1764,7 +1873,8 @@
     "text": "Der Stromverbrauch für die Beleuchtungsanlage beträgt 72 Kilowatt pro Stunde. Die Kosten pro Kilowattstunde betragen 0,20 €. Berechnen Sie, wie viel Euro pro Jahr bei Verwendung der Bewegungsmelder eingespart werden können!",
     "punkte": 3,
     "loesung": "Eingesparte Beleuchtungsdauer/Jahr: 500 h × 12 = 6.000 h ohne Melder, 4.920 h mit Meldern → Ersparnis 1.080 h/Jahr. Ersparnis = 1.080 h × 72 kW × 0,20 €/kWh = **15.552,00 €**.",
-    "erklaerung": "Jährliche Einsparung der Beleuchtungsstunden: 6.000 h − 4.920 h = 1.080 h. Multipliziert mit 72 kW und 0,20 €/kWh ergibt 1.080 × 72 × 0,20 = 15.552,00 € pro Jahr."
+    "erklaerung": "Jährliche Einsparung der Beleuchtungsstunden: 6.000 h − 4.920 h = 1.080 h. Multipliziert mit 72 kW und 0,20 €/kWh ergibt 1.080 × 72 × 0,20 = 15.552,00 € pro Jahr.",
+    "anlagenText": "**Angaben aus der Situation zur 25. bis 27. Aufgabe und aus der 25. Aufgabe:** Die Beleuchtungsdauer im Verwaltungsgebäude beträgt durchschnittlich 500 Stunden pro Monat. Durch die Installation von Bewegungsmeldern reduziert sich die Beleuchtungsdauer um 18 % pro Monat.\n\nJährliche Beleuchtungsdauer ohne Bewegungsmelder: 500 h × 12 = 6.000 h; mit Bewegungsmeldern: 6.000 h × 0,82 = 4.920 h (Ergebnis der 25. Aufgabe)."
   },
   {
     "id": "wiso-2024s-a27",
@@ -2209,7 +2319,83 @@
     "typ": "offen",
     "text": "Geben Sie den Gleichgewichtspreis in Euro an! (Ablesen aus dem Preis-Mengen-Diagramm, Schnittpunkt von Angebots- und Nachfragekurve)",
     "punkte": 3.2258,
-    "loesung": "Der Gleichgewichtspreis liegt bei 2.500 € (Schnittpunkt von Angebots- und Nachfragekurve bei ca. 75.000 Stück)."
+    "loesung": "Der Gleichgewichtspreis liegt bei 2.500 € (Schnittpunkt von Angebots- und Nachfragekurve bei ca. 75.000 Stück).",
+    "anlagenText": "**Grafik zur 17. und 18. Aufgabe:** Die für den Markt von Schreibtischen ermittelten Nachfrage- und Angebotszahlen spiegeln sich in der Grafik wider (Gesamtnachfragemenge gestrichelt fallend, Gesamtangebotsmenge durchgezogen steigend).",
+    "anlagenDiagramm": {
+      "typ": "linie",
+      "titel": "Markt für Schreibtische: Gesamtnachfrage- und Gesamtangebotsmenge",
+      "xAchse": "Menge in Stück",
+      "yAchse": "Preis in €",
+      "einheit": "€",
+      "serien": [
+        {
+          "name": "Gesamtnachfragemenge",
+          "punkte": [
+            {
+              "x": "50.000",
+              "y": 3000
+            },
+            {
+              "x": "60.000",
+              "y": 2800
+            },
+            {
+              "x": "70.000",
+              "y": 2600
+            },
+            {
+              "x": "75.000",
+              "y": 2500
+            },
+            {
+              "x": "80.000",
+              "y": 2400
+            },
+            {
+              "x": "90.000",
+              "y": 2200
+            },
+            {
+              "x": "100.000",
+              "y": 2000
+            }
+          ]
+        },
+        {
+          "name": "Gesamtangebotsmenge",
+          "punkte": [
+            {
+              "x": "50.000",
+              "y": 2000
+            },
+            {
+              "x": "60.000",
+              "y": 2200
+            },
+            {
+              "x": "70.000",
+              "y": 2400
+            },
+            {
+              "x": "75.000",
+              "y": 2500
+            },
+            {
+              "x": "80.000",
+              "y": 2600
+            },
+            {
+              "x": "90.000",
+              "y": 2800
+            },
+            {
+              "x": "100.000",
+              "y": 3000
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "id": "wiso-2022s-a19",
@@ -2703,7 +2889,99 @@
     "text": "Ordnen Sie 3 der insgesamt 6 Begriffe den Positionen A, B und C gemäß Schaubild (Preis-Mengen-Diagramm mit steigender und fallender Kurve) zu! Begriffe: 1. Angebotskurve, 2. Nachfragekurve, 3. Angebotsüberhang, 4. Nachfrageüberhang, 5. Gleichgewichtspreis, 6. Gewinnschwelle. Positionen: A (Bereich links vom Schnittpunkt bei niedrigem Preis), B (Endpunkt der fallenden Kurve rechts unten), C (Endpunkt der steigenden Kurve rechts oben).",
     "punkte": 3,
     "loesung": "Zuordnung (Position A; Position B; Position C) = 4; 2; 1. A = Nachfrageüberhang, B = Nachfragekurve, C = Angebotskurve.",
-    "erklaerung": "Die steigende Kurve ist die Angebotskurve, die fallende die Nachfragekurve; links des Schnittpunkts (niedriger Preis) übersteigt die Nachfrage das Angebot (Nachfrageüberhang)."
+    "erklaerung": "Die steigende Kurve ist die Angebotskurve, die fallende die Nachfragekurve; links des Schnittpunkts (niedriger Preis) übersteigt die Nachfrage das Angebot (Nachfrageüberhang).",
+    "anlagenText": "**Schaubild zur 13. bis 16. Aufgabe (Marktforschungsstudie Standard-Schreibtisch):** Preis-Mengen-Diagramm mit einer fallenden und einer steigenden Geraden, Schnittpunkt bei 5 Tsd. Stück / 450 EUR.\n\n- **Position A:** Klammer unterhalb des Schnittpunkts, spannt den waagerechten Abstand zwischen den beiden Geraden bei ca. 340 EUR auf (zwischen 3 und 7 Tsd. Stück).\n- **Position B:** Beschriftung am unteren rechten Ende der **fallenden** Geraden (bei 9 Tsd. Stück / 250 EUR).\n- **Position C:** Beschriftung am oberen rechten Ende der **steigenden** Geraden (bei ca. 650 EUR).",
+    "anlagenDiagramm": {
+      "typ": "linie",
+      "titel": "Marktsituation Standard-Schreibtisch (Schaubild zur 13.–16. Aufgabe)",
+      "xAchse": "Menge in Tsd. Stück",
+      "yAchse": "Preis in EUR",
+      "einheit": "EUR",
+      "serien": [
+        {
+          "name": "Fallende Gerade (Position B am rechten Ende)",
+          "punkte": [
+            {
+              "x": "1",
+              "y": 650
+            },
+            {
+              "x": "2",
+              "y": 600
+            },
+            {
+              "x": "3",
+              "y": 550
+            },
+            {
+              "x": "4",
+              "y": 500
+            },
+            {
+              "x": "5",
+              "y": 450
+            },
+            {
+              "x": "6",
+              "y": 400
+            },
+            {
+              "x": "7",
+              "y": 350
+            },
+            {
+              "x": "8",
+              "y": 300
+            },
+            {
+              "x": "9",
+              "y": 250
+            }
+          ]
+        },
+        {
+          "name": "Steigende Gerade (Position C am rechten Ende)",
+          "punkte": [
+            {
+              "x": "1",
+              "y": 250
+            },
+            {
+              "x": "2",
+              "y": 300
+            },
+            {
+              "x": "3",
+              "y": 350
+            },
+            {
+              "x": "4",
+              "y": 400
+            },
+            {
+              "x": "5",
+              "y": 450
+            },
+            {
+              "x": "6",
+              "y": 500
+            },
+            {
+              "x": "7",
+              "y": 550
+            },
+            {
+              "x": "8",
+              "y": 600
+            },
+            {
+              "x": "9",
+              "y": 650
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "id": "wiso-2022w-a14",
@@ -2725,7 +3003,99 @@
     ],
     "punkte": 3,
     "loesung": "Antwort 3: Es liegt ein Käufermarkt vor, da ein Angebotsüberhang vorliegt.",
-    "erklaerung": "Bei 500,00 EUR liegt der Preis über dem Gleichgewichtspreis (450,00 EUR); das Angebot übersteigt die Nachfrage - Angebotsüberhang und damit Käufermarkt."
+    "erklaerung": "Bei 500,00 EUR liegt der Preis über dem Gleichgewichtspreis (450,00 EUR); das Angebot übersteigt die Nachfrage - Angebotsüberhang und damit Käufermarkt.",
+    "anlagenText": "**Schaubild zur 13. bis 16. Aufgabe (Marktforschungsstudie Standard-Schreibtisch):** Preis-Mengen-Diagramm mit fallender Nachfragekurve und steigender Angebotskurve; Schnittpunkt (Marktgleichgewicht) bei 5 Tsd. Stück / 450 EUR.",
+    "anlagenDiagramm": {
+      "typ": "linie",
+      "titel": "Marktsituation Standard-Schreibtisch (Schaubild zur 13.–16. Aufgabe)",
+      "xAchse": "Menge in Tsd. Stück",
+      "yAchse": "Preis in EUR",
+      "einheit": "EUR",
+      "serien": [
+        {
+          "name": "Nachfragekurve (fallend)",
+          "punkte": [
+            {
+              "x": "1",
+              "y": 650
+            },
+            {
+              "x": "2",
+              "y": 600
+            },
+            {
+              "x": "3",
+              "y": 550
+            },
+            {
+              "x": "4",
+              "y": 500
+            },
+            {
+              "x": "5",
+              "y": 450
+            },
+            {
+              "x": "6",
+              "y": 400
+            },
+            {
+              "x": "7",
+              "y": 350
+            },
+            {
+              "x": "8",
+              "y": 300
+            },
+            {
+              "x": "9",
+              "y": 250
+            }
+          ]
+        },
+        {
+          "name": "Angebotskurve (steigend)",
+          "punkte": [
+            {
+              "x": "1",
+              "y": 250
+            },
+            {
+              "x": "2",
+              "y": 300
+            },
+            {
+              "x": "3",
+              "y": 350
+            },
+            {
+              "x": "4",
+              "y": 400
+            },
+            {
+              "x": "5",
+              "y": 450
+            },
+            {
+              "x": "6",
+              "y": 500
+            },
+            {
+              "x": "7",
+              "y": 550
+            },
+            {
+              "x": "8",
+              "y": 600
+            },
+            {
+              "x": "9",
+              "y": 650
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "id": "wiso-2022w-a15",
@@ -2737,7 +3107,99 @@
     "text": "Berechnen Sie den maximalen Umsatz in Euro, der sich entsprechend dem abgebildeten Schaubild für diesen Schreibtisch auf dem Markt ergibt!",
     "punkte": 3,
     "loesung": "Maximaler Umsatz = 2.250.000 EUR (z. B. Preis 450,00 EUR x Gleichgewichtsmenge 5.000 Stück; die Kombination mit dem höchsten Produkt aus Preis und nachgefragter Menge).",
-    "erklaerung": "Der Umsatz ist Preis mal abgesetzte (nachgefragte) Menge; der maximale Umsatz ergibt sich aus der günstigsten Preis-Mengen-Kombination des Schaubilds."
+    "erklaerung": "Der Umsatz ist Preis mal abgesetzte (nachgefragte) Menge; der maximale Umsatz ergibt sich aus der günstigsten Preis-Mengen-Kombination des Schaubilds.",
+    "anlagenText": "**Schaubild zur 13. bis 16. Aufgabe (Marktforschungsstudie Standard-Schreibtisch):** Preis-Mengen-Diagramm mit fallender Nachfragekurve und steigender Angebotskurve; Schnittpunkt (Marktgleichgewicht) bei 5 Tsd. Stück / 450 EUR.",
+    "anlagenDiagramm": {
+      "typ": "linie",
+      "titel": "Marktsituation Standard-Schreibtisch (Schaubild zur 13.–16. Aufgabe)",
+      "xAchse": "Menge in Tsd. Stück",
+      "yAchse": "Preis in EUR",
+      "einheit": "EUR",
+      "serien": [
+        {
+          "name": "Nachfragekurve (fallend)",
+          "punkte": [
+            {
+              "x": "1",
+              "y": 650
+            },
+            {
+              "x": "2",
+              "y": 600
+            },
+            {
+              "x": "3",
+              "y": 550
+            },
+            {
+              "x": "4",
+              "y": 500
+            },
+            {
+              "x": "5",
+              "y": 450
+            },
+            {
+              "x": "6",
+              "y": 400
+            },
+            {
+              "x": "7",
+              "y": 350
+            },
+            {
+              "x": "8",
+              "y": 300
+            },
+            {
+              "x": "9",
+              "y": 250
+            }
+          ]
+        },
+        {
+          "name": "Angebotskurve (steigend)",
+          "punkte": [
+            {
+              "x": "1",
+              "y": 250
+            },
+            {
+              "x": "2",
+              "y": 300
+            },
+            {
+              "x": "3",
+              "y": 350
+            },
+            {
+              "x": "4",
+              "y": 400
+            },
+            {
+              "x": "5",
+              "y": 450
+            },
+            {
+              "x": "6",
+              "y": 500
+            },
+            {
+              "x": "7",
+              "y": 550
+            },
+            {
+              "x": "8",
+              "y": 600
+            },
+            {
+              "x": "9",
+              "y": 650
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "id": "wiso-2022w-a16",
@@ -3440,7 +3902,8 @@
     "text": "Herr Marco König (geboren 13.02.2007) beginnt zum 01.09. seine Ausbildung. Im Ausbildungsvertrag fehlen noch die zu gewährenden Urlaubstage. Ermitteln Sie unter Berücksichtigung des Gesetzesauszugs die Anzahl der Werktage, die Herrn König für das Ausbildungsjahr gemäß Jugendarbeitsschutzgesetz mindestens gewährt werden müssen!\n\n§ 19 JArbSchG – Urlaub: Der Urlaub beträgt jährlich mind. 30 Werktage (unter 16 Jahre zu Jahresbeginn), mind. 27 Werktage (unter 17 Jahre), mind. 25 Werktage (unter 18 Jahre). (Ausbildungsbeginn 01.09., also 4 Monate im Ausbildungsjahr.)",
     "punkte": 3.2258,
     "loesung": "Zu Beginn des Kalenderjahres ist Herr König 15 Jahre alt (geb. 13.02.2007, also unter 16 → 30 Werktage Jahresurlaub). Anteilig für die 4 Beschäftigungsmonate (September bis Dezember):\n\n30 Werktage / 12 × 4 = **10 Werktage**.",
-    "erklaerung": "Maßgeblich ist das Alter zu Beginn des Kalenderjahres: unter 16 Jahre → 30 Werktage. Da die Ausbildung erst am 01.09. beginnt, wird der Urlaub anteilig gewährt: 30 / 12 × 4 Monate = 10 Werktage."
+    "erklaerung": "Maßgeblich ist das Alter zu Beginn des Kalenderjahres: unter 16 Jahre → 30 Werktage. Da die Ausbildung erst am 01.09. beginnt, wird der Urlaub anteilig gewährt: 30 / 12 × 4 Monate = 10 Werktage.",
+    "anlagenText": "**Auszug aus dem Jugendarbeitsschutzgesetz**\n\n**§ 19 Urlaub**\n\n(1) Der Arbeitgeber hat Jugendlichen für jedes Kalenderjahr einen bezahlten Erholungsurlaub zu gewähren.\n\n(2) Der Urlaub beträgt jährlich\n1. mindestens 30 Werktage, wenn der Jugendliche zu Beginn des Kalenderjahrs noch nicht 16 Jahre alt ist,\n2. mindestens 27 Werktage, wenn der Jugendliche zu Beginn des Kalenderjahrs noch nicht 17 Jahre alt ist,\n3. mindestens 25 Werktage, wenn der Jugendliche zu Beginn des Kalenderjahrs noch nicht 18 Jahre alt ist.\n\n**Aus der Abbildung „Ausbildungsvertrag (Antrag auf Eintragung)“ zur 20. bis 24. Aufgabe:** Auszubildender Marco König, geboren 13.02.2007; Ausbildungsberuf Kaufmann für Büromanagement; Berufsausbildungsverhältnis vom 01.09.2023 bis 31.08.2026 (36 Monate); Probezeit 4 Monate; regelmäßige Ausbildungszeit 8 Stunden täglich / 40 Stunden wöchentlich; Vergütung 790,00 € / 940,00 € / 1.080,00 € brutto im 1.–3. Ausbildungsjahr."
   },
   {
     "id": "wiso-2023s-a21",
@@ -3452,7 +3915,8 @@
     "text": "Aus privaten Gründen beginnt Herr König an berufsschulfreien Tagen seine Arbeit um 07:30 Uhr. Stellen Sie anhand des Gesetzesauszugs fest, um wie viel Uhr Herr König spätestens eine Pause einlegen muss!\n\n§ 11 Abs. 2 JArbSchG: Länger als viereinhalb Stunden hintereinander dürfen Jugendliche nicht ohne Ruhepause beschäftigt werden.",
     "punkte": 3.2258,
     "loesung": "Nach spätestens viereinhalb Stunden ununterbrochener Arbeit muss eine Ruhepause erfolgen. Arbeitsbeginn 07:30 Uhr + 4,5 Stunden = **12:00 Uhr**.",
-    "erklaerung": "§ 11 Abs. 2 JArbSchG erlaubt höchstens 4,5 Stunden Arbeit am Stück ohne Ruhepause. Ab 07:30 Uhr gerechnet muss die Pause spätestens um 12:00 Uhr eingelegt werden."
+    "erklaerung": "§ 11 Abs. 2 JArbSchG erlaubt höchstens 4,5 Stunden Arbeit am Stück ohne Ruhepause. Ab 07:30 Uhr gerechnet muss die Pause spätestens um 12:00 Uhr eingelegt werden.",
+    "anlagenText": "**Auszug aus dem Jugendarbeitsschutzgesetz**\n\n**§ 11 Ruhepausen, Aufenthaltsräume**\n\n(1) Jugendlichen müssen im Voraus feststehende Ruhepausen von angemessener Dauer gewährt werden. Die Ruhepausen müssen mindestens betragen\n1. 30 Minuten bei einer Arbeitszeit von mehr als viereinhalb bis zu sechs Stunden,\n2. 60 Minuten bei einer Arbeitszeit von mehr als sechs Stunden.\n\nAls Ruhepause gilt nur eine Arbeitsunterbrechung von mindestens 15 Minuten.\n\n(2) Die Ruhepausen müssen in angemessener zeitlicher Lage gewährt werden, frühestens eine Stunde nach Beginn und spätestens eine Stunde vor Ende der Arbeitszeit. Länger als viereinhalb Stunden hintereinander dürfen Jugendliche nicht ohne Ruhepause beschäftigt werden."
   },
   {
     "id": "wiso-2023s-a22",
@@ -3494,7 +3958,8 @@
       2
     ],
     "loesung": "Richtig ist Antwort 3.",
-    "erklaerung": "Nach § 70 Abs. 1 Nr. 4 BetrVG gehört die Förderung der Integration ausländischer (jugendlicher) Arbeitnehmer im Betrieb zu den Aufgaben der JAV. Die Überwachung bezieht sich nur auf die zugunsten der von der JAV vertretenen Beschäftigten geltenden Vorschriften, nicht auf alle Gesetze; Tarifverträge erarbeitet die JAV nicht."
+    "erklaerung": "Nach § 70 Abs. 1 Nr. 4 BetrVG gehört die Förderung der Integration ausländischer (jugendlicher) Arbeitnehmer im Betrieb zu den Aufgaben der JAV. Die Überwachung bezieht sich nur auf die zugunsten der von der JAV vertretenen Beschäftigten geltenden Vorschriften, nicht auf alle Gesetze; Tarifverträge erarbeitet die JAV nicht.",
+    "anlagenText": "**Auszug aus dem Betriebsverfassungsgesetz**\n\n**§ 70 Allgemeine Aufgaben**\n\n(1) Die Jugend- und Auszubildendenvertretung hat folgende allgemeine Aufgaben:\n1. Maßnahmen, die den in § 60 Abs. 1 genannten Arbeitnehmern dienen, insbesondere in Fragen der Berufsbildung und der Übernahme der zu ihrer Berufsausbildung Beschäftigten in ein Arbeitsverhältnis, beim Betriebsrat zu beantragen;\n1a. Maßnahmen zur Durchsetzung der tatsächlichen Gleichstellung der in § 60 Abs. 1 genannten Arbeitnehmer entsprechend § 80 Abs. 1 Nr. 2a und 2b beim Betriebsrat zu beantragen;\n2. darüber zu wachen, dass die zugunsten der in § 60 Abs. 1 genannten Arbeitnehmer geltenden Gesetze, Verordnungen, Unfallverhütungsvorschriften, Tarifverträge und Betriebsvereinbarungen durchgeführt werden;\n3. Anregungen von den in § 60 Abs. 1 genannten Arbeitnehmern, insbesondere in Fragen der Berufsbildung, entgegenzunehmen und, falls sie berechtigt erscheinen, beim Betriebsrat auf eine Erledigung hinzuwirken. Die Jugend- und Auszubildendenvertretung hat die betroffenen in § 60 Abs. 1 genannten Arbeitnehmer über den Stand und das Ergebnis der Verhandlungen zu informieren;\n4. die Integration ausländischer, in § 60 Abs. 1 genannter Arbeitnehmer im Betrieb zu fördern und entsprechende Maßnahmen beim Betriebsrat zu beantragen.\n\n(2) Zur Durchführung ihrer Aufgaben ist die Jugend- und Auszubildendenvertretung durch den Betriebsrat rechtzeitig und umfassend zu unterrichten. Die Jugend- und Auszubildendenvertretung kann verlangen, dass ihr der Betriebsrat die zur Durchführung ihrer Aufgaben erforderlichen Unterlagen zur Verfügung stellt."
   },
   {
     "id": "wiso-2023s-a24",
@@ -3601,7 +4066,8 @@
       4
     ],
     "loesung": "Richtig ist Antwort 5: Sammelplatz für die Mitarbeiter im Falle eines Notfalls.",
-    "erklaerung": "Grüne, quadratische Sicherheitszeichen sind Rettungszeichen. Das abgebildete Symbol kennzeichnet die Sammelstelle (Sammelplatz), an der sich Mitarbeiter im Notfall (z. B. Evakuierung) einfinden."
+    "erklaerung": "Grüne, quadratische Sicherheitszeichen sind Rettungszeichen. Das abgebildete Symbol kennzeichnet die Sammelstelle (Sammelplatz), an der sich Mitarbeiter im Notfall (z. B. Evakuierung) einfinden.",
+    "anlagenText": "**Abbildung:** Quadratisches Sicherheitszeichen in Grün/Weiß (Rettungszeichen „Sammelstelle“, E007): In der Mitte steht eine Gruppe von vier weißen Personen-Piktogrammen; aus den vier Ecken des grünen Quadrats zeigen vier weiße Pfeile nach innen auf diese Personengruppe."
   },
   {
     "id": "wiso-2023s-a29",
@@ -4586,7 +5052,115 @@
     "typ": "offen",
     "text": "Ihnen liegt ein idealtypisches Schaubild zur konjunkturellen Entwicklung vor (Bruttoinlandsprodukt über die Zeit, wellenförmiger Verlauf mit gestricheltem Trend). Fünf Positionen sind mit den Ziffern 1 bis 5 markiert: 1 = Tiefpunkt links unten, 2 = oberer Wendepunkt, 3 = mittlerer Punkt auf dem Trend, 4 = unterer Tiefpunkt rechts, 5 = ansteigender Punkt oben rechts; die gestrichelte Linie ist der Trend.\n\n**Ordnen Sie die 5 Ziffern gemäß dem Schaubild den 5 zutreffenden Begriffen zu!**\n\nBegriffe (in dieser Reihenfolge): Depression (Tiefstand), Expansion (Aufschwung), Boom (Hochkonjunktur), Rezession (Abschwung), Trend",
     "punkte": 5,
-    "loesung": "Zuordnung (Begriff → Ziffer):\n- Depression (Tiefstand) → 4\n- Expansion (Aufschwung) → 1\n- Boom (Hochkonjunktur) → 2\n- Rezession (Abschwung) → 3\n- Trend → 5\n\nLösungsziffern in Reihenfolge: 4; 1; 2; 3; 5."
+    "loesung": "Zuordnung (Begriff → Ziffer):\n- Depression (Tiefstand) → 4\n- Expansion (Aufschwung) → 1\n- Boom (Hochkonjunktur) → 2\n- Rezession (Abschwung) → 3\n- Trend → 5\n\nLösungsziffern in Reihenfolge: 4; 1; 2; 3; 5.",
+    "anlagenText": "**Idealtypisches Schaubild zur konjunkturellen Entwicklung (zur 15. und 16. Aufgabe):** Wellenförmige Kurve des Bruttoinlandsprodukts im Zeitablauf mit gestrichelter, stetig steigender Trendgeraden. Die Achsen tragen keine Zahlenwerte (idealtypische Darstellung); die Werte im Diagramm sind daher nur näherungsweise Indexwerte.\n\nMarkierte Positionen:\n- **Ziffer 1:** Punkt auf der aufsteigenden Kurve links, wo sie die Trendgerade von unten nach oben schneidet (bei Zeiteinheit ca. 2).\n- **Ziffer 2:** Oberer Scheitelpunkt (Hochpunkt) der Kurve (bei Zeiteinheit ca. 4).\n- **Ziffer 3:** Punkt auf der absteigenden Kurve, wo sie die Trendgerade wieder schneidet (bei Zeiteinheit ca. 5).\n- **Ziffer 4:** Unterer Scheitelpunkt (Tiefpunkt) der Kurve rechts (bei Zeiteinheit ca. 7).\n- **Ziffer 5:** Beschriftung an der gestrichelten, stetig steigenden Geraden oben rechts (bei Zeiteinheit ca. 10).",
+    "anlagenDiagramm": {
+      "typ": "linie",
+      "titel": "Idealtypisches Schaubild zur konjunkturellen Entwicklung",
+      "xAchse": "Zeit",
+      "yAchse": "Bruttoinlandsprodukt",
+      "einheit": "Indexwerte (idealtypisch, ohne Einheit)",
+      "serien": [
+        {
+          "name": "Konjunkturverlauf (BIP)",
+          "punkte": [
+            {
+              "x": "0",
+              "y": 1.2
+            },
+            {
+              "x": "1",
+              "y": 1.5
+            },
+            {
+              "x": "2",
+              "y": 3
+            },
+            {
+              "x": "3",
+              "y": 4.8
+            },
+            {
+              "x": "4",
+              "y": 5.7
+            },
+            {
+              "x": "5",
+              "y": 4.5
+            },
+            {
+              "x": "6",
+              "y": 3.2
+            },
+            {
+              "x": "7",
+              "y": 3
+            },
+            {
+              "x": "8",
+              "y": 4
+            },
+            {
+              "x": "9",
+              "y": 6
+            },
+            {
+              "x": "10",
+              "y": 7.6
+            }
+          ]
+        },
+        {
+          "name": "Trend (gestrichelte Gerade, Ziffer 5)",
+          "punkte": [
+            {
+              "x": "0",
+              "y": 2
+            },
+            {
+              "x": "1",
+              "y": 2.5
+            },
+            {
+              "x": "2",
+              "y": 3
+            },
+            {
+              "x": "3",
+              "y": 3.5
+            },
+            {
+              "x": "4",
+              "y": 4
+            },
+            {
+              "x": "5",
+              "y": 4.5
+            },
+            {
+              "x": "6",
+              "y": 5
+            },
+            {
+              "x": "7",
+              "y": 5.5
+            },
+            {
+              "x": "8",
+              "y": 6
+            },
+            {
+              "x": "9",
+              "y": 6.5
+            },
+            {
+              "x": "10",
+              "y": 7
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "id": "wiso-2024w-a16",
@@ -5613,7 +6187,8 @@
       2
     ],
     "loesung": "Richtig ist Antwort 3: Die GmbH haftet gegenüber dem Verkäufer mit dem gesamten Betriebsvermögen.",
-    "erklaerung": "Die GmbH als juristische Person haftet mit ihrem gesamten Gesellschaftsvermögen. Die Gesellschafter haften nicht mit ihrem Privatvermögen; die Haftung ist nicht auf das Mindestkapital oder liquide Mittel beschränkt."
+    "erklaerung": "Die GmbH als juristische Person haftet mit ihrem gesamten Gesellschaftsvermögen. Die Gesellschafter haften nicht mit ihrem Privatvermögen; die Haftung ist nicht auf das Mindestkapital oder liquide Mittel beschränkt.",
+    "anlagenText": "**Situation zur 7. und 8. Aufgabe:** Die Geschäftsführung der Jana Loft KG beschließt, die Verwertung und Entsorgung der bei der Produktion von Büromöbeln anfallenden Abfallstoffe bzw. Abfallprodukte in die neu zu gründende Reststoff-Verwertungs GmbH mit Sitz in Hamburg auszugliedern. Die Kommanditisten der Jana Loft KG werden als Gesellschafter in die neue GmbH eintreten.\n\n- Anna Voss wird sich mit einer Einlage in Höhe von 100.000,00 € an der GmbH beteiligen.\n- Lukas Voss wird sich mit einer Einlage in Höhe von 200.000,00 € an der GmbH beteiligen.\n\nAls Geschäftsführer wird Peter Schneider für die GmbH eingestellt. Im Gesellschaftsvertrag wird auf die gesetzlichen Bestimmungen bezüglich Haftung und Vertretung verwiesen."
   },
   {
     "id": "wiso-2020s-a9",
@@ -6657,7 +7232,8 @@
     ],
     "punkte": 3,
     "loesung": "Antwort 1: Ja, da die Eintragung im Handelsregister noch Gültigkeit hat.",
-    "erklaerung": "Solange die Prokura nicht im Handelsregister gelöscht ist, kann sich ein gutgläubiger Dritter auf den eingetragenen Rechtsschein verlassen (§ 15 HGB) - der Vertrag ist wirksam."
+    "erklaerung": "Solange die Prokura nicht im Handelsregister gelöscht ist, kann sich ein gutgläubiger Dritter auf den eingetragenen Rechtsschein verlassen (§ 15 HGB) - der Vertrag ist wirksam.",
+    "anlagenText": "**Situation zur 25. bis 27. Aufgabe:** Dem Prokuristen, Herrn Manfred Jost, wurde am 23. November 2020 die Prokura entzogen."
   },
   {
     "id": "wiso-2020w-a27",
@@ -6854,7 +7430,8 @@
     "korrekt": [
       2
     ],
-    "loesung": "Durchschnittlicher Forderungsbestand = Summe / Anzahl. KG: 22.740 € / 5 = 4.548 € je Unternehmen. Das ist der höchste Wert (Einzelunternehmung 3.554 €, OHG 3.954 €, GmbH 2.883 €, AG 4.147 €, Sonstige 3.116 €). Antwort: KG."
+    "loesung": "Durchschnittlicher Forderungsbestand = Summe / Anzahl. KG: 22.740 € / 5 = 4.548 € je Unternehmen. Das ist der höchste Wert (Einzelunternehmung 3.554 €, OHG 3.954 €, GmbH 2.883 €, AG 4.147 €, Sonstige 3.116 €). Antwort: KG.",
+    "anlagenText": "**Situation zur 5. bis 8. Aufgabe:** In der Jana Loft KG sind vermehrt Forderungsausfälle aufgetreten. Es wird diskutiert, ob es einen Zusammenhang zwischen der Rechtsform der Geschäftskunden und dem Forderungsausfall geben kann. Sie erhalten folgende Tabelle zur Auswertung.\n\n**Forderungen 3 Monate nach Fälligkeit, Stand: 1. Halbjahr 2021**\n\n| Rechtsform | Anzahl der Unternehmen | Summe der Forderungen der Jana Loft KG |\n|---|---:|---:|\n| Einzelunternehmung | 11 | 39.090 € |\n| OHG | 7 | 27.680 € |\n| KG | 5 | 22.740 € |\n| GmbH | 19 | 54.780 € |\n| AG | 3 | 12.440 € |\n| Sonstige | 9 | 28.040 € |"
   },
   {
     "id": "wiso-2021w-a6",
@@ -7082,7 +7659,91 @@
       5,
       2
     ],
-    "loesung": "A (senkrechte Achse = Wirtschaftsleistung) = Bruttoinlandsprodukt (1). B (abfallender Kurvenabschnitt) = Rezession (6). C (langfristig steigende Gerade) = Wirtschaftstrend (3). Reihenfolge der Lösungsziffern: 1; 6; 3."
+    "loesung": "A (senkrechte Achse = Wirtschaftsleistung) = Bruttoinlandsprodukt (1). B (abfallender Kurvenabschnitt) = Rezession (6). C (langfristig steigende Gerade) = Wirtschaftstrend (3). Reihenfolge der Lösungsziffern: 1; 6; 3.",
+    "anlagenText": "Die Abbildung zeigt eine mögliche wirtschaftliche Entwicklung in Deutschland im Zeitablauf: eine wellenförmige Kurve mit drei zunehmend höheren Wellenbergen sowie eine ansteigende Gerade, die durch die Schwankungen verläuft. Markierungen: **A** = Beschriftung der senkrechten Achse (Wirtschaftsleistung), **B** = Pfeil auf den fallenden Kurvenabschnitt nach dem ersten Wellenberg, **C** = Pfeil auf die ansteigende Gerade. Die waagerechte Achse ist mit „Jahre“ beschriftet.",
+    "anlagenDiagramm": {
+      "typ": "linie",
+      "titel": "Mögliche wirtschaftliche Entwicklung im Zeitablauf",
+      "xAchse": "Jahre",
+      "yAchse": "A (gesuchte Achsenbeschriftung)",
+      "einheit": "schematisch",
+      "serien": [
+        {
+          "name": "Wellenkurve (B = fallender Abschnitt nach dem ersten Hoch)",
+          "punkte": [
+            {
+              "x": "0",
+              "y": 2
+            },
+            {
+              "x": "1",
+              "y": 3
+            },
+            {
+              "x": "2",
+              "y": 3.9
+            },
+            {
+              "x": "3",
+              "y": 3.3
+            },
+            {
+              "x": "4",
+              "y": 2.8
+            },
+            {
+              "x": "5",
+              "y": 3.6
+            },
+            {
+              "x": "6",
+              "y": 4.6
+            },
+            {
+              "x": "7",
+              "y": 4
+            },
+            {
+              "x": "8",
+              "y": 3.5
+            },
+            {
+              "x": "9",
+              "y": 4.4
+            },
+            {
+              "x": "10",
+              "y": 5.4
+            },
+            {
+              "x": "11",
+              "y": 4.9
+            },
+            {
+              "x": "12",
+              "y": 5.2
+            }
+          ]
+        },
+        {
+          "name": "Ansteigende Gerade (C)",
+          "punkte": [
+            {
+              "x": "0",
+              "y": 2.4
+            },
+            {
+              "x": "6",
+              "y": 3.8
+            },
+            {
+              "x": "12",
+              "y": 5.2
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "id": "wiso-2021w-a18",
@@ -7301,7 +7962,7 @@
     "quelle": "original",
     "termin": "2021-winter",
     "typ": "mc",
-    "text": "Das abgebildete Zeichen (grünes Quadrat mit zwei Personen und nach innen weisenden Pfeilen) ist auf dem Betriebsgelände zu finden. Welche Bedeutung hat diese Abbildung?",
+    "text": "Das abgebildete Zeichen (grünes Quadrat mit vier Personen und nach innen weisenden Pfeilen) ist auf dem Betriebsgelände zu finden. Welche Bedeutung hat diese Abbildung?",
     "punkte": 3,
     "optionen": [
       "Standplatz für die Einsatzleitung der Feuerwehr",
@@ -7313,7 +7974,8 @@
     "korrekt": [
       4
     ],
-    "loesung": "Das grüne Rettungszeichen mit den nach innen gerichteten Pfeilen kennzeichnet die Sammelstelle - den Sammelplatz für die Mitarbeitenden im Notfall."
+    "loesung": "Das grüne Rettungszeichen mit den nach innen gerichteten Pfeilen kennzeichnet die Sammelstelle - den Sammelplatz für die Mitarbeitenden im Notfall.",
+    "anlagenText": "**Abgebildetes Zeichen:** Quadratisches Schild mit grünem Hintergrund. In der Mitte sind vier weiße Personen-Piktogramme als Gruppe dargestellt; aus allen vier Ecken des Schildes weisen weiße Pfeile nach innen auf die Personengruppe."
   },
   {
     "id": "wiso-2021w-a29",
@@ -7722,7 +8384,99 @@
       2
     ],
     "loesung": "Es liegt ein Käufermarkt vor, da ein Angebotsüberhang vorliegt.",
-    "erklaerung": "Bei einem Preis oberhalb des Gleichgewichts (500 € > Gleichgewichtspreis) übersteigt das Angebot die Nachfrage (Angebotsüberhang); es herrscht ein Käufermarkt."
+    "erklaerung": "Bei einem Preis oberhalb des Gleichgewichts (500 € > Gleichgewichtspreis) übersteigt das Angebot die Nachfrage (Angebotsüberhang); es herrscht ein Käufermarkt.",
+    "anlagenText": "**Situation zur 16. bis 19. Aufgabe:** In der Jana Loft KG ist die Einführung eines neuen Schreibtisches geplant, der über eine Fernbedienung höhenverstellbar ist. Im Absatzgebiet gibt es zurzeit nur vier Mitbewerber, aber viele mögliche Kunden. Die Jana Loft KG hat für diesen Schreibtisch eine Marktforschungsstudie in Auftrag gegeben. Das Schaubild zeigt die aktuelle Marktsituation als Ergebnis der Studie.\n\nIm Original-Schaubild sind drei Positionen markiert: **A** = geschweifte Klammer zwischen den beiden Kurven unterhalb des Schnittpunkts (bei ca. 350 EUR, von Menge 3 bis 7 Tsd. Stück), **B** = Markierung im Bereich zwischen den beiden Kurven links des Schnittpunkts, **C** = Markierung am oberen rechten Ende der steigenden Kurve. Die Kurven schneiden sich bei 5 Tsd. Stück und 450,00 EUR.",
+    "anlagenDiagramm": {
+      "typ": "linie",
+      "titel": "Marktsituation neuer Schreibtisch (Ergebnis der Marktforschungsstudie)",
+      "xAchse": "Menge in Tsd. Stück",
+      "yAchse": "Preis in EUR",
+      "einheit": "EUR",
+      "serien": [
+        {
+          "name": "Nachfragekurve (fallend)",
+          "punkte": [
+            {
+              "x": "1",
+              "y": 650
+            },
+            {
+              "x": "2",
+              "y": 600
+            },
+            {
+              "x": "3",
+              "y": 550
+            },
+            {
+              "x": "4",
+              "y": 500
+            },
+            {
+              "x": "5",
+              "y": 450
+            },
+            {
+              "x": "6",
+              "y": 400
+            },
+            {
+              "x": "7",
+              "y": 350
+            },
+            {
+              "x": "8",
+              "y": 300
+            },
+            {
+              "x": "9",
+              "y": 250
+            }
+          ]
+        },
+        {
+          "name": "Angebotskurve (steigend)",
+          "punkte": [
+            {
+              "x": "1",
+              "y": 250
+            },
+            {
+              "x": "2",
+              "y": 300
+            },
+            {
+              "x": "3",
+              "y": 350
+            },
+            {
+              "x": "4",
+              "y": 400
+            },
+            {
+              "x": "5",
+              "y": 450
+            },
+            {
+              "x": "6",
+              "y": 500
+            },
+            {
+              "x": "7",
+              "y": 550
+            },
+            {
+              "x": "8",
+              "y": 600
+            },
+            {
+              "x": "9",
+              "y": 650
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "id": "wiso-2017w-a18",
@@ -8702,7 +9456,8 @@
       2
     ],
     "loesung": "Richtig ist Aussage 3 (KG). Der durchschnittliche Forderungsbestand je Unternehmen ist bei der KG am höchsten: 22.740 € / 5 = 4.548,00 € (Einzelunternehmung 3.553,64 €; OHG 3.954,29 €; GmbH 2.883,16 €; AG 4.146,67 €; Sonstige 3.115,56 €).",
-    "erklaerung": "Der durchschnittliche Forderungsbestand ergibt sich aus Summe der Forderungen geteilt durch Anzahl der Unternehmen; der höchste Wert liegt bei der KG (4.548,00 €)."
+    "erklaerung": "Der durchschnittliche Forderungsbestand ergibt sich aus Summe der Forderungen geteilt durch Anzahl der Unternehmen; der höchste Wert liegt bei der KG (4.548,00 €).",
+    "anlagenText": "**Forderungen 3 Monate nach Fälligkeit, Stand: 1. Halbjahr 2018**\n\n| Rechtsform | Anzahl der Unternehmen | Summe der Forderungen der Jana Loft KG |\n|---|---:|---:|\n| Einzelunternehmung | 11 | 39.090 € |\n| OHG | 7 | 27.680 € |\n| KG | 5 | 22.740 € |\n| GmbH | 19 | 54.780 € |\n| AG | 3 | 12.440 € |\n| Sonstige | 9 | 28.040 € |"
   },
   {
     "id": "wiso-2018w-a6",
@@ -9055,7 +9810,83 @@
     "text": "Ordnen Sie die 5 Kennziffern gemäß dem abgebildeten Schaubild (idealtypischer Konjunkturverlauf, x-Achse Zeit, y-Achse Bruttoinlandsprodukt) den 5 zutreffenden Begriffen zu! Begriffe (mit Positionsnummern im Schaubild): Depression (Tiefstand); Expansion (Aufschwung); Boom (Hochkonjunktur); Rezession (Abschwung); Trend.",
     "punkte": 3,
     "loesung": "Zuordnung der Positionen: Position 1 = Expansion (Aufschwung); Position 2 = Boom (Hochkonjunktur); Position 3 = Rezession (Abschwung); Position 4 = Depression (Tiefstand); Position 5 = Trend. In der Reihenfolge der Begriffe im Aufgabensatz (Depression, Expansion, Boom, Rezession, Trend) lautet die Ziffernfolge 4 – 1 – 2 – 3 – 5.",
-    "erklaerung": "Der Konjunkturzyklus verläuft: Expansion (Aufschwung) → Boom (Hochkonjunktur) → Rezession (Abschwung) → Depression (Tiefstand). Der Trend zeigt die langfristige Grundrichtung."
+    "erklaerung": "Der Konjunkturzyklus verläuft: Expansion (Aufschwung) → Boom (Hochkonjunktur) → Rezession (Abschwung) → Depression (Tiefstand). Der Trend zeigt die langfristige Grundrichtung.",
+    "anlagenText": "**Situation zur 25. und 26. Aufgabe:** Für die Absatzplanung der Jana Loft KG ist die Prognose der konjunkturellen Entwicklung in den Absatzgebieten ein wichtiger Faktor. Die Kunden der Büromöbelbranche sind in besonderem Maße konjunktursensibel, d. h., Umfang und Zeitpunkt der Aufträge bei der Jana Loft KG hängen von der konjunkturellen Entwicklung ab. Dies hat auch Auswirkungen auf die Personalplanung. Ihnen liegt ein idealtypisches Schaubild zur konjunkturellen Entwicklung vor (senkrechte Achse: Bruttoinlandsprodukt, waagerechte Achse: Zeit).\n\nMarkierte Positionen im Schaubild: **1** = ansteigender Abschnitt der durchgezogenen Wellenkurve (vor dem Gipfel), **2** = Gipfel (Hochpunkt) der Wellenkurve, **3** = fallender Abschnitt der Wellenkurve (nach dem Gipfel), **4** = Tiefpunkt der Wellenkurve, **5** = ansteigende gestrichelte Gerade, die die Schwankungen langfristig ausgleicht.",
+    "anlagenDiagramm": {
+      "typ": "linie",
+      "titel": "Idealtypisches Schaubild zur konjunkturellen Entwicklung",
+      "xAchse": "Zeit",
+      "yAchse": "Bruttoinlandsprodukt",
+      "einheit": "schematisch",
+      "serien": [
+        {
+          "name": "Kurve (durchgezogen, Positionen 1-4)",
+          "punkte": [
+            {
+              "x": "0",
+              "y": 2.6
+            },
+            {
+              "x": "1",
+              "y": 2.3
+            },
+            {
+              "x": "2",
+              "y": 2.6
+            },
+            {
+              "x": "3",
+              "y": 3.8
+            },
+            {
+              "x": "4",
+              "y": 5.3
+            },
+            {
+              "x": "5",
+              "y": 5.5
+            },
+            {
+              "x": "6",
+              "y": 4.8
+            },
+            {
+              "x": "7",
+              "y": 3.6
+            },
+            {
+              "x": "8",
+              "y": 2.5
+            },
+            {
+              "x": "9",
+              "y": 3
+            },
+            {
+              "x": "10",
+              "y": 4.6
+            }
+          ]
+        },
+        {
+          "name": "Gerade (gestrichelt, Position 5)",
+          "punkte": [
+            {
+              "x": "0",
+              "y": 2.8
+            },
+            {
+              "x": "5",
+              "y": 3.9
+            },
+            {
+              "x": "10",
+              "y": 5
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "id": "wiso-2018w-a26",
@@ -9076,7 +9907,83 @@
       2
     ],
     "loesung": "Richtig ist Aussage 3. Der Trend zeigt einen stetig ansteigenden Verlauf. Tendenziell führt dies zu einem zusätzlichen Personalbedarf, sodass der Personalbestand eher aufgestockt werden sollte.",
-    "erklaerung": "Phase 2 ist der Boom (keine Depression), Phase 4 die Depression (kein Abschwung), Phase 3 die Rezession (sinkende Nachfrage). Nur der langfristig positive Trend spricht für einen Personalaufbau."
+    "erklaerung": "Phase 2 ist der Boom (keine Depression), Phase 4 die Depression (kein Abschwung), Phase 3 die Rezession (sinkende Nachfrage). Nur der langfristig positive Trend spricht für einen Personalaufbau.",
+    "anlagenText": "Grafik wie zu Aufgabe 25 (idealtypisches Schaubild zur konjunkturellen Entwicklung; senkrechte Achse: Bruttoinlandsprodukt, waagerechte Achse: Zeit). Markierte Positionen: **1** = ansteigender Abschnitt der Wellenkurve, **2** = Gipfel (Hochpunkt), **3** = fallender Abschnitt, **4** = Tiefpunkt, **5** = ansteigende gestrichelte Gerade (langfristige Entwicklung).",
+    "anlagenDiagramm": {
+      "typ": "linie",
+      "titel": "Idealtypisches Schaubild zur konjunkturellen Entwicklung",
+      "xAchse": "Zeit",
+      "yAchse": "Bruttoinlandsprodukt",
+      "einheit": "schematisch",
+      "serien": [
+        {
+          "name": "Kurve (durchgezogen, Phasen 1-4)",
+          "punkte": [
+            {
+              "x": "0",
+              "y": 2.6
+            },
+            {
+              "x": "1",
+              "y": 2.3
+            },
+            {
+              "x": "2",
+              "y": 2.6
+            },
+            {
+              "x": "3",
+              "y": 3.8
+            },
+            {
+              "x": "4",
+              "y": 5.3
+            },
+            {
+              "x": "5",
+              "y": 5.5
+            },
+            {
+              "x": "6",
+              "y": 4.8
+            },
+            {
+              "x": "7",
+              "y": 3.6
+            },
+            {
+              "x": "8",
+              "y": 2.5
+            },
+            {
+              "x": "9",
+              "y": 3
+            },
+            {
+              "x": "10",
+              "y": 4.6
+            }
+          ]
+        },
+        {
+          "name": "Trendgerade (gestrichelt, Position 5)",
+          "punkte": [
+            {
+              "x": "0",
+              "y": 2.8
+            },
+            {
+              "x": "5",
+              "y": 3.9
+            },
+            {
+              "x": "10",
+              "y": 5
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "id": "wiso-2018w-a27",
@@ -9782,6 +10689,7 @@
       2
     ],
     "loesung": "08:00–16:00 Uhr mit Pause 13:00–14:00 Uhr ist nicht zulässig.",
-    "erklaerung": "Bei einer Pause erst um 13:00 Uhr würde der Jugendliche von 08:00 bis 13:00 Uhr, also 5 Stunden am Stück ohne Pause arbeiten. Da nicht länger als 4,5 Stunden ohne Ruhepause gearbeitet werden darf, ist diese Regelung unzulässig."
+    "erklaerung": "Bei einer Pause erst um 13:00 Uhr würde der Jugendliche von 08:00 bis 13:00 Uhr, also 5 Stunden am Stück ohne Pause arbeiten. Da nicht länger als 4,5 Stunden ohne Ruhepause gearbeitet werden darf, ist diese Regelung unzulässig.",
+    "anlagenText": "**Auszug aus dem Jugendarbeitsschutzgesetz**\n\n**§ 11 Ruhepausen, Aufenthaltsräume**\n\n(1) Jugendlichen müssen im Voraus feststehende Ruhepausen von angemessener Dauer gewährt werden. Die Ruhepausen müssen mindestens betragen\n\n1. 30 Minuten bei einer Arbeitszeit von mehr als viereinhalb bis zu sechs Stunden,\n2. 60 Minuten bei einer Arbeitszeit von mehr als sechs Stunden.\n\nAls Ruhepause gilt nur eine Arbeitsunterbrechung von mindestens 15 Minuten.\n\n(2) Die Ruhepausen müssen in angemessener zeitlicher Lage gewährt werden, frühestens eine Stunde nach Beginn und spätestens eine Stunde vor Ende der Arbeitszeit. Länger als viereinhalb Stunden hintereinander dürfen Jugendliche nicht ohne Ruhepause beschäftigt werden.\n\n(3) Der Aufenthalt während der Ruhepausen in Arbeitsräumen darf den Jugendlichen nur gestattet werden, wenn die Arbeit in diesen Räumen während dieser Zeit eingestellt ist und auch sonst die notwendige Erholung nicht beeinträchtigt wird.\n\n(4) Absatz 3 gilt nicht für den Bergbau unter Tage.\n\n**Zu prüfende Arbeitszeit- und Pausenregelungen:**\n\n| Nr. | Arbeitsbeginn | Pausen | Arbeitsende |\n|---|---|---|---|\n| 1 | 08:00 Uhr | 12:00 – 13:00 Uhr | 16:00 Uhr |\n| 2 | 08:00 Uhr | 12:30 – 13:30 Uhr | 16:00 Uhr |\n| 3 | 08:00 Uhr | 13:00 – 14:00 Uhr | 16:00 Uhr |\n| 4 | 08:00 Uhr | 10:00 – 10:30 Uhr und 13:30 – 14:00 Uhr | 16:00 Uhr |\n| 5 | 08:00 Uhr | 09:00 – 09:15 Uhr und 12:15 – 13:00 Uhr | 16:00 Uhr |"
   }
 ]

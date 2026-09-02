@@ -1,1 +1,2221 @@
-[]
+[
+  {
+    "id": "kbz-lp-kaufvertrag-stoerungen-01",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "frage": "Die Bürodesign GmbH sendet der Möbelwerk KG ein schriftliches Angebot über 20 Schreibtische. Die Möbelwerk KG bestellt fristgerecht und ohne Änderungen. Wodurch kommt der Kaufvertrag rechtlich zustande?",
+    "optionen": [
+      "Durch das Angebot (Antrag) der Bürodesign GmbH und die unveränderte Bestellung (Annahme) der Möbelwerk KG.",
+      "Erst durch die Auftragsbestätigung der Bürodesign GmbH, denn sie ist die zweite Willenserklärung.",
+      "Erst durch die Lieferung der Ware, denn vorher besteht keine Leistungspflicht.",
+      "Durch die Anfrage der Möbelwerk KG, denn sie eröffnet die Vertragsanbahnung."
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Ein Kaufvertrag entsteht durch zwei übereinstimmende Willenserklärungen: Antrag und Annahme. Hier ist das Angebot der Antrag (§ 145 BGB), die unveränderte fristgerechte Bestellung die Annahme. Die Auftragsbestätigung ist danach nur noch eine Bestätigung ohne rechtsbegründende Wirkung, die Lieferung ist bereits Vertragserfüllung, und die Anfrage ist rechtlich völlig unverbindlich.",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "kbz-lp-kaufvertrag-stoerungen-02",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "frage": "Ein Kunde erkundigt sich per E-Mail nach Preisen, Lieferzeiten und Rabattmöglichkeiten für Konferenzstühle. Welche Aussage zu dieser E-Mail ist richtig?",
+    "optionen": [
+      "Es handelt sich um eine Anfrage; sie ist rechtlich unverbindlich und verpflichtet zu nichts.",
+      "Es handelt sich um einen Antrag; der Verkäufer muss nur noch annehmen, damit ein Vertrag entsteht.",
+      "Es handelt sich um eine Bestellung; mit Zugang beim Verkäufer kommt der Kaufvertrag zustande.",
+      "Es handelt sich um ein bindendes Angebot nach § 145 BGB."
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Eine Anfrage dient nur der Informationsbeschaffung und ist rechtlich unverbindlich – aus ihr entstehen weder Bindung noch Pflichten. Ein Antrag/Angebot müsste bereits alle wesentlichen Vertragsinhalte (Ware, Menge, Preis) verbindlich enthalten; eine Bestellung wäre die Annahme eines Angebots. Merksatz: Anfrage = unverbindlich, Angebot = verbindlich (außer Freizeichnung), Bestellung = Annahme.",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "kbz-lp-kaufvertrag-stoerungen-03",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "frage": "Die Jansen KG versendet zwei Angebote: Angebot A enthält die Klausel **„freibleibend“**, Angebot B die Klausel **„solange der Vorrat reicht“**. Welche Aussage zur Bindungswirkung ist richtig?",
+    "optionen": [
+      "Beide Angebote sind uneingeschränkt bindend, da Freizeichnungsklauseln nur in AGB wirksam sind.",
+      "Angebot A ist kein verbindliches Angebot; Angebot B bindet die Jansen KG, solange die Ware noch vorrätig ist.",
+      "Angebot A bindet die Jansen KG voll; Angebot B ist völlig unverbindlich.",
+      "Beide Angebote sind unverbindlich, da jede Freizeichnungsklausel die Bindung vollständig aufhebt."
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "„Freibleibend“ (ebenso „ohne Obligo“) hebt die Bindungswirkung des § 145 BGB vollständig auf – es liegt rechtlich nur eine Aufforderung zur Abgabe eines Angebots vor. „Solange der Vorrat reicht“ schränkt die Bindung dagegen nur ein: Das Angebot ist verbindlich, solange die Ware vorhanden ist. Die anderen Optionen verwechseln die Wirkungen bzw. behaupten fälschlich, Freizeichnungsklauseln seien nur in AGB möglich.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "kbz-lp-kaufvertrag-stoerungen-04",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "frage": "Ablauf einer Auftragsanbahnung: 10.05. Angebot der Loft KG über 15 Tische mit 5 % Rabatt (ohne Freizeichnungsklausel). 13.05. Bestellung des Kunden – allerdings mit der Änderung „10 % Rabatt“. 16.05. Telefonische Einigung auf 8 % Rabatt bei sonst unveränderten Bedingungen. 18.05. Auftragsbestätigung der Loft KG. Wann und wodurch kommt der Kaufvertrag zustande?",
+    "optionen": [
+      "Am 13.05., denn die Bestellung ist die Annahme des Angebots vom 10.05.",
+      "Am 16.05., denn die abgeänderte Bestellung war ein neuer Antrag, der erst mit der telefonischen Einigung angenommen wurde.",
+      "Am 18.05., denn ohne Auftragsbestätigung kommt zwischen Kaufleuten kein Vertrag zustande.",
+      "Am 10.05., denn ein Angebot ohne Freizeichnungsklausel begründet bereits den Vertrag."
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Eine Annahme unter Erweiterungen oder Änderungen gilt als Ablehnung verbunden mit einem neuen Antrag (§ 150 Abs. 2 BGB). Die Bestellung mit 10 % statt 5 % Rabatt ist daher ein neuer Antrag; erst die telefonische Einigung am 16.05. auf 8 % ist die übereinstimmende Annahme. Die Auftragsbestätigung bestätigt den Vertrag nur noch, und ein Angebot allein (nur eine Willenserklärung) kann nie einen Vertrag begründen.",
+    "schwierigkeit": 3,
+    "quellTermin": "2021-sommer"
+  },
+  {
+    "id": "kbz-lp-kaufvertrag-stoerungen-05",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "frage": "Die Objekta KG (Büroeinrichter) kauft bei der Holzwerk GmbH (Möbelhersteller) 50 Regale für den Weiterverkauf. Um welche Art von Geschäft handelt es sich?",
+    "optionen": [
+      "Um ein Verbrauchergeschäft, weil die Regale letztlich verbraucht werden.",
+      "Um ein einseitiges Handelsgeschäft, weil nur der Verkäufer produziert.",
+      "Um ein zweiseitiges Handelsgeschäft, weil beide Vertragspartner Kaufleute sind und das Geschäft zu ihrem Handelsgewerbe gehört.",
+      "Um ein Privatgeschäft, weil kein Verbraucher beteiligt ist."
+    ],
+    "korrekt": [
+      2
+    ],
+    "erklaerung": "Sind beide Vertragspartner Kaufleute und schließen das Geschäft im Rahmen ihres Handelsgewerbes, liegt ein zweiseitiges Handelsgeschäft vor – nur dann gilt z. B. die Untersuchungs- und Rügepflicht des § 377 HGB. Ein einseitiges Handelsgeschäft läge vor, wenn nur eine Seite Kaufmann wäre (z. B. Verkauf an einen Verbraucher). Die Begriffe „Verbrauchergeschäft“ und „Privatgeschäft“ passen hier nicht, da beide Parteien Unternehmen sind.",
+    "schwierigkeit": 1,
+    "quellTermin": "2025-sommer"
+  },
+  {
+    "id": "kbz-lp-kaufvertrag-stoerungen-06",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "frage": "Die Möbelwerk KG erhält eine Lieferung Bürostühle von einem Großhändler (beide Kaufleute). Der Lagerist stellt die Kartons ungeöffnet ins Lager. Drei Wochen später fallen beim Auspacken deutliche Kratzer an allen Stühlen auf, die bei einer normalen Eingangskontrolle sofort erkennbar gewesen wären. Die KG rügt den Mangel noch am selben Tag. Welche Rechtsfolge ergibt sich?",
+    "optionen": [
+      "Die Rüge ist wirksam, da sie unverzüglich nach Entdeckung erfolgte.",
+      "Die Ware gilt als genehmigt, weil die Untersuchungs- und Rügepflicht nach § 377 HGB verletzt wurde – die Gewährleistungsrechte für diesen offenen Mangel sind verloren.",
+      "Die Rüge ist wirksam, weil bei Handelsgeschäften eine Rügefrist von einem Monat gilt.",
+      "Die Ware gilt als genehmigt, aber die KG kann den Kaufpreis dennoch mindern."
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Beim zweiseitigen Handelsgeschäft muss der Käufer die Ware unverzüglich untersuchen und offene Mängel unverzüglich rügen (§ 377 HGB) – sonst gilt die Ware als genehmigt. Die Kratzer waren bei normaler Prüfung sofort erkennbar (offener Mangel); drei Wochen ungeprüfte Lagerung verletzen die Untersuchungspflicht. Eine feste Monatsfrist gibt es nicht, und mit der Genehmigungsfiktion entfallen auch Minderungsrechte wegen dieses Mangels.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "kbz-lp-kaufvertrag-stoerungen-07",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "frage": "Ein gelieferter Aktenschrank funktioniert bei der Wareneingangskontrolle einwandfrei. Nach vier Monaten löst sich die Verleimung, weil in der Produktion fehlerhafter Leim verwendet wurde – das war bei der Eingangsprüfung nicht erkennbar. Um welche Mangelart handelt es sich?",
+    "optionen": [
+      "Offener Mangel",
+      "Versteckter Mangel",
+      "Arglistig verschwiegener Mangel",
+      "Rechtsmangel"
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Ein versteckter Mangel ist bei ordnungsgemäßer Eingangsprüfung nicht erkennbar und zeigt sich erst später – er muss nach § 377 HGB unverzüglich nach seiner Entdeckung gerügt werden. Ein offener Mangel wäre sofort bei normaler Prüfung sichtbar (z. B. Kratzer). Arglistig verschwiegen wäre der Mangel nur, wenn der Verkäufer ihn kannte und bewusst verschwieg; ein Rechtsmangel betrifft Rechte Dritter an der Sache, nicht ihre Beschaffenheit.",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "kbz-lp-kaufvertrag-stoerungen-08",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "frage": "Ein Kunde hat mangelhafte Schreibtische erhalten und die Mängel rechtzeitig gerügt. Welche **zwei** Rechte stehen ihm im Rahmen der vorrangigen Nacherfüllung nach seiner Wahl zu? (2 Antworten)",
+    "optionen": [
+      "Nachbesserung (Beseitigung des Mangels, z. B. Reparatur)",
+      "Sofortige Minderung des Kaufpreises",
+      "Ersatzlieferung einer mangelfreien Sache",
+      "Sofortiger Rücktritt vom Kaufvertrag",
+      "Sofortiger Schadensersatz statt der Leistung"
+    ],
+    "korrekt": [
+      0,
+      2
+    ],
+    "erklaerung": "Bei einem Sachmangel hat die Nacherfüllung Vorrang: Der Käufer kann nach seiner Wahl Nachbesserung (Reparatur) oder Ersatzlieferung verlangen (§ 439 BGB). Minderung, Rücktritt und Schadensersatz sind nachrangige Rechte – sie kommen grundsätzlich erst in Betracht, wenn die Nacherfüllung fehlschlägt, verweigert wird oder eine gesetzte Frist erfolglos abläuft.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "kbz-lp-kaufvertrag-stoerungen-09",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "frage": "Die Contora GmbH hat mangelhafte Ware gerügt und möchte am liebsten sofort vom Vertrag zurücktreten, weil sie das Vertrauen in den Lieferanten verloren hat. Der Lieferant hat die Nacherfüllung weder verweigert noch ist sie fehlgeschlagen. Welche Aussage ist richtig?",
+    "optionen": [
+      "Der Rücktritt ist sofort möglich, da der Käufer bei jedem Mangel die freie Wahl unter allen Gewährleistungsrechten hat.",
+      "Die Contora GmbH muss dem Lieferanten grundsätzlich zunächst eine angemessene Frist zur Nacherfüllung setzen; erst nach deren erfolglosem Ablauf kann sie zurücktreten oder mindern.",
+      "Ein Rücktritt ist bei Handelsgeschäften generell ausgeschlossen; es bleibt nur die Minderung.",
+      "Die Contora GmbH kann nur Schadensersatz verlangen, ein Rücktritt ist im Kaufrecht nicht vorgesehen."
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Rücktritt und Minderung sind nachrangige Rechte: Der Käufer muss dem Verkäufer grundsätzlich erst erfolglos eine angemessene Frist zur Nacherfüllung setzen (§§ 437, 323, 441 BGB); entbehrlich ist die Frist nur z. B. bei ernsthafter Verweigerung oder Fehlschlagen der Nacherfüllung. Eine freie Wahl unter allen Rechten besteht daher nicht. Rücktritt ist auch bei Handelsgeschäften möglich, und Schadensersatz ist ein zusätzliches, kein ausschließliches Recht.",
+    "schwierigkeit": 3
+  },
+  {
+    "id": "kbz-lp-kaufvertrag-stoerungen-10",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "frage": "Die Delta Bürosysteme GmbH (Unternehmen) erhält am 02.06. eine ordnungsgemäße Rechnung, zahlbar sofort ohne Abzug. Sie zahlt nicht; eine Mahnung wird nicht versandt. Ab wann ist die GmbH spätestens in Zahlungsverzug?",
+    "optionen": [
+      "Nie – ohne Mahnung kann ein Schuldner grundsätzlich nicht in Verzug geraten.",
+      "30 Tage nach Fälligkeit und Zugang der Rechnung, also mit Ablauf des 02.07.",
+      "Bereits am Tag nach Rechnungszugang, also am 03.06.",
+      "Erst nach der dritten Mahnung, denn vorher liegt nur eine Zahlungserinnerung vor."
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Nach § 286 Abs. 3 BGB kommt der Schuldner einer Entgeltforderung spätestens 30 Tage nach Fälligkeit und Zugang der Rechnung in Verzug – gegenüber Unternehmen sogar ohne Mahnung und ohne besonderen Hinweis. Eine Mahnung ist also nur einer von mehreren Verzugsauslösern, und die verbreitete Vorstellung, es seien immer drei Mahnungen nötig, ist ein Mythos. Sofortiger Verzug am Folgetag träte nur ein, wenn ein kalendermäßig bestimmter Zahlungstermin überschritten würde.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "kbz-lp-kaufvertrag-stoerungen-11",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "frage": "Die Nordholz KG hat eine Forderung gegen die Beta GmbH (kein Verbraucher), die sich in Zahlungsverzug befindet. Der Basiszinssatz beträgt 2,27 %. Wie hoch ist der gesetzliche Verzugszinssatz?",
+    "optionen": [
+      "7,27 % (5 Prozentpunkte über dem Basiszinssatz)",
+      "11,27 % (9 Prozentpunkte über dem Basiszinssatz)",
+      "9,00 % (fester gesetzlicher Verzugszins)",
+      "2,27 % (der Basiszinssatz selbst)"
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Bei Rechtsgeschäften, an denen kein Verbraucher beteiligt ist, beträgt der gesetzliche Verzugszinssatz 9 Prozentpunkte über dem Basiszinssatz (§ 288 Abs. 2 BGB): 2,27 % + 9 = 11,27 %. Die 5 Prozentpunkte über Basiszins gelten nur, wenn ein Verbraucher beteiligt ist (§ 288 Abs. 1 BGB). Einen festen Satz von 9 % gibt es nicht, und der Basiszinssatz allein ist kein Verzugszins.",
+    "schwierigkeit": 2,
+    "quellTermin": "2024-sommer"
+  },
+  {
+    "id": "kbz-lp-kaufvertrag-stoerungen-12",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "frage": "Eine Forderung über 9.000,00 € befindet sich 60 Tage in Verzug. Der vereinbarte Verzugszinssatz beträgt 12 % p. a. Berechnen Sie die Verzugszinsen nach der kaufmännischen Zinsformel (Methode 30/360): $$Z = \\frac{K \\cdot p \\cdot t}{100 \\cdot 360}$$",
+    "optionen": [
+      "1.080,00 €",
+      "90,00 €",
+      "180,00 €",
+      "177,53 €"
+    ],
+    "korrekt": [
+      2
+    ],
+    "erklaerung": "Z = 9.000 × 12 × 60 / (100 × 360) = 6.480.000 / 36.000 = 180,00 €. 1.080,00 € wäre der Zins für ein volles Jahr (Zeitanteil vergessen), 90,00 € entsteht bei fälschlich 30 statt 60 Tagen, und 177,53 € ergäbe sich bei taggenauer Rechnung mit 365 Tagen – die kaufmännische Methode rechnet aber mit dem Zinsjahr von 360 Tagen.",
+    "schwierigkeit": 3
+  },
+  {
+    "id": "kbz-lp-kaufvertrag-stoerungen-13",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "frage": "Welche Aussage zur regelmäßigen Verjährungsfrist von Kaufpreisforderungen ist zutreffend?",
+    "optionen": [
+      "Sie beträgt 3 Jahre und beginnt mit dem Schluss des Jahres, in dem der Anspruch entstanden ist.",
+      "Sie beträgt 2 Jahre und beginnt am Tag der Lieferung.",
+      "Sie beträgt 3 Jahre und beginnt taggenau mit dem Rechnungsdatum.",
+      "Sie beträgt 5 Jahre und beginnt mit der ersten Mahnung."
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Die regelmäßige Verjährungsfrist beträgt 3 Jahre (§ 195 BGB) und beginnt mit dem Schluss des Jahres, in dem der Anspruch entstanden ist und der Gläubiger davon Kenntnis erlangt hat (§ 199 BGB) – Merksatz: „Start Silvester“. Die 2-Jahres-Frist ab Ablieferung gilt für Mängelansprüche des Käufers (§ 438 BGB), nicht für die Kaufpreisforderung. Taggenauer Beginn und ein Fristbeginn durch Mahnung sind falsche Vorstellungen.",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "kbz-lp-kaufvertrag-stoerungen-14",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "frage": "Die Loft KG hat einer Kundin am 15.03.2023 Ware geliefert und in Rechnung gestellt. Die Rechnung wurde nie bezahlt, Hemmungs- oder Neubeginnstatbestände liegen nicht vor. Mit Ablauf welchen Tages verjährt die Kaufpreisforderung?",
+    "optionen": [
+      "15.03.2026",
+      "31.12.2025",
+      "31.12.2026",
+      "15.03.2025"
+    ],
+    "korrekt": [
+      2
+    ],
+    "erklaerung": "Die regelmäßige Verjährungsfrist von 3 Jahren beginnt mit dem Schluss des Jahres, in dem der Anspruch entstand – hier also am 01.01.2024 – und endet mit Ablauf des 31.12.2026. Der 15.03.2026 wäre eine (falsche) taggenaue Rechnung ab Lieferung, der 31.12.2025 unterstellt nur 2 Jahre, und der 15.03.2025 kombiniert beide Fehler.",
+    "schwierigkeit": 2,
+    "quellTermin": "2022-sommer"
+  },
+  {
+    "id": "kbz-lp-kaufvertrag-stoerungen-15",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "frage": "Die Verjährung einer offenen Forderung droht. Durch welche **zwei** Ereignisse beginnt die Verjährungsfrist erneut zu laufen (Neubeginn)? (2 Antworten)",
+    "optionen": [
+      "Der Schuldner leistet eine Abschlagszahlung und erkennt den Anspruch damit an.",
+      "Der Gläubiger versendet eine weitere schriftliche Mahnung.",
+      "Es wird eine gerichtliche oder behördliche Vollstreckungshandlung vorgenommen bzw. beantragt.",
+      "Der Gläubiger ruft den Schuldner an und erinnert ihn an die Zahlung.",
+      "Der Gläubiger bucht die Forderung intern auf ein anderes Konto um."
+    ],
+    "korrekt": [
+      0,
+      2
+    ],
+    "erklaerung": "Nach § 212 BGB beginnt die Verjährung neu, wenn der Schuldner den Anspruch anerkennt – etwa durch Abschlagszahlung, Zinszahlung oder Sicherheitsleistung – oder wenn eine gerichtliche bzw. behördliche Vollstreckungshandlung vorgenommen oder beantragt wird. Eine schriftliche oder telefonische Mahnung des Gläubigers hat dagegen keinerlei Einfluss auf die Verjährung – das ist ein klassischer Prüfungsfehler. Interne Umbuchungen sind rechtlich ohne Bedeutung. (Ein gerichtlicher Mahnbescheid bewirkt übrigens nur eine Hemmung, keinen Neubeginn.)",
+    "schwierigkeit": 3
+  },
+  {
+    "id": "kbz-lp-kaufvertrag-stoerungen-16",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "frage": "Die Möbelwerk KG hat gegen einen säumigen Kunden einen gerichtlichen Mahnbescheid erwirkt. Der Kunde legt innerhalb der Frist **Widerspruch** ein. Wie geht das Verfahren weiter?",
+    "optionen": [
+      "Die KG erhält automatisch einen Vollstreckungsbescheid, der Widerspruch verzögert das nur.",
+      "Auf Antrag wird das Verfahren an das zuständige Gericht abgegeben und als streitiges Gerichtsverfahren (Klageverfahren) fortgeführt.",
+      "Das Verfahren ist endgültig beendet; die Forderung kann nicht mehr durchgesetzt werden.",
+      "Die KG kann sofort die Zwangsvollstreckung einleiten, da der Mahnbescheid ein vollstreckbarer Titel ist."
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Legt der Schuldner gegen den Mahnbescheid Widerspruch ein, kann kein Vollstreckungsbescheid ergehen; auf Antrag einer Partei wird der Rechtsstreit an das zuständige Gericht abgegeben und dort im normalen Klageverfahren entschieden. Der Mahnbescheid selbst ist noch kein vollstreckbarer Titel – erst der Vollstreckungsbescheid (oder ein Urteil) erlaubt die Zwangsvollstreckung. Die Forderung ist durch den Widerspruch keineswegs verloren.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "kbz-lp-kaufvertrag-stoerungen-17",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "frage": "Gegen einen Schuldner wurde ein Vollstreckungsbescheid erlassen; er legt keinen Einspruch ein. Welche Bedeutung hat der Vollstreckungsbescheid nun für den Gläubiger?",
+    "optionen": [
+      "Er ist ein vollstreckbarer Titel – der Gläubiger kann die Zwangsvollstreckung (z. B. durch den Gerichtsvollzieher) einleiten.",
+      "Er ist lediglich eine letzte außergerichtliche Mahnung ohne Rechtswirkung.",
+      "Er bewirkt, dass das Finanzamt die Forderung für den Gläubiger einzieht.",
+      "Er verpflichtet die Hausbank des Schuldners, den Betrag automatisch zu überweisen."
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Der Vollstreckungsbescheid ist – wie ein Urteil – ein vollstreckbarer Titel: Mit ihm kann der Gläubiger die Zwangsvollstreckung betreiben, etwa Sachpfändung durch den Gerichtsvollzieher oder Kontopfändung. Er ist gerade keine bloße Mahnung, das Finanzamt hat mit privaten Forderungen nichts zu tun, und Banken überweisen nie automatisch – auch die Kontopfändung erfordert einen förmlichen Pfändungs- und Überweisungsbeschluss.",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "kbz-lp-kaufvertrag-stoerungen-18",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "frage": "Die Holzwerk GmbH liefert Büromöbel „unter Eigentumsvorbehalt“ an die Objekta KG, die auf Ziel zahlt. Welche Aussage beschreibt die Rechtslage bis zur vollständigen Bezahlung korrekt?",
+    "optionen": [
+      "Die Objekta KG wird sofort Eigentümerin, die Holzwerk GmbH behält nur ein Pfandrecht.",
+      "Die Objekta KG wird Besitzerin der Möbel; Eigentümerin bleibt bis zur vollständigen Zahlung die Holzwerk GmbH.",
+      "Eigentum und Besitz verbleiben bis zur Zahlung vollständig bei der Holzwerk GmbH.",
+      "Der Eigentumsvorbehalt muss notariell beurkundet werden, sonst ist er unwirksam."
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Beim Eigentumsvorbehalt (§ 449 BGB) wird die Ware unter der aufschiebenden Bedingung vollständiger Kaufpreiszahlung übereignet: Der Käufer erhält den Besitz und darf die Sache nutzen, Eigentümer bleibt aber der Verkäufer – zahlt der Käufer nicht, kann der Verkäufer nach Rücktritt die Ware herausverlangen. Die Distraktoren verwechseln Besitz und Eigentum bzw. erfinden ein Formerfordernis, das es nicht gibt: Der Eigentumsvorbehalt wird formlos, meist per AGB, vereinbart.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "kbz-lp-kaufvertrag-stoerungen-19",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "frage": "Ein Lieferant befindet sich mit der Lieferung dringend benötigter Regale in **Lieferungsverzug**. Welche **zwei** Rechte kann der Käufer geltend machen? (2 Antworten)",
+    "optionen": [
+      "Er kann weiterhin auf Lieferung bestehen und zusätzlich Ersatz des Verzugsschadens verlangen.",
+      "Er kann sofort und ohne Nachfrist vom Vertrag zurücktreten, ein Verzug genügt immer.",
+      "Er kann nach erfolglosem Ablauf einer angemessenen Nachfrist vom Vertrag zurücktreten und ggf. Schadensersatz statt der Leistung verlangen.",
+      "Er kann den Kaufpreis um die Verzugstage anteilig mindern.",
+      "Er kann die Ware bei einem Dritten kaufen und die Mehrkosten ohne jede Fristsetzung abwälzen."
+    ],
+    "korrekt": [
+      0,
+      2
+    ],
+    "erklaerung": "Beim Lieferungsverzug kann der Käufer erstens am Vertrag festhalten: Lieferung plus Ersatz des Verzugsschadens (z. B. Mietkosten für Ersatzregale). Zweitens kann er nach erfolglosem Ablauf einer angemessenen Nachfrist zurücktreten und Schadensersatz statt der Leistung verlangen – etwa die Mehrkosten eines Deckungskaufs. Ein sofortiger Rücktritt oder ein Deckungskauf ohne Fristsetzung ist nur in Ausnahmefällen (z. B. Fixgeschäft, ernsthafte Erfüllungsverweigerung) zulässig; die „Minderung“ ist ein Recht bei mangelhafter Lieferung, nicht bei Verzug.",
+    "schwierigkeit": 3
+  },
+  {
+    "id": "kbz-lp-kaufvertrag-stoerungen-20",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "frage": "Aus einem wirksamen Kaufvertrag ergeben sich Pflichten für beide Seiten. Welche **zwei** Hauptpflichten treffen den **Käufer**? (2 Antworten)",
+    "optionen": [
+      "Fristgerechte Zahlung des Kaufpreises",
+      "Übereignung der mangelfreien Ware",
+      "Annahme der vertragsgemäß gelieferten Ware",
+      "Rechtzeitige und mangelfreie Lieferung",
+      "Erteilung einer Auftragsbestätigung"
+    ],
+    "korrekt": [
+      0,
+      2
+    ],
+    "erklaerung": "Der Käufer ist nach § 433 Abs. 2 BGB verpflichtet, den Kaufpreis zu zahlen und die gekaufte Sache abzunehmen. Übereignung sowie rechtzeitige, mangelfreie Lieferung sind spiegelbildlich die Hauptpflichten des Verkäufers (§ 433 Abs. 1 BGB). Eine Auftragsbestätigung ist keine Vertragspflicht, sondern nur ein kaufmännisches Bestätigungsschreiben.",
+    "schwierigkeit": 1,
+    "quellTermin": "2023-sommer"
+  },
+  {
+    "id": "kbz-lp-kaufvertrag-stoerungen-21",
+    "themaId": "kaufvertrag-stoerungen",
+    "bereich": "kbz",
+    "frage": "Die Loft KG (Sitz in Dresden) will eine offene Forderung von 3.800,00 € gegen die Bürobedarf GmbH (Sitz in Hamburg) einklagen. Es gilt der gesetzliche Gerichtsstand. Welches Gericht ist zuständig?",
+    "optionen": [
+      "Das Amtsgericht Dresden, weil der Kläger dort seinen Sitz hat.",
+      "Das Amtsgericht Hamburg, weil bei Streitwerten bis 5.000,00 € das Amtsgericht am Sitz des Beklagten zuständig ist.",
+      "Das Landgericht Hamburg, weil Handelssachen immer vor das Landgericht gehören.",
+      "Das Landgericht Dresden, weil der Streitwert über 3.000,00 € liegt."
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Sachlich ist bei Streitwerten bis 5.000,00 € das Amtsgericht zuständig (§ 23 GVG), darüber das Landgericht; örtlich gilt der gesetzliche Gerichtsstand am (Wohn-)Sitz des Beklagten. Geklagt wird also beim Amtsgericht Hamburg. Der Sitz des Klägers ist ohne besondere Vereinbarung unerheblich, und eine Grenze von 3.000,00 € existiert nicht.",
+    "schwierigkeit": 2,
+    "quellTermin": "2019-sommer"
+  },
+  {
+    "id": "kbz-lp-kundenkommunikation-01",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "frage": "Sie möchten in einem Reklamationsgespräch möglichst viele Informationen vom Kunden erhalten und ihn zum Erzählen bringen. Welche Frage eignet sich dafür am besten?",
+    "optionen": [
+      "„Was genau ist beim Aufbau der Regale passiert?“",
+      "„Ist das Paket beschädigt angekommen?“",
+      "„Möchten Sie einen Umtausch oder eine Gutschrift?“",
+      "„Sie sind mit unserem Service doch grundsätzlich zufrieden, oder?“"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Die W-Frage „Was genau ist passiert?“ ist eine offene Frage – sie lässt sich nicht mit Ja/Nein beantworten und fördert ausführliche Schilderungen. Option 2 ist eine geschlossene Frage (nur Ja/Nein), Option 3 eine Alternativfrage mit zwei vorgegebenen Optionen und Option 4 eine Suggestivfrage, die dem Kunden die Antwort in den Mund legt.",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "kbz-lp-kundenkommunikation-02",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "frage": "Am Ende eines Beratungstelefonats fragen Sie: „Sollen wir Ihnen das Angebot per E-Mail oder per Post zusenden?“ Um welche Frageart handelt es sich?",
+    "optionen": [
+      "Offene Frage",
+      "Suggestivfrage",
+      "Alternativfrage",
+      "Kontrollfrage"
+    ],
+    "korrekt": [
+      2
+    ],
+    "erklaerung": "Die Alternativfrage bietet dem Gesprächspartner zwei (oder mehr) konkrete Optionen zur Auswahl und lenkt so auf eine Entscheidung hin – ideal zum Gesprächsabschluss. Eine offene Frage würde frei formulierbare Antworten zulassen, eine Suggestivfrage eine bestimmte Antwort nahelegen und eine Kontrollfrage das eigene Verständnis des Gesagten überprüfen.",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "kbz-lp-kundenkommunikation-03",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "frage": "Ein Vertriebsmitarbeiter fragt einen Kunden: „Da stimmen Sie mir doch sicher zu, dass unser Premium-Modell die beste Wahl für Sie ist?“ Warum gilt diese Frageart in der Kundenkommunikation als problematisch?",
+    "optionen": [
+      "Weil geschlossene Fragen das Gespräch unnötig verlängern.",
+      "Weil die Suggestivfrage dem Kunden die Antwort in den Mund legt und er sich manipuliert fühlen kann.",
+      "Weil Alternativfragen den Kunden mit zu vielen Optionen überfordern.",
+      "Weil offene Fragen keine konkreten Informationen liefern."
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Es handelt sich um eine Suggestivfrage: Sie unterstellt bereits die gewünschte Antwort („Da stimmen Sie mir doch sicher zu …“) und schränkt die freie Meinungsäußerung ein. Kunden fühlen sich dadurch gedrängt oder manipuliert – das schadet dem Vertrauen und der Kundenbindung. Die übrigen Optionen beschreiben andere Fragearten und treffen auf das Beispiel nicht zu.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "kbz-lp-kundenkommunikation-04",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "frage": "In einem Kundenfragebogen steht die Frage: „Sind Sie mit unserer Lieferzeit zufrieden?“ Welche Aussage zu dieser Frage ist richtig?",
+    "optionen": [
+      "Es ist eine offene Frage, weil sie die Meinung des Kunden erfragt.",
+      "Es ist eine geschlossene Frage, weil sie nur mit Ja oder Nein beantwortet werden kann.",
+      "Es ist eine Alternativfrage, weil „zufrieden“ und „unzufrieden“ zur Wahl stehen.",
+      "Es ist eine Kontrollfrage, weil sie die Lieferzeit kontrolliert."
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Entscheidend ist die Antwortmöglichkeit, nicht das Thema: Auf „Sind Sie …?“ kann der Kunde nur mit Ja oder Nein antworten – also eine geschlossene Frage. Dass es um eine Meinung geht, macht sie nicht offen; offen wäre z. B. „Wie beurteilen Sie unsere Lieferzeit?“. Eine Alternativfrage müsste zwei Optionen ausdrücklich anbieten, eine Kontrollfrage das Verständnis des bisher Gesagten prüfen.",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "kbz-lp-kundenkommunikation-05",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "frage": "Nach einer längeren Schilderung des Kunden sagen Sie: „Habe ich Sie richtig verstanden, dass zwei der acht Stühle beschädigt ankamen und Sie Ersatz bis Freitag benötigen?“ Welche Frageart setzen Sie ein und mit welchem Ziel?",
+    "optionen": [
+      "Eine Suggestivfrage, um den Kunden zur Annahme des Ersatzes zu drängen.",
+      "Eine Kontrollfrage, um Missverständnisse zu vermeiden und den Sachverhalt abzusichern.",
+      "Eine offene Frage, um weitere Details zu erfahren.",
+      "Eine Alternativfrage, um dem Kunden zwei Lösungen anzubieten."
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Die Kontrollfrage fasst das Gehörte zusammen und lässt es den Kunden bestätigen oder korrigieren – so werden Missverständnisse vermieden und der Kunde fühlt sich ernst genommen (Element des aktiven Zuhörens). Es wird nichts suggeriert, keine neue Information erfragt und keine Auswahl angeboten, daher scheiden die anderen Fragearten aus.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "kbz-lp-kundenkommunikation-06",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "frage": "Die Loft KG führt ein systematisches Beschwerdemanagement ein. Welche **zwei** Ziele werden damit typischerweise verfolgt? (2 Antworten)",
+    "optionen": [
+      "Die Kundenzufriedenheit erhöhen und verärgerte Kunden halten.",
+      "Die Zahl berechtigter Gewährleistungsansprüche juristisch abwehren.",
+      "Die Beschwerdequote langfristig senken, indem Fehlerursachen erkannt und abgestellt werden.",
+      "Beschwerden möglichst an viele wechselnde Ansprechpartner verteilen.",
+      "Kunden mit Beschwerden konsequent an den Hersteller verweisen."
+    ],
+    "korrekt": [
+      0,
+      2
+    ],
+    "erklaerung": "Beschwerdemanagement will die Kundenzufriedenheit wiederherstellen bzw. erhöhen (Kundenbindung) und aus Beschwerden lernen, um die Beschwerdequote dauerhaft zu senken. Kennzeichen sind schnelle, kundenfreundliche Reaktionen und feste Ansprechpartner – nicht wechselnde Zuständigkeiten oder das Abschieben an Dritte. Das juristische Abwehren berechtigter Ansprüche widerspricht dem Ziel, den Kunden zu halten.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "kbz-lp-kundenkommunikation-07",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "frage": "Ein Kunde reklamiert telefonisch eine mangelhafte Lieferung. Welche Reihenfolge beschreibt den empfohlenen Ablauf des Reklamationsgesprächs am besten?",
+    "optionen": [
+      "Begrüßung → aktiv zuhören → Entschuldigung → Lösung/Mängelbeseitigung zusagen → ggf. Kulanz anbieten → freundliche Verabschiedung",
+      "Begrüßung → eigene Sicht darstellen → Schuldfrage klären → Kunde darf antworten → Verabschiedung",
+      "Sofortige Entschuldigung → Gutschrift zusagen → auflegen, um Zeit zu sparen",
+      "Begrüßung → Kunden auf die AGB verweisen → Gespräch an die Rechtsabteilung weiterleiten"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Im Reklamationsgespräch lässt man den Kunden zuerst vollständig schildern (Zuhören), entschuldigt sich, sagt eine konkrete Lösung bzw. Mängelbeseitigung zu und bietet gegebenenfalls Kulanz (z. B. Rabatt) an – Ziel ist es, den Kunden zu halten. Schuldzuweisungen, vorschnelle Zusagen ohne Klärung oder das Abwimmeln über AGB/Rechtsabteilung eskalieren den Konflikt und gefährden die Kundenbeziehung.",
+    "schwierigkeit": 1,
+    "quellTermin": "2025-sommer"
+  },
+  {
+    "id": "kbz-lp-kundenkommunikation-08",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "frage": "Ein sehr verärgerter Kunde ruft an und beschwert sich laut über eine Falschlieferung. Er unterbricht Sie mehrfach. Wie reagieren Sie professionell?",
+    "optionen": [
+      "Sie unterbrechen ihn ebenfalls, um schnell zur Sache zu kommen.",
+      "Sie lassen ihn ausreden, hören aktiv zu, zeigen Verständnis und fassen sein Anliegen anschließend sachlich zusammen.",
+      "Sie stellen klar, dass Sie persönlich nichts dafür können, und verbinden ihn kommentarlos weiter.",
+      "Sie bitten ihn, sich erst zu beruhigen und später noch einmal anzurufen."
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Bei emotionalen Beschwerden gilt: ausreden lassen, aktiv zuhören, Verständnis signalisieren („Ich kann Ihren Ärger verstehen“) und den Sachverhalt zusammenfassen – so kann der Kunde „Dampf ablassen“ und das Gespräch wird sachlich. Gegenunterbrechungen und Zurückweisungen eskalieren den Konflikt, kommentarloses Weiterverbinden und Vertrösten wirken abweisend und gefährden die Kundenbindung.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "kbz-lp-kundenkommunikation-09",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "frage": "Während eines Beratungsgesprächs verschränkt Ihr Gesprächspartner plötzlich die Arme und runzelt die Stirn. Welche Wirkung wird dieser Körpersprache üblicherweise zugeschrieben?",
+    "optionen": [
+      "Zustimmung und volle Aufmerksamkeit",
+      "Ablehnung, Verschlossenheit bzw. Unverständnis",
+      "Wertschätzung gegenüber dem Gesprächspartner",
+      "Reines Frieren ohne jede kommunikative Bedeutung"
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Verschränkte Arme wirken abweisend und verschlossen, Stirnrunzeln signalisiert Unverständnis oder Ablehnung – zusammen deuten sie auf innere Distanz oder Einwände hin, auf die man im Gespräch eingehen sollte. Zustimmung und Wertschätzung würden durch Nicken, Blickkontakt und offene Körperhaltung ausgedrückt. Nonverbale Signale können zwar mehrdeutig sein, in der Kommunikation werden sie aber keinesfalls als bedeutungslos betrachtet.",
+    "schwierigkeit": 1,
+    "quellTermin": "2020-winter"
+  },
+  {
+    "id": "kbz-lp-kundenkommunikation-10",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "frage": "Beim „Tag der offenen Tür“ begrüßen Sie Kunden persönlich. Welche **zwei** nonverbalen Verhaltensweisen signalisieren dem Kunden Wertschätzung und Aufmerksamkeit? (2 Antworten)",
+    "optionen": [
+      "Blickkontakt halten und freundlich lächeln",
+      "Während des Gesprächs regelmäßig auf das Smartphone schauen",
+      "Eine offene Körperhaltung einnehmen und zustimmend nicken",
+      "Die Arme verschränken, um Kompetenz zu zeigen",
+      "Dem Kunden den Rücken zuwenden, um Unterlagen zu suchen"
+    ],
+    "korrekt": [
+      0,
+      2
+    ],
+    "erklaerung": "Blickkontakt, freundliche Mimik, offene Körperhaltung und Nicken zeigen dem Gegenüber Aufmerksamkeit und Wertschätzung und unterstützen die verbale Botschaft. Der Blick aufs Smartphone und das Zuwenden des Rückens signalisieren Desinteresse; verschränkte Arme wirken verschlossen und abweisend – nicht kompetent.",
+    "schwierigkeit": 1,
+    "quellTermin": "2017-winter"
+  },
+  {
+    "id": "kbz-lp-kundenkommunikation-11",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "frage": "Die Möbelwerk KG möchte ihre Bestandskunden stärker an das Unternehmen binden. Welche **zwei** Maßnahmen eignen sich hierfür? (2 Antworten)",
+    "optionen": [
+      "Ein Bonusprogramm mit Rabattaktionen für Stammkunden einführen",
+      "Die Preise für Neukunden dauerhaft unter die Stammkundenpreise senken",
+      "Einen regelmäßigen Newsletter mit Produktneuheiten und Einladungen (z. B. Tag der offenen Tür) versenden",
+      "Beschwerden von Stammkunden grundsätzlich nicht beantworten, um Kosten zu sparen",
+      "Die persönliche Betreuung abschaffen und nur noch anonyme Hotlines anbieten"
+    ],
+    "korrekt": [
+      0,
+      2
+    ],
+    "erklaerung": "Kundenbindung entsteht durch Vorteile und Kontaktpflege für Bestandskunden: Bonusprogramme/Rabattaktionen belohnen Treue, Newsletter und Veranstaltungen wie ein Tag der offenen Tür halten den Kontakt und informieren über Neuheiten. Neukunden gezielt besserzustellen verärgert Stammkunden, und ignorierte Beschwerden oder der Wegfall persönlicher Betreuung zerstören Kundenbeziehungen, statt sie zu festigen.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "kbz-lp-kundenkommunikation-12",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "frage": "Nach einem wichtigen Kundentelefonat erstellen Sie eine Gesprächsnotiz. Welche Angaben gehören zwingend hinein?",
+    "optionen": [
+      "Datum und Uhrzeit, Namen der Gesprächsteilnehmer, Anliegen sowie getroffene Vereinbarungen",
+      "Nur das Gesprächsergebnis – alles andere ist entbehrlich",
+      "Eine wörtliche Mitschrift des gesamten Gesprächs",
+      "Die private Handynummer und das Geburtsdatum des Kunden"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Eine Gesprächsnotiz sichert die Informationsweitergabe und muss enthalten: Datum und Uhrzeit, Gesprächsteilnehmer, Anliegen/Inhalt sowie getroffene Entscheidungen bzw. Vereinbarungen (ggf. plus Wiedervorlage) – Merkhilfe: Wer, Wann, Was, Was-vereinbart. Nur das Ergebnis wäre zu wenig (nicht nachvollziehbar, wer wann was besprach), eine wörtliche Mitschrift ist unnötig aufwendig, und private Daten ohne dienstlichen Anlass gehören schon aus Datenschutzgründen nicht hinein.",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "kbz-lp-kundenkommunikation-13",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "frage": "Ihre Kollegin fragt, warum sie nach Kundentelefonaten überhaupt Gesprächsnotizen schreiben soll. Welche Begründung trifft den Hauptzweck am besten?",
+    "optionen": [
+      "Gesprächsnotizen sind gesetzlich für jedes Telefonat vorgeschrieben.",
+      "Sie sichern die Informationsweitergabe im Team und machen Vereinbarungen auch bei Abwesenheit oder Personalwechsel nachvollziehbar.",
+      "Sie dienen vor allem als Beweismittel, um Kunden später Fehler nachweisen zu können.",
+      "Sie ersetzen die schriftliche Auftragsbestätigung an den Kunden."
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Die Gesprächsnotiz dokumentiert Anliegen und Vereinbarungen, sodass Kolleginnen und Kollegen jederzeit informiert weiterarbeiten können – etwa bei Krankheit, Urlaub oder Zuständigkeitswechsel; zudem ermöglicht sie eine geordnete Wiedervorlage. Eine allgemeine gesetzliche Pflicht besteht nicht, das „Überführen“ von Kunden ist nicht ihr Zweck, und die Auftragsbestätigung als Erklärung an den Kunden kann sie nicht ersetzen.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "kbz-lp-kundenkommunikation-14",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "frage": "Im Teammeeting fällt der Satz: „Jede Beschwerde ist auch eine Chance.“ Welche Begründung stützt diese Aussage am besten?",
+    "optionen": [
+      "Beschwerden zeigen Schwachstellen auf und ein zufriedenstellend gelöster Beschwerdefall kann die Kundenbindung sogar stärken.",
+      "Beschwerden sind eine Chance, sich von unbequemen Kunden zu trennen.",
+      "Beschwerden erhöhen automatisch den Umsatz, weil der Kunde aus schlechtem Gewissen mehr bestellt.",
+      "Beschwerden sind eine Chance, weil sie die Gewährleistungsfristen verkürzen."
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Beschwerden liefern kostenloses Feedback über Fehlerquellen (Produkt, Prozesse, Service) und ermöglichen Verbesserungen. Wird die Beschwerde schnell und kundenfreundlich gelöst, fühlt sich der Kunde ernst genommen – die Bindung kann danach stärker sein als vorher; zudem beschwert sich nur ein Teil der unzufriedenen Kunden, die übrigen wandern still ab. Die anderen Optionen sind sachfremd: Kundentrennung ist nicht das Ziel, Umsatz steigt nicht automatisch, und auf Gewährleistungsfristen haben Beschwerden keinen verkürzenden Einfluss.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "kbz-lp-kundenkommunikation-15",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "frage": "„Aktives Zuhören“ soll im Kundengespräch Wertschätzung zeigen und Missverständnisse vermeiden. Welche **zwei** Verhaltensweisen gehören dazu? (2 Antworten)",
+    "optionen": [
+      "Den Kunden ausreden lassen und durch Nicken bzw. kurze Bestätigungen Aufmerksamkeit signalisieren",
+      "Das Gesagte mit eigenen Worten zusammenfassen und bei Unklarheiten nachfragen",
+      "Parallel E-Mails beantworten, um effizient zu arbeiten",
+      "Sofort Gegenargumente formulieren, während der Kunde noch spricht",
+      "Längere Redepausen des Kunden immer sofort mit eigenen Vorschlägen füllen"
+    ],
+    "korrekt": [
+      0,
+      1
+    ],
+    "erklaerung": "Aktives Zuhören bedeutet: ausreden lassen, Aufmerksamkeitssignale senden (Nicken, „ja“, Blickkontakt), Gehörtes paraphrasieren und mit Kontroll- bzw. Verständnisfragen absichern. Nebentätigkeiten, das innerliche Formulieren von Gegenargumenten und das ständige Unterbrechen von Pausen zeigen dagegen Desinteresse und führen zu Missverständnissen – genau das soll aktives Zuhören verhindern.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "kbz-lp-kundenkommunikation-16",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "frage": "Im Konfliktgespräch mit einem Kunden wollen Sie Vorwürfe vermeiden. Welche Formulierung ist eine typische **Ich-Botschaft**?",
+    "optionen": [
+      "„Sie haben die Bestellnummer schon wieder falsch angegeben!“",
+      "„Mir ist aufgefallen, dass die Bestellnummer nicht zu unserem System passt – lassen Sie uns das gemeinsam prüfen.“",
+      "„Ihre Abteilung arbeitet offenbar sehr unzuverlässig.“",
+      "„Daran sind ausschließlich Sie selbst schuld.“"
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Ich-Botschaften schildern die eigene Wahrnehmung („Mir ist aufgefallen …“) statt dem Gegenüber Fehler vorzuwerfen, und öffnen so den Weg zu einer gemeinsamen Lösung. Die übrigen Formulierungen sind Du-Botschaften bzw. Schuldzuweisungen: Sie erzeugen Rechtfertigungsdruck, verhärten den Konflikt und gefährden die Kundenbeziehung.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "kbz-lp-kundenkommunikation-17",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "frage": "Ein Kunde reklamiert einen Kratzer an einem Schreibtisch, den er nachweislich selbst beim Aufbau verursacht hat. Die Loft KG tauscht die Tischplatte dennoch kostenlos aus. Wie ist dieses Verhalten rechtlich und betriebswirtschaftlich einzuordnen?",
+    "optionen": [
+      "Es handelt sich um eine gesetzlich geschuldete Nacherfüllung nach § 439 BGB.",
+      "Es handelt sich um Kulanz: eine freiwillige Leistung ohne Rechtspflicht, die der Kundenbindung dient.",
+      "Es handelt sich um ein Schuldanerkenntnis, das künftige Reklamationen automatisch berechtigt macht.",
+      "Es handelt sich um Minderung, da der Kaufpreis faktisch reduziert wird."
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Da kein Sachmangel bei Gefahrübergang vorlag, besteht kein Gewährleistungsanspruch – die KG leistet freiwillig aus Kulanz, um den Kunden zu halten und die Geschäftsbeziehung zu stärken. Nacherfüllung setzt einen Mangel voraus, Minderung ist ein Gestaltungsrecht des Käufers bei Mängeln, und ein automatisches Anerkenntnis für künftige Fälle entsteht durch eine einzelne Kulanzleistung nicht.",
+    "schwierigkeit": 3,
+    "quellTermin": "2018-winter"
+  },
+  {
+    "id": "kbz-lp-kundenkommunikation-18",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "frage": "Ein langjähriger Großkunde reklamiert verspätet einen offenen Mangel – die Rügefrist nach § 377 HGB ist bereits abgelaufen, die Ware gilt als genehmigt. Der Vertrieb empfiehlt trotzdem, dem Kunden entgegenzukommen. Welche Begründung trägt diese Empfehlung betriebswirtschaftlich am besten?",
+    "optionen": [
+      "Der Kunde hat trotz Fristablaufs weiterhin einen einklagbaren Gewährleistungsanspruch.",
+      "Ohne Entgegenkommen droht eine Strafanzeige wegen Betrugs.",
+      "Eine Kulanzlösung sichert die langfristige, profitable Geschäftsbeziehung – der künftige Umsatz wiegt schwerer als die einmaligen Kulanzkosten.",
+      "Kulanz ist gegenüber Großkunden gesetzlich vorgeschrieben."
+    ],
+    "korrekt": [
+      2
+    ],
+    "erklaerung": "Rechtlich müsste das Unternehmen nichts leisten (Genehmigungsfiktion des § 377 HGB); betriebswirtschaftlich ist Kulanz gegenüber einem langjährigen Großkunden aber oft rational: Der Kundenlebenswert (künftige Aufträge, Weiterempfehlungen) übersteigt die einmaligen Kosten, und der Kunde honoriert das Entgegenkommen mit Treue. Ein einklagbarer Anspruch besteht gerade nicht mehr, eine Strafbarkeit steht nicht im Raum, und eine gesetzliche Kulanzpflicht existiert nicht.",
+    "schwierigkeit": 3
+  },
+  {
+    "id": "kbz-lp-kundenkommunikation-19",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "frage": "Die Geschäftsleitung will das Beschwerdemanagement professionalisieren. Welche **zwei** Merkmale kennzeichnen ein gutes Beschwerdemanagement? (2 Antworten)",
+    "optionen": [
+      "Eine schnelle, kundenfreundliche Reaktion auf jede Beschwerde",
+      "Transparente Kommunikation mit festen, dem Kunden bekannten Ansprechpartnern",
+      "Beschwerden erst nach vier Wochen beantworten, damit sich der Ärger legt",
+      "Beschwerden ausschließlich schriftlich per Einschreiben zulassen",
+      "Die Beschwerdestatistik geheim halten, damit keine Fehler sichtbar werden"
+    ],
+    "korrekt": [
+      0,
+      1
+    ],
+    "erklaerung": "Gutes Beschwerdemanagement reagiert schnell und kundenfreundlich und kommuniziert transparent über feste Ansprechpartner – der Kunde weiß jederzeit, wer sich kümmert und wie es weitergeht. Bewusstes Verzögern und hohe formale Hürden (nur Einschreiben) verärgern Kunden zusätzlich; die Auswertung der Beschwerdedaten ist gerade erwünscht, denn nur so lassen sich Fehlerursachen abstellen und die Beschwerdequote senken.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "kbz-lp-kundenkommunikation-20",
+    "themaId": "kundenkommunikation",
+    "bereich": "kbz",
+    "frage": "Sie eröffnen ein Beschwerdegespräch, nachdem sich ein Kunde über eine unvollständige Lieferung beschwert hat. Mit welcher Frage steigen Sie am besten in die Klärung des Sachverhalts ein?",
+    "optionen": [
+      "„Welche Teile fehlen Ihnen genau und wie können wir Ihnen am besten helfen?“",
+      "„Haben Sie vielleicht selbst etwas beim Auspacken verlegt?“",
+      "„Sie wollen doch sicher nur einen Rabatt heraushandeln, stimmt's?“",
+      "„Wussten Sie, dass Fehler bei uns praktisch nie vorkommen?“"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Eine offene W-Frage nach dem konkreten Sachverhalt zeigt Hilfsbereitschaft, liefert die für die Lösung nötigen Informationen und lässt den Kunden seine Sicht schildern. Option 2 enthält einen versteckten Vorwurf, Option 3 ist eine unterstellende Suggestivfrage und Option 4 eine Belehrung – alle drei eskalieren den Konflikt, statt ihn zu lösen.",
+    "schwierigkeit": 2,
+    "quellTermin": "2022-winter"
+  },
+  {
+    "id": "kbz-lp-rechnung-umsatzsteuer-01",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "frage": "Die Loft KG überarbeitet ihr Rechnungslayout. Welche der folgenden Angaben ist **keine** Pflichtangabe einer Rechnung nach § 14 Abs. 4 UStG?",
+    "optionen": [
+      "Die fortlaufende Rechnungsnummer",
+      "Die Steuernummer oder USt-IdNr. des leistenden Unternehmers",
+      "Die Bankverbindung und die eigenhändige Unterschrift des Ausstellers",
+      "Das nach Steuersätzen aufgeschlüsselte Entgelt"
+    ],
+    "korrekt": [
+      2
+    ],
+    "erklaerung": "Bankverbindung und Unterschrift sind zwar üblich und praktisch, aber keine umsatzsteuerlichen Pflichtangaben – eine Rechnung ist auch ohne sie ordnungsgemäß. Rechnungsnummer, Steuernummer bzw. USt-IdNr. und das nach Steuersätzen aufgeschlüsselte Entgelt gehören dagegen zum Pflichtkatalog des § 14 Abs. 4 UStG; fehlen sie, ist u. a. der Vorsteuerabzug des Empfängers gefährdet.",
+    "schwierigkeit": 1,
+    "quellTermin": "2025-sommer"
+  },
+  {
+    "id": "kbz-lp-rechnung-umsatzsteuer-02",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "frage": "Sie prüfen eine Eingangsrechnung auf ihre Ordnungsmäßigkeit nach § 14 Abs. 4 UStG. Welche **zwei** der folgenden Angaben müssen enthalten sein? (2 Antworten)",
+    "optionen": [
+      "Der anzuwendende Steuersatz (z. B. 19 %) und der darauf entfallende Steuerbetrag",
+      "Das Lieferdatum bzw. der Zeitpunkt der Leistung",
+      "Der Name des zuständigen Sachbearbeiters beim Finanzamt",
+      "Die Handelsregisternummer des Leistungsempfängers",
+      "Das Gründungsdatum des liefernden Unternehmens"
+    ],
+    "korrekt": [
+      0,
+      1
+    ],
+    "erklaerung": "Zu den Pflichtangaben gehören u. a. der Steuersatz mit dem Steuerbetrag sowie der Zeitpunkt der Lieferung oder sonstigen Leistung – daneben Namen und Anschriften beider Parteien, Steuernummer/USt-IdNr., Ausstellungsdatum, Rechnungsnummer, Menge und Art der Leistung und das aufgeschlüsselte Entgelt. Finanzamts-Sachbearbeiter, Handelsregisternummer und Gründungsdatum sind frei erfunden bzw. keine umsatzsteuerlichen Pflichtangaben.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "kbz-lp-rechnung-umsatzsteuer-03",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "frage": "Die Holzwerk GmbH liefert am 10.04. Waren an die Objekta KG (Unternehmen). Bis wann muss die Holzwerk GmbH spätestens die Rechnung ausstellen?",
+    "optionen": [
+      "Innerhalb von 14 Tagen nach Lieferung",
+      "Innerhalb von 6 Monaten nach Ausführung der Lieferung, also bis zum 10.10.",
+      "Bis zum Jahresende des Lieferjahres",
+      "Es gibt keine Frist – die Rechnung kann jederzeit gestellt werden"
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Bei Leistungen an ein anderes Unternehmen (B2B) muss die Rechnung innerhalb von 6 Monaten nach Ausführung der Leistung ausgestellt werden (§ 14 Abs. 2 UStG); Fristbeginn ist der Tag der Lieferung, hier also Frist bis 10.10. Eine 14-Tages-Frist und die Bindung ans Jahresende existieren nicht, und völlig fristfrei ist die Rechnungsstellung im B2B-Bereich gerade nicht – ein Verstoß kann als Ordnungswidrigkeit geahndet werden.",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "kbz-lp-rechnung-umsatzsteuer-04",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "frage": "Eine Spedition liefert 40 Kartons Büromaterial an. Welches Dokument begleitet die Ware und listet die gelieferten Positionen auf, damit der Wareneingang geprüft werden kann?",
+    "optionen": [
+      "Die Auftragsbestätigung",
+      "Der Lieferschein",
+      "Das Angebot",
+      "Die Bestellung"
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Der Lieferschein ist das Warenbegleitpapier: Er wird vom Lieferanten erstellt, begleitet die Sendung und führt die gelieferten Artikel und Mengen auf – der Empfänger vergleicht ihn bei der Wareneingangskontrolle mit Bestellung und tatsächlicher Lieferung. Auftragsbestätigung, Angebot und Bestellung entstehen dagegen in der Anbahnungsphase des Kaufvertrags und begleiten die Ware nicht.",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "kbz-lp-rechnung-umsatzsteuer-05",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "frage": "Welche **zwei** Aussagen zu Umsatzsteuer und Vorsteuer sind aus Sicht eines Unternehmens richtig? (2 Antworten)",
+    "optionen": [
+      "Die auf eigene Verkäufe berechnete Umsatzsteuer ist eine Verbindlichkeit gegenüber dem Finanzamt.",
+      "Die von Lieferanten in Rechnung gestellte Umsatzsteuer ist als Vorsteuer eine Forderung gegenüber dem Finanzamt.",
+      "Die Vorsteuer erhöht die Zahllast des Unternehmens.",
+      "Umsatzsteuer und Vorsteuer sind für das Unternehmen endgültiger Aufwand.",
+      "Die Umsatzsteuer auf Verkäufe darf das Unternehmen als Ertrag verbuchen."
+    ],
+    "korrekt": [
+      0,
+      1
+    ],
+    "erklaerung": "Beim Verkauf vereinnahmte Umsatzsteuer schuldet das Unternehmen dem Finanzamt (Verbindlichkeit); die beim Einkauf gezahlte Vorsteuer holt es sich vom Finanzamt zurück (Forderung) – Merksatz: „Vorsteuer zahlst du beim Einkauf, Umsatzsteuer kassierst du beim Verkauf.“ Die Vorsteuer mindert die Zahllast (sie wird abgezogen, nicht addiert). Für Unternehmen ist die USt ein durchlaufender Posten – weder Aufwand noch Ertrag; wirtschaftlich trägt sie der Endverbraucher.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "kbz-lp-rechnung-umsatzsteuer-06",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "frage": "Für den Voranmeldungszeitraum weist die Buchhaltung der Möbelwerk KG folgende Werte aus: vereinnahmte Umsatzsteuer 45.780,00 €, abziehbare Vorsteuer 31.250,00 €. Wie hoch ist die Umsatzsteuerzahllast?",
+    "optionen": [
+      "77.030,00 €",
+      "31.250,00 €",
+      "14.530,00 €",
+      "14.350,00 €"
+    ],
+    "korrekt": [
+      2
+    ],
+    "erklaerung": "Zahllast = vereinnahmte Umsatzsteuer − abziehbare Vorsteuer = 45.780,00 − 31.250,00 = 14.530,00 €. 77.030,00 € wäre die (falsche) Summe beider Beträge, 31.250,00 € nur die Vorsteuer selbst und 14.350,00 € ein Zahlendreher – bei Rechenaufgaben immer das Ergebnis kontrollieren.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "kbz-lp-rechnung-umsatzsteuer-07",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "frage": "Für die USt-Voranmeldung liegen vor: vereinnahmte Umsatzsteuer 64.320,50 €, Erlösberichtigungen (Skontoabzüge der Kunden) mindern die USt um 1.240,30 €. Abziehbare Vorsteuer 48.916,75 €, erhaltene Nachlässe von Lieferanten mindern die Vorsteuer um 1.816,45 €. Berechnen Sie die Zahllast: $$\\text{Zahllast} = \\text{USt} - \\text{VSt}$$",
+    "optionen": [
+      "15.403,75 €",
+      "15.979,90 €",
+      "14.827,60 €",
+      "12.347,00 €"
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Korrigierte USt: 64.320,50 − 1.240,30 = 63.080,20 €; korrigierte VSt: 48.916,75 − 1.816,45 = 47.100,30 €; Zahllast = 63.080,20 − 47.100,30 = 15.979,90 €. Wichtig: Erlösberichtigungen mindern die Umsatzsteuer, erhaltene Nachlässe mindern die Vorsteuer. 15.403,75 € ignoriert beide Korrekturen, 14.827,60 € vertauscht die Korrekturseiten und 12.347,00 € zieht beide Korrekturen fälschlich von der USt ab.",
+    "schwierigkeit": 3,
+    "quellTermin": "2025-sommer"
+  },
+  {
+    "id": "kbz-lp-rechnung-umsatzsteuer-08",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "frage": "Ein junges Handelsunternehmen hat im Gründungsmonat hohe Wareneinkäufe getätigt, aber erst wenig verkauft: Vorsteuer 22.400,00 €, vereinnahmte Umsatzsteuer 9.700,00 €. Was ergibt sich aus der Umsatzsteuer-Voranmeldung?",
+    "optionen": [
+      "Eine Zahllast von 12.700,00 € an das Finanzamt.",
+      "Ein Vorsteuerüberhang von 12.700,00 € – das Finanzamt erstattet dem Unternehmen diesen Betrag.",
+      "Weder Zahllast noch Erstattung, da sich beide Beträge stets ausgleichen.",
+      "Ein Verlustvortrag von 12.700,00 € bei der Körperschaftsteuer."
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Ist die abziehbare Vorsteuer größer als die vereinnahmte Umsatzsteuer, entsteht ein Vorsteuerüberhang: 22.400,00 − 9.700,00 = 12.700,00 € werden dem Unternehmen vom Finanzamt erstattet. Eine Zahllast entsteht nur im umgekehrten Fall (USt > VSt). Die Beträge gleichen sich keineswegs automatisch aus, und mit der Körperschaftsteuer bzw. einem Verlustvortrag hat die Umsatzsteuer nichts zu tun.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "kbz-lp-rechnung-umsatzsteuer-09",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "frage": "In Deutschland gelten der Regelsteuersatz von 19 % und der ermäßigte Steuersatz von 7 %. Für welche **zwei** Umsätze gilt der ermäßigte Satz von 7 %? (2 Antworten)",
+    "optionen": [
+      "Verkauf von Büchern und Zeitungen",
+      "Verkauf von Büromöbeln",
+      "Verkauf von Grundnahrungsmitteln (z. B. Brot, Milch, Obst)",
+      "Verkauf von Computern und Druckern",
+      "Verkauf von Benzin und Diesel"
+    ],
+    "korrekt": [
+      0,
+      2
+    ],
+    "erklaerung": "Der ermäßigte Steuersatz von 7 % gilt u. a. für Grundnahrungsmittel, Bücher, Zeitungen und Zeitschriften sowie z. B. für den öffentlichen Personennahverkehr (§ 12 Abs. 2 UStG). Büromöbel, Computer, Drucker und Kraftstoffe unterliegen dem Regelsteuersatz von 19 % – eine „Ermäßigung für Arbeitsmittel“ gibt es nicht.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "kbz-lp-rechnung-umsatzsteuer-10",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "frage": "Auf einer Quittung steht nur der Bruttobetrag von 1.547,00 € (inkl. 19 % USt). Wie hoch ist der darin enthaltene Umsatzsteuerbetrag?",
+    "optionen": [
+      "293,93 €",
+      "247,00 €",
+      "108,29 €",
+      "154,70 €"
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Aus dem Bruttobetrag wird zunächst das Netto herausgerechnet: 1.547,00 / 1,19 = 1.300,00 €; die USt beträgt 1.547,00 − 1.300,00 = 247,00 € (bzw. 1.300 × 0,19). Der klassische Fehler ist, 19 % direkt vom Bruttobetrag zu nehmen (1.547 × 0,19 = 293,93 €) – im Brutto stecken die 19 % aber bezogen auf das Netto. 108,29 € wären 7 % vom Brutto, 154,70 € schlicht 10 %.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "kbz-lp-rechnung-umsatzsteuer-11",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "frage": "Eine Buchhandlung verkauft Fachbücher zum Nettopreis von 850,00 €. Welcher Bruttobetrag ist dem Kunden in Rechnung zu stellen?",
+    "optionen": [
+      "1.011,50 €",
+      "909,50 €",
+      "850,00 €",
+      "892,50 €"
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Bücher unterliegen dem ermäßigten Umsatzsteuersatz von 7 %: 850,00 × 1,07 = 909,50 €. 1.011,50 € entstünde bei fälschlicher Anwendung des Regelsatzes von 19 %, 850,00 € wäre der Nettobetrag ohne USt und 892,50 € rechnet mit erfundenen 5 %.",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "kbz-lp-rechnung-umsatzsteuer-12",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "frage": "Die Objekta KG erhält eine Rechnung über brutto 8.925,00 €, Zahlungsbedingung: „Innerhalb von 10 Tagen 2 % Skonto“. Sie zahlt am 8. Tag. Welchen Betrag überweist sie?",
+    "optionen": [
+      "8.746,50 €",
+      "8.657,25 €",
+      "8.775,00 €",
+      "178,50 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Bei fristgerechter Zahlung werden 2 % vom Bruttorechnungsbetrag abgezogen: 8.925,00 × 0,98 = 8.746,50 € (Skontobetrag: 178,50 €). 8.657,25 € entsteht bei fälschlich 3 % Skonto, 8.775,00 € wenn das Skonto nur vom Nettobetrag abgezogen und dann falsch verrechnet wird, und 178,50 € ist der Skontobetrag selbst, nicht der Überweisungsbetrag.",
+    "schwierigkeit": 2,
+    "quellTermin": "2020-sommer"
+  },
+  {
+    "id": "kbz-lp-rechnung-umsatzsteuer-13",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "frage": "Eine Rechnung weist aus: skontofähiger Warenwert netto 6.400,00 €, Versandkosten netto 240,00 € (laut Vereinbarung nicht skontofähig), 19 % USt. Der Kunde zahlt innerhalb der Skontofrist mit 2 % Skonto. Wie hoch ist der Überweisungsbetrag?",
+    "optionen": [
+      "7.743,57 €",
+      "7.901,60 €",
+      "7.749,28 €",
+      "7.463,68 €"
+    ],
+    "korrekt": [
+      2
+    ],
+    "erklaerung": "Skonto nur auf den Warenwert: 6.400,00 × 0,98 = 6.272,00 €; plus nicht skontofähige Versandkosten 240,00 € = 6.512,00 € netto; mal 1,19 = 7.749,28 € brutto. 7.743,57 € entsteht, wenn das Skonto fälschlich auch auf die Versandkosten (bzw. den Gesamtbruttobetrag) angewendet wird, 7.901,60 € ist der Betrag ganz ohne Skontoabzug und 7.463,68 € vergisst die Versandkosten komplett.",
+    "schwierigkeit": 3
+  },
+  {
+    "id": "kbz-lp-rechnung-umsatzsteuer-14",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "frage": "Im Telefonat mit einem Lieferanten werden 5 % Rabatt und 2 % Skonto vereinbart. Worin besteht der wesentliche Unterschied zwischen Rabatt und Skonto?",
+    "optionen": [
+      "Der Rabatt wird sofort vom Rechnungsbetrag abgezogen; Skonto darf nur bei Zahlung innerhalb der vereinbarten Skontofrist abgezogen werden.",
+      "Skonto wird sofort abgezogen; der Rabatt nur bei vorzeitiger Zahlung.",
+      "Rabatt und Skonto bezeichnen denselben Preisnachlass, nur in unterschiedlicher Höhe.",
+      "Rabatte sind gesetzlich auf 3 % begrenzt, Skonti nicht."
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Der Rabatt ist ein Preisnachlass (z. B. Mengen- oder Treuerabatt), der unabhängig vom Zahlungszeitpunkt sofort abgezogen wird. Skonto ist dagegen ein Entgelt für schnelle Zahlung: Es darf nur abgezogen werden, wenn innerhalb der Skontofrist gezahlt wird. Option 2 vertauscht die Begriffe, Option 3 ignoriert den Unterschied, und eine gesetzliche Rabattobergrenze existiert nicht.",
+    "schwierigkeit": 1,
+    "quellTermin": "2023-winter"
+  },
+  {
+    "id": "kbz-lp-rechnung-umsatzsteuer-15",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "frage": "Ein Kunde der Loft KG zahlt eine Rechnung unter zulässigem Abzug von 3 % Skonto. Welche Auswirkung hat dieser Skontoabzug auf die Umsatzsteuer der Loft KG (Verkäuferin)?",
+    "optionen": [
+      "Keine – die Umsatzsteuer bleibt in der ursprünglich berechneten Höhe geschuldet.",
+      "Der Skontoabzug mindert den Umsatzerlös; entsprechend mindert sich anteilig auch die geschuldete Umsatzsteuer (Erlösberichtigung).",
+      "Die Umsatzsteuer erhöht sich, weil das Finanzamt den Skontoabzug ausgleichen muss.",
+      "Der Kunde übernimmt die Umsatzsteuer auf den Skontobetrag direkt gegenüber dem Finanzamt."
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Skonto ist eine nachträgliche Entgeltminderung: Die Loft KG erhält weniger als den ursprünglichen Rechnungsbetrag, daher mindert sich die Bemessungsgrundlage und anteilig die geschuldete Umsatzsteuer (§ 17 UStG, Erlösberichtigung). Spiegelbildlich muss der Kunde seine gezogene Vorsteuer kürzen. Die USt bleibt also gerade nicht unverändert, das Finanzamt „gleicht nichts aus“, und der Kunde zahlt keine Steuer direkt ans Finanzamt.",
+    "schwierigkeit": 3,
+    "quellTermin": "2018-winter"
+  },
+  {
+    "id": "kbz-lp-rechnung-umsatzsteuer-16",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "frage": "In welcher Reihenfolge wird der Bezugspreis (Einstandspreis) einer Ware korrekt ermittelt?",
+    "optionen": [
+      "Listeneinkaufspreis − Liefererrabatt = Zieleinkaufspreis; − Liefererskonto = Bareinkaufspreis; + Bezugskosten = Bezugspreis",
+      "Listeneinkaufspreis − Liefererskonto = Zieleinkaufspreis; − Liefererrabatt = Bareinkaufspreis; + Bezugskosten = Bezugspreis",
+      "Listeneinkaufspreis + Bezugskosten = Bareinkaufspreis; − Rabatt und Skonto = Bezugspreis",
+      "Listeneinkaufspreis − Rabatt − Skonto − Bezugskosten = Bezugspreis"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Das Kalkulationsschema lautet: Listeneinkaufspreis − Liefererrabatt = Zieleinkaufspreis, davon − Liefererskonto = Bareinkaufspreis, plus Bezugskosten (Fracht, Verpackung, Transportversicherung) = Bezugspreis/Einstandspreis. Wichtig: erst Rabatt, dann Skonto (das Skonto wird vom bereits rabattierten Betrag berechnet), und die Bezugskosten werden addiert, nicht subtrahiert – sie verteuern den Bezug.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "kbz-lp-rechnung-umsatzsteuer-17",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "frage": "Die Möbelwerk KG kauft Rohholz: Listeneinkaufspreis 2.500,00 €, Liefererrabatt 20 %, Liefererskonto 2 %, Bezugskosten (Fracht) 65,00 €. Berechnen Sie den Bezugspreis!",
+    "optionen": [
+      "2.065,00 €",
+      "2.025,00 €",
+      "2.015,00 €",
+      "1.960,00 €"
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "2.500,00 − 20 % (500,00) = 2.000,00 € Zieleinkaufspreis; − 2 % Skonto (40,00) = 1.960,00 € Bareinkaufspreis; + 65,00 € Bezugskosten = 2.025,00 € Bezugspreis. 2.065,00 € vergisst den Skontoabzug, 2.015,00 € berechnet das Skonto fälschlich vom Listenpreis statt vom Zieleinkaufspreis, und 1.960,00 € ist nur der Bareinkaufspreis ohne Bezugskosten.",
+    "schwierigkeit": 3
+  },
+  {
+    "id": "kbz-lp-rechnung-umsatzsteuer-18",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "frage": "Ein Mitarbeiter kauft für das Büro Kaffee und Reinigungsmittel für 87,90 € brutto und bringt einen Kassenbon ohne Angabe des Leistungsempfängers mit. Warum genügt dieser Beleg dennoch für den Vorsteuerabzug?",
+    "optionen": [
+      "Weil bei Barzahlung generell keine Rechnung erforderlich ist.",
+      "Weil es sich um eine Kleinbetragsrechnung bis 250,00 € brutto handelt, für die erleichterte Pflichtangaben gelten.",
+      "Weil Kassenbons grundsätzlich von der Umsatzsteuer befreit sind.",
+      "Weil der Vorsteuerabzug bei Bürobedarf keine Belege voraussetzt."
+    ],
+    "korrekt": [
+      1
+    ],
+    "erklaerung": "Für Kleinbetragsrechnungen bis 250,00 € brutto (§ 33 UStDV) gelten erleichterte Anforderungen: Es genügen Name und Anschrift des leistenden Unternehmers, Ausstellungsdatum, Menge und Art der Leistung, das Bruttoentgelt sowie der Steuersatz – Angaben wie Leistungsempfänger, Steuernummer und Rechnungsnummer dürfen fehlen. Ohne ordnungsgemäßen Beleg gibt es dagegen grundsätzlich keinen Vorsteuerabzug; Barzahlung und Warenart ändern daran nichts, und Kassenbons sind selbstverständlich nicht steuerbefreit.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "kbz-lp-rechnung-umsatzsteuer-19",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "frage": "Die Umsatzsteuer wird häufig als „durchlaufender Posten“ für Unternehmen bezeichnet. Wer trägt die Umsatzsteuer wirtschaftlich am Ende tatsächlich?",
+    "optionen": [
+      "Der Endverbraucher, da Unternehmen die gezahlte Vorsteuer erstattet bekommen und die Steuer über den Preis weitergeben.",
+      "Der Hersteller, da er die Steuer zuerst in Rechnung stellt.",
+      "Das Finanzamt, da es die Steuer verwaltet.",
+      "Jedes Unternehmen der Handelskette anteilig zu gleichen Teilen."
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Unternehmen führen zwar die Umsatzsteuer ab, können aber die selbst gezahlte Vorsteuer abziehen – für sie ist die USt erfolgsneutral. Auf jeder Handelsstufe wird nur der Mehrwert besteuert und die Steuer über den Verkaufspreis weitergereicht; wirtschaftlich belastet wird allein der Endverbraucher, der keinen Vorsteuerabzug hat. Hersteller und Händler sind nur „Steuereinsammler“, und das Finanzamt ist Empfänger, nicht Träger der Steuer.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "kbz-lp-rechnung-umsatzsteuer-20",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "frage": "Die Loft KG erhält von einem inländischen Lieferanten (B2B) statt der gewohnten PDF-Rechnung eine strukturierte elektronische Rechnung. Welche Aussage zur E-Rechnungspflicht (Stand 2025/2026) ist richtig?",
+    "optionen": [
+      "Seit dem 01.01.2025 müssen inländische Unternehmen im B2B-Bereich in der Lage sein, E-Rechnungen in strukturiertem Format (z. B. XRechnung, ZUGFeRD) zu empfangen.",
+      "E-Rechnungen sind nur für Behörden zulässig; zwischen Unternehmen bleibt Papier gesetzlich vorgeschrieben.",
+      "Eine einfache PDF-Rechnung per E-Mail gilt dauerhaft als E-Rechnung im Sinne des Gesetzes.",
+      "Die E-Rechnungspflicht betrifft ausschließlich Rechnungen an private Endverbraucher."
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Seit dem 01.01.2025 müssen inländische Unternehmen im B2B-Bereich E-Rechnungen empfangen können; für die Ausstellungspflicht gelten Übergangsfristen bis Ende 2026 bzw. 2027. Eine E-Rechnung ist ein strukturiertes, maschinenlesbares Format (z. B. XRechnung oder ZUGFeRD) – ein bloßes PDF erfüllt diese Anforderung nicht dauerhaft. Papierpflicht besteht nicht, und Rechnungen an private Endverbraucher (B2C) sind von der Pflicht gerade nicht erfasst.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "kbz-lp-rechnung-umsatzsteuer-21",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "frage": "Ein Lieferant bietet an: „Zahlung innerhalb von 10 Tagen mit 3 % Skonto oder innerhalb von 30 Tagen netto Kasse.“ Welchem effektiven Jahreszinssatz entspricht der Verzicht auf das Skonto ungefähr? $$p_{eff} = \\frac{\\text{Skontosatz} \\cdot 360}{\\text{Zahlungsziel} - \\text{Skontofrist}}$$",
+    "optionen": [
+      "3 %",
+      "27 %",
+      "36 %",
+      "54 %"
+    ],
+    "korrekt": [
+      3
+    ],
+    "erklaerung": "Wer das Skonto nicht nutzt, „leiht“ sich den Rechnungsbetrag für die Differenz von 30 − 10 = 20 Tagen und zahlt dafür 3 %: 3 × 360 / 20 = 54 % p. a. Der Lieferantenkredit ist damit extrem teuer – meist lohnt sich sogar ein Bankkredit zur Skontonutzung. 3 % ignoriert die Hochrechnung aufs Jahr, 36 % rechnet fälschlich mit 30 Tagen und 27 % mit 40 Tagen Kreditzeitraum.",
+    "schwierigkeit": 3
+  },
+  {
+    "id": "kbz-lp-rechnung-umsatzsteuer-22",
+    "themaId": "rechnung-umsatzsteuer",
+    "bereich": "kbz",
+    "frage": "Die Buchhaltung fragt, wie lange Ausgangs- und Eingangsrechnungen als Buchungsbelege aufbewahrt werden müssen (Rechtsstand ab 2025). Welche Antwort ist richtig?",
+    "optionen": [
+      "8 Jahre – die Aufbewahrungsfrist für Buchungsbelege wurde durch das Bürokratieentlastungsgesetz von 10 auf 8 Jahre verkürzt.",
+      "10 Jahre – für alle kaufmännischen Unterlagen gilt einheitlich dieselbe Frist.",
+      "6 Jahre – wie für Handels- und Geschäftsbriefe.",
+      "3 Jahre – entsprechend der regelmäßigen Verjährungsfrist."
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Seit dem Vierten Bürokratieentlastungsgesetz gilt ab 2025 für Buchungsbelege – und dazu zählen Rechnungen – eine Aufbewahrungsfrist von 8 Jahren (§ 257 HGB, § 147 AO). Handelsbücher, Inventare und Jahresabschlüsse müssen weiterhin 10 Jahre, sonstige Handels- und Geschäftsbriefe 6 Jahre aufbewahrt werden. Die 3-jährige Verjährungsfrist des BGB hat mit den steuer- und handelsrechtlichen Aufbewahrungspflichten nichts zu tun.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "kbz-lp-personalwirtschaft-01",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "frage": "Für die Jana Loft KG soll ein neues digitales **Dienstreiseantragsformular** entworfen werden. Welche **2 Angaben** muss das Formular auf jeden Fall enthalten?",
+    "optionen": [
+      "Ort/Ziel der Dienstreise",
+      "Dauer (Zeitraum) der Dienstreise",
+      "Familienstand des/der Mitarbeitenden",
+      "Steuerklasse des/der Mitarbeitenden",
+      "Privater Kontostand für die Kostenerstattung"
+    ],
+    "korrekt": [
+      0,
+      1
+    ],
+    "erklaerung": "Ein Dienstreiseantrag benötigt Name/Vorname, Anlass/Zweck, **Ort/Ziel**, **Dauer (Zeitraum)** und ein Unterschriftenfeld zur Genehmigung. Familienstand und Steuerklasse gehören in die Personalakte bzw. Entgeltabrechnung, nicht in den Reiseantrag; der private Kontostand ist für den Arbeitgeber irrelevant.",
+    "schwierigkeit": 1,
+    "quellTermin": "2025-sommer"
+  },
+  {
+    "id": "kbz-lp-personalwirtschaft-02",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "frage": "Herr Bast reicht nach einer Messereise seine **Reisekostenabrechnung** ein. Welcher Beleg wird von der Personalabteilung zur Erstattung anerkannt?",
+    "optionen": [
+      "Taxiquittung für die Fahrt vom Bahnhof zum Hotel",
+      "Quittung für Getränke aus der Minibar",
+      "Kassenbon über Drogerieartikel",
+      "Rechnung für einen privaten Theaterbesuch am Abend"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Erstattet werden nur **betrieblich veranlasste und belegte Kosten** – die Taxifahrt vom Bahnhof zum Hotel gehört zur dienstlichen Reisedurchführung. Minibar, Drogerieartikel und Theaterbesuch sind **private Ausgaben** und werden nicht übernommen.",
+    "schwierigkeit": 1,
+    "quellTermin": "2025-sommer"
+  },
+  {
+    "id": "kbz-lp-personalwirtschaft-03",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "frage": "Was versteht man im Sinne der gesetzlichen Unfallversicherung (SGB VII) unter einem **Wegeunfall**?",
+    "optionen": [
+      "Einen Unfall auf dem direkten Weg zur oder von der Arbeit",
+      "Einen Unfall, der sich direkt bei der beruflichen Tätigkeit ereignet",
+      "Jeden Unfall in der Freizeit, der eine Arbeitsunfähigkeit verursacht",
+      "Einen Unfall auf einem privaten Umweg, z. B. beim Einkaufen nach Feierabend"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Ein **Wegeunfall** ereignet sich auf dem **direkten Weg** zwischen Wohnung und Arbeitsstätte (hin oder zurück). Option 2 beschreibt den **Arbeitsunfall**. Freizeitunfälle sind nicht über die Berufsgenossenschaft versichert, und bei privaten Umwegen entfällt der Versicherungsschutz grundsätzlich.",
+    "schwierigkeit": 1,
+    "quellTermin": "2025-sommer"
+  },
+  {
+    "id": "kbz-lp-personalwirtschaft-04",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "frage": "Wer ist **Träger der gesetzlichen Unfallversicherung** für die Beschäftigten eines Unternehmens?",
+    "optionen": [
+      "Die Berufsgenossenschaft",
+      "Die Krankenkasse",
+      "Die Bundesagentur für Arbeit",
+      "Die Deutsche Rentenversicherung",
+      "Das Gewerbeaufsichtsamt"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Träger der gesetzlichen Unfallversicherung sind die **Berufsgenossenschaften** (bzw. Unfallkassen im öffentlichen Dienst). Die Krankenkasse ist für die Krankenversicherung zuständig, die Bundesagentur für Arbeit für die Arbeitslosenversicherung und die Deutsche Rentenversicherung für die Rente – keine dieser Stellen wickelt Arbeits- und Wegeunfälle ab.",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "kbz-lp-personalwirtschaft-05",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "frage": "Eine Mitarbeiterin ist nach einem Sturz im Lager **5 Arbeitstage arbeitsunfähig**. Muss der Arbeitgeber den Unfall der Berufsgenossenschaft melden?",
+    "optionen": [
+      "Ja, denn anzeigepflichtig sind Unfälle mit mehr als 3 Tagen Arbeitsunfähigkeit (§ 193 SGB VII)",
+      "Nein, meldepflichtig sind nur Unfälle mit mehr als 6 Wochen Arbeitsunfähigkeit",
+      "Nein, gemeldet werden müssen nur tödliche Unfälle",
+      "Ja, aber die Meldung erfolgt an das Finanzamt",
+      "Nein, die Meldung ist Aufgabe der Krankenkasse"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Nach **§ 193 SGB VII** muss der Arbeitgeber Unfälle anzeigen, bei denen Versicherte **mehr als 3 Tage arbeitsunfähig** sind (oder getötet werden) – 5 Tage überschreiten diese Grenze. Die 6-Wochen-Frist betrifft die Entgeltfortzahlung, nicht die Unfallanzeige; zuständig ist die Berufsgenossenschaft, nicht das Finanzamt oder die Krankenkasse.",
+    "schwierigkeit": 1,
+    "quellTermin": "2025-sommer"
+  },
+  {
+    "id": "kbz-lp-personalwirtschaft-06",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "frage": "Ein Mitarbeiter stürzt auf dem **direkten Weg zur Arbeit** mit dem Fahrrad und ist laut Arbeitsunfähigkeitsbescheinigung **2 Wochen arbeitsunfähig**. Welche **2 Aussagen** sind richtig?",
+    "optionen": [
+      "Es handelt sich um einen Wegeunfall",
+      "Der Arbeitgeber muss eine Unfallanzeige an die Berufsgenossenschaft senden, da die Arbeitsunfähigkeit mehr als 3 Tage beträgt",
+      "Es handelt sich um einen Arbeitsunfall, da der Unfall während der Arbeitszeit passierte",
+      "Eine Meldung ist nicht nötig, da sich der Unfall außerhalb des Betriebsgeländes ereignete",
+      "Die Unfallanzeige ist an die Krankenkasse als Träger der Unfallversicherung zu richten"
+    ],
+    "korrekt": [
+      0,
+      1
+    ],
+    "erklaerung": "Der Unfall auf dem direkten Arbeitsweg ist ein **Wegeunfall**, und wegen der Arbeitsunfähigkeit von mehr als 3 Tagen besteht **Anzeigepflicht gegenüber der Berufsgenossenschaft** (§ 193 SGB VII). Ein Arbeitsunfall läge nur bei einem Unfall während der beruflichen Tätigkeit vor; Wegeunfälle sind trotz Ort außerhalb des Betriebs versichert, und Träger der Unfallversicherung ist die Berufsgenossenschaft, nicht die Krankenkasse.",
+    "schwierigkeit": 2,
+    "quellTermin": "2022-sommer"
+  },
+  {
+    "id": "kbz-lp-personalwirtschaft-07",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "frage": "Die Geschäftsleitung möchte die Bedingungen für Homeoffice („Smart Work\") verbindlich regeln. Welche **2 Aussagen** zur **Betriebsvereinbarung** sind richtig?",
+    "optionen": [
+      "Sie wird zwischen Arbeitgeber und Betriebsrat geschlossen",
+      "Sie bedarf der Schriftform (§ 77 BetrVG)",
+      "Sie wird zwischen Gewerkschaft und Arbeitgeberverband geschlossen",
+      "Sie kann formlos mündlich vereinbart werden",
+      "Sie muss von jedem einzelnen Arbeitnehmer unterschrieben werden"
+    ],
+    "korrekt": [
+      0,
+      1
+    ],
+    "erklaerung": "Eine Betriebsvereinbarung ist ein Vertrag zwischen **Arbeitgeber und Betriebsrat** über betriebliche Angelegenheiten und bedarf nach **§ 77 BetrVG der Schriftform**. Gewerkschaft und Arbeitgeberverband schließen **Tarifverträge**; eine mündliche Vereinbarung wäre unwirksam, und die Unterschrift einzelner Arbeitnehmer ist nicht erforderlich, da die Vereinbarung unmittelbar und zwingend für alle gilt.",
+    "schwierigkeit": 1,
+    "quellTermin": "2025-sommer"
+  },
+  {
+    "id": "kbz-lp-personalwirtschaft-08",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "frage": "Frau Müller (Vollzeit, 40 Std./Woche, 5-Tage-Woche) möchte künftig freitags nur **4 Stunden** arbeiten und die fehlende Zeit gleichmäßig auf Montag bis Donnerstag verteilen. Wie viele Stunden muss sie an den restlichen 4 Tagen jeweils arbeiten – und ist das nach § 3 ArbZG zulässig?",
+    "optionen": [
+      "9 Stunden pro Tag – zulässig, da unter der Höchstgrenze von 10 Stunden und im Durchschnitt 8 Stunden",
+      "9 Stunden pro Tag – unzulässig, da die werktägliche Arbeitszeit 8 Stunden nie überschreiten darf",
+      "10 Stunden pro Tag – zulässig, da genau an der Höchstgrenze",
+      "8 Stunden pro Tag – die restlichen 4 Stunden verfallen ersatzlos"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Rechenweg: 40 − 4 = 36 Stunden auf 4 Tage verteilt ergibt **36 : 4 = 9 Stunden** pro Tag. Nach § 3 ArbZG darf die werktägliche Arbeitszeit auf **bis zu 10 Stunden** verlängert werden, wenn im Durchschnitt von 6 Monaten/24 Wochen 8 Stunden nicht überschritten werden – hier beträgt der Wochendurchschnitt (9+9+9+9+4)/5 = 8 Stunden, also zulässig. Die 8-Stunden-Regel ist keine absolute Grenze (daher Option 2 falsch), 10 Stunden wären rechnerisch falsch verteilt.",
+    "schwierigkeit": 2,
+    "quellTermin": "2025-sommer"
+  },
+  {
+    "id": "kbz-lp-personalwirtschaft-09",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "frage": "Ein Mitarbeiter arbeitet an einem Tag **7,5 Stunden**. Welche **Ruhepause** muss ihm nach § 4 ArbZG mindestens gewährt werden?",
+    "optionen": [
+      "Mindestens 30 Minuten",
+      "Mindestens 45 Minuten",
+      "Mindestens 15 Minuten",
+      "Mindestens 60 Minuten",
+      "Keine Pause, da erst ab 8 Stunden Pausenpflicht besteht"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Nach **§ 4 ArbZG** ist bei einer Arbeitszeit von **mehr als 6 bis zu 9 Stunden** eine Ruhepause von mindestens **30 Minuten** vorgeschrieben; erst bei mehr als 9 Stunden sind 45 Minuten nötig. 15 Minuten wären zu wenig (nur als Teilpause von mindestens 15 Minuten aufteilbar), 60 Minuten sind gesetzlich nicht gefordert, und die Pausenpflicht beginnt bereits bei mehr als 6 Stunden – nicht erst ab 8.",
+    "schwierigkeit": 2,
+    "quellTermin": "2024-winter"
+  },
+  {
+    "id": "kbz-lp-personalwirtschaft-10",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "frage": "Nach Beendigung der täglichen Arbeitszeit muss ein Arbeitnehmer nach § 5 ArbZG eine ununterbrochene **Ruhezeit** haben. Wie lang ist diese mindestens?",
+    "optionen": [
+      "11 Stunden",
+      "8 Stunden",
+      "10 Stunden",
+      "12 Stunden",
+      "24 Stunden"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "§ 5 ArbZG schreibt nach Ende der täglichen Arbeitszeit eine ununterbrochene Ruhezeit von mindestens **11 Stunden** vor. 8 bzw. 10 Stunden beziehen sich auf die zulässige **Arbeitszeit** (§ 3 ArbZG) und werden gern verwechselt; 12 oder 24 Stunden sind gesetzlich nicht gefordert.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "kbz-lp-personalwirtschaft-11",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "frage": "Ein Mitarbeiter möchte kündigen, damit sein Arbeitsverhältnis zum **30.06.** endet. Es gilt die Grundkündigungsfrist des § 622 BGB (**4 Wochen zum 15. oder zum Ende eines Kalendermonats**). Bis zu welchem Tag muss die Kündigung dem Arbeitgeber spätestens **zugehen**?",
+    "optionen": [
+      "02.06.",
+      "31.05.",
+      "15.06.",
+      "01.06.",
+      "16.05."
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "4 Wochen = **28 Tage**. Vom 30.06. genau 28 Tage zurückgerechnet ergibt den **02.06.** als spätesten Zugangstag. Der 31.05. oder 01.06. wären zu früh angesetzt (ein Monat ist nicht dasselbe wie 4 Wochen), der 15.06. wäre zu spät (nur noch 15 Tage Frist), und der 16.05. würde zur Beendigung zum 15.06. passen.",
+    "schwierigkeit": 2,
+    "quellTermin": "2022-sommer"
+  },
+  {
+    "id": "kbz-lp-personalwirtschaft-12",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "frage": "Der Arbeitgeber möchte einer Mitarbeiterin kündigen, die seit **10 Jahren** im Betrieb beschäftigt ist. Welche Kündigungsfrist gilt nach § 622 Abs. 2 BGB?",
+    "optionen": [
+      "4 Monate zum Ende eines Kalendermonats",
+      "1 Monat zum Ende eines Kalendermonats",
+      "4 Wochen zum 15. oder zum Ende eines Kalendermonats",
+      "3 Monate zum Ende eines Kalendermonats",
+      "6 Monate zum Ende eines Kalendermonats"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Für den **Arbeitgeber** verlängert sich die Kündigungsfrist mit der Betriebszugehörigkeit (§ 622 Abs. 2 BGB): nach 10 Jahren beträgt sie **4 Monate zum Monatsende** (2 Jahre → 1 Monat, 5 → 2, 8 → 3, 10 → 4, 12 → 5, 15 → 6, 20 Jahre → 7 Monate). Die Grundfrist von 4 Wochen gilt nur für den Arbeitnehmer bzw. bei kurzer Beschäftigungsdauer; 3 Monate gälten erst ab 8, 6 Monate erst ab 15 Jahren.",
+    "schwierigkeit": 3
+  },
+  {
+    "id": "kbz-lp-personalwirtschaft-13",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "frage": "Wie hoch ist der **gesetzliche Mindesturlaub** nach dem Bundesurlaubsgesetz (BUrlG) für einen Arbeitnehmer mit **5-Tage-Woche**?",
+    "optionen": [
+      "20 Arbeitstage",
+      "24 Arbeitstage",
+      "25 Arbeitstage",
+      "30 Arbeitstage",
+      "28 Arbeitstage"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Das BUrlG garantiert **24 Werktage** – Werktage sind Montag bis Samstag (6-Tage-Woche). Umgerechnet auf eine 5-Tage-Woche ergibt das $$24 \\cdot \\frac{5}{6} = 20$$ **Arbeitstage**. Die 24 Tage gelten nur bei 6-Tage-Woche und werden häufig fälschlich direkt übernommen; 30 Tage sind ein üblicher tariflicher, aber kein gesetzlicher Anspruch.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "kbz-lp-personalwirtschaft-14",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "frage": "Ein Mitarbeiter mit **30 Arbeitstagen** tariflichem Jahresurlaub scheidet zum **30.06.** aus dem Unternehmen aus. Im laufenden Jahr hat er bereits **4 Tage** Urlaub genommen. Wie viele Urlaubstage stehen ihm noch zu?",
+    "optionen": [
+      "11 Arbeitstage",
+      "15 Arbeitstage",
+      "26 Arbeitstage",
+      "12,5 Arbeitstage",
+      "6 Arbeitstage"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Rechenweg: Anteiliger Urlaub für 6 Monate = $$\\frac{30}{12} \\cdot 6 = 15$$ Arbeitstage; abzüglich der bereits genommenen 4 Tage verbleiben **11 Arbeitstage**. 15 Tage wäre das Ergebnis ohne Abzug der genommenen Tage, 26 Tage rechnet fälschlich vom vollen Jahresanspruch, 12,5 Tage wäre der Anteil für nur 5 Monate.",
+    "schwierigkeit": 2,
+    "quellTermin": "2022-sommer"
+  },
+  {
+    "id": "kbz-lp-personalwirtschaft-15",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "frage": "Ein Mitarbeiter ist längere Zeit krank. Welche **2 Aussagen** zur finanziellen Absicherung im Krankheitsfall sind richtig?",
+    "optionen": [
+      "Der Arbeitgeber leistet Entgeltfortzahlung für bis zu 6 Wochen",
+      "Nach Ablauf der Entgeltfortzahlung erhält der Mitarbeiter Krankengeld von seiner Krankenkasse",
+      "Der Arbeitgeber leistet Entgeltfortzahlung für bis zu 4 Wochen",
+      "Nach Ablauf der Entgeltfortzahlung zahlt die Berufsgenossenschaft das Krankengeld",
+      "Nach Ablauf der Entgeltfortzahlung zahlt die Bundesagentur für Arbeit das Krankengeld"
+    ],
+    "korrekt": [
+      0,
+      1
+    ],
+    "erklaerung": "Nach dem Entgeltfortzahlungsgesetz zahlt der Arbeitgeber bei krankheitsbedingter Arbeitsunfähigkeit das Entgelt für **bis zu 6 Wochen** weiter; danach erhält der Arbeitnehmer **Krankengeld von der Krankenkasse**. 4 Wochen sind zu kurz (typischer Prüfungsfehler); die Berufsgenossenschaft zahlt nur bei Arbeits-/Wegeunfällen Verletztengeld, und die Bundesagentur für Arbeit ist für Arbeitslosengeld zuständig.",
+    "schwierigkeit": 1,
+    "quellTermin": "2020-sommer"
+  },
+  {
+    "id": "kbz-lp-personalwirtschaft-16",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "frage": "Eine Mitarbeiterin (Steuerklasse 1, konfessionsgebunden) hat ein **Bruttoentgelt von 3.200,00 €**. Abzüge laut Tabellen: Lohnsteuer 420,50 €, Kirchensteuer 9 % der Lohnsteuer, kein Solidaritätszuschlag. Arbeitnehmeranteile zur Sozialversicherung: KV 8,15 %, RV 9,3 %, AV 1,3 %, PV 1,8 %. Wie hoch ist das **Nettoentgelt**?",
+    "optionen": [
+      "2.084,05 €",
+      "2.121,90 €",
+      "2.741,65 €",
+      "2.542,40 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Rechenweg: Kirchensteuer = 420,50 × 0,09 = 37,85 €. Sozialversicherung gesamt = 3.200 × (8,15 + 9,3 + 1,3 + 1,8) % = 3.200 × 20,55 % = 657,60 €. Netto = 3.200,00 − 420,50 − 37,85 − 657,60 = **2.084,05 €**. Die Distraktoren entstehen durch typische Fehler: 2.121,90 € vergisst die Kirchensteuer, 2.741,65 € vergisst die komplette Sozialversicherung, 2.542,40 € zieht nur die Sozialversicherung ab.",
+    "schwierigkeit": 3,
+    "quellTermin": "2020-winter"
+  },
+  {
+    "id": "kbz-lp-personalwirtschaft-17",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "frage": "Bei welchem Zweig der **Sozialversicherung** trägt der Arbeitgeber die Beiträge zu **100 %** allein?",
+    "optionen": [
+      "Unfallversicherung",
+      "Krankenversicherung",
+      "Rentenversicherung",
+      "Arbeitslosenversicherung",
+      "Pflegeversicherung"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Die Beiträge zur **gesetzlichen Unfallversicherung** (Berufsgenossenschaft) zahlt allein der Arbeitgeber. Kranken-, Renten-, Arbeitslosen- und Pflegeversicherung werden grundsätzlich **je zur Hälfte** von Arbeitgeber und Arbeitnehmer getragen – deshalb sind diese Optionen falsch.",
+    "schwierigkeit": 2,
+    "quellTermin": "2021-sommer"
+  },
+  {
+    "id": "kbz-lp-personalwirtschaft-18",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "frage": "Herr Sommer heiratet; seine Ehefrau ist **nicht berufstätig**, das Paar hat keine Kinder. Welche **Lohnsteuerklasse** ist für Herrn Sommer geeignet, damit monatlich möglichst wenig Lohnsteuer abgezogen wird?",
+    "optionen": [
+      "Steuerklasse 3",
+      "Steuerklasse 1",
+      "Steuerklasse 4",
+      "Steuerklasse 5",
+      "Steuerklasse 6"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Für einen **verheirateten Alleinverdiener** ist die **Steuerklasse 3** am günstigsten, da hier der doppelte Grundfreibetrag berücksichtigt wird und der monatliche Lohnsteuerabzug am geringsten ist (die Ehefrau erhielte Klasse 5). Klasse 1 gilt für Ledige, Klasse 4 für Doppelverdiener-Ehen mit ähnlichem Einkommen, Klasse 5 hätte den höchsten Abzug und Klasse 6 gilt für Zweit-Arbeitsverhältnisse.",
+    "schwierigkeit": 2,
+    "quellTermin": "2021-winter"
+  },
+  {
+    "id": "kbz-lp-personalwirtschaft-19",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "frage": "Trotz mehrerer Abmahnungen kommt Herr Wismann weiterhin zu spät. Die Personalleiterin bereitet die **Kündigung** vor. Wer muss vor Ausspruch der Kündigung zwingend beteiligt (angehört) werden?",
+    "optionen": [
+      "Der Betriebsrat",
+      "Die zuständige Gewerkschaft",
+      "Das Arbeitsgericht",
+      "Die Industrie- und Handelskammer",
+      "Die Bundesagentur für Arbeit"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Nach **§ 102 BetrVG** ist der **Betriebsrat vor jeder Kündigung anzuhören** – eine ohne Anhörung ausgesprochene Kündigung ist unwirksam. Die Gewerkschaft ist Tarifpartei und nicht am einzelnen Kündigungsverfahren beteiligt; das Arbeitsgericht wird erst bei einer Kündigungsschutzklage tätig, IHK und Bundesagentur für Arbeit haben hier keine Funktion.",
+    "schwierigkeit": 2,
+    "quellTermin": "2024-sommer"
+  },
+  {
+    "id": "kbz-lp-personalwirtschaft-20",
+    "themaId": "personalwirtschaft",
+    "bereich": "kbz",
+    "frage": "Frau Wohlmuth teilt der Personalabteilung ihre Schwangerschaft mit. Der voraussichtliche Entbindungstermin ist der **17. Juni**. Wann beginnt die **Mutterschutzfrist** vor der Geburt?",
+    "optionen": [
+      "06.05. (6 Wochen vor dem Entbindungstermin)",
+      "17.05. (1 Monat vor dem Entbindungstermin)",
+      "22.04. (8 Wochen vor dem Entbindungstermin)",
+      "03.06. (2 Wochen vor dem Entbindungstermin)"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Die Schutzfrist beginnt nach dem Mutterschutzgesetz **6 Wochen (42 Tage) vor** dem voraussichtlichen Entbindungstermin: 17. Juni − 42 Tage = **6. Mai**. Die 8 Wochen (Option 3) gelten für die Schutzfrist **nach** der Entbindung (bei Früh- und Mehrlingsgeburten 12 Wochen); 1 Monat bzw. 2 Wochen sind frei erfundene Fristen.",
+    "schwierigkeit": 3,
+    "quellTermin": "2023-sommer"
+  },
+  {
+    "id": "kbz-lp-kostenrechnung-01",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "frage": "Welche Erklärung umschreibt den Begriff **Kosten** im Sinne der Kosten- und Leistungsrechnung richtig?",
+    "optionen": [
+      "Der Wert aller zur Erreichung des Betriebszwecks verbrauchten Güter und Dienstleistungen pro Periode",
+      "Alle Auszahlungen eines Unternehmens innerhalb eines Geschäftsjahres",
+      "Der gesamte Aufwand laut Gewinn- und Verlustrechnung einschließlich betriebsfremder Aufwendungen",
+      "Alle Verbindlichkeiten gegenüber Lieferanten am Bilanzstichtag"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "**Kosten** sind der bewertete, **betriebszweckbezogene** Güter- und Dienstleistungsverbrauch einer Periode. Auszahlungen sind reine Zahlungsvorgänge (auch z. B. Tilgungen), der GuV-Aufwand enthält auch **neutrale/betriebsfremde** Aufwendungen, die keine Kosten sind, und Verbindlichkeiten sind Bilanzpositionen, kein Werteverbrauch.",
+    "schwierigkeit": 1,
+    "quellTermin": "2025-sommer"
+  },
+  {
+    "id": "kbz-lp-kostenrechnung-02",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "frage": "Mit welcher Formel wird der **Break-even-Point (Gewinnschwelle) in Stück** berechnet?",
+    "optionen": [
+      "$$\\text{BEP} = \\frac{\\text{Fixkosten}}{\\text{Deckungsbeitrag je Stück}}$$",
+      "$$\\text{BEP} = \\frac{\\text{Fixkosten}}{\\text{Verkaufspreis je Stück}}$$",
+      "$$\\text{BEP} = \\frac{\\text{Deckungsbeitrag je Stück}}{\\text{Fixkosten}}$$",
+      "$$\\text{BEP} = \\frac{\\text{Fixkosten}}{\\text{variable Kosten je Stück}}$$"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "An der Gewinnschwelle müssen die **Deckungsbeiträge genau die Fixkosten decken**, daher gilt BEP = Fixkosten / Deckungsbeitrag je Stück (DB = Verkaufspreis − variable Stückkosten). Die Division durch den Verkaufspreis ignoriert die variablen Kosten, die Division durch die variablen Kosten ignoriert den Erlös, und der Kehrwert (Option 3) ergibt keine Stückzahl.",
+    "schwierigkeit": 1
+  },
+  {
+    "id": "kbz-lp-kostenrechnung-03",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "frage": "Für ein neues Schubladensystem liegen vor: Fixkosten **84.000,00 €/Jahr**, Verkaufspreis **120,00 €/Stück**, variable Kosten **85,00 €/Stück**. Ermitteln Sie die **Gewinnschwelle in Stück**.",
+    "optionen": [
+      "2.400 Stück",
+      "700 Stück",
+      "988 Stück",
+      "410 Stück"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Rechenweg: Deckungsbeitrag je Stück = 120,00 − 85,00 = 35,00 €. $$\\text{BEP} = \\frac{84.000}{35} = 2.400 \\text{ Stück}$$ Die Distraktoren zeigen typische Fehler: 700 Stück teilt die Fixkosten durch den Verkaufspreis (84.000/120), 988 Stück durch die variablen Kosten (84.000/85) und 410 Stück durch die Summe aus Preis und variablen Kosten.",
+    "schwierigkeit": 2,
+    "quellTermin": "2025-sommer"
+  },
+  {
+    "id": "kbz-lp-kostenrechnung-04",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "frage": "Für dasselbe Produkt (Fixkosten 84.000,00 €, Preis 120,00 €/Stück, variable Kosten 85,00 €/Stück) wird eine **Absatzmenge von 5.000 Stück** erwartet. Wie hoch ist der **Gewinn**?",
+    "optionen": [
+      "91.000,00 €",
+      "516.000,00 €",
+      "175.000,00 €",
+      "600.000,00 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Rechenweg: Gewinn = Umsatz − variable Kosten − Fixkosten = 5.000 × 120 − 5.000 × 85 − 84.000 = 600.000 − 425.000 − 84.000 = **91.000,00 €** (alternativ: 5.000 × DB 35 € − 84.000 €). 516.000 € vergisst die variablen Kosten, 175.000 € ist nur der gesamte Deckungsbeitrag ohne Fixkostenabzug, 600.000 € ist der reine Umsatz.",
+    "schwierigkeit": 2,
+    "quellTermin": "2025-sommer"
+  },
+  {
+    "id": "kbz-lp-kostenrechnung-05",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "frage": "Die Produktionsmenge soll auf **10.000 Stück** ausgeweitet werden (Fixkosten 84.000,00 €, variable Kosten 85,00 €/Stück). Wie hoch sind dann die **Stückkosten**?",
+    "optionen": [
+      "93,40 €",
+      "85,00 €",
+      "8,40 €",
+      "120,00 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Rechenweg: $$\\text{Stückkosten} = \\frac{\\text{Fixkosten}}{\\text{Menge}} + \\text{variable Stückkosten} = \\frac{84.000}{10.000} + 85,00 = 8,40 + 85,00 = 93,40 \\text{ €}$$ 85,00 € berücksichtigt nur die variablen Kosten, 8,40 € nur den Fixkostenanteil je Stück, und 120,00 € ist der Verkaufspreis, keine Kostengröße.",
+    "schwierigkeit": 2,
+    "quellTermin": "2025-sommer"
+  },
+  {
+    "id": "kbz-lp-kostenrechnung-06",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "frage": "Wie verändern sich die **Stückkosten** bei steigender Produktionsmenge und warum?",
+    "optionen": [
+      "Sie sinken, weil sich die Fixkosten auf mehr Stück verteilen (Fixkostendegression)",
+      "Sie steigen, weil mit der Menge auch die Gesamtkosten steigen",
+      "Sie bleiben konstant, weil die variablen Stückkosten unverändert bleiben",
+      "Sie sinken, weil die variablen Kosten je Stück mit der Menge automatisch abnehmen"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Die **Fixkostendegression** bewirkt, dass der Fixkostenanteil je Stück (Fixkosten/Menge) mit steigender Menge kleiner wird – die Stückkosten sinken. Zwar steigen die Gesamtkosten absolut, aber pro Stück verteilt sinken sie (Option 2 verwechselt Gesamt- und Stückbetrachtung). Die variablen **Stückkosten** bleiben zwar konstant, doch dadurch bleiben die Stückkosten nicht insgesamt konstant (Option 3), und sie sinken auch nicht (Option 4).",
+    "schwierigkeit": 1,
+    "quellTermin": "2025-sommer"
+  },
+  {
+    "id": "kbz-lp-kostenrechnung-07",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "frage": "Für einen Rollcontainer liegen vor: Verkaufserlös **78,00 €/Stück**, Materialkosten **31,00 €/Stück**, Fertigungslöhne **17,00 €/Stück** (beides variabel). Wie hoch ist der **Deckungsbeitrag je Stück**?",
+    "optionen": [
+      "30,00 €",
+      "47,00 €",
+      "61,00 €",
+      "48,00 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Rechenweg: variable Kosten je Stück = 31,00 + 17,00 = 48,00 €. **Deckungsbeitrag = Verkaufserlös − variable Kosten = 78,00 − 48,00 = 30,00 €**. 47,00 € zieht nur die Materialkosten ab, 61,00 € nur die Löhne, und 48,00 € ist die Summe der variablen Kosten selbst, nicht der Deckungsbeitrag.",
+    "schwierigkeit": 2,
+    "quellTermin": "2023-winter"
+  },
+  {
+    "id": "kbz-lp-kostenrechnung-08",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "frage": "Ein Kunde kauft **600 Stück** eines Bürostuhls zum Listenverkaufspreis von **350,00 €/Stück**. Die variablen Kosten betragen **240,00 €/Stück**, die zurechenbaren Fixkosten **58.000,00 €**. Ermitteln Sie rechnerisch das **Ergebnis** dieses Auftrags.",
+    "optionen": [
+      "Gewinn von 8.000,00 €",
+      "Deckungsbeitrag von 66.000,00 € = Gewinn von 66.000,00 €",
+      "Verlust von 8.000,00 €",
+      "Gewinn von 152.000,00 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Rechenweg: Erlöse = 600 × 350 = 210.000 €; variable Kosten = 600 × 240 = 144.000 €; Deckungsbeitrag gesamt = 66.000 €; Ergebnis = 66.000 − 58.000 Fixkosten = **+8.000 € Gewinn**. Option 2 verwechselt Deckungsbeitrag und Gewinn (Fixkosten fehlen), Option 3 vertauscht das Vorzeichen, Option 4 zieht nur die Fixkosten vom Umsatz ab und vergisst die variablen Kosten.",
+    "schwierigkeit": 3,
+    "quellTermin": "2022-winter"
+  },
+  {
+    "id": "kbz-lp-kostenrechnung-09",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "frage": "Aus welchen **2 Kostenblöcken** setzen sich die **Herstellkosten** in der Zuschlagskalkulation zusammen?",
+    "optionen": [
+      "Materialkosten (Fertigungsmaterial + Materialgemeinkosten)",
+      "Fertigungskosten (Fertigungslöhne + Fertigungsgemeinkosten)",
+      "Verwaltungsgemeinkosten",
+      "Vertriebsgemeinkosten",
+      "Kundenskonto und Kundenrabatt"
+    ],
+    "korrekt": [
+      0,
+      1
+    ],
+    "erklaerung": "Das Kalkulationsschema lautet: Fertigungsmaterial + Materialgemeinkosten = Materialkosten; Fertigungslöhne + Fertigungsgemeinkosten = Fertigungskosten; **Materialkosten + Fertigungskosten = Herstellkosten**. Verwaltungs- und Vertriebsgemeinkosten werden erst danach zugeschlagen und führen zu den **Selbstkosten**; Skonto und Rabatt gehören in die Verkaufskalkulation, nicht zu den Herstellkosten.",
+    "schwierigkeit": 2
+  },
+  {
+    "id": "kbz-lp-kostenrechnung-10",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "frage": "Berechnen Sie die **Selbstkosten** eines Konferenztisches: Fertigungsmaterial **180,00 €**, Materialgemeinkosten **60 %**, Fertigungslöhne **120,00 €**, Fertigungsgemeinkosten **125 %**, Verwaltungsgemeinkosten **10 %** und Vertriebsgemeinkosten **5 %** (jeweils auf die Herstellkosten).",
+    "optionen": [
+      "641,70 €",
+      "558,00 €",
+      "613,80 €",
+      "598,50 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Rechenweg: 180,00 + 60 % (108,00) = 288,00 € Materialkosten; 120,00 + 125 % (150,00) = 270,00 € Fertigungskosten; Herstellkosten = 288,00 + 270,00 = 558,00 €; + VwGK 10 % (55,80) + VtGK 5 % (27,90) = **Selbstkosten 641,70 €**. 558,00 € sind nur die Herstellkosten (Vw/Vt vergessen), 613,80 € berücksichtigt nur die Verwaltungsgemeinkosten, 598,50 € entsteht, wenn man die 15 % fälschlich nur auf die Fertigungskosten aufschlägt.",
+    "schwierigkeit": 3,
+    "quellTermin": "2025-sommer"
+  },
+  {
+    "id": "kbz-lp-kostenrechnung-11",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "frage": "Im Betriebsabrechnungsbogen wurden für die Kostenstelle Material **Gemeinkosten von 92.400,00 €** ermittelt. Die Materialeinzelkosten (Fertigungsmaterial) betragen **420.000,00 €**. Berechnen Sie den **Materialgemeinkosten-Zuschlagssatz**.",
+    "optionen": [
+      "22,00 %",
+      "18,03 %",
+      "454,55 %",
+      "4,55 %"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Rechenweg: $$\\text{MGK-Zuschlagssatz} = \\frac{\\text{Materialgemeinkosten} \\cdot 100}{\\text{Materialeinzelkosten}} = \\frac{92.400 \\cdot 100}{420.000} = 22,00\\ \\%$$ 18,03 % entsteht bei falscher Basis (Einzel- plus Gemeinkosten im Nenner), 454,55 % beim Vertauschen von Zähler und Nenner, 4,55 % ist der Kehrwert von 22 in Prozent.",
+    "schwierigkeit": 2,
+    "quellTermin": "2022-winter"
+  },
+  {
+    "id": "kbz-lp-kostenrechnung-12",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "frage": "Welche Bezugsgröße (Zuschlagsbasis) wird zur Berechnung des **Vertriebsgemeinkosten-Zuschlagssatzes** verwendet?",
+    "optionen": [
+      "Die Herstellkosten (des Umsatzes)",
+      "Die Fertigungslöhne",
+      "Das Fertigungsmaterial",
+      "Die Selbstkosten",
+      "Der Nettoverkaufspreis"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Verwaltungs- und Vertriebsgemeinkosten werden auf die **Herstellkosten (des Umsatzes)** bezogen: Zuschlagssatz = Vertriebsgemeinkosten × 100 / Herstellkosten. Fertigungslöhne sind die Basis der Fertigungsgemeinkosten, das Fertigungsmaterial die Basis der Materialgemeinkosten; Selbstkosten und Verkaufspreis stehen im Schema erst **nach** dem Zuschlag und können daher keine Basis sein.",
+    "schwierigkeit": 2,
+    "quellTermin": "2022-sommer"
+  },
+  {
+    "id": "kbz-lp-kostenrechnung-13",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "frage": "Zu welchen **2 Zwecken** wird der **Betriebsabrechnungsbogen (BAB)** im Rahmen der Kostenstellenrechnung erstellt?",
+    "optionen": [
+      "Verteilung der Gemeinkosten auf die Kostenstellen (Erfassung am Ort der Entstehung)",
+      "Ermittlung der Gemeinkostenzuschlagssätze",
+      "Ermittlung des zu versteuernden Gewinns für das Finanzamt",
+      "Aufstellung der Bilanz zum Geschäftsjahresende",
+      "Berechnung der Umsatzsteuerzahllast"
+    ],
+    "korrekt": [
+      0,
+      1
+    ],
+    "erklaerung": "Der BAB **verteilt die Gemeinkosten** verursachungsgerecht auf die Kostenstellen und dient der **Ermittlung der Gemeinkostenzuschlagssätze** (sowie der Kontrolle von Kostenüber-/unterdeckungen). Gewinnversteuerung, Bilanz und Umsatzsteuer sind Aufgaben der Finanzbuchhaltung bzw. des externen Rechnungswesens – nicht der Kostenstellenrechnung.",
+    "schwierigkeit": 1,
+    "quellTermin": "2024-sommer"
+  },
+  {
+    "id": "kbz-lp-kostenrechnung-14",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "frage": "In der Kostenrechnung werden Einzel- und Gemeinkosten unterschieden. Welche **2 Positionen** zählen zu den **Einzelkosten**?",
+    "optionen": [
+      "Aufwendungen für Rohstoffe (Fertigungsmaterial)",
+      "Fertigungslöhne",
+      "Abschreibungen auf das Verwaltungsgebäude",
+      "Gehalt der Geschäftsführung",
+      "Kalkulatorischer Unternehmerlohn"
+    ],
+    "korrekt": [
+      0,
+      1
+    ],
+    "erklaerung": "**Einzelkosten** lassen sich einem Produkt direkt (verursachungsgerecht) zurechnen – das trifft auf Rohstoffe/Fertigungsmaterial und Fertigungslöhne zu. Abschreibungen auf das Verwaltungsgebäude, Geschäftsführergehalt und kalkulatorischer Unternehmerlohn fallen für den Betrieb als Ganzes an und werden als **Gemeinkosten** über Zuschlagssätze verteilt.",
+    "schwierigkeit": 1,
+    "quellTermin": "2022-sommer"
+  },
+  {
+    "id": "kbz-lp-kostenrechnung-15",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "frage": "Was versteht man unter **Normalkosten**?",
+    "optionen": [
+      "Die durchschnittlichen Istkosten vergangener Perioden",
+      "Die tatsächlich angefallenen Kosten der aktuellen Periode",
+      "Die gesetzlich vorgeschriebenen Mindestkosten einer Branche",
+      "Die geplanten Kosten der kommenden Periode auf Basis technischer Studien"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "**Normalkosten** sind die **durchschnittlichen Istkosten vergangener Perioden**; mit ihnen wird kalkuliert, um zufällige Schwankungen auszugleichen. Die tatsächlichen Kosten der laufenden Periode sind **Istkosten**, gesetzliche Mindestkosten gibt es nicht, und zukunftsorientierte, analytisch geplante Kosten wären **Plankosten**.",
+    "schwierigkeit": 1,
+    "quellTermin": "2025-sommer"
+  },
+  {
+    "id": "kbz-lp-kostenrechnung-16",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "frage": "Ein Konferenztisch wurde mit **Normal-Selbstkosten von 725,10 €** kalkuliert. Die Nachkalkulation ergibt **Ist-Selbstkosten von 748,30 €**. Was liegt vor?",
+    "optionen": [
+      "Eine Kostenunterdeckung von 23,20 €",
+      "Eine Kostenüberdeckung von 23,20 €",
+      "Eine Kostenunterdeckung von 748,30 €",
+      "Weder Über- noch Unterdeckung, da Normalkosten unverbindlich sind"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Rechenweg: 748,30 − 725,10 = 23,20 €. Da die **Istkosten über den kalkulierten Normalkosten** liegen, wurde zu wenig verrechnet – es liegt eine **Kostenunterdeckung von 23,20 €** vor (z. B. durch Materialpreiserhöhungen). Eine Überdeckung läge nur bei Istkosten unter den Normalkosten vor; 748,30 € ist der Istwert selbst, nicht die Abweichung.",
+    "schwierigkeit": 2,
+    "quellTermin": "2025-sommer"
+  },
+  {
+    "id": "kbz-lp-kostenrechnung-17",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "frage": "**Rückwärtskalkulation:** Der Listenverkaufspreis eines Schreibtischs beträgt **400,00 €**. Kunden erhalten **20 % Rabatt** und **3 % Skonto**. Ermitteln Sie den **Barverkaufspreis**.",
+    "optionen": [
+      "310,40 €",
+      "320,00 €",
+      "308,00 €",
+      "388,00 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Rechenweg (Rückwärtskalkulation, Prozente jeweils vom Zwischenwert): 400,00 € − 20 % Rabatt (80,00) = **Zielverkaufspreis 320,00 €**; 320,00 € − 3 % Skonto (9,60) = **Barverkaufspreis 310,40 €**. 320,00 € vergisst den Skontoabzug, 308,00 € zieht beide Prozentsätze fälschlich vom Listenpreis ab (400 − 80 − 12), 388,00 € berücksichtigt nur das Skonto.",
+    "schwierigkeit": 3,
+    "quellTermin": "2022-sommer"
+  },
+  {
+    "id": "kbz-lp-kostenrechnung-18",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "frage": "**Vorwärtskalkulation:** Die Selbstkosten eines Bürostuhls betragen **300,00 €**. Kalkuliert werden **25 % Gewinn**, **2 % Kundenskonto** und **10 % Kundenrabatt**. Wie hoch ist der **Listenverkaufspreis** (auf 2 Nachkommastellen gerundet)?",
+    "optionen": [
+      "425,17 €",
+      "420,75 €",
+      "412,50 €",
+      "375,00 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Rechenweg: 300,00 + 25 % Gewinn = **Barverkaufspreis 375,00 €**. Skonto und Rabatt sind **im Hundert** zu rechnen: Zielverkaufspreis = 375,00 / 0,98 = 382,65 €; Listenverkaufspreis = 382,65 / 0,90 = **425,17 €**. 420,75 € entsteht beim falschen Aufschlag „vom Hundert\" (375 × 1,02 × 1,10), 412,50 € schlägt nur 10 % auf den Barverkaufspreis auf, 375,00 € ist erst der Barverkaufspreis.",
+    "schwierigkeit": 2,
+    "quellTermin": "2022-winter"
+  },
+  {
+    "id": "kbz-lp-kostenrechnung-19",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "frage": "Kalkulatorische Kosten werden in Anders- und Zusatzkosten unterteilt. Welche **2 Positionen** zählen zu den **Zusatzkosten** (Kosten, denen kein Aufwand gegenübersteht)?",
+    "optionen": [
+      "Kalkulatorischer Unternehmerlohn",
+      "Kalkulatorische Miete für eigene Räume",
+      "Kalkulatorische Abschreibungen",
+      "Fertigungslöhne",
+      "Aufwendungen für Rohstoffe"
+    ],
+    "korrekt": [
+      0,
+      1
+    ],
+    "erklaerung": "**Zusatzkosten** sind kalkulatorische Kosten, denen **kein Aufwand** in der GuV gegenübersteht – z. B. der Unternehmerlohn des Einzelunternehmers und die kalkulatorische Miete für eigene Räume. Kalkulatorische Abschreibungen sind **Anderskosten** (dem Aufwand steht ein anderer Wertansatz, z. B. Wiederbeschaffungskosten, gegenüber). Fertigungslöhne und Rohstoffe sind aufwandsgleiche Grundkosten.",
+    "schwierigkeit": 2,
+    "quellTermin": "2022-sommer"
+  },
+  {
+    "id": "kbz-lp-kostenrechnung-20",
+    "themaId": "kostenrechnung",
+    "bereich": "kbz",
+    "frage": "In der Ergebnistabelle (Abgrenzungsrechnung) wurde ein **Gesamtergebnis (Unternehmensergebnis) von 152.400,00 €** und ein **Ergebnis der Abgrenzungsrechnung von +2.300,00 €** ermittelt. Wie hoch ist das **Betriebsergebnis**?",
+    "optionen": [
+      "150.100,00 €",
+      "154.700,00 €",
+      "152.400,00 €",
+      "2.300,00 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Es gilt: **Gesamtergebnis = Betriebsergebnis + Abgrenzungsergebnis**, also Betriebsergebnis = 152.400,00 − 2.300,00 = **150.100,00 €**. 154.700,00 € addiert das Abgrenzungsergebnis fälschlich hinzu, 152.400,00 € verwechselt Betriebs- und Gesamtergebnis, 2.300,00 € ist nur das neutrale Abgrenzungsergebnis (betriebsfremde/außerordentliche Posten).",
+    "schwierigkeit": 3,
+    "quellTermin": "2022-sommer"
+  },
+  {
+    "id": "kbz-lp-buchfuehrung-kontierung-01",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "frage": "Eine neue Produktionsmaschine wird gekauft. Welche **2 Positionen** zählen neben dem Netto-Kaufpreis zu den **Anschaffungskosten**?",
+    "optionen": [
+      "Montagekosten für die Aufstellung der Maschine",
+      "Frachtkosten für die Anlieferung",
+      "Die abziehbare Vorsteuer (19 %)",
+      "Laufende Wartungskosten der ersten Betriebsjahre",
+      "Kalkulatorische Zinsen auf das eingesetzte Kapital"
+    ],
+    "korrekt": [
+      0,
+      1
+    ],
+    "erklaerung": "Anschaffungskosten = Netto-Kaufpreis + alle **Anschaffungsnebenkosten**, die nötig sind, um die Anlage **betriebsbereit** zu machen – dazu gehören Montage und Fracht. Die abziehbare Vorsteuer ist ein durchlaufender Posten (Forderung ans Finanzamt) und gehört nicht dazu; laufende Wartung ist späterer Aufwand, kalkulatorische Zinsen sind eine Größe der Kostenrechnung.",
+    "schwierigkeit": 1,
+    "quellTermin": "2024-sommer"
+  },
+  {
+    "id": "kbz-lp-buchfuehrung-kontierung-02",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "frage": "Eine Maschine kostet laut Eingangsrechnung **52.000,00 € netto**. Zusätzlich werden **3.000,00 € Montagekosten** und **500,00 € Kleinmaterial** (jeweils netto) berechnet. Ermitteln Sie die **Anschaffungskosten**.",
+    "optionen": [
+      "55.500,00 €",
+      "52.000,00 €",
+      "66.045,00 €",
+      "55.000,00 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Rechenweg: 52.000,00 + 3.000,00 + 500,00 = **55.500,00 €**. Montage und Kleinmaterial sind Anschaffungsnebenkosten, die die Maschine betriebsbereit machen. 52.000,00 € lässt die Nebenkosten weg, 66.045,00 € rechnet fälschlich mit dem Bruttobetrag (55.500 × 1,19 – die Vorsteuer gehört nicht zu den Anschaffungskosten), 55.000,00 € vergisst das Kleinmaterial.",
+    "schwierigkeit": 2,
+    "quellTermin": "2024-sommer"
+  },
+  {
+    "id": "kbz-lp-buchfuehrung-kontierung-03",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "frage": "Ein Lieferwagen kostet **45.000,00 € netto**. Die Rechnung wird unter Abzug von **2 % Skonto** bezahlt. Wie hoch sind die **Anschaffungskosten** des Fahrzeugs?",
+    "optionen": [
+      "44.100,00 €",
+      "45.000,00 €",
+      "43.650,00 €",
+      "52.479,00 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Der Skontoabzug **mindert die Anschaffungskosten**: 45.000,00 × 0,98 = **44.100,00 €** (Skonto 900,00 €). 45.000,00 € ignoriert den Skontoabzug, 43.650,00 € rechnet fälschlich mit 3 % Skonto, und 52.479,00 € rechnet vom Bruttobetrag (53.550 × 0,98) – die Vorsteuer zählt aber nicht zu den Anschaffungskosten.",
+    "schwierigkeit": 2,
+    "quellTermin": "2022-sommer"
+  },
+  {
+    "id": "kbz-lp-buchfuehrung-kontierung-04",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "frage": "Wie lautet der **Buchungssatz** für die jährliche lineare **Abschreibung** einer Maschine (Konto 0700 Technische Anlagen und Maschinen)?",
+    "optionen": [
+      "6520 Abschreibungen auf Sachanlagen an 0700 Technische Anlagen und Maschinen",
+      "0700 Technische Anlagen und Maschinen an 6520 Abschreibungen auf Sachanlagen",
+      "6520 Abschreibungen auf Sachanlagen an 2800 Bank",
+      "7510 Zinsaufwendungen an 0700 Technische Anlagen und Maschinen"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Die Abschreibung ist ein **Aufwand** (Soll auf 6520) und mindert zugleich den Buchwert der Anlage (Haben auf 0700): **6520 an 0700**. Option 2 vertauscht Soll und Haben, Option 3 ist falsch, weil bei der Abschreibung kein Geld fließt (kein Bankkonto), und Zinsaufwendungen (7510) haben mit der Wertminderung einer Anlage nichts zu tun.",
+    "schwierigkeit": 1,
+    "quellTermin": "2024-sommer"
+  },
+  {
+    "id": "kbz-lp-buchfuehrung-kontierung-05",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "frage": "Eine Maschine (Anschaffungskosten **54.000,00 €**, Nutzungsdauer **9 Jahre**, lineare Abschreibung) wird am **1. Juli** angeschafft. Wie hoch ist die **Abschreibung im Anschaffungsjahr**?",
+    "optionen": [
+      "3.000,00 €",
+      "6.000,00 €",
+      "3.500,00 €",
+      "500,00 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Rechenweg: Jahres-AfA = 54.000 / 9 = 6.000,00 €. Bei Anschaffung im Juli wird **zeitanteilig (pro rata temporis)** für 6 Monate abgeschrieben: $$6.000 \\cdot \\frac{6}{12} = 3.000{,}00 \\text{ €}$$ 6.000,00 € wäre die volle Jahres-AfA (unterjährige Anschaffung ignoriert), 3.500,00 € rechnet fälschlich mit 7 Monaten, 500,00 € ist nur eine Monats-AfA.",
+    "schwierigkeit": 2,
+    "quellTermin": "2023-sommer"
+  },
+  {
+    "id": "kbz-lp-buchfuehrung-kontierung-06",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "frage": "Ein Firmenwagen (Anschaffungskosten **38.400,00 €**, Nutzungsdauer laut AfA-Tabelle **8 Jahre**) wird im **Oktober** angeschafft und linear abgeschrieben. Berechnen Sie die **AfA für das Anschaffungsjahr**.",
+    "optionen": [
+      "1.200,00 €",
+      "4.800,00 €",
+      "3.600,00 €",
+      "1.600,00 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Rechenweg: Jahres-AfA = 38.400 / 8 = 4.800,00 €. Anschaffung im Oktober bedeutet **3 Monate** (Oktober–Dezember): 4.800 × 3/12 = **1.200,00 €**. 4.800,00 € wäre das volle Jahr, 3.600,00 € rechnet mit 9 Monaten (verwechselt „ab Oktober\" mit „bis Oktober\"), 1.600,00 € rechnet mit 4 Monaten.",
+    "schwierigkeit": 3,
+    "quellTermin": "2022-sommer"
+  },
+  {
+    "id": "kbz-lp-buchfuehrung-kontierung-07",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "frage": "Eingangsrechnung der Lampenfabrik über Büroleuchten als **Handelsware**: netto **8.400,00 €**, 19 % USt **1.596,00 €**, brutto **9.996,00 €** (Zahlungsziel 30 Tage). Wie lautet der **Buchungssatz**?",
+    "optionen": [
+      "6080 Aufwendungen für Handelswaren 8.400,00 € und 2600 Vorsteuer 1.596,00 € an 4400 Verbindlichkeiten aLL 9.996,00 €",
+      "6080 Aufwendungen für Handelswaren 9.996,00 € an 4400 Verbindlichkeiten aLL 9.996,00 €",
+      "6800 Büromaterial 8.400,00 € und 2600 Vorsteuer 1.596,00 € an 4400 Verbindlichkeiten aLL 9.996,00 €",
+      "4400 Verbindlichkeiten aLL 9.996,00 € an 6080 Aufwendungen für Handelswaren 8.400,00 € und 2600 Vorsteuer 1.596,00 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Handelswareneinkauf auf Ziel: **Aufwand netto (6080)** und **Vorsteuer (2600)** im Soll, die Verbindlichkeit brutto im Haben. Option 2 bucht fälschlich brutto ohne Vorsteuertrennung, Option 3 verwendet das falsche Aufwandskonto (Büromaterial statt Handelsware – die Leuchten werden weiterverkauft), Option 4 vertauscht Soll und Haben (das wäre eine Gutschrift/Rücksendung).",
+    "schwierigkeit": 2,
+    "quellTermin": "2023-winter"
+  },
+  {
+    "id": "kbz-lp-buchfuehrung-kontierung-08",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "frage": "Barkauf von Druckerpapier (**Büromaterial**): netto **250,00 €**, 19 % USt **47,50 €**, gesamt **297,50 €**. Wie lautet der **Buchungssatz**?",
+    "optionen": [
+      "6800 Büromaterial 250,00 € und 2600 Vorsteuer 47,50 € an 2880 Kasse 297,50 €",
+      "6800 Büromaterial 297,50 € an 2880 Kasse 297,50 €",
+      "6080 Aufwendungen für Handelswaren 250,00 € und 2600 Vorsteuer 47,50 € an 2880 Kasse 297,50 €",
+      "6800 Büromaterial 250,00 € und 2600 Vorsteuer 47,50 € an 2800 Bank 297,50 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Barkauf: Aufwand **netto auf 6800 Büromaterial**, Vorsteuer getrennt auf 2600, Gegenkonto ist die **Kasse (2880)**, da bar bezahlt wurde. Option 2 vergisst die Vorsteuertrennung, Option 3 nutzt das Handelswarenkonto (Papier wird verbraucht, nicht weiterverkauft), Option 4 bucht über die Bank statt über die Kasse.",
+    "schwierigkeit": 2,
+    "quellTermin": "2023-winter"
+  },
+  {
+    "id": "kbz-lp-buchfuehrung-kontierung-09",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "frage": "Barkauf eines Fachbuchs zur Prüfungsvorbereitung: netto **40,00 €**, **7 % MwSt** 2,80 €, gesamt **42,80 €**. Wie lautet der korrekte **Buchungssatz**?",
+    "optionen": [
+      "6810 Zeitungen und Fachliteratur 40,00 € und 2610 Vorsteuer 7 % 2,80 € an 2880 Kasse 42,80 €",
+      "6810 Zeitungen und Fachliteratur 40,00 € und 2600 Vorsteuer 19 % 7,60 € an 2880 Kasse 47,60 €",
+      "6800 Büromaterial 42,80 € an 2880 Kasse 42,80 €",
+      "6810 Zeitungen und Fachliteratur 42,80 € an 2880 Kasse 42,80 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Auf Bücher und Zeitungen fällt in der Regel der **ermäßigte Steuersatz von 7 %** an, daher wird die Vorsteuer auf dem Konto **2610 (Vorsteuer 7 %)** erfasst: 6810 und 2610 an 2880. Option 2 rechnet fälschlich mit 19 %, Option 3 nutzt das falsche Aufwandskonto, Option 4 bucht brutto ohne Vorsteuerabzug – damit ginge der Vorsteuerabzug verloren.",
+    "schwierigkeit": 2,
+    "quellTermin": "2022-sommer"
+  },
+  {
+    "id": "kbz-lp-buchfuehrung-kontierung-10",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "frage": "Die Bank zahlt ein **5-jähriges Darlehen** über **48.000,00 €** auf das Geschäftskonto aus. Wie lautet der **Buchungssatz** für die Darlehensauszahlung?",
+    "optionen": [
+      "2800 Bank an 4250 Langfristige Bankverbindlichkeiten 48.000,00 €",
+      "4250 Langfristige Bankverbindlichkeiten an 2800 Bank 48.000,00 €",
+      "2800 Bank an 5100 Umsatzerlöse für Handelswaren 48.000,00 €",
+      "7510 Zinsaufwendungen an 2800 Bank 48.000,00 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Die Auszahlung erhöht das Bankguthaben (Soll 2800) und begründet zugleich eine **langfristige Verbindlichkeit** gegenüber der Bank (Haben 4250): **2800 an 4250**. Option 2 wäre die spätere **Tilgung**, Option 3 ist falsch, weil ein Darlehen kein Umsatzerlös ist, und Option 4 beträfe nur die Zinszahlung.",
+    "schwierigkeit": 1,
+    "quellTermin": "2024-sommer"
+  },
+  {
+    "id": "kbz-lp-buchfuehrung-kontierung-11",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "frage": "Ein Darlehen über **48.000,00 €** wird am **15.05.** ausgezahlt; der Zinssatz beträgt **3,5 % p. a.**, Zinszahlung zum Jahresende. Berechnen Sie den **Zinsaufwand bis zum 31.12.** nach der Methode 30/360.\n\n$$Z = \\frac{K \\cdot p \\cdot t}{100 \\cdot 360}$$",
+    "optionen": [
+      "1.050,00 €",
+      "1.680,00 €",
+      "1.120,00 €",
+      "980,00 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Rechenweg: Tage nach 30/360 vom 15.05. bis 31.12. = 15 (Rest Mai) + 7 × 30 (Juni–Dezember) = **225 Tage**. $$Z = \\frac{48.000 \\cdot 3{,}5 \\cdot 225}{100 \\cdot 360} = 1.050{,}00 \\text{ €}$$ 1.680,00 € wäre der Zins für ein volles Jahr, 1.120,00 € rechnet mit 240 Tagen (ab 1.05.), 980,00 € mit 210 Tagen (ab 1.06.).",
+    "schwierigkeit": 3,
+    "quellTermin": "2024-sommer"
+  },
+  {
+    "id": "kbz-lp-buchfuehrung-kontierung-12",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "frage": "Zum 31.12. werden **Darlehenszinsen** und die **jährliche Tilgungsrate** gemeinsam vom Bankkonto abgebucht. Wie lautet der **Buchungssatz**?",
+    "optionen": [
+      "7510 Zinsaufwendungen und 4250 Langfristige Bankverbindlichkeiten an 2800 Bank",
+      "7510 Zinsaufwendungen an 4250 Langfristige Bankverbindlichkeiten",
+      "2800 Bank an 7510 Zinsaufwendungen und 4250 Langfristige Bankverbindlichkeiten",
+      "6520 Abschreibungen auf Sachanlagen und 4250 Langfristige Bankverbindlichkeiten an 2800 Bank"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Die Zinsen sind **Aufwand (7510 im Soll)**, die Tilgung **mindert die Verbindlichkeit (4250 im Soll)**; beides wird vom Bankkonto gezahlt (2800 im Haben): **7510 und 4250 an 2800**. Option 2 lässt den Zahlungsvorgang weg, Option 3 vertauscht Soll und Haben, Option 4 verwechselt Zinsaufwand mit Abschreibungen.",
+    "schwierigkeit": 2,
+    "quellTermin": "2024-sommer"
+  },
+  {
+    "id": "kbz-lp-buchfuehrung-kontierung-13",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "frage": "Laut Inventur beträgt der **Endbestand** an Handelswaren **118.700,00 €**, der **Anfangsbestand** lag bei **96.500,00 €**. Ermitteln Sie die Bestandsveränderung und beurteilen Sie sie.",
+    "optionen": [
+      "Bestandsmehrung von 22.200,00 € – es wurde mehr eingekauft als verkauft",
+      "Bestandsminderung von 22.200,00 € – es wurde mehr verkauft als eingekauft",
+      "Bestandsmehrung von 215.200,00 €",
+      "Keine Bestandsveränderung, da nur der Endbestand bilanzwirksam ist"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Rechenweg: **Bestandsveränderung = Endbestand − Anfangsbestand** = 118.700 − 96.500 = **+22.200,00 €**. Da der Endbestand höher ist, liegt eine **Bestandsmehrung** vor: Es wurde mehr Ware eingekauft als verkauft. Option 2 interpretiert das Vorzeichen falsch, Option 3 addiert die Bestände statt sie zu subtrahieren, Option 4 ist fachlich falsch – die Veränderung wirkt sich auf den Wareneinsatz aus.",
+    "schwierigkeit": 1,
+    "quellTermin": "2024-sommer"
+  },
+  {
+    "id": "kbz-lp-buchfuehrung-kontierung-14",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "frage": "Berechnen Sie den **Wareneinsatz**: Wareneinkäufe (Zugänge) **128.400,00 €**, Bestandsmehrung **22.200,00 €**, erhaltene Nachlässe **4.150,00 €**.",
+    "optionen": [
+      "102.050,00 €",
+      "106.200,00 €",
+      "146.450,00 €",
+      "124.250,00 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Rechenweg: **Wareneinsatz = Zugänge − Bestandsmehrung − Nachlässe** = 128.400 − 22.200 − 4.150 = **102.050,00 €** (bei einer Bestandsminderung würde diese addiert). 106.200,00 € vergisst die Nachlässe, 146.450,00 € addiert die Bestandsmehrung statt sie abzuziehen, 124.250,00 € zieht nur die Nachlässe ab.",
+    "schwierigkeit": 2,
+    "quellTermin": "2024-sommer"
+  },
+  {
+    "id": "kbz-lp-buchfuehrung-kontierung-15",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "frage": "Was versteht man unter dem Begriff **Wareneinsatz**?",
+    "optionen": [
+      "Den Wert der verkauften Waren zum Bezugspreis (Einstandspreis)",
+      "Den Wert der verkauften Waren zum Verkaufspreis",
+      "Die Summe aller Wareneinkäufe einer Periode",
+      "Den Lagerbestand an Waren laut Inventur zum Jahresende"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Der **Wareneinsatz** ist der Wert der in einer Periode **verkauften** Waren, bewertet zum **Bezugspreis (Einstandspreis)** – er steht den Umsatzerlösen gegenüber (Rohgewinnermittlung). Zum Verkaufspreis bewertet wären es die Umsatzerlöse; die Summe der Einkäufe (Zugänge) ist erst nach Korrektur um Bestandsveränderung und Nachlässe der Wareneinsatz; der Lagerbestand ist der Schlussbestand, nicht der Einsatz.",
+    "schwierigkeit": 1,
+    "quellTermin": "2024-sommer"
+  },
+  {
+    "id": "kbz-lp-buchfuehrung-kontierung-16",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "frage": "Ausgangsrechnung an einen Kunden über **Handelswaren** (Zielverkauf): netto **5.710,00 €**, 19 % USt **1.084,90 €**, brutto **6.794,90 €**. Wie lautet der **Buchungssatz**?",
+    "optionen": [
+      "2400 Forderungen aLL 6.794,90 € an 5100 Umsatzerlöse für Handelswaren 5.710,00 € und 4800 Umsatzsteuer 1.084,90 €",
+      "5100 Umsatzerlöse für Handelswaren und 4800 Umsatzsteuer an 2400 Forderungen aLL",
+      "2400 Forderungen aLL 6.794,90 € an 5100 Umsatzerlöse für Handelswaren 5.710,00 € und 2600 Vorsteuer 1.084,90 €",
+      "2800 Bank 6.794,90 € an 5100 Umsatzerlöse für Handelswaren 5.710,00 € und 4800 Umsatzsteuer 1.084,90 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Beim Zielverkauf entsteht eine **Forderung (2400, brutto im Soll)**; im Haben stehen die **Umsatzerlöse netto (5100)** und die **Umsatzsteuer (4800)** als Verbindlichkeit gegenüber dem Finanzamt. Option 2 vertauscht Soll und Haben (das wäre die Buchung einer Gutschrift/Rücksendung), Option 3 verwendet fälschlich die Vorsteuer statt der Umsatzsteuer, Option 4 bucht die Bank, obwohl noch kein Geld eingegangen ist.",
+    "schwierigkeit": 2,
+    "quellTermin": "2022-winter"
+  },
+  {
+    "id": "kbz-lp-buchfuehrung-kontierung-17",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "frage": "Ein Kunde überweist eine Rechnung über **6.794,90 € brutto** (netto 5.710,00 €, USt 1.084,90 €) unter Abzug von **2 % Skonto**. Wie lautet der **Buchungssatz** beim Zahlungseingang?",
+    "optionen": [
+      "2800 Bank 6.659,00 €, 5101 Erlösberichtigungen 114,20 € und 4800 Umsatzsteuer 21,70 € an 2400 Forderungen aLL 6.794,90 €",
+      "2800 Bank 6.659,00 € und 5101 Erlösberichtigungen 135,90 € an 2400 Forderungen aLL 6.794,90 €",
+      "2800 Bank 6.794,90 € an 2400 Forderungen aLL 6.794,90 €",
+      "2800 Bank 6.659,00 €, 6082 Nachlässe 114,20 € und 2600 Vorsteuer 21,70 € an 2400 Forderungen aLL 6.794,90 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Skonto 2 % von 6.794,90 € = 135,90 € brutto, davon netto 114,20 € (**Erlösberichtigung 5101**) und 21,70 € **Umsatzsteuerkorrektur (4800)**; Bankeingang 6.659,00 €. Zusammen gleichen die drei Sollbuchungen die Forderung von 6.794,90 € aus. Option 2 vergisst die USt-Korrektur (bucht den Bruttoskonto als Erlösberichtigung), Option 3 ignoriert den Skontoabzug, Option 4 verwendet die Einkaufskonten (Nachlässe/Vorsteuer) statt der Verkaufskonten.",
+    "schwierigkeit": 3,
+    "quellTermin": "2022-winter"
+  },
+  {
+    "id": "kbz-lp-buchfuehrung-kontierung-18",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "frage": "Wegen Lackschäden sendet ein Kunde einen Teil der gelieferten Handelswaren zurück. Die **Gutschrift** an den Kunden lautet: netto **660,00 €**, 19 % USt **125,40 €**. Wie ist die Rücksendung zu **kontieren**?",
+    "optionen": [
+      "5100 Umsatzerlöse für Handelswaren 660,00 € und 4800 Umsatzsteuer 125,40 € an 2400 Forderungen aLL 785,40 €",
+      "2400 Forderungen aLL 785,40 € an 5100 Umsatzerlöse für Handelswaren 660,00 € und 4800 Umsatzsteuer 125,40 €",
+      "6080 Aufwendungen für Handelswaren 660,00 € und 2600 Vorsteuer 125,40 € an 2400 Forderungen aLL 785,40 €",
+      "5100 Umsatzerlöse für Handelswaren 785,40 € an 2400 Forderungen aLL 785,40 €"
+    ],
+    "korrekt": [
+      0
+    ],
+    "erklaerung": "Die Rücksendung **storniert den Verkauf teilweise**: Umsatzerlöse (5100) und Umsatzsteuer (4800) werden im Soll gemindert, die Forderung an den Kunden (2400) sinkt im Haben – also **5100 und 4800 an 2400**. Option 2 wäre eine erneute Ausgangsrechnung, Option 3 verwechselt Verkaufs- mit Einkaufskonten, Option 4 bucht brutto ohne die notwendige USt-Korrektur.",
+    "schwierigkeit": 2,
+    "quellTermin": "2022-winter"
+  },
+  {
+    "id": "kbz-lp-buchfuehrung-kontierung-19",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "frage": "Per SEPA-Lastschrift wird die **Geschäftshaftpflichtversicherung** (Quartalsbeitrag **1.635,00 €**) vom Bankkonto abgebucht. Welche **2 Aussagen** zur Kontierung sind richtig?",
+    "optionen": [
+      "Der Buchungssatz lautet: 6900 Versicherungsbeiträge an 2800 Bank 1.635,00 €",
+      "Es wird keine Vorsteuer gebucht, da Versicherungsleistungen umsatzsteuerfrei sind",
+      "Aus dem Betrag sind 19 % Vorsteuer herauszurechnen und auf 2600 zu buchen",
+      "Der Buchungssatz lautet: 2800 Bank an 6900 Versicherungsbeiträge 1.635,00 €",
+      "Der Beitrag ist auf dem Konto 6520 Abschreibungen zu erfassen"
+    ],
+    "korrekt": [
+      0,
+      1
+    ],
+    "erklaerung": "Versicherungsleistungen unterliegen der Versicherungsteuer, nicht der Umsatzsteuer – sie sind **umsatzsteuerfrei**, daher gibt es **keinen Vorsteuerabzug**. Gebucht wird der volle Betrag als Aufwand: **6900 an 2800**. Das Herausrechnen von 19 % (Option 3) ist deshalb falsch, Option 4 vertauscht Soll und Haben, und mit Abschreibungen (Option 5) hat ein Versicherungsbeitrag nichts zu tun.",
+    "schwierigkeit": 2,
+    "quellTermin": "2024-sommer"
+  },
+  {
+    "id": "kbz-lp-buchfuehrung-kontierung-20",
+    "themaId": "buchfuehrung-kontierung",
+    "bereich": "kbz",
+    "frage": "Eine Eingangsrechnung über **Handelswaren** wird innerhalb der Skontofrist unter Abzug von **3 % Lieferantenskonto** per Bank bezahlt. Welche **2 Auswirkungen** hat der Skontoabzug auf die Buchung?",
+    "optionen": [
+      "Der Skontobetrag (netto) mindert die Aufwendungen für Handelswaren (Buchung über 6080 bzw. 6082 Nachlässe)",
+      "Die auf den Skonto entfallende Vorsteuer (2600) muss korrigiert (gemindert) werden",
+      "Der Skontobetrag wird als zusätzlicher Umsatzerlös auf 5100 gebucht",
+      "Die Umsatzsteuer (4800) erhöht sich um den Skontobetrag",
+      "Der Skontoabzug bleibt buchhalterisch unberücksichtigt, da er unter 5 % liegt"
+    ],
+    "korrekt": [
+      0,
+      1
+    ],
+    "erklaerung": "Lieferantenskonto ist ein **nachträglicher Preisnachlass beim Einkauf**: Er mindert netto den Wareneinkaufsaufwand (6080 bzw. über das Nachlasskonto 6082) und zugleich anteilig die **Vorsteuer (2600)**, da sich die Bemessungsgrundlage verringert. Der Buchungssatz lautet z. B.: 4400 an 2800, 6082 und 2600. Umsatzerlöse (5100) und Umsatzsteuer (4800) betreffen nur Verkäufe, und eine Bagatellgrenze von 5 % existiert nicht – jeder Skonto muss gebucht werden.",
+    "schwierigkeit": 3,
+    "quellTermin": "2022-sommer"
+  }
+]

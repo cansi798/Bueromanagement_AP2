@@ -522,7 +522,8 @@
     "typ": "offen",
     "text": "**Aufgabe 4.11** — Erstellen Sie einen Einsatzplan für die Mitarbeitenden vor Ort. Zwischen 08:00–12:00 Uhr und 12:30–16:30 Uhr muss immer ein Ansprechpartner erreichbar sein. Ein Wechsel zwischen Büro und Homeoffice an einem Tag soll vermieden werden.\n\n- Herr Bakut: Teilzeit, 4 Std. nachmittags (montags, donnerstags **oder** freitags)\n- Frau Wegner: Teilzeit, 4 Std. vormittags (montags, mittwochs **oder** donnerstags)\n- Herr Gehrke: Teilzeit, 24 Std./Woche, nicht im Homeoffice; Einsatztage Dienstag, Mittwoch, Freitag\n\nTragen Sie die Namen in die Tabelle ein!",
     "punkte": 5,
-    "loesung": "| Uhrzeit | Montag | Dienstag | Mittwoch | Donnerstag | Freitag |\n|---|---|---|---|---|---|\n| 08:00–12:00 | Wegner | Gehrke | Gehrke | Wegner | Gehrke |\n| Pause | | Gehrke | Gehrke | | Gehrke |\n| 12:30–16:30 | Bakut | Gehrke | Gehrke | Bakut | Gehrke |\n\nHerr Gehrke (24 Std., ganztägig) deckt Dienstag, Mittwoch und Freitag ab. Frau Wegner (vormittags) übernimmt Montag- und Donnerstagvormittag, Herr Bakut (nachmittags) Montag- und Donnerstagnachmittag."
+    "loesung": "| Uhrzeit | Montag | Dienstag | Mittwoch | Donnerstag | Freitag |\n|---|---|---|---|---|---|\n| 08:00–12:00 | Wegner | Gehrke | Gehrke | Wegner | Gehrke |\n| Pause | | Gehrke | Gehrke | | Gehrke |\n| 12:30–16:30 | Bakut | Gehrke | Gehrke | Bakut | Gehrke |\n\nHerr Gehrke (24 Std., ganztägig) deckt Dienstag, Mittwoch und Freitag ab. Frau Wegner (vormittags) übernimmt Montag- und Donnerstagvormittag, Herr Bakut (nachmittags) Montag- und Donnerstagnachmittag.",
+    "anlagenText": "**Einsatzplan-Tabelle** — Tragen Sie den Namen des Mitarbeiters/der Mitarbeiterin in die folgende Tabelle ein:\n\n| Uhrzeit | Montag | Dienstag | Mittwoch | Donnerstag | Freitag |\n|---|---|---|---|---|---|\n| 08:00 – 12:00 | | | | | |\n| Pause | | | | | |\n| 12:30 – 16:30 | | | | | |"
   },
   {
     "id": "kbz-2025s-a4-12-1",
@@ -642,7 +643,8 @@
     "typ": "offen",
     "text": "**Aufgabe 5.8.1** — Geben Sie an, wie sich die Geschäftsfälle der Belege Nr. 2 und Nr. 3 (siehe Anlage) auf die Zahllast der Jana Loft KG auswirken, und begründen Sie Ihre Antwort!\n\n| Geschäftsfall | Auswirkung auf die Zahllast | Begründung |\n|---|---|---|\n| Zu Beleg 2 | ? | ? |\n| Zu Beleg 3 | ? | ? |",
     "punkte": 4,
-    "loesung": "| Geschäftsfall | Auswirkung | Begründung |\n|---|---|---|\n| Zu Beleg 2 (Frachtrechnung) | **sinkt** | Wir zahlen Vorsteuer; die abziehbare Vorsteuer erhöht sich, dadurch sinkt die Zahllast. |\n| Zu Beleg 3 (Gutschrift/Rücksendung) | **sinkt** | Wir erhalten weniger Umsatzsteuer (Erlösberichtigung mindert die vereinnahmte USt), dadurch sinkt die Zahllast. |"
+    "loesung": "| Geschäftsfall | Auswirkung | Begründung |\n|---|---|---|\n| Zu Beleg 2 (Frachtrechnung) | **sinkt** | Wir zahlen Vorsteuer; die abziehbare Vorsteuer erhöht sich, dadurch sinkt die Zahllast. |\n| Zu Beleg 3 (Gutschrift/Rücksendung) | **sinkt** | Wir erhalten weniger Umsatzsteuer (Erlösberichtigung mindert die vereinnahmte USt), dadurch sinkt die Zahllast. |",
+    "anlagenText": "**Beleg Nr. 2 — Rechnung der Blitz-Spedition GmbH, Rellingen, an die Jana Loft KG**\n\n- Rechnung Nr. 362247/2025, Datum: 25.04.2025, Eingang: 28.04.2025 (Ihre Kunden-Nr. 267383)\n- „Wir berechnen Ihnen für den Transport am 25.04.2025 von 45 Flipcharts von Hamburg zu Ihrem Kunden Westmoor KG nach Blomberg:\"\n\n| | EUR |\n|---|---|\n| Fracht | 261,00 |\n| zzgl. 19 % Umsatzsteuer | 49,59 |\n| **Gesamt** | **310,59** |\n\n---\n\n**Beleg Nr. 3 — Gutschrift der Jana Loft KG an die Westmoor KG, Blomberg**\n\n- Gutschrift Nr. 211740425, Datum: 30.04.2025 (zur Rechnung Nr. 550360425, Kunden-Nr. 267383)\n- „Für die Rücksendung der beschädigten Ware schreiben wir Ihnen folgenden Betrag gut:\"\n\n| Pos. | Art.-Nr. | Artikelbezeichnung | Menge | Stückpreis netto in EUR | Gesamtpreis in EUR |\n|---|---|---|---|---|---|\n| 1 | 384005 | Flipchart mit Tischfunktion und Rollen | 3 | 295,00 | 885,00 |\n\n| | EUR |\n|---|---|\n| + 19 % Umsatzsteuer | 168,15 |\n| **Brutto-Gesamt** | **1.053,15** |"
   },
   {
     "id": "kbz-2025s-a5-8-2",
@@ -2473,7 +2475,8 @@
     "typ": "rechnen",
     "text": "In einer Ergebnistabelle (Abgrenzungsrechnung) für einen Monat wurde ein Großteil der Posten bereits zugeordnet. (5.1) Tragen Sie die fehlenden Werte für \"Umsatzerlöse eigene Erzeugnisse\" (450.000,00 €) und \"Aufwand Rohstoffe\" (125.000,00 €) an der richtigen Stelle in der Betriebsergebnisrechnung ein. (5.2) Ergänzen Sie den kalkulatorischen Unternehmerlohn (5.600,00 €). (5.3) Ermitteln Sie jeweils die Summe der Kosten und der Leistungen. (5.4) Berechnen Sie das Betriebsergebnis!",
     "punkte": 7,
-    "loesung": "5.1: Umsatzerlöse eigene Erzeugnisse 450.000,00 € als Leistung, Aufwand Rohstoffe 125.000,00 € als Kosten in der Betriebsergebnisrechnung. 5.2: Kalkulatorischer Unternehmerlohn 5.600,00 € als Kosten. 5.3: Summe Kosten = 286.755,00 €, Summe Leistungen = 462.700,00 €. 5.4: Betriebsergebnis = 462.700,00 € − 286.755,00 € = 175.945,00 € (Saldo auf der Kostenseite)."
+    "loesung": "5.1: Umsatzerlöse eigene Erzeugnisse 450.000,00 € als Leistung, Aufwand Rohstoffe 125.000,00 € als Kosten in der Betriebsergebnisrechnung. 5.2: Kalkulatorischer Unternehmerlohn 5.600,00 € als Kosten. 5.3: Summe Kosten = 286.755,00 €, Summe Leistungen = 462.700,00 €. 5.4: Betriebsergebnis = 462.700,00 € − 286.755,00 € = 175.945,00 € (Saldo auf der Kostenseite).",
+    "anlagenText": "**Anlage: Ergebnistabelle (Abgrenzungsrechnung) für einen Monat** — Beträge in Euro. Felder mit „…\" sind grau hinterlegt und von Ihnen zu ergänzen.\n\n| Nr. | Konto | GuV: Aufwendungen | GuV: Erträge | Abgrenzung (betriebsfremd): Aufwendungen | Abgrenzung (betriebsfremd): Erträge | Kostenrechn. Korrekturen: betriebl. Aufwendungen | Kostenrechn. Korrekturen: verrechnete Kosten | Betriebsergebnisrechnung: Kosten | Betriebsergebnisrechnung: Leistungen |\n|---|---|---|---|---|---|---|---|---|---|\n| 1 | Umsatzerlöse eigene Erzeugnisse | | 450.000,00 | | | | | | … |\n| 2 | Umsatzerlöse Waren | | 12.700,00 | | | | | | 12.700,00 |\n| 3 | Zinserträge | | 450,00 | | 450,00 | | | | |\n| 4 | Mieterträge | | 1.600,00 | | 1.600,00 | | | | |\n| 5 | Aufwand Rohstoffe | 125.000,00 | | | | | | … | |\n| 6 | Aufwand Hilfsstoffe | 6.000,00 | | | | | | 6.000,00 | |\n| 7 | Löhne | 100.000,00 | | | | | | 100.000,00 | |\n| 8 | Gehälter | 36.000,00 | | | | | | 36.000,00 | |\n| 9 | Abschreibungen | 14.000,00 | | | | 14.000,00 | | | |\n| 10 | Mieten, Pachten | 5.000,00 | | | | | | 5.000,00 | |\n| 11 | Büromaterial | 1.300,00 | | | | | | 1.300,00 | |\n| 12 | Steuern, sonstige betriebliche | 355,00 | | | | | | 355,00 | |\n| 13 | **Kalkulatorische Kosten:** | | | | | | | | |\n| 14 | Kalkulatorische Abschreibungen | | | | | | 7.500,00 | 7.500,00 | |\n| 15 | Kalkulatorischer Unternehmerlohn | | | | | | … | … | |\n| 16 | **Summen** | 287.655,00 | 464.750,00 | 0,00 | 2.050,00 | 14.000,00 | 13.100,00 | … | … |\n| 17 | **Saldo** | 177.095,00 (Unternehmensergebnis) | | 2.050,00 (Abgrenzungsergebnis I) | | −900,00 (Abgrenzungsergebnis II) | | … (Betriebsergebnis) | |\n\nHinweis: Unternehmensergebnis (Gesamtergebnis) = 177.095,00 €; Abgrenzungsergebnis = 2.050,00 € + (−900,00 €) = 1.150,00 €."
   },
   {
     "id": "kbz-2022s-a5-55",
@@ -2484,7 +2487,8 @@
     "typ": "offen",
     "text": "In der Ergebnistabelle wird zwischen Abschreibungen laut GuV (bilanziellen Abschreibungen) und kalkulatorischen Abschreibungen (verrechneten Kosten) unterschieden. Erläutern Sie einen Unterschied bei der Berechnung der beiden Abschreibungsarten!",
     "punkte": 2,
-    "loesung": "Ein Unterschied, z. B.: Die bilanzielle Abschreibung erfolgt von den Anschaffungskosten, die kalkulatorische Abschreibung von den Wiederbeschaffungskosten. Oder: Bei der bilanziellen Abschreibung wird die Nutzungsdauer laut AfA-Tabelle verwendet, bei der kalkulatorischen die tatsächliche Nutzungsdauer. Oder: Kalkulatorisch wird nur betriebsnotwendiges Vermögen abgeschrieben, bilanziell auch andere Vermögensteile."
+    "loesung": "Ein Unterschied, z. B.: Die bilanzielle Abschreibung erfolgt von den Anschaffungskosten, die kalkulatorische Abschreibung von den Wiederbeschaffungskosten. Oder: Bei der bilanziellen Abschreibung wird die Nutzungsdauer laut AfA-Tabelle verwendet, bei der kalkulatorischen die tatsächliche Nutzungsdauer. Oder: Kalkulatorisch wird nur betriebsnotwendiges Vermögen abgeschrieben, bilanziell auch andere Vermögensteile.",
+    "anlagenText": "**Anlage: Ergebnistabelle (Auszug) — Behandlung der Abschreibungen** — Beträge in Euro.\n\n| Nr. | Konto | GuV: Aufwendungen | Kostenrechn. Korrekturen: betriebl. Aufwendungen | Kostenrechn. Korrekturen: verrechnete Kosten | Betriebsergebnisrechnung: Kosten |\n|---|---|---|---|---|---|\n| 9 | Abschreibungen (laut GuV, bilanziell) | 14.000,00 | 14.000,00 | | |\n| 14 | Kalkulatorische Abschreibungen (verrechnete Kosten) | | | 7.500,00 | 7.500,00 |\n\nIn der Ergebnistabelle werden die bilanziellen Abschreibungen (14.000,00 €) über die kostenrechnerischen Korrekturen ausgegrenzt und stattdessen kalkulatorische Abschreibungen (7.500,00 €) als Kosten verrechnet."
   },
   {
     "id": "kbz-2022s-a5-56",
@@ -2506,7 +2510,8 @@
     "typ": "offen",
     "text": "Erläutern Sie für die Ergebnistabelle den Zusammenhang zwischen Betriebsergebnis und Gesamtergebnis!",
     "punkte": 2,
-    "loesung": "Das Betriebsergebnis ist ein Teil des Gesamtergebnisses (Unternehmensergebnis) und steuert hier den größten Teil zum Gesamtergebnis bei. Zusammenhang: Unternehmensergebnis (Gesamtergebnis) − Abgrenzungsergebnis = Betriebsergebnis."
+    "loesung": "Das Betriebsergebnis ist ein Teil des Gesamtergebnisses (Unternehmensergebnis) und steuert hier den größten Teil zum Gesamtergebnis bei. Zusammenhang: Unternehmensergebnis (Gesamtergebnis) − Abgrenzungsergebnis = Betriebsergebnis.",
+    "anlagenText": "**Anlage: Ergebnistabelle (Auszug) — Ergebniszeilen** — Beträge in Euro.\n\n| Ergebnisgröße | Betrag |\n|---|---|\n| Unternehmensergebnis (Gesamtergebnis, Saldo der GuV-Rechnung: 464.750,00 − 287.655,00) | 177.095,00 |\n| Abgrenzungsergebnis (unternehmensbezogene Abgrenzungen 2.050,00 + kostenrechnerische Korrekturen −900,00) | 1.150,00 |\n| Betriebsergebnis (Leistungen − Kosten der Betriebsergebnisrechnung) | 175.945,00 |"
   },
   {
     "id": "kbz-2022s-a5-8",
@@ -2528,7 +2533,8 @@
     "typ": "offen",
     "text": "Die einzelnen Positionen der Abgrenzungstabelle werden kostenrechnerisch unterschiedlich behandelt. Ordnen Sie den Kostenarten Zusatzkosten und Anderskosten je eine Bezeichnung zu (1 = Büromaterial, 2 = Gehälter, 3 = Abschreibungen, 4 = Aufwendungen für Hilfsstoffe, 5 = Kalkulatorischer Unternehmerlohn).",
     "punkte": 2.1739,
-    "loesung": "Zusatzkosten = Kalkulatorischer Unternehmerlohn (5); Anderskosten = Abschreibungen (3). Lösung: 5 – 3."
+    "loesung": "Zusatzkosten = Kalkulatorischer Unternehmerlohn (5); Anderskosten = Abschreibungen (3). Lösung: 5 – 3.",
+    "anlagenText": "**Anlage: Ergebnistabelle (Abgrenzungsrechnung) für einen Monat** — Beträge in Euro (Auszug; „…\" = im Aufgabenzusammenhang zu ergänzende Felder).\n\n| Nr. | Konto | GuV: Aufwendungen | GuV: Erträge | Abgrenzung (betriebsfremd): Aufwendungen | Abgrenzung (betriebsfremd): Erträge | Kostenrechn. Korrekturen: betriebl. Aufwendungen | Kostenrechn. Korrekturen: verrechnete Kosten | Betriebsergebnisrechnung: Kosten | Betriebsergebnisrechnung: Leistungen |\n|---|---|---|---|---|---|---|---|---|---|\n| 1 | Umsatzerlöse eigene Erzeugnisse | | 450.000,00 | | | | | | … |\n| 2 | Umsatzerlöse Waren | | 12.700,00 | | | | | | 12.700,00 |\n| 3 | Zinserträge | | 450,00 | | 450,00 | | | | |\n| 4 | Mieterträge | | 1.600,00 | | 1.600,00 | | | | |\n| 5 | Aufwand Rohstoffe | 125.000,00 | | | | | | … | |\n| 6 | Aufwand Hilfsstoffe | 6.000,00 | | | | | | 6.000,00 | |\n| 7 | Löhne | 100.000,00 | | | | | | 100.000,00 | |\n| 8 | Gehälter | 36.000,00 | | | | | | 36.000,00 | |\n| 9 | Abschreibungen | 14.000,00 | | | | 14.000,00 | | | |\n| 10 | Mieten, Pachten | 5.000,00 | | | | | | 5.000,00 | |\n| 11 | Büromaterial | 1.300,00 | | | | | | 1.300,00 | |\n| 12 | Steuern, sonstige betriebliche | 355,00 | | | | | | 355,00 | |\n| 13 | **Kalkulatorische Kosten:** | | | | | | | | |\n| 14 | Kalkulatorische Abschreibungen | | | | | | 7.500,00 | 7.500,00 | |\n| 15 | Kalkulatorischer Unternehmerlohn | | | | | | 5.600,00 | 5.600,00 | |"
   },
   {
     "id": "kbz-2022s-a5-10",
@@ -2822,7 +2828,8 @@
     "typ": "offen",
     "text": "Sie bereiten sich auf ein Telefonat vor, um die Gründe für die ausstehende Zahlung zu erfragen. Vervollständigen Sie die Tabelle, indem Sie für die grauen Felder mögliche Fragen formulieren bzw. die entsprechende Fragetechnik eintragen! Vorgegeben sind: 'Welchen Grund gibt es, warum die Rechnung noch nicht bezahlt wurde?' und 'Zahlen Sie diese oder nächste Woche?'. Gesuchte Fragetechniken: Geschlossene Frage, Entscheidungsfrage, Kontrollfrage.",
     "punkte": 5,
-    "loesung": "Geschlossene Frage: 'Haben Sie die Rechnung erhalten?'. Offene Frage: 'Welchen Grund gibt es, warum die Rechnung noch nicht bezahlt wurde?' (vorgegeben). Entscheidungsfrage: 'Werden Sie die Rechnung noch heute bezahlen?'. Alternativfrage: 'Zahlen Sie diese oder nächste Woche?' (vorgegeben). Kontrollfrage: 'Habe ich Sie richtig verstanden, dass Sie die Rechnung in der kommenden Woche bezahlen?'. (5 Einträge, je 1 Punkt, z. B.)"
+    "loesung": "Geschlossene Frage: 'Haben Sie die Rechnung erhalten?'. Offene Frage: 'Welchen Grund gibt es, warum die Rechnung noch nicht bezahlt wurde?' (vorgegeben). Entscheidungsfrage: 'Werden Sie die Rechnung noch heute bezahlen?'. Alternativfrage: 'Zahlen Sie diese oder nächste Woche?' (vorgegeben). Kontrollfrage: 'Habe ich Sie richtig verstanden, dass Sie die Rechnung in der kommenden Woche bezahlen?'. (5 Einträge, je 1 Punkt, z. B.)",
+    "anlagenText": "**Tabelle zur Telefonat-Vorbereitung** — Vervollständigen Sie die 5 grauen Felder (mit „…\" markiert):\n\n| Fragetechnik | Frage der Jana Loft KG |\n|---|---|\n| Geschlossene Frage | … |\n| … | Welchen Grund gibt es, warum die Rechnung noch nicht bezahlt wurde? |\n| Entscheidungsfrage | … |\n| … | Zahlen Sie diese oder nächste Woche? |\n| Kontrollfrage | … |"
   },
   {
     "id": "kbz-2022w-a1-8",
@@ -3111,7 +3118,8 @@
     ],
     "punkte": 2,
     "loesung": "Antwort 3: Die tägliche Arbeitszeit kann 6 Stunden ohne Pause betragen.",
-    "erklaerung": "Nach § 4 ArbZG ist eine Ruhepause erst bei einer Arbeitszeit von mehr als sechs Stunden vorgeschrieben; bis einschließlich sechs Stunden ist keine Pause erforderlich."
+    "erklaerung": "Nach § 4 ArbZG ist eine Ruhepause erst bei einer Arbeitszeit von mehr als sechs Stunden vorgeschrieben; bis einschließlich sechs Stunden ist keine Pause erforderlich.",
+    "anlagenText": "**Auszug aus dem Arbeitszeitgesetz (ArbZG)**\n\n> **§ 4 Ruhepausen**\n> Die Arbeit ist durch im Voraus feststehende Ruhepausen von mindestens 30 Minuten bei einer Arbeitszeit von mehr als sechs bis zu neun Stunden und 45 Minuten bei einer Arbeitszeit von mehr als neun Stunden insgesamt zu unterbrechen. Die Ruhepausen nach Satz 1 können in Zeitabschnitte von jeweils mindestens 15 Minuten aufgeteilt werden. Länger als sechs Stunden hintereinander dürfen Arbeitnehmer nicht ohne Ruhepause beschäftigt werden.\n>\n> **§ 5 Ruhezeit**\n> 1. Die Arbeitnehmer müssen nach Beendigung der täglichen Arbeitszeit eine ununterbrochene Ruhezeit von mindestens elf Stunden haben.\n> 2. Die Dauer der Ruhezeit des Absatzes 1 kann in Krankenhäusern und anderen Einrichtungen zur Behandlung, Pflege und Betreuung von Personen, in Gaststätten und anderen Einrichtungen zur Bewirtung und Beherbergung, in Verkehrsbetrieben, beim Rundfunk sowie in der Landwirtschaft und in der Tierhaltung um bis zu eine Stunde verkürzt werden, wenn jede Verkürzung der Ruhezeit innerhalb eines Kalendermonats oder innerhalb von vier Wochen durch Verlängerung einer anderen Ruhezeit auf mindestens zwölf Stunden ausgeglichen wird.\n> 3. …"
   },
   {
     "id": "kbz-2022w-a3-9",
@@ -3357,7 +3365,8 @@
     "text": "Der Kunde überweist den ausstehenden Rechnungsbetrag unter Abzug von Skonto. Ermitteln Sie den Netto-Skontobetrag in Euro! Beachten Sie die Belege Nr. 1 und Nr. 3 (Skonto 2 % auf den Warenwert). Geben Sie den Rechenweg an!",
     "punkte": 2,
     "loesung": "Warenwert netto nach Rücksendung: 5.710,00 EUR - 660,00 EUR = 5.050,00 EUR. Netto-Skontobetrag = 5.050,00 EUR x 2 : 100 = 101,00 EUR.",
-    "erklaerung": "Der Skonto wird laut Zahlungsbedingung nur auf den Warenwert (netto) gewährt; die zurückgesandten Leuchten mindern diesen Warenwert."
+    "erklaerung": "Der Skonto wird laut Zahlungsbedingung nur auf den Warenwert (netto) gewährt; die zurückgesandten Leuchten mindern diesen Warenwert.",
+    "anlagenText": "**Beleg Nr. 1 — Ausgangsrechnung der Jana Loft KG an die Innovation AG, Dresden**\n\n- Rechnung Nr. 0637487122, Datum: 16.11.2022\n- Kunden-Nr. 6374, Lieferschein-Nr. 44932, Lieferung vom 14.11.2022\n\n| Pos. | Art.-Nr. | Artikelbezeichnung | Menge | Stückpreis netto in EUR | Gesamtpreis in EUR |\n|---|---|---|---|---|---|\n| 1 | 520038 | LED-Deckenleuchte Ecoffice, silber | 28 | 165,00 | 4.620,00 |\n| 2 | 760045 | Whiteboard SG 30, 120 cm × 260 cm, rahmenlos | 5 | 218,00 | 1.090,00 |\n\n| | EUR |\n|---|---|\n| Warenwert netto | 5.710,00 |\n| Transportkosten | 408,00 |\n| Nettobetrag | 6.118,00 |\n| 19 % Umsatzsteuer | 1.162,42 |\n| **Brutto-Rechnungsbetrag** | **7.280,42** |\n\nZahlungsbedingungen: Zahlung ab Rechnungsdatum in 30 Tagen oder innerhalb 8 Tagen mit Abzug von 2 % Skonto **auf den Warenwert**.\n\n---\n\n**Beleg Nr. 3 — Gutschrift der Jana Loft KG an die Innovation AG, Dresden**\n\n- Gutschrift Nr. 06374263, Datum: 18.11.2022 (zur Rechnungs-Nr. 0637487122, Kunden-Nr. 6374)\n- „Aufgrund Ihrer Rücksendung schreiben wir Ihnen den folgenden Betrag gut:\"\n\n| Pos. | Art.-Nr. | Artikelbezeichnung | Menge | Einzelpreis netto in EUR | Gesamtpreis in EUR |\n|---|---|---|---|---|---|\n| 1 | 520038 | LED-Deckenleuchte Ecoffice, silber | 4 | 165,00 | 660,00 |\n\n| | EUR |\n|---|---|\n| 19 % Umsatzsteuer | 125,40 |\n| **Rechnungsbetrag (Gutschrift)** | **785,40** |"
   },
   {
     "id": "kbz-2022w-a4-12",
@@ -3408,7 +3417,8 @@
     "text": "Bereiten Sie die Umsatzsteuer-Voranmeldung vor. Füllen Sie die Tabelle aus, indem Sie die Umsatzsteuer (regulärer Steuersatz 19 %) je Zeile berechnen! Netto-Beträge: Umsatzerlöse 504.622,16 EUR, Erlösberichtigungen 26.285,64 EUR, umsatzsteuerpflichtige Aufwendungen 498.749,43 EUR, Nachlässe 5.474,23 EUR. Markieren Sie, ob eine Zahllast oder ein Vorsteuerüberhang vorliegt, und ermitteln Sie den Betrag!",
     "punkte": 6,
     "loesung": "Umsatzerlöse: + 95.878,21 (USt.); Erlösberichtigungen: - 4.994,27 (USt.-Minderung); Aufwendungen: - 94.762,39 (Vorsteuer); Nachlässe: + 1.040,10 (Vorsteuer-Minderung). Saldo = 95.878,21 - 4.994,27 - 94.762,39 + 1.040,10 = -2.838,35 EUR -> Vorsteuerüberhang von 2.838,35 EUR. (je Zeile 1 P., Kennzeichnung 1 P.)",
-    "erklaerung": "Umsatzsteuer aus Erlösen minus Erlösberichtigungen ergibt die vereinnahmte USt.; Vorsteuer aus Aufwendungen minus Nachlässe ergibt die abziehbare Vorsteuer. Ist die Vorsteuer größer, entsteht ein Vorsteuerüberhang (Erstattung)."
+    "erklaerung": "Umsatzsteuer aus Erlösen minus Erlösberichtigungen ergibt die vereinnahmte USt.; Vorsteuer aus Aufwendungen minus Nachlässe ergibt die abziehbare Vorsteuer. Ist die Vorsteuer größer, entsteht ein Vorsteuerüberhang (Erstattung).",
+    "anlagenText": "**Tabelle zur Umsatzsteuer-Voranmeldung (Oktober 2022)** — Füllen Sie die rechte Spalte aus („…\" = einzutragen), markieren Sie Zahllast oder Vorsteuerüberhang und ermitteln Sie den Betrag:\n\n| Umsatzsteuerpflichtige Umsätze und Aufwendungen | Netto-Beträge in EUR | Umsatzsteuer regulärer Steuersatz |\n|---|---|---|\n| Umsatzerlöse | 504.622,16 | … |\n| Erlösberichtigungen | 26.285,64 | … |\n| Umsatzsteuerpflichtige Aufwendungen | 498.749,43 | … |\n| Nachlässe | 5.474,23 | … |\n| ☐ Zahllast / ☐ Vorsteuerüberhang | | … |"
   },
   {
     "id": "kbz-2023s-a1-4",
@@ -3716,7 +3726,8 @@
     "text": "Die Sägeanlage hat laut AfA-Tabelle eine betriebsgewöhnliche Nutzungsdauer von 14 Jahren. Berechnen Sie die zeitanteilige Abschreibung in Euro für die Sägeanlage im Jahr der Anschaffung! Geben Sie Ihren Rechenweg an! (Anschaffung/Lieferung im April)",
     "punkte": 3,
     "loesung": "**Jahres-AfA = Anschaffungskosten / Nutzungsdauer**, im Anschaffungsjahr zeitanteilig (pro rata temporis, ab April = 9 Monate).\n\n76.651,74 € : 14 = 5.475,12 € (volle Jahres-AfA)\n5.475,12 € × 9 : 12 = **4.106,34 €**\n\nDie zeitanteilige Abschreibung im Jahr der Anschaffung beträgt **4.106,34 €**.",
-    "erklaerung": "Bei unterjähriger Anschaffung wird linear und monatsgenau abgeschrieben. Die Lieferung erfolgte im April, also werden 9 der 12 Monate berücksichtigt (April bis Dezember)."
+    "erklaerung": "Bei unterjähriger Anschaffung wird linear und monatsgenau abgeschrieben. Die Lieferung erfolgte im April, also werden 9 der 12 Monate berücksichtigt (April bis Dezember).",
+    "anlagenText": "**Beleg 1 — Rechnung der Voth Maschinenbau OHG, Altdorf, an die Jana Loft KG**\n\n- Rechnungs-Nr. 24825042023, Datum: 19.04.2023, Eingang: 21.04.2023, Lieferung vom 17.04.2023\n\n| Pos. | Bezeichnung | Menge | Einzelpreis netto in EUR | Gesamtpreis in EUR |\n|---|---|---|---|---|\n| 1 | Sägeanlage DY 3098 | 1 | 76.853,00 | 76.853,00 |\n| 2 | Monteurstunden am 18.04.2023 | 6 | 85,00 | 510,00 |\n\n| | EUR |\n|---|---|\n| Netto-Gesamt | 77.363,00 |\n| 19 % Umsatzsteuer | 14.698,97 |\n| **Brutto-Gesamt** | **92.061,97** |\n\nZahlungsbedingungen: Zahlung ab Rechnungsdatum innerhalb von 30 Tagen oder innerhalb von 7 Tagen unter Abzug von 2 % Skonto vom Rechnungsbetrag.\n\n---\n\n**Beleg 2 — Rechnung der Blitz-Spedition GmbH, Rellingen, an die Jana Loft KG**\n\n- Rechnungs-Nummer 43189/2023, Datum: 19.04.2023, Eingang: 21.04.2023\n- „Wir berechnen Ihnen für den Transport einer Sägeanlage von Altdorf nach Hamburg am 17.04.2023:\"\n\n| | EUR |\n|---|---|\n| Fracht | 836,00 |\n| zzgl. 19 % Umsatzsteuer | 158,84 |\n| **Gesamt** | **994,84** |\n\n---\n\n**Beleg 3 — Kontoauszug Hamburger Sparkasse (Auszug), Jana Loft KG, vom 25.04.2023**\n\n| Pos. | Wert | Erläuterung | Betrag EUR |\n|---|---|---|---|\n| 1 | 25.04.2023 | Überweisung Voth Maschinenbau OHG, Rech. Nr. 24825042023, abzgl. 2 % Skonto | −90.220,73 |\n\nHinweis: Die Anschaffungskosten der Sägeanlage ergeben sich aus Anschaffungspreis inkl. Montage abzüglich Skonto zuzüglich Anschaffungsnebenkosten (Fracht)."
   },
   {
     "id": "kbz-2023s-a6-1",
@@ -4262,7 +4273,8 @@
     ],
     "punkte": 2.2727,
     "loesung": "Richtig ist Option 4: Der Betriebsrat hat eine Anhoerungsfrist von 1 Woche, um Stellung zur Kuendigung zu nehmen.",
-    "erklaerung": "Nach Paragraf 102 BetrVG ist der Betriebsrat vor jeder Kuendigung zu hoeren. Bei ordentlichen Kuendigungen kann er innerhalb einer Woche schriftlich Bedenken mitteilen."
+    "erklaerung": "Nach Paragraf 102 BetrVG ist der Betriebsrat vor jeder Kuendigung zu hoeren. Bei ordentlichen Kuendigungen kann er innerhalb einer Woche schriftlich Bedenken mitteilen.",
+    "anlagenText": "**Auszug Betriebsverfassungsgesetz (BetrVG)**\n\n> **§ 102 Mitbestimmung bei Kündigungen**\n> (1) Der Betriebsrat ist vor jeder Kündigung zu hören. Der Arbeitgeber hat ihm die Gründe für die Kündigung mitzuteilen. Eine ohne Anhörung des Betriebsrats ausgesprochene Kündigung ist unwirksam.\n> (2) Hat der Betriebsrat gegen eine ordentliche Kündigung Bedenken, so hat er diese unter Angabe der Gründe dem Arbeitgeber spätestens innerhalb einer Woche schriftlich mitzuteilen. (…)"
   },
   {
     "id": "kbz-2023w-a4-14",
@@ -4372,7 +4384,8 @@
     ],
     "punkte": 2.2727,
     "loesung": "Richtig ist Option 3: Bis zum 31.12.2029.",
-    "erklaerung": "Buchungsbelege sind gemaess Paragraf 257 HGB / Paragraf 147 AO aufzubewahren; die Frist beginnt mit dem Ende des Kalenderjahres der Ausstellung. Bei einem Beleg von 2023 endet die Aufbewahrungsfrist zum 31.12.2029."
+    "erklaerung": "Buchungsbelege sind gemaess Paragraf 257 HGB / Paragraf 147 AO aufzubewahren; die Frist beginnt mit dem Ende des Kalenderjahres der Ausstellung. Bei einem Beleg von 2023 endet die Aufbewahrungsfrist zum 31.12.2029.",
+    "anlagenText": "**Beleg Nr. 3 — Quittung (Kassenbon)**\n\n- **Schreibwaren Lüders**, Annette Lüders e. K., Am Dammtor 33, 20354 Hamburg, Tel. 040 35267712\n- QUITTUNG — Bon-Nummer: 621142355 — Es bediente Sie: Herr Simon Kurelnik\n\n| Artikel | Betrag |\n|---|---|\n| Ordner-Etiketten (Art.-Nr. 33824776025), 5 Packungen × 13,90 EUR | 69,50 EUR |\n| **Gesamt** | **69,50 EUR** |\n| Gegeben | 70,00 EUR |\n| Rückgeld | 0,50 EUR |\n| Gesamt netto | 58,40 EUR |\n| MwSt. 19 % | 11,10 EUR |\n\n- USt-ID: DE345523876\n- **Liefer-/Rechnungsdatum: 28.11.2023**, 16:34 Uhr\n- „Vielen Dank für Ihren Einkauf! Bitte den Beleg für Umtausch aufbewahren.\""
   },
   {
     "id": "kbz-2023w-a5-8",
@@ -5754,7 +5767,8 @@
     "text": "Die Nutzungsdauer der Maschine laut AfA-Tabelle beträgt 15 Jahre. Berechnen Sie die Anschaffungskosten der Maschine!",
     "punkte": 2,
     "loesung": "Anschaffungskosten = 14.800,00 (netto) + 350,00 (Transport) + 480,00 (Montage/Inbetriebnahme) = 15.630,00 €.",
-    "erklaerung": "Zu den Anschaffungskosten gehören der Nettokaufpreis sowie alle Nebenkosten, um die Maschine betriebsbereit zu machen."
+    "erklaerung": "Zu den Anschaffungskosten gehören der Nettokaufpreis sowie alle Nebenkosten, um die Maschine betriebsbereit zu machen.",
+    "anlagenText": "### Beleg 4 – Eingangsrechnung Maschine\n\n**Holz-Fer Maschinen AG – Holzbearbeitungsmaschinen**, Kilianstr. 45, 90451 Bamberg\nAn: Jana Loft KG, Büromöbel und Bürozubehör, Volksdorfer Damm 46, 22359 Hamburg\n\n- Rechnungs-Nr. 2178/2019, Kunden-Nr. 23432, Auftrags-Nr. 872019 (15.04.2019), Bestell-Nr. B5649\n- Rechnungsdatum: 30.04.2019 (Eingangsstempel: 06.05.2019), Lieferdatum: 30.04.2019\n\n| Pos. | Art.-Nr. | Bezeichnung | Menge | Einzelpreis | Gesamtpreis (EUR) |\n|---|---|---|---|---|---|\n| 1 | K1350 | Kanten-Anleimmaschine Lumina 1350XL inkl. Kleberauftragssystem und Lasereinheit LTRONIC | 1 Stück | 14.800,00 EUR | 14.800,00 |\n| 2 | | Transport pauschal | | 350,00 EUR | 350,00 |\n| 3 | | Montage und Inbetriebnahme | 4 Std. | 120,00 EUR | 480,00 |\n\n| | EUR |\n|---|---|\n| Nettobetrag | 15.630,00 |\n| USt 19 % | 2.969,70 |\n| **Rechnungsbetrag** | **18.599,70** |\n\nZahlungsvereinbarung: \"10 Tage 2 % Skonto – Montage und Fracht sind nicht skontierbar! – 30 Tage ab Rechnungsdatum netto Kasse.\""
   },
   {
     "id": "kbz-2019s-a5-12-2",
@@ -5803,7 +5817,8 @@
     "text": "Liegen bei Beleg 1 (Eingangsrechnung Handelsware) und bei Beleg 4 (Eingangsrechnung Maschine) erfolgswirksame oder erfolgsunwirksame Geschäftsfälle vor? Klären Sie außerdem, wie sich diese auf den Gewinn und auf die Umsatzsteuerzahllast auswirken!",
     "punkte": 6,
     "loesung": "Beleg 1: erfolgswirksam – Gewinn sinkt – Umsatzsteuerzahllast sinkt. Beleg 4: erfolgsunwirksam – Gewinn unverändert – Umsatzsteuerzahllast sinkt.",
-    "erklaerung": "Der Wareneinkauf (Beleg 1) ist Aufwand und mindert den Gewinn; der Maschinenkauf (Beleg 4) ist ein Aktivtausch (erfolgsunwirksam). Bei beiden entsteht Vorsteuer, die die Zahllast mindert. 6 Einträge je 1 Punkt."
+    "erklaerung": "Der Wareneinkauf (Beleg 1) ist Aufwand und mindert den Gewinn; der Maschinenkauf (Beleg 4) ist ein Aktivtausch (erfolgsunwirksam). Bei beiden entsteht Vorsteuer, die die Zahllast mindert. 6 Einträge je 1 Punkt.",
+    "anlagenText": "### Beleg 1 – Eingangsrechnung Handelsware\n\nKontext: Vom Büroausstatter Winter OHG liegt eine Bestellung über 14 Whiteboards vor. Die Jana Loft KG bestellt daraufhin bei ihrem Lieferanten Hehl GmbH.\n\n**Hehl GmbH**, Kielerstraße 23, 23795 Bad Segeberg\nAn: Jana Loft KG, Büromöbel und Bürozubehör, Volksdorfer Damm 46, 22359 Hamburg\n\n- Rechnungs-Nr. 2178/2019, Kunden-Nr. 23432\n- Rechnungsdatum: 30.04.2019 (Eingangsstempel: 03.05.2019)\n\n| Artikel | Menge | Einzelpreis (EUR) | Gesamtpreis (EUR) |\n|---|---|---|---|\n| Whiteboard 2020 Hehlpro, Emaille | 14 | 445,00 | 6.230,00 |\n| zzgl. 19 % Umsatzsteuer | | | 1.183,70 |\n| **Gesamt** | | | **7.413,70** |\n\nAuf dem Beleg sind keine Zahlungsbedingungen abgedruckt.\n\n### Beleg 4 – Eingangsrechnung Maschine\n\n**Holz-Fer Maschinen AG – Holzbearbeitungsmaschinen**, Kilianstr. 45, 90451 Bamberg\nAn: Jana Loft KG, Büromöbel und Bürozubehör, Volksdorfer Damm 46, 22359 Hamburg\n\n- Rechnungs-Nr. 2178/2019, Kunden-Nr. 23432, Auftrags-Nr. 872019 (15.04.2019), Bestell-Nr. B5649\n- Rechnungsdatum: 30.04.2019 (Eingangsstempel: 06.05.2019), Lieferdatum: 30.04.2019\n\n| Pos. | Art.-Nr. | Bezeichnung | Menge | Einzelpreis | Gesamtpreis (EUR) |\n|---|---|---|---|---|---|\n| 1 | K1350 | Kanten-Anleimmaschine Lumina 1350XL inkl. Kleberauftragssystem und Lasereinheit LTRONIC | 1 Stück | 14.800,00 EUR | 14.800,00 |\n| 2 | | Transport pauschal | | 350,00 EUR | 350,00 |\n| 3 | | Montage und Inbetriebnahme | 4 Std. | 120,00 EUR | 480,00 |\n\n| | EUR |\n|---|---|\n| Nettobetrag | 15.630,00 |\n| USt 19 % | 2.969,70 |\n| **Rechnungsbetrag** | **18.599,70** |\n\nZahlungsvereinbarung: \"10 Tage 2 % Skonto – Montage und Fracht sind nicht skontierbar! – 30 Tage ab Rechnungsdatum netto Kasse.\""
   },
   {
     "id": "kbz-2020s-a1-1",
@@ -7180,7 +7195,8 @@
     "text": "Die Personalleiterin ist mit ihrem Privatwagen zu einer Recruiting-Messe gefahren. Erstellen Sie die Reisekostenabrechnung (Verpflegungsmehraufwand, Kilometerpauschale, Belege, Abzüge, Erstattungsbetrag)!\n\nRichtlinien (Inland, mehrtägige auswärtige Tätigkeit): 28,00 € je vollem Kalendertag (24 h abwesend); 14,00 € für An- und Abreisetag; Abzug 5,60 € für ein berechnetes Hotelfrühstück; Abzug 11,20 € für ein berechnetes Mittag-/Abendessen; Kilometerpauschale 0,30 € je km.\n\nDaten: Beginn 07.04. 15:00 Uhr, Ende 09.04. 20:00 Uhr, Ziel Recruiting-Messe, 630 gefahrene Kilometer. Belege: Hotelrechnung 205,00 € (inkl. 9,00 € Minibar, 2 Übernachtungen ohne Frühstück), Tankbeleg 56,00 €, erhaltener Vorschuss 250,00 €.",
     "punkte": 9,
     "loesung": "**Verpflegungsmehraufwand:**\n- 07.04. (Anreisetag): 14,00 €\n- 08.04. (voller Tag): 28,00 €\n- 09.04. (Abreisetag): 14,00 €\n= 56,00 €\n\n**Kilometerpauschale:** 630 km × 0,30 € = 189,00 €\n\n**Belege:** Hotelrechnung ohne Minibar (privat): 205,00 − 9,00 = **196,00 €** (Tankbeleg wird bei Nutzung der Kilometerpauschale nicht zusätzlich erstattet)\n\n**Zwischensumme:** 56,00 + 189,00 + 196,00 = 441,00 €\n\n**Abzüge:** erhaltener Vorschuss 250,00 €\n\n**Erstattungsbetrag:** 441,00 − 250,00 = **191,00 €**",
-    "erklaerung": "Bei einer mehrtägigen Reise gibt es für den An- und Abreisetag je 14,00 € und für jeden vollen Kalendertag (24 h abwesend) 28,00 €. Mit dem Privatwagen wird die Kilometerpauschale (0,30 €/km) abgerechnet; der Tankbeleg wird dann nicht zusätzlich erstattet. Private Kosten (Minibar) sind nicht erstattungsfähig. Der bereits gezahlte Vorschuss wird vom Gesamtbetrag abgezogen."
+    "erklaerung": "Bei einer mehrtägigen Reise gibt es für den An- und Abreisetag je 14,00 € und für jeden vollen Kalendertag (24 h abwesend) 28,00 €. Mit dem Privatwagen wird die Kilometerpauschale (0,30 €/km) abgerechnet; der Tankbeleg wird dann nicht zusätzlich erstattet. Private Kosten (Minibar) sind nicht erstattungsfähig. Der bereits gezahlte Vorschuss wird vom Gesamtbetrag abgezogen.",
+    "anlagenText": "### Auszug aus den Richtlinien zur internen Reisekostenabrechnung\n\n**Verpflegungspauschalen im Inland – Mehrtägige auswärtige Tätigkeiten**\n- 28,00 EUR für jeden Kalendertag, an dem der Arbeitnehmer 24 Stunden abwesend ist\n- 14,00 EUR für den An- und Abreisetag\n- Abzug von 5,60 EUR für ein berechnetes Hotelfrühstück\n- Abzug von 11,20 EUR für ein berechnetes Mittag- oder Abendessen\n\n**Kilometerpauschale für Reisen mit dem Privatwagen:** 0,30 EUR je Kilometer\n\n### Eingereichte Belege für die Reisekostenabrechnung Anne Ohlsen\n\n| Beleg | Betrag | Anmerkung |\n|---|---|---|\n| Bezahlte Hotelrechnung | 205,00 EUR | 2 Übernachtungen ohne Frühstück |\n| davon inklusive | 9,00 EUR | Minibar |\n| Tankbeleg | 56,00 EUR | |\n| Beleg über erhaltenen Vorschuss | 250,00 EUR | |\n\n### Formular \"Reisekostenabrechnung\" (graue Felder = auszufüllen)\n\n| Feld | Eintrag |\n|---|---|\n| Reisende/-r / Abteilung | Anne Ohlsen / Personal |\n| Personal-Nummer | 354761 |\n| Beginn der Reise | 07.04.2021, 15:00 Uhr |\n| Ende der Reise | 09.04.2021, 20:00 Uhr |\n| Ziel der Reise | Berlin |\n| Grund der Reise | Recruiting-Messe |\n| Bei Privatwagen: gefahrene Kilometer | 630 km |\n\nAuszufüllende Abschnitte: Verpflegungsmehraufwand (Datum | Erstattungsbetrag), Kilometerpauschale, Belege, Abzüge, Erstattungsbetrag."
   },
   {
     "id": "kbz-2021s-a3-7",
@@ -7352,7 +7368,8 @@
     "text": "Kontieren Sie den abgebildeten Beleg Nr. 1 (Eingangsrechnung eines Verlags über 5.000 beidseitig bedruckte Flyer DIN A4)! Bilden Sie den Buchungssatz (Soll an Haben) mit den vierstelligen Kontonummern. Aufwände werden netto gebucht, die Vorsteuer getrennt.\n\nBeleg: Werbe-Flyer, Gesamtpreis 166,30 € netto, zzgl. 19 % USt 31,60 €, Gesamt 197,90 €. Lieferant \"Sonstige Lieferanten und Dienstleister\" (Konto 4499). Verwendete Konten: 6870 Werbung, 2600 Vorsteuer, 4499 Sonstige Lieferanten und Dienstleister.",
     "punkte": 2.2727,
     "loesung": "**6870 Werbung 166,30 €**\n**2600 Vorsteuer 31,60 €**\n**an 4499 Sonstige Lieferanten und Dienstleister 197,90 €**",
-    "erklaerung": "Die Flyer sind Werbematerial und werden als Aufwand auf dem Konto 6870 (Werbung) netto gebucht. Die in Rechnung gestellte Umsatzsteuer ist für das Unternehmen abziehbare Vorsteuer (Konto 2600). Die noch offene Rechnung führt zu einer Verbindlichkeit gegenüber dem Lieferanten (Konto 4499)."
+    "erklaerung": "Die Flyer sind Werbematerial und werden als Aufwand auf dem Konto 6870 (Werbung) netto gebucht. Die in Rechnung gestellte Umsatzsteuer ist für das Unternehmen abziehbare Vorsteuer (Konto 2600). Die noch offene Rechnung führt zu einer Verbindlichkeit gegenüber dem Lieferanten (Konto 4499).",
+    "anlagenText": "### Beleg Nr. 1 – Eingangsrechnung\n\n**Hamburger Verlagsgesellschaft mbH**, Ausschläger Allee 117, 20539 Hamburg\nAn: Jana Loft KG, Büromöbel und Bürozubehör, Volksdorfer Damm 46, 22359 Hamburg\n\n- Rechnungs-Nr. 669243, Kunden-Nr. 49208\n- Datum: 29.04.2021 (Eingangsstempel: 03.05.2021), Lieferdatum: 28.04.2021\n\n| Artikel | Menge | Gesamtpreis (EUR) |\n|---|---|---|\n| Flyer DIN A4, beidseitig vierfarbig bedruckt, 130 g/m², Bilderdruck glänzend | 5 000 | 166,30 |\n| zzgl. 19 % Umsatzsteuer | | 31,60 |\n| **Gesamt** | | **197,90** |"
   },
   {
     "id": "kbz-2021s-a5-2",
@@ -7364,7 +7381,8 @@
     "text": "Kontieren Sie den abgebildeten Beleg Nr. 2 (Barkauf von 5 Stehordnern im Schreibwarenhandel gegen Barzahlung)! Bilden Sie den Buchungssatz mit vierstelligen Kontonummern, netto gebucht, Vorsteuer getrennt.\n\nBeleg (Quittung): 5 Stück Stehordner à 8,90 €, Gesamt brutto 44,50 €, davon Gesamtnetto 37,39 €, USt 19 % 7,11 €, bar bezahlt. Verwendete Konten: 6800 Büromaterial, 2600 Vorsteuer, 2880 Kasse.",
     "punkte": 2.2727,
     "loesung": "**6800 Büromaterial 37,39 €**\n**2600 Vorsteuer 7,11 €**\n**an 2880 Kasse 44,50 €**",
-    "erklaerung": "Die Stehordner sind Büromaterial und werden netto als Aufwand auf Konto 6800 gebucht. Die 19 % Umsatzsteuer sind abziehbare Vorsteuer (Konto 2600). Da bar bezahlt wurde, mindert sich der Kassenbestand (Konto 2880 Kasse) um den Bruttobetrag."
+    "erklaerung": "Die Stehordner sind Büromaterial und werden netto als Aufwand auf Konto 6800 gebucht. Die 19 % Umsatzsteuer sind abziehbare Vorsteuer (Konto 2600). Da bar bezahlt wurde, mindert sich der Kassenbestand (Konto 2880 Kasse) um den Bruttobetrag.",
+    "anlagenText": "### Beleg Nr. 2 – Quittung (Barkauf)\n\n**Schreibwarenhaus Steffens**, Am Dammtor 19, 20354 Hamburg, Tel. 040 35267712, USt-ID: DE345523876\n\nQUITTUNG – 03.05.2021, 11:34 Uhr, Bon-Nr. 23562114 (Es bediente Sie: Frau Simone Jerkson)\n\n| Position | Einzelpreis | Betrag |\n|---|---|---|\n| Artikel 6025 Stehordner, 5 Stück | 8,90 EUR | 44,50 EUR |\n| **Gesamt** | | **44,50 EUR** |\n| Gegeben | | 50,00 EUR |\n| Rückgeld | | 5,50 EUR |\n| Gesamtnetto | | 37,39 EUR |\n| USt. 19 % | | 7,11 EUR |\n\n\"Vielen Dank für Ihren Einkauf! Bitte den Kassenbon für Umtausch aufbewahren.\""
   },
   {
     "id": "kbz-2021s-a5-5",
@@ -7690,7 +7708,8 @@
     "text": "Ergänzen Sie die Tabelle mit dem Urlaubsanspruch. Die Arbeitswoche dauert Montag bis Freitag (5 Tage). Grundlagen: Manteltarifvertrag § 10 (30 Arbeitstage jährlich), SGB IX § 208 (5 Arbeitstage Zusatzurlaub für Schwerbehinderte). Berechnen Sie für die Beschäftigten den Urlaubsanspruch 2022 und den Gesamt-Urlaub (Resturlaub 2021 + Anspruch 2022). Resturlaub 2021: Anne Ohlsen 8, Sarah Wegner 12, Yilmaz Öztürk (schwerbehindert, Vollzeit) 0, Stefan Dahlmann (zum 30.04.2022 gekündigt) 5, Bente Lehmann (bis 18.01.2022 Azubi, danach unbefristete Übernahme) 0, Bastian Sommer (ab 01.01.2022 Personalreferent, volle Übernahme der Urlaubstage 2021 bescheinigt) 0.",
     "punkte": 6,
     "loesung": "Keine amtliche Lösung im IHK-Lösungs-PDF vorhanden (nur MC-Schlüssel). Musterlösung: Voller Jahresurlaub laut MTV = 30 Arbeitstage. Anne Ohlsen: 30 (Anspruch 2022) + 8 = 38 Gesamt. Sarah Wegner: 30 + 12 = 42. Yilmaz Öztürk: 30 + 5 (Zusatzurlaub Schwerbehinderung, § 208 SGB IX) = 35 Anspruch 2022, + 0 = 35. Stefan Dahlmann (Ausscheiden 30.04.2022, 4/12): 30 × 4/12 = 10 Anspruch 2022 + 5 = 15. Bastian Sommer (Eintritt 01.01.2022, volles Jahr): 30 + 0 = 30. Bente Lehmann (Übernahme nach Ausbildung im laufenden Jahr): anteiliger Anspruch 2022 zzgl. 0 Resturlaub. Hinweis: Werte für Bente Lehmann von der exakten Monatszahl der Übernahme abhängig; ohne amtlichen Lösungsschlüssel unter Vorbehalt.",
-    "erklaerung": "Bei unterjährigem Ein- oder Austritt wird der Jahresurlaub zeitanteilig (Zwölftel je vollem Beschäftigungsmonat) berechnet; Schwerbehinderte erhalten 5 zusätzliche Arbeitstage."
+    "erklaerung": "Bei unterjährigem Ein- oder Austritt wird der Jahresurlaub zeitanteilig (Zwölftel je vollem Beschäftigungsmonat) berechnet; Schwerbehinderte erhalten 5 zusätzliche Arbeitstage.",
+    "anlagenText": "### Gesetzes- und Tarifauszüge\n\n> **Bundesurlaubsgesetz, § 3 Dauer des Urlaubs**\n> (1) Der Urlaub beträgt jährlich mindestens 24 Werktage.\n> (2) Als Werktage gelten alle Kalendertage, die nicht Sonn- oder gesetzliche Feiertage sind.\n\n> **Manteltarifvertrag, § 10 Erholungsurlaub**\n> 1.1 Der Beschäftigte hat in jedem Kalenderjahr einen unabdingbaren Anspruch auf bezahlten Erholungsurlaub.\n> 1.2 Das Urlaubsjahr ist das Kalenderjahr.\n> 2.1 Der Urlaub beträgt jährlich 30 Arbeitstage.\n\n> **Sozialgesetzbuch IX, § 208 Zusatzurlaub**\n> (1) Schwerbehinderte Menschen haben Anspruch auf einen bezahlten zusätzlichen Urlaub von fünf Arbeitstagen im Urlaubsjahr; verteilt sich die regelmäßige Arbeitszeit des schwerbehinderten Menschen auf mehr oder weniger als fünf Arbeitstage in der Kalenderwoche, erhöht oder vermindert sich der Zusatzurlaub entsprechend.\n\n### Tabelle \"Urlaubsansprüche bei der Jana Loft KG\" (graue Felder = auszufüllen)\n\nDie Arbeitswoche der Jana Loft KG dauert von Montag bis Freitag.\n\n| Name | Resturlaub 2021 (Arbeitstage) | Urlaubsanspruch 2022 (Arbeitstage) | Gesamt-Urlaub (Arbeitstage) |\n|---|---|---|---|\n| Anne Ohlsen (Prokuristin) | 8 | *(leer)* | *(leer)* |\n| Sarah Wegner (Personalverwaltung) | 12 | *(leer)* | *(leer)* |\n| Yilmaz Öztürk (Entgeltabrechnung), schwerbehindert, vollzeitbeschäftigt | 0 | *(leer)* | *(leer)* |\n| Stefan Dahlmann (Aus- und Fortbildung), hat zum 30.04.2022 gekündigt | 5 | *(leer)* | *(leer)* |\n| Bente Lehmann (Personalverwaltung), bis 18. Januar 2022 Auszubildende, danach Übernahme in ein unbefristetes Arbeitsverhältnis | 0 | *(leer)* | *(leer)* |\n| Bastian Sommer (ab 1. Januar 2022 Personalreferent), Bescheinigung über vollständig genommene Urlaubstage von 2021 liegt vor | 0 | *(leer)* | *(leer)* |"
   },
   {
     "id": "kbz-2021w-a3-4",
@@ -7701,7 +7720,8 @@
     "typ": "offen",
     "text": "Prüfen Sie die Urlaubsplanungstabelle (Kalenderwochen 27-35) unter folgenden Regeln und nehmen Sie Änderungen vor: Frau Ohlsen und Herr Sommer dürfen nicht gleichzeitig Urlaub nehmen; der Urlaub von Frau Ohlsen bleibt unverändert; mindestens drei Mitarbeiter/-innen müssen anwesend sein; Frau Wegner muss aufgrund einer Betriebsvereinbarung ihren Urlaub in den Schulferien (KW 28-32) planen können; alle sollen mindestens drei Wochen zusammenhängend nehmen; die eingetragenen Kreuze zeigen die Wünsche.",
     "punkte": 5,
-    "loesung": "Keine amtliche Lösung im IHK-Lösungs-PDF vorhanden (nur MC-Schlüssel). Musterlösung: Konflikt: Frau Ohlsen (KW 27-29) und Herr Sommer (KW 29-31) überschneiden sich in KW 29 - Herrn Sommers Urlaub ist zu verschieben (z. B. auf KW 30-32), da Frau Ohlsens Urlaub unverändert bleibt. Frau Wegner (KW 30-32) liegt in den Schulferien und bleibt. Es ist sicherzustellen, dass in jeder Woche mindestens drei Mitarbeiter/-innen anwesend sind und jede/r drei zusammenhängende Wochen erhält; ggf. wird die Reserve eingesetzt. (Genaue Verteilung ohne amtlichen Lösungsschlüssel unter Vorbehalt.)"
+    "loesung": "Keine amtliche Lösung im IHK-Lösungs-PDF vorhanden (nur MC-Schlüssel). Musterlösung: Konflikt: Frau Ohlsen (KW 27-29) und Herr Sommer (KW 29-31) überschneiden sich in KW 29 - Herrn Sommers Urlaub ist zu verschieben (z. B. auf KW 30-32), da Frau Ohlsens Urlaub unverändert bleibt. Frau Wegner (KW 30-32) liegt in den Schulferien und bleibt. Es ist sicherzustellen, dass in jeder Woche mindestens drei Mitarbeiter/-innen anwesend sind und jede/r drei zusammenhängende Wochen erhält; ggf. wird die Reserve eingesetzt. (Genaue Verteilung ohne amtlichen Lösungsschlüssel unter Vorbehalt.)",
+    "anlagenText": "### Urlaubsplanungstabelle (eingetragene Kreuze = Wünsche der Mitarbeiter/-innen)\n\n| Kalenderwoche | 27 | 28 | 29 | 30 | 31 | 32 | 33 | 34 | 35 |\n|---|---|---|---|---|---|---|---|---|---|\n| Anne Ohlsen | x | x | x | | | | | | |\n| Sarah Wegner | | | | x | x | x | | | |\n| Yilmaz Öztürk | | | | | | x | x | x | |\n| Bente Lehmann | | | | x | x | x | | | |\n| Bastian Sommer | | | x | | | | | | |\n\nSchulferien: 28. bis 32. Kalenderwoche."
   },
   {
     "id": "kbz-2021w-a3-5",
@@ -8001,7 +8021,8 @@
     "typ": "offen",
     "text": "Kontieren Sie den Beleg Nr. 1 (Ausgangsrechnung Nr. 2466/21 an die Bonnich GmbH über Whiteboards): 8 Whiteboards XXL à 265,00 € = 2.120,00 €, 12 Whiteboards office classic à 108,00 € = 1.296,00 €, Summe 3.416,00 €, Transportkosten netto 123,00 €, Netto 3.539,00 €, + 19 % USt 672,41 €, Brutto 4.211,41 €. Verwenden Sie die vierstelligen Kontonummern des Kontenplans (Forderungen Kunden 2499; Umsatzerlöse Handelswaren 5100; Ausgangsfrachten/Umsatzsteuer 4800).",
     "punkte": 2,
-    "loesung": "2499 (Forderungen) an 5100 (Umsatzerlöse für Handelswaren) und 4800 (Umsatzsteuer 19 %). Buchungssatz: 2499 an [5100; 4800]. (Kontonummern laut amtlichem MC-Schlüssel: 2499 an [5100; 4800].)"
+    "loesung": "2499 (Forderungen) an 5100 (Umsatzerlöse für Handelswaren) und 4800 (Umsatzsteuer 19 %). Buchungssatz: 2499 an [5100; 4800]. (Kontonummern laut amtlichem MC-Schlüssel: 2499 an [5100; 4800].)",
+    "anlagenText": "### Beleg Nr. 1 – Ausgangsrechnung\n\n**Jana Loft KG – Büromöbel und Bürozubehör**, Volksdorfer Damm 46, Hamburg\nAn: Bonnich GmbH, Kattwykdamm 27, 21107 Hamburg\n\n- Rechnung Nr. 2466/21, Kunden-Nr. 8614, Bestellung-Nr. B39005\n- Datum: 18.11.2021, Lieferdatum: 17.11.2021, Lieferschein-Nr. 56947\n- Zahlungsbedingungen: \"Zahlbar ab Rechnungsdatum in 30 Tagen oder innerhalb 8 Tagen mit Abzug von 2 % Skonto auf den Rechnungsbetrag\"\n\n| Pos. | Art.-Nr. | Artikelbezeichnung | Anzahl | Einzelpreis (EUR) | Gesamtpreis (EUR) |\n|---|---|---|---|---|---|\n| 1 | 76447 | Whiteboard office XXL, 150 cm x 200 cm | 8 | 265,00 | 2.120,00 |\n| 2 | 76445 | Whiteboard office classic, 100 cm x 120 cm | 12 | 108,00 | 1.296,00 |\n\n| | EUR |\n|---|---|\n| Summe | 3.416,00 |\n| Transportkosten netto | 123,00 |\n| Netto | 3.539,00 |\n| + 19 % Umsatzsteuer | 672,41 |\n| **Brutto gesamt** | **4.211,41** |"
   },
   {
     "id": "kbz-2021w-a4-7",
@@ -8012,7 +8033,8 @@
     "typ": "offen",
     "text": "Kontieren Sie den Beleg Nr. 2 (Gutschrift Nr. 1263/21 an die Bonnich GmbH über die Rücknahme von 2 Whiteboards office classic à 108,00 € = 216,00 € + 19 % USt 41,04 € = 257,04 €)!",
     "punkte": 2,
-    "loesung": "Rücksendung/Gutschrift: 5100 (Umsatzerlöse für Handelswaren) und 4800 (Umsatzsteuer 19 %) an 2499 (Forderungen). Buchungssatz: [5100; 4800] an 2499. (Kontonummern laut amtlichem MC-Schlüssel.)"
+    "loesung": "Rücksendung/Gutschrift: 5100 (Umsatzerlöse für Handelswaren) und 4800 (Umsatzsteuer 19 %) an 2499 (Forderungen). Buchungssatz: [5100; 4800] an 2499. (Kontonummern laut amtlichem MC-Schlüssel.)",
+    "anlagenText": "### Beleg Nr. 2 – Gutschrift\n\n**Jana Loft KG – Büromöbel und Bürozubehör**\nAn: Bonnich GmbH, Kattwykdamm 27, 21107 Hamburg\n\n- Gutschrift Nr. 1263/21 zur Rechnungs-Nr. 2466/21, Kunden-Nr. 8614\n- Datum: 22.11.2021\n\n| Pos. | Art.-Nr. | Artikelbezeichnung | Anzahl | Einzelpreis (EUR) | Gesamtpreis (EUR) |\n|---|---|---|---|---|---|\n| 2 | 76445 | Whiteboard office classic, 100 cm x 120 cm | 2 | 108,00 | 216,00 |\n\n| | EUR |\n|---|---|\n| Summe | 216,00 |\n| + 19 % Umsatzsteuer | 41,04 |\n| **Betrag gesamt** | **257,04** |"
   },
   {
     "id": "kbz-2021w-a4-8",
@@ -8024,7 +8046,8 @@
     "text": "Die Bonnich GmbH überweist den ausstehenden Rechnungsbetrag unter Abzug von Skonto. Ermitteln Sie den Betrag, der dem Konto gutgeschrieben wird! Beachten Sie Beleg Nr. 1 (Rechnung 4.211,41 €) und Nr. 2 (Gutschrift 257,04 €); Skonto 2 %.",
     "punkte": 4,
     "loesung": "Keine amtliche Lösung im IHK-Lösungs-PDF vorhanden (nur MC-Schlüssel). Musterlösung: Zahlungspflichtiger Bruttobetrag = 4.211,41 € - 257,04 € = 3.954,37 €. Skonto 2 % = 3.954,37 € × 0,02 = 79,09 €. Überwiesener/gutgeschriebener Betrag = 3.954,37 € - 79,09 € = 3.875,28 €.",
-    "erklaerung": "Vor dem Skontoabzug wird die Gutschrift von der ursprünglichen Rechnung abgezogen; auf den verbleibenden Bruttobetrag werden die 2 % Skonto berechnet."
+    "erklaerung": "Vor dem Skontoabzug wird die Gutschrift von der ursprünglichen Rechnung abgezogen; auf den verbleibenden Bruttobetrag werden die 2 % Skonto berechnet.",
+    "anlagenText": "### Beleg Nr. 1 – Ausgangsrechnung\n\n**Jana Loft KG – Büromöbel und Bürozubehör**, Volksdorfer Damm 46, Hamburg\nAn: Bonnich GmbH, Kattwykdamm 27, 21107 Hamburg\n\n- Rechnung Nr. 2466/21, Kunden-Nr. 8614, Bestellung-Nr. B39005\n- Datum: 18.11.2021, Lieferdatum: 17.11.2021, Lieferschein-Nr. 56947\n- Zahlungsbedingungen: \"Zahlbar ab Rechnungsdatum in 30 Tagen oder innerhalb 8 Tagen mit Abzug von 2 % Skonto auf den Rechnungsbetrag\"\n\n| Pos. | Art.-Nr. | Artikelbezeichnung | Anzahl | Einzelpreis (EUR) | Gesamtpreis (EUR) |\n|---|---|---|---|---|---|\n| 1 | 76447 | Whiteboard office XXL, 150 cm x 200 cm | 8 | 265,00 | 2.120,00 |\n| 2 | 76445 | Whiteboard office classic, 100 cm x 120 cm | 12 | 108,00 | 1.296,00 |\n\n| | EUR |\n|---|---|\n| Summe | 3.416,00 |\n| Transportkosten netto | 123,00 |\n| Netto | 3.539,00 |\n| + 19 % Umsatzsteuer | 672,41 |\n| **Brutto gesamt** | **4.211,41** |\n\n### Beleg Nr. 2 – Gutschrift\n\n**Jana Loft KG – Büromöbel und Bürozubehör**\nAn: Bonnich GmbH, Kattwykdamm 27, 21107 Hamburg\n\n- Gutschrift Nr. 1263/21 zur Rechnungs-Nr. 2466/21, Kunden-Nr. 8614\n- Datum: 22.11.2021\n\n| Pos. | Art.-Nr. | Artikelbezeichnung | Anzahl | Einzelpreis (EUR) | Gesamtpreis (EUR) |\n|---|---|---|---|---|---|\n| 2 | 76445 | Whiteboard office classic, 100 cm x 120 cm | 2 | 108,00 | 216,00 |\n\n| | EUR |\n|---|---|\n| Summe | 216,00 |\n| + 19 % Umsatzsteuer | 41,04 |\n| **Betrag gesamt** | **257,04** |"
   },
   {
     "id": "kbz-2021w-a4-9",
@@ -8046,7 +8069,8 @@
     "typ": "offen",
     "text": "Kontieren Sie den Beleg Nr. 3 (Eingangsrechnung Nr. 1146/2021 der Bernhard Müller OHG über 20 Flipchart-Ständer à 84,00 € = 1.680,00 € netto + 19 % USt 319,20 € = 1.999,20 € brutto)! Flipcharts sind Handelsware.",
     "punkte": 2,
-    "loesung": "6080 (Aufwendungen für Handelswaren) und 2600 (Vorsteuer 19 %) an 4401 (Bernhard Müller OHG). Buchungssatz: [6080; 2600] an 4401. (Kontonummern laut amtlichem MC-Schlüssel.)"
+    "loesung": "6080 (Aufwendungen für Handelswaren) und 2600 (Vorsteuer 19 %) an 4401 (Bernhard Müller OHG). Buchungssatz: [6080; 2600] an 4401. (Kontonummern laut amtlichem MC-Schlüssel.)",
+    "anlagenText": "### Beleg Nr. 3 – Eingangsrechnung\n\n**Bernhard Müller OHG – Kunststoffwerke**, Lindenbergerstraße 4, 86807 Buchloe\nAn: Jana Loft KG, Volksdorfer Damm 46, 22359 Hamburg\n\n- Rechnung Nr. 1146/2021, Kunden-Nr. 32155, Bestellung-Nr. B2578\n- Datum: 23.11.2021 (Eingangsstempel: 24.11.2021), Lieferdatum: 22.11.2021, Lieferschein-Nr. 216758\n\n| Pos. | Artikelbezeichnung | Anzahl | Einzelpreis (EUR) | Gesamtpreis (EUR) |\n|---|---|---|---|---|\n| 1 | Flipchart-Ständer mit Rollen, 70 cm x 150 cm, höhenverstellbar | 20 | 84,00 | 1.680,00 |\n\n| | EUR |\n|---|---|\n| Summe netto | 1.680,00 |\n| + 19 % Umsatzsteuer | 319,20 |\n| **Brutto gesamt** | **1.999,20** |"
   },
   {
     "id": "kbz-2021w-a4-11",
@@ -8057,7 +8081,8 @@
     "typ": "offen",
     "text": "Kontieren Sie den Beleg Nr. 4 (Rechnung Nr. 6692431 der Marian Wodak e. K. über Vertriebsprovision: Provision 774,00 € + 19 % USt 147,06 € = 921,06 € gesamt)!",
     "punkte": 2,
-    "loesung": "6150 (Vertriebsprovision) und 2600 (Vorsteuer 19 %) an 4499 (Sonstige Lieferanten und Dienstleister). Buchungssatz: [6150; 2600] an 4499. (Kontonummern laut amtlichem MC-Schlüssel.)"
+    "loesung": "6150 (Vertriebsprovision) und 2600 (Vorsteuer 19 %) an 4499 (Sonstige Lieferanten und Dienstleister). Buchungssatz: [6150; 2600] an 4499. (Kontonummern laut amtlichem MC-Schlüssel.)",
+    "anlagenText": "### Beleg Nr. 4 – Provisionsrechnung\n\n**Marian Wodak e. K.**, Süderstraße 85, 20097 Hamburg\nAn: Jana Loft KG, Volksdorfer Damm 46, 22359 Hamburg\n\n- Rechnung Nr. 6692431, Kunden-Nr. 49208\n- Datum: 22.11.2021, Leistungszeitraum: 20.10.2021 – 20.11.2021\n\n\"Für den Verkauf von Büromöbeln für den oben genannten Zeitraum berechne ich den folgenden Betrag:\"\n\n| | EUR |\n|---|---|\n| Provision | 774,00 |\n| + 19 % Umsatzsteuer | 147,06 |\n| **Summe gesamt** | **921,06** |"
   },
   {
     "id": "kbz-2021w-a4-12",
@@ -8068,7 +8093,8 @@
     "typ": "offen",
     "text": "Kontieren Sie Position 1 des Beleg Nr. 5 (Kontoauszug Hamburger Sparkasse): Gutschrift Zinsen 21,75 € (Konto 1120 4877 05)!",
     "punkte": 2,
-    "loesung": "2800 (Hamburger Sparkasse) an 5710 (Zinserträge). Buchungssatz: 2800 an 5710. (Kontonummern laut amtlichem MC-Schlüssel.)"
+    "loesung": "2800 (Hamburger Sparkasse) an 5710 (Zinserträge). Buchungssatz: 2800 an 5710. (Kontonummern laut amtlichem MC-Schlüssel.)",
+    "anlagenText": "### Beleg Nr. 5 – Kontoauszug Hamburger Sparkasse\n\n| IBAN | Kontobezeichnung | Auszug Nr. | Saldovortrag vom | EUR |\n|---|---|---|---|---|\n| DE07 2005 0550 1120 2399 02 | Jana Loft KG | 67 | 22.11.2021 | 52.197,83 + |\n\n| Pos. | Wert | Erläuterungen | Gutschriften (+) / Belastungen (−) |\n|---|---|---|---|\n| 1 | 24.11.2021 | Gutschrift Zinsen Konto 1120 4877 05 | 21,75 + |\n| 2 | 24.11.2021 | SEPA Mandat Nr. 0083506291 – Leasingrate Kopierer TS28 inkl. USt, Copyfix GmbH | 1.801,25 − |\n\n- Ihr Kreditrahmen: 250.000,00 EUR\n- **NEUER SALDO: 50.418,33 +** (Auszug vom 24.11.2021)"
   },
   {
     "id": "kbz-2021w-a4-13",
@@ -8079,7 +8105,8 @@
     "typ": "offen",
     "text": "Kontieren Sie Position 2 des Beleg Nr. 5: SEPA-Lastschrift Leasingrate Kopierer TS28 inkl. USt 1.801,25 € (Copyfix GmbH). Eine gesonderte Rechnung liegt nicht vor.",
     "punkte": 2,
-    "loesung": "6710 (Leasing) und 2600 (Vorsteuer 19 %) an 2800 (Hamburger Sparkasse). Buchungssatz: [6710; 2600] an 2800. (Kontonummern laut amtlichem MC-Schlüssel.)"
+    "loesung": "6710 (Leasing) und 2600 (Vorsteuer 19 %) an 2800 (Hamburger Sparkasse). Buchungssatz: [6710; 2600] an 2800. (Kontonummern laut amtlichem MC-Schlüssel.)",
+    "anlagenText": "### Beleg Nr. 5 – Kontoauszug Hamburger Sparkasse\n\n| IBAN | Kontobezeichnung | Auszug Nr. | Saldovortrag vom | EUR |\n|---|---|---|---|---|\n| DE07 2005 0550 1120 2399 02 | Jana Loft KG | 67 | 22.11.2021 | 52.197,83 + |\n\n| Pos. | Wert | Erläuterungen | Gutschriften (+) / Belastungen (−) |\n|---|---|---|---|\n| 1 | 24.11.2021 | Gutschrift Zinsen Konto 1120 4877 05 | 21,75 + |\n| 2 | 24.11.2021 | SEPA Mandat Nr. 0083506291 – Leasingrate Kopierer TS28 inkl. USt, Copyfix GmbH | 1.801,25 − |\n\n- Ihr Kreditrahmen: 250.000,00 EUR\n- **NEUER SALDO: 50.418,33 +** (Auszug vom 24.11.2021)"
   },
   {
     "id": "kbz-2021w-a4-14",
@@ -8818,7 +8845,8 @@
     "text": "Wie wirken sich Geschäftsfälle auf das Betriebsergebnis der Kosten- und Leistungsrechnung aus? Nennen Sie den Geschäftsfall für Beleg 1 (Eingangsrechnung Handelswaren) und Beleg 5 (Ausgangsrechnung/Verkauf Handelswaren) und erläutern Sie jeweils, wie sich das Betriebsergebnis durch die Buchung verändert.",
     "punkte": 6,
     "loesung": "Beleg 1: Geschäftsfall Einkauf von Handelswaren. Auswirkung: Das Betriebsergebnis wird vermindert, weil die betrieblichen Kosten steigen. Beleg 5: Geschäftsfall Verkauf von Handelswaren. Auswirkung: Das Betriebsergebnis steigt, weil die Leistungen/betrieblichen Erträge steigen.",
-    "erklaerung": "Der Wareneinkauf erhöht die (Zweck-)Kosten und mindert das Betriebsergebnis; der Warenverkauf erhöht die Leistungen und damit das Betriebsergebnis."
+    "erklaerung": "Der Wareneinkauf erhöht die (Zweck-)Kosten und mindert das Betriebsergebnis; der Warenverkauf erhöht die Leistungen und damit das Betriebsergebnis.",
+    "anlagenText": "### Beleg 1 – Eingangsrechnung Handelswaren\n\n**Lenz KG – Lampenfabrik** · Industriestraße 19 · 90441 Nürnberg\nAn: Jana Loft KG, Büromöbel und Bürozubehör, Volksdorfer Damm 46, 22359 Hamburg\n\n- Lieferschein/Rechnung, Rechnungs-Nr. 1093/17, Kunden-Nr. 46012\n- Rechnungsdatum: 08.11.2017 (Eingangsstempel: 09.11.2017)\n- \"Wir berechnen für unsere Lieferung vom 08.11.2017\"\n\n| Artikel-Nr. | Artikelbezeichnung | Menge | Einzelpreis (EUR) | Gesamtpreis (EUR) |\n|---|---|---|---|---|\n| 300278 | Schreibtischleuchte LUX | 100 Stück | 29,50 | 2.950,00 |\n\n| | EUR |\n|---|---|\n| Warenwert netto | 2.950,00 |\n| 19 % Umsatzsteuer | 560,50 |\n| **Rechnungsbetrag** | **3.510,50** |\n\nZahlungsbedingungen: \"Zahlung ab Rechnungsdatum 8 Tage 3 % Skonto, 30 Tage netto Kasse. Die Ware bleibt bis zur vollständigen Bezahlung unser Eigentum, § 449 BGB. Erfüllungsort und Gerichtsstand für beide Vertragspartner: Nürnberg.\"\n\n### Beleg 5 – Ausgangsrechnung (Kopie)\n\n**Jana Loft KG – Büromöbel und Bürozubehör**, Volksdorfer Damm 46, 22359 Hamburg\nAn: Westmoor KG, Möbelhaus, Deichhausweg 28, 32825 Blomberg\n\n- Rechnungs-Nr. 538/17, Kunden-Nr. 2528, Datum: 28.11.2017, Lieferung vom 27.11.2017\n\n| Pos. | Art.-Nr. | Artikelbezeichnung | Menge | Einzelpreis (EUR) | Gesamtpreis (EUR) |\n|---|---|---|---|---|---|\n| 1 | SL 607 | Schreibtischleuchte LUX | 15 Stück | 60,00 | 900,00 |\n| | | abzüglich 5 % Rabatt | | | 45,00 |\n\n| | EUR |\n|---|---|\n| Warenwert netto | 855,00 |\n| 19 % Umsatzsteuer | 162,45 |\n| **Rechnungsbetrag** | **1.017,45** |\n\nZahlungsbedingungen: \"Zahlbar innerhalb von 10 Tagen ab Rechnungsdatum mit 3 % Skonto oder 30 Tagen netto Kasse.\"\nEigentumsvorbehalt: \"Bis zur vollständigen Bezahlung bleibt die Ware unser Eigentum. Bei einem Weiterverkauf der gelieferten Ware tritt der Käufer dem Verkäufer im Voraus alle Rechte aus der Weiterveräußerung ab.\""
   },
   {
     "id": "kbz-2017w-a5-14",
@@ -8830,7 +8858,8 @@
     "text": "Ermitteln Sie in der Tabelle den Vorsteuerüberhang bzw. die Umsatzsteuer-Zahllast und kennzeichnen Sie die einzelnen Positionen als USt bzw. VSt. Alle Steuersätze 19 %. Nettobeträge: Ausgangsrechnungen 3.450.800,00 €; Rücksendung von Kunden 64.450,00 €; Gutschriften an Kunden 75.500,00 €; Eingangsrechnungen 1.250.800,00 €; Gutschriften von Lieferanten 46.800,00 €.",
     "punkte": 6,
     "loesung": "Ausgangsrechnungen: USt +655.652,00 €. Rücksendung von Kunden: USt -12.245,50 € (64.450 × 19 %). Gutschriften an Kunden: USt -14.345,00 € (75.500 × 19 %). Eingangsrechnungen: VSt -237.652,00 € (1.250.800 × 19 %). Gutschriften von Lieferanten: VSt +8.892,00 € (46.800 × 19 %). Umsatzsteuer-Zahllast: 655.652,00 - 12.245,50 - 14.345,00 - (237.652,00 - 8.892,00) = 400.301,50 € Zahllast.",
-    "erklaerung": "USt der Ausgangsseite (abzüglich Rücksendungen/Gutschriften an Kunden) minus abziehbare VSt der Eingangsseite (abzüglich Lieferantengutschriften) ergibt die Zahllast von 400.301,50 €."
+    "erklaerung": "USt der Ausgangsseite (abzüglich Rücksendungen/Gutschriften an Kunden) minus abziehbare VSt der Eingangsseite (abzüglich Lieferantengutschriften) ergibt die Zahllast von 400.301,50 €.",
+    "anlagenText": "### Tabelle zu Aufgabe 5.14 – Vorsteuerüberhang / Umsatzsteuer-Zahllast\n\nAlle Steuersätze 19 %. Die erste Zeile ist als Beispiel bereits ausgefüllt; die übrigen Felder sind zu ergänzen und als USt. bzw. VSt. zu kennzeichnen.\n\n| Position | Steuersatz | Nettobetrag (EUR) | USt | VSt | Betrag in EUR |\n|---|---|---|---|---|---|\n| Ausgangsrechnungen | 19 % | 3.450.800,00 | X | | 655.652,00 |\n| Rücksendung von Kunden | 19 % | 64.450,00 | | | *(leer)* |\n| Gutschriften an Kunden | 19 % | 75.500,00 | | | *(leer)* |\n| Eingangsrechnungen | 19 % | 1.250.800,00 | | | *(leer)* |\n| Gutschriften von Lieferanten | 19 % | 46.800,00 | | | *(leer)* |\n| Vorsteuerüberhang ☐ / Zahllast ☐ | | | | | *(leer)* |"
   },
   {
     "id": "kbz-2018s-a1-1",
@@ -9383,7 +9412,8 @@
     "text": "Berechnen Sie die Anschaffungskosten der neuen Bandschleifmaschine in Euro (siehe Beleg Nr. 2)!",
     "punkte": 2,
     "loesung": "16.699,59 € (= 15.730,00 € Maschine + 359,00 € Absauganlage + 610,59 € Anlieferung und Aufstellung, jeweils netto).",
-    "erklaerung": "Zu den Anschaffungskosten zählen der Kaufpreis und alle Nebenkosten, die nötig sind, um die Maschine betriebsbereit zu machen (Absauganlage, Anlieferung, Aufstellung) – netto."
+    "erklaerung": "Zu den Anschaffungskosten zählen der Kaufpreis und alle Nebenkosten, die nötig sind, um die Maschine betriebsbereit zu machen (Absauganlage, Anlieferung, Aufstellung) – netto.",
+    "anlagenText": "### Beleg 2 – Eingangsrechnung Bandschleifmaschine\n\n**Voth Maschinenbau OHG**, Lavendelstraße 17, 84032 Altdorf\nAn: Jana Loft KG, Volksdorfer Damm 46, 22359 Hamburg\n\n- Rechnung Nr. 237, Kunden-Nr. 3601, Lieferschein-Nr. 1043\n- Rechnungsdatum: 13.04.2018 (Eingangsstempel: 16.04.2018), Lieferung vom 12.04.2018\n\n| Position | Gesamtpreis (EUR) |\n|---|---|\n| Tirex Breit-Bandschleifmaschine | 15.730,00 |\n| mit Tirex Absauganlage | 359,00 |\n| Anlieferung und Aufstellung | 610,59 |\n| **Gesamt netto** | **16.699,59** |\n| Umsatzsteuer 19 % | 3.172,92 |\n| **Rechnungsbetrag** | **19.872,51** |\n\nZahlungsbedingung: \"Zahlung ab Rechnungsdatum 10 Tage 2 % Skonto, 30 Tage netto\"\n\nHinweis: Laut Beleg 3 (Kontoauszug) wurde die Rechnung unter Abzug von 2 % Skonto bezahlt (Überweisung 19.475,06 EUR)."
   },
   {
     "id": "kbz-2018s-a5-6-2",
@@ -9395,7 +9425,8 @@
     "text": "Die Bandschleifmaschine hat laut AfA-Tabelle eine betriebsgewöhnliche Nutzungsdauer von 6 Jahren. Berechnen Sie die zeitanteilige Abschreibung in Euro für die neue Maschine im Jahr der Anschaffung (Lieferung 12.04.2018)!",
     "punkte": 3,
     "loesung": "16.699,59 € : 6 Jahre = 2.783,27 € Jahres-AfA; zeitanteilig ab April (9 Monate): 16.699,59 : 6 x 9/12 = 2.045,70 €. (Amtlicher Weg: 16.699,59 : 6 = 2.783,27; 2.783,27 : 12 x 9 = 2.087,45 bzw. laut Musterlösung 2.045,70 € / 2.046,11 €; andere Rechenwege sind möglich.)",
-    "erklaerung": "Lineare AfA = Anschaffungskosten / Nutzungsdauer; da die Maschine im April angeschafft wurde, wird pro rata temporis für 9 Monate abgeschrieben (Faktor 9/12)."
+    "erklaerung": "Lineare AfA = Anschaffungskosten / Nutzungsdauer; da die Maschine im April angeschafft wurde, wird pro rata temporis für 9 Monate abgeschrieben (Faktor 9/12).",
+    "anlagenText": "### Beleg 2 – Eingangsrechnung Bandschleifmaschine\n\n**Voth Maschinenbau OHG**, Lavendelstraße 17, 84032 Altdorf\nAn: Jana Loft KG, Volksdorfer Damm 46, 22359 Hamburg\n\n- Rechnung Nr. 237, Kunden-Nr. 3601, Lieferschein-Nr. 1043\n- Rechnungsdatum: 13.04.2018 (Eingangsstempel: 16.04.2018), Lieferung vom 12.04.2018\n\n| Position | Gesamtpreis (EUR) |\n|---|---|\n| Tirex Breit-Bandschleifmaschine | 15.730,00 |\n| mit Tirex Absauganlage | 359,00 |\n| Anlieferung und Aufstellung | 610,59 |\n| **Gesamt netto** | **16.699,59** |\n| Umsatzsteuer 19 % | 3.172,92 |\n| **Rechnungsbetrag** | **19.872,51** |\n\nZahlungsbedingung: \"Zahlung ab Rechnungsdatum 10 Tage 2 % Skonto, 30 Tage netto\"\n\nHinweis: Laut Beleg 3 (Kontoauszug) wurde die Rechnung unter Abzug von 2 % Skonto bezahlt (Überweisung 19.475,06 EUR)."
   },
   {
     "id": "kbz-2018s-a5-7",
@@ -9457,7 +9488,8 @@
     "text": "Aufbereitete Bilanz: Anlagevermögen 9.386.789,00 €; Umlaufvermögen 13.473.087,00 €; Bilanzsumme 22.859.876,00 €. Berechnen Sie den Anteil des Umlaufvermögens am Gesamtvermögen in Prozent unter Angabe des Rechenweges! (Ergebnis mit 2 Nachkommastellen)",
     "punkte": 2,
     "loesung": "13.473.087,00 : 22.859.876,00 x 100 = 58,94 %.",
-    "erklaerung": "Der Anteil des Umlaufvermögens = Umlaufvermögen / Gesamtvermögen x 100 = 58,94 %."
+    "erklaerung": "Der Anteil des Umlaufvermögens = Umlaufvermögen / Gesamtvermögen x 100 = 58,94 %.",
+    "anlagenText": "### Aufbereitete Bilanz der Jana Loft KG (2017)\n\n| Aktiva | EUR | Passiva | EUR |\n|---|---|---|---|\n| I. Anlagevermögen | 9.386.789,00 | I. Eigenkapital | 12.583.384,00 |\n| II. Umlaufvermögen | 13.473.087,00 | II. Fremdkapital | |\n| | | 1. Langfristig | 7.429.046,00 |\n| | | 2. Kurzfristig | 2.847.446,00 |\n| **Summe** | **22.859.876,00** | **Summe** | **22.859.876,00** |"
   },
   {
     "id": "kbz-2018s-a5-12",
@@ -9481,7 +9513,8 @@
     "text": "Erläutern Sie die Auswirkung des Geschäftsfalles von Beleg Nr. 3 Position 3 (Zahlungseingang der Innovation AG, 24.859,10 €) auf die Liquidität!",
     "punkte": 2,
     "loesung": "Die Liquidität verbessert sich, da die flüssigen Mittel durch die Zunahme des Bankguthabens steigen.",
-    "erklaerung": "Der Zahlungseingang eines Kunden erhöht das Bankguthaben (liquide Mittel) und verbessert damit die Zahlungsfähigkeit (Liquidität)."
+    "erklaerung": "Der Zahlungseingang eines Kunden erhöht das Bankguthaben (liquide Mittel) und verbessert damit die Zahlungsfähigkeit (Liquidität).",
+    "anlagenText": "### Beleg 3 – Kontoauszug Hamburger Sparkasse\n\n- IBAN: DE07 2005 0550 1120 2399 02 | BIC: HASPDEHHXXX\n- Kontoauszug vom 25.04.2018, Auszug Nr. 58, Blatt 1\n- Kontoinhaber: Jana Loft KG, Volksdorfer Damm 46, 22359 Hamburg\n\n| Pos. | Text | Wert | Umsatz in EUR | −/+ |\n|---|---|---|---|---|\n| 1 | Voth Maschinenbau OHG, Rech. Nr. 237, abzügl. 2 % Skonto | 23.04.2018 | 19.475,06 | − |\n| 2 | SEPA-Lastschrift, Leasingrate April 2018 für Kopiergeräte X-Pro 60 und X-Pro 150, inkl. 19 % USt. | 24.04.2018 | 214,20 | − |\n| 3 | Innovation AG, Rechnung für PC-Möbel Nr. 324/18 | 25.04.2018 | 24.859,10 | + |\n\n| | Betrag (EUR) | −/+ |\n|---|---|---|\n| ALTER SALDO | 53.692,81 | + |\n| NEUER SALDO | 58.862,65 | + |"
   },
   {
     "id": "kbz-2018s-a5-14",
@@ -9493,7 +9526,8 @@
     "text": "Die Geschäftsfälle aus den Belegen 1 und 3 wirken sich unterschiedlich auf die Positionen der aufbereiteten Bilanz aus. Geben Sie Auswirkung (sinkt/steigt/keine) und Begründung an für: Beleg Nr. 1 (Kauf PC auf Ziel) – Anlagevermögen; Beleg Nr. 3 Position 2 (Leasingrate) – Anlagevermögen; Beleg Nr. 3 Position 3 (Zahlungseingang) – Umlaufvermögen.",
     "punkte": 6,
     "loesung": "6 Einträge, je 1 Punkt: Beleg 1 – Anlagevermögen: steigt, weil die Personal-Computer den Bestand an Büromaschinen/Büromöbeln erhöhen und zum Anlagevermögen gehören. Beleg 3 Position 2 (Leasing) – Anlagevermögen: keine Auswirkung, weil die Leasingrate Aufwand darstellt und sich auf ein Bestandskonto der GuV auswirkt, nicht auf das Anlagevermögen. Beleg 3 Position 3 – Umlaufvermögen: bleibt gleich, weil die Überweisung der Innovation AG das Bankkonto erhöht und gleichzeitig die Forderungen abnehmen (Aktivtausch).",
-    "erklaerung": "Beleg 1 aktiviert die PCs (Anlagevermögen steigt); die Leasingrate ist reiner Aufwand ohne Aktivierung; der Zahlungseingang ist ein Aktivtausch innerhalb des Umlaufvermögens (Bank steigt, Forderung sinkt), das Umlaufvermögen bleibt in Summe gleich."
+    "erklaerung": "Beleg 1 aktiviert die PCs (Anlagevermögen steigt); die Leasingrate ist reiner Aufwand ohne Aktivierung; der Zahlungseingang ist ein Aktivtausch innerhalb des Umlaufvermögens (Bank steigt, Forderung sinkt), das Umlaufvermögen bleibt in Summe gleich.",
+    "anlagenText": "### Beleg 1 – Eingangsrechnung (Kauf PC auf Ziel)\n\n**Schneider Computech GmbH** · Lüneburger Landstr. 86 · 22613 Hamburg\nAn: Jana Loft KG, Büromöbel und Bürozubehör, Volksdorfer Damm 46, 22359 Hamburg\n\n- Rechnungs-Nr. 301/2018, Kunden-Nr. 5103\n- Rechnungsdatum: 18.04.2018 (Eingangsstempel: 19.04.2018), Lieferdatum: 17.04.2018\n\n| Artikel | Menge | Einzelpreis (EUR) | Gesamtpreis (EUR) |\n|---|---|---|---|\n| Personal-Computer, 4 x 4 000 MHz Prozessor, 8 GB DDR4 Arbeitsspeicher, 1 000 GB Festplatte inkl. Monitor 27 Zoll | 4 | 1.500,00 | 6.000,00 |\n| zzgl. 19 % Umsatzsteuer | | | 1.140,00 |\n| **Gesamt** | | | **7.140,00** |\n\nAuf dem Beleg sind keine Zahlungsbedingungen abgedruckt (Kauf auf Ziel).\n\n### Beleg 3 – Kontoauszug Hamburger Sparkasse\n\n- IBAN: DE07 2005 0550 1120 2399 02 | BIC: HASPDEHHXXX\n- Kontoauszug vom 25.04.2018, Auszug Nr. 58, Blatt 1\n- Kontoinhaber: Jana Loft KG, Volksdorfer Damm 46, 22359 Hamburg\n\n| Pos. | Text | Wert | Umsatz in EUR | −/+ |\n|---|---|---|---|---|\n| 1 | Voth Maschinenbau OHG, Rech. Nr. 237, abzügl. 2 % Skonto | 23.04.2018 | 19.475,06 | − |\n| 2 | SEPA-Lastschrift, Leasingrate April 2018 für Kopiergeräte X-Pro 60 und X-Pro 150, inkl. 19 % USt. | 24.04.2018 | 214,20 | − |\n| 3 | Innovation AG, Rechnung für PC-Möbel Nr. 324/18 | 25.04.2018 | 24.859,10 | + |\n\n| | Betrag (EUR) | −/+ |\n|---|---|---|\n| ALTER SALDO | 53.692,81 | + |\n| NEUER SALDO | 58.862,65 | + |"
   },
   {
     "id": "kbz-2018s-a5-15",
@@ -9515,7 +9549,8 @@
       2
     ],
     "loesung": "Richtig ist Aussage 3: Der Beleg muss 10 Jahre aufbewahrt werden; die Aufbewahrungsfrist beginnt mit Ablauf des Jahres der Rechnungsstellung.",
-    "erklaerung": "Buchungsbelege sind nach § 257 HGB / § 147 AO 10 Jahre aufzubewahren; die Frist beginnt mit dem Ende des Kalenderjahres, in dem der Beleg entstanden ist."
+    "erklaerung": "Buchungsbelege sind nach § 257 HGB / § 147 AO 10 Jahre aufzubewahren; die Frist beginnt mit dem Ende des Kalenderjahres, in dem der Beleg entstanden ist.",
+    "anlagenText": "### Beleg 1 – Eingangsrechnung (Kauf PC auf Ziel)\n\n**Schneider Computech GmbH** · Lüneburger Landstr. 86 · 22613 Hamburg\nAn: Jana Loft KG, Büromöbel und Bürozubehör, Volksdorfer Damm 46, 22359 Hamburg\n\n- Rechnungs-Nr. 301/2018, Kunden-Nr. 5103\n- Rechnungsdatum: 18.04.2018 (Eingangsstempel: 19.04.2018), Lieferdatum: 17.04.2018\n\n| Artikel | Menge | Einzelpreis (EUR) | Gesamtpreis (EUR) |\n|---|---|---|---|\n| Personal-Computer, 4 x 4 000 MHz Prozessor, 8 GB DDR4 Arbeitsspeicher, 1 000 GB Festplatte inkl. Monitor 27 Zoll | 4 | 1.500,00 | 6.000,00 |\n| zzgl. 19 % Umsatzsteuer | | | 1.140,00 |\n| **Gesamt** | | | **7.140,00** |\n\nAuf dem Beleg sind keine Zahlungsbedingungen abgedruckt (Kauf auf Ziel)."
   },
   {
     "id": "kbz-2018s-a5-16-1",
@@ -9527,7 +9562,8 @@
     "text": "Durch Investitionen zur Erhöhung der Produktionskapazität hat sich der Anteil der Fixkosten erhöht. Ergänzen Sie die fehlenden Beträge der Tabelle und geben Sie die Gewinnschwelle in Stück an. Auszug: bei 300 Stück Umsatzerlöse 178.500,00; variable Kosten 63.000,00; Fixkosten 154.000,00; bei 400 Stück Umsatzerlöse 238.000,00; variable Kosten 84.000,00; Fixkosten 154.000,00; bei 500 Stück Ergebnis 38.500,00.",
     "punkte": 6,
     "loesung": "Fehlende Werte u. a.: 300 Stück: Gesamtkosten 217.000,00; Ergebnis −38.500,00. 400 Stück: Gesamtkosten 238.000,00; Ergebnis 0,00. 200 Stück: variable Kosten 42.000,00; Ergebnis −77.000,00. Gewinnschwelle: 400 Stück (dort Umsatzerlöse = Gesamtkosten, Ergebnis 0).",
-    "erklaerung": "Gesamtkosten = variable Kosten + Fixkosten; Ergebnis = Umsatzerlöse − Gesamtkosten. An der Gewinnschwelle (Break-even) ist das Ergebnis 0 – hier bei 400 Stück."
+    "erklaerung": "Gesamtkosten = variable Kosten + Fixkosten; Ergebnis = Umsatzerlöse − Gesamtkosten. An der Gewinnschwelle (Break-even) ist das Ergebnis 0 – hier bei 400 Stück.",
+    "anlagenText": "### Tabelle zu Aufgabe 5.16.1 – Gewinnschwelle Konferenztisch \"Oratio\"\n\nGraue Felder = auszufüllen, hier als *(leer)* gekennzeichnet.\n\n| Stück | Umsatzerlöse (EUR) | variable Kosten (EUR) | Fixkosten (EUR) | Gesamtkosten (EUR) | Ergebnis (EUR) |\n|---|---|---|---|---|---|\n| 100 | *(leer)* | 21.000,00 | 154.000,00 | 175.000,00 | −115.500,00 |\n| 200 | 119.000,00 | *(leer)* | 154.000,00 | 196.000,00 | −77.000,00 |\n| 300 | 178.500,00 | 63.000,00 | 154.000,00 | 217.000,00 | *(leer)* |\n| 400 | 238.000,00 | 84.000,00 | 154.000,00 | 238.000,00 | *(leer)* |\n| 500 | 297.500,00 | 105.000,00 | 154.000,00 | 259.000,00 | 38.500,00 |\n| 600 | 357.000,00 | 126.000,00 | 154.000,00 | 280.000,00 | 77.000,00 |\n| 700 | 416.500,00 | 147.000,00 | 154.000,00 | *(leer)* | 115.500,00 |\n| 800 | 476.000,00 | 168.000,00 | 154.000,00 | 322.000,00 | 154.000,00 |\n\nGewinnschwelle: ______ Stück"
   },
   {
     "id": "kbz-2018s-a5-16-2",
@@ -10031,7 +10067,8 @@
       2
     ],
     "loesung": "Richtig sind die Aussagen 1 und 3. Ziel des AGG ist es, Benachteiligungen aus den genannten Gründen zu verhindern (§ 1 AGG). Die Bekanntmachung des AGG (§ 12) kann durch Aushang, Auslegung oder die üblichen Informations- und Kommunikationsmittel erfolgen; dazu gehört auch das betriebliche Intranet.",
-    "erklaerung": "Zu 6 falsch: Nach § 15 AGG muss ein Anspruch innerhalb von zwei Monaten (nicht drei) nach Zugang der Ablehnung geltend gemacht werden."
+    "erklaerung": "Zu 6 falsch: Nach § 15 AGG muss ein Anspruch innerhalb von zwei Monaten (nicht drei) nach Zugang der Ablehnung geltend gemacht werden.",
+    "anlagenText": "### Allgemeines Gleichbehandlungsgesetz (AGG) – Auszug\n\n> **§ 6 Persönlicher Anwendungsbereich**\n> (1) Beschäftigte im Sinne dieses Gesetzes sind\n> 1. Arbeitnehmerinnen und Arbeitnehmer,\n> 2. die zu ihrer Berufsbildung Beschäftigten, …\n>\n> **§ 12 Maßnahmen und Pflichten des Arbeitgebers**\n> … (5) Dieses Gesetz … ist … im Betrieb oder in der Dienststelle bekannt zu machen. Die Bekanntmachung kann durch Aushang oder Auslegung an geeigneter Stelle oder den Einsatz der im Betrieb oder der Dienststelle üblichen Informations- und Kommunikationstechnik erfolgen. …\n>\n> **§ 15 Entschädigung und Schadensersatz**\n> (1) Bei einem Verstoß gegen das Benachteiligungsverbot ist der Arbeitgeber verpflichtet, den hierdurch entstandenen Schaden zu ersetzen. …\n> (4) Ein Anspruch … muss innerhalb einer Frist von zwei Monaten schriftlich geltend gemacht werden. … Die Frist beginnt im Falle einer Bewerbung oder eines beruflichen Aufstiegs mit dem Zugang der Ablehnung …"
   },
   {
     "id": "kbz-2018w-a4-1",
@@ -10206,7 +10243,8 @@
     "text": "Berechnen Sie das Gesamtergebnis in der Ergebnistabelle für November 2018! (Erträge: Umsatzerlöse eig. Erz. 340.000,00; Nebenerlöse aus Vermietung u. Verpachtung 58.960,00; Zinserträge 150,00. Aufwendungen: Aufwand Rohstoffe 135.000,00; Aufwand Hilfsstoffe 6.000,00; Aufwand Energie 850,00; Löhne 100.000,00; Gehälter 36.000,00; Fremdinstandhaltung 4.842,00; Grundsteuer 1.290,00.)",
     "punkte": 3,
     "loesung": "Summe Erträge 399.110,00 EUR − Summe Aufwendungen 283.982,00 EUR = Gesamtergebnis 115.128,00 EUR.",
-    "erklaerung": "Das Gesamtergebnis der Gesamtergebnisrechnung (Rechnungskreis I) ist die Differenz aus allen Erträgen und allen Aufwendungen."
+    "erklaerung": "Das Gesamtergebnis der Gesamtergebnisrechnung (Rechnungskreis I) ist die Differenz aus allen Erträgen und allen Aufwendungen.",
+    "anlagenText": "### Ergebnistabelle für November 2018 (Beträge in Euro)\n\nSituation: Sie erhalten den Auftrag, für November 2018 die Abgrenzungsrechnung durchzuführen. Die Aufwendungen sowie die Umsatzerlöse der Jana Loft KG wurden bereits in der Ergebnistabelle erfasst. Für die Tätigkeit von Frau Jana Loft wird ein **kalkulatorischer Unternehmerlohn von 5.600,00 EUR** angesetzt, der noch zu berücksichtigen ist.\n\nSpalten der Ergebnistabelle:\n- **Rechnungskreis I – Gesamtergebnisrechnung:** Aufwendungen | Erträge\n- **Rechnungskreis II – Abgrenzungsrechnung:** Unternehmensbezogene Abgrenzung (Aufwendungen | Erträge) und Kostenrechnerische Korrekturen (Betriebl. Aufwendungen laut GuV | Verrechnete Kosten)\n- **Betriebsergebnisrechnung:** Kosten | Leistungen\n\nVorgegebene Werte (nur Rechnungskreis I):\n\n| Konto | Aufwendungen (EUR) | Erträge (EUR) |\n|---|---|---|\n| Umsatzerlöse eig. Erz. | | 340.000,00 |\n| Nebenerlöse aus Vermietung u. Verpachtung | | 58.960,00 |\n| Zinserträge | | 150,00 |\n| Aufwand Rohstoffe | 135.000,00 | |\n| Aufwand Hilfsstoffe | 6.000,00 | |\n| Aufwand Energie | 850,00 | |\n| Löhne | 100.000,00 | |\n| Gehälter | 36.000,00 | |\n| Fremdinstandhaltung | 4.842,00 | |\n| Grundsteuer | 1.290,00 | |\n\nAlle übrigen Zellen (gesamte Abgrenzungsrechnung, kostenrechnerische Korrekturen, Betriebsergebnisrechnung sowie die Zeilen Unternehmerlohn, Summen, Saldo und die Ergebnisfelder Gesamtergebnis / Neutrales Ergebnis / Betriebsergebnis) sind leer und auszufüllen. Der kalkulatorische Unternehmerlohn steht nur im Situationstext, nicht in der Tabelle."
   },
   {
     "id": "kbz-2018w-a4-13",
@@ -10218,7 +10256,8 @@
     "text": "Nehmen Sie die Abgrenzungsrechnung in der Ergebnistabelle vor. Berechnen Sie das neutrale Ergebnis (Ergebnis aus unternehmensbezogenen Abgrenzungen und kostenrechnerischen Korrekturen)!",
     "punkte": 5,
     "loesung": "Neutrales Ergebnis = 64.710,00 EUR. Unternehmensbezogene Abgrenzung: neutrale Erträge (Nebenerlöse aus Vermietung u. Verpachtung 58.960,00 + Zinserträge 150,00 = 59.110,00). Kostenrechnerische Korrekturen: verrechnete Kosten Unternehmerlohn 5.600,00. Neutrales Ergebnis = 59.110,00 − (−5.600,00) bzw. Saldo 59.110,00 aus Abgrenzung minus 5.600,00 kalkulatorische Kosten = 64.710,00 EUR.",
-    "erklaerung": "Das neutrale Ergebnis fasst betriebsfremde/neutrale Erträge und Aufwendungen (59.110,00) sowie die kostenrechnerischen Korrekturen (kalkulatorischer Unternehmerlohn 5.600,00) zusammen: 59.110,00 + 5.600,00 = 64.710,00 EUR."
+    "erklaerung": "Das neutrale Ergebnis fasst betriebsfremde/neutrale Erträge und Aufwendungen (59.110,00) sowie die kostenrechnerischen Korrekturen (kalkulatorischer Unternehmerlohn 5.600,00) zusammen: 59.110,00 + 5.600,00 = 64.710,00 EUR.",
+    "anlagenText": "### Ergebnistabelle für November 2018 (Beträge in Euro)\n\nSituation: Sie erhalten den Auftrag, für November 2018 die Abgrenzungsrechnung durchzuführen. Die Aufwendungen sowie die Umsatzerlöse der Jana Loft KG wurden bereits in der Ergebnistabelle erfasst. Für die Tätigkeit von Frau Jana Loft wird ein **kalkulatorischer Unternehmerlohn von 5.600,00 EUR** angesetzt, der noch zu berücksichtigen ist.\n\nSpalten der Ergebnistabelle:\n- **Rechnungskreis I – Gesamtergebnisrechnung:** Aufwendungen | Erträge\n- **Rechnungskreis II – Abgrenzungsrechnung:** Unternehmensbezogene Abgrenzung (Aufwendungen | Erträge) und Kostenrechnerische Korrekturen (Betriebl. Aufwendungen laut GuV | Verrechnete Kosten)\n- **Betriebsergebnisrechnung:** Kosten | Leistungen\n\nVorgegebene Werte (nur Rechnungskreis I):\n\n| Konto | Aufwendungen (EUR) | Erträge (EUR) |\n|---|---|---|\n| Umsatzerlöse eig. Erz. | | 340.000,00 |\n| Nebenerlöse aus Vermietung u. Verpachtung | | 58.960,00 |\n| Zinserträge | | 150,00 |\n| Aufwand Rohstoffe | 135.000,00 | |\n| Aufwand Hilfsstoffe | 6.000,00 | |\n| Aufwand Energie | 850,00 | |\n| Löhne | 100.000,00 | |\n| Gehälter | 36.000,00 | |\n| Fremdinstandhaltung | 4.842,00 | |\n| Grundsteuer | 1.290,00 | |\n\nAlle übrigen Zellen (gesamte Abgrenzungsrechnung, kostenrechnerische Korrekturen, Betriebsergebnisrechnung sowie die Zeilen Unternehmerlohn, Summen, Saldo und die Ergebnisfelder Gesamtergebnis / Neutrales Ergebnis / Betriebsergebnis) sind leer und auszufüllen. Der kalkulatorische Unternehmerlohn steht nur im Situationstext, nicht in der Tabelle."
   },
   {
     "id": "kbz-2018w-a4-14",
@@ -10254,7 +10293,8 @@
     "text": "In der Kostenartenrechnung werden die Kosten in Einzelkosten und Gemeinkosten aufgeteilt. Geben Sie 2 Kosten aus der Ergebnistabelle an, die Einzelkosten sind, und 2 Kosten, die Gemeinkosten sind!",
     "punkte": 4,
     "loesung": "Einzelkosten: Aufwand Rohstoffe, Löhne. Gemeinkosten: Aufwand Energie, Gehälter, Fremdinstandhaltung, Grundsteuer, Unternehmerlohn (2 genügen). Hinweis Hilfsstoffe: Sind sie Teil der Stückliste, sind sie Einzelkosten, andere Hilfsstoffe (z. B. Leim) sind Gemeinkosten.",
-    "erklaerung": "Einzelkosten lassen sich direkt einem Kostenträger zurechnen (Rohstoffe, Fertigungslöhne), Gemeinkosten nicht direkt (Energie, Gehälter, Grundsteuer)."
+    "erklaerung": "Einzelkosten lassen sich direkt einem Kostenträger zurechnen (Rohstoffe, Fertigungslöhne), Gemeinkosten nicht direkt (Energie, Gehälter, Grundsteuer).",
+    "anlagenText": "### Ergebnistabelle für November 2018 (Beträge in Euro)\n\nSituation: Sie erhalten den Auftrag, für November 2018 die Abgrenzungsrechnung durchzuführen. Die Aufwendungen sowie die Umsatzerlöse der Jana Loft KG wurden bereits in der Ergebnistabelle erfasst. Für die Tätigkeit von Frau Jana Loft wird ein **kalkulatorischer Unternehmerlohn von 5.600,00 EUR** angesetzt, der noch zu berücksichtigen ist.\n\nSpalten der Ergebnistabelle:\n- **Rechnungskreis I – Gesamtergebnisrechnung:** Aufwendungen | Erträge\n- **Rechnungskreis II – Abgrenzungsrechnung:** Unternehmensbezogene Abgrenzung (Aufwendungen | Erträge) und Kostenrechnerische Korrekturen (Betriebl. Aufwendungen laut GuV | Verrechnete Kosten)\n- **Betriebsergebnisrechnung:** Kosten | Leistungen\n\nVorgegebene Werte (nur Rechnungskreis I):\n\n| Konto | Aufwendungen (EUR) | Erträge (EUR) |\n|---|---|---|\n| Umsatzerlöse eig. Erz. | | 340.000,00 |\n| Nebenerlöse aus Vermietung u. Verpachtung | | 58.960,00 |\n| Zinserträge | | 150,00 |\n| Aufwand Rohstoffe | 135.000,00 | |\n| Aufwand Hilfsstoffe | 6.000,00 | |\n| Aufwand Energie | 850,00 | |\n| Löhne | 100.000,00 | |\n| Gehälter | 36.000,00 | |\n| Fremdinstandhaltung | 4.842,00 | |\n| Grundsteuer | 1.290,00 | |\n\nAlle übrigen Zellen (gesamte Abgrenzungsrechnung, kostenrechnerische Korrekturen, Betriebsergebnisrechnung sowie die Zeilen Unternehmerlohn, Summen, Saldo und die Ergebnisfelder Gesamtergebnis / Neutrales Ergebnis / Betriebsergebnis) sind leer und auszufüllen. Der kalkulatorische Unternehmerlohn steht nur im Situationstext, nicht in der Tabelle."
   },
   {
     "id": "kbz-2019w-a1-1-1",
@@ -10865,7 +10905,8 @@
     "text": "Ermitteln Sie den Überweisungsbetrag in Euro unter der Annahme, dass die Rechnung (Beleg 3, Rechnungsbetrag 39.841,20 €) innerhalb der Skontofrist überwiesen werden soll! Skonto 2 %.",
     "punkte": 2,
     "loesung": "39.841,20 € : 100 × 98 = 39.044,38 €.",
-    "erklaerung": "Bei Zahlung innerhalb der Skontofrist dürfen 2 % Skonto vom Bruttorechnungsbetrag abgezogen werden; es sind 98 % zu überweisen."
+    "erklaerung": "Bei Zahlung innerhalb der Skontofrist dürfen 2 % Skonto vom Bruttorechnungsbetrag abgezogen werden; es sind 98 % zu überweisen.",
+    "anlagenText": "### Beleg 3 – Eingangsrechnung Lenz KG\n\n**Lenz KG, Lampenfabrik**, Industriestraße 19, 90441 Nürnberg\nAn: Jana Loft KG, Büromöbel und Bürozubehör, Volksdorfer Damm 46, 22359 Hamburg\n\n- Rechnungsnummer 791/2019, Kundennummer 3419, Bestellung vom 13.11.2019\n- Rechnungsdatum: 21.11.2019 (Eingangsstempel: 22.11.2019), Lieferung vom 20.11.2019\n\n| Art.-Nr. | Artikelbezeichnung | Menge | Einzelpreis (EUR) | Gesamtpreis (EUR) |\n|---|---|---|---|---|\n| SL 607 | LED-Deckenleuchte Magnalux | 150 | 279,00 | 41.850,00 |\n| | abzüglich Rabatt 20 % | | | 8.370,00 |\n| | **Netto** | | | **33.480,00** |\n| | Umsatzsteuer 19 % | | | 6.361,20 |\n| | **Rechnungsbetrag** | | | **39.841,20** |\n\nZahlungsbedingungen: \"Zahlung ab Rechnungsdatum: 8 Tage 2 % Skonto, 30 Tage ohne Abzug. Die Ware bleibt bis zur vollständigen Bezahlung unser Eigentum, § 449 BGB. Erfüllungsort und Gerichtsstand für beide Vertragsparteien ist Nürnberg.\""
   },
   {
     "id": "kbz-2019w-a3-3-2",

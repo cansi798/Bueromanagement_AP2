@@ -178,7 +178,8 @@ function baueAchsenDiagramm(
   // Achsentitel
   if (d.xAchse) texte.push({ x: (links + rechts) / 2, y: H - 6, text: d.xAchse, groesse: 12 })
   if (d.yAchse) {
-    const beschriftung = d.einheit ? `${d.yAchse} (${d.einheit})` : d.yAchse
+    const beschriftung =
+      d.einheit && !d.yAchse.includes(d.einheit) ? `${d.yAchse} (${d.einheit})` : d.yAchse
     texte.push({
       x: 14,
       y: (oben + unten) / 2,

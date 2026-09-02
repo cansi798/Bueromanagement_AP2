@@ -84,7 +84,9 @@
       "Beide Konten stehen im Soll.",
       "Es wird nur ein einziges Konto bebucht."
     ],
-    "korrekt": [0],
+    "korrekt": [
+      0
+    ],
     "loesung": "Soll an Haben.",
     "erklaerung": "Jeder Buchungssatz nennt zuerst das/die Sollkonto(en), dann mit 'an' das/die Habenkonto(en). Die Summe im Soll entspricht der Summe im Haben."
   },
@@ -101,7 +103,9 @@
       "Büromaterial an Umsatzsteuer und Bank.",
       "Bank an Büromaterial und Vorsteuer."
     ],
-    "korrekt": [0],
+    "korrekt": [
+      0
+    ],
     "loesung": "Büromaterial (Aufwand) und Vorsteuer an Verbindlichkeiten aus Lieferungen und Leistungen.",
     "erklaerung": "Nettoaufwand und abziehbare Vorsteuer stehen im Soll, der Bruttobetrag als Verbindlichkeit im Haben – es liegt ein Zielkauf vor, also keine Bank."
   },
@@ -118,7 +122,9 @@
       "Bank an Umsatzerlöse.",
       "Verbindlichkeiten an Bank."
     ],
-    "korrekt": [0],
+    "korrekt": [
+      0
+    ],
     "loesung": "Bank an Forderungen aus Lieferungen und Leistungen.",
     "erklaerung": "Der Zahlungseingang mehrt das Aktivkonto Bank (Soll) und baut die Forderung im Haben ab. Umsatzerlös und Umsatzsteuer wurden bereits beim Verkauf gebucht."
   },
@@ -135,7 +141,9 @@
       "Die Umsatzsteuer ist eine Forderung, die Vorsteuer eine Verbindlichkeit.",
       "Vorsteuer und Umsatzsteuer werden nie gebucht."
     ],
-    "korrekt": [0],
+    "korrekt": [
+      0
+    ],
     "loesung": "Vorsteuer = Forderung (aktiv), Umsatzsteuer = Verbindlichkeit (passiv).",
     "erklaerung": "Die beim Einkauf gezahlte Vorsteuer holt sich das Unternehmen vom Finanzamt zurück (Forderung, Soll), die beim Verkauf vereinnahmte Umsatzsteuer schuldet es dem Finanzamt (Verbindlichkeit, Haben)."
   },
@@ -184,7 +192,9 @@
       "Umsatzsteuer plus Vorsteuer.",
       "Umsatzerlöse minus Aufwendungen."
     ],
-    "korrekt": [0],
+    "korrekt": [
+      0
+    ],
     "loesung": "Zahllast = Umsatzsteuer − Vorsteuer.",
     "erklaerung": "Von der vereinnahmten Umsatzsteuer wird die gezahlte Vorsteuer abgezogen. Bleibt ein positiver Betrag, ist er als Zahllast ans Finanzamt abzuführen."
   },
@@ -201,7 +211,9 @@
       "Wenn keine Umsätze getätigt wurden.",
       "Immer im ersten Monat des Jahres."
     ],
-    "korrekt": [0],
+    "korrekt": [
+      0
+    ],
     "loesung": "Vorsteuer > Umsatzsteuer.",
     "erklaerung": "Übersteigt die gezahlte Vorsteuer die vereinnahmte Umsatzsteuer, entsteht ein Vorsteuerüberhang, den das Finanzamt erstattet."
   },
@@ -218,7 +230,9 @@
       "Vorsteuer – ein Aufwandskonto.",
       "Umsatzsteuer – ein Ertragskonto."
     ],
-    "korrekt": [0],
+    "korrekt": [
+      0
+    ],
     "loesung": "Vorsteuer, aktives Bestandskonto.",
     "erklaerung": "Die Vorsteuer ist eine Forderung gegenüber dem Finanzamt und damit ein Aktivkonto; Zugänge werden im Soll gebucht."
   },
@@ -275,7 +289,104 @@
     "typ": "offen",
     "text": "Ordnen Sie im Kosten-Erlös-Diagramm des Schubladensystems 'Berlin' die Geraden und Punkte zu: A (steigende Gerade bis 150.000), B (senkrechter Abstand rechts zwischen zwei steigenden Geraden), C (Punkt auf der x-Achse unter dem Schnittpunkt der Geraden). Wählen Sie jeweils den passenden Begriff aus der Kostenrechnung.",
     "loesung": "A = Gesamterlöse; B = Variable Gesamtkosten; C = Gewinnschwelle.",
-    "erklaerung": "A ist die am steilsten steigende Gerade → Gesamterlöse. B kennzeichnet den Abstand, der die variablen Gesamtkosten über den Fixkosten darstellt → Variable Gesamtkosten. C liegt auf der Mengenachse senkrecht unter dem Schnittpunkt von Gesamtkosten und Gesamterlösen → Gewinnschwelle (Break-even)."
+    "erklaerung": "A ist die am steilsten steigende Gerade → Gesamterlöse. B kennzeichnet den Abstand, der die variablen Gesamtkosten über den Fixkosten darstellt → Variable Gesamtkosten. C liegt auf der Mengenachse senkrecht unter dem Schnittpunkt von Gesamtkosten und Gesamterlösen → Gewinnschwelle (Break-even).",
+    "anlagenText": "**Abbildung zur Aufgabe 6.5: Kosten-Erlös-Diagramm des Schubladensystems „Berlin“** — waagerechte Achse: Stückzahl (0 bis 3.000), senkrechte Achse: Werte in EUR (0 bis 160.000). Drei Linien: eine steile steigende Gerade ab dem Ursprung (endet bei ca. 150.000 EUR, Beschriftung **A**), eine flacher steigende Gerade ab ca. 30.000 EUR (endet bei ca. 105.000 EUR) und eine waagerechte Gerade bei ca. 30.000 EUR. Die beiden steigenden Geraden schneiden sich bei ca. 1.200 Stück / 60.000 EUR.\n\nMarkierte Positionen:\n- **A:** Beschriftung am oberen Ende der steilsten Geraden (bei 3.000 Stück / ca. 150.000 EUR).\n- **B:** Senkrechter, geklammerter Abstand am rechten Rand (bei ca. 3.000 Stück) zwischen der flacher steigenden Geraden (ca. 105.000 EUR) und der waagerechten Geraden (ca. 30.000 EUR).\n- **C:** Punkt auf der Stückzahl-Achse bei ca. 1.200 Stück, senkrecht (gestrichelt) unter dem Schnittpunkt der beiden steigenden Geraden.\n\n**Begriffe aus der Kostenrechnung (Auswahl):**\n1. Verlustzone, 2. Gesamtkosten, 3. Variable Gesamtkosten, 4. Fixkosten, 5. Gesamterlöse, 6. Gewinnschwelle, 7. Gewinnzone.",
+    "anlagenDiagramm": {
+      "typ": "linie",
+      "titel": "Kosten-Erlös-Diagramm Schubladensystem „Berlin“ (A = steilste Gerade, B = Abstand Gesamtkosten–Fixkosten bei 3.000 Stück, C = Punkt auf x-Achse bei 1.200 Stück)",
+      "xAchse": "Stückzahl",
+      "yAchse": "Werte in EUR",
+      "einheit": "EUR",
+      "serien": [
+        {
+          "name": "Steilste steigende Gerade (A)",
+          "punkte": [
+            {
+              "x": "0",
+              "y": 0
+            },
+            {
+              "x": "600",
+              "y": 30000
+            },
+            {
+              "x": "1.200",
+              "y": 60000
+            },
+            {
+              "x": "1.800",
+              "y": 90000
+            },
+            {
+              "x": "2.400",
+              "y": 120000
+            },
+            {
+              "x": "3.000",
+              "y": 150000
+            }
+          ]
+        },
+        {
+          "name": "Flacher steigende Gerade (ab 30.000 EUR)",
+          "punkte": [
+            {
+              "x": "0",
+              "y": 30000
+            },
+            {
+              "x": "600",
+              "y": 45000
+            },
+            {
+              "x": "1.200",
+              "y": 60000
+            },
+            {
+              "x": "1.800",
+              "y": 75000
+            },
+            {
+              "x": "2.400",
+              "y": 90000
+            },
+            {
+              "x": "3.000",
+              "y": 105000
+            }
+          ]
+        },
+        {
+          "name": "Waagerechte Gerade (30.000 EUR)",
+          "punkte": [
+            {
+              "x": "0",
+              "y": 30000
+            },
+            {
+              "x": "600",
+              "y": 30000
+            },
+            {
+              "x": "1.200",
+              "y": 30000
+            },
+            {
+              "x": "1.800",
+              "y": 30000
+            },
+            {
+              "x": "2.400",
+              "y": 30000
+            },
+            {
+              "x": "3.000",
+              "y": 30000
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "id": "bufu-deckungsbeitrag-breakeven-g1",
@@ -290,7 +401,9 @@
       "Verkaufserlös je Stück minus Fixkosten je Stück.",
       "Variable Kosten je Stück minus Verkaufserlös je Stück."
     ],
-    "korrekt": [0],
+    "korrekt": [
+      0
+    ],
     "loesung": "db = Verkaufserlös/Stück − variable Kosten/Stück.",
     "erklaerung": "Der Deckungsbeitrag ist der Teil des Verkaufspreises, der nach Abzug der variablen Kosten zur Deckung der Fixkosten und danach zum Gewinn beiträgt."
   },
@@ -307,7 +420,9 @@
       "Deckungsbeitrag je Stück geteilt durch die Fixkosten.",
       "Variable Kosten geteilt durch die Fixkosten."
     ],
-    "korrekt": [0],
+    "korrekt": [
+      0
+    ],
     "loesung": "Break-even = Fixkosten ÷ Deckungsbeitrag je Stück.",
     "erklaerung": "An der Gewinnschwelle decken die kumulierten Deckungsbeiträge genau die Fixkosten; deshalb Fixkosten durch db teilen."
   },
@@ -324,7 +439,9 @@
       "Kosten und Erlöse sind gleich groß.",
       "Es fallen keine Fixkosten an."
     ],
-    "korrekt": [0],
+    "korrekt": [
+      0
+    ],
     "loesung": "Verlustzone.",
     "erklaerung": "Unterhalb des Break-even-Points reichen die Deckungsbeiträge nicht aus, um die Fixkosten zu decken – die Gesamtkosten liegen über den Erlösen, es entsteht Verlust."
   },
@@ -384,7 +501,9 @@
       "Verkaufspreis minus variable Kosten je Stück.",
       "Variable Kosten je Stück mal Menge."
     ],
-    "korrekt": [0],
+    "korrekt": [
+      0
+    ],
     "loesung": "Stückkosten = Gesamtkosten ÷ Menge.",
     "erklaerung": "Die Gesamtkosten aus Fixkosten und variablen Gesamtkosten werden durch die produzierte Menge geteilt."
   },
@@ -401,7 +520,9 @@
       "Weil die Fixkosten insgesamt sinken.",
       "Weil der Verkaufspreis steigt."
     ],
-    "korrekt": [0],
+    "korrekt": [
+      0
+    ],
     "loesung": "Fixkostenregression.",
     "erklaerung": "Die Fixkostensumme bleibt gleich, der Fixkostenanteil je Stück sinkt mit steigender Menge. Die variablen Kosten je Stück bleiben konstant."
   },
@@ -418,7 +539,9 @@
       "Sie verschwinden ganz.",
       "Sie werden zu Fixkosten."
     ],
-    "korrekt": [0],
+    "korrekt": [
+      0
+    ],
     "loesung": "Variable Kosten je Stück bleiben gleich, in Summe steigen sie.",
     "erklaerung": "Variable Kosten sind proportional zur Menge: pro Stück konstant, in Summe wachsen sie mit der Menge. Nur der Fixkostenanteil je Stück verändert sich."
   },
@@ -467,7 +590,9 @@
       "Auf die Herstellkosten.",
       "Auf die Selbstkosten."
     ],
-    "korrekt": [0],
+    "korrekt": [
+      0
+    ],
     "loesung": "Auf die Fertigungslöhne.",
     "erklaerung": "Der Fertigungsgemeinkostenzuschlag wird prozentual auf die Fertigungslöhne berechnet, ebenso wie die Materialgemeinkosten auf das Fertigungsmaterial bezogen werden."
   },
@@ -484,7 +609,9 @@
       "Nur Fertigungsmaterial + Fertigungslöhne.",
       "Selbstkosten minus Gewinnzuschlag."
     ],
-    "korrekt": [0],
+    "korrekt": [
+      0
+    ],
     "loesung": "FM + MGK + FL + FGK = Herstellkosten.",
     "erklaerung": "Die Herstellkosten fassen Material- und Fertigungskosten (jeweils Einzel- plus Gemeinkosten) zusammen. Verwaltung und Vertrieb folgen erst danach zu den Selbstkosten."
   },
@@ -501,7 +628,9 @@
       "Auf die Fertigungslöhne.",
       "Auf den Gewinnzuschlag."
     ],
-    "korrekt": [0],
+    "korrekt": [
+      0
+    ],
     "loesung": "Auf die Herstellkosten.",
     "erklaerung": "Verwaltungs- und Vertriebsgemeinkosten werden mit ihrem Zuschlagssatz auf die Herstellkosten bezogen und ergeben zusammen mit ihnen die Selbstkosten."
   },
@@ -563,7 +692,9 @@
       "Wert aller im Rahmen des Betriebszwecks erstellten Leistungen pro Periode.",
       "Wert aller erbrachten Leistungen eines Unternehmens pro Periode."
     ],
-    "korrekt": [2],
+    "korrekt": [
+      2
+    ],
     "loesung": "Wert aller zur Erreichung des Betriebszwecks verbrauchten Güter und Dienstleistungen pro Periode.",
     "erklaerung": "Kosten sind der bewertete, betriebszweckbezogene, periodisierte Verbrauch von Gütern und Dienstleistungen. Der Wert erstellter Leistungen wäre dagegen der Leistungsbegriff."
   },
@@ -580,7 +711,9 @@
       "Wenn Ist- und Normalkosten gleich sind.",
       "Wenn keine Fixkosten anfallen."
     ],
-    "korrekt": [0],
+    "korrekt": [
+      0
+    ],
     "loesung": "Istkosten > Normalkosten.",
     "erklaerung": "Übersteigen die tatsächlichen Kosten die verrechneten Normalkosten, wurde zu wenig verrechnet – es liegt eine Kostenunterdeckung vor."
   },
@@ -597,7 +730,9 @@
       "Die höchsten je gemessenen Kosten.",
       "Die variablen Kosten einer Periode."
     ],
-    "korrekt": [0],
+    "korrekt": [
+      0
+    ],
     "loesung": "Durchschnittliche Istkosten vergangener Perioden.",
     "erklaerung": "Normalkosten mitteln die Istkosten mehrerer vergangener Perioden und glätten so Schwankungen; sie dienen als Vergleichsmaßstab."
   },
@@ -614,7 +749,9 @@
       "Eine höhere Absatzmenge.",
       "Ein niedrigerer Umsatzsteuersatz."
     ],
-    "korrekt": [0],
+    "korrekt": [
+      0
+    ],
     "loesung": "Gestiegene Material- oder Lohnkosten.",
     "erklaerung": "Steigen die Einstandspreise für Material oder die Löhne, fallen höhere Istkosten an als in den Normalkosten kalkuliert – es entsteht eine Kostenunterdeckung."
   },
