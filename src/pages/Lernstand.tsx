@@ -1,8 +1,10 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import Layout from '../components/Layout'
-import { ladeAufgaben, ladeThemen, ladeBereiche } from '../lib/data'
-import { ladeFortschritt } from '../lib/progress'
+import { ladeAufgaben, ladeLernpaare, ladeThemen, ladeBereiche } from '../lib/data'
+import { ladeLernpaarStaende, themenQuizStand } from '../lib/lernquiz'
+import { heuteISO, ladeFortschritt } from '../lib/progress'
+import type { Lernpaar } from '../types'
 import { ihkNote } from '../lib/noten'
 import { terminAnzeige } from '../lib/termine'
 import { zerlegeAufgabenText } from '../lib/aufgabenText'
@@ -16,10 +18,14 @@ export default function Lernstand() {
   const [aufgaben, setAufgaben] = useState<Aufgabe[]>([])
   const [themen, setThemen] = useState<Thema[]>([])
   const [bereiche, setBereiche] = useState<Bereich[]>([])
+  const [lernpaare, setLernpaare] = useState<Record<string, Lernpaar[]>>({})
 
   useEffect(() => {
     Promise.all(BEREICHE.map((b) => ladeAufgaben(b).catch(() => []))).then((a) =>
       setAufgaben(a.flat()),
+    )
+    Promise.all(BEREICHE.map((b) => ladeLernpaare(b).catch(() => []))).then((liste) =>
+      setLernpaare(Object.fromEntries(BEREICHE.map((b, i) => [b, liste[i]]))),
     )
     Promise.all(BEREICHE.map((b) => ladeThemen(b).catch(() => []))).then((t) =>
       setThemen(t.flat()),
@@ -69,6 +75,37 @@ export default function Lernstand() {
           </div>
         ))}
       </div>
+
+      {/* Themen-Quiz: heute fällige Leitner-Fragen je Bereich */}
+      {Object.values(lernpaare).some((l) => l.length > 0) && (
+        <div className="mb-6 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
+          <h2 className="mb-1 font-bold text-slate-900">🧠 Themen-Quiz heute</h2>
+          <p className="mb-3 text-sm text-slate-500">
+            Fällige Wiederholungen im Leitner-System — kurz und regelmäßig wirkt am besten.
+          </p>
+          <div className="grid grid-cols-1 gap-2 sm:grid-cols-2">
+            {BEREICHE.filter((b) => (lernpaare[b] ?? []).length > 0).map((b) => {
+              const stand = themenQuizStand(lernpaare[b], ladeLernpaarStaende(), heuteISO())
+              return (
+                <Link
+                  key={b}
+                  to={`/${b}/quiz`}
+                  className="flex items-center justify-between gap-3 rounded-xl border border-slate-100 bg-slate-50 px-3 py-2 hover:border-sky-300"
+                >
+                  <span className="font-medium text-slate-800">{bereichName(b)}</span>
+                  <span
+                    className={`shrink-0 rounded-full px-2.5 py-0.5 text-sm font-bold ${
+                      stand.faellig > 0 ? 'bg-amber-100 text-amber-800' : 'bg-green-100 text-green-800'
+                    }`}
+                  >
+                    {stand.faellig > 0 ? `${stand.faellig} fällig` : 'alles erledigt ✔'}
+                  </span>
+                </Link>
+              )
+            })}
+          </div>
+        </div>
+      )}
 
       {/* Simulations-Historie */}
       <div className="mb-6 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
