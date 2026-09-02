@@ -11,3 +11,4 @@ content-pipeline/staging/
 !public/downloads/**/*.pdf
 server/api/config.php
 tsconfig.tsbuildinfo
+server/api.zip
