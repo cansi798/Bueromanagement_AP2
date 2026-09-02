@@ -3,9 +3,25 @@ import { useNavigate, useParams } from 'react-router-dom'
 import Markdown from '../components/Markdown'
 import QuizMC from '../components/QuizMC'
 import ThemaDiagramm, { hatDiagramm } from '../components/diagramme'
-import { ladeAufgaben, ladeBereiche, ladeThemen, useDaten } from '../lib/data'
+import { ladeAufgaben, ladeBereiche, ladeLernpaare, ladeThemen, useDaten } from '../lib/data'
 import { folienAusThema, type Folie } from '../lib/folien'
-import type { Aufgabe, BereichId } from '../types'
+import type { Aufgabe, BereichId, Lernpaar } from '../types'
+
+// Lernpaare als Quizfolien-Ersatz, wenn ein Thema kaum Original-MC hat.
+function alsAufgabe(p: Lernpaar): Aufgabe {
+  return {
+    id: p.id,
+    themaId: p.themaId,
+    bereich: p.bereich,
+    quelle: 'generiert',
+    typ: 'mc',
+    text: p.frage,
+    optionen: p.optionen,
+    korrekt: p.korrekt,
+    loesung: p.erklaerung,
+    erklaerung: p.erklaerung,
+  }
+}
 
 // Vollbild-Präsentation für den Unterricht. Steuerung: Pfeiltasten, Leertaste,
 // Klick/Touch auf ‹ › sowie horizontales Wischen auf Touchgeräten.
@@ -17,6 +33,9 @@ export default function Praesentation() {
   const { daten: bereiche } = useDaten(ladeBereiche)
   const { daten: themen, fehler, laedt } = useDaten(() => ladeThemen(bereichId!))
   const { daten: aufgaben } = useDaten(() => ladeAufgaben(bereichId!))
+  const { daten: lernpaare } = useDaten(() =>
+    ladeLernpaare(bereichId!).catch(() => [] as Lernpaar[]),
+  )
   const [aktiv, setAktiv] = useState(0)
   const touchStart = useRef<{ x: number; y: number } | null>(null)
 
@@ -30,11 +49,20 @@ export default function Praesentation() {
       if (hatDiagramm(t.id)) {
         basis.splice(1, 0, { art: 'diagramm', titel: t.name, themaId: t.id })
       }
-      // Bis zu 3 anklickbare MC-Quizfragen ans Themenende hängen.
-      const mc = (aufgaben ?? [])
+      // Bis zu 3 anklickbare MC-Quizfragen ans Themenende hängen; hat das
+      // Thema zu wenige MC-Aufgaben, füllen Lernpaare aus dem Themen-Quiz auf.
+      const mc: Aufgabe[] = (aufgaben ?? [])
         .filter((a) => a.themaId === t.id && a.typ === 'mc')
         .sort((a, b) => (a.quelle === 'generiert' ? -1 : 0) - (b.quelle === 'generiert' ? -1 : 0))
         .slice(0, 3)
+      if (mc.length < 3) {
+        mc.push(
+          ...(lernpaare ?? [])
+            .filter((p) => p.themaId === t.id)
+            .slice(0, 3 - mc.length)
+            .map(alsAufgabe),
+        )
+      }
       mc.forEach((a, i) =>
         basis.push({
           art: 'quiz',
@@ -45,9 +73,14 @@ export default function Praesentation() {
       )
       return basis
     })
-  }, [themen, themaId, aufgaben])
+  }, [themen, themaId, aufgaben, lernpaare])
 
-  const aufgabeZu = (id?: string): Aufgabe | undefined => aufgaben?.find((a) => a.id === id)
+  const aufgabeZu = (id?: string): Aufgabe | undefined => {
+    const a = aufgaben?.find((x) => x.id === id)
+    if (a) return a
+    const p = lernpaare?.find((x) => x.id === id)
+    return p ? alsAufgabe(p) : undefined
+  }
 
   useEffect(() => {
     function taste(e: KeyboardEvent) {

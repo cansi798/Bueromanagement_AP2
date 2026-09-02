@@ -132,14 +132,31 @@ function Uebersicht({
                   style={{ width: `${Math.round(anteil * 100)}%` }}
                 />
               </div>
-              <p className="mt-2 flex flex-wrap gap-x-3 gap-y-1 text-xs text-slate-600">
+              <div className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-slate-600">
                 <span>{stand.gesamt} Fragen</span>
                 {stand.faellig > 0 && (
                   <span className="font-semibold text-amber-700">{stand.faellig} fällig</span>
                 )}
                 {stand.neu > 0 && <span>✨ {stand.neu} neu</span>}
                 {stand.gemeistert > 0 && <span>🏆 {stand.gemeistert} gemeistert</span>}
-              </p>
+                {stand.neu < stand.gesamt && (
+                  <span
+                    className="ml-auto flex items-end gap-0.5"
+                    title={`Fächer 1–5: ${stand.proFach.join(' · ')} Fragen`}
+                  >
+                    {stand.proFach.map((n, i) => {
+                      const max = Math.max(...stand.proFach, 1)
+                      return (
+                        <span
+                          key={i}
+                          className={`w-1.5 rounded-sm ${n > 0 ? f.balken : 'bg-slate-200'}`}
+                          style={{ height: `${4 + Math.round((n / max) * 10)}px` }}
+                        />
+                      )
+                    })}
+                  </span>
+                )}
+              </div>
             </Link>
           )
         })}

@@ -46,6 +46,7 @@ export interface ThemenQuizStand {
   neu: number // noch nie beantwortet
   gemeistert: number // Fach 5
   fachSumme: number // Summe der Fächer, für Fortschrittsbalken
+  proFach: [number, number, number, number, number] // Kartenzahl je Fach 1-5
 }
 
 export function themenQuizStand(
@@ -57,16 +58,18 @@ export function themenQuizStand(
   let neu = 0
   let gemeistert = 0
   let fachSumme = 0
+  const proFach: ThemenQuizStand['proFach'] = [0, 0, 0, 0, 0]
   for (const p of paare) {
     const s = staende[p.id]
     if (istFaellig(s, heute)) faellig++
     if (!s) neu++
     else {
       fachSumme += s.fach
+      proFach[s.fach - 1]++
       if (s.fach === 5) gemeistert++
     }
   }
-  return { gesamt: paare.length, faellig, neu, gemeistert, fachSumme }
+  return { gesamt: paare.length, faellig, neu, gemeistert, fachSumme, proFach }
 }
 
 // Fortschritt 0..1: Anteil der maximal erreichbaren Fächer-Summe.

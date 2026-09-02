@@ -30,10 +30,18 @@ describe('themenQuizStand', () => {
     expect(s.faellig).toBe(2) // a (neu) + c (überfällig)
     expect(s.gemeistert).toBe(1) // b
     expect(s.fachSumme).toBe(7)
+    expect(s.proFach).toEqual([0, 1, 0, 0, 1]) // c in Fach 2, b in Fach 5
   })
 
   it('Fortschritt ist Fächer-Summe geteilt durch Maximum', () => {
-    const s = { gesamt: 2, faellig: 0, neu: 0, gemeistert: 1, fachSumme: 7 }
+    const s = {
+      gesamt: 2,
+      faellig: 0,
+      neu: 0,
+      gemeistert: 1,
+      fachSumme: 7,
+      proFach: [0, 1, 0, 0, 1] as [number, number, number, number, number],
+    }
     expect(quizFortschritt(s)).toBeCloseTo(0.7)
     expect(quizFortschritt({ ...s, gesamt: 0 })).toBe(0)
   })
