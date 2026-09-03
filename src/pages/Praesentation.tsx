@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import Markdown from '../components/Markdown'
 import QuizMC from '../components/QuizMC'
-import ThemaDiagramm, { hatDiagramm } from '../components/diagramme'
+import ThemaDiagramm, { FolienDiagramm, hatDiagramm } from '../components/diagramme'
 import { ladeAufgaben, ladeBereiche, ladeLernpaare, ladeThemen, useDaten } from '../lib/data'
 import { folienAusThema, type Folie } from '../lib/folien'
 import type { Aufgabe, BereichId, Lernpaar } from '../types'
@@ -181,6 +181,7 @@ export default function Praesentation() {
                 </h2>
                 <div className="mt-5 max-h-[60vh] overflow-y-auto text-lg print:max-h-none print:overflow-visible">
                   {f.markdown && <Markdown text={f.markdown} />}
+                  {f.art === 'inhalt' && <FolienDiagramm themaId={f.themaId} titel={f.titel} />}
                   {f.punkte && (
                     <ul className="space-y-3">
                       {f.punkte.map((p, j) => (

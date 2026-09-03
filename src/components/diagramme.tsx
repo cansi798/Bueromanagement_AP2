@@ -1,4 +1,6 @@
 import type { ReactNode } from 'react'
+import rough from 'roughjs'
+import type { Drawable } from 'roughjs/bin/core'
 
 // Handgezeichnet wirkende SVG-Diagramme (Excalidraw-Stil) für zentrale Themen.
 // Bewusst ohne externe Dienste: funktioniert offline, auf jedem Host und im PDF.
@@ -246,6 +248,167 @@ const MuendlichAblauf = () => (
   </Dia>
 )
 
+/* ---------- Rough.js-Helfer: echte Skizzen-Optik für neue Diagramme ---------- */
+
+// Fester seed wie in AnlagenDiagramm, damit jedes Rendering identisch aussieht.
+const rgen = rough.generator({ options: { seed: 7, roughness: 1.3, strokeWidth: 2 } })
+
+function Skizze({ zeichnung }: { zeichnung: Drawable }) {
+  return (
+    <>
+      {rgen.toPaths(zeichnung).map((p, i) => (
+        <path key={i} d={p.d} stroke={p.stroke} strokeWidth={p.strokeWidth} fill={p.fill ?? 'none'} />
+      ))}
+    </>
+  )
+}
+
+// Rough-Kasten mit mehrzeiligem, zentriertem Text (\n trennt Zeilen).
+function RB({ x, y, w, h, t, f = '#ffffff', fs = 14, fett = true }: {
+  x: number; y: number; w: number; h: number; t: string; f?: string; fs?: number; fett?: boolean
+}) {
+  const zeilen = t.split('\n')
+  return (
+    <g>
+      <Skizze zeichnung={rgen.rectangle(x, y, w, h, { stroke: INK, fill: f, fillStyle: 'solid' })} />
+      {zeilen.map((z, i) => (
+        <text
+          key={i}
+          x={x + w / 2}
+          y={y + h / 2 + (i - (zeilen.length - 1) / 2) * (fs + 4)}
+          textAnchor="middle"
+          dominantBaseline="middle"
+          fontSize={fs}
+          fontWeight={fett ? 600 : 400}
+          fill={INK}
+        >
+          {z}
+        </text>
+      ))}
+    </g>
+  )
+}
+
+function RPfeil({ x1, y1, x2, y2, s = INK }: {
+  x1: number; y1: number; x2: number; y2: number; s?: string
+}) {
+  const wink = Math.atan2(y2 - y1, x2 - x1)
+  const l = 11
+  return (
+    <g>
+      <Skizze zeichnung={rgen.line(x1, y1, x2, y2, { stroke: s, strokeWidth: 2.2 })} />
+      <polygon
+        points={`${x2},${y2} ${x2 - l * Math.cos(wink - 0.4)},${y2 - l * Math.sin(wink - 0.4)} ${x2 - l * Math.cos(wink + 0.4)},${y2 - l * Math.sin(wink + 0.4)}`}
+        fill={s}
+      />
+    </g>
+  )
+}
+
+/* ---------- Rough.js-Diagramme für die neuen WiSo-Abschnitte ---------- */
+
+const Sozialversicherung = () => (
+  <Dia titel="Die fünf Säulen der Sozialversicherung" viewBox="0 0 800 400">
+    <RB x={40} y={40} w={430} h={44} t={'Beiträge: Arbeitgeber + Arbeitnehmer je zur Hälfte (paritätisch)'} f="#e0f2fe" fs={13.5} />
+    <RB x={560} y={40} w={210} h={44} t={'Ausnahme: zahlt der\nArbeitgeber allein!'} f="#fee2e2" fs={13} />
+    <RPfeil x1={255} y1={84} x2={255} y2={128} />
+    <RPfeil x1={665} y1={84} x2={665} y2={128} s="#be123c" />
+    <RB x={40} y={130} w={135} h={130} t={'Kranken-\nversicherung\n14,6 %\n+ Zusatzbeitrag'} f="#dcfce7" fs={12.5} />
+    <RB x={192} y={130} w={135} h={130} t={'Pflege-\nversicherung\n3,6 %\n(Kinderlose mehr)'} f="#dcfce7" fs={12.5} />
+    <RB x={344} y={130} w={135} h={130} t={'Renten-\nversicherung\n18,6 %'} f="#dcfce7" fs={12.5} />
+    <RB x={496} y={130} w={135} h={130} t={'Arbeitslosen-\nversicherung\n2,6 %'} f="#dcfce7" fs={12.5} />
+    <RB x={648} y={130} w={122} h={130} t={'Unfall-\nversicherung\nBerufs-\ngenossenschaft'} f="#fee2e2" fs={12.5} />
+    <RB x={40} y={300} w={730} h={46} t={'Sozialversicherung — Schutz vor den großen Lebensrisiken'} f="#fef9c3" fs={15} />
+    <T x={400} y={382} t="Merke: KV · PV · RV · AV · UV — nur die Unfallversicherung ist allein Sache des Arbeitgebers (auch Wegeunfälle!)" fs={13} fill="#b45309" fett />
+  </Dia>
+)
+
+const Kuendigung = () => (
+  <Dia titel="Kündigung und Kündigungsschutz auf einen Blick" viewBox="0 0 800 410">
+    <RB x={280} y={20} w={240} h={46} t={'Kündigung = immer\nSchriftform (§ 623 BGB)'} f="#fef9c3" fs={13} />
+    <RPfeil x1={330} y1={66} x2={190} y2={110} />
+    <RPfeil x1={470} y1={66} x2={610} y2={110} />
+    <RB x={55} y={112} w={280} h={64} t={'Ordentlich: mit Frist (§ 622)\nGrundfrist 4 Wochen zum\n15. oder Monatsende'} f="#e0f2fe" fs={12.5} />
+    <RB x={465} y={112} w={280} h={64} t={'Außerordentlich: fristlos (§ 626)\nwichtiger Grund nötig,\nnur binnen 2 Wochen'} f="#fee2e2" fs={12.5} />
+    <RB x={55} y={210} w={690} h={40} t={'Kündigungsschutzgesetz: Betrieb > 10 Arbeitnehmer und > 6 Monate beschäftigt'} f="#f3e8ff" fs={13.5} />
+    <RPfeil x1={175} y1={250} x2={175} y2={288} />
+    <RPfeil x1={400} y1={250} x2={400} y2={288} />
+    <RPfeil x1={625} y1={250} x2={625} y2={288} />
+    <RB x={55} y={290} w={240} h={62} t={'personenbedingt\nz. B. dauerhafte\nKrankheit'} f="#ffffff" fs={12.5} />
+    <RB x={310} y={290} w={240} h={62} t={'verhaltensbedingt\nvorher Abmahnung\nnötig!'} f="#ffffff" fs={12.5} />
+    <RB x={565} y={290} w={180} h={62} t={'betriebsbedingt\nmit Sozialauswahl'} f="#ffffff" fs={12.5} />
+    <T x={400} y={390} t="Dagegen wehren: Kündigungsschutzklage beim Arbeitsgericht — innerhalb von 3 Wochen!" fs={13.5} fill="#b45309" fett />
+  </Dia>
+)
+
+const TarifBetriebsrat = () => (
+  <Dia titel="Tarifpartner und die gestuften Rechte des Betriebsrats" viewBox="0 0 800 400">
+    <RB x={40} y={30} w={200} h={52} t={'Gewerkschaft'} f="#e0f2fe" />
+    <RB x={560} y={30} w={200} h={52} t={'Arbeitgeberverband\noder Arbeitgeber'} f="#e0f2fe" fs={13} />
+    <RPfeil x1={240} y1={56} x2={558} y2={56} />
+    <RPfeil x1={558} y1={70} x2={242} y2={70} />
+    <RB x={300} y={100} w={200} h={50} t={'Tarifvertrag'} f="#dcfce7" fs={15} />
+    <RPfeil x1={400} y1={82} x2={400} y2={98} />
+    <T x={140} y={110} t="Tarifautonomie (Art. 9 GG)" fs={12} />
+    <T x={655} y={110} t="Friedenspflicht während" fs={12} />
+    <T x={655} y={126} t="der Laufzeit" fs={12} />
+    <T x={400} y={175} t="Günstigkeitsprinzip: Abweichung nur zugunsten des Arbeitnehmers" fs={12.5} fill="#0369a1" fett />
+    <RB x={40} y={200} w={720} h={40} t={'Betriebsrat: ab 5 wahlberechtigten Arbeitnehmern · Wahl alle 4 Jahre'} f="#fef9c3" fs={13.5} />
+    <RB x={70} y={260} w={210} h={80} t={'Mitbestimmung\nsoziale Angelegenheiten\n(§ 87 BetrVG): Arbeitszeit,\nUrlaubsgrundsätze'} f="#dcfce7" fs={11.5} />
+    <RB x={295} y={260} w={210} h={80} t={'Mitwirkung/Anhörung\npersonelle Angelegenheiten:\nAnhörung vor jeder\nKündigung!'} f="#e0f2fe" fs={11.5} />
+    <RB x={520} y={260} w={210} h={80} t={'Information\nwirtschaftliche\nAngelegenheiten\n(Wirtschaftsausschuss)'} f="#f1f5f9" fs={11.5} />
+    <T x={400} y={378} t="Ohne Anhörung des Betriebsrats ist eine Kündigung unwirksam (§ 102 BetrVG)." fs={13} fill="#b45309" fett />
+  </Dia>
+)
+
+const EzbGeldpolitik = () => (
+  <Dia titel="Wirkungskette der EZB-Geldpolitik" viewBox="0 0 800 380">
+    <RB x={300} y={20} w={200} h={56} t={'EZB\nZiel: Preisstabilität ~ 2 %'} f="#fef9c3" fs={13} />
+    <RPfeil x1={340} y1={76} x2={200} y2={120} />
+    <RPfeil x1={460} y1={76} x2={600} y2={120} />
+    <T x={150} y={108} t="restriktiv (gegen Inflation)" fs={12.5} fill="#be123c" fett />
+    <T x={655} y={108} t="expansiv (gegen Rezession)" fs={12.5} fill="#047857" fett />
+    <RB x={90} y={122} w={220} h={44} t={'Leitzins erhöhen ↑'} f="#fee2e2" fs={13.5} />
+    <RB x={490} y={122} w={220} h={44} t={'Leitzins senken ↓'} f="#dcfce7" fs={13.5} />
+    <RPfeil x1={200} y1={166} x2={200} y2={196} s="#be123c" />
+    <RPfeil x1={600} y1={166} x2={600} y2={196} s="#047857" />
+    <RB x={90} y={198} w={220} h={44} t={'Kredite werden teurer'} f="#fee2e2" fs={13} />
+    <RB x={490} y={198} w={220} h={44} t={'Kredite werden billiger'} f="#dcfce7" fs={13} />
+    <RPfeil x1={200} y1={242} x2={200} y2={272} s="#be123c" />
+    <RPfeil x1={600} y1={242} x2={600} y2={272} s="#047857" />
+    <RB x={90} y={274} w={220} h={56} t={'Konsum + Investitionen ↓\n→ Inflation sinkt'} f="#fee2e2" fs={13} />
+    <RB x={490} y={274} w={220} h={56} t={'Konsum + Investitionen ↑\n→ Konjunktur zieht an'} f="#dcfce7" fs={13} />
+    <T x={400} y={362} t="Inflation: Preisniveau steigt, Geldwert sinkt · Gewinner: Schuldner · Verlierer: Sparer" fs={13} fill="#b45309" fett />
+  </Dia>
+)
+
+const RechtsformenBaum = () => (
+  <Dia titel="Rechtsformen: Haftung entscheidet" viewBox="0 0 800 400">
+    <RB x={290} y={20} w={220} h={46} t={'Rechtsformen'} f="#fef9c3" fs={15} />
+    <RPfeil x1={330} y1={66} x2={140} y2={108} />
+    <RPfeil x1={400} y1={66} x2={400} y2={108} />
+    <RPfeil x1={470} y1={66} x2={660} y2={108} />
+    <RB x={40} y={110} w={200} h={50} t={'Einzelunternehmen\n(e. K.)'} f="#e0f2fe" fs={12.5} />
+    <RB x={300} y={110} w={200} h={50} t={'Personen-\ngesellschaften'} f="#e0f2fe" fs={12.5} />
+    <RB x={560} y={110} w={200} h={50} t={'Kapital-\ngesellschaften'} f="#e0f2fe" fs={12.5} />
+    <T x={140} y={185} t="eine Person, haftet" fs={12} />
+    <T x={140} y={201} t="unbeschränkt privat" fs={12} />
+    <RPfeil x1={355} y1={160} x2={310} y2={198} />
+    <RPfeil x1={445} y1={160} x2={490} y2={198} />
+    <RB x={225} y={200} w={165} h={70} t={'OHG\nalle haften\nunbeschränkt'} f="#fee2e2" fs={12} />
+    <RB x={410} y={200} w={165} h={70} t={'KG\nKomplementär: voll\nKommanditist: Einlage'} f="#fee2e2" fs={11.5} />
+    <RPfeil x1={615} y1={160} x2={615} y2={198} />
+    <RPfeil x1={700} y1={160} x2={700} y2={198} />
+    <RB x={595} y={200} w={92} h={70} t={'GmbH\n25.000 €\nStammkapital'} f="#dcfce7" fs={11.5} />
+    <RB x={697} y={200} w={92} h={70} t={'AG\n50.000 €\nGrundkapital'} f="#dcfce7" fs={11.5} />
+    <T x={640} y={295} t="Haftung beschränkt auf Gesellschaftsvermögen" fs={12} />
+    <T x={640} y={311} t="AG-Organe: Vorstand · Aufsichtsrat · Hauptversammlung" fs={12} />
+    <T x={220} y={295} t="mind. ein Gesellschafter haftet persönlich," fs={12} />
+    <T x={220} y={311} t="dafür kein Mindestkapital" fs={12} />
+    <T x={400} y={370} t="Merke: Personengesellschaft = persönliche Haftung · Kapitalgesellschaft = Mindestkapital + Formalitäten" fs={13} fill="#b45309" fett />
+  </Dia>
+)
+
 /* ---------- Registry: themaId → Diagramm ---------- */
 
 export const DIAGRAMME: Record<string, () => ReactNode> = {
@@ -286,6 +449,28 @@ const EXCALIDRAW_DATEI: Record<string, string> = {
 
 export function hatDiagramm(themaId: string): boolean {
   return themaId in DIAGRAMME
+}
+
+// Diagramme für einzelne Lernzettel-Abschnitte: Schlüssel ist der exakte
+// „##"-Folientitel. Wird auf der jeweiligen Inhaltsfolie mitgerendert.
+const FOLIEN_DIAGRAMME: Record<string, Record<string, () => ReactNode>> = {
+  'berufsausbildung-arbeitsrecht': {
+    'Kündigung und Kündigungsschutz': Kuendigung,
+    'Tarifvertrag, Betriebsrat und Mitbestimmung': TarifBetriebsrat,
+    'Sozialversicherung: die fünf Säulen': Sozialversicherung,
+  },
+  'konjunktur-indikatoren': {
+    'Geldpolitik der EZB, Inflation und Deflation': EzbGeldpolitik,
+  },
+  'rechtsformen-vollmachten': {
+    'Rechtsformen im Überblick': RechtsformenBaum,
+    'Kaufvertrag und Leistungsstörungen': Kaufvertrag,
+  },
+}
+
+export function FolienDiagramm({ themaId, titel }: { themaId: string; titel: string }) {
+  const D = FOLIEN_DIAGRAMME[themaId]?.[titel]
+  return D ? <>{D()}</> : null
 }
 
 export default function ThemaDiagramm({ themaId }: { themaId: string }) {

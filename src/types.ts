@@ -40,14 +40,43 @@ export interface DiagrammPunkt {
   y: number
 }
 
+// Organigramm-Knoten; `unter` verweist auf die id des Vorgesetzten,
+// `stab` hängt den Knoten seitlich als Stabstelle an.
+export interface DiagrammKnoten {
+  id: string
+  text: string
+  unter?: string
+  stab?: boolean
+}
+
+// Einzelzeichen für Schilder-/Symbol-Aufgaben (Sicherheitszeichen, EPK-Operatoren).
+export interface DiagrammZeichen {
+  nr: string
+  form: 'kreis' | 'dreieck' | 'quadrat' | 'rechteck' | 'raute' | 'sechseck'
+  farbe?: 'gruen' | 'rot' | 'gelb' | 'blau' | 'grau' | 'weiss'
+  innen?: string
+  text?: string
+}
+
+// Wirtschaftskreislauf-Skizze: Ströme zwischen linker und rechter Box.
+export interface KreislaufVariante {
+  name: string
+  stroeme: { text: string; richtung: 'links' | 'rechts' }[]
+}
+
 export interface AnlagenDiagramm {
-  typ: 'linie' | 'balken' | 'kreis'
+  typ: 'linie' | 'balken' | 'kreis' | 'organigramm' | 'schilder' | 'kreislauf'
   titel: string
   xAchse?: string
   yAchse?: string
   einheit?: string
   quelle?: string
-  serien: { name: string; punkte: DiagrammPunkt[] }[]
+  serien?: { name: string; punkte: DiagrammPunkt[] }[]
+  knoten?: DiagrammKnoten[]
+  zeichen?: DiagrammZeichen[]
+  varianten?: KreislaufVariante[]
+  linksBox?: string
+  rechtsBox?: string
 }
 
 export interface Aufgabe {
@@ -101,4 +130,14 @@ export interface GlossarEintrag {
   begriff: string
   definition: string
   bereiche: BereichId[]
+}
+
+// Nachschlage-Formel für die Kachel „Begriffe & Formeln" (KaTeX-Markdown).
+export interface FormelEintrag {
+  id: string
+  titel: string
+  formel: string
+  erklaerung?: string
+  bereiche: BereichId[]
+  kategorie: string
 }

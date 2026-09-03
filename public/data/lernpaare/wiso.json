@@ -235,7 +235,7 @@
     "korrekt": [
       2
     ],
-    "erklaerung": "Beim Maximalprinzip ist der Mitteleinsatz fest vorgegeben (z. B. ein Budget von 150.000 €) und der Ertrag soll maximiert werden. „Minimaler Einsatz bei maximalem Ertrag\" ist die klassische Falle – beide Größen gleichzeitig zu optimieren ist logisch unmöglich und daher kein ökonomisches Prinzip. Die letzte Option beschreibt das Minimalprinzip: festes Ziel, minimaler Einsatz.",
+    "erklaerung": "Beim Maximalprinzip ist der Mitteleinsatz fest vorgegeben (z. B. ein Budget von 150.000 €) und der Ertrag soll maximiert werden. „Minimaler Einsatz bei maximalem Ertrag\" ist die klassische Falle – beide Größen gleichzeitig zu optimieren ist logisch unmöglich und daher kein ökonomisches Prinzip. Die Variante „gewünschter Ertrag mit möglichst geringem Mitteleinsatz\" beschreibt das Minimalprinzip: festes Ziel, minimaler Einsatz.",
     "schwierigkeit": 2,
     "quellTermin": "2023-winter"
   },
@@ -255,7 +255,7 @@
       1,
       2
     ],
-    "erklaerung": "Beim Minimalprinzip steht das Ziel fest (Zertifizierung erreichen, 20 °C halten) und der Mitteleinsatz soll minimiert werden – das trifft auf die Optionen 2 und 3 zu. Die erste Option will Einsatz minimieren und Ergebnis maximieren zugleich – das ist kein ökonomisches Prinzip. „Möglichst hoher Gewinn\" ist eine allgemeine Zielsetzung ohne festen Bezugspunkt, und Vollauslastung beschreibt gar kein Einsatz-Ertrags-Verhältnis.",
+    "erklaerung": "Beim Minimalprinzip steht das Ziel fest (Zertifizierung erreichen, 20 °C halten) und der Mitteleinsatz soll minimiert werden – das trifft auf die Öko-Zertifizierung und das Halten der Raumtemperatur zu. Die Formulierung „möglichst günstige Maßnahmen für eine maximale Energieersparnis\" will Einsatz minimieren und Ergebnis maximieren zugleich – das ist kein ökonomisches Prinzip. „Möglichst hoher Gewinn\" ist eine allgemeine Zielsetzung ohne festen Bezugspunkt, und Vollauslastung beschreibt gar kein Einsatz-Ertrags-Verhältnis.",
     "schwierigkeit": 2,
     "quellTermin": "2021-winter"
   },
@@ -735,7 +735,7 @@
     "korrekt": [
       2
     ],
-    "erklaerung": "Selbstfinanzierung bedeutet Finanzierung aus einbehaltenem Gewinn – nur die dritte Option beschreibt das. Private Einzahlungen der Gesellschafter und die Aufnahme eines neuen Kommanditisten sind Beteiligungs-/Einlagenfinanzierung, also Außenfinanzierung mit Eigenkapital. Die Kreditaufnahme ist Fremdfinanzierung von außen.",
+    "erklaerung": "Selbstfinanzierung bedeutet Finanzierung aus einbehaltenem Gewinn – nur die Verwendung von Teilen des Unternehmensgewinns beschreibt das. Private Einzahlungen der Gesellschafter und die Aufnahme eines neuen Kommanditisten sind Beteiligungs-/Einlagenfinanzierung, also Außenfinanzierung mit Eigenkapital. Die Kreditaufnahme ist Fremdfinanzierung von außen.",
     "schwierigkeit": 1,
     "quellTermin": "2024-sommer"
   },
@@ -1095,7 +1095,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Beim Nachfrageüberhang wollen die Käufer mehr, als angeboten wird – typisch bei niedrigen Preisen. Die Verkäufer sitzen dann am längeren Hebel (Verkäufermarkt) und können höhere Preise durchsetzen. Die zweite Option beschreibt den Angebotsüberhang, die vierte kombiniert Nachfrageüberhang fälschlich mit Käufermarkt – die Zuordnung der Marktseite ist die häufigste Fehlerquelle.",
+    "erklaerung": "Beim Nachfrageüberhang wollen die Käufer mehr, als angeboten wird – typisch bei niedrigen Preisen. Die Verkäufer sitzen dann am längeren Hebel (Verkäufermarkt) und können höhere Preise durchsetzen. Die Aussage, das Angebot übersteige die Nachfrage, beschreibt den Angebotsüberhang; die Variante, die den Nachfrageüberhang mit einem Käufermarkt und sinkenden Preisen kombiniert, ordnet die Marktseite falsch zu – die Zuordnung der Marktseite ist die häufigste Fehlerquelle.",
     "schwierigkeit": 2
   },
   {
@@ -1691,7 +1691,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Auf der senkrechten Achse wird die Wirtschaftsleistung gemessen – üblicherweise das reale BIP. Die Abwärtsbewegung der Konjunkturwelle ist die Rezession (Abschwung), eine Aufwärtsbewegung wäre die Expansion. Die langfristig steigende Gerade durch die Schwankungen ist der Wirtschaftstrend. Option 4 scheitert daran, dass eine Abwärtsbewegung keine Expansion sein kann.",
+    "erklaerung": "Auf der senkrechten Achse wird die Wirtschaftsleistung gemessen – üblicherweise das reale BIP. Die Abwärtsbewegung der Konjunkturwelle ist die Rezession (Abschwung), eine Aufwärtsbewegung wäre die Expansion. Die langfristig steigende Gerade durch die Schwankungen ist der Wirtschaftstrend. Die Zuordnung „B = Expansion\" scheitert daran, dass eine Abwärtsbewegung keine Expansion sein kann.",
     "schwierigkeit": 2,
     "quellTermin": "2025-sommer"
   },
@@ -1891,7 +1891,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Je jünger der Jugendliche, desto mehr Urlaub: 30 Werktage, wer zu Jahresbeginn noch nicht 16 ist, 27 Werktage unter 17 und 25 Werktage unter 18. Die zweite Option dreht die Staffel genau um – die häufigste Falle. Wichtig: Das Gesetz rechnet in Werktagen (Montag bis Samstag), nicht in Arbeitstagen, und 24 Werktage sind der Mindesturlaub für Erwachsene nach dem Bundesurlaubsgesetz.",
+    "erklaerung": "Je jünger der Jugendliche, desto mehr Urlaub: 30 Werktage, wer zu Jahresbeginn noch nicht 16 ist, 27 Werktage unter 17 und 25 Werktage unter 18. Die umgekehrte Staffel „25/27/30 Werktage\" dreht die Systematik genau um – die häufigste Falle. Wichtig: Das Gesetz rechnet in Werktagen (Montag bis Samstag), nicht in Arbeitstagen, und 24 Werktage sind der Mindesturlaub für Erwachsene nach dem Bundesurlaubsgesetz.",
     "schwierigkeit": 2
   },
   {
@@ -3031,7 +3031,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Die Aufgabenanalyse zerlegt die Gesamtaufgabe des Unternehmens gedanklich in Haupt- und Teilaufgaben – sie ist der erste Schritt der organisatorischen Gestaltung. Die anschließende Zusammenfassung der Teilaufgaben zu Stellen ist die Aufgabensynthese (letzte Option – beliebte Verwechslung!). Jobsharing, die Einteilung in Innen-/Außendienst oder soziale Rücksichtnahme sind keine Definitionen der Aufgabenanalyse.",
+    "erklaerung": "Die Aufgabenanalyse zerlegt die Gesamtaufgabe des Unternehmens gedanklich in Haupt- und Teilaufgaben – sie ist der erste Schritt der organisatorischen Gestaltung. Die anschließende Zusammenfassung der Teilaufgaben zu Stellen ist die Aufgabensynthese (hier als Fangantwort angeboten – beliebte Verwechslung!). Jobsharing, die Einteilung in Innen-/Außendienst oder soziale Rücksichtnahme sind keine Definitionen der Aufgabenanalyse.",
     "schwierigkeit": 2,
     "quellTermin": "2023-sommer"
   },
@@ -3144,7 +3144,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Die Aufbauorganisation beantwortet die Frage „Wer ist wofür zuständig und wem unterstellt?“ (Struktur, dargestellt im Organigramm). Die Ablauforganisation beantwortet „Wie, wann und wo werden die Aufgaben erledigt?“ (Prozesse, z. B. Arbeitsanweisungen). Die zweite Option vertauscht die Begriffe, die dritte reduziert beide auf das Organigramm, und die Ablauforganisation gilt dauerhaft und in jeder Branche – nicht nur bei Gründung oder am Fließband.",
+    "erklaerung": "Die Aufbauorganisation beantwortet die Frage „Wer ist wofür zuständig und wem unterstellt?“ (Struktur, dargestellt im Organigramm). Die Ablauforganisation beantwortet „Wie, wann und wo werden die Aufgaben erledigt?“ (Prozesse, z. B. Arbeitsanweisungen). Die Zuordnung „Aufbauorganisation regelt die Arbeitsprozesse, Ablauforganisation die Abteilungsstruktur\" vertauscht die Begriffe, die Gleichsetzung beider mit dem Organigramm reduziert sie unzulässig darauf, und die Ablauforganisation gilt dauerhaft und in jeder Branche – nicht nur bei Gründung oder am Fließband.",
     "schwierigkeit": 1
   },
   {
@@ -3405,7 +3405,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Im Einliniensystem läuft jede Information und Weisung den kompletten Dienstweg über alle Ebenen – das macht die Wege lang und überlastet die Spitze, die alles entscheiden muss. Dafür sind Zuständigkeiten und Verantwortung gerade sehr klar (dritte Option falsch). Widersprüchliche Weisungen mehrerer Vorgesetzter sind der typische Nachteil des Mehrliniensystems, Konflikte zwischen Produkt- und Funktionsmanagern der der Matrixorganisation, und Stabstellen haben nie Weisungsbefugnis.",
+    "erklaerung": "Im Einliniensystem läuft jede Information und Weisung den kompletten Dienstweg über alle Ebenen – das macht die Wege lang und überlastet die Spitze, die alles entscheiden muss. Dafür sind Zuständigkeiten und Verantwortung gerade sehr klar – von unklaren Verantwortlichkeiten kann keine Rede sein. Widersprüchliche Weisungen mehrerer Vorgesetzter sind der typische Nachteil des Mehrliniensystems, Konflikte zwischen Produkt- und Funktionsmanagern der der Matrixorganisation, und Stabstellen haben nie Weisungsbefugnis.",
     "schwierigkeit": 2
   },
   {
@@ -3423,7 +3423,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Analyse und Synthese sind Gegenstücke: Erst zerlegt die Aufgabenanalyse die Gesamtaufgabe in Teilaufgaben, dann bündelt die Aufgabensynthese diese Teilaufgaben sinnvoll zu Stellen (und weiter zu Gruppen und Abteilungen) – so entsteht die Aufbauorganisation. Die zweite Option beschreibt die Analyse (Verwechslungsgefahr!), die Multimomentmethode ist ein Instrument der Ist-Aufnahme, und Gehaltsfestlegung oder EPK-Modellierung gehören nicht zur Aufgabensynthese.",
+    "erklaerung": "Analyse und Synthese sind Gegenstücke: Erst zerlegt die Aufgabenanalyse die Gesamtaufgabe in Teilaufgaben, dann bündelt die Aufgabensynthese diese Teilaufgaben sinnvoll zu Stellen (und weiter zu Gruppen und Abteilungen) – so entsteht die Aufbauorganisation. Die gedankliche Zerlegung der Gesamtaufgabe beschreibt dagegen die Analyse (Verwechslungsgefahr!), die Multimomentmethode ist ein Instrument der Ist-Aufnahme, und Gehaltsfestlegung oder EPK-Modellierung gehören nicht zur Aufgabensynthese.",
     "schwierigkeit": 2
   },
   {
@@ -3752,7 +3752,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Das Lastenheft formuliert der Auftraggeber in der Definitionsphase: die Gesamtheit seiner Anforderungen an Lieferungen und Leistungen (Was soll erreicht werden und wofür?). Darauf antwortet der Auftragnehmer mit dem Pflichtenheft: Wie und womit werden die Anforderungen realisiert? Die zweite Option vertauscht genau diese Urheberschaft – die klassische Prüfungsfalle. Mit Ausbildungspflichten oder Prämien haben beide Dokumente nichts zu tun.",
+    "erklaerung": "Das Lastenheft formuliert der Auftraggeber in der Definitionsphase: die Gesamtheit seiner Anforderungen an Lieferungen und Leistungen (Was soll erreicht werden und wofür?). Darauf antwortet der Auftragnehmer mit dem Pflichtenheft: Wie und womit werden die Anforderungen realisiert? Die Behauptung, das Pflichtenheft stamme vom Auftraggeber und das Lastenheft vom Auftragnehmer, vertauscht genau diese Urheberschaft – die klassische Prüfungsfalle. Mit Ausbildungspflichten oder Prämien haben beide Dokumente nichts zu tun.",
     "schwierigkeit": 3
   },
   {
@@ -3848,7 +3848,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Die Volkswirtschaftslehre unterscheidet die ursprünglichen Faktoren **Arbeit** und **Boden (Natur)** sowie den abgeleiteten Faktor **Kapital** (Sach- und Geldkapital). Die betriebswirtschaftliche Einteilung nach Gutenberg (Werkstoffe, Betriebsmittel, ausführende Arbeit, dispositiver Faktor) ist davon zu trennen – Option 2 nennt genau diese betriebliche Sicht und ist zudem unvollständig (nur drei von vier Faktoren). Option 3 mischt beide Systematiken, Option 4 ersetzt das umfassende „Kapital\" fälschlich durch den Teilaspekt „Maschinen\". Prüfungstipp: Wird nach „volkswirtschaftlich\" gefragt, immer Arbeit–Boden–Kapital antworten.",
+    "erklaerung": "Die Volkswirtschaftslehre unterscheidet die ursprünglichen Faktoren **Arbeit** und **Boden (Natur)** sowie den abgeleiteten Faktor **Kapital** (Sach- und Geldkapital). Die betriebswirtschaftliche Einteilung nach Gutenberg (Werkstoffe, Betriebsmittel, ausführende Arbeit, dispositiver Faktor) ist davon zu trennen – Die Kombination „Werkstoffe, Betriebsmittel und dispositiver Faktor\" nennt genau diese betriebliche Sicht und ist zudem unvollständig (nur drei von vier Faktoren). „Arbeit, Betriebsmittel und Werkstoffe\" mischt beide Systematiken, und „Boden, Maschinen und menschliche Arbeitskraft\" ersetzt das umfassende „Kapital\" fälschlich durch den Teilaspekt „Maschinen\". Prüfungstipp: Wird nach „volkswirtschaftlich\" gefragt, immer Arbeit–Boden–Kapital antworten.",
     "schwierigkeit": 1
   },
   {
@@ -3899,7 +3899,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Jahr 1: 240.000 ÷ 200.000 = **1,2**; Jahr 2: 460.000 ÷ 410.000 ≈ **1,12**. Der Quotient ist gesunken – je eingesetztem Euro Aufwand wird weniger Ertrag erwirtschaftet, die Wirtschaftlichkeit hat sich also verschlechtert. Option 2 ist der klassische Denkfehler: Ein höherer absoluter Gewinn (50.000 € statt 40.000 €) bedeutet nicht automatisch eine bessere Wirtschaftlichkeit, weil dafür überproportional mehr Aufwand nötig war. Option 3 ist falsch, denn „Gewinn in beiden Jahren\" sagt nichts über die Höhe des Quotienten aus. Option 4 nennt zwar das richtige Ergebnis, aber die falsche Begründung: Ein höherer Aufwand allein senkt die Wirtschaftlichkeit nicht, wenn der Ertrag im gleichen Verhältnis mitwächst.",
+    "erklaerung": "Jahr 1: 240.000 ÷ 200.000 = **1,2**; Jahr 2: 460.000 ÷ 410.000 ≈ **1,12**. Der Quotient ist gesunken – je eingesetztem Euro Aufwand wird weniger Ertrag erwirtschaftet, die Wirtschaftlichkeit hat sich also verschlechtert. Der Schluss vom gestiegenen Gewinn auf eine gestiegene Wirtschaftlichkeit ist der klassische Denkfehler: Ein höherer absoluter Gewinn (50.000 € statt 40.000 €) bedeutet nicht automatisch eine bessere Wirtschaftlichkeit, weil dafür überproportional mehr Aufwand nötig war. Auch „unverändert\" stimmt nicht, denn „Gewinn in beiden Jahren\" sagt nichts über die Höhe des Quotienten aus. Die Begründung allein über den höheren Aufwand nennt zwar das richtige Ergebnis, stützt es aber falsch: Ein höherer Aufwand allein senkt die Wirtschaftlichkeit nicht, wenn der Ertrag im gleichen Verhältnis mitwächst.",
     "schwierigkeit": 3
   },
   {
@@ -3936,7 +3936,7 @@
       0,
       1
     ],
-    "erklaerung": "Nachhaltigkeit ruht auf **drei Säulen**: Ökonomie, Ökologie und Soziales (Aussage 1) und folgt dem Generationenprinzip der Brundtland-Definition (Aussage 2). Aussage 3 verkürzt Nachhaltigkeit fälschlich auf die Umwelt-Säule. Aussage 4 ist falsch, weil nachhaltige Maßnahmen (z. B. Umstellung auf zertifizierte Rohstoffe) kurzfristig oft Kosten verursachen und sich erst langfristig auszahlen. Aussage 5 verwechselt Nachhaltigkeit mit Gewinnverzicht – die ökonomische Säule schließt dauerhafte Gewinnerzielung ausdrücklich ein, denn ohne wirtschaftlichen Erfolg kann kein Unternehmen dauerhaft ökologisch und sozial handeln.",
+    "erklaerung": "Nachhaltigkeit ruht auf **drei Säulen**: Ökonomie, Ökologie und Soziales – und folgt dem Generationenprinzip der Brundtland-Definition; beides ist richtig. Die Beschränkung auf den betrieblichen Umweltschutz verkürzt Nachhaltigkeit fälschlich auf die Umwelt-Säule. Dass nachhaltige Maßnahmen kurzfristig immer den Gewinn erhöhten, ist falsch, weil sie (z. B. Umstellung auf zertifizierte Rohstoffe) kurzfristig oft Kosten verursachen und sich erst langfristig auszahlen. Die angebliche Pflicht, auf Gewinnerzielung zu verzichten, verwechselt Nachhaltigkeit mit Gewinnverzicht – die ökonomische Säule schließt dauerhafte Gewinnerzielung ausdrücklich ein, denn ohne wirtschaftlichen Erfolg kann kein Unternehmen dauerhaft ökologisch und sozial handeln.",
     "schwierigkeit": 1
   },
   {
@@ -3953,7 +3953,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "**Komplementär** bedeutet: Die Verfolgung des einen Ziels fördert zugleich das andere. Energieeffiziente Maschinen dienen dem ökonomischen Ziel (Kostensenkung) und dem ökologischen Ziel (weniger CO₂) – beide Ziele unterstützen sich gegenseitig. Option 2 und Option 4 beschreiben **konkurrierende** Ziele: Die Kostensenkung verschlechtert die Mitarbeiterzufriedenheit, die Billigimporte widersprechen der regionalen Wertschöpfung. Option 3 zeigt eine **indifferente** (neutrale) Beziehung – Logo-Design und Lagerkosten beeinflussen sich nicht.",
+    "erklaerung": "**Komplementär** bedeutet: Die Verfolgung des einen Ziels fördert zugleich das andere. Energieeffiziente Maschinen dienen dem ökonomischen Ziel (Kostensenkung) und dem ökologischen Ziel (weniger CO₂) – beide Ziele unterstützen sich gegenseitig. Die Streichung des Weihnachtsgelds und die Billigimporte beschreiben **konkurrierende** Ziele: Die Kostensenkung verschlechtert die Mitarbeiterzufriedenheit, die Billigimporte widersprechen der regionalen Wertschöpfung. Die Logo-Neugestaltung bei gleichzeitiger Lagerkostensenkung zeigt eine **indifferente** (neutrale) Beziehung – Logo-Design und Lagerkosten beeinflussen sich nicht.",
     "schwierigkeit": 1
   },
   {
@@ -3970,7 +3970,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Die Formulierung „minimaler Einsatz bei maximalem Ertrag\" ist logisch unmöglich: Es kann immer nur **eine** Größe fixiert und die andere optimiert werden. Beim **Maximalprinzip** ist der Mitteleinsatz gegeben und der Ertrag wird maximiert (Optionen 2 und 4), beim **Minimalprinzip** ist das Ziel gegeben und der Mitteleinsatz wird minimiert (Option 3). Die Doppel-Optimierung „minimal und maximal zugleich\" taucht in IHK-Prüfungen regelmäßig als Fangantwort auf – sie ist stets falsch.",
+    "erklaerung": "Die Formulierung „minimaler Einsatz bei maximalem Ertrag\" ist logisch unmöglich: Es kann immer nur **eine** Größe fixiert und die andere optimiert werden. Beim **Maximalprinzip** ist der Mitteleinsatz gegeben und der Ertrag wird maximiert (so beim Werbebudget und bei den gegebenen Maschinen), beim **Minimalprinzip** ist das Ziel gegeben und der Mitteleinsatz wird minimiert (so bei der Katalog-Auflage mit möglichst geringen Druckkosten). Die Doppel-Optimierung „minimal und maximal zugleich\" taucht in IHK-Prüfungen regelmäßig als Fangantwort auf – sie ist stets falsch.",
     "schwierigkeit": 2
   },
   {
@@ -3989,7 +3989,7 @@
       0,
       1
     ],
-    "erklaerung": "Typische Outsourcing-Risiken sind die **Abhängigkeit** vom externen Partner (Aussage 1) und der schleichende **Know-how-Verlust** (Aussage 2) – wird die Lagerlogistik jahrelang fremdvergeben, fehlen später eigene Fachkräfte und Prozesskenntnisse für eine Rückverlagerung. Aussage 3 ist falsch, denn Outsourcing wandelt Fixkosten (eigenes Lager, eigenes Personal) gerade in variable Kosten um. Aussage 4 verwechselt Chance und Automatismus: Eine Qualitätsverbesserung ist möglich, aber keineswegs garantiert. Aussage 5 ist falsch – gerade beim Outsourcing sind detaillierte Verträge (Leistungsumfang, Service-Level, Haftung, Datenschutz) unverzichtbar.",
+    "erklaerung": "Typische Outsourcing-Risiken sind die **Abhängigkeit** vom externen Partner und der schleichende **Know-how-Verlust** – wird die Lagerlogistik jahrelang fremdvergeben, fehlen später eigene Fachkräfte und Prozesskenntnisse für eine Rückverlagerung. Die Behauptung zwangsläufig steigender Fixkosten ist falsch, denn Outsourcing wandelt Fixkosten (eigenes Lager, eigenes Personal) gerade in variable Kosten um. Die automatisch bessere Qualität verwechselt Chance und Automatismus: Eine Qualitätsverbesserung ist möglich, aber keineswegs garantiert. Dass keine vertraglichen Regelungen erforderlich seien, ist falsch – gerade beim Outsourcing sind detaillierte Verträge (Leistungsumfang, Service-Level, Haftung, Datenschutz) unverzichtbar.",
     "schwierigkeit": 2
   },
   {
@@ -4006,7 +4006,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "**Kernprozesse** schaffen unmittelbar Kundennutzen und tragen direkt zur Wertschöpfung bei – dazu zählen bei einem Möbelhersteller die Produktentwicklung, die Fertigung und der Vertrieb (Optionen 2–4). **Unterstützungsprozesse** halten den Betrieb am Laufen, ohne dass der Kunde sie direkt wahrnimmt: Personalwesen (Gehaltsabrechnung), Buchhaltung, IT oder Gebäudemanagement. Die Gehaltsabrechnung ist damit der gesuchte Unterstützungsprozess. Faustregel: Würde der Kunde dafür bezahlen? Wenn nein, handelt es sich in der Regel um einen Unterstützungsprozess.",
+    "erklaerung": "**Kernprozesse** schaffen unmittelbar Kundennutzen und tragen direkt zur Wertschöpfung bei – dazu zählen bei einem Möbelhersteller die Produktentwicklung, die Fertigung und der Vertrieb. **Unterstützungsprozesse** halten den Betrieb am Laufen, ohne dass der Kunde sie direkt wahrnimmt: Personalwesen (Gehaltsabrechnung), Buchhaltung, IT oder Gebäudemanagement. Die Gehaltsabrechnung ist damit der gesuchte Unterstützungsprozess. Faustregel: Würde der Kunde dafür bezahlen? Wenn nein, handelt es sich in der Regel um einen Unterstützungsprozess.",
     "schwierigkeit": 2,
     "quellTermin": "2024-winter"
   },
@@ -4024,7 +4024,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Der KVP (japanisch: Kaizen) setzt auf **viele kleine, laufende Verbesserungen durch alle Beschäftigten** – wer täglich am Prozess arbeitet, erkennt Schwachstellen am besten. Option 2 beschreibt das Gegenmodell des Business Process Reengineering (radikale, einmalige Umgestaltung von außen). Option 3 widerspricht dem Grundgedanken der ständigen Anpassung, denn starre Jahresvorgaben lassen keine laufenden Verbesserungen zu. Option 4 ist falsch, weil der KVP ausdrücklich alle Bereiche einbezieht – auch Verwaltung, Vertrieb und Unterstützungsprozesse.",
+    "erklaerung": "Der KVP (japanisch: Kaizen) setzt auf **viele kleine, laufende Verbesserungen durch alle Beschäftigten** – wer täglich am Prozess arbeitet, erkennt Schwachstellen am besten. Die radikale Umstrukturierung durch externe Berater beschreibt das Gegenmodell des Business Process Reengineering (radikale, einmalige Umgestaltung von außen). Die einmal jährlich festgelegten Zielvorgaben widersprechen dem Grundgedanken der ständigen Anpassung, denn starre Jahresvorgaben lassen keine laufenden Verbesserungen zu. Die Beschränkung auf die Produktionsabteilung ist falsch, weil der KVP ausdrücklich alle Bereiche einbezieht – auch Verwaltung, Vertrieb und Unterstützungsprozesse.",
     "schwierigkeit": 1,
     "quellTermin": "2024-winter"
   },
@@ -4042,7 +4042,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Arbeitsteilung führt zur **Spezialisierung**: Wiederholte, eng abgegrenzte Tätigkeiten werden schneller und routinierter ausgeführt, die Produktivität steigt. Die Kehrseite sind Monotonie und einseitige Belastung – deshalb setzen Betriebe auf Job-Rotation oder Job-Enrichment. Option 2 beschreibt das Gegenteil der Spezialisierung. Option 3 ist falsch, weil der Produktivitätsgewinn den Abstimmungsaufwand in aller Regel deutlich übersteigt – genau darin liegt der Sinn der Arbeitsteilung. Option 4 verkehrt die Wirkung: Je stärker die Arbeit zerlegt wird, desto **abhängiger** werden die einzelnen Schritte voneinander (fällt eine Station aus, stockt die ganze Linie).",
+    "erklaerung": "Arbeitsteilung führt zur **Spezialisierung**: Wiederholte, eng abgegrenzte Tätigkeiten werden schneller und routinierter ausgeführt, die Produktivität steigt. Die Kehrseite sind Monotonie und einseitige Belastung – deshalb setzen Betriebe auf Job-Rotation oder Job-Enrichment. Dass künftig jeder Beschäftigte alle Arbeitsschritte beherrscht, beschreibt das Gegenteil der Spezialisierung. Eine sinkende Produktionsmenge je Arbeitsstunde ist falsch, weil der Produktivitätsgewinn den Abstimmungsaufwand in aller Regel deutlich übersteigt – genau darin liegt der Sinn der Arbeitsteilung. Eine abnehmende Abhängigkeit der Arbeitsschritte verkehrt die Wirkung: Je stärker die Arbeit zerlegt wird, desto **abhängiger** werden die einzelnen Schritte voneinander (fällt eine Station aus, stockt die ganze Linie).",
     "schwierigkeit": 2,
     "quellTermin": "2022-sommer"
   },
@@ -4060,7 +4060,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Die **Produktivität** ist ein Mengenverhältnis: Ausbringungsmenge ÷ Einsatzmenge (z. B. 4 Stühle je Arbeitsstunde). Die **Wirtschaftlichkeit** ist ein Wertverhältnis: Ertrag ÷ Aufwand in Euro. Deshalb kann die Produktivität steigen (mehr Stück je Stunde), während die Wirtschaftlichkeit sinkt – etwa wenn die zusätzliche Menge nur mit teuren Überstunden oder Preisnachlässen abgesetzt wird. Option 2 ist falsch, da die Bezugsgrößen (Menge vs. Wert) grundverschieden sind. Option 3 vertauscht die Definitionen. Option 4 ist frei erfunden – beide Kennzahlen lassen sich sowohl für Teilbereiche als auch für das Gesamtunternehmen ermitteln.",
+    "erklaerung": "Die **Produktivität** ist ein Mengenverhältnis: Ausbringungsmenge ÷ Einsatzmenge (z. B. 4 Stühle je Arbeitsstunde). Die **Wirtschaftlichkeit** ist ein Wertverhältnis: Ertrag ÷ Aufwand in Euro. Deshalb kann die Produktivität steigen (mehr Stück je Stunde), während die Wirtschaftlichkeit sinkt – etwa wenn die zusätzliche Menge nur mit teuren Überstunden oder Preisnachlässen abgesetzt wird. Von identischen Kennzahlen kann keine Rede sein, da die Bezugsgrößen (Menge vs. Wert) grundverschieden sind. Die Zuordnung „Wirtschaftlichkeit misst Mengen, Produktivität misst Geldwerte\" vertauscht die Definitionen. Die Beschränkung auf das Gesamtunternehmen bzw. einzelne Maschinen ist frei erfunden – beide Kennzahlen lassen sich sowohl für Teilbereiche als auch für das Gesamtunternehmen ermitteln.",
     "schwierigkeit": 3
   },
   {
@@ -4077,7 +4077,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Die Eisenhower-Methode ordnet Aufgaben nach **Wichtigkeit** und **Dringlichkeit** in vier Felder: wichtig + dringend = sofort selbst erledigen; wichtig + nicht dringend = **terminieren** und selbst erledigen (Option 1, richtig); dringend + nicht wichtig = **delegieren**; weder wichtig noch dringend = nicht bearbeiten („Papierkorb\"). Option 2 ist falsch, weil dringende, aber unwichtige Aufgaben delegiert werden sollen. Option 3 vertauscht die Felder: Unwichtiges und Undringliches wird verworfen, nicht delegiert. Option 4 beschreibt das FIFO-Prinzip der Reihenfolge-Abarbeitung, das gerade keine Priorisierung nach Wichtigkeit vornimmt.",
+    "erklaerung": "Die Eisenhower-Methode ordnet Aufgaben nach **Wichtigkeit** und **Dringlichkeit** in vier Felder: wichtig + dringend = sofort selbst erledigen; wichtig + nicht dringend = **terminieren** und selbst erledigen (so die gesuchte Regel); dringend + nicht wichtig = **delegieren**; weder wichtig noch dringend = nicht bearbeiten („Papierkorb\"). Dringende, aber unwichtige Aufgaben sofort selbst zu erledigen ist falsch, weil sie delegiert werden sollen. Weder wichtige noch dringende Aufgaben an Kollegen zu delegieren vertauscht die Felder: Unwichtiges und Undringliches wird verworfen, nicht delegiert. Die strenge Abarbeitung nach Eingangsreihenfolge beschreibt das FIFO-Prinzip der Reihenfolge-Abarbeitung, das gerade keine Priorisierung nach Wichtigkeit vornimmt.",
     "schwierigkeit": 2,
     "quellTermin": "2024-winter"
   },
@@ -4152,7 +4152,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Nach dem HGB führt der **Komplementär** die Geschäfte und vertritt die KG nach außen. **Kommanditisten** sind von Geschäftsführung und Vertretung ausgeschlossen; bei Geschäften, die über den gewöhnlichen Betrieb hinausgehen (außergewöhnliche Geschäfte, z. B. Verkauf eines Betriebsgrundstücks), steht ihnen jedoch ein Widerspruchsrecht zu. Option 2 und Option 4 räumen dem Kommanditisten Befugnisse ein, die ihm gesetzlich gerade nicht zustehen. Option 3 ist falsch: Grundsätzlich gilt Einzelvertretung durch den Komplementär, nicht Gesamtvertretung aller Gesellschafter. Option 5 verkehrt das Regel-Ausnahme-Verhältnis – nur bei außergewöhnlichen Geschäften wirken die Kommanditisten mit.",
+    "erklaerung": "Nach dem HGB führt der **Komplementär** die Geschäfte und vertritt die KG nach außen. **Kommanditisten** sind von Geschäftsführung und Vertretung ausgeschlossen; bei Geschäften, die über den gewöhnlichen Betrieb hinausgehen (außergewöhnliche Geschäfte, z. B. Verkauf eines Betriebsgrundstücks), steht ihnen jedoch ein Widerspruchsrecht zu. Die gemeinsame Geschäftsführung mit dem Komplementär und die automatische Einzelvertretungsbefugnis nach Registereintragung räumen dem Kommanditisten Befugnisse ein, die ihm gesetzlich gerade nicht zustehen. Eine nur gemeinschaftliche Vertretung ist falsch: Grundsätzlich gilt Einzelvertretung durch den Komplementär, nicht Gesamtvertretung aller Gesellschafter. Ein Zustimmungserfordernis aller Kommanditisten für jedes Geschäft verkehrt das Regel-Ausnahme-Verhältnis – nur bei außergewöhnlichen Geschäften wirken die Kommanditisten mit.",
     "schwierigkeit": 2,
     "quellTermin": "2018-sommer"
   },
@@ -4172,7 +4172,7 @@
       0,
       1
     ],
-    "erklaerung": "Die OHG ist eine **Personengesellschaft**: Alle Gesellschafter haften unbeschränkt, unmittelbar und gesamtschuldnerisch – ein Gläubiger kann jeden einzelnen Gesellschafter auf die volle Summe in Anspruch nehmen (Aussage 1). Im Gegenzug ist jeder Gesellschafter grundsätzlich einzeln geschäftsführungs- und vertretungsbefugt (Aussage 2). Aussage 3 ist falsch: Die OHG ist zwar rechtsfähig (kann klagen und verklagt werden), aber keine juristische Person – das sind nur Kapitalgesellschaften wie GmbH und AG. Aussage 4 verwechselt die OHG mit der GmbH; ein gesetzliches Mindestkapital gibt es bei der OHG nicht. Aussage 5 beschreibt die Haftung des Kommanditisten bzw. des GmbH-Gesellschafters, nicht die des OHG-Gesellschafters.",
+    "erklaerung": "Die OHG ist eine **Personengesellschaft**: Alle Gesellschafter haften unbeschränkt, unmittelbar und gesamtschuldnerisch – ein Gläubiger kann jeden einzelnen Gesellschafter auf die volle Summe in Anspruch nehmen. Im Gegenzug ist jeder Gesellschafter grundsätzlich einzeln geschäftsführungs- und vertretungsbefugt. Die Einordnung als juristische Person ist falsch: Die OHG ist zwar rechtsfähig (kann klagen und verklagt werden), aber keine juristische Person – das sind nur Kapitalgesellschaften wie GmbH und AG. Das angebliche Mindestkapital von 25.000 € verwechselt die OHG mit der GmbH; ein gesetzliches Mindestkapital gibt es bei der OHG nicht. Die auf die Einlage beschränkte Haftung beschreibt die Haftung des Kommanditisten bzw. des GmbH-Gesellschafters, nicht die des OHG-Gesellschafters.",
     "schwierigkeit": 2
   },
   {
@@ -4191,7 +4191,7 @@
       0,
       1
     ],
-    "erklaerung": "Die AG ist eine Kapitalgesellschaft mit einem **Grundkapital von mindestens 50.000 €** (Aussage 1), das in Aktien zerlegt ist. Der **Vorstand** führt die Geschäfte in eigener Verantwortung und vertritt die AG (Aussage 2). Der **Aufsichtsrat** (Aussage 3) überwacht den Vorstand und bestellt ihn – die Außenvertretung im Tagesgeschäft gehört nicht zu seinen Aufgaben. Aussage 4 ist falsch: Aktionäre tragen nur das Risiko ihres Aktienkapitals; eine persönliche Haftung gegenüber Gläubigern besteht nicht. Die **Hauptversammlung** (Aussage 5) beschließt über Grundsatzfragen wie Gewinnverwendung, Entlastung und Satzungsänderungen, führt aber niemals die laufenden Geschäfte.",
+    "erklaerung": "Die AG ist eine Kapitalgesellschaft mit einem **Grundkapital von mindestens 50.000 €**, das in Aktien zerlegt ist. Der **Vorstand** führt die Geschäfte in eigener Verantwortung und vertritt die AG. Der **Aufsichtsrat** überwacht den Vorstand und bestellt ihn – die Außenvertretung im Tagesgeschäft gehört nicht zu seinen Aufgaben. Die behauptete Privathaftung der Aktionäre ist falsch: Aktionäre tragen nur das Risiko ihres Aktienkapitals; eine persönliche Haftung gegenüber Gläubigern besteht nicht. Die **Hauptversammlung** beschließt über Grundsatzfragen wie Gewinnverwendung, Entlastung und Satzungsänderungen, führt aber niemals die laufenden Geschäfte.",
     "schwierigkeit": 1
   },
   {
@@ -4209,7 +4209,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Die UG (haftungsbeschränkt) ist eine **Sonderform der GmbH**: Gründung ist ab 1 € Stammkapital möglich; im Gegenzug müssen jährlich **25 % des Jahresüberschusses** in eine gesetzliche Rücklage eingestellt werden, bis das Mindeststammkapital der GmbH (25.000 €) angespart ist – dann kann die UG in eine GmbH umfirmieren. Option 2 ist falsch: Die UG ist Kapitalgesellschaft und juristische Person. Option 3 ist falsch, denn wie die GmbH entsteht die UG erst mit der Handelsregistereintragung. Option 4 widerspricht dem Namenszusatz „haftungsbeschränkt\" – es haftet nur das Gesellschaftsvermögen. Option 5 übertreibt die Ansparpflicht: Nur ein Viertel des Jahresüberschusses ist gebunden, der Rest darf ausgeschüttet werden.",
+    "erklaerung": "Die UG (haftungsbeschränkt) ist eine **Sonderform der GmbH**: Gründung ist ab 1 € Stammkapital möglich; im Gegenzug müssen jährlich **25 % des Jahresüberschusses** in eine gesetzliche Rücklage eingestellt werden, bis das Mindeststammkapital der GmbH (25.000 €) angespart ist – dann kann die UG in eine GmbH umfirmieren. Die Einordnung als Personengesellschaft mit unbeschränkter Haftung ist falsch: Die UG ist Kapitalgesellschaft und juristische Person. Auch der Verzicht auf die Registereintragung ist falsch, denn wie die GmbH entsteht die UG erst mit der Handelsregistereintragung. Eine stets zusätzliche Privathaftung der Gründerin widerspricht dem Namenszusatz „haftungsbeschränkt\" – es haftet nur das Gesellschaftsvermögen. Ein generelles Ausschüttungsverbot übertreibt die Ansparpflicht: Nur ein Viertel des Jahresüberschusses ist gebunden, der Rest darf ausgeschüttet werden.",
     "schwierigkeit": 2
   },
   {
@@ -4227,7 +4227,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Das MoPeG hat die GbR grundlegend reformiert: Die **rechtsfähige GbR** kann sich freiwillig in das neue **Gesellschaftsregister** eintragen lassen (dann „eGbR\"). Pflicht ist die Eintragung nur, wenn die GbR registrierte Rechte erwerben will – insbesondere **Grundstücke** oder GmbH-Anteile. Option 2 überdehnt die Regel: Eine allgemeine Eintragungspflicht besteht nicht. Option 3 gibt die alte Rechtslage vor der Anerkennung der Rechtsfähigkeit wieder – die (Außen-)GbR ist rechtsfähig. Option 4 ist falsch, denn GbR-Gesellschafter haften weiterhin unbeschränkt und persönlich. Option 5 vermischt Gesellschafts- und Handelsregister: Nur wer ein Handelsgewerbe betreibt, wird als OHG ins Handelsregister eingetragen.",
+    "erklaerung": "Das MoPeG hat die GbR grundlegend reformiert: Die **rechtsfähige GbR** kann sich freiwillig in das neue **Gesellschaftsregister** eintragen lassen (dann „eGbR\"). Pflicht ist die Eintragung nur, wenn die GbR registrierte Rechte erwerben will – insbesondere **Grundstücke** oder GmbH-Anteile. Eine zwingende Eintragung jeder GbR überdehnt die Regel: Eine allgemeine Eintragungspflicht besteht nicht. Die behauptete fehlende Rechtsfähigkeit gibt die alte Rechtslage vor der Anerkennung der Rechtsfähigkeit wieder – die (Außen-)GbR ist rechtsfähig. Eine auf die Einlage beschränkte Haftung ist falsch, denn GbR-Gesellschafter haften weiterhin unbeschränkt und persönlich. Die Pflicht zur Handelsregistereintragung mit Umwandlung in eine OHG vermischt Gesellschafts- und Handelsregister: Nur wer ein Handelsgewerbe betreibt, wird als OHG ins Handelsregister eingetragen.",
     "schwierigkeit": 3
   },
   {
@@ -4245,7 +4245,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Nach § 48 HGB kann die Prokura **nur vom Inhaber des Handelsgeschäfts oder seinen gesetzlichen Vertretern** (z. B. GmbH-Geschäftsführer) und **nur ausdrücklich** erteilt werden – eine stillschweigende Erteilung (Option 2) ist ausgeschlossen. Die Eintragung ins Handelsregister ist vorgeschrieben, wirkt aber nur **deklaratorisch** (rechtsbekundend): Die Prokura ist bereits mit der ausdrücklichen Erteilung wirksam, nicht erst mit der Eintragung (Option 3). Option 4 ist falsch – ein Prokurist darf zwar Handlungsvollmachten erteilen, aber niemals selbst Prokura vergeben. Option 5 ist frei erfunden; die Bestellung von Prokuristen ist keine mitbestimmungspflichtige Angelegenheit des Betriebsrats.",
+    "erklaerung": "Nach § 48 HGB kann die Prokura **nur vom Inhaber des Handelsgeschäfts oder seinen gesetzlichen Vertretern** (z. B. GmbH-Geschäftsführer) und **nur ausdrücklich** erteilt werden – eine stillschweigende Erteilung durch langjährige Duldung ist ausgeschlossen. Die Eintragung ins Handelsregister ist vorgeschrieben, wirkt aber nur **deklaratorisch** (rechtsbekundend): Die Prokura ist bereits mit der ausdrücklichen Erteilung wirksam, nicht erst mit der Eintragung. Die Weitervergabe ist ebenfalls ausgeschlossen – ein Prokurist darf zwar Handlungsvollmachten erteilen, aber niemals selbst Prokura vergeben. Ein Zustimmungserfordernis des Betriebsrats ist frei erfunden; die Bestellung von Prokuristen ist keine mitbestimmungspflichtige Angelegenheit des Betriebsrats.",
     "schwierigkeit": 2
   },
   {
@@ -4280,7 +4280,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Eine **juristische Person** ist eine rechtlich verselbstständigte Organisation: Sie hat eigene Rechtsfähigkeit, schließt Verträge im eigenen Namen, kann Eigentümerin sein und vor Gericht klagen oder verklagt werden – unabhängig vom Wechsel ihrer Gesellschafter. Option 2 verkennt, dass die Organe (Geschäftsführer, Vorstand) für die Gesellschaft handeln, die Verträge aber die Gesellschaft selbst binden. Option 3 ist falsch – juristische Personen sind z. B. körperschaftsteuerpflichtig. Option 4 ist falsch, denn gerade Kapitalgesellschaften sind typische Arbeitgeber. Option 5 beruht auf einem Wortspiel: „juristisch\" bezeichnet die Rechtsnatur, nicht die Berufsqualifikation der Leitung.",
+    "erklaerung": "Eine **juristische Person** ist eine rechtlich verselbstständigte Organisation: Sie hat eigene Rechtsfähigkeit, schließt Verträge im eigenen Namen, kann Eigentümerin sein und vor Gericht klagen oder verklagt werden – unabhängig vom Wechsel ihrer Gesellschafter. Die Vorstellung, nur die Gesellschafter persönlich könnten Verträge schließen, verkennt, dass die Organe (Geschäftsführer, Vorstand) für die Gesellschaft handeln, die Verträge aber die Gesellschaft selbst binden. Eine Befreiung von allen Steuerpflichten ist falsch – juristische Personen sind z. B. körperschaftsteuerpflichtig. Auch das angebliche Beschäftigungsverbot für Arbeitnehmer ist falsch, denn gerade Kapitalgesellschaften sind typische Arbeitgeber. Die Idee, ein Jurist müsse die Geschäftsführung übernehmen, beruht auf einem Wortspiel: „juristisch\" bezeichnet die Rechtsnatur, nicht die Berufsqualifikation der Leitung.",
     "schwierigkeit": 1
   },
   {
@@ -4298,7 +4298,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Der Kommanditist haftet Gläubigern gegenüber **unmittelbar bis zur Höhe seiner eingetragenen Hafteinlage** – soweit die Einlage geleistet ist, ist die Haftung ausgeschlossen (§ 171 HGB). Von 100.000 € sind erst 60.000 € erbracht, also besteht eine persönliche (Rest-)Haftung von **40.000 €**. Option 2 ist falsch: Die Teilzahlung befreit nur in ihrer Höhe. Option 3 beschreibt die Haftung des Komplementärs. Option 4 verwechselt Innen- und Außenverhältnis – die bereits eingezahlten 60.000 € stecken im Gesellschaftsvermögen, zusätzlich haftet er aber noch mit 40.000 € persönlich. Option 5 ist falsch: Der Komplementär haftet zwar ebenfalls (unbeschränkt), das lässt die Resthaftung des Kommanditisten aber nicht entfallen.",
+    "erklaerung": "Der Kommanditist haftet Gläubigern gegenüber **unmittelbar bis zur Höhe seiner eingetragenen Hafteinlage** – soweit die Einlage geleistet ist, ist die Haftung ausgeschlossen (§ 171 HGB). Von 100.000 € sind erst 60.000 € erbracht, also besteht eine persönliche (Rest-)Haftung von **40.000 €**. Eine völlige Haftungsfreiheit wegen der Teilleistung ist falsch: Die Teilzahlung befreit nur in ihrer Höhe. Die unbeschränkte Haftung mit dem gesamten Privatvermögen beschreibt die Haftung des Komplementärs. Die Beschränkung auf die bereits eingezahlten 60.000 € verwechselt Innen- und Außenverhältnis – die bereits eingezahlten 60.000 € stecken im Gesellschaftsvermögen, zusätzlich haftet er aber noch mit 40.000 € persönlich. Die alleinige Haftungsübernahme durch den Komplementär ist falsch: Er haftet zwar ebenfalls (unbeschränkt), das lässt die Resthaftung des Kommanditisten aber nicht entfallen.",
     "schwierigkeit": 3
   },
   {
@@ -4335,7 +4335,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Hauptmotiv für die GmbH ist die **Haftungsbeschränkung**: Als e. K. haftet der Unternehmer unbeschränkt mit seinem gesamten Privatvermögen, bei der GmbH haftet Gläubigern grundsätzlich nur das Gesellschaftsvermögen. Option 2 ist falsch – die GmbH ist als Formkaufmann stets zur doppelten Buchführung und zum Jahresabschluss verpflichtet. Option 3 ist falsch, denn Gründung und Umwandlung erfordern notarielle Beurkundung und Handelsregistereintragung, die Kosten verursachen. Option 4 ist falsch: GmbH-Gewinne unterliegen der Körperschaft- und Gewerbesteuer, Ausschüttungen zusätzlich der Kapitalertragsteuer. Option 5 verwechselt die GmbH mit der UG – die GmbH verlangt 25.000 € Mindeststammkapital.",
+    "erklaerung": "Hauptmotiv für die GmbH ist die **Haftungsbeschränkung**: Als e. K. haftet der Unternehmer unbeschränkt mit seinem gesamten Privatvermögen, bei der GmbH haftet Gläubigern grundsätzlich nur das Gesellschaftsvermögen. Eine Befreiung von der doppelten Buchführung gibt es nicht – die GmbH ist als Formkaufmann stets zur doppelten Buchführung und zum Jahresabschluss verpflichtet. Kostenfrei ist der Schritt ebenfalls nicht, denn Gründung und Umwandlung erfordern notarielle Beurkundung und Handelsregistereintragung, die Kosten verursachen. Steuerfrei sind die Gewinne keineswegs: GmbH-Gewinne unterliegen der Körperschaft- und Gewerbesteuer, Ausschüttungen zusätzlich der Kapitalertragsteuer. Der angebliche Verzicht auf ein Mindeststammkapital verwechselt die GmbH mit der UG – die GmbH verlangt 25.000 € Mindeststammkapital.",
     "schwierigkeit": 1,
     "quellTermin": "2022-sommer"
   },
@@ -4404,7 +4404,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Das Kapital fließt **von außen** zu (nicht aus dem betrieblichen Umsatzprozess) → **Außenfinanzierung**. Der neue Gesellschafter wird Miteigentümer, sein Geld wird **Eigenkapital** → **Eigenfinanzierung**, hier konkret **Beteiligungsfinanzierung**. Option 2 (Selbstfinanzierung) wäre die Einbehaltung von Gewinnen – dafür kommt das Geld aber nicht von einem neuen Gesellschafter. Option 3 (Kreditfinanzierung) scheidet aus, weil kein Rückzahlungsanspruch eines Gläubigers entsteht, sondern eine Beteiligung. Option 4 kombiniert zwei unpassende Begriffe: Die Abschreibungsfinanzierung ist Innenfinanzierung aus verdienten Abschreibungsgegenwerten und hat mit der Gesellschafteraufnahme nichts zu tun.",
+    "erklaerung": "Das Kapital fließt **von außen** zu (nicht aus dem betrieblichen Umsatzprozess) → **Außenfinanzierung**. Der neue Gesellschafter wird Miteigentümer, sein Geld wird **Eigenkapital** → **Eigenfinanzierung**, hier konkret **Beteiligungsfinanzierung**. Die Selbstfinanzierung wäre die Einbehaltung von Gewinnen – dafür kommt das Geld aber nicht von einem neuen Gesellschafter. Die Kreditfinanzierung scheidet aus, weil kein Rückzahlungsanspruch eines Gläubigers entsteht, sondern eine Beteiligung. Die Kombination aus Innenfinanzierung und Abschreibungsfinanzierung verbindet zwei unpassende Begriffe: Die Abschreibungsfinanzierung ist Innenfinanzierung aus verdienten Abschreibungsgegenwerten und hat mit der Gesellschafteraufnahme nichts zu tun.",
     "schwierigkeit": 2,
     "quellTermin": "2023-sommer"
   },
@@ -4422,7 +4422,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Bei der **gewöhnlichen Bürgschaft** kann der Bürge die Zahlung verweigern, solange der Gläubiger nicht erfolglos die Zwangsvollstreckung gegen den Hauptschuldner versucht hat (**Einrede der Vorausklage**, § 771 BGB). Bei der **selbstschuldnerischen Bürgschaft** verzichtet der Bürge auf diese Einrede – die Bank kann ihn sofort bei Zahlungsverzug des Schuldners in Anspruch nehmen; deshalb verlangen Banken fast immer diese Form. Option 2 ist falsch: Die Bürgschaftserklärung bedarf grundsätzlich in beiden Fällen der Schriftform (für Nichtkaufleute); für Kaufleute ist sie formfrei und zudem kraft Gesetzes selbstschuldnerisch. Option 3 ist frei erfunden – der Bürge haftet in vereinbarter Höhe. Option 4 beschreibt genau die **gewöhnliche** Bürgschaft und vertauscht damit die Begriffe.",
+    "erklaerung": "Bei der **gewöhnlichen Bürgschaft** kann der Bürge die Zahlung verweigern, solange der Gläubiger nicht erfolglos die Zwangsvollstreckung gegen den Hauptschuldner versucht hat (**Einrede der Vorausklage**, § 771 BGB). Bei der **selbstschuldnerischen Bürgschaft** verzichtet der Bürge auf diese Einrede – die Bank kann ihn sofort bei Zahlungsverzug des Schuldners in Anspruch nehmen; deshalb verlangen Banken fast immer diese Form. Eine mündliche Gültigkeit der gewöhnlichen Bürgschaft ist falsch: Die Bürgschaftserklärung bedarf grundsätzlich in beiden Fällen der Schriftform (für Nichtkaufleute); für Kaufleute ist sie formfrei und zudem kraft Gesetzes selbstschuldnerisch. Eine Haftung nur für die halbe Kreditsumme ist frei erfunden – der Bürge haftet in vereinbarter Höhe. Die Pflicht, zuerst erfolglos in das Vermögen des Hauptschuldners zu vollstrecken, beschreibt genau die **gewöhnliche** Bürgschaft und vertauscht damit die Begriffe.",
     "schwierigkeit": 2
   },
   {
@@ -4457,7 +4457,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Beim **Eigentumsvorbehalt** (§ 449 BGB) erhält der Käufer die Ware sofort und wird damit **unmittelbarer Besitzer**; die Eigentumsübertragung steht aber unter der aufschiebenden Bedingung der vollständigen Kaufpreiszahlung. Zahlt der Käufer nicht, kann der Verkäufer nach Rücktritt die Ware herausverlangen – das sichert den Lieferantenkredit ab. Option 2 vertauscht Eigentum und Besitz. Option 3 ist falsch, weil der Besitz gerade sofort übergeht – sonst könnte der Käufer die Ware ja nicht nutzen oder weiterverarbeiten. Option 4 ist falsch: Die Nutzung ist ausdrücklich gestattet; genau darin liegt der wirtschaftliche Sinn (erst verkaufen bzw. nutzen, später zahlen).",
+    "erklaerung": "Beim **Eigentumsvorbehalt** (§ 449 BGB) erhält der Käufer die Ware sofort und wird damit **unmittelbarer Besitzer**; die Eigentumsübertragung steht aber unter der aufschiebenden Bedingung der vollständigen Kaufpreiszahlung. Zahlt der Käufer nicht, kann der Verkäufer nach Rücktritt die Ware herausverlangen – das sichert den Lieferantenkredit ab. Die Variante „Käufer sofort Eigentümer, Verkäufer bleibt Besitzer\" vertauscht Eigentum und Besitz. Dass Eigentum und Besitz erst mit der Zahlung übergehen, ist falsch, weil der Besitz gerade sofort übergeht – sonst könnte der Käufer die Ware ja nicht nutzen oder weiterverarbeiten. Ein Nutzungsverbot bis zur Bezahlung besteht nicht: Die Nutzung ist ausdrücklich gestattet; genau darin liegt der wirtschaftliche Sinn (erst verkaufen bzw. nutzen, später zahlen).",
     "schwierigkeit": 1
   },
   {
@@ -4476,7 +4476,7 @@
       0,
       1
     ],
-    "erklaerung": "Der **Lieferantenkredit** entsteht automatisch und formlos, sobald der Lieferant ein Zahlungsziel gewährt (Aussage 1) – er ist bequem und ohne Bonitätsprüfung verfügbar. Seine versteckten Kosten liegen im **Skontoverzicht**: Wer statt mit 2 % Skonto nach 10 Tagen erst nach 30 Tagen zahlt, „leiht\" sich Geld für 20 Tage zu umgerechnet über 30 % Jahreszins (Aussage 2). Aussage 3 ist falsch – eine Registereintragung gibt es dafür nicht. Aussage 4 ist der klassische Irrtum: Nominal fallen keine Zinsen an, wirtschaftlich kostet der Kredit aber das entgangene Skonto. Aussage 5 ist falsch; typische Sicherung des Lieferantenkredits ist der **Eigentumsvorbehalt**, nicht ein Grundpfandrecht.",
+    "erklaerung": "Der **Lieferantenkredit** entsteht automatisch und formlos, sobald der Lieferant ein Zahlungsziel gewährt – er ist bequem und ohne Bonitätsprüfung verfügbar. Seine versteckten Kosten liegen im **Skontoverzicht**: Wer statt mit 2 % Skonto nach 10 Tagen erst nach 30 Tagen zahlt, „leiht\" sich Geld für 20 Tage zu umgerechnet über 30 % Jahreszins. Die angebliche Handelsregisterpflicht ist falsch – eine Registereintragung gibt es dafür nicht. „Stets zinslos und ohne jegliche Kosten\" ist der klassische Irrtum: Nominal fallen keine Zinsen an, wirtschaftlich kostet der Kredit aber das entgangene Skonto. Die grundsätzlich verlangte Grundschuld ist falsch; typische Sicherung des Lieferantenkredits ist der **Eigentumsvorbehalt**, nicht ein Grundpfandrecht.",
     "schwierigkeit": 2
   },
   {
@@ -4495,7 +4495,7 @@
       0,
       1
     ],
-    "erklaerung": "Beim Leasing bleibt der **Leasinggeber Eigentümer** – der Leasingnehmer erwirbt trotz jahrelanger Ratenzahlung keinen Vermögenswert (Aussage 1). Zudem enthalten die Raten neben Wertverzehr auch Zins-, Verwaltungs- und Gewinnanteile des Leasinggebers, sodass die Gesamtkosten den Kaufpreis in der Regel übersteigen (Aussage 2). Aussage 3 beschreibt das Gegenteil: Gerade der geringe anfängliche Liquiditätsabfluss ist ein **Vorteil** des Leasings. Aussage 4 ist falsch – die Raten stehen vertraglich fest und sind gut kalkulierbar. Aussage 5 ist ebenfalls falsch: Leasingverträge haben meist feste Grundlaufzeiten und sind gerade **nicht** jederzeit kündbar; die lange Bindung ist eher ein weiterer Nachteil.",
+    "erklaerung": "Beim Leasing bleibt der **Leasinggeber Eigentümer** – der Leasingnehmer erwirbt trotz jahrelanger Ratenzahlung keinen Vermögenswert. Zudem enthalten die Raten neben Wertverzehr auch Zins-, Verwaltungs- und Gewinnanteile des Leasinggebers, sodass die Gesamtkosten den Kaufpreis in der Regel übersteigen. Die behauptete Liquiditätsbelastung durch den vollen Kaufpreis bei Vertragsbeginn beschreibt das Gegenteil: Gerade der geringe anfängliche Liquiditätsabfluss ist ein **Vorteil** des Leasings. Nicht kalkulierbare Raten sind falsch – die Raten stehen vertraglich fest und sind gut kalkulierbar. Die jederzeitige fristlose Kündbarkeit ist ebenfalls falsch: Leasingverträge haben meist feste Grundlaufzeiten und sind gerade **nicht** jederzeit kündbar; die lange Bindung ist eher ein weiterer Nachteil.",
     "schwierigkeit": 2
   },
   {
@@ -4514,7 +4514,7 @@
       0,
       1
     ],
-    "erklaerung": "Factoring hat drei klassische Funktionen: die **Finanzierungsfunktion** (sofortige Auszahlung von rund 80–90 % des Forderungsbetrags, Aussage 1), die **Delkrederefunktion** (beim echten Factoring übernimmt der Factor das volle Ausfallrisiko, Aussage 2) und daneben die Dienstleistungsfunktion (Debitorenbuchhaltung, Mahnwesen, Inkasso). Die Aussagen 3–5 beschreiben Leistungen, die ein Factor nicht erbringt: Aktienemissionen begleiten Banken im Emissionsgeschäft, eine Gesellschafterstellung entsteht durch Beteiligungsfinanzierung (z. B. Venture Capital), und die Tilgung fremder Darlehen ist keine Factoring-Leistung. Merke: Beim **unechten** Factoring verbleibt das Ausfallrisiko dagegen beim Unternehmen.",
+    "erklaerung": "Factoring hat drei klassische Funktionen: die **Finanzierungsfunktion** (sofortige Auszahlung von rund 80–90 % des Forderungsbetrags), die **Delkrederefunktion** (beim echten Factoring übernimmt der Factor das volle Ausfallrisiko) und daneben die Dienstleistungsfunktion (Debitorenbuchhaltung, Mahnwesen, Inkasso). Emissions-, Beteiligungs- und Tilgungsfunktion beschreiben Leistungen, die ein Factor nicht erbringt: Aktienemissionen begleiten Banken im Emissionsgeschäft, eine Gesellschafterstellung entsteht durch Beteiligungsfinanzierung (z. B. Venture Capital), und die Tilgung fremder Darlehen ist keine Factoring-Leistung. Merke: Beim **unechten** Factoring verbleibt das Ausfallrisiko dagegen beim Unternehmen.",
     "schwierigkeit": 1
   },
   {
@@ -4531,7 +4531,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "**Kreditfähig** ist, wer rechtswirksam Kreditverträge schließen kann – natürliche Personen mit unbeschränkter Geschäftsfähigkeit (Volljährigkeit) sowie juristische Personen und rechtsfähige Personengesellschaften. **Kreditwürdig** ist, wer nach persönlichen (Zuverlässigkeit, bisheriges Zahlungsverhalten) und wirtschaftlichen Kriterien (Einkommen, Vermögen, Jahresabschlüsse, Sicherheiten) erwarten lässt, dass er den Kredit vertragsgemäß zurückzahlt. Option 2 vertauscht die Begriffe exakt. Option 3 ist falsch, weil eine geschäftsfähige Person durchaus kreditfähig, aber wegen schlechter Bonität kreditunwürdig sein kann. Option 4 verengt die Bonitätsprüfung unzulässig – auch Erstkreditnehmer können kreditwürdig sein.",
+    "erklaerung": "**Kreditfähig** ist, wer rechtswirksam Kreditverträge schließen kann – natürliche Personen mit unbeschränkter Geschäftsfähigkeit (Volljährigkeit) sowie juristische Personen und rechtsfähige Personengesellschaften. **Kreditwürdig** ist, wer nach persönlichen (Zuverlässigkeit, bisheriges Zahlungsverhalten) und wirtschaftlichen Kriterien (Einkommen, Vermögen, Jahresabschlüsse, Sicherheiten) erwarten lässt, dass er den Kredit vertragsgemäß zurückzahlt. Die Zuordnung „Kreditfähigkeit = Bonität, Kreditwürdigkeit = Volljährigkeit\" vertauscht die Begriffe exakt. Synonym sind die Begriffe nicht, weil eine geschäftsfähige Person durchaus kreditfähig, aber wegen schlechter Bonität kreditunwürdig sein kann. Die Beschränkung auf Kunden, die bereits früher einen Kredit vollständig zurückgezahlt haben, verengt die Bonitätsprüfung unzulässig – auch Erstkreditnehmer können kreditwürdig sein.",
     "schwierigkeit": 1
   },
   {
@@ -4566,7 +4566,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Die Abschreibungen werden über die Verkaufspreise am Markt „verdient\": Sie sind in die Preiskalkulation eingeflossen und über die Umsatzerlöse als liquide Mittel zurückgeflossen, ohne dass ihnen sofort Ausgaben gegenüberstehen. Werden diese Gegenwerte für die Ersatzbeschaffung verwendet, spricht man von **Abschreibungsfinanzierung** – einer Form der **Innenfinanzierung**. Option 2 und Option 3 scheiden aus, weil kein Kapital von außen (Gesellschafter oder Bank) zufließt. Option 4 liegt nahe, ist aber ungenau: Die **Selbstfinanzierung** speist sich aus einbehaltenen **Gewinnen**, die Abschreibungsfinanzierung dagegen aus verrechneten **Aufwendungen** – beides sind getrennte Formen der Innenfinanzierung. Factoring (Option 5) wäre der Verkauf von Forderungen.",
+    "erklaerung": "Die Abschreibungen werden über die Verkaufspreise am Markt „verdient\": Sie sind in die Preiskalkulation eingeflossen und über die Umsatzerlöse als liquide Mittel zurückgeflossen, ohne dass ihnen sofort Ausgaben gegenüberstehen. Werden diese Gegenwerte für die Ersatzbeschaffung verwendet, spricht man von **Abschreibungsfinanzierung** – einer Form der **Innenfinanzierung**. Beteiligungs- und Kreditfinanzierung scheiden aus, weil kein Kapital von außen (Gesellschafter oder Bank) zufließt. Die Selbstfinanzierung aus einbehaltenen Gewinnen liegt nahe, ist aber ungenau: Die **Selbstfinanzierung** speist sich aus einbehaltenen **Gewinnen**, die Abschreibungsfinanzierung dagegen aus verrechneten **Aufwendungen** – beides sind getrennte Formen der Innenfinanzierung. Factoring wäre der Verkauf von Forderungen.",
     "schwierigkeit": 3
   },
   {
@@ -4583,7 +4583,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Der **Kontokorrentkredit** ist die eingeräumte Überziehungsmöglichkeit auf dem laufenden Geschäftskonto: Das Unternehmen kann die Kreditlinie jederzeit in wechselnder Höhe nutzen und durch Zahlungseingänge zurückführen – ideal zur Überbrückung kurzfristiger Liquiditätslücken (z. B. Gehaltszahlungen vor Kundeneingängen). Nachteil: Die Zinsen sind deutlich höher als bei langfristigen Darlehen, weshalb er sich nicht für Investitionsfinanzierungen eignet. Option 2 ist falsch – das Fälligkeitsdarlehen ist ein langfristiges Darlehen mit fester Summe, nicht flexibel. Option 3 widerspricht sich: Eine gleichbleibende Annuität passt sich gerade nicht an schwankende Eingänge an. Option 4 verdreht den Lombardkredit – dort werden bewegliche Sachen oder Wertpapiere verpfändet, nicht das eigene Kontoguthaben.",
+    "erklaerung": "Der **Kontokorrentkredit** ist die eingeräumte Überziehungsmöglichkeit auf dem laufenden Geschäftskonto: Das Unternehmen kann die Kreditlinie jederzeit in wechselnder Höhe nutzen und durch Zahlungseingänge zurückführen – ideal zur Überbrückung kurzfristiger Liquiditätslücken (z. B. Gehaltszahlungen vor Kundeneingängen). Nachteil: Die Zinsen sind deutlich höher als bei langfristigen Darlehen, weshalb er sich nicht für Investitionsfinanzierungen eignet. Das Fälligkeitsdarlehen scheidet aus – es ist ein langfristiges Darlehen mit fester Summe, nicht flexibel. Das Annuitätendarlehen widerspricht sich in der Begründung: Eine gleichbleibende Annuität passt sich gerade nicht an schwankende Eingänge an. Die Beschreibung des Lombardkredits verdreht ihn – dort werden bewegliche Sachen oder Wertpapiere verpfändet, nicht das eigene Kontoguthaben.",
     "schwierigkeit": 2
   },
   {
@@ -4602,7 +4602,7 @@
       0,
       1
     ],
-    "erklaerung": "Auf dem **Verkäufermarkt** ist die Nachfrage größer als das Angebot (Aussage 1) – die Ware ist knapp. Deshalb sitzen die **Verkäufer am längeren Hebel**: Sie können Preise erhöhen, Lieferfristen diktieren und auf Rabatte verzichten (Aussage 2). Die Aussagen 3, 4 und 5 beschreiben spiegelbildlich den **Käufermarkt**: Dort herrscht ein Angebotsüberhang, die Käufer wählen zwischen vielen Anbietern, setzen Nachlässe durch, und die Anbieter müssen um Kunden werben. Merkhilfe: Der Markt ist nach der Seite benannt, die im Vorteil ist – Verkäufermarkt = Vorteil Verkäufer.",
+    "erklaerung": "Auf dem **Verkäufermarkt** ist die Nachfrage größer als das Angebot – die Ware ist knapp. Deshalb sitzen die **Verkäufer am längeren Hebel**: Sie können Preise erhöhen, Lieferfristen diktieren und auf Rabatte verzichten. Durchsetzbare Preisnachlässe der Käufer, ein Angebotsüberhang und hohe Werbeausgaben um jeden Kunden beschreiben spiegelbildlich den **Käufermarkt**: Dort herrscht ein Angebotsüberhang, die Käufer wählen zwischen vielen Anbietern, setzen Nachlässe durch, und die Anbieter müssen um Kunden werben. Merkhilfe: Der Markt ist nach der Seite benannt, die im Vorteil ist – Verkäufermarkt = Vorteil Verkäufer.",
     "schwierigkeit": 1
   },
   {
@@ -4619,7 +4619,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Steigende Einkommen erhöhen die Kaufkraft: Bei **jedem** Preis wird nun mehr nachgefragt – die gesamte Nachfragekurve verschiebt sich nach **rechts**. Im neuen Schnittpunkt mit der unveränderten Angebotskurve liegen sowohl der Gleichgewichtspreis als auch die Gleichgewichtsmenge höher. Option 2 beschreibt sinkende Einkommen oder einen Nachfragerückgang. Option 3 betrifft die falsche Marktseite – das Angebot ändert sich durch die Einkommen der Haushalte nicht unmittelbar. Option 4 ist falsch, weil eine Rechtsverschiebung der Nachfrage bei steigender Angebotskurve zwangsläufig auch den Preis anhebt; nur bei vollkommen elastischem Angebot bliebe der Preis konstant – ein Sonderfall, der hier nicht vorliegt.",
+    "erklaerung": "Steigende Einkommen erhöhen die Kaufkraft: Bei **jedem** Preis wird nun mehr nachgefragt – die gesamte Nachfragekurve verschiebt sich nach **rechts**. Im neuen Schnittpunkt mit der unveränderten Angebotskurve liegen sowohl der Gleichgewichtspreis als auch die Gleichgewichtsmenge höher. Eine Linksverschiebung der Nachfragekurve beschreibt sinkende Einkommen oder einen Nachfragerückgang. Eine Rechtsverschiebung der Angebotskurve betrifft die falsche Marktseite – das Angebot ändert sich durch die Einkommen der Haushalte nicht unmittelbar. Ein konstant bleibender Gleichgewichtspreis ist falsch, weil eine Rechtsverschiebung der Nachfrage bei steigender Angebotskurve zwangsläufig auch den Preis anhebt; nur bei vollkommen elastischem Angebot bliebe der Preis konstant – ein Sonderfall, der hier nicht vorliegt.",
     "schwierigkeit": 2
   },
   {
@@ -4636,7 +4636,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Sinkende Rohstoffkosten senken die Produktionskosten: Zu jedem Marktpreis lohnt sich nun eine größere Produktionsmenge – die **Angebotskurve verschiebt sich nach rechts**. Im neuen Gleichgewicht ist der Preis niedriger und die gehandelte Menge größer. Option 2 verwechselt Kostensenkung mit Produktionsrückgang – günstigere Kosten machen zusätzliche Produktion attraktiver. Option 3 betrifft die falsche Marktseite: Die Kostenänderung wirkt zunächst auf das Angebot; die Nachfrage**kurve** bleibt unverändert (entlang der Kurve wird wegen des gesunkenen Preises allerdings mehr nachgefragt). Option 4 ist nur halb richtig – der Preis sinkt zwar, die Menge steigt jedoch.",
+    "erklaerung": "Sinkende Rohstoffkosten senken die Produktionskosten: Zu jedem Marktpreis lohnt sich nun eine größere Produktionsmenge – die **Angebotskurve verschiebt sich nach rechts**. Im neuen Gleichgewicht ist der Preis niedriger und die gehandelte Menge größer. Ein sinkendes Angebot verwechselt Kostensenkung mit Produktionsrückgang – günstigere Kosten machen zusätzliche Produktion attraktiver. Eine Rechtsverschiebung der Nachfragekurve betrifft die falsche Marktseite: Die Kostenänderung wirkt zunächst auf das Angebot; die Nachfrage**kurve** bleibt unverändert (entlang der Kurve wird wegen des gesunkenen Preises allerdings mehr nachgefragt). „Preis und Menge sinken beide\" ist nur halb richtig – der Preis sinkt zwar, die Menge steigt jedoch.",
     "schwierigkeit": 2
   },
   {
@@ -4653,7 +4653,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Reagiert die nachgefragte Menge **prozentual stärker** als der Preis (hier: −25 % Menge bei +10 % Preis), ist die Nachfrage **elastisch** – typisch für Güter mit vielen Ausweichmöglichkeiten wie Designermöbel. Für den Händler bedeutet das: Die Preiserhöhung senkt den Umsatz, weil der Mengenverlust den höheren Stückpreis überkompensiert – deshalb ist auch die Begründung in Option 4 falsch. **Unelastisch** (Option 2) wäre die Nachfrage, wenn die Mengenänderung prozentual kleiner ausfiele als die Preisänderung – typisch für lebensnotwendige Güter wie Grundnahrungsmittel oder Medikamente. **Vollkommen unelastisch** (Option 3) hieße: gar keine Mengenreaktion – das widerspricht dem beobachteten Absatzrückgang.",
+    "erklaerung": "Reagiert die nachgefragte Menge **prozentual stärker** als der Preis (hier: −25 % Menge bei +10 % Preis), ist die Nachfrage **elastisch** – typisch für Güter mit vielen Ausweichmöglichkeiten wie Designermöbel. Für den Händler bedeutet das: Die Preiserhöhung senkt den Umsatz, weil der Mengenverlust den höheren Stückpreis überkompensiert – deshalb ist auch die Begründung, der Umsatz steige durch die Preiserhöhung, falsch. **Unelastisch** wäre die Nachfrage, wenn die Mengenänderung prozentual kleiner ausfiele als die Preisänderung – typisch für lebensnotwendige Güter wie Grundnahrungsmittel oder Medikamente. **Vollkommen unelastisch** hieße: gar keine Mengenreaktion – das widerspricht dem beobachteten Absatzrückgang.",
     "schwierigkeit": 3
   },
   {
@@ -4671,7 +4671,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Marktformen werden nach der Zahl der Anbieter **und** der Nachfrager bestimmt. Hier stehen viele Anbieter einem **einzigen Nachfrager** gegenüber – das ist das **Nachfragemonopol** (Monopson); der Schulträger kann Preise und Konditionen weitgehend diktieren. Das **Angebotsmonopol** (Option 2) wäre der umgekehrte Fall: ein Anbieter, viele Nachfrager. Das **Angebotsoligopol** (Option 3) verlangt wenige Anbieter – hier gibt es aber viele. Das **Polypol** (Option 4) setzt viele Anbieter **und** viele Nachfrager voraus; die Nachfrageseite ist hier jedoch auf einen konzentriert. Das **zweiseitige Monopol** (Option 5) bestünde nur, wenn auch auf der Angebotsseite ein einziges Unternehmen stünde.",
+    "erklaerung": "Marktformen werden nach der Zahl der Anbieter **und** der Nachfrager bestimmt. Hier stehen viele Anbieter einem **einzigen Nachfrager** gegenüber – das ist das **Nachfragemonopol** (Monopson); der Schulträger kann Preise und Konditionen weitgehend diktieren. Das **Angebotsmonopol** wäre der umgekehrte Fall: ein Anbieter, viele Nachfrager. Das **Angebotsoligopol** verlangt wenige Anbieter – hier gibt es aber viele. Das **Polypol** setzt viele Anbieter **und** viele Nachfrager voraus; die Nachfrageseite ist hier jedoch auf einen konzentriert. Das **zweiseitige Monopol** bestünde nur, wenn auch auf der Angebotsseite ein einziges Unternehmen stünde.",
     "schwierigkeit": 2
   },
   {
@@ -4688,7 +4688,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Die **Penetrationsstrategie** setzt auf einen niedrigen Einführungspreis, um rasch viele Käufer zu gewinnen, Markteintrittsbarrieren für Konkurrenten aufzubauen und Massenproduktionsvorteile zu nutzen; spätere Preiserhöhungen sind möglich, aber schwer durchsetzbar. Die **Skimmingstrategie** (Option 2) ist das Gegenteil: Start mit hohem Preis, um die Zahlungsbereitschaft der Erstkäufer „abzuschöpfen\", danach schrittweise Preissenkungen – typisch für patentgeschützte Innovationen. Die **Premiumstrategie** (Option 3) hält dauerhaft hohe Preise bei hoher Qualität und passt nicht zum niedrigen Einstiegspreis. **Preisdifferenzierung** (Option 4) bedeutet unterschiedliche Preise für dasselbe Produkt je nach Kundengruppe, Region oder Zeit – davon ist hier keine Rede.",
+    "erklaerung": "Die **Penetrationsstrategie** setzt auf einen niedrigen Einführungspreis, um rasch viele Käufer zu gewinnen, Markteintrittsbarrieren für Konkurrenten aufzubauen und Massenproduktionsvorteile zu nutzen; spätere Preiserhöhungen sind möglich, aber schwer durchsetzbar. Die **Skimmingstrategie** ist das Gegenteil: Start mit hohem Preis, um die Zahlungsbereitschaft der Erstkäufer „abzuschöpfen\", danach schrittweise Preissenkungen – typisch für patentgeschützte Innovationen. Die **Premiumstrategie** hält dauerhaft hohe Preise bei hoher Qualität und passt nicht zum niedrigen Einstiegspreis. **Preisdifferenzierung** bedeutet unterschiedliche Preise für dasselbe Produkt je nach Kundengruppe, Region oder Zeit – davon ist hier keine Rede.",
     "schwierigkeit": 1
   },
   {
@@ -4705,7 +4705,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Ein staatlicher **Höchstpreis unter dem Gleichgewichtspreis** macht das Gut für Nachfrager attraktiver (mehr Nachfrage), für Anbieter aber unattraktiver (weniger Angebot). Da der Preis nicht über die Obergrenze steigen darf, kann er die Knappheit nicht mehr ausgleichen – es bleibt ein dauerhafter **Nachfrageüberhang** (z. B. Wohnungsmangel, Warteschlangen, Schwarzmärkte). Option 2 verwechselt die Richtung: Ein Angebotsüberhang entsteht beim **Mindestpreis** über dem Gleichgewicht. Option 3 ist falsch, weil der Preismechanismus durch den Eingriff gerade außer Kraft gesetzt wird – die Ausgleichsfunktion des Preises ist blockiert. Option 4 verkennt, dass sich nicht der Gleichgewichtspreis „anpasst\", sondern der Markt schlicht nicht mehr ins Gleichgewicht findet.",
+    "erklaerung": "Ein staatlicher **Höchstpreis unter dem Gleichgewichtspreis** macht das Gut für Nachfrager attraktiver (mehr Nachfrage), für Anbieter aber unattraktiver (weniger Angebot). Da der Preis nicht über die Obergrenze steigen darf, kann er die Knappheit nicht mehr ausgleichen – es bleibt ein dauerhafter **Nachfrageüberhang** (z. B. Wohnungsmangel, Warteschlangen, Schwarzmärkte). Ein Angebotsüberhang verwechselt die Richtung: Er entsteht beim **Mindestpreis** über dem Gleichgewicht. Dass sich der Markt wie bisher räumt, ist falsch, weil der Preismechanismus durch den Eingriff gerade außer Kraft gesetzt wird – die Ausgleichsfunktion des Preises ist blockiert. Die angeblich automatische Anpassung verkennt, dass sich nicht der Gleichgewichtspreis „anpasst\", sondern der Markt schlicht nicht mehr ins Gleichgewicht findet.",
     "schwierigkeit": 2
   },
   {
@@ -4722,7 +4722,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Beim **Mindestpreis über dem Gleichgewichtspreis** bieten die Erzeuger mehr an (der hohe Preis macht die Produktion attraktiv), während die Nachfrager weniger kaufen. Da der Preis nicht unter die Untergrenze fallen darf, entsteht ein dauerhafter **Angebotsüberhang** – historisch bekannt als „Butterberge\" und „Milchseen\" der EU-Agrarpolitik; der Staat musste die Überschüsse aufkaufen oder einlagern. Option 2 beschreibt die Wirkung eines Höchstpreises. Option 3 ist falsch: Der Ausgleich findet gerade **nicht** statt, weil der Preis seine Ausgleichsfunktion nicht mehr erfüllen darf. Option 4 verkehrt die Anreizwirkung ins Gegenteil – ein garantierter hoher Preis steigert die Produktion, statt sie zu senken.",
+    "erklaerung": "Beim **Mindestpreis über dem Gleichgewichtspreis** bieten die Erzeuger mehr an (der hohe Preis macht die Produktion attraktiv), während die Nachfrager weniger kaufen. Da der Preis nicht unter die Untergrenze fallen darf, entsteht ein dauerhafter **Angebotsüberhang** – historisch bekannt als „Butterberge\" und „Milchseen\" der EU-Agrarpolitik; der Staat musste die Überschüsse aufkaufen oder einlagern. Ein Nachfrageüberhang beschreibt die Wirkung eines Höchstpreises. Ein automatischer Ausgleich beim Mindestpreis ist falsch: Er findet gerade **nicht** statt, weil der Preis seine Ausgleichsfunktion nicht mehr erfüllen darf. Eine sinkende Produktion verkehrt die Anreizwirkung ins Gegenteil – ein garantierter hoher Preis steigert die Produktion, statt sie zu senken.",
     "schwierigkeit": 3
   },
   {
@@ -4739,7 +4739,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Tee ist ein **Substitutionsgut** (Ersatzgut) zu Kaffee: Wird Kaffee teurer, weichen Verbraucher auf das Ersatzgut aus – die Nachfrage nach Tee **steigt**. Kaffeefilter sind ein **Komplementärgut** (ergänzendes Gut): Sie werden nur zusammen mit Kaffee genutzt; sinkt der Kaffeekonsum wegen des hohen Preises, **sinkt** auch die Nachfrage nach Filtern. Option 2 vertauscht beide Wirkungen. Option 3 übersieht, dass der Filterabsatz am Kaffeekonsum hängt und mit ihm zurückgeht. Option 4 ignoriert die Marktverflechtungen – Preisänderungen eines Gutes wirken über Substitutions- und Komplementärbeziehungen stets auf verwandte Märkte.",
+    "erklaerung": "Tee ist ein **Substitutionsgut** (Ersatzgut) zu Kaffee: Wird Kaffee teurer, weichen Verbraucher auf das Ersatzgut aus – die Nachfrage nach Tee **steigt**. Kaffeefilter sind ein **Komplementärgut** (ergänzendes Gut): Sie werden nur zusammen mit Kaffee genutzt; sinkt der Kaffeekonsum wegen des hohen Preises, **sinkt** auch die Nachfrage nach Filtern. Die umgekehrte Zuordnung (Tee-Nachfrage sinkt, Filter-Nachfrage steigt) vertauscht beide Wirkungen. Dass beide Nachfragen steigen, übersieht, dass der Filterabsatz am Kaffeekonsum hängt und mit ihm zurückgeht. Unveränderte Nachfragen ignorieren die Marktverflechtungen – Preisänderungen eines Gutes wirken über Substitutions- und Komplementärbeziehungen stets auf verwandte Märkte.",
     "schwierigkeit": 2
   },
   {
@@ -4758,7 +4758,7 @@
       0,
       1
     ],
-    "erklaerung": "Der erweiterte Wirtschaftskreislauf ergänzt Haushalte und Unternehmen um **Staat**, **Banken (Vermögensänderung)** und **Ausland**. Der Staat nimmt Steuern und Abgaben ein und gibt Transferzahlungen (z. B. Kindergeld) und Subventionen zurück (Aussage 1). Die Banken schließen den Kreislauf zwischen Sparen und Investieren: Ersparnisse der Haushalte fließen als Kredite an investierende Unternehmen (Aussage 2). Aussage 3 ist falsch – die Güter- und Faktormärkte bleiben Kern des Kreislaufs, es kommen lediglich Sektoren hinzu. Aussage 4 ist falsch, denn mit dem Ausland fließen sowohl Güterströme (Exporte/Importe) als auch Geldströme. Aussage 5 widerspricht Aussage 1: Gerade die Einkommensteuer der Haushalte ist ein zentraler Geldstrom zum Staat.",
+    "erklaerung": "Der erweiterte Wirtschaftskreislauf ergänzt Haushalte und Unternehmen um **Staat**, **Banken (Vermögensänderung)** und **Ausland**. Der Staat nimmt Steuern und Abgaben ein und gibt Transferzahlungen (z. B. Kindergeld) und Subventionen zurück. Die Banken schließen den Kreislauf zwischen Sparen und Investieren: Ersparnisse der Haushalte fließen als Kredite an investierende Unternehmen. Der angebliche Wegfall des Gütermarkts ist falsch – die Güter- und Faktormärkte bleiben Kern des Kreislaufs, es kommen lediglich Sektoren hinzu. Ein reiner Geldtausch mit dem Ausland ist falsch, denn mit dem Ausland fließen sowohl Güterströme (Exporte/Importe) als auch Geldströme. Und dass private Haushalte keine Steuern zahlten, widerspricht der beschriebenen Rolle des Staates: Gerade die Einkommensteuer der Haushalte ist ein zentraler Geldstrom zum Staat.",
     "schwierigkeit": 2
   },
   {
@@ -4775,7 +4775,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Angebot (1.200 Stück) minus Nachfrage (700 Stück) = **Angebotsüberhang von 500 Stück**: Zum Preis von 900 € wollen die Anbieter mehr verkaufen, als die Kunden abnehmen – der Preis liegt über dem Gleichgewichtspreis und wird tendenziell sinken (Käufermarkt). Ein Nachfrageüberhang (Option 2) läge nur vor, wenn die Nachfrage das Angebot überstiege. Das Marktgleichgewicht (Option 3) erfordert gleiche Mengen auf beiden Seiten, was bei 1.200 zu 700 nicht gegeben ist. Option 4 nennt als Überhang die gesamte Angebotsmenge statt der **Differenz** – der Überhang ist immer die Differenz beider Mengen, nicht eine der Mengen selbst.",
+    "erklaerung": "Angebot (1.200 Stück) minus Nachfrage (700 Stück) = **Angebotsüberhang von 500 Stück**: Zum Preis von 900 € wollen die Anbieter mehr verkaufen, als die Kunden abnehmen – der Preis liegt über dem Gleichgewichtspreis und wird tendenziell sinken (Käufermarkt). Ein Nachfrageüberhang läge nur vor, wenn die Nachfrage das Angebot überstiege. Das Marktgleichgewicht erfordert gleiche Mengen auf beiden Seiten, was bei 1.200 zu 700 nicht gegeben ist. Die Angabe von 1.200 Stück nennt als Überhang die gesamte Angebotsmenge statt der **Differenz** – der Überhang ist immer die Differenz beider Mengen, nicht eine der Mengen selbst.",
     "schwierigkeit": 1
   },
   {
@@ -4792,7 +4792,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Auf **Faktormärkten** werden Produktionsfaktoren gehandelt. Beim Arbeitsmarkt gilt: Die **privaten Haushalte bieten** ihre Arbeitskraft an und erhalten dafür Lohn oder Gehalt; die **Unternehmen fragen** Arbeitskraft nach, um produzieren zu können. Option 2 vertauscht die Rollen – umgangssprachlich „bieten\" Unternehmen zwar Stellen an, marktökonomisch fragen sie jedoch den Faktor Arbeit nach. Option 3 verwechselt Faktormarkt und Konsumgütermarkt: Auf Konsumgütermärkten sind die Haushalte Nachfrager von Waren und Dienstleistungen. Option 4 ist falsch, weil auf Faktormärkten typischerweise Haushalte (Arbeit, Kapital aus Ersparnissen, Boden) den Unternehmen gegenüberstehen.",
+    "erklaerung": "Auf **Faktormärkten** werden Produktionsfaktoren gehandelt. Beim Arbeitsmarkt gilt: Die **privaten Haushalte bieten** ihre Arbeitskraft an und erhalten dafür Lohn oder Gehalt; die **Unternehmen fragen** Arbeitskraft nach, um produzieren zu können. Die Vorstellung, Unternehmen böten Arbeit an und Haushalte fragten Arbeitsplätze nach, vertauscht die Rollen – umgangssprachlich „bieten\" Unternehmen zwar Stellen an, marktökonomisch fragen sie jedoch den Faktor Arbeit nach. Die Einordnung als Konsumgütermarkt verwechselt Faktormarkt und Konsumgütermarkt: Auf Konsumgütermärkten sind die Haushalte Nachfrager von Waren und Dienstleistungen. Dass ausschließlich Unternehmen als Anbieter und Nachfrager aufträten, ist falsch, weil auf Faktormärkten typischerweise Haushalte (Arbeit, Kapital aus Ersparnissen, Boden) den Unternehmen gegenüberstehen.",
     "schwierigkeit": 1
   },
   {
@@ -4809,7 +4809,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Der **vollkommene Markt** ist ein Modell mit strengen Bedingungen: homogene (gleichartige) Güter, keine persönlichen, sachlichen, räumlichen oder zeitlichen Präferenzen, vollständige Markttransparenz und unendlich schnelle Reaktion. Sobald auch nur eine Bedingung verletzt ist – wie hier durch Händlertreue (persönliche Präferenz), Design-Unterschiede (fehlende Homogenität) und Informationslücken (fehlende Transparenz) – liegt ein **unvollkommener Markt** vor; das ist der Regelfall in der Realität. Die Optionen 2, 3 und 4 beschreiben gerade die Bedingungen des **vollkommenen** Marktes und taugen daher nicht als Kennzeichen der Unvollkommenheit. Nur auf dem vollkommenen Markt bildet sich ein einheitlicher Marktpreis.",
+    "erklaerung": "Der **vollkommene Markt** ist ein Modell mit strengen Bedingungen: homogene (gleichartige) Güter, keine persönlichen, sachlichen, räumlichen oder zeitlichen Präferenzen, vollständige Markttransparenz und unendlich schnelle Reaktion. Sobald auch nur eine Bedingung verletzt ist – wie hier durch Händlertreue (persönliche Präferenz), Design-Unterschiede (fehlende Homogenität) und Informationslücken (fehlende Transparenz) – liegt ein **unvollkommener Markt** vor; das ist der Regelfall in der Realität. Einheitliche Preise für identische Güter, vollständige Preisinformation aller Marktteilnehmer und homogene, präferenzfrei austauschbare Güter beschreiben gerade die Bedingungen des **vollkommenen** Marktes und taugen daher nicht als Kennzeichen der Unvollkommenheit. Nur auf dem vollkommenen Markt bildet sich ein einheitlicher Marktpreis.",
     "schwierigkeit": 2
   },
   {
@@ -4826,7 +4826,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Das **nominale BIP** wird zu jeweils aktuellen Marktpreisen berechnet – es kann allein durch Preissteigerungen wachsen, ohne dass mehr produziert wurde. Das **reale BIP** rechnet die Preisänderungen heraus (Preisbereinigung mit den Preisen eines Basisjahres) und zeigt damit, ob die produzierte **Menge** an Waren und Dienstleistungen tatsächlich gestiegen ist – nur das ist echtes Wirtschaftswachstum. Option 2 ist falsch: Schwarzarbeit fehlt in beiden Größen weitgehend. Option 3 ist frei erfunden – beide Werte werden quartalsweise ermittelt. Option 4 verwechselt das reale BIP mit dem Bruttonationaleinkommen (Inländerprinzip); real/nominal betrifft die Preisbereinigung, nicht den Ort der Leistungserstellung.",
+    "erklaerung": "Das **nominale BIP** wird zu jeweils aktuellen Marktpreisen berechnet – es kann allein durch Preissteigerungen wachsen, ohne dass mehr produziert wurde. Das **reale BIP** rechnet die Preisänderungen heraus (Preisbereinigung mit den Preisen eines Basisjahres) und zeigt damit, ob die produzierte **Menge** an Waren und Dienstleistungen tatsächlich gestiegen ist – nur das ist echtes Wirtschaftswachstum. Der angebliche Einbezug der Schwarzarbeit ist falsch: Schwarzarbeit fehlt in beiden Größen weitgehend. Der Fünf-Jahres-Rhythmus ist frei erfunden – beide Werte werden quartalsweise ermittelt. Die Messung der Inländerleistung im Ausland verwechselt das reale BIP mit dem Bruttonationaleinkommen (Inländerprinzip); real/nominal betrifft die Preisbereinigung, nicht den Ort der Leistungserstellung.",
     "schwierigkeit": 2
   },
   {
@@ -4860,7 +4860,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Sinkt das reale BIP in **zwei aufeinanderfolgenden Quartalen** gegenüber dem jeweiligen Vorquartal, spricht man von einer **technischen Rezession** – die gebräuchlichste Faustregel zur Feststellung eines Abschwungs. Die **Depression** (Option 2) bezeichnet nicht schon zwei Minus-Quartale, sondern die ausgeprägte, länger anhaltende Tiefphase mit hoher Arbeitslosigkeit und stark unterausgelasteten Kapazitäten. **Stagnation** (Option 3) hieße, dass die Wirtschaft praktisch nicht wächst (Wachstum um null) – hier schrumpft sie jedoch. Option 4 verharmlost den Befund; die Zwei-Quartals-Regel ist gerade dafür da, den Eintritt in die Rezession begrifflich zu fassen.",
+    "erklaerung": "Sinkt das reale BIP in **zwei aufeinanderfolgenden Quartalen** gegenüber dem jeweiligen Vorquartal, spricht man von einer **technischen Rezession** – die gebräuchlichste Faustregel zur Feststellung eines Abschwungs. Die **Depression** bezeichnet nicht schon zwei Minus-Quartale, sondern die ausgeprägte, länger anhaltende Tiefphase mit hoher Arbeitslosigkeit und stark unterausgelasteten Kapazitäten. **Stagnation** hieße, dass die Wirtschaft praktisch nicht wächst (Wachstum um null) – hier schrumpft sie jedoch. Von einem normalen Boom-Ende ohne besondere Bezeichnung zu sprechen verharmlost den Befund; die Zwei-Quartals-Regel ist gerade dafür da, den Eintritt in die Rezession begrifflich zu fassen.",
     "schwierigkeit": 2
   },
   {
@@ -4894,7 +4894,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Ein **anhaltender Rückgang des Preisniveaus** heißt **Deflation**. Ihre Gefahr liegt in der Abwärtsspirale: Wer erwartet, dass alles noch billiger wird, verschiebt Käufe und Investitionen – die Nachfrage sinkt weiter, Unternehmen senken Produktion, Löhne und Beschäftigung, was die Nachfrage erneut drückt. Deshalb fürchten Notenbanken die Deflation mindestens so sehr wie hohe Inflation. **Inflation** (Option 2) ist das Gegenteil (steigendes Preisniveau). **Stagflation** (Option 3) kombiniert Stagnation mit Inflation – hier sinken die Preise aber. **Disinflation** (Option 4) bedeutet eine sinkende, aber weiterhin **positive** Inflationsrate (z. B. von 5 % auf 2 %), nicht fallende Preise.",
+    "erklaerung": "Ein **anhaltender Rückgang des Preisniveaus** heißt **Deflation**. Ihre Gefahr liegt in der Abwärtsspirale: Wer erwartet, dass alles noch billiger wird, verschiebt Käufe und Investitionen – die Nachfrage sinkt weiter, Unternehmen senken Produktion, Löhne und Beschäftigung, was die Nachfrage erneut drückt. Deshalb fürchten Notenbanken die Deflation mindestens so sehr wie hohe Inflation. **Inflation** ist das Gegenteil (steigendes Preisniveau). **Stagflation** kombiniert Stagnation mit Inflation – hier sinken die Preise aber. **Disinflation** bedeutet eine sinkende, aber weiterhin **positive** Inflationsrate (z. B. von 5 % auf 2 %), nicht fallende Preise.",
     "schwierigkeit": 1
   },
   {
@@ -4913,7 +4913,7 @@
       0,
       1
     ],
-    "erklaerung": "Das **magische Viereck** (§ 1 Stabilitätsgesetz von 1967) umfasst vier Ziele: **Stabilität des Preisniveaus**, **hoher Beschäftigungsstand**, **außenwirtschaftliches Gleichgewicht** sowie **stetiges und angemessenes Wirtschaftswachstum**. Richtig sind daher die Aussagen 1 und 2. Die gerechte Einkommens- und Vermögensverteilung (Option 3) und der Umweltschutz (Option 4) gehören nicht zum Viereck – erst ihre Ergänzung macht daraus das erweiterte „magische Sechseck\". Die Maximierung der Staatseinnahmen (Option 5) ist überhaupt kein Ziel des Stabilitätsgesetzes; Steuern sind Mittel der Wirtschaftspolitik, nicht ihr Selbstzweck.",
+    "erklaerung": "Das **magische Viereck** (§ 1 Stabilitätsgesetz von 1967) umfasst vier Ziele: **Stabilität des Preisniveaus**, **hoher Beschäftigungsstand**, **außenwirtschaftliches Gleichgewicht** sowie **stetiges und angemessenes Wirtschaftswachstum**. Richtig sind daher die Stabilität des Preisniveaus und das außenwirtschaftliche Gleichgewicht. Die gerechte Einkommens- und Vermögensverteilung und der Umweltschutz gehören nicht zum Viereck – erst ihre Ergänzung macht daraus das erweiterte „magische Sechseck\". Die Maximierung der Staatseinnahmen ist überhaupt kein Ziel des Stabilitätsgesetzes; Steuern sind Mittel der Wirtschaftspolitik, nicht ihr Selbstzweck.",
     "schwierigkeit": 1
   },
   {
@@ -4930,7 +4930,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "„Magisch\" bedeutet: Alle vier Ziele **gleichzeitig** vollständig zu erreichen, gelingt praktisch nie – es müsste mit Zauberei zugehen. Typischer Zielkonflikt: Wird die Beschäftigung durch expansive Politik angekurbelt, steigt über die wachsende Nachfrage häufig das Preisniveau – hoher Beschäftigungsstand und Preisstabilität stehen dann im Konflikt. Ebenso kann Wachstumsförderung das außenwirtschaftliche Gleichgewicht belasten. Option 3 behauptet das Gegenteil (nur komplementäre Ziele) und ist deshalb falsch. Option 2 deutet „magisch\" fälschlich als Unberechenbarkeit des Marktes. Option 4 ist falsch – das Stabilitätsgesetz verpflichtet Bund und Länder lediglich, die Ziele bei ihren Maßnahmen zu **beachten**; eine Garantie der Zielerreichung gibt es nicht.",
+    "erklaerung": "„Magisch\" bedeutet: Alle vier Ziele **gleichzeitig** vollständig zu erreichen, gelingt praktisch nie – es müsste mit Zauberei zugehen. Typischer Zielkonflikt: Wird die Beschäftigung durch expansive Politik angekurbelt, steigt über die wachsende Nachfrage häufig das Preisniveau – hoher Beschäftigungsstand und Preisstabilität stehen dann im Konflikt. Ebenso kann Wachstumsförderung das außenwirtschaftliche Gleichgewicht belasten. Die Vorstellung, die Ziele verstärkten einander automatisch, behauptet das Gegenteil (nur komplementäre Ziele) und ist deshalb falsch. Der Verweis auf unvorhersehbare Marktkräfte deutet „magisch\" fälschlich als Unberechenbarkeit des Marktes. Eine gesetzlich garantierte Zielerreichung ist falsch – das Stabilitätsgesetz verpflichtet Bund und Länder lediglich, die Ziele bei ihren Maßnahmen zu **beachten**; eine Garantie der Zielerreichung gibt es nicht.",
     "schwierigkeit": 3
   },
   {
@@ -4949,7 +4949,7 @@
       0,
       1
     ],
-    "erklaerung": "**Antizyklische Fiskalpolitik** (nach Keynes) bedeutet: Der Staat stemmt sich gegen den Konjunkturverlauf. In der Rezession kurbelt er die gesamtwirtschaftliche Nachfrage an – durch **höhere Staatsausgaben** wie Investitionsprogramme (Aussage 1) und durch **Steuersenkungen** (Aussage 2), notfalls über Kredite finanziert (Deficit Spending); im Boom soll er umgekehrt sparen und Schulden tilgen. Die Aussagen 3 und 4 beschreiben **prozyklisches** Verhalten, das die Krise verschärft, weil es die Nachfrage zusätzlich drosselt. Aussage 5 ist doppelt falsch: Der Leitzins ist ein Instrument der **Geldpolitik** der EZB (nicht der staatlichen Fiskalpolitik), und in der Rezession würde man ihn senken, nicht anheben.",
+    "erklaerung": "**Antizyklische Fiskalpolitik** (nach Keynes) bedeutet: Der Staat stemmt sich gegen den Konjunkturverlauf. In der Rezession kurbelt er die gesamtwirtschaftliche Nachfrage an – durch **höhere Staatsausgaben** wie Investitionsprogramme und durch **Steuersenkungen**, notfalls über Kredite finanziert (Deficit Spending); im Boom soll er umgekehrt sparen und Schulden tilgen. Ausgabenkürzungen und Steuererhöhungen in der Krise beschreiben **prozyklisches** Verhalten, das die Krise verschärft, weil es die Nachfrage zusätzlich drosselt. Die Leitzinsanhebung ist doppelt falsch: Der Leitzins ist ein Instrument der **Geldpolitik** der EZB (nicht der staatlichen Fiskalpolitik), und in der Rezession würde man ihn senken, nicht anheben.",
     "schwierigkeit": 2
   },
   {
@@ -4966,7 +4966,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Der Leitzins bestimmt, zu welchen Konditionen sich Geschäftsbanken bei der EZB refinanzieren. Sinkt er, geben die Banken die günstigeren Konditionen als niedrigere Kreditzinsen weiter: **Investitionen** (Maschinen, Bauten) und **kreditfinanzierter Konsum** (Auto, Immobilie) werden attraktiver, die gesamtwirtschaftliche Nachfrage steigt – die Konjunktur wird belebt. Option 2 beschreibt die Wirkung einer Zins**erhöhung**; bei niedrigen Zinsen lohnt Sparen gerade weniger, was den Konsum zusätzlich fördert. Option 3 ist falsch: Preise sinken durch eine Zinssenkung nicht unmittelbar – eher steigt mittelfristig die Inflation. Option 4 verkehrt den Mechanismus ins Gegenteil, denn billigeres Zentralbankgeld weitet die Kreditvergabe aus.",
+    "erklaerung": "Der Leitzins bestimmt, zu welchen Konditionen sich Geschäftsbanken bei der EZB refinanzieren. Sinkt er, geben die Banken die günstigeren Konditionen als niedrigere Kreditzinsen weiter: **Investitionen** (Maschinen, Bauten) und **kreditfinanzierter Konsum** (Auto, Immobilie) werden attraktiver, die gesamtwirtschaftliche Nachfrage steigt – die Konjunktur wird belebt. Attraktiveres Sparen beschreibt die Wirkung einer Zins**erhöhung**; bei niedrigen Zinsen lohnt Sparen gerade weniger, was den Konsum zusätzlich fördert. Unmittelbar sinkende Preise sind falsch: Preise sinken durch eine Zinssenkung nicht unmittelbar – eher steigt mittelfristig die Inflation. Eine geringere Kreditvergabe der Banken verkehrt den Mechanismus ins Gegenteil, denn billigeres Zentralbankgeld weitet die Kreditvergabe aus.",
     "schwierigkeit": 2
   },
   {
@@ -5018,7 +5018,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "**Stagflation** ist ein Kunstwort aus **Stagnation** (kein Wirtschaftswachstum) und **Inflation** (steigendes Preisniveau) – bekanntestes Beispiel sind die Ölkrisen der 1970er-Jahre, als Energiepreisschocks gleichzeitig die Produktion bremsten und die Preise trieben. Die Situation ist wirtschaftspolitisch besonders schwierig, weil Konjunkturprogramme die Inflation weiter anheizen und Inflationsbekämpfung die schwache Konjunktur zusätzlich bremst. **Deflation** (Option 2) wäre ein sinkendes Preisniveau. Die **Depression** (Option 3) ist die Tiefphase des Konjunkturzyklus, sagt aber nichts über hohe Inflation aus. **Disinflation** (Option 4) bezeichnet eine sich abschwächende Inflationsrate, **Hyperinflation** (Option 5) eine extrem beschleunigte Geldentwertung – beide passen nicht zum beschriebenen Doppelphänomen.",
+    "erklaerung": "**Stagflation** ist ein Kunstwort aus **Stagnation** (kein Wirtschaftswachstum) und **Inflation** (steigendes Preisniveau) – bekanntestes Beispiel sind die Ölkrisen der 1970er-Jahre, als Energiepreisschocks gleichzeitig die Produktion bremsten und die Preise trieben. Die Situation ist wirtschaftspolitisch besonders schwierig, weil Konjunkturprogramme die Inflation weiter anheizen und Inflationsbekämpfung die schwache Konjunktur zusätzlich bremst. **Deflation** wäre ein sinkendes Preisniveau. Die **Depression** ist die Tiefphase des Konjunkturzyklus, sagt aber nichts über hohe Inflation aus. **Disinflation** bezeichnet eine sich abschwächende Inflationsrate, **Hyperinflation** eine extrem beschleunigte Geldentwertung – beide passen nicht zum beschriebenen Doppelphänomen.",
     "schwierigkeit": 2
   },
   {
@@ -5035,7 +5035,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Vorrangiges Ziel der EZB ist die **Preisniveaustabilität**; seit der Strategieüberprüfung 2021 gilt ein symmetrisches Inflationsziel von **mittelfristig 2 %** für den Euroraum – Abweichungen nach oben und unten werden gleichermaßen als unerwünscht angesehen. Option 2 ist falsch: 0 % Inflation wird bewusst nicht angestrebt, weil dann die Gefahr eines Abgleitens in die Deflation zu groß wäre und Preisindizes tendenziell leicht überzeichnen. Option 3 verwechselt die Rollen – Wachstums- und Beschäftigungspolitik unterstützt die EZB nur nachrangig, soweit die Preisstabilität nicht gefährdet ist. Option 4 ist falsch, denn der Euro hat einen flexiblen Wechselkurs; feste Dollar-Kurse gehören nicht zu den EZB-Zielen.",
+    "erklaerung": "Vorrangiges Ziel der EZB ist die **Preisniveaustabilität**; seit der Strategieüberprüfung 2021 gilt ein symmetrisches Inflationsziel von **mittelfristig 2 %** für den Euroraum – Abweichungen nach oben und unten werden gleichermaßen als unerwünscht angesehen. Ein Ziel von dauerhaft 0 % Inflation ist falsch: 0 % Inflation wird bewusst nicht angestrebt, weil dann die Gefahr eines Abgleitens in die Deflation zu groß wäre und Preisindizes tendenziell leicht überzeichnen. Die Maximierung des Wirtschaftswachstums verwechselt die Rollen – Wachstums- und Beschäftigungspolitik unterstützt die EZB nur nachrangig, soweit die Preisstabilität nicht gefährdet ist. Ein fester Wechselkurs zum US-Dollar ist falsch, denn der Euro hat einen flexiblen Wechselkurs; feste Dollar-Kurse gehören nicht zu den EZB-Zielen.",
     "schwierigkeit": 1
   },
   {
@@ -5053,7 +5053,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "§ 17 BBiG schreibt eine **angemessene, jährlich steigende** Vergütung vor: Sie muss mindestens die Mindestausbildungsvergütung des jeweiligen Beginnjahres erreichen und im **2. Jahr um mindestens 18 %, im 3. Jahr um 35 % und im 4. Jahr um 40 %** über dem Betrag des ersten Ausbildungsjahres liegen. Option 2 verstößt gegen genau diese Steigerungspflicht. Option 3 ist falsch: Auszubildende erhalten eine Ausbildungsvergütung nach BBiG und sind vom Mindestlohngesetz ausdrücklich ausgenommen – die Ausbildung ist keine reguläre Arbeitsleistung, sondern dient dem Lernen. Option 4 übersieht die seit 2020 geltende gesetzliche Untergrenze. Option 5 erfindet einen Automatismus von 10 %, den das Gesetz nicht kennt.",
+    "erklaerung": "§ 17 BBiG schreibt eine **angemessene, jährlich steigende** Vergütung vor: Sie muss mindestens die Mindestausbildungsvergütung des jeweiligen Beginnjahres erreichen und im **2. Jahr um mindestens 18 %, im 3. Jahr um 35 % und im 4. Jahr um 40 %** über dem Betrag des ersten Ausbildungsjahres liegen. Eine über alle Ausbildungsjahre konstante Vergütung verstößt gegen genau diese Steigerungspflicht. Der Verweis auf den gesetzlichen Mindestlohn ist falsch: Auszubildende erhalten eine Ausbildungsvergütung nach BBiG und sind vom Mindestlohngesetz ausdrücklich ausgenommen – die Ausbildung ist keine reguläre Arbeitsleistung, sondern dient dem Lernen. Die angeblich völlig freie Verhandelbarkeit übersieht die seit 2020 geltende gesetzliche Untergrenze. Und die automatische jährliche Steigerung um 10 % erfindet einen Automatismus, den das Gesetz nicht kennt.",
     "schwierigkeit": 3
   },
   {
@@ -5071,7 +5071,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Nach der Probezeit kann der **Ausbildende** das Ausbildungsverhältnis nur noch **aus wichtigem Grund ohne Einhaltung einer Kündigungsfrist** kündigen (§ 22 BBiG) – wiederholte Diebstähle sind ein solcher Grund. Die Kündigung muss **schriftlich** erfolgen und **die Kündigungsgründe angeben**, sonst ist sie unwirksam; außerdem muss sie innerhalb von zwei Wochen nach Kenntnis des Grundes ausgesprochen werden. Option 2 scheitert daran, dass eine ordentliche Kündigung durch den Betrieb nach der Probezeit gesetzlich nicht vorgesehen ist – die Vier-Wochen-Frist gilt nur für die Kündigung durch den **Auszubildenden** bei Berufsaufgabe oder -wechsel. Option 3 verletzt das Schriftformerfordernis. Option 4 beschreibt die Rechtslage **während** der Probezeit. Option 5 ist zu weitgehend – bei wichtigem Grund bleibt die Kündigung möglich.",
+    "erklaerung": "Nach der Probezeit kann der **Ausbildende** das Ausbildungsverhältnis nur noch **aus wichtigem Grund ohne Einhaltung einer Kündigungsfrist** kündigen (§ 22 BBiG) – wiederholte Diebstähle sind ein solcher Grund. Die Kündigung muss **schriftlich** erfolgen und **die Kündigungsgründe angeben**, sonst ist sie unwirksam; außerdem muss sie innerhalb von zwei Wochen nach Kenntnis des Grundes ausgesprochen werden. Die ordentliche Kündigung mit vier Wochen Frist scheitert daran, dass eine ordentliche Kündigung durch den Betrieb nach der Probezeit gesetzlich nicht vorgesehen ist – die Vier-Wochen-Frist gilt nur für die Kündigung durch den **Auszubildenden** bei Berufsaufgabe oder -wechsel. Eine mündliche fristlose Kündigung verletzt das Schriftformerfordernis. Die Kündigung mit zweiwöchiger Frist ohne Angabe von Gründen beschreibt die Rechtslage **während** der Probezeit. Ein genereller Kündigungsausschluss nach der Probezeit ist zu weitgehend – bei wichtigem Grund bleibt die Kündigung möglich.",
     "schwierigkeit": 2
   },
   {
@@ -5088,7 +5088,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Nach § 16 BBiG hat der Ausbildende der Auszubildenden bei Beendigung des Ausbildungsverhältnisses **ein Zeugnis auszustellen** – Pflicht, nicht Kür (deshalb ist Option 2 falsch). Das **einfache Zeugnis** enthält Art, Dauer und Ziel der Ausbildung sowie die erworbenen Fertigkeiten und Kenntnisse. **Nur auf Verlangen** der Auszubildenden sind zusätzlich Angaben zu **Verhalten und Leistung** aufzunehmen – dann spricht man vom **qualifizierten Zeugnis** (Option 3 verkehrt dieses Regel-Ausnahme-Verhältnis). Option 4 verwechselt Zuständigkeiten: Die IHK stellt das Prüfungszeugnis über die bestandene Abschlussprüfung aus, das Ausbildungszeugnis kommt vom Betrieb – beide Dokumente existieren nebeneinander.",
+    "erklaerung": "Nach § 16 BBiG hat der Ausbildende der Auszubildenden bei Beendigung des Ausbildungsverhältnisses **ein Zeugnis auszustellen** – Pflicht, nicht Kür (ein freies Ermessen des Betriebs besteht gerade nicht). Das **einfache Zeugnis** enthält Art, Dauer und Ziel der Ausbildung sowie die erworbenen Fertigkeiten und Kenntnisse. **Nur auf Verlangen** der Auszubildenden sind zusätzlich Angaben zu **Verhalten und Leistung** aufzunehmen – dann spricht man vom **qualifizierten Zeugnis** (die Vorstellung, es werde automatisch immer ausgestellt, verkehrt dieses Regel-Ausnahme-Verhältnis). Der Verweis auf die IHK verwechselt Zuständigkeiten: Die IHK stellt das Prüfungszeugnis über die bestandene Abschlussprüfung aus, das Ausbildungszeugnis kommt vom Betrieb – beide Dokumente existieren nebeneinander.",
     "schwierigkeit": 1
   },
   {
@@ -5106,7 +5106,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "§ 11 JArbSchG staffelt die Ruhepausen für Jugendliche: **30 Minuten** bei einer Arbeitszeit von mehr als 4,5 bis zu 6 Stunden, **60 Minuten** bei mehr als 6 Stunden. Bei 7 Stunden Arbeitszeit sind also mindestens 60 Minuten Pause zu gewähren; jede Einzelpause muss mindestens 15 Minuten betragen, und die erste Pause muss spätestens nach 4,5 Stunden liegen. 30 Minuten (Option 2) würden nur bis 6 Stunden Arbeitszeit genügen. 45 Minuten (Option 3) ist der Wert des **Arbeitszeitgesetzes für Erwachsene** bei mehr als 9 Stunden – für Jugendliche gilt der strengere Jugendarbeitsschutz. 15 Minuten (Option 4) ist nur die Mindestdauer einer einzelnen Teilpause. Option 5 ist offensichtlich falsch – der Pausenschutz ist ein Kernstück des JArbSchG.",
+    "erklaerung": "§ 11 JArbSchG staffelt die Ruhepausen für Jugendliche: **30 Minuten** bei einer Arbeitszeit von mehr als 4,5 bis zu 6 Stunden, **60 Minuten** bei mehr als 6 Stunden. Bei 7 Stunden Arbeitszeit sind also mindestens 60 Minuten Pause zu gewähren; jede Einzelpause muss mindestens 15 Minuten betragen, und die erste Pause muss spätestens nach 4,5 Stunden liegen. 30 Minuten würden nur bis 6 Stunden Arbeitszeit genügen. 45 Minuten ist der Wert des **Arbeitszeitgesetzes für Erwachsene** bei mehr als 9 Stunden – für Jugendliche gilt der strengere Jugendarbeitsschutz. 15 Minuten ist nur die Mindestdauer einer einzelnen Teilpause. Dass es für Jugendliche gar keine gesetzliche Pausenregelung gebe, ist offensichtlich falsch – der Pausenschutz ist ein Kernstück des JArbSchG.",
     "schwierigkeit": 2
   },
   {
@@ -5123,7 +5123,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "§ 14 JArbSchG legt fest: Jugendliche dürfen **nur in der Zeit von 6 bis 20 Uhr** beschäftigt werden (Nachtruhe). Der Einsatz bis 22:00 Uhr im Büro ist daher unzulässig. Branchenausnahmen – etwa Gaststätten bis 22 Uhr, mehrschichtige Betriebe bis 23 Uhr oder Bäckereien ab 5 Uhr für über 16-Jährige – gelten für eine Büroinventur nicht. Option 2 verallgemeinert eine solche Ausnahme unzulässig auf alle Branchen. Option 3 ist falsch, denn das JArbSchG schützt alle Jugendlichen bis zum vollendeten 18. Lebensjahr. Option 4 ist ein beliebter Irrtum: Gesetzlicher Jugendarbeitsschutz ist zwingendes Recht und kann weder durch elterliche Einwilligung noch durch Vertrag abbedungen werden.",
+    "erklaerung": "§ 14 JArbSchG legt fest: Jugendliche dürfen **nur in der Zeit von 6 bis 20 Uhr** beschäftigt werden (Nachtruhe). Der Einsatz bis 22:00 Uhr im Büro ist daher unzulässig. Branchenausnahmen – etwa Gaststätten bis 22 Uhr, mehrschichtige Betriebe bis 23 Uhr oder Bäckereien ab 5 Uhr für über 16-Jährige – gelten für eine Büroinventur nicht. Die pauschale Erlaubnis bis 23:00 Uhr ab 16 Jahren verallgemeinert eine solche Ausnahme unzulässig auf alle Branchen. Die Beschränkung des Nachtarbeitsverbots auf unter 16-Jährige ist falsch, denn das JArbSchG schützt alle Jugendlichen bis zum vollendeten 18. Lebensjahr. Die elterliche Einwilligung ist ein beliebter Irrtum: Gesetzlicher Jugendarbeitsschutz ist zwingendes Recht und kann weder durch elterliche Einwilligung noch durch Vertrag abbedungen werden.",
     "schwierigkeit": 1
   },
   {
@@ -5140,7 +5140,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Seit der BBiG-Novelle 2020 gilt die Freistellungsregel des § 15 BBiG **für alle Auszubildenden, auch für volljährige**: Vor einem vor 9:00 Uhr beginnenden Berufsschulunterricht dürfen sie nicht im Betrieb beschäftigt werden. Der Lagereinsatz ab 6:30 Uhr ist deshalb unzulässig – Option 2 gibt die alte Rechtslage wieder, nach der nur Jugendliche über § 9 JArbSchG geschützt waren. Option 3 ist falsch, weil von den Freistellungsvorschriften nicht zulasten der Auszubildenden abgewichen werden darf; eine Einwilligung ändert daran nichts. Option 4 verfehlt den Kern der Regelung: Es kommt nicht auf eine Pause zwischen Arbeit und Unterricht an, sondern auf das generelle Beschäftigungsverbot vor Frühunterricht, damit Auszubildende ausgeruht in die Berufsschule gehen.",
+    "erklaerung": "Seit der BBiG-Novelle 2020 gilt die Freistellungsregel des § 15 BBiG **für alle Auszubildenden, auch für volljährige**: Vor einem vor 9:00 Uhr beginnenden Berufsschulunterricht dürfen sie nicht im Betrieb beschäftigt werden. Der Lagereinsatz ab 6:30 Uhr ist deshalb unzulässig – die Berufung auf die Volljährigkeit gibt die alte Rechtslage wieder, nach der nur Jugendliche über § 9 JArbSchG geschützt waren. Auch die schriftliche Zustimmung hilft nicht, weil von den Freistellungsvorschriften nicht zulasten der Auszubildenden abgewichen werden darf; eine Einwilligung ändert daran nichts. Das Argument mit den 15 Minuten zwischen Arbeitsende und Unterrichtsbeginn verfehlt den Kern der Regelung: Es kommt nicht auf eine Pause zwischen Arbeit und Unterricht an, sondern auf das generelle Beschäftigungsverbot vor Frühunterricht, damit Auszubildende ausgeruht in die Berufsschule gehen.",
     "schwierigkeit": 2
   },
   {
@@ -5159,7 +5159,7 @@
       0,
       1
     ],
-    "erklaerung": "Das ArbZG begrenzt die werktägliche Arbeitszeit auf **8 Stunden**; bis zu **10 Stunden** sind zulässig, wenn innerhalb von 6 Kalendermonaten bzw. 24 Wochen im Durchschnitt 8 Stunden werktäglich nicht überschritten werden (Aussage 1). Nach Arbeitsende ist eine **Ruhezeit von mindestens 11 Stunden** ohne Unterbrechung einzuhalten (Aussage 2). Aussage 3 ist falsch: Ruhepausen von mindestens 30 Minuten sind schon bei mehr als **6 Stunden** Arbeitszeit vorgeschrieben (45 Minuten bei mehr als 9 Stunden). Aussage 4 ist falsch – an Sonn- und Feiertagen gilt ein grundsätzliches Beschäftigungsverbot mit branchenbezogenen Ausnahmen (z. B. Krankenhäuser, Gastronomie, Verkehr). Aussage 5 überschreitet die gesetzlichen Höchstgrenzen deutlich.",
+    "erklaerung": "Das ArbZG begrenzt die werktägliche Arbeitszeit auf **8 Stunden**; bis zu **10 Stunden** sind zulässig, wenn innerhalb von 6 Kalendermonaten bzw. 24 Wochen im Durchschnitt 8 Stunden werktäglich nicht überschritten werden. Nach Arbeitsende ist eine **Ruhezeit von mindestens 11 Stunden** ohne Unterbrechung einzuhalten. Die Behauptung, Ruhepausen seien erst ab mehr als 8 Stunden vorgeschrieben, ist falsch: Ruhepausen von mindestens 30 Minuten sind schon bei mehr als **6 Stunden** Arbeitszeit vorgeschrieben (45 Minuten bei mehr als 9 Stunden). Uneingeschränkte Sonn- und Feiertagsarbeit ist ebenfalls falsch – dort gilt ein grundsätzliches Beschäftigungsverbot mit branchenbezogenen Ausnahmen (z. B. Krankenhäuser, Gastronomie, Verkehr). Und dauerhafte 12-Stunden-Tage ohne Ausgleich überschreiten die gesetzlichen Höchstgrenzen deutlich.",
     "schwierigkeit": 2
   },
   {
@@ -5211,7 +5211,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Der allgemeine Kündigungsschutz nach dem KSchG setzt zweierlei voraus: Das Arbeitsverhältnis muss im Betrieb **länger als 6 Monate** bestanden haben (Wartezeit), und der Betrieb muss **in der Regel mehr als 10 Arbeitnehmer** beschäftigen (Kleinbetriebsklausel). Beide Voraussetzungen sind mit 8 Monaten Zugehörigkeit und 45 Beschäftigten erfüllt – die Kündigung muss daher sozial gerechtfertigt sein (personen-, verhaltens- oder betriebsbedingt). Option 2 nennt eine erfundene Frist. Option 3 übertreibt den Schwellenwert um den Faktor zehn. Option 4 verkennt beide Schwellen: In Kleinbetrieben und während der ersten sechs Monate gilt der allgemeine Kündigungsschutz gerade nicht – dann greifen nur Mindeststandards wie Kündigungsfristen und das Verbot sitten- oder treuwidriger Kündigungen.",
+    "erklaerung": "Der allgemeine Kündigungsschutz nach dem KSchG setzt zweierlei voraus: Das Arbeitsverhältnis muss im Betrieb **länger als 6 Monate** bestanden haben (Wartezeit), und der Betrieb muss **in der Regel mehr als 10 Arbeitnehmer** beschäftigen (Kleinbetriebsklausel). Beide Voraussetzungen sind mit 8 Monaten Zugehörigkeit und 45 Beschäftigten erfüllt – die Kündigung muss daher sozial gerechtfertigt sein (personen-, verhaltens- oder betriebsbedingt). Die angebliche Wartezeit von 2 Jahren ist eine erfundene Frist. Der Schwellenwert von 100 Beschäftigten übertreibt die Kleinbetriebsgrenze um den Faktor zehn. Ein Schutz ab dem ersten Arbeitstag unabhängig von der Betriebsgröße verkennt beide Schwellen: In Kleinbetrieben und während der ersten sechs Monate gilt der allgemeine Kündigungsschutz gerade nicht – dann greifen nur Mindeststandards wie Kündigungsfristen und das Verbot sitten- oder treuwidriger Kündigungen.",
     "schwierigkeit": 2
   },
   {
@@ -5230,7 +5230,7 @@
       0,
       1
     ],
-    "erklaerung": "Bei der Sozialauswahl unter vergleichbaren Arbeitnehmern sind nach § 1 Abs. 3 KSchG genau vier Kriterien ausreichend zu berücksichtigen: die **Dauer der Betriebszugehörigkeit**, das **Lebensalter**, die **Unterhaltspflichten** (z. B. gegenüber Kindern) und eine **Schwerbehinderung**. Zu kündigen ist vorrangig denjenigen, die nach diesen Kriterien am wenigsten schutzbedürftig sind. Die Religionszugehörigkeit (Option 3) darf als Auswahlkriterium nicht herangezogen werden – das verstieße gegen das Diskriminierungsverbot des AGG. Die Gehaltshöhe (Option 4) und der Wohnort (Option 5) sind gesetzlich keine Sozialauswahlkriterien, auch wenn Kündigungen teurer Mitarbeiter betriebswirtschaftlich verlockend erscheinen mögen.",
+    "erklaerung": "Bei der Sozialauswahl unter vergleichbaren Arbeitnehmern sind nach § 1 Abs. 3 KSchG genau vier Kriterien ausreichend zu berücksichtigen: die **Dauer der Betriebszugehörigkeit**, das **Lebensalter**, die **Unterhaltspflichten** (z. B. gegenüber Kindern) und eine **Schwerbehinderung**. Zu kündigen ist vorrangig denjenigen, die nach diesen Kriterien am wenigsten schutzbedürftig sind. Die Religionszugehörigkeit darf als Auswahlkriterium nicht herangezogen werden – das verstieße gegen das Diskriminierungsverbot des AGG. Die Gehaltshöhe und der Wohnort sind gesetzlich keine Sozialauswahlkriterien, auch wenn Kündigungen teurer Mitarbeiter betriebswirtschaftlich verlockend erscheinen mögen.",
     "schwierigkeit": 3
   },
   {
@@ -5248,7 +5248,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Die Grundkündigungsfrist des § 622 Abs. 1 BGB beträgt **vier Wochen (28 Tage) zum 15. oder zum Ende eines Kalendermonats** – sie gilt für Arbeitnehmer stets und für Arbeitgeber zu Beginn des Arbeitsverhältnisses. Für den **Arbeitgeber** verlängert sich die Frist mit zunehmender Betriebszugehörigkeit stufenweise (z. B. nach 2 Jahren: 1 Monat, nach 5 Jahren: 2 Monate, jeweils zum Monatsende); für den Arbeitnehmer bleibt es ohne abweichende Vereinbarung bei der Grundfrist. Zwei Wochen (Option 2) gelten nur für die vereinbarte Probezeit. Sechs Wochen zum Quartal (Option 3) war die frühere Angestelltenfrist und findet sich heute allenfalls noch in Alt- oder Tarifverträgen. Drei Monate (Option 4) und ein Monat zum Quartalsende (Option 5) sind keine gesetzlichen Grundfristen.",
+    "erklaerung": "Die Grundkündigungsfrist des § 622 Abs. 1 BGB beträgt **vier Wochen (28 Tage) zum 15. oder zum Ende eines Kalendermonats** – sie gilt für Arbeitnehmer stets und für Arbeitgeber zu Beginn des Arbeitsverhältnisses. Für den **Arbeitgeber** verlängert sich die Frist mit zunehmender Betriebszugehörigkeit stufenweise (z. B. nach 2 Jahren: 1 Monat, nach 5 Jahren: 2 Monate, jeweils zum Monatsende); für den Arbeitnehmer bleibt es ohne abweichende Vereinbarung bei der Grundfrist. Zwei Wochen gelten nur für die vereinbarte Probezeit. Sechs Wochen zum Quartal war die frühere Angestelltenfrist und findet sich heute allenfalls noch in Alt- oder Tarifverträgen. Drei Monate zum Monatsende und ein Monat zum Quartalsende sind keine gesetzlichen Grundfristen.",
     "schwierigkeit": 2
   },
   {
@@ -5265,7 +5265,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Die Abmahnung hat eine **Hinweisfunktion** (konkretes Fehlverhalten benennen) und eine **Warnfunktion** (Androhung arbeitsrechtlicher Konsequenzen bis zur Kündigung im Wiederholungsfall). Bei steuerbarem Verhalten wie Unpünktlichkeit ist sie wegen des Verhältnismäßigkeitsgrundsatzes regelmäßig **Voraussetzung** einer wirksamen verhaltensbedingten Kündigung – der Arbeitnehmer soll die Chance erhalten, sein Verhalten zu ändern. Option 2 ist falsch: Einfaches Zuspätkommen rechtfertigt keine fristlose Kündigung; das bleibt schweren Pflichtverletzungen (z. B. Diebstahl, Tätlichkeiten) vorbehalten. Option 3 verwechselt zwei völlig verschiedene Rechtsinstitute – die Abmahnung beendet das Arbeitsverhältnis nicht. Option 4 beschreibt einen verbreiteten Mythos: Es gibt weder eine „Drei-Abmahnungen-Regel\" noch eine automatische Beendigung.",
+    "erklaerung": "Die Abmahnung hat eine **Hinweisfunktion** (konkretes Fehlverhalten benennen) und eine **Warnfunktion** (Androhung arbeitsrechtlicher Konsequenzen bis zur Kündigung im Wiederholungsfall). Bei steuerbarem Verhalten wie Unpünktlichkeit ist sie wegen des Verhältnismäßigkeitsgrundsatzes regelmäßig **Voraussetzung** einer wirksamen verhaltensbedingten Kündigung – der Arbeitnehmer soll die Chance erhalten, sein Verhalten zu ändern. Entbehrlich ist die Abmahnung hier nicht: Einfaches Zuspätkommen rechtfertigt keine fristlose Kündigung; das bleibt schweren Pflichtverletzungen (z. B. Diebstahl, Tätlichkeiten) vorbehalten. Die Gleichsetzung mit einer Kündigung mit verlängerter Frist verwechselt zwei völlig verschiedene Rechtsinstitute – die Abmahnung beendet das Arbeitsverhältnis nicht. Die automatische Beendigung nach drei Abmahnungen beschreibt einen verbreiteten Mythos: Es gibt weder eine „Drei-Abmahnungen-Regel\" noch eine automatische Beendigung.",
     "schwierigkeit": 2
   },
   {
@@ -5282,7 +5282,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Nach § 1 BetrVG können Betriebsräte in Betrieben mit in der Regel **mindestens 5 ständigen wahlberechtigten Arbeitnehmern** gewählt werden, von denen 3 wählbar sein müssen – bei 30 Beschäftigten ist das erfüllt. Seit der BetrVG-Reform 2021 sind Arbeitnehmer bereits **ab 16 Jahren wahlberechtigt** (wählbar ab 18 Jahren mit 6 Monaten Betriebszugehörigkeit). Option 2 nennt eine erfundene Schwelle – ab bestimmten Größen ändert sich nur die **Zahl der Betriebsratsmitglieder** (bei 30 Beschäftigten: 3 Mitglieder). Option 3 verkennt das Prinzip: Die Wahl geht von der Belegschaft aus; der Arbeitgeber darf sie weder genehmigen noch behindern – Wahlbehinderung ist sogar strafbar. Option 4 verwechselt Wahlberechtigung (keine Mindestzugehörigkeit) mit der Wählbarkeit (6 Monate).",
+    "erklaerung": "Nach § 1 BetrVG können Betriebsräte in Betrieben mit in der Regel **mindestens 5 ständigen wahlberechtigten Arbeitnehmern** gewählt werden, von denen 3 wählbar sein müssen – bei 30 Beschäftigten ist das erfüllt. Seit der BetrVG-Reform 2021 sind Arbeitnehmer bereits **ab 16 Jahren wahlberechtigt** (wählbar ab 18 Jahren mit 6 Monaten Betriebszugehörigkeit). Die 50-Beschäftigten-Grenze ist eine erfundene Schwelle – ab bestimmten Größen ändert sich nur die **Zahl der Betriebsratsmitglieder** (bei 30 Beschäftigten: 3 Mitglieder). Das angebliche Antrags- und Genehmigungsrecht des Arbeitgebers verkennt das Prinzip: Die Wahl geht von der Belegschaft aus; der Arbeitgeber darf sie weder genehmigen noch behindern – Wahlbehinderung ist sogar strafbar. Die geforderten 5 Jahre Betriebszugehörigkeit verwechseln Wahlberechtigung (keine Mindestzugehörigkeit) mit der Wählbarkeit (6 Monate).",
     "schwierigkeit": 2
   },
   {
@@ -6481,7 +6481,7 @@
     "korrekt": [
       1
     ],
-    "erklaerung": "Das magische Dreieck verknüpft die drei konkurrierenden Zielgrößen **Zeit, Kosten und Leistung/Qualität**: Wird eine Größe verändert, wirkt sich das zwangsläufig auf mindestens eine der anderen aus. Sinkt das Budget bei fixem Endtermin, bleibt praktisch nur, den Leistungsumfang oder die Qualität anzupassen – etwa durch Priorisierung und Streichung nachrangiger Anforderungen in Abstimmung mit dem Auftraggeber. Ein automatischer Terminverzug widerspräche der Vorgabe, und ein Projektabbruch ist nur eine letzte Option, keine typische Folge.",
+    "erklaerung": "Das magische Dreieck verknüpft die drei konkurrierenden Zielgrößen **Zeit, Kosten und Leistung/Qualität**: Wird eine Größe verändert, wirkt sich das zwangsläufig auf mindestens eine der anderen aus. Sinkt das Budget bei fixem Endtermin, bleibt praktisch nur, den Leistungsumfang oder die Qualität anzupassen – etwa durch Priorisierung und Streichung nachrangiger Anforderungen in Abstimmung mit dem Auftraggeber. Ein automatischer Terminverzug widerspräche der Vorgabe, und ein Projektabbruch ist nur ein letzter Ausweg, keine typische Folge.",
     "schwierigkeit": 2
   }
 ]

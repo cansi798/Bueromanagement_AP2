@@ -123,3 +123,45 @@ validiert.
 - Kontierungen/Zuordnung als typ "offen" erfasst (Lösungsbogen-Format), 14 echte Auswahlaufgaben als "mc".
 - Aufgabe 3.5: "Vielleicht"-Diagrammwerte teils unleserlich, aus 100-%-Differenz rekonstruiert; "Ja"-Werte durch LO bestätigt.
 - WiSo Winter 2025/26 lag nicht im Ordner (nur KBZ-Aufgaben + LO ungebunden) — bei Nachlieferung nachziehen.
+
+## Anlagen-Vollaudit gegen alle Original-PDFs (2026-09-03)
+
+Abgleich aller 17 Terminordner (Original-PDFs, teils per pdftoppm-Bildanalyse
+für Scans/>20-MB-Dateien) mit den JSON-Aufgaben: Welche zum Lösen nötigen
+Grafiken fehlten oder existierten nur als Textbeschreibung?
+
+**Neue Diagrammtypen** in `AnlagenDiagramm.tsx` + Schema: `organigramm`
+(Baum mit Stabstellen), `schilder` (Sicherheitszeichen/EPK-Symbole),
+`kreislauf` (Wirtschaftskreislauf-Skizzenvarianten).
+
+**20 Einträge ergänzt** (merge-anlagen-diagramme.mjs, alle gegen Original-PDF
+und hinterlegte Lösung verifiziert):
+- Kreislauf-Skizzen (je 5 Varianten, Pfeilrichtungen aus PDF abgelesen,
+  Lösung Skizze 4 bestätigt): wiso-2019s-a10, wiso-2023w-a13
+- Organigramme: wiso-2019w-a18 (+Stab Jan Fischer), wiso-2022w-a7,
+  wiso-2023s-a9 (obere Ebenen als Diagramm + komplette Hierarchie mit allen
+  27 Stellen/Namen als anlagenText), wiso-2024s-a31 (EPK-Ausschnitt als
+  Ablaufbaum mit „?"-Knoten)
+- Schilder/Symbole: wiso-2019w-a17, wiso-2019w-a22 (EPK), wiso-2020w-a24,
+  wiso-2021w-a28, wiso-2025s-a27
+- Linien-/Balkendiagramme: wiso-2017w-a16 (Schaubild von a17 mit neutralen
+  Seriennamen übernommen), wiso-2020w-a11, kbz-2025s-a6-5 (Geraden konsistent
+  zur Lösung A=Erlöse/B=variable Kosten/C=BEP bei 1.200 rekonstruiert),
+  kbz-2025w-a5-2, kbz-2025w-a3-5 (Balken aus anlagenText-Tabelle)
+- anlagenText-Upgrades: kbz-2025s-a3-5 (Kalender Nov/Dez 2024 als Tabelle),
+  wiso-2023w-a22 (Quartalstabelle Inflations-/Arbeitslosenquote/Wachstum)
+
+**Vorbehalte/Entscheidungen:**
+- wiso-2020w-a30 (Produktkennzeichen Blauer Engel etc.): bewusst KEIN
+  Nachzeichnen (geschützte Logos, Namen stehen ohnehin in der Anlage).
+- wiso-2023w-a12: im PDF reine Text-MC-Aufgabe — keine EPK-Grafik nötig
+  (frühere Agenten-Meldung war falsch, per Sichtung aller Seiten widerlegt).
+- Belege/Rechnungen/Formulare aller Termine: als Markdown-anlagenText
+  adäquat; „siehe Anlage der vorigen Teilaufgabe" ist Absichts-Muster.
+- 2023W/2024S über „komprimiert"/AP-PDF-Versionen geprüft (Originale >20 MB).
+
+**Gleichzeitig (Quiz-Fairness-Runde):** Alle 267 Erklärungen mit
+Positionsbezügen („Option 2", „die letzte Option") inhaltlich umgeschrieben,
+da QuizMC/Simulation jetzt zur Laufzeit mischen (mischeOptionen mit
+Pinning-Guard für „keine/alle der genannten"-Optionen). MC-loesung-Felder
+werden nie neben gemischten Optionen angezeigt (geprüft) — dort keine Änderung.

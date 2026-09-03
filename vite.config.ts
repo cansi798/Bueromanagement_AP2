@@ -33,5 +33,5 @@ export default defineConfig({
       },
     },
   },
-  test: { environment: 'node', include: ['tests/**/*.test.ts'], globals: true },
+  test: { environment: 'node', include: ['tests/**/*.test.{ts,tsx}'], globals: true },
 } as any)

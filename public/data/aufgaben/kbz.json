@@ -293,7 +293,7 @@
     "termin": "2025-sommer",
     "typ": "offen",
     "text": "**Aufgabe 3.5** — Geben Sie mithilfe des Kalenderauszugs an, an welchem Tag sich die Bürowelt Ökoline GmbH im Zahlungsverzug befindet! Tragen Sie das Datum (TT.MM.JJJJ) ein!",
-    "anlagenText": "Rechnung vom 26.11.2024, Zahlungsziel 30 Tage ab Rechnungsdatum. 26.11.2024 + 30 Tage = 26.12.2024 (letzter Tag der Zahlungsfrist); Verzug ab dem Folgetag.",
+    "anlagenText": "**Kalenderauszug November/Dezember 2024:**\n\n| KW | Mo | Di | Mi | Do | Fr | Sa | So |\n|---|---|---|---|---|---|---|---|\n| 44 | | | | | 1.11. | 2.11. | 3.11. |\n| 45 | 4.11. | 5.11. | 6.11. | 7.11. | 8.11. | 9.11. | 10.11. |\n| 46 | 11.11. | 12.11. | 13.11. | 14.11. | 15.11. | 16.11. | 17.11. |\n| 47 | 18.11. | 19.11. | 20.11. | 21.11. | 22.11. | 23.11. | 24.11. |\n| 48 | 25.11. | 26.11. | 27.11. | 28.11. | 29.11. | 30.11. | 1.12. |\n| 49 | 2.12. | 3.12. | 4.12. | 5.12. | 6.12. | 7.12. | 8.12. |\n| 50 | 9.12. | 10.12. | 11.12. | 12.12. | 13.12. | 14.12. | 15.12. |\n| 51 | 16.12. | 17.12. | 18.12. | 19.12. | 20.12. | 21.12. | 22.12. |\n| 52 | 23.12. | 24.12. | 25.12. | 26.12. | 27.12. | 28.12. | 29.12. |\n| 1 | 30.12. | 31.12. | | | | | |\n\nRechnung vom 26.11.2024, Zahlungsziel 30 Tage ab Rechnungsdatum.",
     "punkte": 2.17391,
     "loesung": "Die Bürowelt Ökoline GmbH befindet sich ab dem **27.12.2024** im Zahlungsverzug (Rechnungsdatum 26.11.2024 + 30 Tage Zahlungsziel = 26.12.2024; Verzug ab dem Folgetag)."
   },
@@ -716,7 +716,115 @@
     "text": "**Aufgabe 6.5** — Die Entwicklung der Kosten und Erlöse des Schubladensystems „Berlin\" wird grafisch dargestellt. Ordnen Sie den Buchstaben A, B und C je einen der 7 Begriffe aus der Kostenrechnung zu (Verlustzone=1, Gesamtkosten=2, Variable Gesamtkosten=3, Fixkosten=4, Gesamterlöse=5, Gewinnschwelle=6, Gewinnzone=7)!",
     "anlagenText": "Im Diagramm ist A die von 0 ausgehende steilste, oben höchste Gerade; B die untere ansteigende Gerade (Differenz oben rechts zu A); C der Schnittpunkt der Geraden auf der x-Achse bei ca. 1.200 Stück.",
     "punkte": 2.17391,
-    "loesung": "**A = 5 (Gesamterlöse)**, **B = 3 (Variable Gesamtkosten)**, **C = 6 (Gewinnschwelle)**.\nLösungsziffern in Reihenfolge: 5 – 3 – 6."
+    "loesung": "**A = 5 (Gesamterlöse)**, **B = 3 (Variable Gesamtkosten)**, **C = 6 (Gewinnschwelle)**.\nLösungsziffern in Reihenfolge: 5 – 3 – 6.",
+    "anlagenDiagramm": {
+      "typ": "linie",
+      "titel": "Entwicklung der Kosten und Erlöse — Schubladensystem „Berlin\"",
+      "xAchse": "Stückzahl",
+      "yAchse": "Wert",
+      "einheit": "EUR",
+      "serien": [
+        {
+          "name": "A (steilste Gerade ab 0)",
+          "punkte": [
+            {
+              "x": "0",
+              "y": 0
+            },
+            {
+              "x": "500",
+              "y": 25000
+            },
+            {
+              "x": "1000",
+              "y": 50000
+            },
+            {
+              "x": "1500",
+              "y": 75000
+            },
+            {
+              "x": "2000",
+              "y": 100000
+            },
+            {
+              "x": "2500",
+              "y": 125000
+            },
+            {
+              "x": "3000",
+              "y": 150000
+            }
+          ]
+        },
+        {
+          "name": "B (untere Gerade ab 0)",
+          "punkte": [
+            {
+              "x": "0",
+              "y": 0
+            },
+            {
+              "x": "500",
+              "y": 16665
+            },
+            {
+              "x": "1000",
+              "y": 33330
+            },
+            {
+              "x": "1500",
+              "y": 49995
+            },
+            {
+              "x": "2000",
+              "y": 66660
+            },
+            {
+              "x": "2500",
+              "y": 83325
+            },
+            {
+              "x": "3000",
+              "y": 99990
+            }
+          ]
+        },
+        {
+          "name": "weitere Gerade (beginnt über 0)",
+          "punkte": [
+            {
+              "x": "0",
+              "y": 20000
+            },
+            {
+              "x": "500",
+              "y": 36665
+            },
+            {
+              "x": "1000",
+              "y": 53330
+            },
+            {
+              "x": "1500",
+              "y": 69995
+            },
+            {
+              "x": "2000",
+              "y": 86660
+            },
+            {
+              "x": "2500",
+              "y": 103325
+            },
+            {
+              "x": "3000",
+              "y": 119990
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "id": "kbz-2025s-a6-6",
@@ -3440,7 +3548,7 @@
       2
     ],
     "loesung": "Richtig ist Antwort 3: Beziehungsebene, Appell, Selbstoffenbarung, Sachebene.",
-    "erklaerung": "Das 4-Ohren-Modell (Schulz von Thun) beschreibt die vier Seiten einer Nachricht: Sachebene, Selbstoffenbarung, Beziehungsebene und Appell. Nur Antwort 3 nennt alle vier Seiten korrekt."
+    "erklaerung": "Das 4-Ohren-Modell (Schulz von Thun) beschreibt die vier Seiten einer Nachricht: Sachebene, Selbstoffenbarung, Beziehungsebene und Appell. Nur die Kombination „Beziehungsebene, Appell, Selbstoffenbarung, Sachebene“ nennt alle vier Seiten korrekt."
   },
   {
     "id": "kbz-2023s-a1-5",
@@ -7356,7 +7464,7 @@
       0
     ],
     "loesung": "Richtig ist Antwort 1: Abschreibung des Lieferfahrzeuges, Müllgebühren, Miete für die Lagerhalle.",
-    "erklaerung": "Gemeinkosten lassen sich nicht direkt einem einzelnen Produkt (Kostenträger) zurechnen. Alle drei Positionen in Antwort 1 sind Gemeinkosten. In den anderen Antworten finden sich Einzelkosten (z. B. Bezugspreis der Schlösser bzw. Kabelschächte, variable Kosten für Arbeitsplatten), die direkt zurechenbar sind."
+    "erklaerung": "Gemeinkosten lassen sich nicht direkt einem einzelnen Produkt (Kostenträger) zurechnen. Die Abschreibung des Lieferfahrzeuges, die Müllgebühren und die Miete für die Lagerhalle sind allesamt Gemeinkosten. In den anderen Kombinationen finden sich Einzelkosten (z. B. Bezugspreis der Schlösser bzw. Kabelschächte, variable Kosten für Arbeitsplatten), die direkt zurechenbar sind."
   },
   {
     "id": "kbz-2021s-a5-1",
@@ -11373,7 +11481,7 @@
       1
     ],
     "loesung": "Richtig ist Aussage 2: Die Jana Loft KG muss bei Zahlungsstreitigkeiten bei dem für Korbach zuständigen Gericht klagen.",
-    "erklaerung": "Gesetzlicher Gerichtsstand ist grundsätzlich der (Wohn-)Sitz des Beklagten (§§ 12, 17 ZPO). Will die Jana Loft KG die Feder GmbH verklagen (z. B. wegen ausstehender Zahlung), muss sie am Sitz der Beklagten in Korbach klagen. Umgekehrt müsste die Feder GmbH bei Warenstreitigkeiten in Hamburg klagen – Aussage 3 ist daher falsch."
+    "erklaerung": "Gesetzlicher Gerichtsstand ist grundsätzlich der (Wohn-)Sitz des Beklagten (§§ 12, 17 ZPO). Will die Jana Loft KG die Feder GmbH verklagen (z. B. wegen ausstehender Zahlung), muss sie am Sitz der Beklagten in Korbach klagen. Umgekehrt müsste die Feder GmbH bei Warenstreitigkeiten in Hamburg klagen – die Aussage, sie müsse dafür bei dem für Korbach zuständigen Gericht klagen, ist daher falsch."
   },
   {
     "id": "kbz-2025w-a2-7",
@@ -11465,7 +11573,91 @@
     "text": "Auf einer Bewertungsplattform, bei der Bewerbungsverfahren von Arbeitgebern beurteilt werden, hat Ihre Vorgesetzte Anne Ohlsen eine Auswertung der Jana Loft KG entdeckt und legt Ihnen die abgebildete Auswertung (siehe Anlage) zur Analyse vor.\n\n**Beschreiben Sie 2 Kriterien, bei denen die Jana Loft KG besonders schlecht abgeschnitten hat! Gehen Sie auf die Werte ein!**",
     "anlagenText": "**Bewertung Bewerbungsverfahren der Jana Loft KG** (Anteile der Antworten Ja / Vielleicht / Nein):\n\n| Aussage | Ja | Vielleicht | Nein |\n|---|---|---|---|\n| Es erfolgt keine Absage nach Besetzung der angebotenen Stelle. | 63 % | – | 37 % |\n| Das Bewerbungsverfahren ist zu umständlich/erfolgt noch per Post. | 42 % | 35 % | 23 % |\n| Ansprechpartner/-innen im Stellenangebot fehlen. | 15 % | 41 % | 44 % |\n| Arbeitgeber gibt keine Rückmeldung über den Bewerbungseingang/Bewerbungsstand. | 18 % | 72 % | 10 % |\n| Arbeitgeber geht zu langsam auf Bewerbungen ein. | 35 % | 53 % | 12 % |",
     "punkte": 4,
-    "loesung": "2 Kriterien (je 2 Punkte), z. B.:\n- 63 % der Betroffenen haben keine Absage nach Besetzung der Stelle erhalten.\n- 42 % der Betroffenen finden das Bewerbungsverfahren zu umständlich.\n- 15 % der Betroffenen fehlen der/die Ansprechpartner/-innen im Stellenangebot.\n- 18 % der Betroffenen haben keine Rückmeldung über den Bewerbungseingang/Bewerbungsstand erhalten.\n- 35 % der Betroffenen finden, dass der Arbeitgeber zu langsam auf Bewerbungen eingeht.\n- oder andere sinnvolle Lösungen."
+    "loesung": "2 Kriterien (je 2 Punkte), z. B.:\n- 63 % der Betroffenen haben keine Absage nach Besetzung der Stelle erhalten.\n- 42 % der Betroffenen finden das Bewerbungsverfahren zu umständlich.\n- 15 % der Betroffenen fehlen der/die Ansprechpartner/-innen im Stellenangebot.\n- 18 % der Betroffenen haben keine Rückmeldung über den Bewerbungseingang/Bewerbungsstand erhalten.\n- 35 % der Betroffenen finden, dass der Arbeitgeber zu langsam auf Bewerbungen eingeht.\n- oder andere sinnvolle Lösungen.",
+    "anlagenDiagramm": {
+      "typ": "balken",
+      "titel": "Bewertung des Bewerbungsverfahrens der Jana Loft KG",
+      "xAchse": "Aussage",
+      "yAchse": "Anteil",
+      "einheit": "%",
+      "serien": [
+        {
+          "name": "Ja",
+          "punkte": [
+            {
+              "x": "Keine Absage",
+              "y": 63
+            },
+            {
+              "x": "Verfahren umständlich",
+              "y": 42
+            },
+            {
+              "x": "Ansprechpartner fehlt",
+              "y": 15
+            },
+            {
+              "x": "Keine Rückmeldung",
+              "y": 18
+            },
+            {
+              "x": "Zu langsam",
+              "y": 35
+            }
+          ]
+        },
+        {
+          "name": "Vielleicht",
+          "punkte": [
+            {
+              "x": "Keine Absage",
+              "y": 0
+            },
+            {
+              "x": "Verfahren umständlich",
+              "y": 35
+            },
+            {
+              "x": "Ansprechpartner fehlt",
+              "y": 41
+            },
+            {
+              "x": "Keine Rückmeldung",
+              "y": 72
+            },
+            {
+              "x": "Zu langsam",
+              "y": 53
+            }
+          ]
+        },
+        {
+          "name": "Nein",
+          "punkte": [
+            {
+              "x": "Keine Absage",
+              "y": 37
+            },
+            {
+              "x": "Verfahren umständlich",
+              "y": 23
+            },
+            {
+              "x": "Ansprechpartner fehlt",
+              "y": 44
+            },
+            {
+              "x": "Keine Rückmeldung",
+              "y": 10
+            },
+            {
+              "x": "Zu langsam",
+              "y": 12
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "id": "kbz-2025w-a3-6",
@@ -11500,7 +11692,7 @@
       4
     ],
     "loesung": "Richtig sind die Aussagen 4 und 5: Der Betriebsrat kann verlangen, alle Bewerbungsunterlagen zu sichten, und er muss einer Einstellung zustimmen, bevor der Bewerber den Vertrag erhält.",
-    "erklaerung": "Nach § 99 BetrVG (Unternehmen mit mehr als 20 wahlberechtigten Arbeitnehmern – die Jana Loft KG hat 230 Beschäftigte) muss der Arbeitgeber den Betriebsrat vor jeder Einstellung unterrichten, ihm die Bewerbungsunterlagen vorlegen und seine Zustimmung einholen. Die Zustimmung darf nur aus den im Gesetz genannten Gründen verweigert werden (Aussage 3 falsch); ein bloßes Informationsrecht (Aussage 1) greift zu kurz; die Aussagen 2 und 6 sind frei erfunden."
+    "erklaerung": "Nach § 99 BetrVG (Unternehmen mit mehr als 20 wahlberechtigten Arbeitnehmern – die Jana Loft KG hat 230 Beschäftigte) muss der Arbeitgeber den Betriebsrat vor jeder Einstellung unterrichten, ihm die Bewerbungsunterlagen vorlegen und seine Zustimmung einholen. Die Zustimmung darf nur aus den im Gesetz genannten Gründen verweigert werden – eine Verweigerung ohne Angabe von Gründen ist nicht möglich; ein bloßes Informationsrecht greift zu kurz; eine Zuständigkeit des Betriebsrats für Stellenausschreibungen und eine Bevorzugung von Betriebsratsmitgliedern bei der Stellenbesetzung sind frei erfunden."
   },
   {
     "id": "kbz-2025w-a3-8",
@@ -11828,7 +12020,139 @@
     "anlagenText": "**Diagramm (Kosten/Erlöse in EUR auf der y-Achse bis 500.000,00; Menge 0–800 Stück auf der x-Achse):**\n\n- Kennziffer **1**: steil ansteigende Gerade, die im Ursprung (0/0) beginnt und bei ca. 700–800 Stück etwa 500.000,00 € erreicht.\n- Kennziffer **2**: ansteigende Gerade, die bei 136.650,00 € auf der y-Achse beginnt und bei 800 Stück ca. 330.000,00 € erreicht; sie schneidet die Gerade 1 bei ca. 300 Stück.\n- Kennziffer **3**: Klammer, die den senkrechten Abstand zwischen der Geraden 2 und der waagerechten Geraden 4 kennzeichnet.\n- Kennziffer **4**: waagerechte Gerade in Höhe von 136.650,00 €.\n\n**Bedeutungen:** Fixkosten, Variable Kosten, Erlöse, Gesamtkosten.",
     "punkte": 2.27273,
     "loesung": "**Fixkosten = 4, Variable Kosten = 3, Erlöse = 1, Gesamtkosten = 2** (Lösungsziffernfolge: 4 – 3 – 1 – 2)\n\nBegründung: Die waagerechte Gerade (4) ist mengenunabhängig = Fixkosten. Die im Ursprung beginnende, steilste Gerade (1) sind die Erlöse (0 Stück = 0 €). Die bei den Fixkosten beginnende steigende Gerade (2) sind die Gesamtkosten. Der Abstand zwischen Gesamtkosten und Fixkosten (Klammer 3) sind die variablen Kosten.",
-    "erklaerung": "Gebundene Zuordnungsaufgabe (Lösungsbogen) ohne offizielle Lösungshinweise – Zuordnung eigenständig hergeleitet; konsistent mit den Tabellenwerten der vorigen Teilaufgabe (Fixkosten 136.650,00 €, Break-even bei 300 Stück am Schnittpunkt von Erlös- und Gesamtkostengerade)."
+    "erklaerung": "Gebundene Zuordnungsaufgabe (Lösungsbogen) ohne offizielle Lösungshinweise – Zuordnung eigenständig hergeleitet; konsistent mit den Tabellenwerten der vorigen Teilaufgabe (Fixkosten 136.650,00 €, Break-even bei 300 Stück am Schnittpunkt von Erlös- und Gesamtkostengerade).",
+    "anlagenDiagramm": {
+      "typ": "linie",
+      "titel": "Kosten- und Erlössituation des Schreibtisches „Labora\"",
+      "xAchse": "Menge in Stück",
+      "yAchse": "Kosten/Erlöse",
+      "einheit": "EUR",
+      "serien": [
+        {
+          "name": "Kennziffer 1",
+          "punkte": [
+            {
+              "x": "0",
+              "y": 0
+            },
+            {
+              "x": "100",
+              "y": 69550
+            },
+            {
+              "x": "200",
+              "y": 139100
+            },
+            {
+              "x": "300",
+              "y": 208650
+            },
+            {
+              "x": "400",
+              "y": 278200
+            },
+            {
+              "x": "500",
+              "y": 347750
+            },
+            {
+              "x": "600",
+              "y": 417300
+            },
+            {
+              "x": "700",
+              "y": 486850
+            },
+            {
+              "x": "800",
+              "y": 556400
+            }
+          ]
+        },
+        {
+          "name": "Kennziffer 2",
+          "punkte": [
+            {
+              "x": "0",
+              "y": 136650
+            },
+            {
+              "x": "100",
+              "y": 160650
+            },
+            {
+              "x": "200",
+              "y": 184650
+            },
+            {
+              "x": "300",
+              "y": 208650
+            },
+            {
+              "x": "400",
+              "y": 232650
+            },
+            {
+              "x": "500",
+              "y": 256650
+            },
+            {
+              "x": "600",
+              "y": 280650
+            },
+            {
+              "x": "700",
+              "y": 304650
+            },
+            {
+              "x": "800",
+              "y": 328650
+            }
+          ]
+        },
+        {
+          "name": "Kennziffer 4",
+          "punkte": [
+            {
+              "x": "0",
+              "y": 136650
+            },
+            {
+              "x": "100",
+              "y": 136650
+            },
+            {
+              "x": "200",
+              "y": 136650
+            },
+            {
+              "x": "300",
+              "y": 136650
+            },
+            {
+              "x": "400",
+              "y": 136650
+            },
+            {
+              "x": "500",
+              "y": 136650
+            },
+            {
+              "x": "600",
+              "y": 136650
+            },
+            {
+              "x": "700",
+              "y": 136650
+            },
+            {
+              "x": "800",
+              "y": 136650
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "id": "kbz-2025w-a5-3",

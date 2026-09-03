@@ -1,6 +1,6 @@
 import { useNavigate, useParams } from 'react-router-dom'
 import Markdown from '../components/Markdown'
-import ThemaDiagramm from '../components/diagramme'
+import ThemaDiagramm, { FolienDiagramm } from '../components/diagramme'
 import { ladeBereiche, ladeThemen, useDaten } from '../lib/data'
 import type { BereichId } from '../types'
 
@@ -45,11 +45,13 @@ function standHeute(): string {
 // Druckbares Lernskript: Deckblatt → Inhaltsverzeichnis → ein Kapitel pro Thema.
 // „Als PDF speichern" läuft über den Druckdialog des Browsers (print-CSS).
 export default function Skript() {
-  const { bereichId } = useParams<{ bereichId: BereichId }>()
+  const { bereichId, themaId } = useParams<{ bereichId: BereichId; themaId?: string }>()
   const navigate = useNavigate()
   const { daten: bereiche } = useDaten(ladeBereiche)
-  const { daten: themen, fehler, laedt } = useDaten(() => ladeThemen(bereichId!))
+  const { daten: alleThemen, fehler, laedt } = useDaten(() => ladeThemen(bereichId!))
   const bereich = bereiche?.find((b) => b.id === bereichId)
+  // Optional auf ein Thema eingegrenzt (z. B. für Podcast-/Video-Quell-PDFs).
+  const themen = themaId ? alleThemen?.filter((t) => t.id === themaId) : alleThemen
 
   if (laedt || !bereich)
     return <p className="p-6 text-slate-500">{fehler ?? 'Lade Skript …'}</p>
@@ -98,7 +100,12 @@ export default function Skript() {
             KBM Prüfungscoach
           </p>
           <h1 className="mt-6 text-4xl font-black text-slate-900">Lernskript</h1>
-          <h2 className="mt-3 text-2xl font-bold text-sky-700">{bereich.name}</h2>
+          <h2 className="mt-3 text-2xl font-bold text-sky-700">
+            {themaId && themen!.length === 1 ? themen![0].name : bereich.name}
+          </h2>
+          {themaId && themen!.length === 1 && (
+            <p className="mt-2 text-sm font-semibold text-slate-500">{bereich.name}</p>
+          )}
           <p className="mt-6 max-w-md text-slate-600">{bereich.beschreibung}</p>
           <p className="mt-10 text-sm text-slate-400">
             Zusammenfassung · Diagramme · Eselsbrücken · Selbstchecks — für Unterricht und
@@ -146,7 +153,17 @@ export default function Skript() {
 
             <div className="mt-5">
               <ThemaDiagramm themaId={t.id} />
-              <Markdown text={t.lernzettel} />
+              {/* Abschnittsweise rendern, damit Abschnitts-Diagramme (Rough.js)
+                  direkt unter ihrem ##-Abschnitt erscheinen. */}
+              {t.lernzettel.split(/\n(?=##\s)/).map((teil, j) => (
+                <div key={j}>
+                  <Markdown text={teil} />
+                  <FolienDiagramm
+                    themaId={t.id}
+                    titel={(teil.match(/^##\s+(.+)/)?.[1] ?? '').trim()}
+                  />
+                </div>
+              ))}
             </div>
 
             {t.eselsbruecken.length > 0 && (

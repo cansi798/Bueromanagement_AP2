@@ -41,6 +41,9 @@ describe('Content-Schema-Audit', () => {
   if (existsSync(join(dataDir, 'glossar.json'))) {
     it('glossar.json ist gültig', () => validate('glossarListe', join(dataDir, 'glossar.json')))
   }
+  if (existsSync(join(dataDir, 'formeln.json'))) {
+    it('formeln.json ist gültig', () => validate('formelListe', join(dataDir, 'formeln.json')))
+  }
 })
 
 describe('Referenz-Audit (Kreuz-Checks)', () => {

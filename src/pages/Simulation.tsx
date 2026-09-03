@@ -8,6 +8,7 @@ import Anlage from '../components/Anlage'
 import AnlagenDiagramm from '../components/AnlagenDiagramm'
 import { ladeAufgaben, ladePruefungen, useDaten } from '../lib/data'
 import { wertungMC } from '../lib/quiz'
+import { mischeOptionen } from '../lib/lernquiz'
 import { heuteISO, merkeAufgabenErgebnis, merkeErledigt, merkeSimulation } from '../lib/progress'
 import { terminVonNummer } from '../lib/termine'
 import { ihkNote } from '../lib/noten'
@@ -44,6 +45,13 @@ export default function Simulation() {
     return pruefung.aufgabenIds
       .map((id) => aufgaben.find((a) => a.id === id))
       .filter((a): a is Aufgabe => Boolean(a))
+      // MC-Optionen einmal pro Durchlauf mischen; korrekt wird mit remappt,
+      // dadurch stimmen Auswahl, Wertung und Auflösung weiter überein.
+      .map((a) =>
+        a.typ === 'mc' && a.optionen
+          ? { ...a, ...mischeOptionen({ optionen: a.optionen, korrekt: a.korrekt ?? [] }) }
+          : a,
+      )
   }, [pruefung, aufgaben])
 
   if (!pruefung || !aufgaben) {

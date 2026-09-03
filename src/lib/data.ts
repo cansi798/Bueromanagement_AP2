@@ -3,6 +3,7 @@ import type {
   Aufgabe,
   Bereich,
   BereichId,
+  FormelEintrag,
   GlossarEintrag,
   Karteikarte,
   Lernpaar,
@@ -33,6 +34,7 @@ export const ladePruefungen = () => lade<Pruefung[]>('pruefungen/index.json')
 export const ladeKarteikarten = (b: BereichId) => lade<Karteikarte[]>(`karteikarten/${b}.json`)
 export const ladeLernpaare = (b: BereichId) => lade<Lernpaar[]>(`lernpaare/${b}.json`)
 export const ladeGlossar = () => lade<GlossarEintrag[]>('glossar.json')
+export const ladeFormeln = () => lade<FormelEintrag[]>('formeln.json')
 
 export function useDaten<T>(loader: () => Promise<T>): {
   daten: T | null

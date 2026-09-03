@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 import Layout from '../components/Layout'
 import BereichKachel from '../components/BereichKachel'
 import { ladeAufgaben, ladeBereiche, useDaten } from '../lib/data'
@@ -48,6 +49,18 @@ export default function Home() {
           {bereiche.map((b) => (
             <BereichKachel key={b.id} bereich={b} fortschritt={fortschritte[b.id] ?? 0} />
           ))}
+          <Link
+            to="/glossar"
+            className="flex items-center gap-4 rounded-2xl border-2 border-dashed border-slate-300 bg-white p-5 shadow-sm transition hover:border-sky-400 hover:shadow-md sm:col-span-2"
+          >
+            <span className="text-3xl">📖</span>
+            <span>
+              <span className="block font-bold text-slate-900">Begriffe & Formeln</span>
+              <span className="block text-sm text-slate-600">
+                Alle Fachbegriffe und Prüfungsformeln zum Nachschlagen — mit PDF-Download.
+              </span>
+            </span>
+          </Link>
         </div>
       )}
     </Layout>

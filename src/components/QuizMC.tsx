@@ -1,6 +1,7 @@
-import { useState } from 'react'
+import { useMemo, useState } from 'react'
 import type { Aufgabe } from '../types'
 import { wertungMC } from '../lib/quiz'
+import { mischeOptionen } from '../lib/lernquiz'
 import Markdown from './Markdown'
 import OptionText from './OptionText'
 
@@ -13,7 +14,12 @@ export default function QuizMC({
 }) {
   const [gewaehlt, setGewaehlt] = useState<number[]>([])
   const [abgegeben, setAbgegeben] = useState(false)
-  const korrekt = aufgabe.korrekt ?? []
+  // Einmal pro Aufgabe mischen, damit die richtige Antwort nicht immer an
+  // der Position aus den Quelldaten steht.
+  const { optionen, korrekt } = useMemo(
+    () => mischeOptionen({ optionen: aufgabe.optionen ?? [], korrekt: aufgabe.korrekt ?? [] }),
+    [aufgabe],
+  )
   const mehrfach = korrekt.length > 1
 
   function toggle(i: number) {
@@ -33,7 +39,7 @@ export default function QuizMC({
       <Markdown text={aufgabe.text} />
       {mehrfach && <p className="mt-1 text-xs text-slate-500">Mehrere Antworten möglich.</p>}
       <div className="mt-3 space-y-2">
-        {(aufgabe.optionen ?? []).map((opt, i) => {
+        {optionen.map((opt, i) => {
           let stil = 'border-slate-300 bg-white hover:border-sky-400'
           if (abgegeben) {
             if (korrekt.includes(i)) stil = 'border-green-500 bg-green-50'

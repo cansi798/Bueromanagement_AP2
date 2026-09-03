@@ -384,7 +384,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Die W-Frage „Was genau ist passiert?“ ist eine offene Frage – sie lässt sich nicht mit Ja/Nein beantworten und fördert ausführliche Schilderungen. Option 2 ist eine geschlossene Frage (nur Ja/Nein), Option 3 eine Alternativfrage mit zwei vorgegebenen Optionen und Option 4 eine Suggestivfrage, die dem Kunden die Antwort in den Mund legt.",
+    "erklaerung": "Die W-Frage „Was genau ist passiert?“ ist eine offene Frage – sie lässt sich nicht mit Ja/Nein beantworten und fördert ausführliche Schilderungen. „Ist das Paket beschädigt angekommen?“ ist eine geschlossene Frage (nur Ja/Nein), „Möchten Sie einen Umtausch oder eine Gutschrift?“ eine Alternativfrage mit zwei vorgegebenen Optionen und „Sie sind mit unserem Service doch grundsätzlich zufrieden, oder?“ eine Suggestivfrage, die dem Kunden die Antwort in den Mund legt.",
     "schwierigkeit": 1
   },
   {
@@ -721,7 +721,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Eine offene W-Frage nach dem konkreten Sachverhalt zeigt Hilfsbereitschaft, liefert die für die Lösung nötigen Informationen und lässt den Kunden seine Sicht schildern. Option 2 enthält einen versteckten Vorwurf, Option 3 ist eine unterstellende Suggestivfrage und Option 4 eine Belehrung – alle drei eskalieren den Konflikt, statt ihn zu lösen.",
+    "erklaerung": "Eine offene W-Frage nach dem konkreten Sachverhalt zeigt Hilfsbereitschaft, liefert die für die Lösung nötigen Informationen und lässt den Kunden seine Sicht schildern. Die Frage, ob der Kunde selbst etwas beim Auspacken verlegt hat, enthält einen versteckten Vorwurf, die Unterstellung, er wolle nur einen Rabatt heraushandeln, ist eine Suggestivfrage und der Hinweis, dass Fehler praktisch nie vorkommen, eine Belehrung – alle drei eskalieren den Konflikt, statt ihn zu lösen.",
     "schwierigkeit": 2,
     "quellTermin": "2022-winter"
   },
@@ -969,7 +969,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Der Rabatt ist ein Preisnachlass (z. B. Mengen- oder Treuerabatt), der unabhängig vom Zahlungszeitpunkt sofort abgezogen wird. Skonto ist dagegen ein Entgelt für schnelle Zahlung: Es darf nur abgezogen werden, wenn innerhalb der Skontofrist gezahlt wird. Option 2 vertauscht die Begriffe, Option 3 ignoriert den Unterschied, und eine gesetzliche Rabattobergrenze existiert nicht.",
+    "erklaerung": "Der Rabatt ist ein Preisnachlass (z. B. Mengen- oder Treuerabatt), der unabhängig vom Zahlungszeitpunkt sofort abgezogen wird. Skonto ist dagegen ein Entgelt für schnelle Zahlung: Es darf nur abgezogen werden, wenn innerhalb der Skontofrist gezahlt wird. Die Aussage, Skonto werde sofort und der Rabatt nur bei vorzeitiger Zahlung abgezogen, vertauscht die Begriffe; die Behauptung, beide bezeichneten denselben Preisnachlass, ignoriert den Unterschied, und eine gesetzliche Rabattobergrenze existiert nicht.",
     "schwierigkeit": 1,
     "quellTermin": "2023-winter"
   },
@@ -1162,7 +1162,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Ein **Wegeunfall** ereignet sich auf dem **direkten Weg** zwischen Wohnung und Arbeitsstätte (hin oder zurück). Option 2 beschreibt den **Arbeitsunfall**. Freizeitunfälle sind nicht über die Berufsgenossenschaft versichert, und bei privaten Umwegen entfällt der Versicherungsschutz grundsätzlich.",
+    "erklaerung": "Ein **Wegeunfall** ereignet sich auf dem **direkten Weg** zwischen Wohnung und Arbeitsstätte (hin oder zurück). Ein Unfall, der sich direkt bei der beruflichen Tätigkeit ereignet, ist dagegen der **Arbeitsunfall**. Freizeitunfälle sind nicht über die Berufsgenossenschaft versichert, und bei privaten Umwegen entfällt der Versicherungsschutz grundsätzlich.",
     "schwierigkeit": 1,
     "quellTermin": "2025-sommer"
   },
@@ -1257,7 +1257,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Rechenweg: 40 − 4 = 36 Stunden auf 4 Tage verteilt ergibt **36 : 4 = 9 Stunden** pro Tag. Nach § 3 ArbZG darf die werktägliche Arbeitszeit auf **bis zu 10 Stunden** verlängert werden, wenn im Durchschnitt von 6 Monaten/24 Wochen 8 Stunden nicht überschritten werden – hier beträgt der Wochendurchschnitt (9+9+9+9+4)/5 = 8 Stunden, also zulässig. Die 8-Stunden-Regel ist keine absolute Grenze (daher Option 2 falsch), 10 Stunden wären rechnerisch falsch verteilt.",
+    "erklaerung": "Rechenweg: 40 − 4 = 36 Stunden auf 4 Tage verteilt ergibt **36 : 4 = 9 Stunden** pro Tag. Nach § 3 ArbZG darf die werktägliche Arbeitszeit auf **bis zu 10 Stunden** verlängert werden, wenn im Durchschnitt von 6 Monaten/24 Wochen 8 Stunden nicht überschritten werden – hier beträgt der Wochendurchschnitt (9+9+9+9+4)/5 = 8 Stunden, also zulässig. Die 8-Stunden-Regel ist keine absolute Grenze (die Aussage, die werktägliche Arbeitszeit dürfe 8 Stunden nie überschreiten, ist daher falsch), 10 Stunden wären rechnerisch falsch verteilt.",
     "schwierigkeit": 2,
     "quellTermin": "2025-sommer"
   },
@@ -1481,7 +1481,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Die Schutzfrist beginnt nach dem Mutterschutzgesetz **6 Wochen (42 Tage) vor** dem voraussichtlichen Entbindungstermin: 17. Juni − 42 Tage = **6. Mai**. Die 8 Wochen (Option 3) gelten für die Schutzfrist **nach** der Entbindung (bei Früh- und Mehrlingsgeburten 12 Wochen); 1 Monat bzw. 2 Wochen sind frei erfundene Fristen.",
+    "erklaerung": "Die Schutzfrist beginnt nach dem Mutterschutzgesetz **6 Wochen (42 Tage) vor** dem voraussichtlichen Entbindungstermin: 17. Juni − 42 Tage = **6. Mai**. Die 8 Wochen gelten für die Schutzfrist **nach** der Entbindung (bei Früh- und Mehrlingsgeburten 12 Wochen); 1 Monat bzw. 2 Wochen sind frei erfundene Fristen.",
     "schwierigkeit": 3,
     "quellTermin": "2023-sommer"
   },
@@ -1517,7 +1517,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "An der Gewinnschwelle müssen die **Deckungsbeiträge genau die Fixkosten decken**, daher gilt BEP = Fixkosten / Deckungsbeitrag je Stück (DB = Verkaufspreis − variable Stückkosten). Die Division durch den Verkaufspreis ignoriert die variablen Kosten, die Division durch die variablen Kosten ignoriert den Erlös, und der Kehrwert (Option 3) ergibt keine Stückzahl.",
+    "erklaerung": "An der Gewinnschwelle müssen die **Deckungsbeiträge genau die Fixkosten decken**, daher gilt BEP = Fixkosten / Deckungsbeitrag je Stück (DB = Verkaufspreis − variable Stückkosten). Die Division durch den Verkaufspreis ignoriert die variablen Kosten, die Division durch die variablen Kosten ignoriert den Erlös, und der Kehrwert (Deckungsbeitrag je Stück geteilt durch die Fixkosten) ergibt keine Stückzahl.",
     "schwierigkeit": 1
   },
   {
@@ -1588,7 +1588,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Die **Fixkostendegression** bewirkt, dass der Fixkostenanteil je Stück (Fixkosten/Menge) mit steigender Menge kleiner wird – die Stückkosten sinken. Zwar steigen die Gesamtkosten absolut, aber pro Stück verteilt sinken sie (Option 2 verwechselt Gesamt- und Stückbetrachtung). Die variablen **Stückkosten** bleiben zwar konstant, doch dadurch bleiben die Stückkosten nicht insgesamt konstant (Option 3), und sie sinken auch nicht (Option 4).",
+    "erklaerung": "Die **Fixkostendegression** bewirkt, dass der Fixkostenanteil je Stück (Fixkosten/Menge) mit steigender Menge kleiner wird – die Stückkosten sinken. Zwar steigen die Gesamtkosten absolut, aber pro Stück verteilt sinken sie (wer mit den steigenden Gesamtkosten argumentiert, verwechselt Gesamt- und Stückbetrachtung). Die variablen **Stückkosten** bleiben zwar konstant, doch dadurch bleiben die Stückkosten nicht insgesamt konstant, und die variablen Kosten je Stück nehmen mit der Menge auch nicht automatisch ab.",
     "schwierigkeit": 1,
     "quellTermin": "2025-sommer"
   },
@@ -1624,7 +1624,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Rechenweg: Erlöse = 600 × 350 = 210.000 €; variable Kosten = 600 × 240 = 144.000 €; Deckungsbeitrag gesamt = 66.000 €; Ergebnis = 66.000 − 58.000 Fixkosten = **+8.000 € Gewinn**. Option 2 verwechselt Deckungsbeitrag und Gewinn (Fixkosten fehlen), Option 3 vertauscht das Vorzeichen, Option 4 zieht nur die Fixkosten vom Umsatz ab und vergisst die variablen Kosten.",
+    "erklaerung": "Rechenweg: Erlöse = 600 × 350 = 210.000 €; variable Kosten = 600 × 240 = 144.000 €; Deckungsbeitrag gesamt = 66.000 €; Ergebnis = 66.000 − 58.000 Fixkosten = **+8.000 € Gewinn**. Wer 66.000,00 € als Gewinn ausweist, verwechselt Deckungsbeitrag und Gewinn (Fixkosten fehlen); ein Verlust von 8.000,00 € vertauscht das Vorzeichen, und ein Gewinn von 152.000,00 € entsteht nur, wenn man lediglich die Fixkosten vom Umsatz abzieht und die variablen Kosten vergisst.",
     "schwierigkeit": 3,
     "quellTermin": "2022-winter"
   },
@@ -1922,7 +1922,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Die Abschreibung ist ein **Aufwand** (Soll auf 6520) und mindert zugleich den Buchwert der Anlage (Haben auf 0700): **6520 an 0700**. Option 2 vertauscht Soll und Haben, Option 3 ist falsch, weil bei der Abschreibung kein Geld fließt (kein Bankkonto), und Zinsaufwendungen (7510) haben mit der Wertminderung einer Anlage nichts zu tun.",
+    "erklaerung": "Die Abschreibung ist ein **Aufwand** (Soll auf 6520) und mindert zugleich den Buchwert der Anlage (Haben auf 0700): **6520 an 0700**. Der Satz „0700 an 6520“ vertauscht Soll und Haben, die Buchung „6520 an 2800 Bank“ ist falsch, weil bei der Abschreibung kein Geld fließt (kein Bankkonto), und Zinsaufwendungen (7510) haben mit der Wertminderung einer Anlage nichts zu tun.",
     "schwierigkeit": 1,
     "quellTermin": "2024-sommer"
   },
@@ -1976,7 +1976,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Handelswareneinkauf auf Ziel: **Aufwand netto (6080)** und **Vorsteuer (2600)** im Soll, die Verbindlichkeit brutto im Haben. Option 2 bucht fälschlich brutto ohne Vorsteuertrennung, Option 3 verwendet das falsche Aufwandskonto (Büromaterial statt Handelsware – die Leuchten werden weiterverkauft), Option 4 vertauscht Soll und Haben (das wäre eine Gutschrift/Rücksendung).",
+    "erklaerung": "Handelswareneinkauf auf Ziel: **Aufwand netto (6080)** und **Vorsteuer (2600)** im Soll, die Verbindlichkeit brutto im Haben. Die Buchung von 9.996,00 € auf 6080 erfasst fälschlich brutto ohne Vorsteuertrennung, die Buchung über 6800 verwendet das falsche Aufwandskonto (Büromaterial statt Handelsware – die Leuchten werden weiterverkauft), und der Satz „4400 an 6080 und 2600“ vertauscht Soll und Haben (das wäre eine Gutschrift/Rücksendung).",
     "schwierigkeit": 2,
     "quellTermin": "2023-winter"
   },
@@ -1994,7 +1994,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Barkauf: Aufwand **netto auf 6800 Büromaterial**, Vorsteuer getrennt auf 2600, Gegenkonto ist die **Kasse (2880)**, da bar bezahlt wurde. Option 2 vergisst die Vorsteuertrennung, Option 3 nutzt das Handelswarenkonto (Papier wird verbraucht, nicht weiterverkauft), Option 4 bucht über die Bank statt über die Kasse.",
+    "erklaerung": "Barkauf: Aufwand **netto auf 6800 Büromaterial**, Vorsteuer getrennt auf 2600, Gegenkonto ist die **Kasse (2880)**, da bar bezahlt wurde. Die Bruttobuchung von 297,50 € auf 6800 vergisst die Vorsteuertrennung, die Buchung auf 6080 nutzt das Handelswarenkonto (Papier wird verbraucht, nicht weiterverkauft), und die Variante mit 2800 bucht über die Bank statt über die Kasse.",
     "schwierigkeit": 2,
     "quellTermin": "2023-winter"
   },
@@ -2012,7 +2012,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Auf Bücher und Zeitungen fällt in der Regel der **ermäßigte Steuersatz von 7 %** an, daher wird die Vorsteuer auf dem Konto **2610 (Vorsteuer 7 %)** erfasst: 6810 und 2610 an 2880. Option 2 rechnet fälschlich mit 19 %, Option 3 nutzt das falsche Aufwandskonto, Option 4 bucht brutto ohne Vorsteuerabzug – damit ginge der Vorsteuerabzug verloren.",
+    "erklaerung": "Auf Bücher und Zeitungen fällt in der Regel der **ermäßigte Steuersatz von 7 %** an, daher wird die Vorsteuer auf dem Konto **2610 (Vorsteuer 7 %)** erfasst: 6810 und 2610 an 2880. Die Variante mit 2600 Vorsteuer rechnet fälschlich mit 19 %, die Buchung auf 6800 Büromaterial nutzt das falsche Aufwandskonto, und die Bruttobuchung von 42,80 € auf 6810 verzichtet auf die Vorsteuertrennung – damit ginge der Vorsteuerabzug verloren.",
     "schwierigkeit": 2,
     "quellTermin": "2022-sommer"
   },
@@ -2030,7 +2030,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Die Auszahlung erhöht das Bankguthaben (Soll 2800) und begründet zugleich eine **langfristige Verbindlichkeit** gegenüber der Bank (Haben 4250): **2800 an 4250**. Option 2 wäre die spätere **Tilgung**, Option 3 ist falsch, weil ein Darlehen kein Umsatzerlös ist, und Option 4 beträfe nur die Zinszahlung.",
+    "erklaerung": "Die Auszahlung erhöht das Bankguthaben (Soll 2800) und begründet zugleich eine **langfristige Verbindlichkeit** gegenüber der Bank (Haben 4250): **2800 an 4250**. Der umgekehrte Satz „4250 an 2800“ wäre die spätere **Tilgung**, die Buchung auf 5100 ist falsch, weil ein Darlehen kein Umsatzerlös ist, und „7510 an 2800“ beträfe nur die Zinszahlung.",
     "schwierigkeit": 1,
     "quellTermin": "2024-sommer"
   },
@@ -2066,7 +2066,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Die Zinsen sind **Aufwand (7510 im Soll)**, die Tilgung **mindert die Verbindlichkeit (4250 im Soll)**; beides wird vom Bankkonto gezahlt (2800 im Haben): **7510 und 4250 an 2800**. Option 2 lässt den Zahlungsvorgang weg, Option 3 vertauscht Soll und Haben, Option 4 verwechselt Zinsaufwand mit Abschreibungen.",
+    "erklaerung": "Die Zinsen sind **Aufwand (7510 im Soll)**, die Tilgung **mindert die Verbindlichkeit (4250 im Soll)**; beides wird vom Bankkonto gezahlt (2800 im Haben): **7510 und 4250 an 2800**. Der Satz „7510 an 4250“ lässt den Zahlungsvorgang weg, „2800 an 7510 und 4250“ vertauscht Soll und Haben, und die Variante mit 6520 verwechselt Zinsaufwand mit Abschreibungen.",
     "schwierigkeit": 2,
     "quellTermin": "2024-sommer"
   },
@@ -2084,7 +2084,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Rechenweg: **Bestandsveränderung = Endbestand − Anfangsbestand** = 118.700 − 96.500 = **+22.200,00 €**. Da der Endbestand höher ist, liegt eine **Bestandsmehrung** vor: Es wurde mehr Ware eingekauft als verkauft. Option 2 interpretiert das Vorzeichen falsch, Option 3 addiert die Bestände statt sie zu subtrahieren, Option 4 ist fachlich falsch – die Veränderung wirkt sich auf den Wareneinsatz aus.",
+    "erklaerung": "Rechenweg: **Bestandsveränderung = Endbestand − Anfangsbestand** = 118.700 − 96.500 = **+22.200,00 €**. Da der Endbestand höher ist, liegt eine **Bestandsmehrung** vor: Es wurde mehr Ware eingekauft als verkauft. Eine Bestandsminderung interpretiert das Vorzeichen falsch, der Wert 215.200,00 € entsteht durch Addieren statt Subtrahieren der Bestände, und die Behauptung, nur der Endbestand sei bilanzwirksam, ist fachlich falsch – die Veränderung wirkt sich auf den Wareneinsatz aus.",
     "schwierigkeit": 1,
     "quellTermin": "2024-sommer"
   },
@@ -2138,7 +2138,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Beim Zielverkauf entsteht eine **Forderung (2400, brutto im Soll)**; im Haben stehen die **Umsatzerlöse netto (5100)** und die **Umsatzsteuer (4800)** als Verbindlichkeit gegenüber dem Finanzamt. Option 2 vertauscht Soll und Haben (das wäre die Buchung einer Gutschrift/Rücksendung), Option 3 verwendet fälschlich die Vorsteuer statt der Umsatzsteuer, Option 4 bucht die Bank, obwohl noch kein Geld eingegangen ist.",
+    "erklaerung": "Beim Zielverkauf entsteht eine **Forderung (2400, brutto im Soll)**; im Haben stehen die **Umsatzerlöse netto (5100)** und die **Umsatzsteuer (4800)** als Verbindlichkeit gegenüber dem Finanzamt. Der Satz „5100 und 4800 an 2400“ vertauscht Soll und Haben (das wäre die Buchung einer Gutschrift/Rücksendung), die Variante mit 2600 verwendet fälschlich die Vorsteuer statt der Umsatzsteuer, und die Buchung über 2800 Bank ist falsch, weil noch kein Geld eingegangen ist.",
     "schwierigkeit": 2,
     "quellTermin": "2022-winter"
   },
@@ -2156,7 +2156,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Skonto 2 % von 6.794,90 € = 135,90 € brutto, davon netto 114,20 € (**Erlösberichtigung 5101**) und 21,70 € **Umsatzsteuerkorrektur (4800)**; Bankeingang 6.659,00 €. Zusammen gleichen die drei Sollbuchungen die Forderung von 6.794,90 € aus. Option 2 vergisst die USt-Korrektur (bucht den Bruttoskonto als Erlösberichtigung), Option 3 ignoriert den Skontoabzug, Option 4 verwendet die Einkaufskonten (Nachlässe/Vorsteuer) statt der Verkaufskonten.",
+    "erklaerung": "Skonto 2 % von 6.794,90 € = 135,90 € brutto, davon netto 114,20 € (**Erlösberichtigung 5101**) und 21,70 € **Umsatzsteuerkorrektur (4800)**; Bankeingang 6.659,00 €. Zusammen gleichen die drei Sollbuchungen die Forderung von 6.794,90 € aus. Die Variante mit 135,90 € Erlösberichtigungen vergisst die USt-Korrektur (bucht den Bruttoskonto als Erlösberichtigung), die Buchung „2800 an 2400“ über volle 6.794,90 € ignoriert den Skontoabzug, und die Variante mit 6082 Nachlässe und 2600 Vorsteuer verwendet die Einkaufskonten statt der Verkaufskonten.",
     "schwierigkeit": 3,
     "quellTermin": "2022-winter"
   },
@@ -2174,7 +2174,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Die Rücksendung **storniert den Verkauf teilweise**: Umsatzerlöse (5100) und Umsatzsteuer (4800) werden im Soll gemindert, die Forderung an den Kunden (2400) sinkt im Haben – also **5100 und 4800 an 2400**. Option 2 wäre eine erneute Ausgangsrechnung, Option 3 verwechselt Verkaufs- mit Einkaufskonten, Option 4 bucht brutto ohne die notwendige USt-Korrektur.",
+    "erklaerung": "Die Rücksendung **storniert den Verkauf teilweise**: Umsatzerlöse (5100) und Umsatzsteuer (4800) werden im Soll gemindert, die Forderung an den Kunden (2400) sinkt im Haben – also **5100 und 4800 an 2400**. Der Satz „2400 an 5100 und 4800“ wäre eine erneute Ausgangsrechnung, die Buchung über 6080 und 2600 verwechselt Verkaufs- mit Einkaufskonten, und die Bruttobuchung von 785,40 € auf 5100 unterlässt die notwendige USt-Korrektur.",
     "schwierigkeit": 2,
     "quellTermin": "2022-winter"
   },
@@ -2194,7 +2194,7 @@
       0,
       1
     ],
-    "erklaerung": "Versicherungsleistungen unterliegen der Versicherungsteuer, nicht der Umsatzsteuer – sie sind **umsatzsteuerfrei**, daher gibt es **keinen Vorsteuerabzug**. Gebucht wird der volle Betrag als Aufwand: **6900 an 2800**. Das Herausrechnen von 19 % (Option 3) ist deshalb falsch, Option 4 vertauscht Soll und Haben, und mit Abschreibungen (Option 5) hat ein Versicherungsbeitrag nichts zu tun.",
+    "erklaerung": "Versicherungsleistungen unterliegen der Versicherungsteuer, nicht der Umsatzsteuer – sie sind **umsatzsteuerfrei**, daher gibt es **keinen Vorsteuerabzug**. Gebucht wird der volle Betrag als Aufwand: **6900 an 2800**. Das Herausrechnen von 19 % Vorsteuer ist deshalb falsch, der Satz „2800 an 6900“ vertauscht Soll und Haben, und mit Abschreibungen (6520) hat ein Versicherungsbeitrag nichts zu tun.",
     "schwierigkeit": 2,
     "quellTermin": "2024-sommer"
   },
@@ -2233,7 +2233,7 @@
     "korrekt": [
       1
     ],
-    "erklaerung": "Es liegt Lieferungsverzug (Nicht-rechtzeitig-Lieferung) vor, aber kein Fix(handels)kauf – der Termin ist zwar kalendermäßig bestimmt (dadurch entfällt die Mahnung, § 286 Abs. 2 Nr. 1 BGB), das ersetzt aber nicht die Nachfrist. Für Schadensersatz statt der Leistung (§ 281 BGB) oder Rücktritt (§ 323 BGB) muss der Käufer dem Verkäufer grundsätzlich erst eine angemessene Nachfrist zur Lieferung setzen. Erst wenn diese erfolglos verstreicht, darf die Feder GmbH den Deckungskauf tätigen und die Mehrkosten als konkreten Schaden geltend machen. Das Verschulden der Spedition wird der Jana Loft KG als Erfüllungsgehilfin zugerechnet (§ 278 BGB), Option 3 ist daher ebenfalls falsch.",
+    "erklaerung": "Es liegt Lieferungsverzug (Nicht-rechtzeitig-Lieferung) vor, aber kein Fix(handels)kauf – der Termin ist zwar kalendermäßig bestimmt (dadurch entfällt die Mahnung, § 286 Abs. 2 Nr. 1 BGB), das ersetzt aber nicht die Nachfrist. Für Schadensersatz statt der Leistung (§ 281 BGB) oder Rücktritt (§ 323 BGB) muss der Käufer dem Verkäufer grundsätzlich erst eine angemessene Nachfrist zur Lieferung setzen. Erst wenn diese erfolglos verstreicht, darf die Feder GmbH den Deckungskauf tätigen und die Mehrkosten als konkreten Schaden geltend machen. Das Verschulden der Spedition wird der Jana Loft KG als Erfüllungsgehilfin zugerechnet (§ 278 BGB), die Berufung auf höhere Gewalt wegen des erkrankten Fahrers greift daher ebenfalls nicht.",
     "schwierigkeit": 2,
     "quellTermin": "2025-winter"
   },
@@ -2361,7 +2361,7 @@
     "korrekt": [
       1
     ],
-    "erklaerung": "Der gesetzliche Gerichtsstand liegt grundsätzlich am (Wohn-)Sitz des Beklagten (§§ 12, 17 ZPO) – ohne Klausel müsste die Jana Loft KG die Feder GmbH also in Korbach verklagen. Zwischen Kaufleuten (sowie juristischen Personen des öffentlichen Rechts) darf davon jedoch durch Vereinbarung abgewichen werden (§ 38 ZPO); solche Klauseln sind auch in AGB üblich und wirksam, wenn die AGB wirksam einbezogen wurden. Gegenüber Verbrauchern ist eine vorherige Gerichtsstandsvereinbarung dagegen grundsätzlich unzulässig – Option 4 kehrt die Rechtslage genau um.",
+    "erklaerung": "Der gesetzliche Gerichtsstand liegt grundsätzlich am (Wohn-)Sitz des Beklagten (§§ 12, 17 ZPO) – ohne Klausel müsste die Jana Loft KG die Feder GmbH also in Korbach verklagen. Zwischen Kaufleuten (sowie juristischen Personen des öffentlichen Rechts) darf davon jedoch durch Vereinbarung abgewichen werden (§ 38 ZPO); solche Klauseln sind auch in AGB üblich und wirksam, wenn die AGB wirksam einbezogen wurden. Gegenüber Verbrauchern ist eine vorherige Gerichtsstandsvereinbarung dagegen grundsätzlich unzulässig – die Behauptung, solche Klauseln seien nur gegenüber Verbrauchern zulässig, kehrt die Rechtslage genau um.",
     "schwierigkeit": 2,
     "quellTermin": "2025-winter"
   },
@@ -2777,7 +2777,7 @@
       0,
       2
     ],
-    "erklaerung": "Sachliche Prüfung = inhaltlicher Abgleich mit den Vertragsunterlagen: Stimmen Artikel, Mengen und Einzelpreise mit Bestellung und Lieferschein überein (Option 1)? Wurden vereinbarte Konditionen wie Rabatt- und Skontosätze oder die Lieferklausel korrekt übernommen (Option 3)? Auch Empfängeradresse und Pflichtangaben gehören dazu. Rechnerische Prüfung = Kontrolle der Rechenoperationen: Nachlassbeträge (Option 2), Umsatzsteuerbetrag (Option 4) und Summenbildung (Option 5) nachrechnen. Merkhilfe: sachlich = „Was steht drin und ist es vereinbart?“, rechnerisch = „Ist es richtig gerechnet?“",
+    "erklaerung": "Sachliche Prüfung = inhaltlicher Abgleich mit den Vertragsunterlagen: Stimmen Artikel, Mengen und Einzelpreise mit Bestellung und Lieferschein überein? Wurden vereinbarte Konditionen wie Rabatt- und Skontosätze oder die Lieferklausel korrekt übernommen? Auch Empfängeradresse und Pflichtangaben gehören dazu. Rechnerische Prüfung = Kontrolle der Rechenoperationen: Nachlassbeträge, Umsatzsteuerbetrag und Summenbildung nachrechnen. Merkhilfe: sachlich = „Was steht drin und ist es vereinbart?“, rechnerisch = „Ist es richtig gerechnet?“",
     "schwierigkeit": 2,
     "quellTermin": "2025-winter"
   },
@@ -3534,7 +3534,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Da die Rechnung **bereits gebucht** wurde, bestehen Aufwand und Vorsteuer schon in den Büchern – offen ist nur die **Verbindlichkeit**. Die Zahlung bucht daher **4499 an 2800** (brutto). Option 2 würde Aufwand und Vorsteuer **doppelt** erfassen, Option 3 vertauscht Soll und Haben (die Bank nimmt ab, also Haben; die Verbindlichkeit wird im Soll ausgebucht), und Option 4 bucht gegen die Kasse, obwohl per **Überweisung** (Bank) gezahlt wird.",
+    "erklaerung": "Da die Rechnung **bereits gebucht** wurde, bestehen Aufwand und Vorsteuer schon in den Büchern – offen ist nur die **Verbindlichkeit**. Die Zahlung bucht daher **4499 an 2800** (brutto). Die erneute Buchung über 6160 und 2600 würde Aufwand und Vorsteuer **doppelt** erfassen, der Satz „2800 an 4499“ vertauscht Soll und Haben (die Bank nimmt ab, also Haben; die Verbindlichkeit wird im Soll ausgebucht), und die Variante mit 2880 bucht gegen die Kasse, obwohl per **Überweisung** (Bank) gezahlt wird.",
     "schwierigkeit": 1,
     "quellTermin": "2025-winter"
   },
@@ -3552,7 +3552,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Da die Rechnung **noch nicht gebucht** wurde, werden Aufwand und Vorsteuer direkt bei Zahlung erfasst. Netto: $$\\frac{1.428{,}00}{1{,}19} = 1.200{,}00 \\text{ €}$$ Vorsteuer: 1.428,00 − 1.200,00 = 228,00 €. Option 2 bucht brutto als Aufwand und verschenkt den Vorsteuerabzug, Option 3 bucht gegen eine Verbindlichkeit, die nie eingebucht wurde, und Option 4 rechnet fälschlich 19 % **vom Bruttobetrag** (1.428 · 0,19 = 271,32) statt die USt aus dem Brutto herauszurechnen (÷ 1,19).",
+    "erklaerung": "Da die Rechnung **noch nicht gebucht** wurde, werden Aufwand und Vorsteuer direkt bei Zahlung erfasst. Netto: $$\\frac{1.428{,}00}{1{,}19} = 1.200{,}00 \\text{ €}$$ Vorsteuer: 1.428,00 − 1.200,00 = 228,00 €. Die Buchung von 1.428,00 € brutto auf 6050 verschenkt den Vorsteuerabzug, der Satz „4499 an 2800“ bucht gegen eine Verbindlichkeit, die nie eingebucht wurde, und die Variante mit 271,32 € Vorsteuer rechnet fälschlich 19 % **vom Bruttobetrag** (1.428 · 0,19 = 271,32) statt die USt aus dem Brutto herauszurechnen (÷ 1,19).",
     "schwierigkeit": 2,
     "quellTermin": "2025-winter"
   },
@@ -3570,7 +3570,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Die Transporter dienen dauerhaft dem Geschäftsbetrieb und sind **Anlagevermögen**: Aktivierung **netto** auf 0840 Fuhrpark, Vorsteuer 2600 im Soll, Verbindlichkeit brutto im Haben – mangels eigenem Kreditorenkonto über **4499**. Option 2 bucht fälschlich Aufwand für Handelswaren (die Fahrzeuge werden nicht weiterverkauft), Option 3 aktiviert den **Bruttobetrag** und verschenkt den Vorsteuerabzug, und Option 4 bucht gegen Bank, obwohl auf **Ziel** gekauft wurde.",
+    "erklaerung": "Die Transporter dienen dauerhaft dem Geschäftsbetrieb und sind **Anlagevermögen**: Aktivierung **netto** auf 0840 Fuhrpark, Vorsteuer 2600 im Soll, Verbindlichkeit brutto im Haben – mangels eigenem Kreditorenkonto über **4499**. Die Buchung über 6080 erfasst fälschlich Aufwand für Handelswaren (die Fahrzeuge werden nicht weiterverkauft), die Buchung von 196.350,00 € auf 0840 aktiviert den **Bruttobetrag** und verschenkt den Vorsteuerabzug, und die Variante gegen 2800 Bank ist falsch, weil auf **Ziel** gekauft wurde.",
     "schwierigkeit": 2,
     "quellTermin": "2025-winter"
   },
@@ -3660,7 +3660,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Skonto: 3 % von 3.570,00 € = 107,10 € brutto, davon netto $$\\frac{107{,}10}{1{,}19} = 90{,}00 \\text{ €}$$ (**6082 Nachlässe**, da aufwandsrechnerisch gebucht wird) und 17,10 € **Vorsteuerkorrektur (2600 im Haben)**; Banküberweisung 3.570,00 − 107,10 = 3.462,90 €. Die Verbindlichkeit wird in voller Höhe ausgebucht. Option 2 bucht den Bruttoskonto als Nachlass und unterlässt die Vorsteuerkorrektur, Option 3 verwendet die **Verkaufskonten** (Erlösberichtigungen/USt) statt der Einkaufsseite, und Option 4 ignoriert den Skonto – es bliebe eine Restverbindlichkeit von 107,10 € stehen, die nie ausgeglichen wird.",
+    "erklaerung": "Skonto: 3 % von 3.570,00 € = 107,10 € brutto, davon netto $$\\frac{107{,}10}{1{,}19} = 90{,}00 \\text{ €}$$ (**6082 Nachlässe**, da aufwandsrechnerisch gebucht wird) und 17,10 € **Vorsteuerkorrektur (2600 im Haben)**; Banküberweisung 3.570,00 − 107,10 = 3.462,90 €. Die Verbindlichkeit wird in voller Höhe ausgebucht. Die Variante mit 107,10 € Nachlässen bucht den Bruttoskonto als Nachlass und unterlässt die Vorsteuerkorrektur, die Variante mit 5101 und 4800 verwendet die **Verkaufskonten** (Erlösberichtigungen/USt) statt der Einkaufsseite, und die Ausbuchung von nur 3.462,90 € Verbindlichkeit ignoriert den Skonto – es bliebe eine Restverbindlichkeit von 107,10 € stehen, die nie ausgeglichen wird.",
     "schwierigkeit": 3,
     "quellTermin": "2025-winter"
   },
@@ -3735,7 +3735,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Aufwandskonten haben einen **Sollsaldo**; zum Ausgleich wird der Saldo im **Haben** des Aufwandskontos gebucht – der Buchungssatz lautet daher **8020 (GuV) an 6520**. Option 2 dreht den Satz um (so schließt man **Ertragskonten** ab: Ertragskonto an GuV). Die Optionen 3 und 4 verwenden das Schlussbilanzkonto, über das nur **Bestandskonten** abgeschlossen werden – Erfolgskonten (Aufwand und Ertrag) laufen immer über das GuV-Konto.",
+    "erklaerung": "Aufwandskonten haben einen **Sollsaldo**; zum Ausgleich wird der Saldo im **Haben** des Aufwandskontos gebucht – der Buchungssatz lautet daher **8020 (GuV) an 6520**. Der umgekehrte Satz „6520 an 8020“ wäre der Abschluss eines **Ertragskontos** (Ertragskonto an GuV). Die Varianten mit dem Schlussbilanzkonto (8010) sind falsch, denn darüber werden nur **Bestandskonten** abgeschlossen – Erfolgskonten (Aufwand und Ertrag) laufen immer über das GuV-Konto.",
     "schwierigkeit": 2
   },
   {

@@ -65,9 +65,9 @@
     "anlagenDiagramm": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["typ", "titel", "serien"],
+      "required": ["typ", "titel"],
       "properties": {
-        "typ": { "enum": ["linie", "balken", "kreis"] },
+        "typ": { "enum": ["linie", "balken", "kreis", "organigramm", "schilder", "kreislauf"] },
         "titel": { "type": "string", "minLength": 1 },
         "xAchse": { "type": "string" },
         "yAchse": { "type": "string" },
@@ -85,8 +85,72 @@
               "punkte": { "type": "array", "items": { "$ref": "#/$defs/diagrammPunkt" }, "minItems": 1 }
             }
           }
-        }
-      }
+        },
+        "knoten": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["id", "text"],
+            "properties": {
+              "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+              "text": { "type": "string", "minLength": 1 },
+              "unter": { "type": "string" },
+              "stab": { "type": "boolean" }
+            }
+          }
+        },
+        "zeichen": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["nr", "form"],
+            "properties": {
+              "nr": { "type": "string", "minLength": 1 },
+              "form": { "enum": ["kreis", "dreieck", "quadrat", "rechteck", "raute", "sechseck"] },
+              "farbe": { "enum": ["gruen", "rot", "gelb", "blau", "grau", "weiss"] },
+              "innen": { "type": "string" },
+              "text": { "type": "string" }
+            }
+          }
+        },
+        "varianten": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["name", "stroeme"],
+            "properties": {
+              "name": { "type": "string", "minLength": 1 },
+              "stroeme": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": ["text", "richtung"],
+                  "properties": {
+                    "text": { "type": "string", "minLength": 1 },
+                    "richtung": { "enum": ["links", "rechts"] }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "linksBox": { "type": "string" },
+        "rechtsBox": { "type": "string" }
+      },
+      "allOf": [
+        { "if": { "properties": { "typ": { "enum": ["linie", "balken", "kreis"] } } }, "then": { "required": ["serien"] } },
+        { "if": { "properties": { "typ": { "const": "organigramm" } } }, "then": { "required": ["knoten"] } },
+        { "if": { "properties": { "typ": { "const": "schilder" } } }, "then": { "required": ["zeichen"] } },
+        { "if": { "properties": { "typ": { "const": "kreislauf" } } }, "then": { "required": ["varianten"] } }
+      ]
     },
     "aufgabe": {
       "type": "object",
@@ -168,6 +232,20 @@
     "pruefungListe": { "type": "array", "items": { "$ref": "#/$defs/pruefung" } },
     "karteikarteListe": { "type": "array", "items": { "$ref": "#/$defs/karteikarte" } },
     "lernpaarListe": { "type": "array", "items": { "$ref": "#/$defs/lernpaar" } },
-    "glossarListe": { "type": "array", "items": { "$ref": "#/$defs/glossarEintrag" } }
+    "glossarListe": { "type": "array", "items": { "$ref": "#/$defs/glossarEintrag" } },
+    "formelEintrag": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "titel", "formel", "bereiche", "kategorie"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "titel": { "type": "string", "minLength": 1 },
+        "formel": { "type": "string", "minLength": 1 },
+        "erklaerung": { "type": "string" },
+        "bereiche": { "type": "array", "items": { "$ref": "#/$defs/bereichId" }, "minItems": 1 },
+        "kategorie": { "type": "string", "minLength": 1 }
+      }
+    },
+    "formelListe": { "type": "array", "items": { "$ref": "#/$defs/formelEintrag" }, "minItems": 1 }
   }
 }

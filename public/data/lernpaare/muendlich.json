@@ -871,7 +871,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Meldebestand = Tagesabsatz × Lieferzeit + Mindestbestand – er „meldet“, wann neu bestellt werden muss, damit der Mindestbestand während der Lieferzeit nicht angegriffen wird. Option 2 ist der durchschnittliche Lagerbestand, Option 3 die Umschlagshäufigkeit, Option 4 der Höchstbestand.",
+    "erklaerung": "Meldebestand = Tagesabsatz × Lieferzeit + Mindestbestand – er „meldet“, wann neu bestellt werden muss, damit der Mindestbestand während der Lieferzeit nicht angegriffen wird. „Anfangsbestand + Endbestand geteilt durch 2“ ergibt den durchschnittlichen Lagerbestand, „Jahresabsatz geteilt durch durchschnittlichen Lagerbestand“ die Umschlagshäufigkeit, und „Sicherheitsbestand + Bestellmenge“ beschreibt den Höchstbestand.",
     "schwierigkeit": 1
   },
   {
@@ -905,7 +905,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Umschlagshäufigkeit = Jahresabsatz / durchschnittlicher Lagerbestand. Sie gibt an, wie oft der durchschnittliche Lagerbestand im Jahr umgesetzt wird – je höher, desto geringer die Kapitalbindung. Der Kehrwert (Option 2) ergibt keine sinnvolle Kennzahl in dieser Form.",
+    "erklaerung": "Umschlagshäufigkeit = Jahresabsatz / durchschnittlicher Lagerbestand. Sie gibt an, wie oft der durchschnittliche Lagerbestand im Jahr umgesetzt wird – je höher, desto geringer die Kapitalbindung. Der Kehrwert (durchschnittlicher Lagerbestand geteilt durch Jahresabsatz) ergibt keine sinnvolle Kennzahl in dieser Form.",
     "schwierigkeit": 1
   },
   {
@@ -990,7 +990,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Bezugspreis = Listenpreis − Rabatt − Skonto + Bezugskosten (z. B. Fracht, Verpackung). Rabatt und Skonto mindern den Preis, Bezugskosten erhöhen ihn – Option 2 dreht genau das um. Neben dem Preis gehören auch qualitative Kriterien wie Qualität, Lieferzeit und Zahlungsbedingungen in den Angebotsvergleich.",
+    "erklaerung": "Bezugspreis = Listenpreis − Rabatt − Skonto + Bezugskosten (z. B. Fracht, Verpackung). Rabatt und Skonto mindern den Preis, Bezugskosten erhöhen ihn – die Formel „Listenpreis + Rabatt + Skonto − Bezugskosten“ dreht genau das um. Neben dem Preis gehören auch qualitative Kriterien wie Qualität, Lieferzeit und Zahlungsbedingungen in den Angebotsvergleich.",
     "schwierigkeit": 1
   },
   {
@@ -1196,7 +1196,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Wirtschaftlichkeit = Ertrag / Aufwand; liegt der Wert über 1, war die Kampagne ökonomisch erfolgreich. Die Reichweite gehört zur außerökonomischen Werbeerfolgskontrolle, während Umsatz und Gewinn ökonomische Größen sind. Option 2 kehrt den Bruch um und würde Erfolg als Wert unter 1 anzeigen.",
+    "erklaerung": "Wirtschaftlichkeit = Ertrag / Aufwand; liegt der Wert über 1, war die Kampagne ökonomisch erfolgreich. Die Reichweite gehört zur außerökonomischen Werbeerfolgskontrolle, während Umsatz und Gewinn ökonomische Größen sind. Die Formel „Aufwand / Ertrag“ kehrt den Bruch um und würde Erfolg als Wert unter 1 anzeigen.",
     "schwierigkeit": 2
   },
   {
@@ -1350,7 +1350,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Vom Bruttogehalt werden zunächst Lohnsteuer, Solidaritätszuschlag und ggf. Kirchensteuer abgezogen, danach die Sozialversicherungsbeiträge anteilig (Arbeitnehmeranteil). Der Arbeitgeberanteil wird nicht vom Brutto des Arbeitnehmers abgezogen – Option 2 und 3 stellen das falsch dar.",
+    "erklaerung": "Vom Bruttogehalt werden zunächst Lohnsteuer, Solidaritätszuschlag und ggf. Kirchensteuer abgezogen, danach die Sozialversicherungsbeiträge anteilig (Arbeitnehmeranteil). Der Arbeitgeberanteil wird nicht vom Brutto des Arbeitnehmers abgezogen – sowohl die Annahme, die Sozialversicherungen würden komplett (mit Arbeitgeberanteil) vom Brutto abgezogen, als auch die Behauptung, der Arbeitgeber zahle die Sozialversicherungen allein, stellen das falsch dar.",
     "schwierigkeit": 3
   },
   {
@@ -1504,7 +1504,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Merksatz „6 Briefe, 10 Bücher, 8 Belege“: Empfangene Handelsbriefe und Kopien abgesandter Handelsbriefe sind 6 Jahre aufzubewahren; Handelsbücher, Inventare und Jahresabschlüsse 10 Jahre. Für Buchungsbelege (z. B. Rechnungen) gilt seit 2025 durch das Bürokratieentlastungsgesetz IV eine verkürzte Frist von 8 Jahren (vorher 10). Option 2 vertauscht die Fristen – ein beliebter Distraktor.",
+    "erklaerung": "Merksatz „6 Briefe, 10 Bücher, 8 Belege“: Empfangene Handelsbriefe und Kopien abgesandter Handelsbriefe sind 6 Jahre aufzubewahren; Handelsbücher, Inventare und Jahresabschlüsse 10 Jahre. Für Buchungsbelege (z. B. Rechnungen) gilt seit 2025 durch das Bürokratieentlastungsgesetz IV eine verkürzte Frist von 8 Jahren (vorher 10). Die Angabe „10 Jahre für Handelsbriefe, 6 Jahre für Handelsbücher“ vertauscht die Fristen – ein beliebter Distraktor.",
     "schwierigkeit": 1
   },
   {
@@ -2344,7 +2344,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Wirtschaftlichkeit = Ertrag / Aufwand = 5.000 / 2.000 = 2,5. Da der Wert über 1 liegt, war die Kampagne ökonomisch erfolgreich. Option 3 kehrt den Bruch um – ein typischer Fehler; die Reichweite gehört zur außerökonomischen Kontrolle und ist hier nicht nötig.",
+    "erklaerung": "Wirtschaftlichkeit = Ertrag / Aufwand = 5.000 / 2.000 = 2,5. Da der Wert über 1 liegt, war die Kampagne ökonomisch erfolgreich. Die Rechnung 2.000 / 5.000 = 0,4 kehrt den Bruch um – ein typischer Fehler; die Reichweite gehört zur außerökonomischen Kontrolle und ist hier nicht nötig.",
     "schwierigkeit": 2
   },
   {

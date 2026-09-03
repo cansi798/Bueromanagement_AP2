@@ -78,14 +78,32 @@ export function quizFortschritt(stand: ThemenQuizStand): number {
   return stand.fachSumme / (stand.gesamt * 5)
 }
 
-// Mischt die Optionen eines Lernpaars deterministisch pro Sitzung ist nicht
-// nötig — einfache Fisher-Yates-Mischung mit neuer Index-Zuordnung.
-export function mischeOptionen(paar: Lernpaar): { optionen: string[]; korrekt: number[] } {
-  const indizes = paar.optionen.map((_, i) => i)
-  for (let i = indizes.length - 1; i > 0; i--) {
+// Optionen wie „Keine der genannten Antworten" beziehen sich auf die übrigen
+// Optionen und müssen an ihrem Platz (typisch: zuletzt) stehen bleiben.
+const POSITIONSGEBUNDEN =
+  /\b(keine[rs]?|alle)\s+(der\s+|die\s+)?(oben\s+genannten|genannten|übrigen|anderen|antworten|aussagen|optionen|antwortmöglichkeiten)\b/i
+
+export function istPositionsgebunden(option: string): boolean {
+  return POSITIONSGEBUNDEN.test(option)
+}
+
+// Fisher-Yates-Mischung mit neuer Index-Zuordnung; positionsgebundene
+// Optionen bleiben stehen, nur die freien Plätze werden untereinander gemischt.
+export function mischeOptionen(
+  paar: Pick<Lernpaar, 'optionen' | 'korrekt'>,
+): { optionen: string[]; korrekt: number[] } {
+  const frei = paar.optionen
+    .map((_, i) => i)
+    .filter((i) => !istPositionsgebunden(paar.optionen[i]))
+  const gemischt = [...frei]
+  for (let i = gemischt.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1))
-    ;[indizes[i], indizes[j]] = [indizes[j], indizes[i]]
+    ;[gemischt[i], gemischt[j]] = [gemischt[j], gemischt[i]]
   }
+  const indizes = paar.optionen.map((_, i) => i)
+  frei.forEach((platz, k) => {
+    indizes[platz] = gemischt[k]
+  })
   const optionen = indizes.map((alt) => paar.optionen[alt])
   const korrekt = paar.korrekt
     .map((alt) => indizes.indexOf(alt))

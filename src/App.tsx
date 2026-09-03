@@ -18,6 +18,7 @@ import Anmelden from './pages/Anmelden'
 import Praesentation from './pages/Praesentation'
 import Unterricht from './pages/Unterricht'
 import UnterrichtSession from './pages/UnterrichtSession'
+import Nachschlagewerk from './pages/Nachschlagewerk'
 
 export default function App() {
   return (
@@ -26,11 +27,13 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/glossar" element={<Glossar />} />
+          <Route path="/nachschlagewerk" element={<Nachschlagewerk />} />
           <Route path="/lernstand" element={<Lernstand />} />
           <Route path="/anmelden" element={<Anmelden />} />
           <Route path="/suche" element={<Suche />} />
           <Route path="/landkarte/:bereichId" element={<Landkarte />} />
           <Route path="/skript/:bereichId" element={<Skript />} />
+          <Route path="/skript/:bereichId/:themaId" element={<Skript />} />
           <Route path="/handout/:bereichId/:themaId" element={<Handout />} />
           <Route path="/praesentation/:bereichId" element={<Praesentation />} />
           <Route path="/praesentation/:bereichId/:themaId" element={<Praesentation />} />

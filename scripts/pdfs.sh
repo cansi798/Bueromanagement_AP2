@@ -22,6 +22,10 @@ for b in wiso kbz buchfuehrung muendlich; do
     --print-to-pdf="public/downloads/praesentation-$b.pdf" "$BASIS/?code=$CODE#/praesentation/$b" 2>/dev/null
 done
 
+echo "→ Nachschlagewerk Begriffe & Formeln"
+"$CHROME" --headless --disable-gpu --no-pdf-header-footer --virtual-time-budget=10000 \
+  --print-to-pdf="public/downloads/begriffe-formeln.pdf" "$BASIS/?code=$CODE#/nachschlagewerk" 2>/dev/null
+
 # Themen-Handouts (eines pro Thema, alle Bereiche)
 mkdir -p public/downloads/handouts
 node -e '

@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import {
   faelligeLernpaare,
+  istPositionsgebunden,
   mischeOptionen,
   quizFortschritt,
   themenQuizStand,
@@ -68,5 +69,45 @@ describe('mischeOptionen', () => {
       const richtige = korrekt.map((k) => optionen[k]).sort()
       expect(richtige).toEqual(['A', 'C'])
     }
+  })
+
+  it('mischt wirklich: die richtige Antwort landet nicht immer an derselben Position', () => {
+    const p = paar('x', [0])
+    const positionen = new Set<number>()
+    for (let i = 0; i < 200; i++) positionen.add(mischeOptionen(p).korrekt[0])
+    expect(positionen.size).toBeGreaterThan(1)
+  })
+
+  it('lässt positionsgebundene Optionen an ihrem Platz', () => {
+    const p = {
+      ...paar('x', [3]),
+      optionen: ['A', 'B', 'C', 'Keine der genannten Antworten ist richtig.'],
+    }
+    for (let i = 0; i < 50; i++) {
+      const { optionen, korrekt } = mischeOptionen(p)
+      expect(optionen[3]).toBe('Keine der genannten Antworten ist richtig.')
+      expect(korrekt).toEqual([3])
+    }
+  })
+
+  it('akzeptiert auch die Prüfungsaufgaben-Form (nur optionen/korrekt)', () => {
+    const { optionen, korrekt } = mischeOptionen({ optionen: ['eins', 'zwei'], korrekt: [1] })
+    expect([...optionen].sort()).toEqual(['eins', 'zwei'])
+    expect(optionen[korrekt[0]]).toBe('zwei')
+  })
+})
+
+describe('istPositionsgebunden', () => {
+  it('erkennt Formulierungen, die sich auf die übrigen Optionen beziehen', () => {
+    expect(istPositionsgebunden('Keine der genannten Antworten ist richtig.')).toBe(true)
+    expect(istPositionsgebunden('Alle genannten Aussagen treffen zu.')).toBe(true)
+    expect(istPositionsgebunden('Keine der Optionen trifft zu.')).toBe(true)
+    expect(istPositionsgebunden('Alle Antworten sind richtig.')).toBe(true)
+  })
+
+  it('lässt normale Fachinhalte ungebunden', () => {
+    expect(istPositionsgebunden('Alle Arbeitnehmer sind rentenversicherungspflichtig.')).toBe(false)
+    expect(istPositionsgebunden('Forderungen 2404 3.570,00 € an Umsatzerlöse 5100')).toBe(false)
+    expect(istPositionsgebunden('Der Betriebsrat wird alle vier Jahre gewählt.')).toBe(false)
   })
 })

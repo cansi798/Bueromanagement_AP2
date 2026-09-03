@@ -1,0 +1,226 @@
+[
+  {
+    "id": "wirtschaftlichkeit",
+    "titel": "Wirtschaftlichkeit",
+    "formel": "$$\\text{Wirtschaftlichkeit} = \\frac{\\text{Ertrag (Leistung)}}{\\text{Aufwand (Kosten)}}$$",
+    "erklaerung": "Ein Wert über 1 bedeutet: wirtschaftlich. Eine Verbesserung liegt nur vor, wenn der Quotient steigt.",
+    "bereiche": ["wiso", "kbz", "buchfuehrung"],
+    "kategorie": "Erfolg & Kennzahlen"
+  },
+  {
+    "id": "produktivitaet",
+    "titel": "Produktivität",
+    "formel": "$$\\text{Produktivität} = \\frac{\\text{Ausbringungsmenge (Output)}}{\\text{Einsatzmenge (Input)}}$$",
+    "erklaerung": "Mengenverhältnis ohne Geldwerte, z. B. Stück je Arbeitsstunde.",
+    "bereiche": ["wiso"],
+    "kategorie": "Erfolg & Kennzahlen"
+  },
+  {
+    "id": "umsatz",
+    "titel": "Umsatz (Erlös)",
+    "formel": "$$\\text{Umsatz} = \\text{Preis} \\times \\text{abgesetzte Menge}$$",
+    "erklaerung": "Beim Gleichgewichtspreis: Umsatz = Gleichgewichtspreis × Gleichgewichtsmenge.",
+    "bereiche": ["wiso", "kbz"],
+    "kategorie": "Erfolg & Kennzahlen"
+  },
+  {
+    "id": "eigenkapitalrentabilitaet",
+    "titel": "Eigenkapitalrentabilität",
+    "formel": "$$r_{EK} = \\frac{\\text{Gewinn}}{\\text{Eigenkapital}} \\times 100\\,\\%$$",
+    "erklaerung": "Verzinsung des eingesetzten Eigenkapitals; Vergleich mit alternativer Geldanlage.",
+    "bereiche": ["wiso", "buchfuehrung"],
+    "kategorie": "Erfolg & Kennzahlen"
+  },
+  {
+    "id": "umsatzrentabilitaet",
+    "titel": "Umsatzrentabilität",
+    "formel": "$$r_{U} = \\frac{\\text{Gewinn}}{\\text{Umsatz}} \\times 100\\,\\%$$",
+    "erklaerung": "Wie viel Gewinn in jedem Euro Umsatz steckt.",
+    "bereiche": ["wiso", "buchfuehrung"],
+    "kategorie": "Erfolg & Kennzahlen"
+  },
+  {
+    "id": "zahllast",
+    "titel": "Umsatzsteuer-Zahllast",
+    "formel": "$$\\text{Zahllast} = \\text{Umsatzsteuer} - \\text{Vorsteuer}$$",
+    "erklaerung": "USt > VSt → Zahlung ans Finanzamt; VSt > USt → Erstattung (Vorsteuerüberhang).",
+    "bereiche": ["kbz", "buchfuehrung"],
+    "kategorie": "Umsatzsteuer & Rechnung"
+  },
+  {
+    "id": "brutto-netto",
+    "titel": "Brutto ↔ Netto (19 % USt)",
+    "formel": "$$\\text{Brutto} = \\text{Netto} \\times 1{,}19 \\qquad \\text{Netto} = \\frac{\\text{Brutto}}{1{,}19}$$",
+    "erklaerung": "Beim ermäßigten Steuersatz 7 % entsprechend mit 1,07 rechnen. Klassische Falle: Steuer nie direkt vom Bruttobetrag mit 19 % berechnen!",
+    "bereiche": ["kbz", "buchfuehrung"],
+    "kategorie": "Umsatzsteuer & Rechnung"
+  },
+  {
+    "id": "skonto",
+    "titel": "Skonto",
+    "formel": "$$\\text{Skontobetrag} = \\text{Rechnungsbetrag} \\times \\frac{\\text{Skontosatz}}{100}$$",
+    "erklaerung": "Zahlbetrag = Rechnungsbetrag − Skontobetrag. Skonto ist ein Preisnachlass für schnelle Zahlung.",
+    "bereiche": ["kbz", "buchfuehrung"],
+    "kategorie": "Umsatzsteuer & Rechnung"
+  },
+  {
+    "id": "zinsformel",
+    "titel": "Allgemeine Zinsformel (deutsche Methode)",
+    "formel": "$$Z = \\frac{K \\times p \\times t}{100 \\times 360}$$",
+    "erklaerung": "K = Kapital, p = Zinssatz in %, t = Tage (Monat = 30 Tage, Jahr = 360 Tage).",
+    "bereiche": ["kbz"],
+    "kategorie": "Zinsen & Zahlungsverkehr"
+  },
+  {
+    "id": "verzugszinssatz",
+    "titel": "Verzugszinssatz",
+    "formel": "$$\\text{Verzugszins} = \\text{Basiszinssatz} + 9\\,\\text{%-Punkte (B2B)}$$",
+    "erklaerung": "Bei Geschäften mit Verbrauchern: Basiszinssatz + 5 Prozentpunkte (§ 288 BGB).",
+    "bereiche": ["kbz", "wiso"],
+    "kategorie": "Zinsen & Zahlungsverkehr"
+  },
+  {
+    "id": "afa-linear",
+    "titel": "Lineare Abschreibung (AfA)",
+    "formel": "$$\\text{AfA-Betrag pro Jahr} = \\frac{\\text{Anschaffungskosten}}{\\text{Nutzungsdauer in Jahren}}$$",
+    "erklaerung": "Im Anschaffungsjahr monatsgenau: ab Anschaffungsmonat anteilig (zeitanteilige AfA).",
+    "bereiche": ["buchfuehrung", "kbz"],
+    "kategorie": "Buchführung"
+  },
+  {
+    "id": "anschaffungskosten",
+    "titel": "Anschaffungskosten",
+    "formel": "$$\\text{AK} = \\text{Kaufpreis (netto)} - \\text{Rabatt} - \\text{Skonto} + \\text{Bezugskosten}$$",
+    "erklaerung": "Bezugskosten z. B. Fracht und Montage (netto). Die Umsatzsteuer gehört nicht zu den Anschaffungskosten.",
+    "bereiche": ["buchfuehrung"],
+    "kategorie": "Buchführung"
+  },
+  {
+    "id": "deckungsbeitrag",
+    "titel": "Deckungsbeitrag",
+    "formel": "$$db = p - k_v \\qquad DB = db \\times x$$",
+    "erklaerung": "db = Stückdeckungsbeitrag (Preis − variable Stückkosten); deckt zuerst die Fixkosten, danach entsteht Gewinn.",
+    "bereiche": ["kbz", "buchfuehrung"],
+    "kategorie": "Kostenrechnung"
+  },
+  {
+    "id": "break-even",
+    "titel": "Gewinnschwelle (Break-even-Point)",
+    "formel": "$$x_{BEP} = \\frac{K_f}{db} = \\frac{\\text{Fixkosten}}{p - k_v}$$",
+    "erklaerung": "Ab dieser Menge sind alle Kosten gedeckt: Erlöse = Gesamtkosten, Gewinn = 0.",
+    "bereiche": ["kbz", "buchfuehrung"],
+    "kategorie": "Kostenrechnung"
+  },
+  {
+    "id": "gesamtkosten",
+    "titel": "Gesamtkosten und Stückkosten",
+    "formel": "$$K = K_f + k_v \\times x \\qquad k = \\frac{K}{x}$$",
+    "erklaerung": "Fixkosten fallen mengenunabhängig an; variable Kosten wachsen mit der Menge. Stückkosten sinken mit steigender Menge (Fixkostendegression).",
+    "bereiche": ["kbz", "buchfuehrung"],
+    "kategorie": "Kostenrechnung"
+  },
+  {
+    "id": "gewinn",
+    "titel": "Gewinn / Betriebsergebnis",
+    "formel": "$$G = \\text{Erlöse} - \\text{Gesamtkosten}$$",
+    "erklaerung": "Negativer Wert = Verlust. In der Buchführung: Ertrag − Aufwand.",
+    "bereiche": ["kbz", "buchfuehrung", "wiso"],
+    "kategorie": "Kostenrechnung"
+  },
+  {
+    "id": "bezugspreis",
+    "titel": "Bezugskalkulation",
+    "formel": "$$\\begin{aligned}&\\text{Listeneinkaufspreis} \\\\ -\\ &\\text{Liefererrabatt} \\\\ =\\ &\\text{Zieleinkaufspreis} \\\\ -\\ &\\text{Liefererskonto} \\\\ =\\ &\\text{Bareinkaufspreis} \\\\ +\\ &\\text{Bezugskosten} \\\\ =\\ &\\textbf{Bezugspreis}\\end{aligned}$$",
+    "erklaerung": "Der Bezugspreis ist die Grundlage für den Angebotsvergleich und die weitere Kalkulation.",
+    "bereiche": ["kbz"],
+    "kategorie": "Handelskalkulation"
+  },
+  {
+    "id": "handelskalkulation",
+    "titel": "Handelskalkulation (Vorwärts)",
+    "formel": "$$\\begin{aligned}&\\text{Bezugspreis} \\\\ +\\ &\\text{Handlungskosten (Zuschlag)} \\\\ =\\ &\\text{Selbstkosten} \\\\ +\\ &\\text{Gewinnzuschlag} \\\\ =\\ &\\text{Barverkaufspreis} \\\\ +\\ &\\text{Kundenskonto (im Hundert)} \\\\ =\\ &\\text{Zielverkaufspreis} \\\\ +\\ &\\text{Kundenrabatt (im Hundert)} \\\\ =\\ &\\textbf{Listenverkaufspreis (netto)}\\end{aligned}$$",
+    "erklaerung": "Achtung: Skonto und Rabatt werden „im Hundert“ aufgeschlagen (÷ (100 − Satz) × Satz), weil sie vom späteren Verkaufspreis berechnet werden.",
+    "bereiche": ["kbz"],
+    "kategorie": "Handelskalkulation"
+  },
+  {
+    "id": "zuschlagssatz",
+    "titel": "Zuschlagssatz",
+    "formel": "$$\\text{Zuschlagssatz} = \\frac{\\text{Gemeinkosten}}{\\text{Zuschlagsgrundlage (Einzelkosten)}} \\times 100\\,\\%$$",
+    "erklaerung": "Beispiel: Handlungskostenzuschlag = Handlungskosten ÷ Wareneinsatz × 100.",
+    "bereiche": ["kbz", "buchfuehrung"],
+    "kategorie": "Handelskalkulation"
+  },
+  {
+    "id": "lagerbestand",
+    "titel": "Durchschnittlicher Lagerbestand",
+    "formel": "$$\\varnothing\\text{LB} = \\frac{\\text{Anfangsbestand} + \\text{Endbestand}}{2} \\quad\\text{oder}\\quad \\frac{\\text{AB} + 12\\ \\text{Monatsendbestände}}{13}$$",
+    "erklaerung": "Grundlage für Umschlagshäufigkeit und Lagerdauer.",
+    "bereiche": ["kbz"],
+    "kategorie": "Lager & Beschaffung"
+  },
+  {
+    "id": "umschlagshaeufigkeit",
+    "titel": "Umschlagshäufigkeit",
+    "formel": "$$\\text{UH} = \\frac{\\text{Wareneinsatz}}{\\varnothing\\text{Lagerbestand}}$$",
+    "erklaerung": "Je höher, desto besser: Kapital ist kürzer im Lager gebunden.",
+    "bereiche": ["kbz"],
+    "kategorie": "Lager & Beschaffung"
+  },
+  {
+    "id": "lagerdauer",
+    "titel": "Durchschnittliche Lagerdauer",
+    "formel": "$$\\varnothing\\text{Lagerdauer} = \\frac{360}{\\text{Umschlagshäufigkeit}}$$",
+    "erklaerung": "In Tagen; sinkt, wenn die Umschlagshäufigkeit steigt.",
+    "bereiche": ["kbz"],
+    "kategorie": "Lager & Beschaffung"
+  },
+  {
+    "id": "meldebestand",
+    "titel": "Meldebestand (Bestellpunkt)",
+    "formel": "$$\\text{Meldebestand} = \\text{Tagesverbrauch} \\times \\text{Lieferzeit} + \\text{Mindestbestand}$$",
+    "erklaerung": "Bei Erreichen wird bestellt, damit der Mindestbestand (eiserne Reserve) nicht angegriffen wird.",
+    "bereiche": ["kbz"],
+    "kategorie": "Lager & Beschaffung"
+  },
+  {
+    "id": "krankenstand",
+    "titel": "Krankenstand",
+    "formel": "$$\\text{Krankenstand} = \\frac{\\text{Krankheitstage}}{\\text{Soll-Arbeitstage}} \\times 100\\,\\%$$",
+    "erklaerung": "Soll-Arbeitstage = Mitarbeiterzahl × Arbeitstage je Mitarbeiter im Zeitraum.",
+    "bereiche": ["kbz"],
+    "kategorie": "Personal"
+  },
+  {
+    "id": "arbeitgeberanteil",
+    "titel": "Sozialversicherung: Arbeitnehmer-/Arbeitgeberanteil",
+    "formel": "$$\\text{Anteil je Seite} = \\text{Bruttoentgelt} \\times \\frac{\\text{Beitragssatz}}{2 \\times 100}$$",
+    "erklaerung": "Kranken-, Pflege-, Renten- und Arbeitslosenversicherung werden paritätisch getragen; die Unfallversicherung zahlt der Arbeitgeber allein.",
+    "bereiche": ["wiso", "kbz"],
+    "kategorie": "Personal"
+  },
+  {
+    "id": "prozentwert",
+    "titel": "Prozentrechnung",
+    "formel": "$$\\text{Prozentwert} = \\text{Grundwert} \\times \\frac{p}{100} \\qquad p = \\frac{\\text{Prozentwert}}{\\text{Grundwert}} \\times 100$$",
+    "erklaerung": "Grundwert = 100 %. Bei „im Hundert“-Aufgaben ist der verminderte/vermehrte Wert gegeben — Grundwert zuerst bestimmen!",
+    "bereiche": ["kbz", "buchfuehrung", "wiso"],
+    "kategorie": "Grundlagen"
+  },
+  {
+    "id": "inflationsrate",
+    "titel": "Inflationsrate",
+    "formel": "$$\\text{Inflationsrate} = \\frac{\\text{VPI}_{neu} - \\text{VPI}_{alt}}{\\text{VPI}_{alt}} \\times 100\\,\\%$$",
+    "erklaerung": "VPI = Verbraucherpreisindex (Preis eines repräsentativen Warenkorbs). Ziel der EZB: rund 2 %.",
+    "bereiche": ["wiso"],
+    "kategorie": "Volkswirtschaft"
+  },
+  {
+    "id": "reisekosten",
+    "titel": "Kilometerpauschale (Dienstreise)",
+    "formel": "$$\\text{Fahrtkosten} = \\text{gefahrene km} \\times 0{,}30\\ \\text{€}$$",
+    "erklaerung": "Dazu Verpflegungspauschalen: 14 € (An-/Abreisetag bzw. > 8 h), 28 € (voller Tag); Kürzung bei gestellten Mahlzeiten.",
+    "bereiche": ["kbz"],
+    "kategorie": "Personal"
+  }
+]
