@@ -120,8 +120,10 @@ function gleichgewichtspreisUmsatz(): GenerierteAufgabe {
   const ggIndex = zufall(1, 3)
   const menge = zufall(2_000, 5_000, 500)
   // Nachfrage fällt, Angebot steigt — am GG-Index sind beide gleich.
-  const nachfrage = preise.map((_, i) => menge + (ggIndex - i) * zufall(400, 800, 100))
-  const angebot = preise.map((_, i) => menge - (ggIndex - i) * zufall(400, 800, 100))
+  const schrittN = zufall(400, 800, 100)
+  const schrittA = zufall(400, 800, 100)
+  const nachfrage = preise.map((_, i) => menge + (ggIndex - i) * schrittN)
+  const angebot = preise.map((_, i) => menge - (ggIndex - i) * schrittA)
   nachfrage[ggIndex] = menge
   angebot[ggIndex] = menge
   const ggPreis = preise[ggIndex]
@@ -140,7 +142,7 @@ function gleichgewichtspreisUmsatz(): GenerierteAufgabe {
 function darlehen(): GenerierteAufgabe {
   const betrag = zufall(200_000, 2_000_000, 100_000)
   const satz = zufall(8, 24, 1) / 4 // 2,00–6,00 %
-  const jahre = zufall(4, 10)
+  const jahre = wahl([4, 5, 8, 10])
   const variante = wahl(['faelligkeit', 'tilgung'] as const)
   if (variante === 'faelligkeit') {
     const zinsenGesamt = Math.round(betrag * (satz / 100) * jahre * 100) / 100
