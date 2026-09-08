@@ -1,13 +1,14 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import Layout from '../components/Layout'
-import { ladeAufgaben, ladeLernpaare, ladeThemen, ladeBereiche } from '../lib/data'
+import { ladeAufgaben, ladeLernpaare, ladeThemen, ladeBereiche, ladeRechnen, useDaten } from '../lib/data'
 import { ladeLernpaarStaende, themenQuizStand } from '../lib/lernquiz'
 import { heuteISO, ladeFortschritt } from '../lib/progress'
 import type { Lernpaar } from '../types'
 import { ihkNote } from '../lib/noten'
 import { terminAnzeige } from '../lib/termine'
 import { zerlegeAufgabenText } from '../lib/aufgabenText'
+import { ladeRechnenStand } from '../lib/rechnenFortschritt'
 import type { Aufgabe, Bereich, BereichId, Thema } from '../types'
 
 const BEREICHE: BereichId[] = ['wiso', 'kbz', 'buchfuehrung', 'muendlich']
@@ -106,6 +107,46 @@ export default function Lernstand() {
           </div>
         </div>
       )}
+
+      {/* Kaufmännisches Rechnen */}
+      {(() => {
+        const { daten: rechnen } = useDaten(ladeRechnen)
+        return (
+          rechnen && (() => {
+            const stand = ladeRechnenStand()
+            const geuebt = rechnen.kapitel.filter((k) => {
+              const s = stand.kapitel[k.id]
+              return s && s.richtig + s.falsch > 0
+            })
+            if (geuebt.length === 0) return null
+            return (
+              <div className="mb-6 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
+                <h2 className="mb-3 font-bold text-slate-900">🧮 Kaufmännisches Rechnen</h2>
+                <div className="space-y-2">
+                  {geuebt.map((k) => {
+                    const s = stand.kapitel[k.id]!
+                    const quote = s.richtig / (s.richtig + s.falsch)
+                    return (
+                      <div key={k.id}>
+                        <div className="flex justify-between text-sm">
+                          <span className="text-slate-700">{k.titel}</span>
+                          <span className="text-slate-500">
+                            {s.richtig}/{s.richtig + s.falsch} richtig
+                            {k.aufgaben.length > 0 && ` · ${s.geloest.length}/${k.aufgaben.length} Prüfungsaufgaben`}
+                          </span>
+                        </div>
+                        <div className="mt-1 h-2 overflow-hidden rounded-full bg-slate-100">
+                          <div className="h-full rounded-full bg-rose-500" style={{ width: `${Math.round(quote * 100)}%` }} />
+                        </div>
+                      </div>
+                    )
+                  })}
+                </div>
+              </div>
+            )
+          })()
+        )
+      })()}
 
       {/* Simulations-Historie */}
       <div className="mb-6 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
