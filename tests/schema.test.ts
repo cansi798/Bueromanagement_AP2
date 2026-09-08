@@ -46,6 +46,74 @@ describe('Content-Schema-Audit', () => {
   }
 })
 
+describe('Zuordnungs-Typ im Schema', () => {
+  const zuordnung = {
+    ziffern: [
+      { nr: 1, text: 'Komplementäre Ziele' },
+      { nr: 2, text: 'Konkurrierende Ziele' },
+    ],
+    items: [
+      { label: 'a', text: 'Gewinn – Klimaabgabe', korrekt: 2 },
+      { label: 'b', text: 'Fortbildung – Verkaufskompetenz', korrekt: 1 },
+    ],
+  }
+
+  function pruefe(defName: string, data: unknown): boolean {
+    const v = ajv.getSchema(`content.schema.json#/$defs/${defName}`)
+    if (!v) throw new Error(`Schema-Def fehlt: ${defName}`)
+    return Boolean(v(data))
+  }
+
+  const aufgabeBasis = {
+    id: 'wiso-test-a1',
+    themaId: 'test-thema',
+    bereich: 'wiso',
+    quelle: 'original',
+    termin: '2024-sommer',
+    text: 'Ordnen Sie zu!',
+    loesung: 'a) 2, b) 1',
+  }
+
+  it('akzeptiert eine Aufgabe mit typ zuordnung', () => {
+    expect(pruefe('aufgabe', { ...aufgabeBasis, typ: 'zuordnung', zuordnung })).toBe(true)
+  })
+
+  it('verlangt bei typ zuordnung das zuordnung-Feld', () => {
+    expect(pruefe('aufgabe', { ...aufgabeBasis, typ: 'zuordnung' })).toBe(false)
+  })
+
+  it('verlangt bei typ mc weiterhin optionen und korrekt', () => {
+    expect(pruefe('aufgabe', { ...aufgabeBasis, typ: 'mc' })).toBe(false)
+  })
+
+  const lernpaarBasis = {
+    id: 'wiso-lp-test-01',
+    themaId: 'test-thema',
+    bereich: 'wiso',
+    frage: 'Ordnen Sie zu!',
+    erklaerung: 'Darum.',
+  }
+
+  it('akzeptiert ein Lernpaar mit typ zuordnung ohne optionen', () => {
+    expect(pruefe('lernpaar', { ...lernpaarBasis, typ: 'zuordnung', zuordnung })).toBe(true)
+  })
+
+  it('verlangt bei Lernpaaren ohne typ weiterhin optionen und korrekt', () => {
+    expect(pruefe('lernpaar', lernpaarBasis)).toBe(false)
+  })
+
+  it('lehnt zuordnung mit korrekt-Ziffer außerhalb der Legende NICHT im Schema ab (Kreuz-Check übernimmt)', () => {
+    // Ziffern-Konsistenz ist bewusst Sache des Referenz-Audits, nicht des Schemas.
+    expect(
+      pruefe('aufgabe', {
+        ...aufgabeBasis,
+        typ: 'zuordnung',
+        zuordnung: { ...zuordnung, items: [{ label: 'a', text: 'X', korrekt: 9 }, { label: 'b', text: 'Y', korrekt: 1 }] },
+      }),
+    ).toBe(true)
+  })
+})
+
 describe('Referenz-Audit (Kreuz-Checks)', () => {
   it('jede Aufgabe verweist auf ein existierendes Thema', () => {
     const themenIds = new Set<string>()
@@ -97,7 +165,7 @@ describe('Referenz-Audit (Kreuz-Checks)', () => {
         expect(themenIds.has(p.themaId), `Lernpaar ${p.id}: unbekanntes Thema ${p.themaId}`).toBe(true)
         expect(ids.has(p.id), `Lernpaar-ID doppelt: ${p.id}`).toBe(false)
         ids.add(p.id)
-        for (const k of p.korrekt) {
+        for (const k of p.korrekt ?? []) {
           expect(k < p.optionen.length, `Lernpaar ${p.id}: korrekt-Index ${k} außerhalb`).toBe(true)
         }
       }
@@ -112,6 +180,77 @@ describe('Referenz-Audit (Kreuz-Checks)', () => {
         if (a.anlagenDiagramm?.typ === 'kreis') {
           expect(a.anlagenDiagramm.serien.length, `Aufgabe ${a.id}: Kreisdiagramm braucht genau 1 Serie`).toBe(1)
         }
+      }
+    }
+  })
+
+  // Ziffern-Zuordnungen müssen als typ "zuordnung" modelliert sein — als MC
+  // sind sie entweder unrealistisch (fertige Ketten) oder unlösbar (korrekt
+  // als Reihenfolge statt Menge).
+  function alleFragen(): { datei: string; eintrag: Record<string, unknown> }[] {
+    const out: { datei: string; eintrag: Record<string, unknown> }[] = []
+    for (const sub of ['aufgaben', 'lernpaare']) {
+      const dir = join(dataDir, sub)
+      if (!existsSync(dir)) continue
+      for (const f of readdirSync(dir).filter((f) => f.endsWith('.json'))) {
+        for (const e of JSON.parse(readFileSync(join(dir, f), 'utf8'))) {
+          out.push({ datei: `${sub}/${f}`, eintrag: e })
+        }
+      }
+    }
+    return out
+  }
+
+  it('keine MC-Frage kodiert eine Ziffern-Zuordnung in den Optionen', () => {
+    // Ketten: "a) 2, b) 1 …", "2;2;3;1;1", "Definition = 4, Planung = 3 …" —
+    // aber NICHT einzelne Rechenwerte wie "Wirtschaftlichkeit = 1,25 – …".
+    const kette = [
+      /^\s*a\s*[)=]\s*\d/i,
+      /^\s*\d+\s*[;–]\s*\d+/,
+      /^[^,=]+=\s*\d+\s*,[^,=]+=\s*\d+/,
+    ]
+    for (const { datei, eintrag } of alleFragen()) {
+      if (eintrag.typ === 'zuordnung') continue
+      for (const opt of (eintrag.optionen as string[]) ?? []) {
+        expect(
+          kette.some((re) => re.test(opt)),
+          `${datei} ${eintrag.id}: Option sieht nach Ziffern-Zuordnungskette aus: "${opt.slice(0, 60)}"`,
+        ).toBe(false)
+      }
+    }
+  })
+
+  it('MC-korrekt ist eine echte Menge (keine Duplikate, nicht alle Optionen)', () => {
+    for (const { datei, eintrag } of alleFragen()) {
+      const korrekt = (eintrag.korrekt as number[]) ?? []
+      if (korrekt.length === 0) continue
+      const optionen = (eintrag.optionen as string[]) ?? []
+      expect(
+        new Set(korrekt).size,
+        `${datei} ${eintrag.id}: korrekt enthält Duplikate — Reihenfolge statt Menge?`,
+      ).toBe(korrekt.length)
+      expect(
+        korrekt.length < optionen.length,
+        `${datei} ${eintrag.id}: alle Optionen als korrekt markiert — Zuordnung statt MC?`,
+      ).toBe(true)
+    }
+  })
+
+  it('Zuordnungsfelder sind in sich konsistent', () => {
+    for (const { datei, eintrag } of alleFragen()) {
+      const z = eintrag.zuordnung as
+        | { ziffern: { nr: number }[]; items: { label: string; korrekt: number }[] }
+        | undefined
+      if (!z) continue
+      const nrs = new Set(z.ziffern.map((x) => x.nr))
+      expect(nrs.size, `${datei} ${eintrag.id}: Ziffern doppelt`).toBe(z.ziffern.length)
+      const labels = new Set(z.items.map((x) => x.label))
+      expect(labels.size, `${datei} ${eintrag.id}: Labels doppelt`).toBe(z.items.length)
+      for (const item of z.items) {
+        expect(
+          nrs.has(item.korrekt),
+          `${datei} ${eintrag.id}: Item ${item.label} verweist auf unbekannte Ziffer ${item.korrekt}`,
+        ).toBe(true)
       }
     }
   })

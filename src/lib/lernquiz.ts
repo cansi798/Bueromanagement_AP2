@@ -92,20 +92,21 @@ export function istPositionsgebunden(option: string): boolean {
 export function mischeOptionen(
   paar: Pick<Lernpaar, 'optionen' | 'korrekt'>,
 ): { optionen: string[]; korrekt: number[] } {
-  const frei = paar.optionen
-    .map((_, i) => i)
-    .filter((i) => !istPositionsgebunden(paar.optionen[i]))
+  // Zuordnungs-Lernpaare haben keine Optionen — leer durchreichen.
+  const alle = paar.optionen ?? []
+  const alleKorrekt = paar.korrekt ?? []
+  const frei = alle.map((_, i) => i).filter((i) => !istPositionsgebunden(alle[i]))
   const gemischt = [...frei]
   for (let i = gemischt.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1))
     ;[gemischt[i], gemischt[j]] = [gemischt[j], gemischt[i]]
   }
-  const indizes = paar.optionen.map((_, i) => i)
+  const indizes = alle.map((_, i) => i)
   frei.forEach((platz, k) => {
     indizes[platz] = gemischt[k]
   })
-  const optionen = indizes.map((alt) => paar.optionen[alt])
-  const korrekt = paar.korrekt
+  const optionen = indizes.map((alt) => alle[alt])
+  const korrekt = alleKorrekt
     .map((alt) => indizes.indexOf(alt))
     .sort((a, b) => a - b)
   return { optionen, korrekt }

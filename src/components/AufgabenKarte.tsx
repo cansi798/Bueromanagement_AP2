@@ -4,6 +4,7 @@ import AnlagenDiagramm from './AnlagenDiagramm'
 import QuelleBadge from './QuelleBadge'
 import QuizMC from './QuizMC'
 import QuizOffen from './QuizOffen'
+import ZuordnungQuiz from './ZuordnungQuiz'
 import { heuteISO, merkeAufgabenErgebnis, merkeQuiz } from '../lib/progress'
 import type { Aufgabe } from '../types'
 
@@ -26,6 +27,8 @@ export default function AufgabenKarte({
   const quiz =
     aufgabe.typ === 'mc' ? (
       <QuizMC aufgabe={aufgabe} onErgebnis={ergebnis} />
+    ) : aufgabe.typ === 'zuordnung' ? (
+      <ZuordnungQuiz aufgabe={aufgabe} onErgebnis={ergebnis} />
     ) : (
       <QuizOffen aufgabe={aufgabe} onErgebnis={ergebnis} />
     )

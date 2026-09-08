@@ -5607,21 +5607,44 @@
     "bereich": "kbz",
     "quelle": "original",
     "termin": "2019-sommer",
-    "typ": "mc",
-    "text": "Sie sollen den Arbeitsvertrag vorbereiten. Wo finden Sie Informationen zu den Regelungen? Ordnen Sie zu (Reihenfolge der Regelungen: Gesetzliche Kündigungsfristen, Essensgeldzuschuss, Angaben zur Entgeltgruppe)! Informationsquellen: 1. Tarifvertrag, 2. Betriebsvereinbarung, 3. BGB",
+    "typ": "zuordnung",
+    "text": "Sie sollen den Arbeitsvertrag vorbereiten. Wo finden Sie Informationen zu den folgenden Regelungen? Ordnen Sie jeder Regelung die passende Informationsquelle zu!",
     "punkte": 2.2727,
-    "optionen": [
-      "Tarifvertrag",
-      "Betriebsvereinbarung",
-      "BGB"
-    ],
-    "korrekt": [
-      2,
-      1,
-      0
-    ],
     "loesung": "Gesetzliche Kündigungsfristen → BGB (3); Essensgeldzuschuss → Betriebsvereinbarung (2); Angaben zur Entgeltgruppe → Tarifvertrag (1). Lösungsziffernfolge: 3;2;1.",
-    "erklaerung": "Gesetzliche Kündigungsfristen stehen im BGB, betriebliche Zusatzleistungen in der Betriebsvereinbarung, Entgeltgruppen im Tarifvertrag."
+    "erklaerung": "Gesetzliche Kündigungsfristen stehen im BGB, betriebliche Zusatzleistungen in der Betriebsvereinbarung, Entgeltgruppen im Tarifvertrag.",
+    "zuordnung": {
+      "ziffern": [
+        {
+          "nr": 1,
+          "text": "Tarifvertrag"
+        },
+        {
+          "nr": 2,
+          "text": "Betriebsvereinbarung"
+        },
+        {
+          "nr": 3,
+          "text": "BGB"
+        }
+      ],
+      "items": [
+        {
+          "label": "a",
+          "text": "Gesetzliche Kündigungsfristen",
+          "korrekt": 3
+        },
+        {
+          "label": "b",
+          "text": "Essensgeldzuschuss",
+          "korrekt": 2
+        },
+        {
+          "label": "c",
+          "text": "Angaben zur Entgeltgruppe",
+          "korrekt": 1
+        }
+      ]
+    }
   },
   {
     "id": "kbz-2019s-a4-9",
@@ -6004,20 +6027,59 @@
     "bereich": "kbz",
     "quelle": "original",
     "termin": "2020-sommer",
-    "typ": "mc",
-    "text": "Ordnen Sie den Beispielen die rechtliche Bedeutung zu (1 = Der Vertrag ist anfechtbar, 2 = Der Vertrag ist nichtig, 3 = Der Vertrag ist gültig)! Beispiele in Reihenfolge: a) Die Willenserklärung wurde durch widerrechtliche Drohung erzwungen. b) Der Vertrag verstößt gegen ein Gesetz. c) Eine abgegebene Willenserklärung war nicht ernst gemeint. d) Es liegt eine falsche Übermittlung durch Telefon oder Telefax vor. e) Der Käufer hat sich geirrt (angenommen, die Preise steigen, sie sind aber gefallen). f) Der Verkäufer hat den Käufer arglistig getäuscht. Wie lautet die Ziffernfolge?",
+    "typ": "zuordnung",
+    "text": "Ordnen Sie den Beispielen die jeweilige rechtliche Bedeutung zu!",
     "punkte": 2.2727,
-    "optionen": [
-      "1;2;2;1;3;1",
-      "1;1;2;2;3;1",
-      "2;1;2;1;3;1",
-      "1;2;1;2;1;3"
-    ],
-    "korrekt": [
-      0
-    ],
     "loesung": "Richtig ist die Ziffernfolge 1;2;2;1;3;1.",
-    "erklaerung": "Widerrechtliche Drohung: anfechtbar (1). Gesetzesverstoß: nichtig (2). Nicht ernst gemeinte Erklärung (Scherzerklärung): nichtig (2). Falsche Übermittlung: anfechtbar (1). Bloßer Motivirrtum über Preisentwicklung: gültig (3). Arglistige Täuschung: anfechtbar (1)."
+    "erklaerung": "Widerrechtliche Drohung: anfechtbar (1). Gesetzesverstoß: nichtig (2). Nicht ernst gemeinte Erklärung (Scherzerklärung): nichtig (2). Falsche Übermittlung: anfechtbar (1). Bloßer Motivirrtum über Preisentwicklung: gültig (3). Arglistige Täuschung: anfechtbar (1).",
+    "zuordnung": {
+      "ziffern": [
+        {
+          "nr": 1,
+          "text": "Der Vertrag ist anfechtbar"
+        },
+        {
+          "nr": 2,
+          "text": "Der Vertrag ist nichtig"
+        },
+        {
+          "nr": 3,
+          "text": "Der Vertrag ist gültig"
+        }
+      ],
+      "items": [
+        {
+          "label": "a",
+          "text": "Die Willenserklärung wurde durch widerrechtliche Drohung erzwungen.",
+          "korrekt": 1
+        },
+        {
+          "label": "b",
+          "text": "Der Vertrag verstößt gegen ein Gesetz.",
+          "korrekt": 2
+        },
+        {
+          "label": "c",
+          "text": "Eine abgegebene Willenserklärung war nicht ernst gemeint.",
+          "korrekt": 2
+        },
+        {
+          "label": "d",
+          "text": "Es liegt eine falsche Übermittlung durch Telefon oder Telefax vor.",
+          "korrekt": 1
+        },
+        {
+          "label": "e",
+          "text": "Der Käufer hat sich geirrt (angenommen, die Preise steigen, sie sind aber gefallen).",
+          "korrekt": 3
+        },
+        {
+          "label": "f",
+          "text": "Der Verkäufer hat den Käufer arglistig getäuscht.",
+          "korrekt": 1
+        }
+      ]
+    }
   },
   {
     "id": "kbz-2020s-a1-10",
@@ -8047,20 +8109,43 @@
     "bereich": "kbz",
     "quelle": "original",
     "termin": "2021-winter",
-    "typ": "mc",
-    "text": "Das Diagramm zeigt die Kosten-, Erlös- und Gewinnverhältnisse für den Auftrag (Konferenztische). Ordnen Sie die 3 Linien den Begriffen zu: Linie 3 (oberste, steilste Gerade durch den Ursprung), Linie 2 (mittlere Gerade durch den Ursprung), Linie 1 (unterste, flachste Gerade). Reihenfolge der Begriffe: Erlöse, Gewinn, Variable Kosten.",
+    "typ": "zuordnung",
+    "text": "Das Diagramm zeigt die Kosten-, Erlös- und Gewinnverhältnisse für den Auftrag (Konferenztische). Ordnen Sie den Begriffen die jeweils passende Linie zu!",
     "punkte": 2,
-    "optionen": [
-      "Linie 1 (unterste, flachste)",
-      "Linie 2 (mittlere)",
-      "Linie 3 (oberste, steilste)"
-    ],
-    "korrekt": [
-      2,
-      0,
-      1
-    ],
-    "loesung": "Erlöse = steilste Gerade (Linie 3), Gewinn = flachste Gerade (Linie 1), Variable Kosten = mittlere Gerade (Linie 2). Reihenfolge der Lösungsziffern: 3; 1; 2."
+    "loesung": "Erlöse = steilste Gerade (Linie 3), Gewinn = flachste Gerade (Linie 1), Variable Kosten = mittlere Gerade (Linie 2). Reihenfolge der Lösungsziffern: 3; 1; 2.",
+    "zuordnung": {
+      "ziffern": [
+        {
+          "nr": 1,
+          "text": "Linie 1 (unterste, flachste Gerade)"
+        },
+        {
+          "nr": 2,
+          "text": "Linie 2 (mittlere Gerade durch den Ursprung)"
+        },
+        {
+          "nr": 3,
+          "text": "Linie 3 (oberste, steilste Gerade durch den Ursprung)"
+        }
+      ],
+      "items": [
+        {
+          "label": "a",
+          "text": "Erlöse",
+          "korrekt": 3
+        },
+        {
+          "label": "b",
+          "text": "Gewinn",
+          "korrekt": 1
+        },
+        {
+          "label": "c",
+          "text": "Variable Kosten",
+          "korrekt": 2
+        }
+      ]
+    }
   },
   {
     "id": "kbz-2021w-a4-4",

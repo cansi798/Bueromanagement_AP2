@@ -132,19 +132,44 @@
     "id": "wiso-lp-produktionsfaktoren-unternehmensziele-08",
     "themaId": "produktionsfaktoren-unternehmensziele",
     "bereich": "wiso",
-    "frage": "Ordnen Sie den drei Zielpaaren die richtige **Zielbeziehung** zu (1 = komplementär, 2 = konkurrierend, 3 = indifferent):\n\na) Steigerung des Gewinns – freiwillige Abgabe für Klimaschutzprojekte\nb) Gutes Arbeitsklima – Recycling der Produktverpackung\nc) Anschaffung ergonomischer Büromöbel – Senkung der Krankheitstage",
-    "optionen": [
-      "a) 2, b) 3, c) 1",
-      "a) 1, b) 2, c) 3",
-      "a) 3, b) 1, c) 2",
-      "a) 2, b) 1, c) 3"
-    ],
-    "korrekt": [
-      0
-    ],
+    "frage": "Ordnen Sie den drei Zielpaaren die richtige **Zielbeziehung** zu!",
     "erklaerung": "Die freiwillige Klimaschutzabgabe mindert unmittelbar den Gewinn – die Ziele konkurrieren (2). Arbeitsklima und Verpackungsrecycling beeinflussen sich gegenseitig nicht – die Ziele sind indifferent/neutral (3). Ergonomische Möbel fördern die Gesundheit und senken dadurch Krankheitskosten – die Ziele ergänzen sich, sind also komplementär (1). Entscheidend ist immer, ob die Erreichung des einen Ziels das andere fördert, behindert oder unberührt lässt.",
     "schwierigkeit": 3,
-    "quellTermin": "2024-sommer"
+    "quellTermin": "2024-sommer",
+    "typ": "zuordnung",
+    "zuordnung": {
+      "ziffern": [
+        {
+          "nr": 1,
+          "text": "komplementär"
+        },
+        {
+          "nr": 2,
+          "text": "konkurrierend"
+        },
+        {
+          "nr": 3,
+          "text": "indifferent"
+        }
+      ],
+      "items": [
+        {
+          "label": "a",
+          "text": "Steigerung des Gewinns – freiwillige Abgabe für Klimaschutzprojekte",
+          "korrekt": 2
+        },
+        {
+          "label": "b",
+          "text": "Gutes Arbeitsklima – Recycling der Produktverpackung",
+          "korrekt": 3
+        },
+        {
+          "label": "c",
+          "text": "Anschaffung ergonomischer Büromöbel – Senkung der Krankheitstage",
+          "korrekt": 1
+        }
+      ]
+    }
   },
   {
     "id": "wiso-lp-produktionsfaktoren-unternehmensziele-09",
@@ -1591,19 +1616,44 @@
     "id": "wiso-lp-konjunktur-indikatoren-12",
     "themaId": "konjunktur-indikatoren",
     "bereich": "wiso",
-    "frage": "Ordnen Sie die Begriffe den Erläuterungen zu (1 = Konjunkturzyklus, 2 = Trend, 3 = saisonale Schwankung):\n\na) Langfristige Entwicklungsrichtung des Wirtschaftswachstums\nb) Wellenbewegung aus Expansion, Boom, Rezession und Depression\nc) Regelmäßig wiederkehrende Schwankungen innerhalb eines Jahres (z. B. Weihnachtsgeschäft, Bauwinter)",
-    "optionen": [
-      "a) 2, b) 1, c) 3",
-      "a) 1, b) 2, c) 3",
-      "a) 3, b) 1, c) 2",
-      "a) 2, b) 3, c) 1"
-    ],
-    "korrekt": [
-      0
-    ],
+    "frage": "Ordnen Sie die Begriffe den Erläuterungen zu!",
     "erklaerung": "Der Trend ist die langfristige Grundrichtung der wirtschaftlichen Entwicklung und wird im Schaubild als (meist steigende) Gerade durch die Wellen gezeichnet. Der Konjunkturzyklus ist die mittelfristige Wellenbewegung um diesen Trend mit den vier Phasen. Saisonale Schwankungen sind kurzfristig und jahreszeitlich bedingt – sie wiederholen sich in jedem Jahr ähnlich.",
     "schwierigkeit": 3,
-    "quellTermin": "2024-sommer"
+    "quellTermin": "2024-sommer",
+    "typ": "zuordnung",
+    "zuordnung": {
+      "ziffern": [
+        {
+          "nr": 1,
+          "text": "Konjunkturzyklus"
+        },
+        {
+          "nr": 2,
+          "text": "Trend"
+        },
+        {
+          "nr": 3,
+          "text": "saisonale Schwankung"
+        }
+      ],
+      "items": [
+        {
+          "label": "a",
+          "text": "Langfristige Entwicklungsrichtung des Wirtschaftswachstums",
+          "korrekt": 2
+        },
+        {
+          "label": "b",
+          "text": "Wellenbewegung aus Expansion, Boom, Rezession und Depression",
+          "korrekt": 1
+        },
+        {
+          "label": "c",
+          "text": "Regelmäßig wiederkehrende Schwankungen innerhalb eines Jahres (z. B. Weihnachtsgeschäft, Bauwinter)",
+          "korrekt": 3
+        }
+      ]
+    }
   },
   {
     "id": "wiso-lp-konjunktur-indikatoren-13",
@@ -1663,37 +1713,100 @@
     "id": "wiso-lp-konjunktur-indikatoren-16",
     "themaId": "konjunktur-indikatoren",
     "bereich": "wiso",
-    "frage": "Ordnen Sie das Kundenverhalten der Konjunkturlage zu (1 = Expansion/Boom, 2 = Rezession/Depression):\n\na) Wegen geringer Lohnerhöhungen sinkt die Ausgabebereitschaft der Kunden.\nb) Nach deutlichen Lohnerhöhungen steigt die Nachfrage spürbar.\nc) Kunden greifen vermehrt zu hochwertigen, teuren Produkten.\nd) Kunden schieben Ersatzanschaffungen auf.",
-    "optionen": [
-      "a) 2, b) 1, c) 1, d) 2",
-      "a) 1, b) 2, c) 2, d) 1",
-      "a) 2, b) 1, c) 2, d) 1",
-      "a) 1, b) 1, c) 2, d) 2"
-    ],
-    "korrekt": [
-      0
-    ],
+    "frage": "Ordnen Sie das Kundenverhalten der jeweiligen Konjunkturlage zu!",
     "erklaerung": "In Expansion und Boom steigen Löhne und Konsumfreude – die Nachfrage wächst und verlagert sich auch auf hochwertige Produkte (b, c). In Rezession und Depression halten die Haushalte ihr Geld zusammen: Die Ausgabebereitschaft sinkt und Ersatzkäufe werden verschoben (a, d). Das Konsumverhalten folgt damit dem verfügbaren Einkommen und den Zukunftserwartungen.",
     "schwierigkeit": 3,
-    "quellTermin": "2024-sommer"
+    "quellTermin": "2024-sommer",
+    "typ": "zuordnung",
+    "zuordnung": {
+      "ziffern": [
+        {
+          "nr": 1,
+          "text": "Expansion/Boom"
+        },
+        {
+          "nr": 2,
+          "text": "Rezession/Depression"
+        }
+      ],
+      "items": [
+        {
+          "label": "a",
+          "text": "Wegen geringer Lohnerhöhungen sinkt die Ausgabebereitschaft der Kunden.",
+          "korrekt": 2
+        },
+        {
+          "label": "b",
+          "text": "Nach deutlichen Lohnerhöhungen steigt die Nachfrage spürbar.",
+          "korrekt": 1
+        },
+        {
+          "label": "c",
+          "text": "Kunden greifen vermehrt zu hochwertigen, teuren Produkten.",
+          "korrekt": 1
+        },
+        {
+          "label": "d",
+          "text": "Kunden schieben Ersatzanschaffungen auf.",
+          "korrekt": 2
+        }
+      ]
+    }
   },
   {
     "id": "wiso-lp-konjunktur-indikatoren-17",
     "themaId": "konjunktur-indikatoren",
     "bereich": "wiso",
-    "frage": "Ein Schaubild zur wirtschaftlichen Entwicklung zeigt: **A** = die senkrechte Achse mit dem Messwert, **B** = die wellenförmige Kurve in ihrer Abwärtsbewegung, **C** = eine stetig steigende Gerade durch die Wellen. Welche Zuordnung ist richtig?",
-    "optionen": [
-      "A = Bruttoinlandsprodukt, B = Rezession, C = Wirtschaftstrend",
-      "A = Bruttosozialprodukt, B = Expansion, C = Boom",
-      "A = Wirtschaftstrend, B = Boom, C = Bruttoinlandsprodukt",
-      "A = Bruttoinlandsprodukt, B = Expansion, C = Wirtschaftstrend"
-    ],
-    "korrekt": [
-      0
-    ],
+    "frage": "Ein Schaubild zeigt eine mögliche wirtschaftliche Entwicklung im Zeitablauf: eine wellenförmige, insgesamt ansteigende Kurve und eine Gerade, die durch die Wellen verläuft. Ordnen Sie den markierten Elementen A, B und C die passenden Begriffe zu!",
     "erklaerung": "Auf der senkrechten Achse wird die Wirtschaftsleistung gemessen – üblicherweise das reale BIP. Die Abwärtsbewegung der Konjunkturwelle ist die Rezession (Abschwung), eine Aufwärtsbewegung wäre die Expansion. Die langfristig steigende Gerade durch die Schwankungen ist der Wirtschaftstrend. Die Zuordnung „B = Expansion\" scheitert daran, dass eine Abwärtsbewegung keine Expansion sein kann.",
     "schwierigkeit": 2,
-    "quellTermin": "2025-sommer"
+    "quellTermin": "2025-sommer",
+    "typ": "zuordnung",
+    "zuordnung": {
+      "ziffern": [
+        {
+          "nr": 1,
+          "text": "Bruttoinlandsprodukt"
+        },
+        {
+          "nr": 2,
+          "text": "Bruttosozialprodukt"
+        },
+        {
+          "nr": 3,
+          "text": "Wirtschaftstrend"
+        },
+        {
+          "nr": 4,
+          "text": "Expansion"
+        },
+        {
+          "nr": 5,
+          "text": "Boom"
+        },
+        {
+          "nr": 6,
+          "text": "Rezession"
+        }
+      ],
+      "items": [
+        {
+          "label": "A",
+          "text": "Die senkrechte Achse mit dem Messwert",
+          "korrekt": 1
+        },
+        {
+          "label": "B",
+          "text": "Die wellenförmige Kurve in ihrer Abwärtsbewegung",
+          "korrekt": 6
+        },
+        {
+          "label": "C",
+          "text": "Eine stetig steigende Gerade durch die Wellen",
+          "korrekt": 3
+        }
+      ]
+    }
   },
   {
     "id": "wiso-lp-konjunktur-indikatoren-18",
@@ -3542,19 +3655,53 @@
     "id": "wiso-lp-projektmanagement-04",
     "themaId": "projektmanagement",
     "bereich": "wiso",
-    "frage": "Ordnen Sie die vier Tätigkeiten den Projektphasen Definition, Planung, Durchführung und Abschluss zu (in dieser Reihenfolge):\n\n**1** Sitzungsprotokolle und Statusberichte werden erstellt.\n**2** Es erfolgt eine Reflexion des Projekts.\n**3** Projektstrukturplan und Projektablaufplan werden erstellt.\n**4** Es wird ein Lastenheft mit dem Projektziel formuliert.",
-    "optionen": [
-      "Definition = 4, Planung = 3, Durchführung = 1, Abschluss = 2",
-      "Definition = 3, Planung = 4, Durchführung = 2, Abschluss = 1",
-      "Definition = 4, Planung = 1, Durchführung = 3, Abschluss = 2",
-      "Definition = 2, Planung = 3, Durchführung = 1, Abschluss = 4"
-    ],
-    "korrekt": [
-      0
-    ],
+    "frage": "Ordnen Sie den vier Projektphasen die jeweils passende Tätigkeit zu!",
     "erklaerung": "Das Lastenheft mit den Anforderungen und dem Projektziel entsteht in der Definitionsphase. Struktur- und Ablaufplan sind die zentralen Werkzeuge der Planungsphase. Statusberichte und Protokolle dokumentieren den Fortschritt während der Durchführung, und die Reflexion (Lessons Learned) gehört in den Abschluss. Die Distraktoren vertauschen typischerweise Lastenheft und Strukturplan bzw. Dokumentation und Reflexion – hier hilft die Logik: erst Ziel, dann Plan, dann Doku, dann Rückblick.",
     "schwierigkeit": 2,
-    "quellTermin": "2020-winter"
+    "quellTermin": "2020-winter",
+    "typ": "zuordnung",
+    "zuordnung": {
+      "ziffern": [
+        {
+          "nr": 1,
+          "text": "Sitzungsprotokolle und Statusberichte werden erstellt."
+        },
+        {
+          "nr": 2,
+          "text": "Es erfolgt eine Reflexion des Projekts."
+        },
+        {
+          "nr": 3,
+          "text": "Projektstrukturplan und Projektablaufplan werden erstellt."
+        },
+        {
+          "nr": 4,
+          "text": "Es wird ein Lastenheft mit dem Projektziel formuliert."
+        }
+      ],
+      "items": [
+        {
+          "label": "a",
+          "text": "Definition",
+          "korrekt": 4
+        },
+        {
+          "label": "b",
+          "text": "Planung",
+          "korrekt": 3
+        },
+        {
+          "label": "c",
+          "text": "Durchführung",
+          "korrekt": 1
+        },
+        {
+          "label": "d",
+          "text": "Abschluss",
+          "korrekt": 2
+        }
+      ]
+    }
   },
   {
     "id": "wiso-lp-projektmanagement-05",
@@ -3855,18 +4002,43 @@
     "id": "wiso-lp-produktionsfaktoren-unternehmensziele-20",
     "themaId": "produktionsfaktoren-unternehmensziele",
     "bereich": "wiso",
-    "frage": "Ein Möbelhersteller analysiert seine Werkstoffe. Ordnen Sie zu (1 = Rohstoff, 2 = Hilfsstoff, 3 = Betriebsstoff):\n\na) Buchenholz für die Tischplatten\nb) Leim und Schrauben für die Montage\nc) Schmieröl für die Produktionsanlagen",
-    "optionen": [
-      "a = 1, b = 2, c = 3",
-      "a = 2, b = 1, c = 3",
-      "a = 1, b = 3, c = 2",
-      "a = 3, b = 2, c = 1"
-    ],
-    "korrekt": [
-      0
-    ],
+    "frage": "Ein Möbelhersteller analysiert seine Werkstoffe. Ordnen Sie jedem Werkstoff die richtige Kategorie zu!",
     "erklaerung": "**Rohstoffe** gehen als Hauptbestandteil in das Produkt ein (Buchenholz beim Tisch). **Hilfsstoffe** gehen ebenfalls in das Produkt ein, aber nur als Nebenbestandteil (Leim, Schrauben). **Betriebsstoffe** werden bei der Produktion verbraucht, ohne Bestandteil des Erzeugnisses zu werden (Schmieröl, Strom, Reinigungsmittel). Die Distraktoren vertauschen die Kategorien: Holz ist bei einem Möbelhersteller nie Hilfs- oder Betriebsstoff, und Schmieröl wird niemals Produktbestandteil. Merkhilfe: Roh = Hauptteil, Hilf = Nebenteil, Betrieb = wird verbraucht.",
-    "schwierigkeit": 2
+    "schwierigkeit": 2,
+    "typ": "zuordnung",
+    "zuordnung": {
+      "ziffern": [
+        {
+          "nr": 1,
+          "text": "Rohstoff"
+        },
+        {
+          "nr": 2,
+          "text": "Hilfsstoff"
+        },
+        {
+          "nr": 3,
+          "text": "Betriebsstoff"
+        }
+      ],
+      "items": [
+        {
+          "label": "a",
+          "text": "Buchenholz für die Tischplatten",
+          "korrekt": 1
+        },
+        {
+          "label": "b",
+          "text": "Leim und Schrauben für die Montage",
+          "korrekt": 2
+        },
+        {
+          "label": "c",
+          "text": "Schmieröl für die Produktionsanlagen",
+          "korrekt": 3
+        }
+      ]
+    }
   },
   {
     "id": "wiso-lp-produktionsfaktoren-unternehmensziele-21",
@@ -4123,19 +4295,45 @@
     "id": "wiso-lp-rechtsformen-vollmachten-23",
     "themaId": "rechtsformen-vollmachten",
     "bereich": "wiso",
-    "frage": "Ordnen Sie den Personen das richtige **Haftungskapital** zu (1 = Geschäfts- und Privatvermögen, 2 = nur Gesellschaftsvermögen bzw. Einlage):\n\na) Komplementär einer KG\nb) Kommanditist mit voll geleisteter Einlage\nc) Gesellschafter einer GmbH\nd) Eingetragener Kaufmann (e. K.)",
-    "optionen": [
-      "a = 1, b = 2, c = 2, d = 1",
-      "a = 2, b = 1, c = 2, d = 1",
-      "a = 1, b = 1, c = 2, d = 2",
-      "a = 1, b = 2, c = 1, d = 2"
-    ],
-    "korrekt": [
-      0
-    ],
+    "frage": "Ordnen Sie den Personen das richtige **Haftungskapital** zu!",
     "erklaerung": "Der **Komplementär** haftet als Vollhafter unbeschränkt mit Geschäfts- und Privatvermögen (a = 1). Der **Kommanditist** haftet nur bis zur Höhe seiner Einlage; ist sie voll geleistet, ist die persönliche Haftung ausgeschlossen (b = 2). Der **GmbH-Gesellschafter** haftet nicht persönlich – Gläubigern haftet nur das Gesellschaftsvermögen (c = 2). Der **e. K.** ist Einzelunternehmer und haftet unbeschränkt, auch privat (d = 1). Die Distraktoren vertauschen jeweils Vollhafter und beschränkt Haftende – Merkhilfe: „Komplementär = komplett\", Kommanditist und Kapitalgesellschafter sind auf die Einlage begrenzt.",
     "schwierigkeit": 2,
-    "quellTermin": "2021-winter"
+    "quellTermin": "2021-winter",
+    "typ": "zuordnung",
+    "zuordnung": {
+      "ziffern": [
+        {
+          "nr": 1,
+          "text": "Geschäfts- und Privatvermögen"
+        },
+        {
+          "nr": 2,
+          "text": "nur Gesellschaftsvermögen bzw. Einlage"
+        }
+      ],
+      "items": [
+        {
+          "label": "a",
+          "text": "Komplementär einer KG",
+          "korrekt": 1
+        },
+        {
+          "label": "b",
+          "text": "Kommanditist mit voll geleisteter Einlage",
+          "korrekt": 2
+        },
+        {
+          "label": "c",
+          "text": "Gesellschafter einer GmbH",
+          "korrekt": 2
+        },
+        {
+          "label": "d",
+          "text": "Eingetragener Kaufmann (e. K.)",
+          "korrekt": 1
+        }
+      ]
+    }
   },
   {
     "id": "wiso-lp-rechtsformen-vollmachten-24",
@@ -4252,18 +4450,43 @@
     "id": "wiso-lp-rechtsformen-vollmachten-30",
     "themaId": "rechtsformen-vollmachten",
     "bereich": "wiso",
-    "frage": "Ordnen Sie den drei Fällen die richtige **Art der Handlungsvollmacht** zu (1 = allgemeine Handlungsvollmacht, 2 = Artvollmacht, 3 = Einzelvollmacht):\n\na) Der Leiter der Einkaufsabteilung darf alle mit dem Einkauf verbundenen Geschäfte tätigen.\nb) Eine Mitarbeiterin darf einmalig einen bestimmten ausgemusterten Firmenwagen verkaufen.\nc) Die Filialleiterin darf alle gewöhnlichen Geschäfte des Betriebs vornehmen.",
-    "optionen": [
-      "a = 2, b = 3, c = 1",
-      "a = 1, b = 2, c = 3",
-      "a = 3, b = 2, c = 1",
-      "a = 2, b = 1, c = 3"
-    ],
-    "korrekt": [
-      0
-    ],
+    "frage": "Ordnen Sie den drei Fällen die richtige **Art der Handlungsvollmacht** zu!",
     "erklaerung": "Die **Artvollmacht** berechtigt zu einer bestimmten, immer wiederkehrenden **Art** von Geschäften (alle Einkaufsgeschäfte, a = 2). Die **Einzelvollmacht** (Spezialvollmacht) gilt nur für ein **einzelnes konkretes Geschäft** (der eine Fahrzeugverkauf, b = 3). Die **allgemeine Handlungsvollmacht** umfasst alle **gewöhnlichen** Geschäfte, die der Betrieb des Handelsgewerbes mit sich bringt (Filialleitung, c = 1). Die Distraktoren verwechseln die Reichweite der drei Stufen. Merkhilfe: allgemein = alles Gewöhnliche, Art = eine Geschäftsart, einzeln = ein einziges Geschäft.",
-    "schwierigkeit": 2
+    "schwierigkeit": 2,
+    "typ": "zuordnung",
+    "zuordnung": {
+      "ziffern": [
+        {
+          "nr": 1,
+          "text": "allgemeine Handlungsvollmacht"
+        },
+        {
+          "nr": 2,
+          "text": "Artvollmacht"
+        },
+        {
+          "nr": 3,
+          "text": "Einzelvollmacht"
+        }
+      ],
+      "items": [
+        {
+          "label": "a",
+          "text": "Der Leiter der Einkaufsabteilung darf alle mit dem Einkauf verbundenen Geschäfte tätigen.",
+          "korrekt": 2
+        },
+        {
+          "label": "b",
+          "text": "Eine Mitarbeiterin darf einmalig einen bestimmten ausgemusterten Firmenwagen verkaufen.",
+          "korrekt": 3
+        },
+        {
+          "label": "c",
+          "text": "Die Filialleiterin darf alle gewöhnlichen Geschäfte des Betriebs vornehmen.",
+          "korrekt": 1
+        }
+      ]
+    }
   },
   {
     "id": "wiso-lp-rechtsformen-vollmachten-31",
@@ -4538,18 +4761,39 @@
     "id": "wiso-lp-finanzierung-kreditsicherung-31",
     "themaId": "finanzierung-kreditsicherung",
     "bereich": "wiso",
-    "frage": "Kreditsicherheiten werden in Personal- und Realsicherheiten unterteilt. Ordnen Sie zu (1 = Personalsicherheit, 2 = Realsicherheit):\n\na) Bürgschaft\nb) Grundschuld\nc) Sicherungsübereignung",
-    "optionen": [
-      "a = 1, b = 2, c = 2",
-      "a = 2, b = 1, c = 2",
-      "a = 1, b = 2, c = 1",
-      "a = 2, b = 2, c = 1"
-    ],
-    "korrekt": [
-      0
-    ],
+    "frage": "Kreditsicherheiten werden in Personal- und Realsicherheiten unterteilt. Ordnen Sie die Sicherheiten der richtigen Gruppe zu!",
     "erklaerung": "Bei **Personalsicherheiten** haftet eine zusätzliche **Person** mit ihrem gesamten Vermögen – klassisch die Bürgschaft (a = 1), daneben die Garantie. Bei **Realsicherheiten** (Sachsicherheiten) haftet ein bestimmter **Vermögensgegenstand**: die Grundschuld als Grundpfandrecht am Grundstück (b = 2) und die Sicherungsübereignung an beweglichen Sachen (c = 2); auch Pfandrecht und Eigentumsvorbehalt gehören dazu. Die Distraktoren ordnen die Bürgschaft den Sachsicherheiten oder die Sicherungsübereignung den Personalsicherheiten zu – falsch, denn entscheidend ist immer, ob eine weitere Person oder ein konkreter Gegenstand die Rückzahlung absichert.",
-    "schwierigkeit": 1
+    "schwierigkeit": 1,
+    "typ": "zuordnung",
+    "zuordnung": {
+      "ziffern": [
+        {
+          "nr": 1,
+          "text": "Personalsicherheit"
+        },
+        {
+          "nr": 2,
+          "text": "Realsicherheit"
+        }
+      ],
+      "items": [
+        {
+          "label": "a",
+          "text": "Bürgschaft",
+          "korrekt": 1
+        },
+        {
+          "label": "b",
+          "text": "Grundschuld",
+          "korrekt": 2
+        },
+        {
+          "label": "c",
+          "text": "Sicherungsübereignung",
+          "korrekt": 2
+        }
+      ]
+    }
   },
   {
     "id": "wiso-lp-finanzierung-kreditsicherung-32",
@@ -4990,18 +5234,52 @@
     "id": "wiso-lp-konjunktur-indikatoren-30",
     "themaId": "konjunktur-indikatoren",
     "bereich": "wiso",
-    "frage": "Ordnen Sie den vier Fällen die richtige **Art der Arbeitslosigkeit** zu (1 = saisonal, 2 = konjunkturell, 3 = strukturell, 4 = friktionell):\n\na) Ein Dachdecker ist im Winter regelmäßig ohne Beschäftigung.\nb) In der Rezession entlässt ein Möbelhersteller wegen fehlender Aufträge Personal.\nc) Beschäftigte eines Kohlereviers verlieren durch den dauerhaften Wandel der Branche ihre Arbeitsplätze.\nd) Eine Fachkraft ist nach der Kündigung sechs Wochen ohne Stelle, bis der neue Arbeitsvertrag beginnt.",
-    "optionen": [
-      "a = 1, b = 2, c = 3, d = 4",
-      "a = 2, b = 1, c = 4, d = 3",
-      "a = 1, b = 3, c = 2, d = 4",
-      "a = 4, b = 2, c = 3, d = 1"
-    ],
-    "korrekt": [
-      0
-    ],
+    "frage": "Ordnen Sie den vier Fällen die richtige **Art der Arbeitslosigkeit** zu!",
     "erklaerung": "**Saisonale** Arbeitslosigkeit folgt der Jahreszeit (Bau- und Dachdeckergewerbe im Winter, a = 1). **Konjunkturelle** Arbeitslosigkeit entsteht durch den gesamtwirtschaftlichen Nachfragerückgang in Rezessionen und verschwindet im Aufschwung wieder (b = 2). **Strukturelle** Arbeitslosigkeit beruht auf dauerhaften Veränderungen der Wirtschaftsstruktur – etwa dem Niedergang ganzer Branchen oder Regionen wie im Kohlerevier; sie ist besonders hartnäckig, weil Qualifikationen und Standorte nicht mehr zur Nachfrage passen (c = 3). **Friktionelle** (Sucharbeitslosigkeit) ist die kurze Übergangszeit beim normalen Stellenwechsel (d = 4). Die Distraktoren vertauschen diese klar abgrenzbaren Ursachen.",
-    "schwierigkeit": 3
+    "schwierigkeit": 3,
+    "typ": "zuordnung",
+    "zuordnung": {
+      "ziffern": [
+        {
+          "nr": 1,
+          "text": "saisonal"
+        },
+        {
+          "nr": 2,
+          "text": "konjunkturell"
+        },
+        {
+          "nr": 3,
+          "text": "strukturell"
+        },
+        {
+          "nr": 4,
+          "text": "friktionell"
+        }
+      ],
+      "items": [
+        {
+          "label": "a",
+          "text": "Ein Dachdecker ist im Winter regelmäßig ohne Beschäftigung.",
+          "korrekt": 1
+        },
+        {
+          "label": "b",
+          "text": "In der Rezession entlässt ein Möbelhersteller wegen fehlender Aufträge Personal.",
+          "korrekt": 2
+        },
+        {
+          "label": "c",
+          "text": "Beschäftigte eines Kohlereviers verlieren durch den dauerhaften Wandel der Branche ihre Arbeitsplätze.",
+          "korrekt": 3
+        },
+        {
+          "label": "d",
+          "text": "Eine Fachkraft ist nach der Kündigung sechs Wochen ohne Stelle, bis der neue Arbeitsvertrag beginnt.",
+          "korrekt": 4
+        }
+      ]
+    }
   },
   {
     "id": "wiso-lp-konjunktur-indikatoren-31",

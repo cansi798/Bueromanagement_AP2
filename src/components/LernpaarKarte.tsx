@@ -1,11 +1,14 @@
 import { useState } from 'react'
 import type { Lernpaar } from '../types'
 import { wertungMC } from '../lib/quiz'
+import { alleAusgefuellt, wertungZuordnung } from '../lib/zuordnung'
 import Markdown from './Markdown'
 import OptionText from './OptionText'
+import ZuordnungFelder from './ZuordnungFelder'
 
-// Eine MC-Quizfrage im Leitner-Modus: nach dem Prüfen erscheint die
-// Erklärung und der Weiter-Button — Wertung meldet die Seite ans Leitner-System.
+// Eine Quizfrage im Leitner-Modus (MC oder Ziffern-Zuordnung): nach dem
+// Prüfen erscheint die Erklärung und der Weiter-Button — Wertung meldet
+// die Seite ans Leitner-System.
 export default function LernpaarKarte({
   paar,
   optionen,
@@ -22,8 +25,10 @@ export default function LernpaarKarte({
   onWeiter: () => void
 }) {
   const [gewaehlt, setGewaehlt] = useState<number[]>([])
+  const [antworten, setAntworten] = useState<Record<string, string>>({})
   const [abgegeben, setAbgegeben] = useState(false)
-  const mehrfach = korrekt.length > 1
+  const zuordnung = paar.typ === 'zuordnung' ? paar.zuordnung : undefined
+  const mehrfach = !zuordnung && korrekt.length > 1
 
   function toggle(i: number) {
     if (abgegeben) return
@@ -32,12 +37,17 @@ export default function LernpaarKarte({
     )
   }
 
+  const richtig = zuordnung
+    ? wertungZuordnung(zuordnung, antworten).richtig
+    : wertungMC(korrekt, gewaehlt)
+  const pruefenGesperrt = zuordnung
+    ? !alleAusgefuellt(zuordnung, antworten)
+    : gewaehlt.length === 0
+
   function abgeben() {
     setAbgegeben(true)
-    onErgebnis(wertungMC(korrekt, gewaehlt))
+    onErgebnis(richtig)
   }
-
-  const richtig = wertungMC(korrekt, gewaehlt)
 
   return (
     <div className="rounded-2xl bg-white p-4 shadow-sm sm:p-6">
@@ -63,34 +73,45 @@ export default function LernpaarKarte({
         <p className="mt-1 text-xs font-medium text-slate-500">Mehrere Antworten möglich.</p>
       )}
 
-      <div className="mt-3 space-y-2">
-        {optionen.map((opt, i) => {
-          let stil = 'border-slate-300 bg-white hover:border-sky-400'
-          if (abgegeben) {
-            if (korrekt.includes(i)) stil = 'border-green-500 bg-green-50'
-            else if (gewaehlt.includes(i)) stil = 'border-red-400 bg-red-50'
-            else stil = 'border-slate-200 bg-white opacity-60'
-          } else if (gewaehlt.includes(i)) {
-            stil = 'border-sky-500 bg-sky-50'
+      {zuordnung ? (
+        <ZuordnungFelder
+          zuordnung={zuordnung}
+          antworten={antworten}
+          onAntwort={(label, wert) =>
+            setAntworten((alt) => ({ ...alt, [label]: wert }))
           }
-          return (
-            <button
-              key={i}
-              type="button"
-              onClick={() => toggle(i)}
-              className={`block min-h-12 w-full rounded-lg border-2 px-3 py-2 text-left text-[15px] transition ${stil}`}
-            >
-              <OptionText text={opt} />
-            </button>
-          )
-        })}
-      </div>
+          abgegeben={abgegeben}
+        />
+      ) : (
+        <div className="mt-3 space-y-2">
+          {optionen.map((opt, i) => {
+            let stil = 'border-slate-300 bg-white hover:border-sky-400'
+            if (abgegeben) {
+              if (korrekt.includes(i)) stil = 'border-green-500 bg-green-50'
+              else if (gewaehlt.includes(i)) stil = 'border-red-400 bg-red-50'
+              else stil = 'border-slate-200 bg-white opacity-60'
+            } else if (gewaehlt.includes(i)) {
+              stil = 'border-sky-500 bg-sky-50'
+            }
+            return (
+              <button
+                key={i}
+                type="button"
+                onClick={() => toggle(i)}
+                className={`block min-h-12 w-full rounded-lg border-2 px-3 py-2 text-left text-[15px] transition ${stil}`}
+              >
+                <OptionText text={opt} />
+              </button>
+            )
+          })}
+        </div>
+      )}
 
       {!abgegeben ? (
         <button
           type="button"
           onClick={abgeben}
-          disabled={gewaehlt.length === 0}
+          disabled={pruefenGesperrt}
           className="mt-4 min-h-12 w-full rounded-xl bg-sky-600 px-4 font-semibold text-white hover:bg-sky-700 disabled:opacity-40 sm:w-auto sm:px-8"
         >
           Prüfen

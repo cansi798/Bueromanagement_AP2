@@ -33,7 +33,25 @@ export interface Thema {
 }
 
 export type AufgabenQuelle = 'original' | 'abgeleitet' | 'generiert'
-export type AufgabenTyp = 'mc' | 'offen' | 'rechnen'
+export type AufgabenTyp = 'mc' | 'offen' | 'rechnen' | 'zuordnung'
+
+// Ziffern-Zuordnung wie auf dem IHK-Antwortbogen: zu jeder Teilaufgabe (item)
+// wird die Nummer aus der Legende (ziffern) eingetragen.
+export interface ZuordnungZiffer {
+  nr: number
+  text: string
+}
+
+export interface ZuordnungItem {
+  label: string // "a", "b", …
+  text: string
+  korrekt: number // nr aus der Legende
+}
+
+export interface Zuordnung {
+  ziffern: ZuordnungZiffer[]
+  items: ZuordnungItem[]
+}
 
 export interface DiagrammPunkt {
   x: string
@@ -92,6 +110,7 @@ export interface Aufgabe {
   punkte?: number
   optionen?: string[] // nur typ 'mc'
   korrekt?: number[] // nur typ 'mc'
+  zuordnung?: Zuordnung // nur typ 'zuordnung'
   loesung: string
   erklaerung?: string
 }
@@ -113,14 +132,16 @@ export interface Karteikarte {
   rueckseite: string
 }
 
-// MC-Lernfrage für das Themen-Quiz (Leitner-gestützt).
+// Lernfrage für das Themen-Quiz (Leitner-gestützt) — MC oder Ziffern-Zuordnung.
 export interface Lernpaar {
   id: string
   themaId: string
   bereich: BereichId
+  typ?: 'mc' | 'zuordnung' // fehlt = 'mc'
   frage: string
-  optionen: string[]
-  korrekt: number[]
+  optionen?: string[] // nur mc
+  korrekt?: number[] // nur mc
+  zuordnung?: Zuordnung // nur zuordnung
   erklaerung: string
   schwierigkeit?: 1 | 2 | 3
   quellTermin?: string

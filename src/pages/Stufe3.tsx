@@ -4,6 +4,7 @@ import Layout from '../components/Layout'
 import QuelleBadge from '../components/QuelleBadge'
 import QuizMC from '../components/QuizMC'
 import QuizOffen from '../components/QuizOffen'
+import ZuordnungQuiz from '../components/ZuordnungQuiz'
 import { ladeAufgaben, ladePruefungen, useDaten } from '../lib/data'
 import { heuteISO, merkeAufgabenErgebnis } from '../lib/progress'
 import { sammlungsNummer, terminAnzeige } from '../lib/termine'
@@ -61,6 +62,11 @@ function PruefungsKarte({ pruefung, bereichId }: { pruefung: Pruefung; bereichId
                 </div>
                 {a.typ === 'mc' ? (
                   <QuizMC
+                    aufgabe={anzeige}
+                    onErgebnis={(richtig) => merkeAufgabenErgebnis(a.id, richtig, heuteISO())}
+                  />
+                ) : a.typ === 'zuordnung' ? (
+                  <ZuordnungQuiz
                     aufgabe={anzeige}
                     onErgebnis={(richtig) => merkeAufgabenErgebnis(a.id, richtig, heuteISO())}
                   />

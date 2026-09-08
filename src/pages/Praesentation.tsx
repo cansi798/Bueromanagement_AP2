@@ -58,7 +58,8 @@ export default function Praesentation() {
       if (mc.length < 3) {
         mc.push(
           ...(lernpaare ?? [])
-            .filter((p) => p.themaId === t.id)
+            // Zuordnungs-Paare haben keine Optionen und taugen nicht als MC-Folie.
+            .filter((p) => p.themaId === t.id && (p.typ ?? 'mc') === 'mc')
             .slice(0, 3 - mc.length)
             .map(alsAufgabe),
         )

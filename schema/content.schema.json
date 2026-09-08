@@ -152,6 +152,40 @@
         { "if": { "properties": { "typ": { "const": "kreislauf" } } }, "then": { "required": ["varianten"] } }
       ]
     },
+    "zuordnung": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["ziffern", "items"],
+      "properties": {
+        "ziffern": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["nr", "text"],
+            "properties": {
+              "nr": { "type": "integer", "minimum": 1 },
+              "text": { "type": "string", "minLength": 1 }
+            }
+          }
+        },
+        "items": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["label", "text", "korrekt"],
+            "properties": {
+              "label": { "type": "string", "minLength": 1 },
+              "text": { "type": "string", "minLength": 1 },
+              "korrekt": { "type": "integer", "minimum": 1 }
+            }
+          }
+        }
+      }
+    },
     "aufgabe": {
       "type": "object",
       "additionalProperties": false,
@@ -162,18 +196,21 @@
         "bereich": { "$ref": "#/$defs/bereichId" },
         "quelle": { "enum": ["original", "abgeleitet", "generiert"] },
         "termin": { "type": "string", "pattern": "^[0-9]{4}-(sommer|winter)$" },
-        "typ": { "enum": ["mc", "offen", "rechnen"] },
+        "typ": { "enum": ["mc", "offen", "rechnen", "zuordnung"] },
         "text": { "type": "string", "minLength": 1 },
         "anlagenText": { "type": "string" },
         "anlagenDiagramm": { "$ref": "#/$defs/anlagenDiagramm" },
         "punkte": { "type": "number", "minimum": 0 },
         "optionen": { "type": "array", "items": { "type": "string", "minLength": 1 }, "minItems": 2 },
         "korrekt": { "type": "array", "items": { "type": "integer", "minimum": 0 }, "minItems": 1 },
+        "zuordnung": { "$ref": "#/$defs/zuordnung" },
         "loesung": { "type": "string", "minLength": 1 },
         "erklaerung": { "type": "string" }
       },
-      "if": { "properties": { "typ": { "const": "mc" } } },
-      "then": { "required": ["optionen", "korrekt"] }
+      "allOf": [
+        { "if": { "properties": { "typ": { "const": "mc" } } }, "then": { "required": ["optionen", "korrekt"] } },
+        { "if": { "properties": { "typ": { "const": "zuordnung" } } }, "then": { "required": ["zuordnung"] } }
+      ]
     },
     "pruefung": {
       "type": "object",
@@ -203,18 +240,23 @@
     "lernpaar": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["id", "themaId", "bereich", "frage", "optionen", "korrekt", "erklaerung"],
+      "required": ["id", "themaId", "bereich", "frage", "erklaerung"],
       "properties": {
         "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
         "themaId": { "type": "string", "pattern": "^[a-z0-9-]+$" },
         "bereich": { "$ref": "#/$defs/bereichId" },
+        "typ": { "enum": ["mc", "zuordnung"] },
         "frage": { "type": "string", "minLength": 1 },
         "optionen": { "type": "array", "items": { "type": "string", "minLength": 1 }, "minItems": 2 },
         "korrekt": { "type": "array", "items": { "type": "integer", "minimum": 0 }, "minItems": 1 },
+        "zuordnung": { "$ref": "#/$defs/zuordnung" },
         "erklaerung": { "type": "string", "minLength": 1 },
         "schwierigkeit": { "enum": [1, 2, 3] },
         "quellTermin": { "type": "string", "pattern": "^[0-9]{4}-(sommer|winter)$" }
-      }
+      },
+      "if": { "properties": { "typ": { "const": "zuordnung" } }, "required": ["typ"] },
+      "then": { "required": ["zuordnung"] },
+      "else": { "required": ["optionen", "korrekt"] }
     },
     "glossarEintrag": {
       "type": "object",

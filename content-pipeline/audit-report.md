@@ -165,3 +165,32 @@ Positionsbezügen („Option 2", „die letzte Option") inhaltlich umgeschrieben
 da QuizMC/Simulation jetzt zur Laufzeit mischen (mischeOptionen mit
 Pinning-Guard für „keine/alle der genannten"-Optionen). MC-loesung-Felder
 werden nie neben gemischten Optionen angezeigt (geprüft) — dort keine Änderung.
+
+## Zuordnungs-Runde (2026-09-08): MC-kodierte Ziffern-Zuordnungen → typ "zuordnung"
+
+**42 Einträge konvertiert** (aufgaben/wiso 29, aufgaben/kbz 3, lernpaare/wiso 10)
+via `staging/zuordnung-*.json` + `merge-zuordnung.mjs`. Anlass: Als MC waren
+diese Aufgaben entweder unrealistisch (fertige Kombinationsketten statt
+Ziffern-Eintragung wie auf dem IHK-Bogen) oder unlösbar (korrekt-Array als
+REIHENFOLGE kodiert, z. B. wiso-2021w-a6 mit [0,0,1,1] bei 2 Optionen).
+Adversarial-Prüfung gegen Original + loesung: alle 42 Ziffernfolgen korrekt.
+
+**Vorbehalte/Entscheidungen:**
+- wiso-2018s-a7: altes korrekt-Array widersprach der Musterlösung (b/c
+  vertauscht) — loesung als Wahrheit übernommen (a2 b3 c5 d4 e1).
+- wiso-2018s-a21: 4. Item „Petra Wagner" ergänzt (stand in der loesung,
+  fehlte im MC-korrekt); loesung-Formulierung entsprechend modernisiert.
+- wiso-2025s-a27: Itemtext „Zeichen 2" von „rot" auf „grün" korrigiert
+  (Notruftelefon = Rettungszeichen; deckt sich mit anlagenDiagramm).
+- wiso-2025s-a27 + wiso-2020w-a24: Item-Labels von „1–5" auf „a–e"
+  umgestellt (Kollision mit den Lösungsziffern 1–5 der Legende).
+- 13 loesung/erklaerung-Texte bereinigt („Richtig ist Option 1", Meta-Sätze
+  über das korrekt-Array).
+- BEWUSST NICHT konvertiert (reine Text-Zuordnungen ohne Ziffern-Legende,
+  bleiben MC per Nutzer-Entscheidung): wiso-lp-produktionsfaktoren-
+  unternehmensziele-05, wiso-lp-markt-preisbildung-14, wiso-lp-
+  berufsausbildung-arbeitsrecht-13, wiso-lp-arbeitsschutz-umwelt-09/-19,
+  wiso-produktionsfaktoren-unternehmensziele-v1, wiso-konjunktur-
+  indikatoren-g1 (Reihenfolge-Single-Choice, funktional).
+- Schema-Audit erzwingt das Muster jetzt dauerhaft: MC-Optionen dürfen
+  keine Ziffernketten mehr sein, korrekt muss eine echte Menge sein.

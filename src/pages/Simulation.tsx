@@ -8,7 +8,9 @@ import Anlage from '../components/Anlage'
 import AnlagenDiagramm from '../components/AnlagenDiagramm'
 import { ladeAufgaben, ladePruefungen, useDaten } from '../lib/data'
 import { wertungMC } from '../lib/quiz'
+import { wertungZuordnung } from '../lib/zuordnung'
 import { mischeOptionen } from '../lib/lernquiz'
+import ZuordnungFelder from '../components/ZuordnungFelder'
 import { heuteISO, merkeAufgabenErgebnis, merkeErledigt, merkeSimulation } from '../lib/progress'
 import { terminVonNummer } from '../lib/termine'
 import { ihkNote } from '../lib/noten'
@@ -32,6 +34,7 @@ export default function Simulation() {
   const [gestartet, setGestartet] = useState(false)
   const [abgegeben, setAbgegeben] = useState(false)
   const [mcAntworten, setMcAntworten] = useState<Record<string, number[]>>({})
+  const [zuAntworten, setZuAntworten] = useState<Record<string, Record<string, string>>>({})
   const [textAntworten, setTextAntworten] = useState<Record<string, string>>({})
   const [selbst, setSelbst] = useState<Record<string, boolean>>({})
   const [kiStatus, setKiStatus] = useState<KIStatus>('idle')
@@ -72,15 +75,28 @@ export default function Simulation() {
     })
   }
 
+  // MC und Ziffern-Zuordnung werden automatisch gewertet, alles andere
+  // (offen/rechnen) läuft über Selbsteinschätzung bzw. KI.
+  function istAutomatisch(a: Aufgabe): boolean {
+    return a.typ === 'mc' || a.typ === 'zuordnung'
+  }
+
+  function autoRichtig(a: Aufgabe): boolean {
+    if (a.typ === 'zuordnung') {
+      return a.zuordnung ? wertungZuordnung(a.zuordnung, zuAntworten[a.id] ?? {}).richtig : false
+    }
+    return wertungMC(a.korrekt ?? [], mcAntworten[a.id] ?? [])
+  }
+
   function abgeben() {
     setAbgegeben(true)
     const heute = heuteISO()
     let mc = 0
     let mcMax = 0
     liste.forEach((a) => {
-      if (a.typ === 'mc') {
+      if (istAutomatisch(a)) {
         mcMax += a.punkte ?? 1
-        const richtig = wertungMC(a.korrekt ?? [], mcAntworten[a.id] ?? [])
+        const richtig = autoRichtig(a)
         if (richtig) mc += a.punkte ?? 1
         merkeAufgabenErgebnis(a.id, richtig, heute)
       } else {
@@ -97,16 +113,16 @@ export default function Simulation() {
   }
 
   // Auswertung
-  const mcErgebnisse = liste
-    .filter((a) => a.typ === 'mc')
-    .map((a) => ({ a, richtig: wertungMC(a.korrekt ?? [], mcAntworten[a.id] ?? []) }))
-  const mcPunkte = mcErgebnisse.filter((e) => e.richtig).reduce((s, e) => s + (e.a.punkte ?? 1), 0)
+  const autoErgebnisse = liste
+    .filter(istAutomatisch)
+    .map((a) => ({ a, richtig: autoRichtig(a) }))
+  const mcPunkte = autoErgebnisse.filter((e) => e.richtig).reduce((s, e) => s + (e.a.punkte ?? 1), 0)
   const selbstPunkte = liste
-    .filter((a) => a.typ !== 'mc' && selbst[a.id])
+    .filter((a) => !istAutomatisch(a) && selbst[a.id])
     .reduce((s, a) => s + (a.punkte ?? 1), 0)
 
   // KI-Gesamtbericht: alle offenen Aufgaben nacheinander wie ein Korrektor punkten.
-  const offene = liste.filter((a) => a.typ !== 'mc')
+  const offene = liste.filter((a) => !istAutomatisch(a))
   const maxPunkteGesamt = liste.reduce((s, a) => s + (a.punkte ?? 1), 0)
 
   async function kiBerichtErstellen() {
@@ -207,7 +223,8 @@ export default function Simulation() {
             Ergebnis: {mcPunkte + selbstPunkte} von {pruefung.punkteGesamt} Punkten
           </p>
           <p className="text-sm text-slate-600">
-            MC automatisch gewertet · offene Aufgaben nach deiner Selbsteinschätzung unten.
+            MC und Zuordnungen automatisch gewertet · offene Aufgaben nach deiner
+            Selbsteinschätzung unten.
           </p>
 
           {/* KI-Prüfungsbericht mit IHK-Note */}
@@ -250,7 +267,7 @@ export default function Simulation() {
                       </p>
                     </div>
                     <div className="ml-auto text-right text-sm text-slate-500">
-                      <p>MC automatisch: {mcPunkte} P.</p>
+                      <p>Automatisch gewertet: {mcPunkte} P.</p>
                       <p>Offene (KI): {Math.round(kiOffenePunkte * 10) / 10} P.</p>
                     </div>
                   </div>
@@ -312,6 +329,19 @@ export default function Simulation() {
                       )
                     })}
                   </div>
+                ) : a.typ === 'zuordnung' && a.zuordnung ? (
+                  <ZuordnungFelder
+                    zuordnung={a.zuordnung}
+                    antworten={zuAntworten[a.id] ?? {}}
+                    onAntwort={(label, wert) => {
+                      if (abgegeben) return
+                      setZuAntworten((alt) => ({
+                        ...alt,
+                        [a.id]: { ...(alt[a.id] ?? {}), [label]: wert },
+                      }))
+                    }}
+                    abgegeben={abgegeben}
+                  />
                 ) : abgegeben ? (
                   <div className="mt-3">
                     <div className={(textAntworten[a.id] ?? '').trim() ? 'grid gap-2 xl:grid-cols-2' : ''}>
