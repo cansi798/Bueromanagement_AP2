@@ -32,3 +32,6 @@ export function pruefeGenerator(id: string, minWert: number, maxWert: number) {
 pruefeGenerator('dreisatz', 0.01, 1_000_000)
 pruefeGenerator('prozentrechnung', 0.01, 1_000_000)
 pruefeGenerator('zinsrechnung', 1, 1_000_000)
+pruefeGenerator('kg-gewinnverteilung', 1_000, 2_000_000)
+pruefeGenerator('gleichgewichtspreis-umsatz', 1_000, 50_000_000)
+pruefeGenerator('darlehen', 100, 5_000_000)
