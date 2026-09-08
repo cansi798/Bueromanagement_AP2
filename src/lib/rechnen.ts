@@ -18,7 +18,7 @@ const euro = (n: number) => `${formatiereZahl(n)} €`
 function dreisatz(): GenerierteAufgabe {
   const artikel = wahl(['Ordner', 'Druckerpatronen', 'Kopierpapier-Pakete', 'USB-Sticks'])
   const menge1 = zufall(4, 12)
-  const stueckpreis = zufall(2, 15) / 2 // 1,00–7,50 in 50-Cent-Schritten
+  const stueckpreis = zufall(100, 750, 50) / 100 // 1,00–7,50 € in 50-Cent-Schritten
   const preis1 = Math.round(menge1 * stueckpreis * 100) / 100
   const menge2 = zufall(15, 60, 5)
   const loesung = Math.round(menge2 * stueckpreis * 100) / 100
@@ -48,12 +48,13 @@ function prozentrechnung(): GenerierteAufgabe {
   }
   if (variante === 'prozentsatz') {
     const alt = zufall(100_000, 200_000, 10_000)
-    const erhoehung = zufall(10_000, 50_000, 10_000)
-    const loesung = Math.round((erhoehung / alt) * 10_000) / 100
+    const satz = zufall(5, 40, 5) // glatte Prozentsätze: 5%, 10%, 15%, …, 40%
+    const erhoehung = Math.round((alt * satz) / 100)
+    const loesung = satz
     return {
       text: `Das Budget wird von ${euro(alt)} um ${euro(erhoehung)} erhöht. Um wie viel Prozent steigt es?`,
       loesungswert: loesung, einheit: '%', toleranz: 0.01,
-      loesungsweg: `${euro(erhoehung)} ÷ ${euro(alt)} × 100 = **${formatiereZahl(loesung)} %**`,
+      loesungsweg: `Erhöhung ÷ Ausgangswert × 100 = ${formatiereZahl(erhoehung, 0)} ÷ ${formatiereZahl(alt, 0)} × 100 = **${formatiereZahl(loesung)} %**`,
     }
   }
   const netto = zufall(200, 2_000, 50)
