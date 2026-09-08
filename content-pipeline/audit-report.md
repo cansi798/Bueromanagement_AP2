@@ -194,3 +194,66 @@ Adversarial-Prüfung gegen Original + loesung: alle 42 Ziffernfolgen korrekt.
   indikatoren-g1 (Reihenfolge-Single-Choice, funktional).
 - Schema-Audit erzwingt das Muster jetzt dauerhaft: MC-Optionen dürfen
   keine Ziffernketten mehr sein, korrekt muss eine echte Menge sein.
+
+## Rechnen-Kachel (2026-09-08)
+
+**29 Rechnen-Aufgaben eingepflegt** aus 36 Kandidaten-IDs via
+`staging/rechnen-aufgaben.json` + `merge-rechnen.mjs`.
+Alle loesungswerte gegen die loesung-Felder in wiso.json nachgerechnet —
+keine Diskrepanzen gefunden. Schema-Audit + volle Testsuite (139 Tests) grün.
+
+### Übernommene Aufgaben (29)
+
+| Neue ID | Quelle-ID | Kapitel | loesungswert | Sammlung/Aufgabe |
+|---|---|---|---|---|
+| rechnen-kg-01 | wiso-2025s-a6 | kg-gewinnverteilung | 75.000,00 € | 2/6 |
+| rechnen-ggu-01 | wiso-2025s-a13 | gleichgewichtspreis-umsatz | 5.000.000,00 € | 2/13 |
+| rechnen-wirt-01 | wiso-produktionsfaktoren-unternehmensziele-g2 | wirtschaftlichkeit-produktivitaet | 1,25 | (kein quelle — generiert) |
+| rechnen-ggu-02 | wiso-markt-preisbildung-g2 | gleichgewichtspreis-umsatz | 60.000,00 € | (kein quelle — generiert) |
+| rechnen-ggu-03 | wiso-markt-preisbildung-v2 | gleichgewichtspreis-umsatz | 5.600.000,00 € | (kein quelle — generiert) |
+| rechnen-eb-01 | wiso-2024s-a26 | energie-betriebskosten | 15.552,00 € | 1/26 |
+| rechnen-proz-01 | wiso-2022s-a2 | prozentrechnung | 15,38 % | 6/2 |
+| rechnen-kg-02 | wiso-2022w-a1 | kg-gewinnverteilung | 30.000,00 € | 7/1 |
+| rechnen-kg-03 | wiso-2022w-a2 | kg-gewinnverteilung | 420.000,00 € | 7/2 |
+| rechnen-kg-04 | wiso-2022w-a3 | kg-gewinnverteilung | 245.000,00 € | 7/3 |
+| rechnen-ggu-04 | wiso-2022w-a15 | gleichgewichtspreis-umsatz | 2.250.000,00 € | 7/15 |
+| rechnen-ggu-05 | wiso-2023s-a14 | gleichgewichtspreis-umsatz | 1.800,00 € (Preis) | 4/14 |
+| rechnen-ggu-06 | wiso-2023s-a15 | gleichgewichtspreis-umsatz | 1.080.000,00 € | 4/15 |
+| rechnen-ggu-07 | wiso-2023w-a19 | gleichgewichtspreis-umsatz | 55.000,00 € | 5/19 |
+| rechnen-kg-05 | wiso-2024w-a8 | kg-gewinnverteilung | 165.600,00 € | 3/8 |
+| rechnen-kg-06 | wiso-2024w-a9 | kg-gewinnverteilung | 30.000,00 € | 3/9 |
+| rechnen-kg-07 | wiso-2019s-a19 | kg-gewinnverteilung | 550.000,00 € | 12/19 |
+| rechnen-kg-08 | wiso-2019s-a20 | kg-gewinnverteilung | 75.000,00 € | 12/20 |
+| rechnen-leas-01 | wiso-2020s-a5 | leasing | 25.031,08 € | 10/5 |
+| rechnen-kg-09 | wiso-2020w-a8 | kg-gewinnverteilung | 87.500,00 € | 11/8 |
+| rechnen-zins-01 | wiso-2021w-a10 | zinsrechnung | 4.900,00 € | 9/10 |
+| rechnen-ggu-08 | wiso-2021w-a14 | gleichgewichtspreis-umsatz | 1.800,00 € (Preis) | 9/14 |
+| rechnen-ggu-09 | wiso-2021w-a15 | gleichgewichtspreis-umsatz | 5.000.000,00 € | 9/15 |
+| rechnen-ggu-10 | wiso-2017w-a18 | gleichgewichtspreis-umsatz | 2.250.000,00 € | 16/18 |
+| rechnen-zins-02 | wiso-2018s-a10 | zinsrechnung | 2,8 % | 14/10 |
+| rechnen-kg-10 | wiso-2018s-a12 | kg-gewinnverteilung | 32.700,00 € | 14/12 |
+| rechnen-ggu-11 | wiso-2018s-a15 | gleichgewichtspreis-umsatz | 1.800,00 € (Preis) | 14/15 |
+| rechnen-ggu-12 | wiso-2018s-a16 | gleichgewichtspreis-umsatz | 1.080.000,00 € | 14/16 |
+| rechnen-ggu-13 | wiso-2018w-a10 | gleichgewichtspreis-umsatz | 55.000,00 € | 15/10 |
+
+### Ausgelassene IDs (7)
+
+| Quell-ID | Grund |
+|---|---|
+| wiso-rechtsformen-vollmachten-g1 | Reine Wissensfrage (Mindeststammkapital GmbH = 25.000 €) — kein eindeutiges Rechenergebnis; Regel 1 + Brief explizit genannt |
+| wiso-finanzierung-kreditsicherung-v1 | MC, Darlehensart-Erkennung (Abzahlungsdarlehen) — kein Zahlenergebnis |
+| wiso-2025s-a10 | MC, Darlehensart-Erkennung (Annuitätendarlehen) — kein Zahlenergebnis |
+| wiso-2022s-a18 | Schaubild-Ablese ohne tabellare Werte im Text: anlagenText beschreibt nur die Grafik, nennt keine konkreten Koordinaten des Gleichgewichtspunkts — Regel 3 (Schaubild-Aufgabe ohne numerische Daten) |
+| wiso-2020w-a12 | MC, Konjunkturphase benennen (Abschwung/Rezession) — kein Zahlenergebnis |
+| wiso-2020w-a15 | MC, Darlehensart-Erkennung (Annuitätendarlehen) — kein Zahlenergebnis |
+| wiso-2018w-a28 | MC, Darlehensart-Erkennung (Annuitätendarlehen) — kein Zahlenergebnis |
+
+### Verifikation loesungswerte
+
+Alle 29 loesungswerte wurden gegen das loesung-Feld in wiso.json nachgerechnet.
+Keine Diskrepanzen. Hinweis zu wiso-2019s-a20 (rechnen-kg-08): loesung-Feld enthält
+einen redaktionellen Kommentar zu einem alternativen Algorithmus; der Wert 75.000 €
+ist gemäß Angabe im Feld „laut Lösungsschlüssel" die maßgebliche Wahrheit und wurde
+übernommen. Nachrechnung bestätigt: Neuer Kommanditist erhält 20.000 € (4 % auf
+500.000 €) + 55.000 € (1/10 von 550.000 €) = 75.000 € gesamt; um diesen Betrag
+werden die Altgesellschafter schlechtergestellt.

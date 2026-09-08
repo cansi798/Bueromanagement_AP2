@@ -1,34 +1,427 @@
 {
   "kapitel": [
-    { "id": "dreisatz", "gruppe": "grundlagen", "titel": "Dreisatz",
+    {
+      "id": "dreisatz",
+      "gruppe": "grundlagen",
+      "titel": "Dreisatz",
       "kurz": "Gerader und ungerader Dreisatz — das Werkzeug hinter fast jeder Prüfungsrechnung.",
-      "erklaerung": "## Dreisatz\n\nGerade Zuordnung (je mehr, desto mehr):\n\n$$x = \\frac{\\text{Wert} \\cdot \\text{gesuchte Menge}}{\\text{gegebene Menge}}$$", "aufgaben": [] },
-    { "id": "prozentrechnung", "gruppe": "grundlagen", "titel": "Prozentrechnung",
+      "erklaerung": "## Dreisatz\n\nGerade Zuordnung (je mehr, desto mehr):\n\n$$x = \\frac{\\text{Wert} \\cdot \\text{gesuchte Menge}}{\\text{gegebene Menge}}$$",
+      "aufgaben": []
+    },
+    {
+      "id": "prozentrechnung",
+      "gruppe": "grundlagen",
+      "titel": "Prozentrechnung",
       "kurz": "Grundwert, Prozentwert, Prozentsatz — inklusive vermehrtem und vermindertem Grundwert.",
-      "erklaerung": "## Prozentrechnung\n\n$$P = \\frac{G \\cdot p}{100} \\qquad p = \\frac{P \\cdot 100}{G} \\qquad G = \\frac{P \\cdot 100}{p}$$", "aufgaben": [] },
-    { "id": "zinsrechnung", "gruppe": "grundlagen", "titel": "Zinsrechnung",
+      "erklaerung": "## Prozentrechnung\n\n$$P = \\frac{G \\cdot p}{100} \\qquad p = \\frac{P \\cdot 100}{G} \\qquad G = \\frac{P \\cdot 100}{p}$$",
+      "aufgaben": [
+        {
+          "id": "rechnen-proz-01",
+          "text": "Das Budget für Personalentwicklung soll auf 150.000 € erhöht werden. Im vergangenen Jahr betrug es 130.000 €. Berechnen Sie die prozentuale Steigerung! (Ergebnis auf zwei Nachkommastellen runden)",
+          "loesungswert": 15.38,
+          "einheit": "%",
+          "toleranz": 0.05,
+          "loesungsweg": "Prozentuale Steigerung = (Neuwert − Altwert) / Altwert × 100\n= (150.000 € − 130.000 €) / 130.000 € × 100\n= 20.000 € / 130.000 € × 100\n= 15,38 %",
+          "quelle": {
+            "sammlung": 6,
+            "aufgabe": "2"
+          }
+        }
+      ]
+    },
+    {
+      "id": "zinsrechnung",
+      "gruppe": "grundlagen",
+      "titel": "Zinsrechnung",
       "kurz": "Jahres-, Monats- und Tageszinsen nach der kaufmännischen 30/360-Methode.",
-      "erklaerung": "## Zinsrechnung\n\n$$Z = \\frac{K \\cdot p \\cdot t}{100 \\cdot 360}$$", "aufgaben": [] },
-    { "id": "kg-gewinnverteilung", "gruppe": "pruefung", "titel": "KG-Gewinnverteilung",
+      "erklaerung": "## Zinsrechnung\n\n$$Z = \\frac{K \\cdot p \\cdot t}{100 \\cdot 360}$$",
+      "aufgaben": [
+        {
+          "id": "rechnen-zins-01",
+          "text": "Das Unternehmen nimmt am 25.11. ein Fälligkeitsdarlehen in Höhe von 1.800.000,00 € über eine Laufzeit von 6 Jahren zu einem Zinssatz von 2,8 % p. a. auf. Berechnen Sie die Zinsen in €, die das Geschäftskonto in diesem Geschäftsjahr belasten! (Zinsmethode: 30/360)",
+          "loesungswert": 4900,
+          "einheit": "€",
+          "toleranz": 0.01,
+          "loesungsweg": "1. Tage nach 30/360-Methode: November (25.–30.): 5 Tage + Dezember: 30 Tage = 35 Tage\n2. Zinsen = (Kapital × Zinssatz × Tage) / (100 × 360)\n   = (1.800.000 € × 2,8 × 35) / (100 × 360)\n   = 176.400.000 / 36.000\n   = 4.900,00 €",
+          "quelle": {
+            "sammlung": 9,
+            "aufgabe": "10"
+          }
+        },
+        {
+          "id": "rechnen-zins-02",
+          "text": "Das Unternehmen nahm am 12.06. ein Fälligkeitsdarlehen in Höhe von 1.800.000,00 € über eine Laufzeit von 6 Jahren auf. Die Bank berechnete für das laufende Jahr Zinsen in Höhe von 27.720,00 €. Berechnen Sie nach der kaufmännischen Zinsmethode (30/360) den Zinssatz in %, den die Hausbank zugrunde gelegt hat!",
+          "loesungswert": 2.8,
+          "einheit": "%",
+          "toleranz": 0.05,
+          "loesungsweg": "1. Tage nach 30/360: Juni (12.–30.): 18 Tage + Juli–November: 5 × 30 = 150 Tage + Dezember: 30 Tage = 198 Tage\n2. Zinssatz p = (Zinsen × 100 × 360) / (Kapital × Tage)\n   = (27.720 × 100 × 360) / (1.800.000 × 198)\n   = 997.920.000 / 356.400.000\n   = 2,8 %",
+          "quelle": {
+            "sammlung": 14,
+            "aufgabe": "10"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kg-gewinnverteilung",
+      "gruppe": "pruefung",
+      "titel": "KG-Gewinnverteilung",
       "kurz": "4 % Kapitalverzinsung, Restgewinn nach Vertrag oder Köpfen — der häufigste WiSo-Rechentyp.",
-      "erklaerung": "## KG-Gewinnverteilung\n\n$$\\text{Verzinsung je Gesellschafter} = \\text{Einlage} \\cdot 0{,}04$$\n\n$$\\text{Restgewinn} = \\text{Gewinn} - \\text{Summe der Verzinsungen}$$", "aufgaben": [] },
-    { "id": "gleichgewichtspreis-umsatz", "gruppe": "pruefung", "titel": "Gleichgewichtspreis & Umsatz",
+      "erklaerung": "## KG-Gewinnverteilung\n\n$$\\text{Verzinsung je Gesellschafter} = \\text{Einlage} \\cdot 0{,}04$$\n\n$$\\text{Restgewinn} = \\text{Gewinn} - \\text{Summe der Verzinsungen}$$",
+      "aufgaben": [
+        {
+          "id": "rechnen-kg-01",
+          "text": "Im ersten Geschäftsjahr des Tochterunternehmens wurde ein Gewinn in Höhe von 300.000,00 € erwirtschaftet. Der Gewinn wird im Verhältnis der Kapitaleinlage verteilt (Jana Loft 90.000,00 €, Anna Voss 30.000,00 €). Berechnen Sie, welcher Gewinnanteil in € auf Anna Voss entfällt!",
+          "loesungswert": 75000,
+          "einheit": "€",
+          "toleranz": 0.01,
+          "loesungsweg": "1. Gesamtkapital ermitteln: 90.000 € + 30.000 € = 120.000 €\n2. Anteil Anna Voss = 30.000 € / 120.000 € × 300.000 € = 75.000,00 €",
+          "quelle": {
+            "sammlung": 2,
+            "aufgabe": "6"
+          }
+        },
+        {
+          "id": "rechnen-kg-02",
+          "text": "Eine KG hat im Jahr einen Gewinn von 480.000 € erwirtschaftet. Laut Gesellschaftervertrag ist jede Kapitaleinlage mit 6 % zu verzinsen. Die Komplementarin hat eine Kapitaleinlage von 500.000 €. Berechnen Sie, welchen Betrag in € die Komplementarin als Kapitalverzinsung erhält!",
+          "loesungswert": 30000,
+          "einheit": "€",
+          "toleranz": 0.01,
+          "loesungsweg": "Kapitalverzinsung = Kapitaleinlage × Zinssatz = 500.000 € × 6 % = 30.000,00 €",
+          "quelle": {
+            "sammlung": 7,
+            "aufgabe": "1"
+          }
+        },
+        {
+          "id": "rechnen-kg-03",
+          "text": "Berechnen Sie den verbleibenden Restgewinn in €! Gesamtgewinn: 480.000 €. Kapitaleinlagen der Gesellschafter: 500.000 €, 400.000 € und 100.000 €, jeweils mit 6 % verzinst (Summe der Kapitaleinlagen: 1.000.000 €).",
+          "loesungswert": 420000,
+          "einheit": "€",
+          "toleranz": 0.01,
+          "loesungsweg": "1. Summe der Kapitalverzinsung = 1.000.000 € × 6 % = 60.000 €\n2. Restgewinn = 480.000 € − 60.000 € = 420.000,00 €",
+          "quelle": {
+            "sammlung": 7,
+            "aufgabe": "2"
+          }
+        },
+        {
+          "id": "rechnen-kg-04",
+          "text": "Berechnen Sie für die Komplementarin den Anteil am Restgewinn in €! Restgewinn: 420.000 €. Verteilungsverhältnis: 7:3:2 (Komplementarin erhält 7 Teile).",
+          "loesungswert": 245000,
+          "einheit": "€",
+          "toleranz": 0.01,
+          "loesungsweg": "1. Gesamtteile: 7 + 3 + 2 = 12\n2. Anteil Komplementarin = 420.000 € / 12 × 7 = 245.000,00 €",
+          "quelle": {
+            "sammlung": 7,
+            "aufgabe": "3"
+          }
+        },
+        {
+          "id": "rechnen-kg-05",
+          "text": "An der Gesellschaft sind beteiligt: die Komplementarin mit 830.000,00 €, zwei Kommanditisten mit jeweils 350.000,00 € und ein weiterer Kommanditist mit 150.000,00 €. Die Gewinnverteilung sieht vor, dass jeder Gesellschafter eine Verzinsung seines Kapitals in Höhe von 8 % erhält. Das Unternehmen erzielte 300.000,00 € Gewinn; es wurden keine Einlagen und Entnahmen vorgenommen. Berechnen Sie, wie viel € an Gewinn nach Abzug der Verzinsung übrig bleiben!",
+          "loesungswert": 165600,
+          "einheit": "€",
+          "toleranz": 0.01,
+          "loesungsweg": "1. Gesamtkapital: 830.000 + 350.000 + 350.000 + 150.000 = 1.680.000,00 €\n2. Summe Kapitalverzinsung (8 %): 1.680.000 × 0,08 = 134.400,00 €\n3. Restgewinn: 300.000,00 − 134.400,00 = 165.600,00 €",
+          "quelle": {
+            "sammlung": 3,
+            "aufgabe": "8"
+          }
+        },
+        {
+          "id": "rechnen-kg-06",
+          "text": "Gehen Sie von einem Restgewinn von 240.000,00 € aus. Die Komplementarin erhält 5 Anteile, jeder der drei Kommanditisten erhält je 1 Anteil. Berechnen Sie, wie viel € ein Kommanditist (mit 1 Anteil) vom Restgewinn erhält!",
+          "loesungswert": 30000,
+          "einheit": "€",
+          "toleranz": 0.01,
+          "loesungsweg": "1. Gesamtanteile: 5 (Komplementarin) + 1 + 1 + 1 (drei Kommanditisten) = 8 Anteile\n2. Ein Anteil = 240.000,00 € / 8 = 30.000,00 €\n3. Kommanditist mit 1 Anteil erhält: 30.000,00 €",
+          "quelle": {
+            "sammlung": 3,
+            "aufgabe": "9"
+          }
+        },
+        {
+          "id": "rechnen-kg-07",
+          "text": "Ermitteln Sie den Restgewinn in €, nachdem der gesetzlich vorgesehene Prozentsatz (4 % Verzinsung der Kapitaleinlagen) an die Gesellschafter verteilt wurde! Zu verteilender Gewinn: 650.000 €. Kapitaleinlagen der Gesellschafter: insgesamt 2.500.000 €.",
+          "loesungswert": 550000,
+          "einheit": "€",
+          "toleranz": 0.01,
+          "loesungsweg": "1. Summe der Kapitalverzinsung (4 %): 2.500.000 € × 4 % = 100.000 €\n2. Restgewinn: 650.000 € − 100.000 € = 550.000,00 €",
+          "quelle": {
+            "sammlung": 12,
+            "aufgabe": "19"
+          }
+        },
+        {
+          "id": "rechnen-kg-08",
+          "text": "Der Restgewinn von 550.000 € wird bei drei Altgesellschaftern im Verhältnis 7:1:1 verteilt. Ein neuer Kommanditist tritt mit 500.000 € Einlage bei; der Restgewinn wird nun im Verhältnis 7:1:1:1 auf vier Gesellschafter verteilt, der Neue erhält zusätzlich 4 % Kapitalverzinsung auf seine Einlage. Ermitteln Sie den Betrag in €, den die Altgesellschafter insgesamt durch die Aufnahme des neuen Kommanditisten weniger erhalten!",
+          "loesungswert": 75000,
+          "einheit": "€",
+          "toleranz": 0.01,
+          "loesungsweg": "1. Kapitalverzinsung neuer Kommanditist: 500.000 € × 4 % = 20.000 €\n2. Restgewinnanteil neuer Kommanditist: 550.000 € / 10 Anteile × 1 = 55.000 €\n3. Gesamtbezug neu: 20.000 € + 55.000 € = 75.000 €\n4. Um diesen Betrag verringert sich der Gewinn der Altgesellschafter: 75.000,00 €",
+          "quelle": {
+            "sammlung": 12,
+            "aufgabe": "20"
+          }
+        },
+        {
+          "id": "rechnen-kg-09",
+          "text": "Im ersten Geschäftsjahr wurde ein Gewinn von 300.000 € erwirtschaftet. Für die Gewinnverteilung ist keine vertragliche Regelung vereinbart. Berechnen Sie, welcher Gewinnanteil in € auf einen Gesellschafter mit einer Einlage von 35.000 € entfällt! (Gesamtkapital: 85.000 € + 35.000 € = 120.000 €).",
+          "loesungswert": 87500,
+          "einheit": "€",
+          "toleranz": 0.01,
+          "loesungsweg": "Ohne vertragliche Regelung: Verteilung nach Verhältnis der Geschäftsanteile.\nAnteil = 35.000 € / 120.000 € × 300.000 € = 87.500,00 €",
+          "quelle": {
+            "sammlung": 11,
+            "aufgabe": "8"
+          }
+        },
+        {
+          "id": "rechnen-kg-10",
+          "text": "An der KG ist die Komplementarin mit 830.000,00 € beteiligt, die Kommanditisten Anna und Lukas Voss mit insgesamt 700.000,00 €, sowie Herr Mahler mit 150.000,00 €. Laut Gesellschaftsvertrag erhält jeder Gesellschafter zunächst 8 % Verzinsung seiner Kapitaleinlage; von einem Mehrgewinn erhalten Komplementäre je 5 Anteile, Kommanditisten je 1 Anteil. Berechnen Sie den Gewinnanteil in €, der auf Herrn Mahler entfällt, wenn 300.000,00 € Gewinn erzielt wurden!",
+          "loesungswert": 32700,
+          "einheit": "€",
+          "toleranz": 0.01,
+          "loesungsweg": "1. Kapitalverzinsungen (8 %):\n   Komplementarin: 830.000 × 8 % = 66.400 €\n   Anna + Lukas Voss: 700.000 × 8 % = 56.000 €\n   Herr Mahler: 150.000 × 8 % = 12.000 €\n   Summe: 134.400 €\n2. Mehrgewinn: 300.000 − 134.400 = 165.600 €\n3. Anteile: Komplementarin 5, Anna 1, Lukas 1, Mahler 1 = 8 Anteile\n4. Ein Anteil = 165.600 / 8 = 20.700 €\n5. Mahler gesamt: 12.000 (Verzinsung) + 20.700 (Restanteil) = 32.700,00 €",
+          "quelle": {
+            "sammlung": 14,
+            "aufgabe": "12"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gleichgewichtspreis-umsatz",
+      "gruppe": "pruefung",
+      "titel": "Gleichgewichtspreis & Umsatz",
       "kurz": "Markttabellen lesen: Gleichgewichtspreis finden und den Umsatz berechnen.",
-      "erklaerung": "## Gleichgewichtspreis & Umsatz\n\nGleichgewicht: Angebot = Nachfrage.\n\n$$U = p \\cdot m$$", "aufgaben": [] },
-    { "id": "darlehen", "gruppe": "pruefung", "titel": "Darlehen",
+      "erklaerung": "## Gleichgewichtspreis & Umsatz\n\nGleichgewicht: Angebot = Nachfrage.\n\n$$U = p \\cdot m$$",
+      "aufgaben": [
+        {
+          "id": "rechnen-ggu-01",
+          "text": "Berechnen Sie den Umsatz in €, der bei einem Preis von 2.000,00 € von der Jana Loft KG erwartet werden kann! (Bei 2.000,00 € beträgt die Nachfrage 2.500 Stück.)",
+          "loesungswert": 5000000,
+          "einheit": "€",
+          "toleranz": 0.01,
+          "loesungsweg": "Umsatz = Preis × nachgefragte Menge = 2.000,00 € × 2.500 Stück = 5.000.000,00 €",
+          "quelle": {
+            "sammlung": 2,
+            "aufgabe": "13"
+          }
+        },
+        {
+          "id": "rechnen-ggu-02",
+          "text": "Ein Produkt wird zu 50 € verkauft, die nachgefragte Menge beträgt 1.200 Stück. Berechnen Sie den erwarteten Umsatz!",
+          "loesungswert": 60000,
+          "einheit": "€",
+          "toleranz": 0.01,
+          "loesungsweg": "Umsatz = Preis × Menge = 50,00 € × 1.200 Stück = 60.000,00 €"
+        },
+        {
+          "id": "rechnen-ggu-03",
+          "text": "Beim Gleichgewichtspreis von 1.600 € werden 3.500 Stück abgesetzt. Berechnen Sie den Umsatz im Marktgleichgewicht!",
+          "loesungswert": 5600000,
+          "einheit": "€",
+          "toleranz": 0.01,
+          "loesungsweg": "Umsatz = Gleichgewichtspreis × Gleichgewichtsmenge = 1.600,00 € × 3.500 Stück = 5.600.000,00 €"
+        },
+        {
+          "id": "rechnen-ggu-04",
+          "text": "Berechnen Sie den maximalen Umsatz in €, der sich entsprechend dem Schaubild für den Standard-Schreibtisch auf dem Markt ergibt! (Schaubild: Preis-Mengen-Diagramm; Schnittpunkt von Angebot und Nachfrage bei 5.000 Stück / 450,00 €.)",
+          "loesungswert": 2250000,
+          "einheit": "€",
+          "toleranz": 0.01,
+          "loesungsweg": "Maximaler Umsatz = Gleichgewichtspreis × Gleichgewichtsmenge\n= 450,00 € × 5.000 Stück = 2.250.000,00 €",
+          "quelle": {
+            "sammlung": 7,
+            "aufgabe": "15"
+          }
+        },
+        {
+          "id": "rechnen-ggu-05",
+          "text": "Ein Marktforschungsunternehmen hat Angebot und Nachfrage für den Bürostuhl 'Smarty' festgestellt:\n\n| Preis (EUR) | Angebotsmenge (Stück) | Nachfragemenge (Stück) |\n|---|---|---|\n| 1.500 | 300 | 860 |\n| 1.600 | 400 | 750 |\n| 1.700 | 500 | 680 |\n| 1.800 | 600 | 600 |\n| 1.900 | 700 | 520 |\n| 2.000 | 800 | 440 |\n| 2.100 | 900 | 350 |\n\nErmitteln Sie, bei welchem Preis in € der größte Umsatz erzielt wird!",
+          "loesungswert": 1800,
+          "einheit": "€",
+          "toleranz": 0.01,
+          "loesungsweg": "Absetzen lässt sich nur die kleinere der beiden Mengen (Angebot oder Nachfrage).\nUmsatz je Preis:\n* 1.500 € × 300 Stück = 450.000 €\n* 1.600 € × 400 Stück = 640.000 €\n* 1.700 € × 500 Stück = 850.000 €\n* 1.800 € × 600 Stück = 1.080.000 € (groesster Umsatz, Gleichgewicht)\n* 1.900 € × 520 Stück = 988.000 €\n* 2.000 € × 440 Stück = 880.000 €\n* 2.100 € × 350 Stück = 735.000 €\nGrößter Umsatz beim Gleichgewichtspreis 1.800,00 €.",
+          "quelle": {
+            "sammlung": 4,
+            "aufgabe": "14"
+          }
+        },
+        {
+          "id": "rechnen-ggu-06",
+          "text": "Ermitteln Sie den maximal erzielbaren Umsatz in € beim Gleichgewichtspreis von 1.800,00 € (Angebotsmenge = Nachfragemenge = 600 Stück).",
+          "loesungswert": 1080000,
+          "einheit": "€",
+          "toleranz": 0.01,
+          "loesungsweg": "Umsatz = Preis × absetzbare Menge = 1.800,00 € × 600 Stück = 1.080.000,00 €",
+          "quelle": {
+            "sammlung": 4,
+            "aufgabe": "15"
+          }
+        },
+        {
+          "id": "rechnen-ggu-07",
+          "text": "Ein Marktforschungsinstitut hat das Nachfrageverhalten für den Bürostuhl 'Adam' als Nachfragefunktion ermittelt. Das Unternehmen bietet den Stuhl zu einem Preis von 110,00 € an. Ermitteln Sie, welchen Umsatz in € das Unternehmen damit erzielt! (Nachfragewerte: 120,00 € = 250 Stück; 110,00 € = 500 Stück; 90,00 € = 1.000 Stück; 80,00 € = 1.250 Stück.)",
+          "loesungswert": 55000,
+          "einheit": "€",
+          "toleranz": 0.01,
+          "loesungsweg": "1. Nachgefragte Menge bei 110,00 € aus der Tabelle ablesen: 500 Stück\n2. Umsatz = Preis × Menge = 110,00 € × 500 Stück = 55.000,00 €",
+          "quelle": {
+            "sammlung": 5,
+            "aufgabe": "19"
+          }
+        },
+        {
+          "id": "rechnen-ggu-08",
+          "text": "Ermitteln Sie aufgrund der Marktforschungszahlen den Gleichgewichtspreis in € für den Bürostuhl.\n\n| Preis (EUR) | Nachfragemenge (Stück) | Angebotsmenge (Stück) |\n|---|---|---|\n| 2.600 | 1.000 | 5.000 |\n| 2.400 | 1.500 | 4.000 |\n| 2.200 | 2.000 | 3.500 |\n| 2.000 | 2.500 | 3.000 |\n| 1.800 | 3.000 | 3.000 |\n| 1.600 | 3.500 | 2.500 |\n| 1.400 | 4.000 | 2.000 |",
+          "loesungswert": 1800,
+          "einheit": "€",
+          "toleranz": 0.01,
+          "loesungsweg": "Der Gleichgewichtspreis liegt dort, wo Angebot = Nachfrage.\nBei 1.800,00 €: Nachfragemenge = Angebotsmenge = 3.000 Stück → Gleichgewicht.\nGleichgewichtspreis = 1.800,00 €",
+          "quelle": {
+            "sammlung": 9,
+            "aufgabe": "14"
+          }
+        },
+        {
+          "id": "rechnen-ggu-09",
+          "text": "Berechnen Sie den Umsatz in €, der aufgrund der vorliegenden Zahlen bei einem Preis von 2.000,00 € erwartet werden kann! (Bei 2.000,00 € beträgt die Nachfrage 2.500 Stück.)",
+          "loesungswert": 5000000,
+          "einheit": "€",
+          "toleranz": 0.01,
+          "loesungsweg": "Maßgeblich für die absetzbare Menge ist die Nachfrage.\nUmsatz = Preis × Menge = 2.000,00 € × 2.500 Stück = 5.000.000,00 €",
+          "quelle": {
+            "sammlung": 9,
+            "aufgabe": "15"
+          }
+        },
+        {
+          "id": "rechnen-ggu-10",
+          "text": "Berechnen Sie den maximalen Umsatz in €, der sich entsprechend dem Schaubild für den Standard-Schreibtisch auf dem Markt ergibt! (Aus dem Schaubild ergibt sich der Gleichgewichtspreis von 450 € bei einer Menge von 5.000 Stück.)",
+          "loesungswert": 2250000,
+          "einheit": "€",
+          "toleranz": 0.01,
+          "loesungsweg": "Maximaler Umsatz = Gleichgewichtspreis × Gleichgewichtsmenge\n= 450,00 € × 5.000 Stück = 2.250.000,00 €",
+          "quelle": {
+            "sammlung": 16,
+            "aufgabe": "18"
+          }
+        },
+        {
+          "id": "rechnen-ggu-11",
+          "text": "Ein Marktforschungsunternehmen hat Angebot und Nachfrage für den Bürostuhl 'Smarty' festgestellt:\n\n| Preis (EUR) | Angebotsmenge (Stück) | Nachfragemenge (Stück) |\n|---|---|---|\n| 1.500 | 300 | 860 |\n| 1.600 | 400 | 750 |\n| 1.700 | 500 | 680 |\n| 1.800 | 600 | 600 |\n| 1.900 | 700 | 520 |\n| 2.000 | 800 | 440 |\n| 2.100 | 900 | 350 |\n\nErmitteln Sie, bei welchem Preis in € der größte Umsatz erzielt wird!",
+          "loesungswert": 1800,
+          "einheit": "€",
+          "toleranz": 0.01,
+          "loesungsweg": "Absetzen lässt sich nur die kleinere der beiden Mengen (Angebot oder Nachfrage).\nUmsatz je Preis:\n* 1.500 € × 300 Stück = 450.000 €\n* 1.600 € × 400 Stück = 640.000 €\n* 1.700 € × 500 Stück = 850.000 €\n* 1.800 € × 600 Stück = 1.080.000 € (größter Umsatz, Gleichgewicht)\n* 1.900 € × 520 Stück = 988.000 €\n* 2.000 € × 440 Stück = 880.000 €\n* 2.100 € × 350 Stück = 735.000 €\nGrößter Umsatz beim Gleichgewichtspreis 1.800,00 €.",
+          "quelle": {
+            "sammlung": 14,
+            "aufgabe": "15"
+          }
+        },
+        {
+          "id": "rechnen-ggu-12",
+          "text": "Ermitteln Sie den erzielbaren Umsatz in € beim Gleichgewichtspreis von 1.800,00 € (Angebotsmenge = Nachfragemenge = 600 Stück).",
+          "loesungswert": 1080000,
+          "einheit": "€",
+          "toleranz": 0.01,
+          "loesungsweg": "Umsatz = Preis × absetzbare Menge = 1.800,00 € × 600 Stück = 1.080.000,00 €",
+          "quelle": {
+            "sammlung": 14,
+            "aufgabe": "16"
+          }
+        },
+        {
+          "id": "rechnen-ggu-13",
+          "text": "Ein Marktforschungsinstitut hat das Nachfrageverhalten für den Bürostuhl 'Adam' in einer Nachfragefunktion dargestellt. Das Unternehmen bietet den Bürostuhl zu einem Preis von 110,00 € an. Ermitteln Sie, welchen Umsatz in € das Unternehmen damit erzielt! (Laut Nachfragekurve werden bei 110,00 € 500 Stück nachgefragt.)",
+          "loesungswert": 55000,
+          "einheit": "€",
+          "toleranz": 0.01,
+          "loesungsweg": "1. Nachgefragte Menge bei 110,00 € laut Nachfragefunktion: 500 Stück\n2. Umsatz = Preis × Menge = 110,00 € × 500 Stück = 55.000,00 €",
+          "quelle": {
+            "sammlung": 15,
+            "aufgabe": "10"
+          }
+        }
+      ]
+    },
+    {
+      "id": "darlehen",
+      "gruppe": "pruefung",
+      "titel": "Darlehen",
       "kurz": "Fälligkeits-, Tilgungs- und Annuitätendarlehen: Zinsen, Restschuld, Gesamtaufwand.",
-      "erklaerung": "## Darlehen\n\n$$Z_{\\text{Jahr}} = \\text{Restschuld} \\cdot \\frac{p}{100}$$", "aufgaben": [] },
-    { "id": "leasing", "gruppe": "pruefung", "titel": "Leasing",
+      "erklaerung": "## Darlehen\n\n$$Z_{\\text{Jahr}} = \\text{Restschuld} \\cdot \\frac{p}{100}$$",
+      "aufgaben": []
+    },
+    {
+      "id": "leasing",
+      "gruppe": "pruefung",
+      "titel": "Leasing",
       "kurz": "Gesamtkosten über die Laufzeit: Sonderzahlung + Raten + Restwert.",
-      "erklaerung": "## Leasing\n\n$$K_{\\text{gesamt}} = \\text{Sonderzahlung} + \\text{Rate} \\cdot \\text{Monate} \\;(+\\; \\text{Restwert})$$", "aufgaben": [] },
-    { "id": "wirtschaftlichkeit-produktivitaet", "gruppe": "pruefung", "titel": "Wirtschaftlichkeit & Produktivität",
+      "erklaerung": "## Leasing\n\n$$K_{\\text{gesamt}} = \\text{Sonderzahlung} + \\text{Rate} \\cdot \\text{Monate} \\;(+\\; \\text{Restwert})$$",
+      "aufgaben": [
+        {
+          "id": "rechnen-leas-01",
+          "text": "Ermitteln Sie die Leasing-Gesamtkosten für die gesamte Laufzeit in €! Sonderzahlung: 9.820,00 €. Monatsrate (netto): 422,53 €. Laufzeit: 3 Jahre.",
+          "loesungswert": 25031.08,
+          "einheit": "€",
+          "toleranz": 0.01,
+          "loesungsweg": "1. Anzahl Monate: 3 Jahre × 12 = 36 Monate\n2. Summe der Monatsraten: 422,53 € × 36 = 15.211,08 €\n3. Leasing-Gesamtkosten: 9.820,00 € + 15.211,08 € = 25.031,08 €",
+          "quelle": {
+            "sammlung": 10,
+            "aufgabe": "5"
+          }
+        }
+      ]
+    },
+    {
+      "id": "wirtschaftlichkeit-produktivitaet",
+      "gruppe": "pruefung",
+      "titel": "Wirtschaftlichkeit & Produktivität",
       "kurz": "Ertrag durch Aufwand, Output durch Input — Kennzahlen beurteilen.",
-      "erklaerung": "## Wirtschaftlichkeit & Produktivität\n\n$$\\text{Wirtschaftlichkeit} = \\frac{\\text{Ertrag}}{\\text{Aufwand}} \\qquad \\text{Produktivität} = \\frac{\\text{Output}}{\\text{Input}}$$", "aufgaben": [] },
-    { "id": "konjunktur-indikatoren", "gruppe": "pruefung", "titel": "Konjunktur-Indikatoren",
+      "erklaerung": "## Wirtschaftlichkeit & Produktivität\n\n$$\\text{Wirtschaftlichkeit} = \\frac{\\text{Ertrag}}{\\text{Aufwand}} \\qquad \\text{Produktivität} = \\frac{\\text{Output}}{\\text{Input}}$$",
+      "aufgaben": [
+        {
+          "id": "rechnen-wirt-01",
+          "text": "Ein Unternehmen erzielt einen Ertrag von 150.000 € bei einem Aufwand von 120.000 €. Berechnen Sie die Wirtschaftlichkeit!",
+          "loesungswert": 1.25,
+          "einheit": "",
+          "toleranz": 0.01,
+          "loesungsweg": "Wirtschaftlichkeit = Ertrag / Aufwand = 150.000 € / 120.000 € = 1,25\nEin Wert größer als 1 zeigt wirtschaftliches Arbeiten an."
+        }
+      ]
+    },
+    {
+      "id": "konjunktur-indikatoren",
+      "gruppe": "pruefung",
+      "titel": "Konjunktur-Indikatoren",
       "kurz": "Inflationsrate, Arbeitslosenquote und prozentuale Veränderungen berechnen.",
-      "erklaerung": "## Konjunktur-Indikatoren\n\n$$\\text{Inflationsrate} = \\frac{\\text{VPI}_{\\text{neu}} - \\text{VPI}_{\\text{alt}}}{\\text{VPI}_{\\text{alt}}} \\cdot 100$$", "aufgaben": [] },
-    { "id": "energie-betriebskosten", "gruppe": "pruefung", "titel": "Energie- & Betriebskosten",
+      "erklaerung": "## Konjunktur-Indikatoren\n\n$$\\text{Inflationsrate} = \\frac{\\text{VPI}_{\\text{neu}} - \\text{VPI}_{\\text{alt}}}{\\text{VPI}_{\\text{alt}}} \\cdot 100$$",
+      "aufgaben": []
+    },
+    {
+      "id": "energie-betriebskosten",
+      "gruppe": "pruefung",
+      "titel": "Energie- & Betriebskosten",
       "kurz": "Verbrauch mal Preis — Kosten und Einsparungen in Euro und Prozent.",
-      "erklaerung": "## Energie- & Betriebskosten\n\n$$K = \\text{Leistung (kW)} \\cdot \\text{Stunden} \\cdot \\text{Preis je kWh}$$", "aufgaben": [] }
+      "erklaerung": "## Energie- & Betriebskosten\n\n$$K = \\text{Leistung (kW)} \\cdot \\text{Stunden} \\cdot \\text{Preis je kWh}$$",
+      "aufgaben": [
+        {
+          "id": "rechnen-eb-01",
+          "text": "Der Stromverbrauch für die Beleuchtungsanlage beträgt 72 Kilowatt pro Stunde. Die Kosten pro Kilowattstunde betragen 0,20 €. Die Beleuchtungsdauer beträgt durchschnittlich 500 Stunden pro Monat. Durch die Installation von Bewegungsmeldern reduziert sich die Beleuchtungsdauer um 18 % pro Monat. Berechnen Sie, wie viel Euro pro Jahr bei Verwendung der Bewegungsmelder eingespart werden!",
+          "loesungswert": 15552,
+          "einheit": "€",
+          "toleranz": 0.01,
+          "loesungsweg": "1. Jährliche Beleuchtungsstunden ohne Melder: 500 h × 12 = 6.000 h\n2. Einsparung pro Monat: 500 h × 18 % = 90 h\n3. Jährliche Einsparung an Stunden: 90 h × 12 = 1.080 h\n4. Kosteneinsparung: 1.080 h × 72 kW × 0,20 €/kWh = 15.552,00 €",
+          "quelle": {
+            "sammlung": 1,
+            "aufgabe": "26"
+          }
+        }
+      ]
+    }
   ]
 }
