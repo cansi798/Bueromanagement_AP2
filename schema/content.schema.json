@@ -288,6 +288,49 @@
         "kategorie": { "type": "string", "minLength": 1 }
       }
     },
-    "formelListe": { "type": "array", "items": { "$ref": "#/$defs/formelEintrag" }, "minItems": 1 }
+    "formelListe": { "type": "array", "items": { "$ref": "#/$defs/formelEintrag" }, "minItems": 1 },
+    "rechnenAufgabe": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "text", "loesungswert", "einheit", "toleranz", "loesungsweg"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "text": { "type": "string", "minLength": 1 },
+        "loesungswert": { "type": "number" },
+        "einheit": { "type": "string" },
+        "toleranz": { "type": "number", "minimum": 0 },
+        "loesungsweg": { "type": "string", "minLength": 1 },
+        "quelle": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["sammlung", "aufgabe"],
+          "properties": {
+            "sammlung": { "type": "integer", "minimum": 1 },
+            "aufgabe": { "type": "string", "minLength": 1 }
+          }
+        }
+      }
+    },
+    "rechnenKapitel": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "gruppe", "titel", "kurz", "erklaerung", "aufgaben"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "gruppe": { "enum": ["grundlagen", "pruefung"] },
+        "titel": { "type": "string", "minLength": 1 },
+        "kurz": { "type": "string", "minLength": 1 },
+        "erklaerung": { "type": "string", "minLength": 1 },
+        "aufgaben": { "type": "array", "items": { "$ref": "#/$defs/rechnenAufgabe" } }
+      }
+    },
+    "rechnenDatei": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kapitel"],
+      "properties": {
+        "kapitel": { "type": "array", "items": { "$ref": "#/$defs/rechnenKapitel" }, "minItems": 10, "maxItems": 10 }
+      }
+    }
   }
 }

@@ -8,6 +8,7 @@ import type {
   Karteikarte,
   Lernpaar,
   Pruefung,
+  RechnenKapitel,
   Thema,
 } from '../types'
 
@@ -35,6 +36,7 @@ export const ladeKarteikarten = (b: BereichId) => lade<Karteikarte[]>(`karteikar
 export const ladeLernpaare = (b: BereichId) => lade<Lernpaar[]>(`lernpaare/${b}.json`)
 export const ladeGlossar = () => lade<GlossarEintrag[]>('glossar.json')
 export const ladeFormeln = () => lade<FormelEintrag[]>('formeln.json')
+export const ladeRechnen = () => lade<{ kapitel: RechnenKapitel[] }>('rechnen.json')
 
 export function useDaten<T>(loader: () => Promise<T>): {
   daten: T | null

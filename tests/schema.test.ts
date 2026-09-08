@@ -44,6 +44,9 @@ describe('Content-Schema-Audit', () => {
   if (existsSync(join(dataDir, 'formeln.json'))) {
     it('formeln.json ist gültig', () => validate('formelListe', join(dataDir, 'formeln.json')))
   }
+  if (existsSync(join(dataDir, 'rechnen.json'))) {
+    it('rechnen.json ist gültig', () => validate('rechnenDatei', join(dataDir, 'rechnen.json')))
+  }
 })
 
 describe('Zuordnungs-Typ im Schema', () => {
@@ -111,6 +114,32 @@ describe('Zuordnungs-Typ im Schema', () => {
         zuordnung: { ...zuordnung, items: [{ label: 'a', text: 'X', korrekt: 9 }, { label: 'b', text: 'Y', korrekt: 1 }] },
       }),
     ).toBe(true)
+  })
+})
+
+describe('Rechnen-Kapitel', () => {
+  const datei = JSON.parse(readFileSync(join(dataDir, 'rechnen.json'), 'utf8'))
+
+  it('enthält genau die 10 Kapitel der Spec in Gruppen', () => {
+    const ids = datei.kapitel.map((k: { id: string }) => k.id)
+    expect(ids).toEqual([
+      'dreisatz', 'prozentrechnung', 'zinsrechnung',
+      'kg-gewinnverteilung', 'gleichgewichtspreis-umsatz', 'darlehen', 'leasing',
+      'wirtschaftlichkeit-produktivitaet', 'konjunktur-indikatoren', 'energie-betriebskosten',
+    ])
+    for (const k of datei.kapitel.slice(0, 3)) expect(k.gruppe).toBe('grundlagen')
+    for (const k of datei.kapitel.slice(3)) expect(k.gruppe).toBe('pruefung')
+  })
+
+  it('Aufgaben-IDs sind eindeutig, Toleranzen nicht negativ', () => {
+    const ids = new Set<string>()
+    for (const k of datei.kapitel) {
+      for (const a of k.aufgaben) {
+        expect(ids.has(a.id), `Rechnen-Aufgabe doppelt: ${a.id}`).toBe(false)
+        ids.add(a.id)
+        expect(a.toleranz).toBeGreaterThanOrEqual(0)
+      }
+    }
   })
 })
 
