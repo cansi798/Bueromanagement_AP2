@@ -118,7 +118,7 @@ function kgGewinnverteilung(): GenerierteAufgabe {
 function gleichgewichtspreisUmsatz(): GenerierteAufgabe {
   const preise = [1_200, 1_400, 1_600, 1_800, 2_000]
   const ggIndex = zufall(1, 3)
-  const menge = zufall(2_000, 5_000, 500)
+  const menge = zufall(3_000, 5_000, 500)
   // Nachfrage fällt, Angebot steigt — am GG-Index sind beide gleich.
   const schrittN = zufall(400, 800, 100)
   const schrittA = zufall(400, 800, 100)
