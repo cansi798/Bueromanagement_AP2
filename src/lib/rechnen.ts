@@ -195,7 +195,7 @@ function wirtschaftlichkeitProduktivitaet(): GenerierteAufgabe {
     const loesung = Math.round((ertrag / aufwand) * 100) / 100
     return {
       text: `Ein Unternehmen erzielt einen Ertrag von ${euro(ertrag)} bei einem Aufwand von ${euro(aufwand)}. Berechnen Sie die Wirtschaftlichkeit (2 Nachkommastellen)!`,
-      loesungswert: loesung, einheit: 'Kennzahl', toleranz: 0.01,
+      loesungswert: loesung, einheit: '', toleranz: 0.01,
       loesungsweg: `Wirtschaftlichkeit = Ertrag ÷ Aufwand = ${formatiereZahl(ertrag, 0)} ÷ ${formatiereZahl(aufwand, 0)} = **${formatiereZahl(loesung)}** (> 1 → wirtschaftlich)`,
     }
   }

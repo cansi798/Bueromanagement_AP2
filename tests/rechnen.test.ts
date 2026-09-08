@@ -16,7 +16,8 @@ export function pruefeGenerator(id: string, minWert: number, maxWert: number) {
         expect(a.loesungswert).toBeLessThanOrEqual(maxWert)
         expect(a.text.length).toBeGreaterThan(20)
         expect(a.toleranz).toBeGreaterThanOrEqual(0)
-        expect(a.einheit.length).toBeGreaterThan(0)
+        // Einheit ist eine Zeichenkette (kann leer sein für Kennzahlen ohne physische Einheit)
+        expect(typeof a.einheit).toBe('string')
         // Lösungsweg endet nachvollziehbar mit dem formatierten Endwert.
         expect(
           a.loesungsweg.includes(formatiereZahl(a.loesungswert)) ||
