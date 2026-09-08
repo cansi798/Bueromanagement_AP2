@@ -5,7 +5,7 @@
       "gruppe": "grundlagen",
       "titel": "Dreisatz",
       "kurz": "Gerader und ungerader Dreisatz — das Werkzeug hinter fast jeder Prüfungsrechnung.",
-      "erklaerung": "## Dreisatz\n\nGerade Zuordnung (je mehr, desto mehr):\n\n$$x = \\frac{\\text{Wert} \\cdot \\text{gesuchte Menge}}{\\text{gegebene Menge}}$$",
+      "erklaerung": "## Dreisatz\n\nDer Dreisatz löst fast jede Verhältnisaufgabe in drei Schritten: erst auf **eine Einheit**\nzurückrechnen, dann auf die gesuchte Menge hochrechnen. Bei gerader Zuordnung gilt\n„je mehr, desto mehr“ (Menge ↔ Preis), bei ungerader „je mehr, desto weniger“\n(Arbeiter ↔ Tage).\n\n$$x = \\frac{\\text{Wert} \\cdot \\text{gesuchte Menge}}{\\text{gegebene Menge}}$$\n\n**Mini-Beispiel:** 8 Ordner kosten 20,00 €. Was kosten 30 Ordner?\n\n1. 1 Ordner: 20,00 € ÷ 8 = 2,50 €\n2. 30 Ordner: 2,50 € × 30 = **75,00 €**\n\n**Ungerade Zuordnung:** 4 Kräfte brauchen 6 Tage → 8 Kräfte brauchen\n4 × 6 ÷ 8 = **3 Tage**.",
       "aufgaben": []
     },
     {
@@ -13,7 +13,7 @@
       "gruppe": "grundlagen",
       "titel": "Prozentrechnung",
       "kurz": "Grundwert, Prozentwert, Prozentsatz — inklusive vermehrtem und vermindertem Grundwert.",
-      "erklaerung": "## Prozentrechnung\n\n$$P = \\frac{G \\cdot p}{100} \\qquad p = \\frac{P \\cdot 100}{G} \\qquad G = \\frac{P \\cdot 100}{p}$$",
+      "erklaerung": "## Prozentrechnung\n\nDrei Grundgrößen: **Grundwert G** (= 100 %), **Prozentwert P** (der gesuchte Teil) und **Prozentsatz p**. Jede der drei Größen lässt sich aus den anderen beiden berechnen. Liegt ein **vermehrter Grundwert** vor (z. B. Bruttobetrag inkl. 19 % USt.), wird der Nettobetrag durch Division durch 1,19 ermittelt.\n\n$$P = \\frac{G \\cdot p}{100} \\qquad p = \\frac{P \\cdot 100}{G} \\qquad G = \\frac{P \\cdot 100}{p}$$\n\n$$G_{\\text{Netto}} = \\frac{\\text{Brutto}}{1{,}19}$$\n\n**Mini-Beispiel:** Ein Artikel kostet netto 8.000,00 €. Wie hoch ist die Umsatzsteuer (19 %)?\n\n1. USt. = 8.000,00 € × 19 ÷ 100 = **1.520,00 €**\n2. Brutto = 8.000,00 € + 1.520,00 € = **9.520,00 €**\n\n**Gegenprobe (vermehrter Grundwert):** 9.520,00 € ÷ 1,19 = **8.000,00 €** ✓",
       "aufgaben": [
         {
           "id": "rechnen-proz-01",
@@ -34,7 +34,7 @@
       "gruppe": "grundlagen",
       "titel": "Zinsrechnung",
       "kurz": "Jahres-, Monats- und Tageszinsen nach der kaufmännischen 30/360-Methode.",
-      "erklaerung": "## Zinsrechnung\n\n$$Z = \\frac{K \\cdot p \\cdot t}{100 \\cdot 360}$$",
+      "erklaerung": "## Zinsrechnung\n\nZinsen entstehen durch Überlassung von Kapital über eine bestimmte Zeit. Die kaufmännische **30/360-Methode** setzt jeden Monat mit genau 30 Tagen und jedes Jahr mit genau 360 Tagen an — unabhängig vom tatsächlichen Kalender. So ergibt sich eine einfache, prüfungsrelevante Formel.\n\n$$Z = \\frac{K \\cdot p \\cdot t}{100 \\cdot 360}$$\n\nDabei: K = Kapital in €, p = Zinssatz in %, t = Laufzeit in Tagen (Monate × 30, Jahr = 360).\n\n**Mini-Beispiel:** Kapital 10.000,00 €, Zinssatz 3 % p. a., Laufzeit 3 Monate (= 90 Tage).\n\n$$Z = \\frac{10.000{,}00 \\cdot 3 \\cdot 90}{100 \\cdot 360} = \\frac{2.700.000}{36.000} = \\textbf{75{,}00 €}$$",
       "aufgaben": [
         {
           "id": "rechnen-zins-01",
@@ -67,7 +67,7 @@
       "gruppe": "pruefung",
       "titel": "KG-Gewinnverteilung",
       "kurz": "4 % Kapitalverzinsung, Restgewinn nach Vertrag oder Köpfen — der häufigste WiSo-Rechentyp.",
-      "erklaerung": "## KG-Gewinnverteilung\n\n$$\\text{Verzinsung je Gesellschafter} = \\text{Einlage} \\cdot 0{,}04$$\n\n$$\\text{Restgewinn} = \\text{Gewinn} - \\text{Summe der Verzinsungen}$$",
+      "erklaerung": "## KG-Gewinnverteilung\n\nBei der Kommanditgesellschaft erfolgt die Gewinnverteilung in zwei Stufen: Zunächst erhält jeder Gesellschafter eine **Verzinsung seiner Kapitaleinlage** (laut Vertrag, gesetzlicher Regelfall 4 % nach § 168 HGB). Den verbleibenden **Restgewinn** verteilt der Gesellschaftsvertrag — fehlt eine Regelung, gilt „angemessene” Verteilung.\n\n$$\\text{Verzinsung je Gesellschafter} = \\text{Einlage} \\cdot 0{,}04$$\n\n$$\\text{Restgewinn} = \\text{Gewinn} - \\Sigma\\,\\text{Verzinsungen}$$\n\n**Mini-Beispiel:** KG mit Gewinn 24.000,00 €. Komplementärin A: Einlage 60.000,00 €; Kommanditist B: Einlage 40.000,00 €. Restgewinnverteilung 3:2.\n\n1. Verzinsung A: 60.000,00 € × 4 % = 2.400,00 €\n2. Verzinsung B: 40.000,00 € × 4 % = 1.600,00 €\n3. Restgewinn: 24.000,00 € − 4.000,00 € = 20.000,00 €\n4. Restanteil A (3/5): 20.000,00 € × 3/5 = 12.000,00 €\n5. Restanteil B (2/5): 20.000,00 € × 2/5 = 8.000,00 €\n6. Gesamt A: 2.400,00 € + 12.000,00 € = **14.400,00 €** | Gesamt B: 1.600,00 € + 8.000,00 € = **9.600,00 €**\n\nProbe: 14.400,00 € + 9.600,00 € = 24.000,00 € ✓",
       "aufgaben": [
         {
           "id": "rechnen-kg-01",
@@ -196,7 +196,7 @@
       "gruppe": "pruefung",
       "titel": "Gleichgewichtspreis & Umsatz",
       "kurz": "Markttabellen lesen: Gleichgewichtspreis finden und den Umsatz berechnen.",
-      "erklaerung": "## Gleichgewichtspreis & Umsatz\n\nGleichgewicht: Angebot = Nachfrage.\n\n$$U = p \\cdot m$$",
+      "erklaerung": "## Gleichgewichtspreis & Umsatz\n\nDer **Gleichgewichtspreis** ist der Preis, bei dem angebotene und nachgefragte Menge übereinstimmen. In der Prüfung wird er aus einer Markttabelle abgelesen. Der **Umsatz** ergibt sich aus Preis mal absetzbarer Menge — maßgeblich ist stets die kleinere der beiden Mengen (Angebot oder Nachfrage). Der maximale Umsatz liegt beim Gleichgewichtspreis.\n\n$$U = p \\cdot m \\quad \\text{(Gleichgewicht: Angebot = Nachfrage)}$$\n\n**Mini-Beispiel:**\n\n| Preis (€) | Angebot (Stück) | Nachfrage (Stück) | Umsatz (€) |\n|-----------|-----------------|-------------------|------------|\n| 30        | 40              | 120               | 30 × 40 = 1.200 |\n| 50        | 80              | 80                | 50 × 80 = **4.000** |\n| 70        | 120             | 40                | 70 × 40 = 2.800 |\n\nGleichgewichtspreis: **50,00 €** (Angebot = Nachfrage = 80 Stück); maximaler Umsatz: **4.000,00 €**.",
       "aufgaben": [
         {
           "id": "rechnen-ggu-01",
@@ -353,7 +353,7 @@
       "gruppe": "pruefung",
       "titel": "Darlehen",
       "kurz": "Fälligkeits-, Tilgungs- und Annuitätendarlehen: Zinsen, Restschuld, Gesamtaufwand.",
-      "erklaerung": "## Darlehen\n\n$$Z_{\\text{Jahr}} = \\text{Restschuld} \\cdot \\frac{p}{100}$$",
+      "erklaerung": "## Darlehen\n\nDrei Darlehensarten sind prüfungsrelevant: Beim **Fälligkeitsdarlehen** bleibt die Restschuld konstant, nur Zinsen werden jährlich gezahlt, die Tilgung erfolgt am Ende. Beim **Tilgungsdarlehen** ist die Tilgungsrate konstant, die Zinsen sinken jährlich. Bei der **Annuität** ist die Gesamtrate (Zins + Tilgung) konstant — der Zinsanteil sinkt, der Tilgungsanteil steigt.\n\n$$Z_{\\text{Jahr}} = \\text{Restschuld} \\cdot \\frac{p}{100} \\qquad \\text{Annuität} = Z + T = \\text{konstant}$$\n\n**Mini-Beispiel Tilgungsdarlehen:** 12.000,00 €, 3 Jahre, 5 % p. a., Tilgung 4.000,00 €/Jahr.\n\n| Jahr | Restschuld | Zinsen | Tilgung | Annuität |\n|------|-----------|--------|---------|----------|\n| 1    | 12.000,00 € | 600,00 € | 4.000,00 € | 4.600,00 € |\n| 2    | 8.000,00 € | 400,00 € | 4.000,00 € | 4.400,00 € |\n| 3    | 4.000,00 € | 200,00 € | 4.000,00 € | 4.200,00 € |\n\nGesamtzinsen: 600,00 € + 400,00 € + 200,00 € = **1.200,00 €** | Gesamtaufwand: **13.200,00 €**\n\n**Fälligkeitsdarlehen (Vergleich):** 10.000,00 €, 3 Jahre, 4 %. Jahreszins = 10.000,00 € × 4 % = 400,00 €; Gesamtzinsen = 400,00 € × 3 = **1.200,00 €**.",
       "aufgaben": []
     },
     {
@@ -361,7 +361,7 @@
       "gruppe": "pruefung",
       "titel": "Leasing",
       "kurz": "Gesamtkosten über die Laufzeit: Sonderzahlung + Raten + Restwert.",
-      "erklaerung": "## Leasing\n\n$$K_{\\text{gesamt}} = \\text{Sonderzahlung} + \\text{Rate} \\cdot \\text{Monate} \\;(+\\; \\text{Restwert})$$",
+      "erklaerung": "## Leasing\n\nLeasing ist eine Finanzierungsalternative zum Kauf: Der Leasingnehmer zahlt monatliche Raten, oft zuzüglich einer **Sonderzahlung** bei Vertragsbeginn. Am Ende der Laufzeit kann ein **Restwert** anfallen (bei Restwertleasing). Für die Prüfungsfrage „Kauf oder Leasing?” werden die Leasinggesamtkosten dem Kaufpreis gegenübergestellt.\n\n$$K_{\\text{gesamt}} = \\text{Sonderzahlung} + \\text{Rate} \\cdot \\text{Monate} \\;(+\\; \\text{Restwert})$$\n\n**Mini-Beispiel:** Sonderzahlung 2.000,00 €, Monatsrate 300,00 €, Laufzeit 24 Monate, kein Restwert. Kaufpreis: 10.000,00 €.\n\n1. Summe Raten: 300,00 € × 24 = 7.200,00 €\n2. Leasing-Gesamtkosten: 2.000,00 € + 7.200,00 € = **9.200,00 €**\n3. Vergleich: 9.200,00 € < 10.000,00 € → **Leasing ist günstiger** (Differenz: 800,00 €).",
       "aufgaben": [
         {
           "id": "rechnen-leas-01",
@@ -382,7 +382,7 @@
       "gruppe": "pruefung",
       "titel": "Wirtschaftlichkeit & Produktivität",
       "kurz": "Ertrag durch Aufwand, Output durch Input — Kennzahlen beurteilen.",
-      "erklaerung": "## Wirtschaftlichkeit & Produktivität\n\n$$\\text{Wirtschaftlichkeit} = \\frac{\\text{Ertrag}}{\\text{Aufwand}} \\qquad \\text{Produktivität} = \\frac{\\text{Output}}{\\text{Input}}$$",
+      "erklaerung": "## Wirtschaftlichkeit & Produktivität\n\n**Wirtschaftlichkeit** misst, ob ein Betrieb seine Ressourcen wertmäßig sinnvoll einsetzt: Ein Ergebnis > 1 bedeutet wirtschaftliches Arbeiten (Ertrag übersteigt Aufwand). **Produktivität** ist eine reine Mengengröße: Output-Menge geteilt durch Input-Menge — keine Geldbeträge!\n\n$$\\text{Wirtschaftlichkeit} = \\frac{\\text{Ertrag}}{\\text{Aufwand}} \\qquad (> 1 = \\text{wirtschaftlich})$$\n\n$$\\text{Produktivität} = \\frac{\\text{Output (Menge)}}{\\text{Input (Menge)}}$$\n\n**Mini-Beispiel Wirtschaftlichkeit:** Ertrag 90.000,00 €, Aufwand 75.000,00 €.\n\n$$W = \\frac{90.000}{75.000} = \\textbf{1{,}20} \\quad \\Rightarrow \\text{wirtschaftlich}$$\n\n**Mini-Beispiel Produktivität:** Eine Maschine produziert 480 Stück in 8 Stunden.\n\n$$\\text{Produktivität} = \\frac{480 \\text{ Stück}}{8 \\text{ h}} = \\textbf{60 Stück/h}$$",
       "aufgaben": [
         {
           "id": "rechnen-wirt-01",
@@ -399,7 +399,7 @@
       "gruppe": "pruefung",
       "titel": "Konjunktur-Indikatoren",
       "kurz": "Inflationsrate, Arbeitslosenquote und prozentuale Veränderungen berechnen.",
-      "erklaerung": "## Konjunktur-Indikatoren\n\n$$\\text{Inflationsrate} = \\frac{\\text{VPI}_{\\text{neu}} - \\text{VPI}_{\\text{alt}}}{\\text{VPI}_{\\text{alt}}} \\cdot 100$$",
+      "erklaerung": "## Konjunktur-Indikatoren\n\nKonjunkturelle Lage lässt sich mit wenigen Kennzahlen quantifizieren. Die **Inflationsrate** zeigt die prozentuale Veränderung des Verbraucherpreisindex (VPI) gegenüber dem Vorjahr. Die **Arbeitslosenquote** setzt die registrierten Arbeitslosen ins Verhältnis zu allen zivilen Erwerbspersonen (Erwerbstätige + Arbeitslose).\n\n$$\\text{Inflationsrate} = \\frac{\\text{VPI}_{\\text{neu}} - \\text{VPI}_{\\text{alt}}}{\\text{VPI}_{\\text{alt}}} \\cdot 100$$\n\n$$\\text{Arbeitslosenquote} = \\frac{\\text{Arbeitslose}}{\\text{zivile Erwerbspersonen}} \\cdot 100$$\n\n**Mini-Beispiel Inflation:** VPI Vorjahr 112,00 → VPI aktuell 116,48.\n\n$$\\text{Inflationsrate} = \\frac{116{,}48 - 112{,}00}{112{,}00} \\cdot 100 = \\frac{4{,}48}{112{,}00} \\cdot 100 = \\textbf{4{,}00\\,\\%}$$\n\n**Mini-Beispiel Arbeitslosenquote:** 200.000 Arbeitslose, 2.000.000 zivile Erwerbspersonen.\n\n$$\\text{ALQ} = \\frac{200.000}{2.000.000} \\cdot 100 = \\textbf{10{,}00\\,\\%}$$",
       "aufgaben": []
     },
     {
@@ -407,7 +407,7 @@
       "gruppe": "pruefung",
       "titel": "Energie- & Betriebskosten",
       "kurz": "Verbrauch mal Preis — Kosten und Einsparungen in Euro und Prozent.",
-      "erklaerung": "## Energie- & Betriebskosten\n\n$$K = \\text{Leistung (kW)} \\cdot \\text{Stunden} \\cdot \\text{Preis je kWh}$$",
+      "erklaerung": "## Energie- & Betriebskosten\n\nEnergieverbrauch und -kosten lassen sich in drei Schritten berechnen: Leistung (kW) mal Zeit (h) ergibt den **Verbrauch in kWh**, multipliziert mit dem Strompreis ergibt die **Kosten in €**. Einsparungen werden prozentual auf die alten Kosten bezogen.\n\n$$\\text{Verbrauch} = \\text{Leistung (kW)} \\cdot \\text{Zeit (h)} \\qquad K = \\text{kWh} \\cdot \\text{Preis je kWh}$$\n\n$$\\text{Einsparung in %} = \\frac{\\text{Ersparnis}}{\\text{alte Kosten}} \\cdot 100$$\n\n**Mini-Beispiel:** Kaffeemaschine 2 kW, täglich 5 Stunden, 20 Arbeitstage/Monat, Strompreis 0,30 €/kWh. Neue Maschine leistet nur 1,5 kW.\n\n1. Alte Monatskosten: 2 kW × 5 h × 20 Tage × 0,30 €/kWh = **60,00 €**\n2. Neue Monatskosten: 1,5 kW × 5 h × 20 Tage × 0,30 €/kWh = **45,00 €**\n3. Ersparnis: 60,00 € − 45,00 € = 15,00 €\n4. Einsparung in %: 15,00 € ÷ 60,00 € × 100 = **25,00 %**",
       "aufgaben": [
         {
           "id": "rechnen-eb-01",
