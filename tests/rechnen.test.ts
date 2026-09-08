@@ -35,3 +35,15 @@ pruefeGenerator('zinsrechnung', 1, 1_000_000)
 pruefeGenerator('kg-gewinnverteilung', 1_000, 2_000_000)
 pruefeGenerator('gleichgewichtspreis-umsatz', 1_000, 50_000_000)
 pruefeGenerator('darlehen', 100, 5_000_000)
+pruefeGenerator('leasing', 1_000, 500_000)
+pruefeGenerator('wirtschaftlichkeit-produktivitaet', 0.1, 100_000)
+pruefeGenerator('konjunktur-indikatoren', 0.1, 100)
+pruefeGenerator('energie-betriebskosten', 1, 500_000)
+
+it('GENERATOREN deckt exakt die 10 Kapitel-IDs ab', () => {
+  expect(Object.keys(GENERATOREN).sort()).toEqual([
+    'darlehen', 'dreisatz', 'energie-betriebskosten', 'gleichgewichtspreis-umsatz',
+    'kg-gewinnverteilung', 'konjunktur-indikatoren', 'leasing', 'prozentrechnung',
+    'wirtschaftlichkeit-produktivitaet', 'zinsrechnung',
+  ])
+})

@@ -170,6 +170,83 @@ function darlehen(): GenerierteAufgabe {
   }
 }
 
+function leasing(): GenerierteAufgabe {
+  const sonderzahlung = zufall(5_000, 20_000, 1_000)
+  const rate = zufall(800, 3_000, 100)
+  const monate = wahl([24, 36, 48])
+  const mitRestwert = Math.random() < 0.5
+  const restwert = mitRestwert ? zufall(5_000, 30_000, 1_000) : 0
+  const gesamt = sonderzahlung + rate * monate + restwert
+  return {
+    text: `Für einen Firmenwagen gilt: Leasing-Sonderzahlung ${euro(sonderzahlung)}, monatliche Rate ${euro(rate)}, Laufzeit ${monate} Monate${mitRestwert ? `, Übernahme zum Restwert von ${euro(restwert)} am Ende` : ''}. Berechnen Sie die Leasing-Gesamtkosten!`,
+    loesungswert: gesamt, einheit: '€', toleranz: 0.01,
+    loesungsweg: [
+      `Raten: ${euro(rate)} × ${monate} = ${euro(rate * monate)}`,
+      `Gesamt: ${euro(sonderzahlung)} + ${euro(rate * monate)}${mitRestwert ? ` + ${euro(restwert)}` : ''} = **${euro(gesamt)}**`,
+    ].join('\n\n'),
+  }
+}
+
+function wirtschaftlichkeitProduktivitaet(): GenerierteAufgabe {
+  if (Math.random() < 0.5) {
+    const aufwand = zufall(80_000, 400_000, 20_000)
+    const faktor = zufall(105, 140, 5) / 100
+    const ertrag = Math.round(aufwand * faktor)
+    const loesung = Math.round((ertrag / aufwand) * 100) / 100
+    return {
+      text: `Ein Unternehmen erzielt einen Ertrag von ${euro(ertrag)} bei einem Aufwand von ${euro(aufwand)}. Berechnen Sie die Wirtschaftlichkeit (2 Nachkommastellen)!`,
+      loesungswert: loesung, einheit: 'Kennzahl', toleranz: 0.01,
+      loesungsweg: `Wirtschaftlichkeit = Ertrag ÷ Aufwand = ${formatiereZahl(ertrag, 0)} ÷ ${formatiereZahl(aufwand, 0)} = **${formatiereZahl(loesung)}** (> 1 → wirtschaftlich)`,
+    }
+  }
+  const stunden = zufall(400, 2_000, 100)
+  const proStunde = zufall(4, 20)
+  const output = stunden * proStunde
+  return {
+    text: `In einem Monat werden ${formatiereZahl(output, 0)} Ordner in ${formatiereZahl(stunden, 0)} Arbeitsstunden gefertigt. Berechnen Sie die Arbeitsproduktivität (Stück je Stunde)!`,
+    loesungswert: proStunde, einheit: 'Stück', toleranz: 0.01,
+    loesungsweg: `Produktivität = Output ÷ Input = ${formatiereZahl(output, 0)} ÷ ${formatiereZahl(stunden, 0)} = **${formatiereZahl(proStunde, 0)} Stück/Stunde**`,
+  }
+}
+
+function konjunkturIndikatoren(): GenerierteAufgabe {
+  if (Math.random() < 0.5) {
+    const alt = zufall(1000, 1200, 5) / 10 // VPI 100,0–120,0
+    const punkte = zufall(15, 60, 5) / 10
+    const neu = Math.round((alt + punkte) * 10) / 10
+    const loesung = Math.round(((neu - alt) / alt) * 1000) / 10
+    return {
+      text: `Der Verbraucherpreisindex steigt von ${formatiereZahl(alt, 1)} auf ${formatiereZahl(neu, 1)} Punkte. Berechnen Sie die Inflationsrate in Prozent (1 Nachkommastelle)!`,
+      loesungswert: loesung, einheit: '%', toleranz: 0.05,
+      loesungsweg: `(${formatiereZahl(neu, 1)} − ${formatiereZahl(alt, 1)}) ÷ ${formatiereZahl(alt, 1)} × 100 = **${formatiereZahl(loesung, 1)} %**`,
+    }
+  }
+  const erwerbspersonen = zufall(40_000, 46_000, 500) // in Tsd.
+  const quote = zufall(40, 90, 5) / 10 // 4,0–9,0 %
+  const arbeitslose = Math.round(erwerbspersonen * (quote / 100))
+  const loesung = Math.round((arbeitslose / erwerbspersonen) * 1000) / 10
+  return {
+    text: `In einem Land sind ${formatiereZahl(arbeitslose, 0)} Tsd. Personen arbeitslos bei ${formatiereZahl(erwerbspersonen, 0)} Tsd. zivilen Erwerbspersonen. Berechnen Sie die Arbeitslosenquote in Prozent (1 Nachkommastelle)!`,
+    loesungswert: loesung, einheit: '%', toleranz: 0.05,
+    loesungsweg: `${formatiereZahl(arbeitslose, 0)} ÷ ${formatiereZahl(erwerbspersonen, 0)} × 100 = **${formatiereZahl(loesung, 1)} %**`,
+  }
+}
+
+function energieBetriebskosten(): GenerierteAufgabe {
+  const leistung = zufall(20, 90, 2) // kW
+  const stunden = zufall(1_000, 4_000, 250)
+  const centProKwh = zufall(22, 38, 2)
+  const kosten = Math.round(leistung * stunden * centProKwh) / 100
+  return {
+    text: `Die Beleuchtungsanlage hat eine Leistung von ${leistung} kW und läuft ${formatiereZahl(stunden, 0)} Stunden im Jahr. Der Strompreis beträgt ${formatiereZahl(centProKwh / 100)} € je kWh. Berechnen Sie die jährlichen Stromkosten!`,
+    loesungswert: kosten, einheit: '€', toleranz: 0.01,
+    loesungsweg: [
+      `Verbrauch: ${leistung} kW × ${formatiereZahl(stunden, 0)} h = ${formatiereZahl(leistung * stunden, 0)} kWh`,
+      `Kosten: ${formatiereZahl(leistung * stunden, 0)} kWh × ${formatiereZahl(centProKwh / 100)} € = **${euro(kosten)}**`,
+    ].join('\n\n'),
+  }
+}
+
 export const GENERATOREN: Record<string, () => GenerierteAufgabe> = {
   dreisatz,
   prozentrechnung,
@@ -177,4 +254,8 @@ export const GENERATOREN: Record<string, () => GenerierteAufgabe> = {
   'kg-gewinnverteilung': kgGewinnverteilung,
   'gleichgewichtspreis-umsatz': gleichgewichtspreisUmsatz,
   darlehen,
+  leasing,
+  'wirtschaftlichkeit-produktivitaet': wirtschaftlichkeitProduktivitaet,
+  'konjunktur-indikatoren': konjunkturIndikatoren,
+  'energie-betriebskosten': energieBetriebskosten,
 }
