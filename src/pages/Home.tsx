@@ -51,13 +51,25 @@ export default function Home() {
           ))}
           <Link
             to="/glossar"
-            className="flex items-center gap-4 rounded-2xl border-2 border-dashed border-slate-300 bg-white p-5 shadow-sm transition hover:border-sky-400 hover:shadow-md sm:col-span-2"
+            className="flex items-center gap-4 rounded-2xl border-2 border-dashed border-slate-300 bg-white p-5 shadow-sm transition hover:border-sky-400 hover:shadow-md"
           >
             <span className="text-3xl">📖</span>
             <span>
               <span className="block font-bold text-slate-900">Begriffe & Formeln</span>
               <span className="block text-sm text-slate-600">
                 Alle Fachbegriffe und Prüfungsformeln zum Nachschlagen — mit PDF-Download.
+              </span>
+            </span>
+          </Link>
+          <Link
+            to="/rechnen"
+            className="flex items-center gap-4 rounded-2xl border-2 border-dashed border-rose-300 bg-white p-5 shadow-sm transition hover:border-rose-400 hover:shadow-md"
+          >
+            <span className="text-3xl">🧮</span>
+            <span>
+              <span className="block font-bold text-slate-900">Kaufmännisches Rechnen</span>
+              <span className="block text-sm text-slate-600">
+                Alle Rechenarten der WiSo-Prüfung üben — mit unbegrenzten Übungsaufgaben und Lösungsweg.
               </span>
             </span>
           </Link>

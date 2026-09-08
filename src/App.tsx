@@ -19,6 +19,8 @@ import Praesentation from './pages/Praesentation'
 import Unterricht from './pages/Unterricht'
 import UnterrichtSession from './pages/UnterrichtSession'
 import Nachschlagewerk from './pages/Nachschlagewerk'
+import Rechnen from './pages/Rechnen'
+import RechnenKapitel from './pages/RechnenKapitel'
 
 export default function App() {
   return (
@@ -39,6 +41,8 @@ export default function App() {
           <Route path="/praesentation/:bereichId/:themaId" element={<Praesentation />} />
           <Route path="/unterricht/:bereichId" element={<Unterricht />} />
           <Route path="/unterricht/:bereichId/:themaId" element={<UnterrichtSession />} />
+          <Route path="/rechnen" element={<Rechnen />} />
+          <Route path="/rechnen/:kapitelId" element={<RechnenKapitel />} />
           <Route path="/:bereichId" element={<Bereich />} />
           <Route path="/:bereichId/stufe1" element={<Stufe1 />} />
           <Route path="/:bereichId/stufe2" element={<Stufe2 />} />

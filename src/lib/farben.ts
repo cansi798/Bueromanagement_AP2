@@ -37,6 +37,13 @@ export const FARBEN: Record<string, FarbSet> = {
     chip: 'bg-violet-100 text-violet-800',
     button: 'bg-violet-600 hover:bg-violet-700 active:bg-violet-800',
   },
+  rose: {
+    kachel: 'border-rose-200 bg-rose-50 hover:border-rose-400',
+    balken: 'bg-rose-500',
+    akzentText: 'text-rose-700',
+    chip: 'bg-rose-100 text-rose-800',
+    button: 'bg-rose-600 hover:bg-rose-700 active:bg-rose-800',
+  },
 }
 
 export const farbe = (name: string): FarbSet => FARBEN[name] ?? FARBEN.sky
