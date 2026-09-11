@@ -70,7 +70,7 @@ describe('LernpaarKarte', () => {
         onWeiter={() => {}}
       />,
     )
-    expect(html).toContain('<input')
+    expect(html).toContain('<select')
     expect(html).toContain('Konkurrierend')
     expect(html).toContain('Gewinn – Klimaabgabe')
   })

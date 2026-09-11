@@ -3,7 +3,7 @@ import { wertungZuordnung } from '../lib/zuordnung'
 import Markdown from './Markdown'
 
 // Ziffern-Zuordnung wie auf dem IHK-Antwortbogen: Legende oben, pro Teil-
-// aufgabe ein Ziffernfeld. Zustand hält der Aufrufer (Quiz prüft sofort,
+// aufgabe eine Auswahl aus der Legende. Zustand hält der Aufrufer (Quiz prüft sofort,
 // die Simulation erst bei der Gesamtabgabe).
 export default function ZuordnungFelder({
   zuordnung,
@@ -22,7 +22,7 @@ export default function ZuordnungFelder({
     <div className="mt-3">
       <div className="rounded-lg border border-slate-200 bg-slate-50 p-3">
         <p className="mb-1 text-xs font-semibold uppercase tracking-wide text-slate-500">
-          Ziffern
+          Ziffern-Legende — pro Zeile unten die passende Ziffer wählen
         </p>
         <ul className="space-y-0.5 text-[15px] text-slate-800">
           {zuordnung.ziffern.map((z) => (
@@ -49,16 +49,20 @@ export default function ZuordnungFelder({
               <div className="min-w-0 flex-1 text-[15px]">
                 <Markdown text={item.text} />
               </div>
-              <input
-                type="text"
-                inputMode="numeric"
-                maxLength={2}
+              <select
                 value={antworten[item.label] ?? ''}
                 onChange={(e) => onAntwort(item.label, e.target.value)}
                 disabled={abgegeben}
                 aria-label={`Ziffer für ${item.label})`}
-                className="h-11 w-12 shrink-0 rounded-lg border-2 border-slate-300 bg-white text-center text-lg font-bold focus:border-sky-500 focus:outline-none disabled:opacity-70"
-              />
+                className="h-11 max-w-44 shrink-0 rounded-lg border-2 border-slate-300 bg-white px-2 text-[15px] font-semibold focus:border-sky-500 focus:outline-none disabled:opacity-70"
+              >
+                <option value="">Ziffer …</option>
+                {zuordnung.ziffern.map((z) => (
+                  <option key={z.nr} value={String(z.nr)}>
+                    {z.nr} — {z.text.length > 34 ? `${z.text.slice(0, 34)}…` : z.text}
+                  </option>
+                ))}
+              </select>
               {wertung && !zeileRichtig && (
                 <span className="shrink-0 text-sm font-semibold text-green-700">
                   richtig: {item.korrekt}

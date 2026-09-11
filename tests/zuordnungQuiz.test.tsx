@@ -28,7 +28,7 @@ describe('ZuordnungQuiz', () => {
   it('rendert Aufgabentext, Ziffernfelder und Prüfen-Knopf', () => {
     const html = renderToString(<ZuordnungQuiz aufgabe={aufgabe} onErgebnis={() => {}} />)
     expect(html).toContain('Ordnen Sie die Zielpaare zu!')
-    expect(html).toContain('<input')
+    expect(html).toContain('<select')
     expect(html).toContain('Prüfen')
   })
 

@@ -21,7 +21,8 @@ describe('ZuordnungFelder', () => {
     )
     expect(html).toContain('Komplementäre Ziele')
     expect(html).toContain('Gewinn – Klimaabgabe')
-    expect(html).toContain('<input')
+    expect(html).toContain('<select')
+    expect(html).toContain('Konkurrierende Ziele')
   })
 
   it('zeigt nach der Abgabe die korrekte Ziffer an falschen Zeilen', () => {
@@ -49,6 +50,6 @@ describe('ZuordnungFelder', () => {
         abgegeben={true}
       />,
     )
-    expect(html).toContain('disabled')
+    expect(html).toMatch(/<select[^>]*disabled/)
   })
 })
