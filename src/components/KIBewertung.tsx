@@ -72,7 +72,7 @@ export default function KIBewertung({
   return (
     <div className="mt-3">
       {status === 'idle' && (
-        <div className="rounded-lg border border-slate-200 bg-slate-50 p-3">
+        <div className="rounded-lg border border-slate-200 bg-slate-50 p-3 dark:border-slate-700 dark:bg-slate-800/60">
           <div className="flex flex-wrap items-center gap-2">
             <button
               type="button"
@@ -88,7 +88,7 @@ export default function KIBewertung({
                 waehleModell(e.target.value)
               }}
               aria-label="KI-Modell wählen"
-              className="min-h-11 rounded-lg border border-slate-300 bg-white px-2 text-sm text-slate-700"
+              className="min-h-11 rounded-lg border border-slate-300 bg-white px-2 text-sm text-slate-700 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200"
             >
               {KI_MODELLE.map((m) => (
                 <option key={m.id} value={m.id}>
@@ -97,7 +97,7 @@ export default function KIBewertung({
               ))}
             </select>
           </div>
-          <p className="mt-1.5 text-xs text-slate-400">
+          <p className="mt-1.5 text-xs text-slate-400 dark:text-slate-500">
             {modell.hinweis}
             {!kiGeladen() &&
               ` Download einmalig (${modell.groesse}), bleibt im Browser gespeichert — am besten im WLAN.`}
@@ -105,30 +105,30 @@ export default function KIBewertung({
         </div>
       )}
       {status === 'laedt' && (
-        <div className="rounded-lg border border-violet-200 bg-violet-50 p-3">
-          <p className="text-sm font-medium text-violet-800">⏳ {fortschritt}</p>
+        <div className="rounded-lg border border-violet-200 bg-violet-50 p-3 dark:border-violet-900 dark:bg-violet-950/40">
+          <p className="text-sm font-medium text-violet-800 dark:text-violet-300">⏳ {fortschritt}</p>
         </div>
       )}
       {status === 'fertig' && (
-        <div className="rounded-lg border border-violet-200 bg-violet-50 p-3">
-          <p className="mb-1 text-xs font-semibold uppercase tracking-wide text-violet-700">
+        <div className="rounded-lg border border-violet-200 bg-violet-50 p-3 dark:border-violet-900 dark:bg-violet-950/40">
+          <p className="mb-1 text-xs font-semibold uppercase tracking-wide text-violet-700 dark:text-violet-300">
             🤖 KI-Feedback ({modell.name})
           </p>
           {erreicht !== null && punkte !== undefined && (
-            <p className="mb-2 text-2xl font-black text-slate-900">
-              {erreicht} <span className="text-base font-bold text-slate-500">/ {punkte} Punkte</span>
+            <p className="mb-2 text-2xl font-black text-slate-900 dark:text-slate-100">
+              {erreicht} <span className="text-base font-bold text-slate-500 dark:text-slate-400">/ {punkte} Punkte</span>
               {erreicht >= punkte && <span className="ml-2">🎉</span>}
             </p>
           )}
           <Markdown text={feedback} />
           <div className="mt-2 flex items-center justify-between gap-2">
-            <p className="text-xs text-slate-400">
+            <p className="text-xs text-slate-400 dark:text-slate-500">
               KI kann sich irren — im Zweifel gilt die Musterlösung.
             </p>
             <button
               type="button"
               onClick={() => setStatus('idle')}
-              className="shrink-0 text-xs font-semibold text-violet-700 underline"
+              className="shrink-0 text-xs font-semibold text-violet-700 underline dark:text-violet-300"
             >
               Neu bewerten
             </button>
@@ -136,7 +136,7 @@ export default function KIBewertung({
         </div>
       )}
       {status === 'fehler' && (
-        <div className="rounded-lg border border-red-200 bg-red-50 p-3 text-sm text-red-700">
+        <div className="rounded-lg border border-red-200 bg-red-50 p-3 text-sm text-red-700 dark:border-red-900 dark:bg-red-950/40 dark:text-red-300">
           Die KI-Bewertung hat nicht geklappt (Modell zu groß für dein Gerät oder Download
           unterbrochen). Tipp: kleineres Modell wählen.
           <button

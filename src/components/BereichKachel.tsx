@@ -18,15 +18,15 @@ export default function BereichKachel({
       className={`block rounded-2xl border-2 p-5 shadow-sm transition ${f.kachel}`}
     >
       <div className="flex items-baseline justify-between">
-        <h2 className="text-lg font-bold text-slate-900">{bereich.name}</h2>
+        <h2 className="text-lg font-bold text-slate-900 dark:text-slate-100">{bereich.name}</h2>
         <span className={`text-xs font-semibold ${f.akzentText}`}>{bereich.kurz}</span>
       </div>
-      <p className="mt-1 text-sm text-slate-600">{bereich.beschreibung}</p>
+      <p className="mt-1 text-sm text-slate-600 dark:text-slate-300">{bereich.beschreibung}</p>
       <div className="mt-4">
-        <div className="h-2 overflow-hidden rounded-full bg-white">
+        <div className="h-2 overflow-hidden rounded-full bg-white dark:bg-slate-900">
           <div className={`h-full rounded-full ${f.balken}`} style={{ width: `${prozent}%` }} />
         </div>
-        <p className="mt-1 text-xs text-slate-500">{prozent} % geübt</p>
+        <p className="mt-1 text-xs text-slate-500 dark:text-slate-400">{prozent} % geübt</p>
       </div>
     </Link>
   )

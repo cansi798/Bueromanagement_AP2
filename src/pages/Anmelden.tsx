@@ -9,8 +9,8 @@ export default function Anmelden() {
 
   return (
     <Layout titel="👤 Mit Konto anmelden">
-      <div className="mx-auto max-w-sm rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
-        <p className="text-sm text-slate-600">
+      <div className="mx-auto max-w-sm rounded-2xl border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-800 dark:bg-slate-900">
+        <p className="text-sm text-slate-600 dark:text-slate-300">
           Mit deinem Schul-Konto wird dein Lernfortschritt gespeichert und auf
           jedem Gerät synchronisiert. Dein bisheriger Gast-Fortschritt auf diesem
           Gerät wird beim ersten Login übernommen.

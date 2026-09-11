@@ -84,14 +84,14 @@ export default function ThemenTabelle({
           value={bereichFilter}
           onChange={(e) => setBereichFilter(e.target.value)}
           aria-label="Bereich filtern"
-          className="rounded-lg border border-slate-300 bg-white px-2 py-1.5"
+          className="rounded-lg border border-slate-300 bg-white px-2 py-1.5 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200"
         >
           <option value="alle">Alle Bereiche</option>
           {bereiche.map((b) => (
             <option key={b} value={b}>{bereichName(b)}</option>
           ))}
         </select>
-        <label className="flex items-center gap-1.5 text-slate-700">
+        <label className="flex items-center gap-1.5 text-slate-700 dark:text-slate-300">
           <input
             type="checkbox"
             checked={ohneGekonnte}
@@ -103,7 +103,7 @@ export default function ThemenTabelle({
       <div className="overflow-x-auto">
         <table className="w-full text-sm">
           <thead>
-            <tr className="border-b border-slate-200 text-left text-xs uppercase tracking-wide text-slate-500">
+            <tr className="border-b border-slate-200 text-left text-xs uppercase tracking-wide text-slate-500 dark:border-slate-800 dark:text-slate-400">
               <th className="py-2 pr-2">
                 <button type="button" onClick={() => sortiere('bereich')}>Bereich{pfeil('bereich')}</button>
               </th>
@@ -123,26 +123,26 @@ export default function ThemenTabelle({
           </thead>
           <tbody>
             {sichtbar.map((z) => (
-              <tr key={z.themaId} className="border-b border-slate-100">
-                <td className="py-2 pr-2 text-slate-500">{bereichName(z.bereich)}</td>
-                <td className="py-2 pr-2 font-medium text-slate-800">
+              <tr key={z.themaId} className="border-b border-slate-100 dark:border-slate-800">
+                <td className="py-2 pr-2 text-slate-500 dark:text-slate-400">{bereichName(z.bereich)}</td>
+                <td className="py-2 pr-2 font-medium text-slate-800 dark:text-slate-200">
                   {z.name}
                   {z.gekonnt && ' 🏆'}
                 </td>
-                <td className="py-2 pr-2 text-right text-slate-700">{z.geuebt}</td>
-                <td className="py-2 pr-2 text-right text-green-700">{Math.round(z.richtig * 10) / 10}</td>
-                <td className="py-2 pr-2 text-right text-red-700">{Math.round(z.falsch * 10) / 10}</td>
-                <td className="py-2 pr-2 text-right font-semibold text-slate-800">
+                <td className="py-2 pr-2 text-right text-slate-700 dark:text-slate-300">{z.geuebt}</td>
+                <td className="py-2 pr-2 text-right text-green-700 dark:text-green-300">{Math.round(z.richtig * 10) / 10}</td>
+                <td className="py-2 pr-2 text-right text-red-700 dark:text-red-300">{Math.round(z.falsch * 10) / 10}</td>
+                <td className="py-2 pr-2 text-right font-semibold text-slate-800 dark:text-slate-200">
                   {z.quote === null ? '—' : `${Math.round(z.quote * 100)} %`}
                 </td>
-                <td className="py-2 text-right text-xs text-slate-400">{z.zuletzt ?? '—'}</td>
+                <td className="py-2 text-right text-xs text-slate-400 dark:text-slate-500">{z.zuletzt ?? '—'}</td>
               </tr>
             ))}
           </tbody>
         </table>
       </div>
       {sichtbar.length === 0 && (
-        <p className="py-4 text-center text-sm text-slate-500">Keine Themen im Filter.</p>
+        <p className="py-4 text-center text-sm text-slate-500 dark:text-slate-400">Keine Themen im Filter.</p>
       )}
     </div>
   )

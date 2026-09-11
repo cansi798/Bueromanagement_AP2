@@ -9,11 +9,11 @@ export default function Anlage({ text, titel = 'Anlage' }: { text: string; titel
   const mitUmbruechen = text.replace(/\n(?!\n)/g, '  \n')
 
   return (
-    <div className="overflow-hidden rounded-xl border-2 border-slate-300 shadow-sm">
-      <p className="flex items-center gap-1.5 border-b-2 border-slate-300 bg-slate-200 px-3 py-1.5 text-xs font-bold uppercase tracking-wide text-slate-600">
+    <div className="overflow-hidden rounded-xl border-2 border-slate-300 shadow-sm dark:border-slate-700">
+      <p className="flex items-center gap-1.5 border-b-2 border-slate-300 bg-slate-200 px-3 py-1.5 text-xs font-bold uppercase tracking-wide text-slate-600 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-300">
         📎 {titel}
       </p>
-      <div className="overflow-x-auto bg-white p-4">
+      <div className="overflow-x-auto bg-white p-4 dark:bg-slate-900">
         <div className="min-w-fit font-serif text-[14.5px] leading-relaxed [&_table]:my-2 [&_table]:border-collapse [&_td]:whitespace-nowrap [&_th]:whitespace-nowrap">
           <Markdown text={mitUmbruechen} />
         </div>

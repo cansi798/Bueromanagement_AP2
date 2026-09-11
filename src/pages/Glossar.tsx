@@ -38,25 +38,25 @@ export default function Glossar() {
   return (
     <Layout titel="Begriffe & Formeln">
       <div className="-mt-2 mb-5 flex flex-wrap items-center justify-between gap-3">
-        <p className="text-slate-600">Fachbegriffe und alle Prüfungsformeln zum Nachschlagen.</p>
+        <p className="text-slate-600 dark:text-slate-300">Fachbegriffe und alle Prüfungsformeln zum Nachschlagen.</p>
         <div className="flex gap-2">
           <a
             href="./downloads/begriffe-formeln.pdf"
             download
-            className="rounded-lg border-2 border-slate-300 px-3 py-1.5 text-sm font-semibold text-slate-700 hover:border-sky-400"
+            className="rounded-lg border-2 border-slate-300 px-3 py-1.5 text-sm font-semibold text-slate-700 hover:border-sky-400 dark:border-slate-700 dark:text-slate-300 dark:hover:border-sky-600"
           >
             ⬇️ PDF
           </a>
           <Link
             to="/nachschlagewerk"
-            className="rounded-lg border-2 border-slate-300 px-3 py-1.5 text-sm font-semibold text-slate-700 hover:border-sky-400"
+            className="rounded-lg border-2 border-slate-300 px-3 py-1.5 text-sm font-semibold text-slate-700 hover:border-sky-400 dark:border-slate-700 dark:text-slate-300 dark:hover:border-sky-600"
           >
             🖨️ Druckansicht
           </Link>
         </div>
       </div>
-      {laedt && <p className="text-slate-500">Lade …</p>}
-      {fehler && <p className="rounded-lg bg-red-50 p-4 text-red-700">{fehler}</p>}
+      {laedt && <p className="text-slate-500 dark:text-slate-400">Lade …</p>}
+      {fehler && <p className="rounded-lg bg-red-50 p-4 text-red-700 dark:bg-red-950/40 dark:text-red-300">{fehler}</p>}
 
       <div className="mb-4 flex gap-2">
         {(
@@ -70,7 +70,7 @@ export default function Glossar() {
             type="button"
             onClick={() => setTab(id)}
             className={`rounded-xl px-4 py-2 font-semibold ${
-              tab === id ? 'bg-sky-600 text-white' : 'bg-white text-slate-600'
+              tab === id ? 'bg-sky-600 text-white' : 'bg-white text-slate-600 dark:bg-slate-800 dark:text-slate-300'
             }`}
           >
             {label}
@@ -84,7 +84,7 @@ export default function Glossar() {
             type="button"
             onClick={() => setFilter(null)}
             className={`rounded-full px-3 py-1.5 text-sm font-medium ${
-              filter === null ? 'bg-slate-900 text-white' : 'bg-white text-slate-600'
+              filter === null ? 'bg-slate-900 text-white dark:bg-slate-700' : 'bg-white text-slate-600 dark:bg-slate-800 dark:text-slate-300'
             }`}
           >
             Alle
@@ -95,7 +95,7 @@ export default function Glossar() {
               type="button"
               onClick={() => setFilter(filter === b.id ? null : b.id)}
               className={`rounded-full px-3 py-1.5 text-sm font-medium ${
-                filter === b.id ? 'bg-slate-900 text-white' : 'bg-white text-slate-600'
+                filter === b.id ? 'bg-slate-900 text-white dark:bg-slate-700' : 'bg-white text-slate-600 dark:bg-slate-800 dark:text-slate-300'
               }`}
             >
               {b.kurz}
@@ -108,12 +108,12 @@ export default function Glossar() {
         <div className="space-y-6">
           {gruppen.map(([buchstabe, liste]) => (
             <div key={buchstabe}>
-              <h2 className="mb-2 text-sm font-bold text-slate-400">{buchstabe}</h2>
+              <h2 className="mb-2 text-sm font-bold text-slate-400 dark:text-slate-500">{buchstabe}</h2>
               <div className="space-y-2">
                 {liste.map((e) => (
-                  <div key={e.begriff} className="rounded-xl border border-slate-200 bg-white p-3 shadow-sm">
-                    <p className="font-semibold text-slate-900">{e.begriff}</p>
-                    <p className="text-sm text-slate-600">{e.definition}</p>
+                  <div key={e.begriff} className="rounded-xl border border-slate-200 bg-white p-3 shadow-sm dark:border-slate-800 dark:bg-slate-900">
+                    <p className="font-semibold text-slate-900 dark:text-slate-100">{e.begriff}</p>
+                    <p className="text-sm text-slate-600 dark:text-slate-300">{e.definition}</p>
                   </div>
                 ))}
               </div>
@@ -124,13 +124,13 @@ export default function Glossar() {
         <div className="space-y-6">
           {kategorien.map(([kategorie, liste]) => (
             <div key={kategorie}>
-              <h2 className="mb-2 text-sm font-bold text-slate-400">{kategorie}</h2>
+              <h2 className="mb-2 text-sm font-bold text-slate-400 dark:text-slate-500">{kategorie}</h2>
               <div className="grid gap-2 lg:grid-cols-2">
                 {liste.map((f) => (
-                  <div key={f.id} className="rounded-xl border border-slate-200 bg-white p-3 shadow-sm">
-                    <p className="font-semibold text-slate-900">{f.titel}</p>
+                  <div key={f.id} className="rounded-xl border border-slate-200 bg-white p-3 shadow-sm dark:border-slate-800 dark:bg-slate-900">
+                    <p className="font-semibold text-slate-900 dark:text-slate-100">{f.titel}</p>
                     <Markdown text={f.formel} />
-                    {f.erklaerung && <p className="mt-1 text-sm text-slate-600">{f.erklaerung}</p>}
+                    {f.erklaerung && <p className="mt-1 text-sm text-slate-600 dark:text-slate-300">{f.erklaerung}</p>}
                   </div>
                 ))}
               </div>

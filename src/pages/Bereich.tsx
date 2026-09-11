@@ -34,11 +34,11 @@ export default function Bereich() {
   const { daten: bereiche, fehler, laedt } = useDaten(ladeBereiche)
   const bereich = bereiche?.find((b) => b.id === bereichId)
 
-  if (laedt) return <Layout><p className="text-slate-500">Lade …</p></Layout>
+  if (laedt) return <Layout><p className="text-slate-500 dark:text-slate-400">Lade …</p></Layout>
   if (fehler || !bereich)
     return (
       <Layout titel="Lernbereich">
-        <p className="rounded-lg bg-red-50 p-4 text-red-700">
+        <p className="rounded-lg bg-red-50 p-4 text-red-700 dark:bg-red-950/40 dark:text-red-300">
           {fehler ?? 'Diesen Lernbereich gibt es nicht.'}
         </p>
       </Layout>
@@ -51,7 +51,7 @@ export default function Bereich() {
 
   return (
     <Layout titel={bereich.name}>
-      <p className="-mt-2 mb-6 text-slate-600">{bereich.beschreibung}</p>
+      <p className="-mt-2 mb-6 text-slate-600 dark:text-slate-300">{bereich.beschreibung}</p>
       <div className="space-y-3">
         <Link
           to={`/unterricht/${bereich.id}`}
@@ -72,8 +72,8 @@ export default function Bereich() {
         >
           <span className="text-3xl">🧠</span>
           <div>
-            <h2 className="font-bold text-slate-900">Themen-Quiz</h2>
-            <p className="text-sm text-slate-600">
+            <h2 className="font-bold text-slate-900 dark:text-slate-100">Themen-Quiz</h2>
+            <p className="text-sm text-slate-600 dark:text-slate-300">
               Multiple-Choice nach Themen – täglich im Leitner-System.
             </p>
           </div>
@@ -85,8 +85,8 @@ export default function Bereich() {
           >
             <span className="text-2xl">🖥️</span>
             <div>
-              <h2 className="text-sm font-bold text-slate-900 sm:text-base">Präsentation</h2>
-              <p className="hidden text-sm text-slate-600 sm:block">Folien für den Beamer.</p>
+              <h2 className="text-sm font-bold text-slate-900 sm:text-base dark:text-slate-100">Präsentation</h2>
+              <p className="hidden text-sm text-slate-600 sm:block dark:text-slate-300">Folien für den Beamer.</p>
             </div>
           </Link>
           <Link
@@ -95,8 +95,8 @@ export default function Bereich() {
           >
             <span className="text-2xl">📄</span>
             <div>
-              <h2 className="text-sm font-bold text-slate-900 sm:text-base">Lernskript</h2>
-              <p className="hidden text-sm text-slate-600 sm:block">Zum Drucken & als PDF.</p>
+              <h2 className="text-sm font-bold text-slate-900 sm:text-base dark:text-slate-100">Lernskript</h2>
+              <p className="hidden text-sm text-slate-600 sm:block dark:text-slate-300">Zum Drucken & als PDF.</p>
             </div>
           </Link>
         </div>
@@ -108,10 +108,10 @@ export default function Bereich() {
           >
             <span className="text-3xl">{s.icon}</span>
             <div>
-              <h2 className="font-bold text-slate-900">
+              <h2 className="font-bold text-slate-900 dark:text-slate-100">
                 Stufe {s.nr} · {s.name}
               </h2>
-              <p className="text-sm text-slate-600">{s.text}</p>
+              <p className="text-sm text-slate-600 dark:text-slate-300">{s.text}</p>
             </div>
           </Link>
         ))}
@@ -122,8 +122,8 @@ export default function Bereich() {
           >
             <span className="text-3xl">🃏</span>
             <div>
-              <h2 className="font-bold text-slate-900">Karteikarten</h2>
-              <p className="text-sm text-slate-600">Täglich wiederholen mit System.</p>
+              <h2 className="font-bold text-slate-900 dark:text-slate-100">Karteikarten</h2>
+              <p className="text-sm text-slate-600 dark:text-slate-300">Täglich wiederholen mit System.</p>
             </div>
           </Link>
           <Link
@@ -132,8 +132,8 @@ export default function Bereich() {
           >
             <span className="text-3xl">🗺️</span>
             <div>
-              <h2 className="font-bold text-slate-900">Themen-Landkarte</h2>
-              <p className="text-sm text-slate-600">Was kommt wie oft dran?</p>
+              <h2 className="font-bold text-slate-900 dark:text-slate-100">Themen-Landkarte</h2>
+              <p className="text-sm text-slate-600 dark:text-slate-300">Was kommt wie oft dran?</p>
             </div>
           </Link>
         </div>

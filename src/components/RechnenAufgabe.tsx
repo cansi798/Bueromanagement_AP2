@@ -30,9 +30,9 @@ export default function RechnenAufgabe({
   }
 
   return (
-    <div className="rounded-2xl bg-white p-4 shadow-sm sm:p-6">
+    <div className="rounded-2xl bg-white p-4 shadow-sm dark:bg-slate-900 sm:p-6">
       {quelleHinweis && (
-        <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-slate-400">
+        <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-slate-400 dark:text-slate-500">
           {quelleHinweis}
         </p>
       )}
@@ -47,9 +47,9 @@ export default function RechnenAufgabe({
           disabled={abgegeben}
           placeholder="Ergebnis"
           aria-label="Ergebnis"
-          className="h-12 w-40 rounded-lg border-2 border-slate-300 bg-white px-3 text-right text-lg font-bold focus:border-sky-500 focus:outline-none disabled:opacity-70"
+          className="h-12 w-40 rounded-lg border-2 border-slate-300 bg-white px-3 text-right text-lg font-bold focus:border-sky-500 focus:outline-none disabled:opacity-70 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200"
         />
-        <span className="font-semibold text-slate-600">{aufgabe.einheit}</span>
+        <span className="font-semibold text-slate-600 dark:text-slate-300">{aufgabe.einheit}</span>
         {!abgegeben && (
           <button
             type="button"
@@ -60,15 +60,15 @@ export default function RechnenAufgabe({
           </button>
         )}
       </div>
-      {wertung === 'leer' && <p className="mt-2 text-sm text-amber-700">Bitte eine Zahl eingeben.</p>}
+      {wertung === 'leer' && <p className="mt-2 text-sm text-amber-700 dark:text-amber-300">Bitte eine Zahl eingeben.</p>}
       {wertung === 'ungueltig' && (
-        <p className="mt-2 text-sm text-amber-700">
+        <p className="mt-2 text-sm text-amber-700 dark:text-amber-300">
           Das ist keine lesbare Zahl — Format z. B. „1.234,56".
         </p>
       )}
       {abgegeben && (
         <div className="mt-3">
-          <p className={`font-semibold ${wertung === 'richtig' ? 'text-green-700' : 'text-red-700'}`}>
+          <p className={`font-semibold ${wertung === 'richtig' ? 'text-green-700 dark:text-green-300' : 'text-red-700 dark:text-red-300'}`}>
             {wertung === 'richtig' && '✔ Richtig!'}
             {wertung === 'knapp' && '✘ Knapp daneben — prüfe deine Rundung.'}
             {wertung === 'falsch' && '✘ Leider falsch.'}

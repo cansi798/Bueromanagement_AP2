@@ -28,22 +28,22 @@ export default function Home() {
     <Layout>
       <div className="mb-6 flex items-start justify-between gap-4">
         <div>
-          <h1 className="text-2xl font-bold text-slate-900">Willkommen im Prüfungscoach</h1>
-          <p className="mt-1 text-slate-600">
+          <h1 className="text-2xl font-bold text-slate-900 dark:text-slate-100">Willkommen im Prüfungscoach</h1>
+          <p className="mt-1 text-slate-600 dark:text-slate-300">
             Für Unterricht und Selbstlernen: Wähle einen Lernbereich – mit
             Unterrichts-Sessions, Auffrischung, Themen-Training und Aufgabensammlungen im
             Prüfungsformat.
           </p>
         </div>
         {streak.tage > 0 && (
-          <div className="shrink-0 rounded-xl bg-orange-100 px-3 py-2 text-center">
+          <div className="shrink-0 rounded-xl bg-orange-100 px-3 py-2 text-center dark:bg-orange-950/40">
             <div className="text-xl">🔥</div>
-            <div className="text-xs font-semibold text-orange-800">{streak.tage} Tage</div>
+            <div className="text-xs font-semibold text-orange-800 dark:text-orange-300">{streak.tage} Tage</div>
           </div>
         )}
       </div>
-      {laedt && <p className="text-slate-500">Lade Inhalte …</p>}
-      {fehler && <p className="rounded-lg bg-red-50 p-4 text-red-700">{fehler}</p>}
+      {laedt && <p className="text-slate-500 dark:text-slate-400">Lade Inhalte …</p>}
+      {fehler && <p className="rounded-lg bg-red-50 p-4 text-red-700 dark:bg-red-950/40 dark:text-red-300">{fehler}</p>}
       {bereiche && (
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
           {bereiche.map((b) => (
@@ -51,24 +51,24 @@ export default function Home() {
           ))}
           <Link
             to="/glossar"
-            className="flex items-center gap-4 rounded-2xl border-2 border-dashed border-slate-300 bg-white p-5 shadow-sm transition hover:border-sky-400 hover:shadow-md"
+            className="flex items-center gap-4 rounded-2xl border-2 border-dashed border-slate-300 bg-white p-5 shadow-sm transition hover:border-sky-400 hover:shadow-md dark:border-slate-700 dark:bg-slate-900 dark:hover:border-sky-600"
           >
             <span className="text-3xl">📖</span>
             <span>
-              <span className="block font-bold text-slate-900">Begriffe & Formeln</span>
-              <span className="block text-sm text-slate-600">
+              <span className="block font-bold text-slate-900 dark:text-slate-100">Begriffe & Formeln</span>
+              <span className="block text-sm text-slate-600 dark:text-slate-300">
                 Alle Fachbegriffe und Prüfungsformeln zum Nachschlagen — mit PDF-Download.
               </span>
             </span>
           </Link>
           <Link
             to="/rechnen"
-            className="flex items-center gap-4 rounded-2xl border-2 border-dashed border-rose-300 bg-white p-5 shadow-sm transition hover:border-rose-400 hover:shadow-md"
+            className="flex items-center gap-4 rounded-2xl border-2 border-dashed border-rose-300 bg-white p-5 shadow-sm transition hover:border-rose-400 hover:shadow-md dark:border-rose-900 dark:bg-slate-900 dark:hover:border-rose-700"
           >
             <span className="text-3xl">🧮</span>
             <span>
-              <span className="block font-bold text-slate-900">Kaufmännisches Rechnen</span>
-              <span className="block text-sm text-slate-600">
+              <span className="block font-bold text-slate-900 dark:text-slate-100">Kaufmännisches Rechnen</span>
+              <span className="block text-sm text-slate-600 dark:text-slate-300">
                 Alle Rechenarten der WiSo-Prüfung üben — mit unbegrenzten Übungsaufgaben und Lösungsweg.
               </span>
             </span>

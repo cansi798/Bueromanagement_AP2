@@ -45,10 +45,10 @@ export default function Gate({ children }: { children: ReactNode }) {
 
   return (
     <div className="flex min-h-dvh items-center justify-center bg-slate-900 px-4">
-      <div className="w-full max-w-sm rounded-2xl bg-white p-6 shadow-xl">
-        <h1 className="text-xl font-bold text-slate-900">KBM Prüfungscoach</h1>
+      <div className="w-full max-w-sm rounded-2xl bg-white p-6 shadow-xl dark:bg-slate-900">
+        <h1 className="text-xl font-bold text-slate-900 dark:text-slate-100">KBM Prüfungscoach</h1>
 
-        <div className="mt-4 flex rounded-xl bg-slate-100 p-1 text-sm font-semibold">
+        <div className="mt-4 flex rounded-xl bg-slate-100 p-1 text-sm font-semibold dark:bg-slate-800">
           {(
             [
               ['code', '🔑 Zugangscode'],
@@ -63,7 +63,7 @@ export default function Gate({ children }: { children: ReactNode }) {
                 setFehler('')
               }}
               className={`min-h-10 flex-1 rounded-lg transition ${
-                modus === m ? 'bg-white text-slate-900 shadow' : 'text-slate-500'
+                modus === m ? 'bg-white text-slate-900 shadow dark:bg-slate-700 dark:text-slate-100' : 'text-slate-500 dark:text-slate-400'
               }`}
             >
               {label}
@@ -73,7 +73,7 @@ export default function Gate({ children }: { children: ReactNode }) {
 
         {modus === 'code' ? (
           <form onSubmit={codeAbsenden}>
-            <p className="mt-3 text-sm text-slate-600">
+            <p className="mt-3 text-sm text-slate-600 dark:text-slate-300">
               Gast-Modus: Fortschritt wird nur auf diesem Gerät gespeichert.
             </p>
             <input
@@ -85,9 +85,9 @@ export default function Gate({ children }: { children: ReactNode }) {
               }}
               placeholder="Zugangscode aus dem Unterricht"
               autoFocus
-              className="mt-3 w-full rounded-lg border border-slate-300 px-3 py-3 text-base focus:border-sky-500 focus:outline-none"
+              className="mt-3 w-full rounded-lg border border-slate-300 px-3 py-3 text-base focus:border-sky-500 focus:outline-none dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200"
             />
-            {fehler && <p className="mt-2 text-sm text-red-600">{fehler}</p>}
+            {fehler && <p className="mt-2 text-sm text-red-600 dark:text-red-400">{fehler}</p>}
             <button
               type="submit"
               className="mt-4 min-h-12 w-full rounded-lg bg-sky-600 px-4 font-semibold text-white hover:bg-sky-700 active:bg-sky-800"
@@ -97,7 +97,7 @@ export default function Gate({ children }: { children: ReactNode }) {
           </form>
         ) : (
           <div>
-            <p className="mt-3 text-sm text-slate-600">
+            <p className="mt-3 text-sm text-slate-600 dark:text-slate-300">
               Mit Schul-Konto: Dein Fortschritt wird auf jedem Gerät synchronisiert.
             </p>
             <KontoLoginForm onErfolg={() => setOffen(true)} />

@@ -21,11 +21,11 @@ function PruefungsKarte({ pruefung, bereichId }: { pruefung: Pruefung; bereichId
     : []
 
   return (
-    <div className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
+    <div className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm dark:border-slate-800 dark:bg-slate-900">
       <div className="flex flex-wrap items-center justify-between gap-3">
         <div>
-          <h2 className="font-bold text-slate-900">{terminAnzeige(pruefung.termin)}</h2>
-          <p className="text-sm text-slate-500">
+          <h2 className="font-bold text-slate-900 dark:text-slate-100">{terminAnzeige(pruefung.termin)}</h2>
+          <p className="text-sm text-slate-500 dark:text-slate-400">
             {pruefung.name} · {pruefung.zeitMinuten} Min · {pruefung.punkteGesamt} Punkte ·{' '}
             {pruefung.aufgabenIds.length} Aufgaben
           </p>
@@ -34,14 +34,14 @@ function PruefungsKarte({ pruefung, bereichId }: { pruefung: Pruefung; bereichId
           <button
             type="button"
             onClick={() => setUebenOffen(!uebenOffen)}
-            className="min-h-11 rounded-lg border-2 border-slate-300 px-4 py-2 font-semibold text-slate-700 hover:border-slate-500"
+            className="min-h-11 rounded-lg border-2 border-slate-300 px-4 py-2 font-semibold text-slate-700 hover:border-slate-500 dark:border-slate-700 dark:text-slate-300 dark:hover:border-slate-500"
           >
             {uebenOffen ? 'Schließen' : 'Üben'}
           </button>
           {sammlungsNummer(pruefung.termin) !== null && (
             <Link
               to={`/${bereichId}/simulation/${sammlungsNummer(pruefung.termin)}`}
-              className="min-h-11 rounded-lg bg-slate-900 px-4 py-2 font-semibold text-white hover:bg-slate-700"
+              className="min-h-11 rounded-lg bg-slate-900 px-4 py-2 font-semibold text-white hover:bg-slate-700 dark:bg-slate-700 dark:hover:bg-slate-600"
             >
               Simulation ⏱
             </Link>
@@ -50,13 +50,13 @@ function PruefungsKarte({ pruefung, bereichId }: { pruefung: Pruefung; bereichId
       </div>
 
       {uebenOffen && (
-        <div className="mt-4 space-y-4 border-t border-slate-100 pt-4">
+        <div className="mt-4 space-y-4 border-t border-slate-100 pt-4 dark:border-slate-800">
           {liste.map((a, i) => {
             const zerlegt = zerlegeAufgabenText(a.text)
             const anzeige = { ...a, text: zerlegt.text }
             return (
-              <div key={a.id} className="rounded-xl border border-slate-100 bg-slate-50/50 p-3">
-                <div className="mb-2 flex items-center gap-2 text-sm text-slate-500">
+              <div key={a.id} className="rounded-xl border border-slate-100 bg-slate-50/50 p-3 dark:border-slate-800 dark:bg-slate-800/60">
+                <div className="mb-2 flex items-center gap-2 text-sm text-slate-500 dark:text-slate-400">
                   <span className="font-semibold">Aufgabe {zerlegt.nr ?? i + 1}</span>
                   <QuelleBadge quelle={a.quelle} termin={a.termin} />
                 </div>
@@ -92,12 +92,12 @@ export default function Stufe3() {
 
   return (
     <Layout titel="Stufe 3 · Aufgabensammlungen">
-      <p className="-mt-2 mb-5 text-slate-600">
+      <p className="-mt-2 mb-5 text-slate-600 dark:text-slate-300">
         Komplette Aufgabensammlungen im Prüfungsformat durcharbeiten – im Übungsmodus mit
         Lösungen oder als Simulation unter echten Bedingungen.
       </p>
-      {laedt && <p className="text-slate-500">Lade …</p>}
-      {fehler && <p className="rounded-lg bg-red-50 p-4 text-red-700">{fehler}</p>}
+      {laedt && <p className="text-slate-500 dark:text-slate-400">Lade …</p>}
+      {fehler && <p className="rounded-lg bg-red-50 p-4 text-red-700 dark:bg-red-950/40 dark:text-red-300">{fehler}</p>}
       <div className="space-y-4">
         {eigene
           .sort((a, b) => (sammlungsNummer(a.termin) ?? 0) - (sammlungsNummer(b.termin) ?? 0))
@@ -105,7 +105,7 @@ export default function Stufe3() {
             <PruefungsKarte key={p.termin + p.bereich} pruefung={p} bereichId={bereichId!} />
           ))}
         {!laedt && !fehler && eigene.length === 0 && (
-          <p className="rounded-lg bg-white p-6 text-center text-slate-500">
+          <p className="rounded-lg bg-white p-6 text-center text-slate-500 dark:bg-slate-900 dark:text-slate-400">
             Für diesen Bereich sind noch keine Aufgabensammlungen hinterlegt.
           </p>
         )}

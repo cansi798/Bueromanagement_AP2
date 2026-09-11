@@ -4,6 +4,9 @@ import type { Drawable } from 'roughjs/bin/core'
 
 // Handgezeichnet wirkende SVG-Diagramme (Excalidraw-Stil) für zentrale Themen.
 // Bewusst ohne externe Dienste: funktioniert offline, auf jedem Host und im PDF.
+// Dark-Mode-Hinweis: Diagramm-Container behalten bg-white bewusst bei — rough.js
+// rendert auf einem weißen Hintergrund und Farbinversion würde die Handzeichnungen
+// unleserlich machen. Kein dark: auf den umgebenden wrapper-Divs.
 
 const INK = '#1e293b'
 

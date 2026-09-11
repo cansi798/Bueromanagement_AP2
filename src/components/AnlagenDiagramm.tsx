@@ -6,6 +6,9 @@ import type { AnlagenDiagramm as DiagrammSpec } from '../types'
 // Balken-/Kreisgrafiken) aus strukturierten Daten als handgezeichnetes SVG.
 // roughjs liefert Pfade, die hier als reine React-SVG-Elemente gerendert
 // werden — fester seed, damit das Bild bei jedem Render identisch aussieht.
+// Dark-Mode-Hinweis: bg-white bleibt bewusst erhalten — rough.js-SVGs rendern
+// auf einem weißen Canvas-Hintergrund; Farbinversion würde die Handzeichnungen
+// unleserlich machen. Diagramm-Container werden daher nicht mit dark: versehen.
 
 const FARBEN = ['#0369a1', '#b45309', '#047857', '#6d28d9', '#be123c']
 const B = 560

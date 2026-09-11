@@ -60,19 +60,19 @@ export default function LernpaarKarte({
   }
 
   return (
-    <div className="rounded-2xl bg-white p-4 shadow-sm sm:p-6">
-      <div className="mb-3 flex flex-wrap items-center gap-2 text-xs text-slate-500">
-        <span className="rounded-full bg-slate-100 px-2 py-0.5">
+    <div className="rounded-2xl bg-white p-4 shadow-sm dark:bg-slate-900 sm:p-6">
+      <div className="mb-3 flex flex-wrap items-center gap-2 text-xs text-slate-500 dark:text-slate-400">
+        <span className="rounded-full bg-slate-100 px-2 py-0.5 dark:bg-slate-800">
           {fach === null ? '✨ Neue Frage' : `📦 Fach ${fach} von 5`}
         </span>
         {paar.schwierigkeit && (
-          <span className="rounded-full bg-slate-100 px-2 py-0.5">
+          <span className="rounded-full bg-slate-100 px-2 py-0.5 dark:bg-slate-800">
             {'★'.repeat(paar.schwierigkeit)}
             {'☆'.repeat(3 - paar.schwierigkeit)}
           </span>
         )}
         {paar.quellTermin && (
-          <span className="rounded-full bg-slate-100 px-2 py-0.5">
+          <span className="rounded-full bg-slate-100 px-2 py-0.5 dark:bg-slate-800">
             angelehnt an Prüfung
           </span>
         )}
@@ -80,7 +80,7 @@ export default function LernpaarKarte({
 
       <Markdown text={paar.frage} />
       {mehrfach && (
-        <p className="mt-1 text-xs font-medium text-slate-500">Mehrere Antworten möglich.</p>
+        <p className="mt-1 text-xs font-medium text-slate-500 dark:text-slate-400">Mehrere Antworten möglich.</p>
       )}
 
       {zuordnung ? (
@@ -98,17 +98,17 @@ export default function LernpaarKarte({
           onChange={(e) => setText(e.target.value)}
           rows={4}
           placeholder="✍️ Formuliere die Antwort in eigenen Worten …"
-          className="mt-3 w-full rounded-lg border border-slate-300 bg-white p-3 text-[15px] focus:border-sky-500 focus:outline-none"
+          className="mt-3 w-full rounded-lg border border-slate-300 bg-white p-3 text-[15px] focus:border-sky-500 focus:outline-none dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200"
         />
       ) : freitext && abgegeben ? (
         <div className="mt-3 grid gap-2 sm:grid-cols-2">
-          <div className="rounded-lg border border-sky-200 bg-sky-50 p-3">
-            <p className="mb-1 text-xs font-semibold uppercase text-sky-700">✍️ Deine Antwort</p>
-            <p className="whitespace-pre-wrap text-[15px] text-slate-800">{text}</p>
+          <div className="rounded-lg border border-sky-200 bg-sky-50 p-3 dark:border-sky-900 dark:bg-sky-950/40">
+            <p className="mb-1 text-xs font-semibold uppercase text-sky-700 dark:text-sky-300">✍️ Deine Antwort</p>
+            <p className="whitespace-pre-wrap text-[15px] text-slate-800 dark:text-slate-200">{text}</p>
           </div>
-          <div className="rounded-lg border border-green-200 bg-green-50 p-3">
-            <p className="mb-1 text-xs font-semibold uppercase text-green-700">Musterlösung</p>
-            <ul className="list-disc pl-4 text-[15px] text-slate-800">
+          <div className="rounded-lg border border-green-200 bg-green-50 p-3 dark:border-green-900 dark:bg-green-950/40">
+            <p className="mb-1 text-xs font-semibold uppercase text-green-700 dark:text-green-300">Musterlösung</p>
+            <ul className="list-disc pl-4 text-[15px] text-slate-800 dark:text-slate-200">
               {korrekt.map((i) => (
                 <li key={i}><OptionText text={optionen[i]} /></li>
               ))}
@@ -118,13 +118,13 @@ export default function LernpaarKarte({
       ) : (
         <div className="mt-3 space-y-2">
           {optionen.map((opt, i) => {
-            let stil = 'border-slate-300 bg-white hover:border-sky-400'
+            let stil = 'border-slate-300 bg-white hover:border-sky-400 dark:border-slate-700 dark:bg-slate-800 dark:hover:border-sky-500'
             if (abgegeben) {
-              if (korrekt.includes(i)) stil = 'border-green-500 bg-green-50'
-              else if (gewaehlt.includes(i)) stil = 'border-red-400 bg-red-50'
-              else stil = 'border-slate-200 bg-white opacity-60'
+              if (korrekt.includes(i)) stil = 'border-green-500 bg-green-50 dark:border-green-700 dark:bg-green-950/40'
+              else if (gewaehlt.includes(i)) stil = 'border-red-400 bg-red-50 dark:border-red-700 dark:bg-red-950/40'
+              else stil = 'border-slate-200 bg-white opacity-60 dark:border-slate-700 dark:bg-slate-800'
             } else if (gewaehlt.includes(i)) {
-              stil = 'border-sky-500 bg-sky-50'
+              stil = 'border-sky-500 bg-sky-50 dark:border-sky-600 dark:bg-sky-950/40'
             }
             return (
               <button
@@ -151,7 +151,7 @@ export default function LernpaarKarte({
         </button>
       ) : freitext ? (
         <>
-          <div className="mt-2 rounded-lg bg-slate-50 p-3">
+          <div className="mt-2 rounded-lg bg-slate-50 p-3 dark:bg-slate-800/60">
             <Markdown text={paar.erklaerung} />
           </div>
           {selbstGewertet === null ? (
@@ -170,25 +170,25 @@ export default function LernpaarKarte({
             </div>
           ) : (
             <button type="button" onClick={onWeiter}
-              className="mt-4 min-h-12 w-full rounded-xl bg-slate-900 px-4 font-semibold text-white hover:bg-slate-800 sm:w-auto sm:px-8">
+              className="mt-4 min-h-12 w-full rounded-xl bg-slate-900 px-4 font-semibold text-white hover:bg-slate-800 dark:bg-slate-700 dark:hover:bg-slate-600 sm:w-auto sm:px-8">
               Weiter →
             </button>
           )}
         </>
       ) : (
         <div className="mt-4">
-          <p className={`font-semibold ${richtig ? 'text-green-700' : 'text-red-700'}`}>
+          <p className={`font-semibold ${richtig ? 'text-green-700 dark:text-green-300' : 'text-red-700 dark:text-red-300'}`}>
             {richtig
               ? `✔ Richtig! ${fach === null ? 'Ab in Fach 2.' : fach < 5 ? `Fach ${fach} → ${fach + 1}.` : 'Fach 5 bleibt gemeistert.'}`
               : `✘ Leider falsch. ${fach && fach > 1 ? `Zurück in Fach 1.` : 'Die Frage kommt bald wieder.'}`}
           </p>
-          <div className="mt-2 rounded-lg bg-slate-50 p-3">
+          <div className="mt-2 rounded-lg bg-slate-50 p-3 dark:bg-slate-800/60">
             <Markdown text={paar.erklaerung} />
           </div>
           <button
             type="button"
             onClick={onWeiter}
-            className="mt-4 min-h-12 w-full rounded-xl bg-slate-900 px-4 font-semibold text-white hover:bg-slate-800 sm:w-auto sm:px-8"
+            className="mt-4 min-h-12 w-full rounded-xl bg-slate-900 px-4 font-semibold text-white hover:bg-slate-800 dark:bg-slate-700 dark:hover:bg-slate-600 sm:w-auto sm:px-8"
           >
             Weiter →
           </button>

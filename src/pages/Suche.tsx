@@ -60,28 +60,28 @@ export default function Suche() {
         onChange={(e) => setBegriff(e.target.value)}
         placeholder="Thema oder Aufgabe suchen …"
         autoFocus
-        className="w-full rounded-xl border border-slate-300 bg-white px-4 py-3 text-base shadow-sm focus:border-sky-500 focus:outline-none"
+        className="w-full rounded-xl border border-slate-300 bg-white px-4 py-3 text-base shadow-sm focus:border-sky-500 focus:outline-none dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200"
       />
 
       {suchwort.length >= 2 && (
         <div className="mt-5 space-y-6">
           {glossarTreffer.length > 0 && (
             <div>
-              <h2 className="mb-2 text-sm font-bold text-slate-500">
+              <h2 className="mb-2 text-sm font-bold text-slate-500 dark:text-slate-400">
                 Glossar ({glossarTreffer.length})
               </h2>
               <div className="space-y-2">
                 {glossarTreffer.slice(0, 6).map((g) => (
-                  <div key={g.begriff} className="rounded-xl border border-slate-200 bg-white p-3 shadow-sm">
-                    <p className="font-semibold text-slate-900">{g.begriff}</p>
-                    <p className="text-sm text-slate-600">{g.definition}</p>
+                  <div key={g.begriff} className="rounded-xl border border-slate-200 bg-white p-3 shadow-sm dark:border-slate-800 dark:bg-slate-900">
+                    <p className="font-semibold text-slate-900 dark:text-slate-100">{g.begriff}</p>
+                    <p className="text-sm text-slate-600 dark:text-slate-300">{g.definition}</p>
                   </div>
                 ))}
               </div>
             </div>
           )}
           <div>
-            <h2 className="mb-2 text-sm font-bold text-slate-500">
+            <h2 className="mb-2 text-sm font-bold text-slate-500 dark:text-slate-400">
               Themen ({themenTreffer.length})
             </h2>
             <div className="space-y-2">
@@ -89,16 +89,16 @@ export default function Suche() {
                 <Link
                   key={t.id}
                   to={`/${t.bereich}/stufe1`}
-                  className="block rounded-xl border border-slate-200 bg-white p-3 shadow-sm hover:border-sky-400"
+                  className="block rounded-xl border border-slate-200 bg-white p-3 shadow-sm hover:border-sky-400 dark:border-slate-800 dark:bg-slate-900 dark:hover:border-sky-600"
                 >
-                  <p className="font-semibold text-slate-900">{t.name}</p>
-                  <p className="text-sm text-slate-500">{t.beschreibung}</p>
+                  <p className="font-semibold text-slate-900 dark:text-slate-100">{t.name}</p>
+                  <p className="text-sm text-slate-500 dark:text-slate-400">{t.beschreibung}</p>
                 </Link>
               ))}
             </div>
           </div>
           <div>
-            <h2 className="mb-2 text-sm font-bold text-slate-500">
+            <h2 className="mb-2 text-sm font-bold text-slate-500 dark:text-slate-400">
               Aufgaben ({aufgabenTreffer.length})
             </h2>
             <div className="space-y-2">
@@ -106,9 +106,9 @@ export default function Suche() {
                 <Link
                   key={a.id}
                   to={a.bereich === 'muendlich' ? '/muendlich' : `/${a.bereich}/stufe2`}
-                  className="block rounded-xl border border-slate-200 bg-white p-3 shadow-sm hover:border-sky-400"
+                  className="block rounded-xl border border-slate-200 bg-white p-3 shadow-sm hover:border-sky-400 dark:border-slate-800 dark:bg-slate-900 dark:hover:border-sky-600"
                 >
-                  <p className="line-clamp-2 text-sm text-slate-700">{a.text}</p>
+                  <p className="line-clamp-2 text-sm text-slate-700 dark:text-slate-300">{a.text}</p>
                 </Link>
               ))}
             </div>

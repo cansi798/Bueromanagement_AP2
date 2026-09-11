@@ -13,28 +13,28 @@ function ThemaKarte({ thema }: { thema: Thema }) {
   const [checkOffen, setCheckOffen] = useState<number | null>(null)
 
   return (
-    <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
+    <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm dark:border-slate-800 dark:bg-slate-900">
       <button
         type="button"
         onClick={() => setOffen(!offen)}
         className="flex w-full items-center justify-between px-4 py-3 text-left"
       >
         <div>
-          <h2 className="font-bold text-slate-900">{thema.name}</h2>
-          <p className="text-sm text-slate-500">{thema.beschreibung}</p>
+          <h2 className="font-bold text-slate-900 dark:text-slate-100">{thema.name}</h2>
+          <p className="text-sm text-slate-500 dark:text-slate-400">{thema.beschreibung}</p>
         </div>
-        <span className="ml-3 shrink-0 text-slate-400">{offen ? '▲' : '▼'}</span>
+        <span className="ml-3 shrink-0 text-slate-400 dark:text-slate-500">{offen ? '▲' : '▼'}</span>
       </button>
 
       {offen && (
-        <div className="border-t border-slate-100 p-4 lg:grid lg:grid-cols-[2fr_1fr] lg:gap-6">
+        <div className="border-t border-slate-100 p-4 dark:border-slate-800 lg:grid lg:grid-cols-[2fr_1fr] lg:gap-6">
           <div>
             <ThemaDiagramm themaId={thema.id} />
             <Markdown text={thema.lernzettel} />
 
             {thema.selbstcheck.length > 0 && (
               <div className="mt-5">
-                <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-slate-500">
+                <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">
                   Selbstcheck – kannst du das beantworten?
                 </p>
                 <div className="space-y-2">
@@ -43,7 +43,7 @@ function ThemaKarte({ thema }: { thema: Thema }) {
                       key={i}
                       type="button"
                       onClick={() => setCheckOffen(checkOffen === i ? null : i)}
-                      className="block w-full rounded-lg border border-slate-200 bg-slate-50 px-3 py-2 text-left text-sm hover:border-sky-300"
+                      className="block w-full rounded-lg border border-slate-200 bg-slate-50 px-3 py-2 text-left text-sm hover:border-sky-300 dark:border-slate-700 dark:bg-slate-800/60 dark:text-slate-200 dark:hover:border-sky-600"
                     >
                       {frage}
                     </button>
@@ -56,14 +56,14 @@ function ThemaKarte({ thema }: { thema: Thema }) {
           <div className="mt-5 space-y-4 lg:mt-0">
             {thema.eselsbruecken.length > 0 && (
               <div>
-                <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-slate-500">
+                <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">
                   Eselsbrücken
                 </p>
                 <div className="space-y-2">
                   {thema.eselsbruecken.map((e, i) => (
                     <div
                       key={i}
-                      className="rounded-lg border border-amber-200 bg-amber-50 px-3 py-2 text-sm text-amber-900"
+                      className="rounded-lg border border-amber-200 bg-amber-50 px-3 py-2 text-sm text-amber-900 dark:border-amber-900 dark:bg-amber-950/40 dark:text-amber-300"
                     >
                       💡 {e}
                     </div>
@@ -86,11 +86,11 @@ export default function Stufe1() {
 
   return (
     <Layout titel="Stufe 1 · Auffrischung">
-      <p className="-mt-2 mb-5 text-slate-600">
+      <p className="-mt-2 mb-5 text-slate-600 dark:text-slate-300">
         Die wesentlichen Inhalte pro Thema – zum Verstehen und Erinnern.
       </p>
-      {laedt && <p className="text-slate-500">Lade …</p>}
-      {fehler && <p className="rounded-lg bg-red-50 p-4 text-red-700">{fehler}</p>}
+      {laedt && <p className="text-slate-500 dark:text-slate-400">Lade …</p>}
+      {fehler && <p className="rounded-lg bg-red-50 p-4 text-red-700 dark:bg-red-950/40 dark:text-red-300">{fehler}</p>}
       <div className="space-y-3">
         {themen?.map((t) => <ThemaKarte key={t.id} thema={t} />)}
       </div>

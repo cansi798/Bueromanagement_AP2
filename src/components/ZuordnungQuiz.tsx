@@ -46,11 +46,11 @@ export default function ZuordnungQuiz({
         </button>
       ) : (
         <div className="mt-3">
-          <p className={`font-semibold ${richtig ? 'text-green-700' : 'text-red-700'}`}>
+          <p className={`font-semibold ${richtig ? 'text-green-700 dark:text-green-300' : 'text-red-700 dark:text-red-300'}`}>
             {richtig ? '✔ Richtig!' : '✘ Leider falsch.'}
           </p>
           {aufgabe.erklaerung && (
-            <div className="mt-2 rounded-lg bg-slate-50 p-3">
+            <div className="mt-2 rounded-lg bg-slate-50 p-3 dark:bg-slate-800/60">
               <Markdown text={aufgabe.erklaerung} />
             </div>
           )}

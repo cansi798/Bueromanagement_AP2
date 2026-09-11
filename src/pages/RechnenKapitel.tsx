@@ -49,7 +49,7 @@ export default function RechnenKapitel() {
             type="button"
             onClick={() => setTab(t.id)}
             className={`rounded-full px-4 py-1.5 text-sm font-semibold ${
-              tab === t.id ? 'bg-rose-600 text-white' : 'bg-white text-slate-700 border border-slate-300'
+              tab === t.id ? 'bg-rose-600 text-white' : 'bg-white text-slate-700 border border-slate-300 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-300'
             }`}
           >
             {t.titel}
@@ -58,7 +58,7 @@ export default function RechnenKapitel() {
       </div>
 
       {tab === 'erklaerung' && (
-        <div className="rounded-2xl bg-white p-4 shadow-sm sm:p-6">
+        <div className="rounded-2xl bg-white p-4 shadow-sm dark:bg-slate-900 sm:p-6">
           <Markdown text={kapitel.erklaerung} />
           <button
             type="button"
@@ -82,7 +82,7 @@ export default function RechnenKapitel() {
 
       {tab === 'pruefung' && fest && (
         <div>
-          <p className="mb-2 text-sm text-slate-600">
+          <p className="mb-2 text-sm text-slate-600 dark:text-slate-300">
             Aufgabe {festIndex + 1} von {kapitel.aufgaben.length}
           </p>
           <RechnenAufgabe

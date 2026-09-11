@@ -12,7 +12,7 @@ export default function OptionText({ text }: { text: string }) {
           return (
             <span
               key={i}
-              className="inline-flex items-center gap-1 rounded-md border border-slate-300 bg-slate-50 px-2 py-0.5 text-sm"
+              className="inline-flex items-center gap-1 rounded-md border border-slate-300 bg-slate-50 px-2 py-0.5 text-sm dark:border-slate-700 dark:bg-slate-800/60 dark:text-slate-200"
             >
               <b>{buchstabe})</b> {rest.join(')').trim()}
             </span>

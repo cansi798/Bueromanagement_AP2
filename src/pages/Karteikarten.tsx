@@ -45,12 +45,12 @@ export default function Karteikarten() {
 
   return (
     <Layout titel="Karteikarten">
-      {laedt && <p className="text-slate-500">Lade …</p>}
-      {fehler && <p className="rounded-lg bg-red-50 p-4 text-red-700">{fehler}</p>}
+      {laedt && <p className="text-slate-500 dark:text-slate-400">Lade …</p>}
+      {fehler && <p className="rounded-lg bg-red-50 p-4 text-red-700 dark:bg-red-950/40 dark:text-red-300">{fehler}</p>}
 
       {karten && (
         <>
-          <p className="-mt-2 mb-5 text-sm text-slate-600">
+          <p className="-mt-2 mb-5 text-sm text-slate-600 dark:text-slate-300">
             Heute fällig: <strong>{faellige.length}</strong> · gelernt: {gelerntHeute} ·
             Leitner-System: richtig = längerer Abstand, falsch = zurück auf Anfang.
           </p>
@@ -60,10 +60,10 @@ export default function Karteikarten() {
               <button
                 type="button"
                 onClick={() => setUmgedreht(!umgedreht)}
-                className="flex min-h-64 w-full items-center justify-center rounded-3xl border-2 border-slate-300 bg-white p-6 text-center shadow-md transition hover:border-sky-400"
+                className="flex min-h-64 w-full items-center justify-center rounded-3xl border-2 border-slate-300 bg-white p-6 text-center shadow-md transition hover:border-sky-400 dark:border-slate-700 dark:bg-slate-900 dark:hover:border-sky-600"
               >
                 <div>
-                  <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-slate-400">
+                  <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-slate-400 dark:text-slate-500">
                     {umgedreht ? 'Antwort' : 'Frage · tippen zum Umdrehen'}
                   </p>
                   <Markdown text={umgedreht ? aktuelleKarte.rueckseite : aktuelleKarte.vorderseite} />
@@ -90,10 +90,10 @@ export default function Karteikarten() {
               )}
             </div>
           ) : (
-            <div className="rounded-2xl bg-white p-8 text-center shadow-sm">
+            <div className="rounded-2xl bg-white p-8 text-center shadow-sm dark:bg-slate-900">
               <p className="text-3xl">🎉</p>
-              <p className="mt-2 font-semibold text-slate-900">Alles gelernt für heute!</p>
-              <p className="text-sm text-slate-500">
+              <p className="mt-2 font-semibold text-slate-900 dark:text-slate-100">Alles gelernt für heute!</p>
+              <p className="text-sm text-slate-500 dark:text-slate-400">
                 Komm morgen wieder – dann warten die nächsten Wiederholungen.
               </p>
             </div>

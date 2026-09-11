@@ -36,7 +36,7 @@ export default function AufgabenKarte({
   const hatAnlage = Boolean(aufgabe.anlagenText || aufgabe.anlagenDiagramm)
 
   return (
-    <div className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
+    <div className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm dark:border-slate-800 dark:bg-slate-900">
       <div className="mb-2 flex items-center gap-2">
         <QuelleBadge quelle={aufgabe.quelle} termin={aufgabe.termin} />
         {istErledigt && <span className="text-sm text-green-600">✔ geübt</span>}

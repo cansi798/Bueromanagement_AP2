@@ -37,16 +37,16 @@ export default function QuizMC({
   return (
     <div>
       <Markdown text={aufgabe.text} />
-      {mehrfach && <p className="mt-1 text-xs text-slate-500">Mehrere Antworten möglich.</p>}
+      {mehrfach && <p className="mt-1 text-xs text-slate-500 dark:text-slate-400">Mehrere Antworten möglich.</p>}
       <div className="mt-3 space-y-2">
         {optionen.map((opt, i) => {
-          let stil = 'border-slate-300 bg-white hover:border-sky-400'
+          let stil = 'border-slate-300 bg-white hover:border-sky-400 dark:border-slate-700 dark:bg-slate-800 dark:hover:border-sky-500'
           if (abgegeben) {
-            if (korrekt.includes(i)) stil = 'border-green-500 bg-green-50'
-            else if (gewaehlt.includes(i)) stil = 'border-red-400 bg-red-50'
-            else stil = 'border-slate-200 bg-white opacity-60'
+            if (korrekt.includes(i)) stil = 'border-green-500 bg-green-50 dark:border-green-700 dark:bg-green-950/40'
+            else if (gewaehlt.includes(i)) stil = 'border-red-400 bg-red-50 dark:border-red-700 dark:bg-red-950/40'
+            else stil = 'border-slate-200 bg-white opacity-60 dark:border-slate-700 dark:bg-slate-800'
           } else if (gewaehlt.includes(i)) {
-            stil = 'border-sky-500 bg-sky-50'
+            stil = 'border-sky-500 bg-sky-50 dark:border-sky-600 dark:bg-sky-950/40'
           }
           return (
             <button
@@ -73,13 +73,13 @@ export default function QuizMC({
         <div className="mt-3">
           <p
             className={`font-semibold ${
-              wertungMC(korrekt, gewaehlt) ? 'text-green-700' : 'text-red-700'
+              wertungMC(korrekt, gewaehlt) ? 'text-green-700 dark:text-green-300' : 'text-red-700 dark:text-red-300'
             }`}
           >
             {wertungMC(korrekt, gewaehlt) ? '✔ Richtig!' : '✘ Leider falsch.'}
           </p>
           {aufgabe.erklaerung && (
-            <div className="mt-2 rounded-lg bg-slate-50 p-3">
+            <div className="mt-2 rounded-lg bg-slate-50 p-3 dark:bg-slate-800/60">
               <Markdown text={aufgabe.erklaerung} />
             </div>
           )}

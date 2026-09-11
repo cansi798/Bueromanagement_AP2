@@ -25,11 +25,11 @@ export default function UnterrichtSession() {
   const sessionNr = themen ? themen.findIndex((t) => t.id === themaId) + 1 : 0
   const themaAufgaben = aufgaben?.filter((a) => a.themaId === themaId) ?? []
 
-  if (laedt) return <Layout><p className="text-slate-500">Lade Session …</p></Layout>
+  if (laedt) return <Layout><p className="text-slate-500 dark:text-slate-400">Lade Session …</p></Layout>
   if (fehler || !thema)
     return (
       <Layout titel="Unterricht">
-        <p className="rounded-lg bg-red-50 p-4 text-red-700">{fehler ?? 'Session nicht gefunden.'}</p>
+        <p className="rounded-lg bg-red-50 p-4 text-red-700 dark:bg-red-950/40 dark:text-red-300">{fehler ?? 'Session nicht gefunden.'}</p>
       </Layout>
     )
 
@@ -44,10 +44,10 @@ export default function UnterrichtSession() {
             onClick={() => setSchritt(i)}
             className={`flex-1 whitespace-nowrap rounded-xl px-3 py-2.5 text-sm font-semibold transition ${
               i === schritt
-                ? 'bg-slate-900 text-white'
+                ? 'bg-slate-900 text-white dark:bg-slate-700'
                 : i < schritt
-                  ? 'bg-green-100 text-green-800'
-                  : 'bg-white text-slate-500'
+                  ? 'bg-green-100 text-green-800 dark:bg-green-950/40 dark:text-green-300'
+                  : 'bg-white text-slate-500 dark:bg-slate-800 dark:text-slate-400'
             }`}
           >
             {i < schritt ? '✔ ' : `${i + 1}. `}
@@ -58,24 +58,24 @@ export default function UnterrichtSession() {
 
       {schritt === 0 && (
         <div className="space-y-4">
-          <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
-            <h2 className="font-bold text-slate-900">Worum geht es heute?</h2>
-            <p className="mt-2 text-slate-700">{thema.beschreibung}</p>
+          <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm dark:border-slate-800 dark:bg-slate-900">
+            <h2 className="font-bold text-slate-900 dark:text-slate-100">Worum geht es heute?</h2>
+            <p className="mt-2 text-slate-700 dark:text-slate-300">{thema.beschreibung}</p>
             {thema.haeufigkeit.length > 0 && (
-              <p className="mt-3 inline-block rounded-full bg-sky-100 px-3 py-1 text-sm font-medium text-sky-800">
+              <p className="mt-3 inline-block rounded-full bg-sky-100 px-3 py-1 text-sm font-medium text-sky-800 dark:bg-sky-950/40 dark:text-sky-300">
                 📌 Kam bisher in {thema.haeufigkeit.length} Aufgabensammlung
                 {thema.haeufigkeit.length === 1 ? '' : 'en'} vor
               </p>
             )}
           </div>
-          <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+          <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm dark:border-slate-800 dark:bg-slate-900">
             <MedienSlot medien={thema.medien} bereichId={thema.bereich} themaId={thema.id} />
             <div className="mt-4">
               <NotizFeld schluessel={`${thema.bereich}/${thema.id}`} />
             </div>
             <Link
               to={`/praesentation/${bereichId}/${thema.id}`}
-              className="mt-3 inline-block rounded-lg bg-slate-900 px-4 py-2.5 font-semibold text-white hover:bg-slate-700"
+              className="mt-3 inline-block rounded-lg bg-slate-900 px-4 py-2.5 font-semibold text-white hover:bg-slate-700 dark:bg-slate-700 dark:hover:bg-slate-600"
             >
               🖥️ Präsentation für den Beamer starten
             </Link>
@@ -84,7 +84,7 @@ export default function UnterrichtSession() {
       )}
 
       {schritt === 1 && (
-        <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm lg:grid lg:grid-cols-[2fr_1fr] lg:gap-6">
+        <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm lg:grid lg:grid-cols-[2fr_1fr] lg:gap-6 dark:border-slate-800 dark:bg-slate-900">
           <div>
             <ThemaDiagramm themaId={thema.id} />
             <Markdown text={thema.lernzettel} />
@@ -94,14 +94,14 @@ export default function UnterrichtSession() {
           </div>
           {thema.eselsbruecken.length > 0 && (
             <div className="mt-5 lg:mt-0">
-              <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-slate-500">
+              <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">
                 Eselsbrücken
               </p>
               <div className="space-y-2">
                 {thema.eselsbruecken.map((e, i) => (
                   <div
                     key={i}
-                    className="rounded-lg border border-amber-200 bg-amber-50 px-3 py-2 text-sm text-amber-900"
+                    className="rounded-lg border border-amber-200 bg-amber-50 px-3 py-2 text-sm text-amber-900 dark:border-amber-900 dark:bg-amber-950/40 dark:text-amber-300"
                   >
                     💡 {e}
                   </div>
@@ -114,7 +114,7 @@ export default function UnterrichtSession() {
 
       {schritt === 2 && (
         <div className="space-y-2">
-          <p className="mb-3 text-slate-600">
+          <p className="mb-3 text-slate-600 dark:text-slate-300">
             Kurz prüfen, ob alles sitzt — Frage antippen, erst selbst beantworten, dann besprechen.
           </p>
           {thema.selbstcheck.map((frage, i) => (
@@ -124,8 +124,8 @@ export default function UnterrichtSession() {
               onClick={() => setCheckOffen(checkOffen === i ? null : i)}
               className={`block w-full rounded-xl border-2 px-4 py-3 text-left font-medium transition ${
                 checkOffen === i
-                  ? 'border-sky-500 bg-sky-50 text-sky-900'
-                  : 'border-slate-200 bg-white text-slate-800'
+                  ? 'border-sky-500 bg-sky-50 text-sky-900 dark:bg-sky-950/40 dark:text-sky-200'
+                  : 'border-slate-200 bg-white text-slate-800 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200'
               }`}
             >
               {checkOffen === i ? '🗣️ ' : '❓ '}
@@ -148,7 +148,7 @@ export default function UnterrichtSession() {
               <AufgabenKarte key={a.id} aufgabe={a} erledigt={erledigte.has(a.id)} />
             ))
           ) : (
-            <p className="rounded-lg bg-white p-6 text-center text-slate-500">
+            <p className="rounded-lg bg-white p-6 text-center text-slate-500 dark:bg-slate-900 dark:text-slate-400">
               Zu diesem Thema gibt es noch keine Übungsaufgaben.
             </p>
           )}
@@ -161,7 +161,7 @@ export default function UnterrichtSession() {
           type="button"
           onClick={() => setSchritt((s) => Math.max(s - 1, 0))}
           disabled={schritt === 0}
-          className="rounded-xl border-2 border-slate-300 bg-white px-5 py-2.5 font-semibold text-slate-700 disabled:opacity-40"
+          className="rounded-xl border-2 border-slate-300 bg-white px-5 py-2.5 font-semibold text-slate-700 disabled:opacity-40 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-300"
         >
           ← Zurück
         </button>
@@ -169,7 +169,7 @@ export default function UnterrichtSession() {
           <button
             type="button"
             onClick={() => setSchritt((s) => s + 1)}
-            className="rounded-xl bg-slate-900 px-5 py-2.5 font-semibold text-white hover:bg-slate-700"
+            className="rounded-xl bg-slate-900 px-5 py-2.5 font-semibold text-white hover:bg-slate-700 dark:bg-slate-700 dark:hover:bg-slate-600"
           >
             Weiter →
           </button>

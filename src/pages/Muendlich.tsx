@@ -16,7 +16,7 @@ export default function Muendlich() {
 
   return (
     <Layout titel="Mündliche Prüfung">
-      <p className="-mt-2 mb-5 text-slate-600">
+      <p className="-mt-2 mb-5 text-slate-600 dark:text-slate-300">
         Report, Fachaufgabe und Prüfungsgespräch – hier bereitest du dich gezielt auf das
         mündliche Format vor.
       </p>
@@ -33,7 +33,7 @@ export default function Muendlich() {
             type="button"
             onClick={() => setKategorie(k)}
             className={`rounded-full px-4 py-2 text-sm font-semibold ${
-              kategorie === k ? 'bg-violet-600 text-white' : 'bg-white text-slate-600'
+              kategorie === k ? 'bg-violet-600 text-white' : 'bg-white text-slate-600 dark:bg-slate-800 dark:text-slate-300'
             }`}
           >
             {label}
@@ -41,43 +41,43 @@ export default function Muendlich() {
         ))}
         <Link
           to="/muendlich/karten"
-          className="rounded-full bg-white px-4 py-2 text-sm font-semibold text-slate-600"
+          className="rounded-full bg-white px-4 py-2 text-sm font-semibold text-slate-600 dark:bg-slate-800 dark:text-slate-300"
         >
           🃏 Karteikarten
         </Link>
         <Link
           to="/muendlich/quiz"
-          className="rounded-full bg-white px-4 py-2 text-sm font-semibold text-slate-600"
+          className="rounded-full bg-white px-4 py-2 text-sm font-semibold text-slate-600 dark:bg-slate-800 dark:text-slate-300"
         >
           🧠 Themen-Quiz
         </Link>
       </div>
 
-      {laedt && <p className="text-slate-500">Lade …</p>}
-      {fehler && <p className="rounded-lg bg-red-50 p-4 text-red-700">{fehler}</p>}
+      {laedt && <p className="text-slate-500 dark:text-slate-400">Lade …</p>}
+      {fehler && <p className="rounded-lg bg-red-50 p-4 text-red-700 dark:bg-red-950/40 dark:text-red-300">{fehler}</p>}
 
       {kategorie === 'ablauf' && themen && (
         <div className="space-y-3">
           {themen.map((t) => (
-            <div key={t.id} className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
+            <div key={t.id} className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm dark:border-slate-800 dark:bg-slate-900">
               <button
                 type="button"
                 onClick={() => setOffenesThema(offenesThema === t.id ? null : t.id)}
                 className="flex w-full items-center justify-between px-4 py-3 text-left"
               >
                 <div>
-                  <h2 className="font-bold text-slate-900">{t.name}</h2>
-                  <p className="text-sm text-slate-500">{t.beschreibung}</p>
+                  <h2 className="font-bold text-slate-900 dark:text-slate-100">{t.name}</h2>
+                  <p className="text-sm text-slate-500 dark:text-slate-400">{t.beschreibung}</p>
                 </div>
-                <span className="ml-3 text-slate-400">{offenesThema === t.id ? '▲' : '▼'}</span>
+                <span className="ml-3 text-slate-400 dark:text-slate-500">{offenesThema === t.id ? '▲' : '▼'}</span>
               </button>
               {offenesThema === t.id && (
-                <div className="border-t border-slate-100 p-4">
+                <div className="border-t border-slate-100 p-4 dark:border-slate-800">
                   <Markdown text={t.lernzettel} />
                   {t.eselsbruecken.length > 0 && (
                     <div className="mt-4 space-y-2">
                       {t.eselsbruecken.map((e, i) => (
-                        <div key={i} className="rounded-lg border border-amber-200 bg-amber-50 px-3 py-2 text-sm text-amber-900">
+                        <div key={i} className="rounded-lg border border-amber-200 bg-amber-50 px-3 py-2 text-sm text-amber-900 dark:border-amber-900 dark:bg-amber-950/40 dark:text-amber-300">
                           💡 {e}
                         </div>
                       ))}
@@ -93,8 +93,8 @@ export default function Muendlich() {
       {kategorie === 'ueben' && aufgaben && (
         <div className="space-y-4">
           {aufgaben.map((a, i) => (
-            <div key={a.id} className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
-              <p className="mb-2 text-sm font-semibold text-slate-500">Prüfungsfrage {i + 1}</p>
+            <div key={a.id} className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm dark:border-slate-800 dark:bg-slate-900">
+              <p className="mb-2 text-sm font-semibold text-slate-500 dark:text-slate-400">Prüfungsfrage {i + 1}</p>
               <QuizOffen
                 aufgabe={a}
                 onErgebnis={(richtig) => {

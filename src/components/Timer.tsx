@@ -31,7 +31,7 @@ export default function Timer({
   return (
     <div
       className={`rounded-lg px-3 py-1.5 font-mono text-lg font-bold tabular-nums ${
-        kritisch ? 'bg-red-100 text-red-700' : 'bg-slate-200 text-slate-800'
+        kritisch ? 'bg-red-100 text-red-700 dark:bg-red-950/40 dark:text-red-300' : 'bg-slate-200 text-slate-800 dark:bg-slate-800 dark:text-slate-200'
       }`}
     >
       ⏱ {String(mm).padStart(2, '0')}:{String(ss).padStart(2, '0')}
