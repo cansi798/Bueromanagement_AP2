@@ -453,7 +453,7 @@ export function hatDiagramm(themaId: string): boolean {
 
 // Diagramme für einzelne Lernzettel-Abschnitte: Schlüssel ist der exakte
 // „##"-Folientitel. Wird auf der jeweiligen Inhaltsfolie mitgerendert.
-const FOLIEN_DIAGRAMME: Record<string, Record<string, () => ReactNode>> = {
+export const FOLIEN_DIAGRAMME: Record<string, Record<string, () => ReactNode>> = {
   'berufsausbildung-arbeitsrecht': {
     'Kündigung und Kündigungsschutz': Kuendigung,
     'Tarifvertrag, Betriebsrat und Mitbestimmung': TarifBetriebsrat,

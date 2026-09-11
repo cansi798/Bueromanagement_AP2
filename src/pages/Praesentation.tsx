@@ -2,22 +2,24 @@ import { useEffect, useMemo, useRef, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import Markdown from '../components/Markdown'
 import QuizMC from '../components/QuizMC'
+import ZuordnungQuiz from '../components/ZuordnungQuiz'
 import ThemaDiagramm, { FolienDiagramm, hatDiagramm } from '../components/diagramme'
 import { ladeAufgaben, ladeBereiche, ladeLernpaare, ladeThemen, useDaten } from '../lib/data'
 import { folienAusThema, type Folie } from '../lib/folien'
 import type { Aufgabe, BereichId, Lernpaar } from '../types'
 
-// Lernpaare als Quizfolien-Ersatz, wenn ein Thema kaum Original-MC hat.
+// Lernpaar als Aufgaben-Folie — unterstützt MC und Zuordnung.
 function alsAufgabe(p: Lernpaar): Aufgabe {
   return {
     id: p.id,
     themaId: p.themaId,
     bereich: p.bereich,
     quelle: 'generiert',
-    typ: 'mc',
+    typ: p.typ ?? 'mc',
     text: p.frage,
     optionen: p.optionen,
     korrekt: p.korrekt,
+    zuordnung: p.zuordnung,
     loesung: p.erklaerung,
     erklaerung: p.erklaerung,
   }
@@ -49,25 +51,22 @@ export default function Praesentation() {
       if (hatDiagramm(t.id)) {
         basis.splice(1, 0, { art: 'diagramm', titel: t.name, themaId: t.id })
       }
-      // Bis zu 3 anklickbare MC-Quizfragen ans Themenende hängen; hat das
-      // Thema zu wenige MC-Aufgaben, füllen Lernpaare aus dem Themen-Quiz auf.
-      const mc: Aufgabe[] = (aufgaben ?? [])
-        .filter((a) => a.themaId === t.id && a.typ === 'mc')
-        .sort((a, b) => (a.quelle === 'generiert' ? -1 : 0) - (b.quelle === 'generiert' ? -1 : 0))
-        .slice(0, 3)
-      if (mc.length < 3) {
-        mc.push(
-          ...(lernpaare ?? [])
-            // Zuordnungs-Paare haben keine Optionen und taugen nicht als MC-Folie.
-            .filter((p) => p.themaId === t.id && (p.typ ?? 'mc') === 'mc')
-            .slice(0, 3 - mc.length)
-            .map(alsAufgabe),
-        )
-      }
-      mc.forEach((a, i) =>
+      // ALLE Quizfragen des Themas als Folien: erst Original-/abgeleitete Aufgaben
+      // (MC + Zuordnung), dann Lernpaare aus dem Themen-Quiz; Reihenfolge stabil
+      // (kein Zufall im Beamer-Einsatz).
+      const fragen: Aufgabe[] = [
+        ...(aufgaben ?? [])
+          .filter((a) => a.themaId === t.id && (a.typ === 'mc' || a.typ === 'zuordnung'))
+          .sort((a, b) => a.id.localeCompare(b.id)),
+        ...(lernpaare ?? [])
+          .filter((p) => p.themaId === t.id)
+          .sort((a, b) => a.id.localeCompare(b.id))
+          .map(alsAufgabe),
+      ]
+      fragen.forEach((a, i) =>
         basis.push({
           art: 'quiz',
-          titel: `Quizfrage ${i + 1} von ${mc.length}`,
+          titel: `Quizfrage ${i + 1} von ${fragen.length}`,
           themaId: t.id,
           aufgabeId: a.id,
         }),
@@ -160,15 +159,15 @@ export default function Praesentation() {
                   Antippen, gemeinsam abstimmen — dann „Prüfen" für die Auflösung.
                 </p>
                 <div className="max-h-[62vh] overflow-y-auto print:max-h-none">
-                  {aufgabeZu(f.aufgabeId) ? (
-                    <QuizMC
-                      key={`${f.aufgabeId}-${aktiv}`}
-                      aufgabe={aufgabeZu(f.aufgabeId)!}
-                      onErgebnis={() => {}}
-                    />
-                  ) : (
-                    <p className="text-slate-500">Frage wird geladen …</p>
-                  )}
+                  {(() => {
+                    const a = aufgabeZu(f.aufgabeId)
+                    if (!a) return <p className="text-slate-500">Frage wird geladen …</p>
+                    return a.typ === 'zuordnung' ? (
+                      <ZuordnungQuiz key={`${f.aufgabeId}-${aktiv}`} aufgabe={a} onErgebnis={() => {}} />
+                    ) : (
+                      <QuizMC key={`${f.aufgabeId}-${aktiv}`} aufgabe={a} onErgebnis={() => {}} />
+                    )
+                  })()}
                 </div>
               </div>
             ) : (
