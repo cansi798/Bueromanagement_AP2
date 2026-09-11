@@ -1,12 +1,33 @@
 import { describe, expect, it } from 'vitest'
 import {
   faelligeLernpaare,
+  falscheLernpaare,
   istPositionsgebunden,
+  merkeLernpaarAntwort,
   mischeOptionen,
   quizFortschritt,
   themenQuizStand,
+  ladeLernpaarStaende,
 } from '../src/lib/lernquiz'
 import type { Lernpaar } from '../src/types'
+
+// Mock localStorage für Node-Tests
+const localStorageMock = (() => {
+  let store: Record<string, string> = {}
+  return {
+    getItem: (key: string) => store[key] ?? null,
+    setItem: (key: string, value: string) => {
+      store[key] = value.toString()
+    },
+    removeItem: (key: string) => {
+      delete store[key]
+    },
+    clear: () => {
+      store = {}
+    },
+  }
+})()
+globalThis.localStorage = localStorageMock as any
 
 const paar = (id: string, korrekt: number[] = [0]): Lernpaar => ({
   id,
@@ -109,5 +130,28 @@ describe('istPositionsgebunden', () => {
     expect(istPositionsgebunden('Alle Arbeitnehmer sind rentenversicherungspflichtig.')).toBe(false)
     expect(istPositionsgebunden('Forderungen 2404 3.570,00 € an Umsatzerlöse 5100')).toBe(false)
     expect(istPositionsgebunden('Der Betriebsrat wird alle vier Jahre gewählt.')).toBe(false)
+  })
+})
+
+describe('falscheLernpaare', () => {
+  const paarDef = (id: string): Lernpaar => ({
+    id, themaId: 't1', bereich: 'wiso', frage: 'f', erklaerung: 'e',
+  })
+
+  it('merkeLernpaarAntwort setzt und löscht das Fehler-Flag', () => {
+    localStorage.clear()
+    merkeLernpaarAntwort('p1', false, '2026-09-11')
+    expect(ladeLernpaarStaende()['p1'].letzteFalsch).toBe(true)
+    merkeLernpaarAntwort('p1', true, '2026-09-12')
+    expect(ladeLernpaarStaende()['p1'].letzteFalsch).toBe(false)
+  })
+
+  it('liefert nur Karten mit letzteFalsch — Altbestand ohne Flag zählt nicht', () => {
+    const staende = {
+      p1: { fach: 1 as const, faelligAm: '2026-09-11', letzteFalsch: true },
+      p2: { fach: 2 as const, faelligAm: '2026-09-11' }, // Altbestand
+    }
+    const treffer = falscheLernpaare([paarDef('p1'), paarDef('p2'), paarDef('p3')], staende)
+    expect(treffer.map((p) => p.id)).toEqual(['p1'])
   })
 })

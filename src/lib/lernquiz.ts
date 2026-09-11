@@ -7,7 +7,9 @@ import type { Lernpaar } from '../types'
 
 const KEY = 'kbm.v1.lernpaare'
 
-export type LernpaarStaende = Record<string, KartenStand>
+// Leitner-Stand plus Fehler-Flag: true = letzte Antwort war falsch.
+export type LernpaarStand = KartenStand & { letzteFalsch?: boolean }
+export type LernpaarStaende = Record<string, LernpaarStand>
 
 export function ladeLernpaarStaende(): LernpaarStaende {
   return getItem<LernpaarStaende>(KEY) ?? {}
@@ -19,7 +21,10 @@ export function merkeLernpaarAntwort(
   heute: string,
 ): LernpaarStaende {
   const staende = ladeLernpaarStaende()
-  const neu = { ...staende, [paarId]: antworten(staende[paarId], richtig, heute) }
+  const neu = {
+    ...staende,
+    [paarId]: { ...antworten(staende[paarId], richtig, heute), letzteFalsch: !richtig },
+  }
   setItem(KEY, neu)
   return neu
 }
@@ -38,6 +43,11 @@ export function faelligeLernpaare(
   )
   const nachId = new Map(paare.map((p) => [p.id, p]))
   return reihenfolge.map((id) => nachId.get(id)!).filter(Boolean)
+}
+
+// Karten, deren letzte Antwort falsch war — für den „Falsche wiederholen"-Modus.
+export function falscheLernpaare(paare: Lernpaar[], staende: LernpaarStaende): Lernpaar[] {
+  return paare.filter((p) => staende[p.id]?.letzteFalsch)
 }
 
 export interface ThemenQuizStand {
