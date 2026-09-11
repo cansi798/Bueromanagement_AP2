@@ -119,6 +119,13 @@
     ]
   },
   {
+    "begriff": "Geschäftsklima",
+    "definition": "Stimmungsindikator der Wirtschaft (ifo-Geschäftsklimaindex): monatliche Befragung von Unternehmen zu aktueller Lage und Erwartungen für die nächsten sechs Monate; gilt als Frühindikator für die Konjunkturentwicklung.",
+    "bereiche": [
+      "wiso"
+    ]
+  },
+  {
     "begriff": "Handelskalkulation",
     "definition": "Vom Bezugspreis über Handlungskosten und Gewinn zum Verkaufspreis – vorwärts oder rückwärts gerechnet.",
     "bereiche": [
@@ -225,6 +232,14 @@
     "definition": "Fünf Säulen: Kranken-, Pflege-, Renten-, Arbeitslosen- und Unfallversicherung; Beiträge je zur Hälfte AG/AN (außer Unfall: nur AG).",
     "bereiche": [
       "wiso"
+    ]
+  },
+  {
+    "begriff": "Stabsstelleninhaber",
+    "definition": "Person auf einer Stabsstelle im Organigramm: berät und entlastet eine Leitungsstelle (z. B. Justiziariat, Controlling), hat aber keine Weisungsbefugnis gegenüber den Linienstellen.",
+    "bereiche": [
+      "kbz",
+      "muendlich"
     ]
   },
   {
