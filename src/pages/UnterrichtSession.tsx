@@ -7,7 +7,7 @@ import AufgabenKarte from '../components/AufgabenKarte'
 import ThemaDiagramm from '../components/diagramme'
 import NotizFeld from '../components/NotizFeld'
 import { ladeAufgaben, ladeThemen, useDaten } from '../lib/data'
-import { ladeFortschritt } from '../lib/progress'
+import { ladeFortschritt, heuteISO, merkeUnterricht } from '../lib/progress'
 import type { BereichId } from '../types'
 
 const SCHRITTE = ['Einstieg', 'Stoff', 'Selbstcheck', 'Üben'] as const
@@ -176,6 +176,7 @@ export default function UnterrichtSession() {
         ) : (
           <Link
             to={`/unterricht/${bereichId}`}
+            onClick={() => merkeUnterricht(thema.id, heuteISO())}
             className="rounded-xl bg-green-600 px-5 py-2.5 font-semibold text-white hover:bg-green-700"
           >
             Session abschließen ✔

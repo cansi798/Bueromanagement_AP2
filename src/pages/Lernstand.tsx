@@ -78,6 +78,32 @@ export default function Lernstand() {
         ))}
       </div>
 
+      {/* Themen-Training: abgeschlossene Unterrichts-Sessions je Bereich */}
+      {Object.keys(f.unterricht).length > 0 && (
+        <div className="mb-6 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
+          <h2 className="mb-3 font-bold text-slate-900">🎓 Themen-Training</h2>
+          <div className="grid grid-cols-1 gap-2 sm:grid-cols-2">
+            {BEREICHE.map((b) => {
+              const bereichsThemen = themen.filter((t) => t.bereich === b)
+              if (bereichsThemen.length === 0) return null
+              const fertig = bereichsThemen.filter((t) => f.unterricht[t.id]).length
+              return (
+                <Link
+                  key={b}
+                  to={`/unterricht/${b}`}
+                  className="flex items-center justify-between gap-3 rounded-xl border border-slate-100 bg-slate-50 px-3 py-2 hover:border-sky-300"
+                >
+                  <span className="font-medium text-slate-800">{bereichName(b)}</span>
+                  <span className="shrink-0 text-sm font-semibold text-slate-500">
+                    {fertig} / {bereichsThemen.length} Sessions
+                  </span>
+                </Link>
+              )
+            })}
+          </div>
+        </div>
+      )}
+
       {/* Themen-Quiz: heute fällige Leitner-Fragen je Bereich */}
       {Object.values(lernpaare).some((l) => l.length > 0) && (
         <div className="mb-6 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">

@@ -5,6 +5,7 @@ import {
   merkeQuiz,
   aktualisiereStreak,
   bereichsFortschritt,
+  merkeUnterricht,
 } from '../src/lib/progress'
 import type { Aufgabe } from '../src/types'
 
@@ -14,6 +15,7 @@ beforeEach(() => {
     getItem: (k: string) => (map.has(k) ? map.get(k)! : null),
     setItem: (k: string, v: string) => void map.set(k, String(v)),
     removeItem: (k: string) => void map.delete(k),
+    clear: () => void map.clear(),
   }
 })
 
@@ -70,5 +72,20 @@ describe('progress', () => {
     const liste = [aufgabe('a1'), aufgabe('a2'), aufgabe('a3'), aufgabe('a4')]
     expect(bereichsFortschritt(f, liste)).toBe(0.5)
     expect(bereichsFortschritt(f, [])).toBe(0)
+  })
+})
+
+describe('merkeUnterricht', () => {
+  it('speichert das Abschluss-Datum pro Thema und zählt den Streak', () => {
+    localStorage.clear()
+    const f = merkeUnterricht('wiso-01-sozialversicherung', '2026-09-11')
+    expect(f.unterricht['wiso-01-sozialversicherung']).toEqual({ abgeschlossen: '2026-09-11' })
+    expect(f.streak.tage).toBe(1)
+  })
+
+  it('alte Speicherstände ohne unterricht-Feld werden sanft migriert', () => {
+    localStorage.clear()
+    localStorage.setItem('kbm.v1.fortschritt', JSON.stringify({ erledigteAufgaben: [] }))
+    expect(ladeFortschritt().unterricht).toEqual({})
   })
 })

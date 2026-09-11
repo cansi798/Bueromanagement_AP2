@@ -17,6 +17,7 @@ export interface Fortschritt {
   aufgabenStatistik: Record<string, { richtig: number; falsch: number }> // key: aufgabeId
   simulationen: SimulationsErgebnis[]
   streak: { letzterTag: string; tage: number }
+  unterricht: Record<string, { abgeschlossen: string }> // key: themaId
 }
 
 const KEY = 'kbm.v1.fortschritt'
@@ -27,6 +28,7 @@ const DEFAULT: Fortschritt = {
   aufgabenStatistik: {},
   simulationen: [],
   streak: { letzterTag: '', tage: 0 },
+  unterricht: {},
 }
 
 export function ladeFortschritt(): Fortschritt {
@@ -112,6 +114,14 @@ export function merkeSimulation(e: SimulationsErgebnis): Fortschritt {
   )
   f = { ...f, simulationen: [...rest, e] }
   return speichern(aktualisiereStreak(f, e.datum))
+}
+
+// Merkt sich den Abschluss einer Unterrichts-Session — Grundlage für den
+// „Themen-Training"-Block und die Themen-Tabelle im Lernstand.
+export function merkeUnterricht(themaId: string, heute: string): Fortschritt {
+  let f = ladeFortschritt()
+  f = { ...f, unterricht: { ...f.unterricht, [themaId]: { abgeschlossen: heute } } }
+  return speichern(aktualisiereStreak(f, heute))
 }
 
 export function bereichsFortschritt(f: Fortschritt, aufgaben: Aufgabe[]): number {
