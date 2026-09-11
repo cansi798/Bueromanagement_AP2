@@ -252,6 +252,19 @@ function Session({
   }
 
   function nochEineRunde() {
+    if (fehlerModus) {
+      // Frisch berechnen, damit richtig beantwortete Karten nicht erneut erscheinen.
+      const basis =
+        filterThema === null || filterThema === 'alle'
+          ? paare
+          : paare.filter((p) => p.themaId === filterThema)
+      const frischeFalsche = falscheLernpaare(basis, ladeLernpaarStaende())
+      // leere Liste → Leer-Zustand (🎉) über runde=[] erreichbar machen
+      setRunde(frischeFalsche.slice(0, SESSION_GROESSE))
+      setIndex(0)
+      setRichtige(0)
+      return
+    }
     setRunde(baueRunde(themenPaare, heute, fehlerModus))
     setIndex(0)
     setRichtige(0)
@@ -285,8 +298,25 @@ function Session({
     )
   }
 
-  // Session fertig → Zusammenfassung
+  // Session fertig → Zusammenfassung (oder 🎉 wenn Fehler-Modus und keine falschen mehr)
   if (index >= runde.length) {
+    if (fehlerModus && runde.length === 0) {
+      return (
+        <Layout titel="Themen-Quiz">
+          <div className="mx-auto max-w-xl rounded-2xl bg-white p-8 text-center shadow-sm">
+            <p className="text-4xl">🎉</p>
+            <h2 className="mt-2 text-xl font-bold text-slate-900">Keine falschen Karten mehr!</h2>
+            <p className="mt-1 text-slate-600">Alles, was zuletzt falsch war, hast du inzwischen richtig beantwortet.</p>
+            <Link
+              to={`/${bereichId}/quiz`}
+              className="mt-6 inline-flex min-h-12 items-center justify-center rounded-xl border-2 border-slate-300 bg-white px-6 font-semibold text-slate-700 hover:border-slate-400"
+            >
+              Zur Themenübersicht
+            </Link>
+          </div>
+        </Layout>
+      )
+    }
     const quote = runde.length > 0 ? Math.round((richtige / runde.length) * 100) : 0
     return (
       <Layout titel="Themen-Quiz">
