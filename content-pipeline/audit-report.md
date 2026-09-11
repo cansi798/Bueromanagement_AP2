@@ -257,3 +257,150 @@ ist gemäß Angabe im Feld „laut Lösungsschlüssel" die maßgebliche Wahrheit
 übernommen. Nachrechnung bestätigt: Neuer Kommanditist erhält 20.000 € (4 % auf
 500.000 €) + 55.000 € (1/10 von 550.000 €) = 75.000 € gesamt; um diesen Betrag
 werden die Altgesellschafter schlechtergestellt.
+
+## Zuordnungs-Audit 2026-09-11
+
+### Struktureller Test (dauerhaft)
+
+`tests/zuordnungDaten.test.ts` angelegt. Prüft für alle 42 Zuordnungs-Einträge aus
+`aufgaben/*.json` und `lernpaare/*.json`:
+- Ziffern-Nummern (nr) eindeutig je Eintrag
+- Labels (a, b, c …) eindeutig je Eintrag
+- Jeder `korrekt`-Wert zeigt auf eine tatsächlich vorhandene Ziffer-Nr
+- Mindestens 2 Ziffern pro Legende
+
+**Ergebnis: 43 Tests grün (1 Meta-Test + 42 Einzel-Tests), kein Strukturfehler.**
+
+### Inhaltlicher Audit: aufgaben/kbz.json (3 Einträge)
+
+- **kbz-2019s-a4-8** (Arbeitsrechtsquellen): korrekt [3,2,1] = BGB/Betriebsvereinbarung/Tarifvertrag.
+  PDF-Abgleich Sommer 2019 KBZ Lösungsbogen (4.8 = 3;2;1): **bestätigt, kein Befund**.
+- **kbz-2020s-a1-8** (Vertragswirksamkeit): korrekt [1,2,2,1,3,1].
+  PDF-Abgleich Sommer 2020 KBZ/WiSo Lösung (1.8 = 1;2;2;1;3;1): **bestätigt, kein Befund**.
+- **kbz-2021w-a4-3** (Kosten-Erlös-Diagramm Linien): korrekt [3,1,2] = Erlöse/Gewinn/Variable Kosten.
+  PDF-Abgleich Winter 2021/22 gebundene Lösungen (4.3 = 3;1;2): **bestätigt, kein Befund**.
+  Fachlich konsistent: Erlöse = steilste Gerade (Steigung 943), Variable Kosten = mittlere Gerade
+  (Steigung 750), Gewinn = flachste Gerade (Steigung 193 = Deckungsbeitrag je Stück).
+
+### Inhaltlicher Audit: aufgaben/wiso.json (29 Einträge)
+
+PDF-Abgleich für alle Einträge mit `termin`-Feld (18 Einträge mit 8 Terminen):
+
+**Sommer 2018 (WiSo Vorläufige Lösungen):**
+- wiso-2018s-a4 (Produktionsfaktoren): korrekt [1,4,2]. PDF: A4 = 1;4;2. **bestätigt**.
+- wiso-2018s-a7 (Multimomentmethode Reihenfolge): korrekt [2,3,5,4,1]. PDF: A7 = 2;3;5;4;1. **bestätigt**.
+- wiso-2018s-a9 (Finanzierungsarten): korrekt [1,3,2]. PDF: A9 = 1;3;2. **bestätigt**.
+- wiso-2018s-a21 (JAV-Wahl Wahlrecht): korrekt [3,1,3,2]. PDF: A21 = 3;1;3;2. **bestätigt**.
+  Fachliche Plausibilität: Petra Wagner (20 J., Produktionsarbeiterin, nicht Azubi, über 18)
+  → nach §60 BetrVG nicht wahlberechtigt (nicht jugendlich, nicht in Berufsausbildung),
+  nach §61 BetrVG wählbar (unter 25) → korrekt = 2 (nur wählbar). **kein Befund**.
+
+**Sommer 2019 (WiSo Lösungen):**
+- wiso-2019s-a5 (Prozessoptimierung Reihenfolge): korrekt [3,1,2,5,4]. PDF: A5 = 3;1;2;5;4. **bestätigt**.
+
+**Sommer 2020 (WiSo Vorläufige Lösungen):**
+- wiso-2020s-a1 (Zielbeziehungen): korrekt [2,2,3,1,1]. PDF: A1 = 2;2;3;1;1. **bestätigt**.
+
+**Winter 2020/21 (WiSo Lösungen):**
+- wiso-2020w-a5 (EPK-Symbole): korrekt [2,4,3]. PDF: A5 = 2;4;3. **bestätigt**.
+- wiso-2020w-a6 (Projektphasen): korrekt [4,3,1,2]. PDF: A6 = 4;3;1;2. **bestätigt**.
+- wiso-2020w-a24 (Sicherheitszeichen-Kategorien): korrekt [3,4,5,1,2]. PDF: A24 = 3;4;5;1;2. **bestätigt**.
+
+**Winter 2021/22 (WiSo Lösungen):**
+- wiso-2021w-a2 (Zielbeziehungen): korrekt [1,2,3]. PDF: A2 = 1;2;3. **bestätigt**.
+- wiso-2021w-a6 (Haftungskapital): korrekt [1,1,2,2]. PDF: A6 = 1;1;2;2. **bestätigt**.
+- wiso-2021w-a9 (Finanzierungsarten): korrekt [1,3,2]. PDF: A9 = 1;3;2. **bestätigt**.
+- wiso-2021w-a17 (Konjunkturschaubild): korrekt [1,6,3]. PDF: A17 = 1;6;3. **bestätigt**.
+- wiso-2021w-a29 (Abfallhierarchie): korrekt [2,1,3]. PDF: A29 = 2;1;3. **bestätigt**.
+
+**Sommer 2023 (WiSo Vorläufige Lösungen):**
+- wiso-2023s-a3 (Produktionsfaktoren): korrekt [1,4,2]. PDF: A3 = 1;4;2. **bestätigt**.
+- wiso-2023s-a12 (Kreditsicherheiten): korrekt [3,1,2]. PDF: A12 = 3;1;2. **bestätigt**.
+
+**Winter 2023/24 (WiSo Vorläufige Lösungen):**
+- wiso-2023w-a2 (Betriebliche Grundfunktionen): korrekt [5,1,2,4,3]. PDF: A2 = 5;1;2;4;3. **bestätigt**.
+- wiso-2023w-a8 (Vertretungsbefugnis KG): korrekt [3,2,1]. PDF: A8 = 3;2;1. **bestätigt**.
+- wiso-2023w-a11 (Prozessoptimierung Reihenfolge): korrekt [3,1,2,5,4]. PDF: A11 = 3;1;2;5;4. **bestätigt**.
+- wiso-2023w-a18 (Marktformen): korrekt [3,6,1]. PDF: A18 = 3;6;1. **bestätigt**.
+  Fachliche Prüfung: „Benno" (zwei weitere Hersteller + sehr wenige Kunden) = zweiseitiges
+  Oligopol (6). PDF-Aufgabentext und Lösung konsistent. **kein Befund**.
+
+**Sommer 2024 (WiSo Vorläufige Lösungen):**
+- wiso-2024s-a1 (Zielbeziehungen): korrekt [2,2,3,1,1]. PDF: A1 = 2;2;3;1;1. **bestätigt**.
+- wiso-2024s-a15 (Konjunkturbegriffe): korrekt [2,1,3]. PDF: A15 = 2;1;3. **bestätigt**.
+- wiso-2024s-a16 (Konjunkturphasen): korrekt [2,1,1,2]. PDF: A16 = 2;1;1;2. **bestätigt**.
+- wiso-2024s-a29 (Nachhaltigkeitssäulen): korrekt [3,1,2]. PDF: A29 = 3;1;2. **bestätigt**.
+
+**Sommer 2025 (WiSo, Lösung inline im Aufgabenblatt):**
+- wiso-2025s-a2 (Produktionsfaktoren): korrekt [2,1,4]. Aufgabenblatt S. 3 bestätigt: 2, 1, 4. **bestätigt**.
+- wiso-2025s-a15 (Konjunkturschaubild): korrekt [1,6,3]. Aufgabenblatt S. 6 bestätigt: A=1, B=6, C=3. **bestätigt**.
+- wiso-2025s-a19 (Rechtsgrundlagen Ausbildung): korrekt [3,1,2]. Aufgabenblatt S. 7 bestätigt: 3, 1, 2. **bestätigt**.
+- wiso-2025s-a27 (Sicherheitszeichen-Namen): korrekt [3,2,1,5,4]. Aufgabenblatt S. 10 bestätigt: 3, 2, 1, 5, 4. **bestätigt**.
+- wiso-2025s-a29 (Kreislaufwirtschaft): korrekt [3,1,2]. Aufgabenblatt S. 11 bestätigt: 3, 1, 2. **bestätigt**.
+
+**Einträge ohne termin (fachliche Prüfung loesung/erklaerung vs. korrekt):**
+Kein Eintrag ohne termin in aufgaben/wiso.json — alle 29 Einträge haben termin-Feld und wurden PDF-verifiziert.
+
+### Inhaltlicher Audit: lernpaare/wiso.json (10 Einträge)
+
+Lernpaare haben kein `loesung`-Feld (nur `erklaerung`). Prüfung: Erklaerung vs. korrekt-Ziffern.
+
+- **wiso-lp-produktionsfaktoren-unternehmensziele-08** (Zielbeziehungen): korrekt [2,3,1].
+  Erklaerung nennt: Klimaschutzabgabe=konkurrierend(2), Arbeitsklima/Recycling=indifferent(3),
+  ergonomische Möbel/weniger Krankheitstage=komplementär(1). **konsistent, kein Befund**.
+  quellTermin: 2024-sommer — inhaltlich deckungsgleich mit wiso-2024s-a1 (andere Items, gleiche Logik).
+- **wiso-lp-konjunktur-indikatoren-12** (Konjunkturbegriffe): korrekt [2,1,3].
+  Erklaerung: Trend=langfristige Grundrichtung(2), Konjunkturzyklus=Wellenbewegung(1),
+  saisonal=jahreszeitlich(3). **konsistent, kein Befund**.
+- **wiso-lp-konjunktur-indikatoren-16** (Konjunkturphasen): korrekt [2,1,1,2].
+  Erklaerung: sinkende Ausgabebereitschaft=Rezession(2), steigende Nachfrage=Expansion(1),
+  hochwertige Produkte=Expansion(1), aufgeschobene Käufe=Rezession(2). **konsistent, kein Befund**.
+- **wiso-lp-konjunktur-indikatoren-17** (Konjunkturschaubild): korrekt [1,6,3].
+  Erklaerung: senkrechte Achse=BIP(1), Abwärtsbewegung=Rezession(6), steigende Gerade=Wirtschaftstrend(3).
+  **konsistent, kein Befund**.
+- **wiso-lp-projektmanagement-04** (Projektphasen): korrekt [4,3,1,2].
+  Erklaerung: Lastenheft=Definition(4), Struktur-/Ablaufplan=Planung(3), Statusberichte=Durchführung(1),
+  Reflexion=Abschluss(2). **konsistent, kein Befund**.
+- **wiso-lp-produktionsfaktoren-unternehmensziele-20** (Werkstoffkategorien): korrekt [1,2,3].
+  Erklaerung: Buchenholz=Rohstoff(1), Leim/Schrauben=Hilfsstoff(2), Schmieröl=Betriebsstoff(3).
+  **konsistent, kein Befund**.
+- **wiso-lp-rechtsformen-vollmachten-23** (Haftungskapital): korrekt [1,2,2,1].
+  Erklaerung: Komplementär=Geschäfts+Privat(1), Kommanditist=nur Einlage(2),
+  GmbH-Gesellschafter=nur Gesellschaft(2), e.K.=Geschäfts+Privat(1). **konsistent, kein Befund**.
+- **wiso-lp-rechtsformen-vollmachten-30** (Handlungsvollmacht-Arten): korrekt [2,3,1].
+  Erklaerung: Einkaufsleiter=Artvollmacht(2), einmaliger Fahrzeugverkauf=Einzelvollmacht(3),
+  Filialleiterin alle gewöhnlichen=allgemeine HV(1). **konsistent, kein Befund**.
+- **wiso-lp-finanzierung-kreditsicherung-31** (Personal-/Realsicherheiten): korrekt [1,2,2].
+  Erklaerung: Bürgschaft=Personalsicherheit(1), Grundschuld=Realsicherheit(2),
+  Sicherungsübereignung=Realsicherheit(2). **konsistent, kein Befund**.
+- **wiso-lp-konjunktur-indikatoren-30** (Arbeitslosigkeitsarten): korrekt [1,2,3,4].
+  Erklaerung: Dachdecker Winter=saisonal(1), Möbelhersteller Rezession=konjunkturell(2),
+  Kohlebergbau Strukturwandel=strukturell(3), Fachkraft Übergang=friktionell(4). **konsistent, kein Befund**.
+
+### Positionsbezogene Formulierungen
+
+Systematische Prüfung aller erklaerung/loesung-Felder aller 42 Zuordnungseinträge auf Muster
+wie „Option X", „die erste/zweite Option", „die unterste/oberste Zeile": **0 Befunde**.
+
+### Altproblem-Rest: Reihenfolge-Kodierung
+
+Bekanntes Altproblem: 19 Einträge waren früher als Reihenfolge kodiert (korrekt-Array als Positionsfolge).
+Nach der Zuordnungs-Runde (2026-09-08) sind diese korrekt als Ziffern-Zuordnung modelliert.
+Geprüfte Reihenfolge-Einträge im aktuellen Bestand:
+- wiso-2023w-a11, wiso-2019s-a5, wiso-2018s-a7: Ziffern-Legende 1–5 = Arbeitsschritte;
+  korrekt-Werte = Schrittnummer (nicht Position) → korrekte Modellierung; lösbar und eindeutig.
+  Alle drei PDF-bestätigt. **kein Rest des Altproblems gefunden**.
+
+### Korrekturen
+
+**Keine Korrekturen vorgenommen.** Alle 42 Zuordnungs-Einträge sind strukturell korrekt
+(Strukturtest grün) und inhaltlich konsistent (loesung/erklaerung vs. korrekt-Ziffern
+widerspruchsfrei; 32 von 42 Einträgen zusätzlich per Original-PDF verifiziert).
+
+### Offene Punkte
+
+- lernpaare/kbz.json, lernpaare/buchfuehrung.json, lernpaare/muendlich.json enthalten
+  keine Zuordnungs-Einträge (geprüft, kein Befund).
+- aufgaben/buchfuehrung.json, aufgaben/muendlich.json enthalten keine Zuordnungs-Einträge.
+- 10 Lernpaar-Einträge ohne quellTermin: fachliche Prüfung via erklaerung durchgeführt,
+  kein PDF-Abgleich möglich (generierte Einträge ohne Originaltermin). Inhaltlich plausibel.
