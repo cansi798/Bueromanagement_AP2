@@ -32,6 +32,17 @@ const zuordnungPaar: Lernpaar = {
   erklaerung: 'Darum.',
 }
 
+describe('Freitext-Modus', () => {
+  it('zeigt ein Textfeld statt Optionen', () => {
+    const html = renderToString(
+      <LernpaarKarte paar={mcPaar} optionen={['A', 'B']} korrekt={[0]} fach={null}
+        modus="freitext" onErgebnis={() => {}} onSelbst={() => {}} onWeiter={() => {}} />,
+    )
+    expect(html).toContain('<textarea')
+    expect(html).not.toContain('>A<')
+  })
+})
+
 describe('LernpaarKarte', () => {
   it('rendert MC-Paare weiterhin als Antwortoptionen', () => {
     const html = renderToString(

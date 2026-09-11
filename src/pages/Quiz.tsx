@@ -9,11 +9,14 @@ import {
   falscheLernpaare,
   ladeLernpaarStaende,
   merkeLernpaarAntwort,
+  merkeLernpaarSelbst,
   mischeOptionen,
   quizFortschritt,
   themenQuizStand,
+  type SelbstWertung,
 } from '../lib/lernquiz'
 import { heuteISO, merkeQuiz } from '../lib/progress'
+import { ladeQuizModus, speichereQuizModus, type QuizModus } from '../lib/quizmodus'
 import type { BereichId, Lernpaar } from '../types'
 
 const SESSION_GROESSE = 20
@@ -226,6 +229,12 @@ function Session({
   const [runde, setRunde] = useState(() => baueRunde(themenPaare, heute, fehlerModus))
   const [index, setIndex] = useState(0)
   const [richtige, setRichtige] = useState(0)
+  const [modus, setModus] = useState(ladeQuizModus)
+
+  function wechsleModus(m: QuizModus) {
+    setModus(m)
+    speichereQuizModus(m)
+  }
 
   const aktuell = runde[index]
   // Optionen-Mischung und Fach werden je Frage einmal eingefroren — das Fach
@@ -245,6 +254,14 @@ function Session({
     merkeLernpaarAntwort(aktuell.id, richtig, heute)
     merkeQuiz(aktuell.themaId, richtig ? 1 : 0, 1, heute)
     if (richtig) setRichtige((n) => n + 1)
+  }
+
+  function ergebnisSelbst(wertung: SelbstWertung) {
+    if (!aktuell) return
+    merkeLernpaarSelbst(aktuell.id, wertung, heute)
+    // teilweise zählt als halber Treffer in der Themen-Quote.
+    merkeQuiz(aktuell.themaId, wertung === 'gewusst' ? 1 : wertung === 'teilweise' ? 0.5 : 0, 1, heute)
+    if (wertung === 'gewusst') setRichtige((n) => n + 1)
   }
 
   function weiter() {
@@ -361,6 +378,16 @@ function Session({
             style={{ width: `${Math.round((index / runde.length) * 100)}%` }}
           />
         </div>
+        <div className="mb-3 flex gap-1 text-sm">
+          {([['auswahl', 'Antworten wählen'], ['freitext', 'Selbst formulieren']] as const).map(([m, label]) => (
+            <button key={m} type="button" onClick={() => wechsleModus(m)}
+              className={`rounded-lg px-3 py-1.5 font-medium ${
+                modus === m ? 'bg-slate-900 text-white' : 'bg-white text-slate-600 hover:bg-slate-200'
+              }`}>
+              {label}
+            </button>
+          ))}
+        </div>
         {aktuell && eingefroren && (
           <LernpaarKarte
             key={aktuell.id}
@@ -368,7 +395,9 @@ function Session({
             optionen={eingefroren.gemischt.optionen}
             korrekt={eingefroren.gemischt.korrekt}
             fach={eingefroren.fach}
+            modus={modus}
             onErgebnis={ergebnis}
+            onSelbst={ergebnisSelbst}
             onWeiter={weiter}
           />
         )}
