@@ -6,6 +6,7 @@ import { ladeBereiche, ladeLernpaare, ladeThemen, useDaten } from '../lib/data'
 import { farbe } from '../lib/farben'
 import {
   faelligeLernpaare,
+  falscheLernpaare,
   ladeLernpaarStaende,
   merkeLernpaarAntwort,
   mischeOptionen,
@@ -74,6 +75,7 @@ function Uebersicht({
   }, [paare])
 
   const gesamtStand = themenQuizStand(paare, staende, heute)
+  const falsche = falscheLernpaare(paare, staende)
 
   if (paare.length === 0) {
     return (
@@ -120,16 +122,27 @@ function Uebersicht({
         </Link>
       )}
 
+      {falsche.length > 0 && (
+        <Link
+          to={`/${bereichId}/quiz/fehler`}
+          className="mb-5 flex items-center gap-4 rounded-2xl border-2 border-red-200 bg-red-50 p-4 shadow-sm transition hover:border-red-400"
+        >
+          <span className="text-3xl">🔁</span>
+          <div className="min-w-0 flex-1">
+            <h2 className="font-bold text-red-900">Falsche wiederholen: {falsche.length} Fragen</h2>
+            <p className="text-sm text-red-800">Alles, was du zuletzt falsch hattest — bereichsweit.</p>
+          </div>
+          <span className="text-red-400">→</span>
+        </Link>
+      )}
+
       <div className="space-y-3">
         {proThema.map(([tid, tp]) => {
           const stand = themenQuizStand(tp, staende, heute)
           const anteil = quizFortschritt(stand)
           return (
-            <Link
-              key={tid}
-              to={`/${bereichId}/quiz/${tid}`}
-              className={`block rounded-2xl border-2 p-4 shadow-sm transition ${f.kachel}`}
-            >
+            <div key={tid} className={`relative block rounded-2xl border-2 p-4 shadow-sm transition ${f.kachel}`}>
+              <Link to={`/${bereichId}/quiz/${tid}`} className="absolute inset-0" aria-label={themenNamen.get(tid) ?? tid} />
               <div className="flex items-center justify-between gap-3">
                 <h2 className="min-w-0 font-bold text-slate-900">
                   {themenNamen.get(tid) ?? tid}
@@ -149,6 +162,17 @@ function Uebersicht({
                 )}
                 {stand.neu > 0 && <span>✨ {stand.neu} neu</span>}
                 {stand.gemeistert > 0 && <span>🏆 {stand.gemeistert} gemeistert</span>}
+                {(() => {
+                  const anzahlFalsch = falscheLernpaare(tp, staende).length
+                  return anzahlFalsch > 0 ? (
+                    <Link
+                      to={`/${bereichId}/quiz/fehler:${tid}`}
+                      className="relative z-10 font-semibold text-red-700 underline decoration-dotted"
+                    >
+                      🔁 {anzahlFalsch} falsch
+                    </Link>
+                  ) : null
+                })()}
                 {stand.neu < stand.gesamt && (
                   <span
                     className="ml-auto flex items-end gap-0.5"
@@ -167,7 +191,7 @@ function Uebersicht({
                   </span>
                 )}
               </div>
-            </Link>
+            </div>
           )
         })}
       </div>
@@ -185,13 +209,21 @@ function Session({
   paare: Lernpaar[]
 }) {
   const heute = heuteISO()
-  const themenPaare = useMemo(
-    () => (themaId === 'alle' ? paare : paare.filter((p) => p.themaId === themaId)),
-    [paare, themaId],
-  )
+
+  const fehlerModus = themaId === 'fehler' || themaId.startsWith('fehler:')
+  const filterThema = fehlerModus
+    ? (themaId.includes(':') ? themaId.split(':')[1] : null)
+    : themaId
+  const themenPaare = useMemo(() => {
+    const basis =
+      filterThema === null || filterThema === 'alle'
+        ? paare
+        : paare.filter((p) => p.themaId === filterThema)
+    return fehlerModus ? falscheLernpaare(basis, ladeLernpaarStaende()) : basis
+  }, [paare, filterThema, fehlerModus])
 
   // Die Session wird beim Start eingefroren: erst fällige, sonst Extra-Runde.
-  const [runde, setRunde] = useState(() => baueRunde(themenPaare, heute))
+  const [runde, setRunde] = useState(() => baueRunde(themenPaare, heute, fehlerModus))
   const [index, setIndex] = useState(0)
   const [richtige, setRichtige] = useState(0)
 
@@ -220,9 +252,27 @@ function Session({
   }
 
   function nochEineRunde() {
-    setRunde(baueRunde(themenPaare, heute))
+    setRunde(baueRunde(themenPaare, heute, fehlerModus))
     setIndex(0)
     setRichtige(0)
+  }
+
+  if (fehlerModus && themenPaare.length === 0) {
+    return (
+      <Layout titel="Themen-Quiz">
+        <div className="mx-auto max-w-xl rounded-2xl bg-white p-8 text-center shadow-sm">
+          <p className="text-4xl">🎉</p>
+          <h2 className="mt-2 text-xl font-bold text-slate-900">Keine falschen Karten mehr!</h2>
+          <p className="mt-1 text-slate-600">Alles, was zuletzt falsch war, hast du inzwischen richtig beantwortet.</p>
+          <Link
+            to={`/${bereichId}/quiz`}
+            className="mt-6 inline-flex min-h-12 items-center justify-center rounded-xl border-2 border-slate-300 bg-white px-6 font-semibold text-slate-700 hover:border-slate-400"
+          >
+            Zur Themenübersicht
+          </Link>
+        </div>
+      </Layout>
+    )
   }
 
   if (themenPaare.length === 0) {
@@ -297,8 +347,9 @@ function Session({
   )
 }
 
-// Fällige Fragen zuerst; ist nichts fällig, gibt es eine gemischte Extra-Runde.
-function baueRunde(themenPaare: Lernpaar[], heute: string): Lernpaar[] {
+// Fällige Fragen zuerst; im Fehler-Modus alle falschen; sonst Extra-Runde.
+function baueRunde(themenPaare: Lernpaar[], heute: string, fehlerModus = false): Lernpaar[] {
+  if (fehlerModus) return themenPaare.slice(0, SESSION_GROESSE)
   const staende = ladeLernpaarStaende()
   const faellig = faelligeLernpaare(themenPaare, staende, heute)
   if (faellig.length > 0) return faellig.slice(0, SESSION_GROESSE)
