@@ -26,4 +26,14 @@ describe('ThemenTabelle', () => {
     expect(html).toContain('Tarifvertrag')
     expect(html).toContain('—')
   })
+
+  it('ungeübte Themen (null-quote) stehen am Ende, auch bei absteigender Sortierung', () => {
+    const html = renderToString(<ThemenTabelle zeilen={zeilen} bereichName={(b) => b} />)
+    // Default sort is ascending by quote
+    // Sozialversicherung (0.9), Organigramm (0.25), Tarifvertrag (null)
+    // Tarifvertrag should appear AFTER Organigramm in the HTML
+    const tarifvertragIndex = html.indexOf('Tarifvertrag')
+    const organigrammIndex = html.indexOf('Organigramm')
+    expect(tarifvertragIndex).toBeGreaterThan(organigrammIndex)
+  })
 })

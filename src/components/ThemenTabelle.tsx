@@ -23,15 +23,42 @@ export default function ThemenTabelle({
     let liste = zeilen
     if (bereichFilter !== 'alle') liste = liste.filter((z) => z.bereich === bereichFilter)
     if (ohneGekonnte) liste = liste.filter((z) => !z.gekonnt)
-    const wert = (z: ThemaZeile): string | number => {
-      if (sortNach === 'quote') return z.quote ?? 2 // ungeübte ans Ende
-      if (sortNach === 'zuletzt') return z.zuletzt ?? ''
-      if (sortNach === 'geuebt') return z.geuebt
-      return z.bereich
-    }
+
     return [...liste].sort((a, b) => {
-      const wa = wert(a)
-      const wb = wert(b)
+      // Handle null-to-end invariant for quote and zuletzt, regardless of direction
+      if (sortNach === 'quote') {
+        const aNull = a.quote === null
+        const bNull = b.quote === null
+        if (aNull && !bNull) return 1 // null always to end
+        if (!aNull && bNull) return -1 // null always to end
+        if (aNull && bNull) return 0 // both null, keep order
+        // Both have quotes, sort by value
+        const cmp = (a.quote ?? 0) - (b.quote ?? 0)
+        return cmp * richtung
+      }
+
+      if (sortNach === 'zuletzt') {
+        const aNull = a.zuletzt === null
+        const bNull = b.zuletzt === null
+        if (aNull && !bNull) return 1 // null always to end
+        if (!aNull && bNull) return -1 // null always to end
+        if (aNull && bNull) return 0 // both null, keep order
+        // Both have dates, sort by value
+        const cmp = String(a.zuletzt).localeCompare(String(b.zuletzt), 'de')
+        return cmp * richtung
+      }
+
+      // For geuebt and bereich, use standard comparison
+      let wa: string | number
+      let wb: string | number
+      if (sortNach === 'geuebt') {
+        wa = a.geuebt
+        wb = b.geuebt
+      } else {
+        wa = a.bereich
+        wb = b.bereich
+      }
+
       const cmp = typeof wa === 'number' && typeof wb === 'number'
         ? wa - wb
         : String(wa).localeCompare(String(wb), 'de')
