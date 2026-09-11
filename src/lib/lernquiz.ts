@@ -2,7 +2,7 @@
 // dieselbe Fächer-Logik wie bei den Karteikarten.
 import { getItem, setItem } from './storage'
 import type { KartenStand } from './leitner'
-import { antworten, istFaellig, naechsteFaellige } from './leitner'
+import { antworten, istFaellig, naechsteFaellige, halten } from './leitner'
 import type { Lernpaar } from '../types'
 
 const KEY = 'kbm.v1.lernpaare'
@@ -25,6 +25,26 @@ export function merkeLernpaarAntwort(
     ...staende,
     [paarId]: { ...antworten(staende[paarId], richtig, heute), letzteFalsch: !richtig },
   }
+  setItem(KEY, neu)
+  return neu
+}
+
+export type SelbstWertung = 'gewusst' | 'teilweise' | 'nicht'
+
+// Selbstbewertung im Freitext-Modus: gewusst = richtig, teilweise = Fach
+// halten, nicht gewusst = falsch (Fach 1 + Fehler-Flag).
+export function merkeLernpaarSelbst(
+  paarId: string,
+  wertung: SelbstWertung,
+  heute: string,
+): LernpaarStaende {
+  const staende = ladeLernpaarStaende()
+  const alt = staende[paarId]
+  const stand: LernpaarStand =
+    wertung === 'teilweise'
+      ? { ...halten(alt, heute), letzteFalsch: false }
+      : { ...antworten(alt, wertung === 'gewusst', heute), letzteFalsch: wertung === 'nicht' }
+  const neu = { ...staende, [paarId]: stand }
   setItem(KEY, neu)
   return neu
 }

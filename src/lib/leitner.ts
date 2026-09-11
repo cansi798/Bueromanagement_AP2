@@ -24,6 +24,12 @@ export function antworten(
   return { fach, faelligAm: plusTage(heute, INTERVALLE[fach]) }
 }
 
+// „Teilweise gewusst": Fach bleibt, aber die Fälligkeit startet neu ab heute.
+export function halten(stand: KartenStand | undefined, heute: string): KartenStand {
+  const fach = stand?.fach ?? 1
+  return { fach, faelligAm: plusTage(heute, INTERVALLE[fach]) }
+}
+
 export function istFaellig(stand: KartenStand | undefined, heute: string): boolean {
   if (!stand) return true // neue Karte
   return stand.faelligAm <= heute

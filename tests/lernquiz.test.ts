@@ -4,6 +4,7 @@ import {
   falscheLernpaare,
   istPositionsgebunden,
   merkeLernpaarAntwort,
+  merkeLernpaarSelbst,
   mischeOptionen,
   quizFortschritt,
   themenQuizStand,
@@ -153,5 +154,32 @@ describe('falscheLernpaare', () => {
     }
     const treffer = falscheLernpaare([paarDef('p1'), paarDef('p2'), paarDef('p3')], staende)
     expect(treffer.map((p) => p.id)).toEqual(['p1'])
+  })
+})
+
+describe('merkeLernpaarSelbst', () => {
+  it('gewusst rückt vor wie eine richtige Antwort', () => {
+    localStorage.clear()
+    merkeLernpaarSelbst('p1', 'gewusst', '2026-09-11')
+    const s = ladeLernpaarStaende()['p1']
+    expect(s.fach).toBe(2)
+    expect(s.letzteFalsch).toBe(false)
+  })
+  it('teilweise hält das Fach', () => {
+    localStorage.clear()
+    merkeLernpaarSelbst('p1', 'gewusst', '2026-09-01') // → Fach 2
+    merkeLernpaarSelbst('p1', 'teilweise', '2026-09-11')
+    const s = ladeLernpaarStaende()['p1']
+    expect(s.fach).toBe(2)
+    expect(s.faelligAm).toBe('2026-09-12') // Intervall Fach 2 = 1 Tag
+    expect(s.letzteFalsch).toBe(false)
+  })
+  it('nicht gewusst fällt auf Fach 1 und setzt das Fehler-Flag', () => {
+    localStorage.clear()
+    merkeLernpaarSelbst('p1', 'gewusst', '2026-09-01')
+    merkeLernpaarSelbst('p1', 'nicht', '2026-09-11')
+    const s = ladeLernpaarStaende()['p1']
+    expect(s.fach).toBe(1)
+    expect(s.letzteFalsch).toBe(true)
   })
 })

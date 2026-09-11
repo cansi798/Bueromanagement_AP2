@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { antworten, istFaellig, naechsteFaellige, INTERVALLE } from '../src/lib/leitner'
+import { antworten, istFaellig, naechsteFaellige, INTERVALLE, halten } from '../src/lib/leitner'
 
 describe('leitner', () => {
   it('neue Karte + richtig ⇒ Fach 2, fällig morgen', () => {
@@ -44,5 +44,17 @@ describe('leitner', () => {
 
   it('Intervalle sind wie spezifiziert', () => {
     expect(INTERVALLE).toEqual({ 1: 0, 2: 1, 3: 3, 4: 7, 5: 14 })
+  })
+})
+
+describe('halten', () => {
+  it('behält das Fach und setzt die Fälligkeit ab heute neu', () => {
+    expect(halten({ fach: 3, faelligAm: '2026-09-01' }, '2026-09-11')).toEqual({
+      fach: 3,
+      faelligAm: '2026-09-14', // Intervall Fach 3 = 3 Tage
+    })
+  })
+  it('neue Karte ohne Stand bleibt in Fach 1 (heute wieder fällig)', () => {
+    expect(halten(undefined, '2026-09-11')).toEqual({ fach: 1, faelligAm: '2026-09-11' })
   })
 })
