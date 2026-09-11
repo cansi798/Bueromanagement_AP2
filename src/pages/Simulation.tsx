@@ -14,6 +14,7 @@ import ZuordnungFelder from '../components/ZuordnungFelder'
 import { heuteISO, merkeAufgabenErgebnis, merkeErledigt, merkeSimulation } from '../lib/progress'
 import { terminVonNummer } from '../lib/termine'
 import { ihkNote } from '../lib/noten'
+import { berechneZwischenstand } from '../lib/simulationErgebnis'
 import { zerlegeAufgabenText } from '../lib/aufgabenText'
 import OptionText from '../components/OptionText'
 import {
@@ -117,13 +118,25 @@ export default function Simulation() {
     .filter(istAutomatisch)
     .map((a) => ({ a, richtig: autoRichtig(a) }))
   const mcPunkte = autoErgebnisse.filter((e) => e.richtig).reduce((s, e) => s + (e.a.punkte ?? 1), 0)
-  const selbstPunkte = liste
-    .filter((a) => !istAutomatisch(a) && selbst[a.id])
-    .reduce((s, a) => s + (a.punkte ?? 1), 0)
 
   // KI-Gesamtbericht: alle offenen Aufgaben nacheinander wie ein Korrektor punkten.
   const offene = liste.filter((a) => !istAutomatisch(a))
   const maxPunkteGesamt = liste.reduce((s, a) => s + (a.punkte ?? 1), 0)
+
+  // erreicht: KI-Ergebnis > Selbsteinschätzung > unbewertet (null).
+  const stand = berechneZwischenstand(
+    mcPunkte,
+    autoErgebnisse.reduce((s, e) => s + (e.a.punkte ?? 1), 0),
+    offene.map((a) => ({
+      max: a.punkte ?? 1,
+      erreicht:
+        kiErgebnisse[a.id] !== undefined
+          ? kiErgebnisse[a.id].punkte
+          : selbst[a.id] !== undefined
+            ? selbst[a.id] ? (a.punkte ?? 1) : 0
+            : null,
+    })),
+  )
 
   async function kiBerichtErstellen() {
     setKiStatus('laedt')
@@ -219,13 +232,31 @@ export default function Simulation() {
 
       {abgegeben && (
         <div className="mb-5 rounded-2xl border-2 border-sky-200 bg-sky-50 p-4">
-          <p className="font-bold text-slate-900">
-            Ergebnis: {mcPunkte + selbstPunkte} von {pruefung.punkteGesamt} Punkten
-          </p>
-          <p className="text-sm text-slate-600">
-            MC und Zuordnungen automatisch gewertet · offene Aufgaben nach deiner
-            Selbsteinschätzung unten.
-          </p>
+          {stand.fertig ? (
+            <>
+              <p className="font-bold text-slate-900">
+                Ergebnis: {stand.gesamt} von {stand.gesamtMax} erfassten Punkten (
+                {Math.round((stand.gesamt / Math.max(stand.gesamtMax, 1)) * 100)} %) — Note{' '}
+                {ihkNote((stand.gesamt / Math.max(stand.gesamtMax, 1)) * 100).note}
+              </p>
+              <p className="text-sm text-slate-600">
+                Auswahlaufgaben: {stand.autoPunkte}/{stand.autoMax} P. · offene Aufgaben:{' '}
+                {stand.offenErreicht}/{stand.offenMax} P.
+                {kiStatus !== 'fertig' && ' (Selbsteinschätzung)'}
+              </p>
+            </>
+          ) : (
+            <>
+              <p className="font-bold text-slate-900">
+                Zwischenstand: {stand.autoPunkte} von {stand.autoMax} Punkten aus den Auswahlaufgaben
+              </p>
+              <p className="text-sm text-slate-600">
+                Noch unbewertet: {stand.unbewertet} offene Aufgabe{stand.unbewertet === 1 ? '' : 'n'} (
+                {stand.unbewertetMax} P.) — bewerte sie unten selbst oder lass die KI korrigieren,
+                dann gibt es Gesamtergebnis und Note.
+              </p>
+            </>
+          )}
 
           {/* KI-Prüfungsbericht mit IHK-Note */}
           {kiVerfuegbar() && offene.length > 0 && (
