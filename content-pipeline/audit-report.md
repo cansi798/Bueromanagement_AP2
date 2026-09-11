@@ -284,7 +284,7 @@ werden die Altgesellschafter schlechtergestellt.
 
 ### Inhaltlicher Audit: aufgaben/wiso.json (29 Einträge)
 
-PDF-Abgleich für alle Einträge mit `termin`-Feld (18 Einträge mit 8 Terminen):
+PDF-Abgleich für alle Einträge mit `termin`-Feld (29 Einträge mit 9 Terminen):
 
 **Sommer 2018 (WiSo Vorläufige Lösungen):**
 - wiso-2018s-a4 (Produktionsfaktoren): korrekt [1,4,2]. PDF: A4 = 1;4;2. **bestätigt**.
