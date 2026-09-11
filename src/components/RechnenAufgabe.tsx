@@ -73,14 +73,14 @@ export default function RechnenAufgabe({
             {wertung === 'knapp' && '✘ Knapp daneben — prüfe deine Rundung.'}
             {wertung === 'falsch' && '✘ Leider falsch.'}
           </p>
-          <div className="mt-2 rounded-lg bg-slate-50 p-3">
-            <p className="mb-1 text-xs font-semibold uppercase text-slate-500">Lösungsweg</p>
+          <div className="mt-2 rounded-lg bg-slate-50 p-3 dark:bg-slate-800/60">
+            <p className="mb-1 text-xs font-semibold uppercase text-slate-500 dark:text-slate-400">Lösungsweg</p>
             <Markdown text={aufgabe.loesungsweg} />
           </div>
           <button
             type="button"
             onClick={onWeiter}
-            className="mt-3 min-h-11 rounded-xl bg-slate-900 px-6 font-semibold text-white hover:bg-slate-800"
+            className="mt-3 min-h-11 rounded-xl bg-slate-900 px-6 font-semibold text-white hover:bg-slate-800 dark:bg-slate-700 dark:hover:bg-slate-600"
           >
             {weiterText} →
           </button>

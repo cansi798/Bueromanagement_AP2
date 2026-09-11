@@ -260,7 +260,7 @@ export default function Simulation() {
 
           {/* KI-Prüfungsbericht mit IHK-Note */}
           {kiVerfuegbar() && offene.length > 0 && (
-            <div className="mt-3 border-t border-sky-200 pt-3">
+            <div className="mt-3 border-t border-sky-200 pt-3 dark:border-sky-800">
               {kiStatus === 'idle' && (
                 <div>
                   <button

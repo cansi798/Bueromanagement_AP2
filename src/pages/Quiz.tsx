@@ -382,7 +382,7 @@ function Session({
           {([['auswahl', 'Antworten wählen'], ['freitext', 'Selbst formulieren']] as const).map(([m, label]) => (
             <button key={m} type="button" onClick={() => wechsleModus(m)}
               className={`rounded-lg px-3 py-1.5 font-medium ${
-                modus === m ? 'bg-slate-900 text-white dark:bg-slate-700' : 'bg-white text-slate-600 hover:bg-slate-200 dark:bg-slate-800 dark:text-slate-300 dark:hover:bg-slate-800'
+                modus === m ? 'bg-slate-900 text-white dark:bg-slate-700' : 'bg-white text-slate-600 hover:bg-slate-200 dark:bg-slate-800 dark:text-slate-300 dark:hover:bg-slate-700'
               }`}>
               {label}
             </button>

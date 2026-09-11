@@ -13,9 +13,9 @@ export default function Rechnen() {
   const { daten, fehler, laedt } = useDaten(ladeRechnen)
   const stand = ladeRechnenStand()
 
-  if (laedt) return <Layout titel="Kaufmännisches Rechnen"><p className="text-slate-500">Lade …</p></Layout>
+  if (laedt) return <Layout titel="Kaufmännisches Rechnen"><p className="text-slate-500 dark:text-slate-400">Lade …</p></Layout>
   if (fehler || !daten)
-    return <Layout titel="Kaufmännisches Rechnen"><p className="rounded-lg bg-red-50 p-4 text-red-700">{fehler}</p></Layout>
+    return <Layout titel="Kaufmännisches Rechnen"><p className="rounded-lg bg-red-50 p-4 text-red-700 dark:bg-red-950/40 dark:text-red-300">{fehler}</p></Layout>
 
   return (
     <Layout titel="Kaufmännisches Rechnen">

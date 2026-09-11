@@ -64,7 +64,7 @@ export default function KontoLoginForm({ onErfolg }: { onErfolg: () => void }) {
 
   if (captchaFrage === 'nicht-verfuegbar') {
     return (
-      <p className="mt-3 rounded-lg bg-amber-50 p-3 text-sm text-amber-800">
+      <p className="mt-3 rounded-lg bg-amber-50 p-3 text-sm text-amber-800 dark:bg-amber-950/40 dark:text-amber-300">
         Auf dieser Installation gibt es keinen Konto-Server — nutze den Zugangscode
         (Gast-Modus).
       </p>
@@ -79,7 +79,7 @@ export default function KontoLoginForm({ onErfolg }: { onErfolg: () => void }) {
         onChange={(e) => setEmail(e.target.value)}
         placeholder="E-Mail"
         autoComplete="username"
-        className="mt-3 w-full rounded-lg border border-slate-300 px-3 py-3 text-base focus:border-sky-500 focus:outline-none"
+        className="mt-3 w-full rounded-lg border border-slate-300 bg-white px-3 py-3 text-base text-slate-900 focus:border-sky-500 focus:outline-none dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100"
       />
       <input
         type="password"
@@ -87,19 +87,19 @@ export default function KontoLoginForm({ onErfolg }: { onErfolg: () => void }) {
         onChange={(e) => setPasswort(e.target.value)}
         placeholder="Passwort"
         autoComplete="current-password"
-        className="mt-2 w-full rounded-lg border border-slate-300 px-3 py-3 text-base focus:border-sky-500 focus:outline-none"
+        className="mt-2 w-full rounded-lg border border-slate-300 bg-white px-3 py-3 text-base text-slate-900 focus:border-sky-500 focus:outline-none dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100"
       />
       <div className="mt-2 flex items-center gap-2">
-        <span className="text-sm text-slate-600">🤖 {captchaFrage ?? '…'} =</span>
+        <span className="text-sm text-slate-600 dark:text-slate-300">🤖 {captchaFrage ?? '…'} =</span>
         <input
           inputMode="numeric"
           value={captchaAntwort}
           onChange={(e) => setCaptchaAntwort(e.target.value)}
           placeholder="Ergebnis"
-          className="w-24 rounded-lg border border-slate-300 px-3 py-2 text-base focus:border-sky-500 focus:outline-none"
+          className="w-24 rounded-lg border border-slate-300 bg-white px-3 py-2 text-base text-slate-900 focus:border-sky-500 focus:outline-none dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100"
         />
       </div>
-      {fehler && <p className="mt-2 text-sm text-red-600">{fehler}</p>}
+      {fehler && <p className="mt-2 text-sm text-red-600 dark:text-red-400">{fehler}</p>}
       <button
         type="submit"
         disabled={laedt}
