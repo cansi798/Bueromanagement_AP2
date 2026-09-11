@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import Layout from '../components/Layout'
+import ThemenTabelle from '../components/ThemenTabelle'
 import { ladeAufgaben, ladeLernpaare, ladeThemen, ladeBereiche, ladeRechnen, useDaten } from '../lib/data'
 import { ladeLernpaarStaende, themenQuizStand } from '../lib/lernquiz'
 import { heuteISO, ladeFortschritt } from '../lib/progress'
@@ -9,6 +10,7 @@ import { ihkNote } from '../lib/noten'
 import { terminAnzeige } from '../lib/termine'
 import { zerlegeAufgabenText } from '../lib/aufgabenText'
 import { ladeRechnenStand } from '../lib/rechnenFortschritt'
+import { baueThemenUebersicht } from '../lib/themenUebersicht'
 import type { Aufgabe, Bereich, BereichId, Thema } from '../types'
 
 const BEREICHE: BereichId[] = ['wiso', 'kbz', 'buchfuehrung', 'muendlich']
@@ -59,6 +61,14 @@ export default function Lernstand() {
 
   const simulationen = [...f.simulationen].sort((a, b) => b.datum.localeCompare(a.datum))
   const bereichName = (id: string) => bereiche.find((b) => b.id === id)?.kurz ?? id
+
+  const themenZeilen = baueThemenUebersicht({
+    themen,
+    aufgaben,
+    lernpaare: Object.values(lernpaare).flat(),
+    fortschritt: f,
+    staende: ladeLernpaarStaende(),
+  })
 
   return (
     <Layout titel="📊 Mein Lernstand">
@@ -239,6 +249,15 @@ export default function Lernstand() {
             ))}
           </div>
         )}
+      </div>
+
+      {/* Themen-Übersicht: alle Quellen, sortier- und filterbar */}
+      <div className="mb-6 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
+        <h2 className="mb-1 font-bold text-slate-900">🗂️ Alle Themen im Überblick</h2>
+        <p className="mb-3 text-sm text-slate-500">
+          Quiz, Übungsaufgaben und Themen-Training zusammengezählt — Spaltenkopf antippen zum Sortieren.
+        </p>
+        <ThemenTabelle zeilen={themenZeilen} bereichName={bereichName} />
       </div>
 
       {/* Schwache Themen */}
