@@ -4,8 +4,8 @@
 import { abonniereStorage, getItem, setItem } from './storage'
 import { fortschrittVomServer, fortschrittZumServer } from './api'
 
-// Diese Schlüssel gehören NICHT zum Lernfortschritt.
-const AUSGENOMMEN = new Set(['kbm.v1.gate', 'kbm.v1.nutzer'])
+// Diese Schlüssel gehören NICHT zum Lernfortschritt (Geräte-Präferenzen, Sitzungsdaten).
+const AUSGENOMMEN = new Set(['kbm.v1.gate', 'kbm.v1.nutzer', 'kbm.v1.theme'])
 
 let aktiv = false
 let timer: ReturnType<typeof setTimeout> | null = null

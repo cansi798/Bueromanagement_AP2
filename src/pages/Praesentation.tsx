@@ -41,6 +41,17 @@ export default function Praesentation() {
   const [aktiv, setAktiv] = useState(0)
   const touchStart = useRef<{ x: number; y: number } | null>(null)
 
+  // Präsentation hat bewusst helles Design (weiße Karten). Die dark:-Varianten
+  // der Kind-Komponenten würden auf den weißen Folien unleserlich — deshalb
+  // wird beim Mounten der Dark-Modus deaktiviert und beim Unmount wiederhergestellt.
+  useEffect(() => {
+    const hatDark = document.documentElement.classList.contains('dark')
+    document.documentElement.classList.remove('dark')
+    return () => {
+      if (hatDark) document.documentElement.classList.add('dark')
+    }
+  }, [])
+
   const bereich = bereiche?.find((b) => b.id === bereichId)
   const folien: Folie[] = useMemo(() => {
     if (!themen) return []

@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useMemo, useRef, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import Layout from '../components/Layout'
 import LernpaarKarte from '../components/LernpaarKarte'
@@ -230,6 +230,9 @@ function Session({
   const [index, setIndex] = useState(0)
   const [richtige, setRichtige] = useState(0)
   const [modus, setModus] = useState(ladeQuizModus)
+  // Guard: verhindert Doppel-Wertung wenn der Modus nach dem Abgeben gewechselt wird.
+  // Speichert die IDs aller bereits gewerteten Karten in dieser Runde.
+  const gewertetRef = useRef<Set<string>>(new Set())
 
   function wechsleModus(m: QuizModus) {
     setModus(m)
@@ -251,6 +254,9 @@ function Session({
 
   function ergebnis(richtig: boolean) {
     if (!aktuell) return
+    // Guard: dieselbe Karte darf pro Runde nur einmal gewertet werden.
+    if (gewertetRef.current.has(aktuell.id)) return
+    gewertetRef.current.add(aktuell.id)
     merkeLernpaarAntwort(aktuell.id, richtig, heute)
     merkeQuiz(aktuell.themaId, richtig ? 1 : 0, 1, heute)
     if (richtig) setRichtige((n) => n + 1)
@@ -258,6 +264,9 @@ function Session({
 
   function ergebnisSelbst(wertung: SelbstWertung) {
     if (!aktuell) return
+    // Guard: dieselbe Karte darf pro Runde nur einmal gewertet werden.
+    if (gewertetRef.current.has(aktuell.id)) return
+    gewertetRef.current.add(aktuell.id)
     merkeLernpaarSelbst(aktuell.id, wertung, heute)
     // teilweise zählt als halber Treffer in der Themen-Quote.
     merkeQuiz(aktuell.themaId, wertung === 'gewusst' ? 1 : wertung === 'teilweise' ? 0.5 : 0, 1, heute)
@@ -269,6 +278,7 @@ function Session({
   }
 
   function nochEineRunde() {
+    gewertetRef.current = new Set()
     if (fehlerModus) {
       // Frisch berechnen, damit richtig beantwortete Karten nicht erneut erscheinen.
       const basis =
@@ -390,7 +400,7 @@ function Session({
         </div>
         {aktuell && eingefroren && (
           <LernpaarKarte
-            key={aktuell.id}
+            key={`${aktuell.id}-${modus}`}
             paar={aktuell}
             optionen={eingefroren.gemischt.optionen}
             korrekt={eingefroren.gemischt.korrekt}
