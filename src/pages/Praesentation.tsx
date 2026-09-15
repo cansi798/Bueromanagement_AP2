@@ -5,26 +5,9 @@ import QuizMC from '../components/QuizMC'
 import ZuordnungQuiz from '../components/ZuordnungQuiz'
 import ThemaDiagramm, { FolienDiagramm, hatDiagramm } from '../components/diagramme'
 import { ladeAufgaben, ladeBereiche, ladeLernpaare, ladeThemen, useDaten } from '../lib/data'
-import { folienAusThema, type Folie } from '../lib/folien'
+import { folienAusThema, alsAufgabe, waehleQuizfolien, type Folie } from '../lib/folien'
 import { useHellmodus } from '../lib/hellmodus'
 import type { Aufgabe, BereichId, Lernpaar } from '../types'
-
-// Lernpaar als Aufgaben-Folie — unterstützt MC und Zuordnung.
-function alsAufgabe(p: Lernpaar): Aufgabe {
-  return {
-    id: p.id,
-    themaId: p.themaId,
-    bereich: p.bereich,
-    quelle: 'generiert',
-    typ: p.typ ?? 'mc',
-    text: p.frage,
-    optionen: p.optionen,
-    korrekt: p.korrekt,
-    zuordnung: p.zuordnung,
-    loesung: p.erklaerung,
-    erklaerung: p.erklaerung,
-  }
-}
 
 // Vollbild-Präsentation für den Unterricht. Steuerung: Pfeiltasten, Leertaste,
 // Klick/Touch auf ‹ › sowie horizontales Wischen auf Touchgeräten.
@@ -54,18 +37,8 @@ export default function Praesentation() {
       if (hatDiagramm(t.id)) {
         basis.splice(1, 0, { art: 'diagramm', titel: t.name, themaId: t.id })
       }
-      // ALLE Quizfragen des Themas als Folien: erst Original-/abgeleitete Aufgaben
-      // (MC + Zuordnung), dann Lernpaare aus dem Themen-Quiz; Reihenfolge stabil
-      // (kein Zufall im Beamer-Einsatz).
-      const fragen: Aufgabe[] = [
-        ...(aufgaben ?? [])
-          .filter((a) => a.themaId === t.id && (a.typ === 'mc' || a.typ === 'zuordnung'))
-          .sort((a, b) => a.id.localeCompare(b.id)),
-        ...(lernpaare ?? [])
-          .filter((p) => p.themaId === t.id)
-          .sort((a, b) => a.id.localeCompare(b.id))
-          .map(alsAufgabe),
-      ]
+      // Quizfolien eines Themas: max. 8, Originale zuerst.
+      const fragen = waehleQuizfolien(aufgaben ?? [], lernpaare ?? [], t.id)
       fragen.forEach((a, i) =>
         basis.push({
           art: 'quiz',
