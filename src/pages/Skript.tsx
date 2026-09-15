@@ -2,6 +2,7 @@ import { useNavigate, useParams } from 'react-router-dom'
 import Markdown from '../components/Markdown'
 import ThemaDiagramm, { FolienDiagramm } from '../components/diagramme'
 import { ladeBereiche, ladeThemen, useDaten } from '../lib/data'
+import { useHellmodus } from '../lib/hellmodus'
 import type { BereichId } from '../types'
 
 // Quellen bewusst ohne konkrete Prüfungstermine (Anonymisierung, lib/termine.ts).
@@ -52,6 +53,8 @@ export default function Skript() {
   const bereich = bereiche?.find((b) => b.id === bereichId)
   // Optional auf ein Thema eingegrenzt (z. B. für Podcast-/Video-Quell-PDFs).
   const themen = themaId ? alleThemen?.filter((t) => t.id === themaId) : alleThemen
+
+  useHellmodus()
 
   if (laedt || !bereich)
     return <p className="p-6 text-slate-500">{fehler ?? 'Lade Skript …'}</p>

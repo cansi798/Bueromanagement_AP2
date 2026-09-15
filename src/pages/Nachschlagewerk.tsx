@@ -1,6 +1,7 @@
 import { useNavigate } from 'react-router-dom'
 import Markdown from '../components/Markdown'
 import { ladeFormeln, ladeGlossar, useDaten } from '../lib/data'
+import { useHellmodus } from '../lib/hellmodus'
 
 const MONATE = ['Januar','Februar','März','April','Mai','Juni','Juli','August','September','Oktober','November','Dezember']
 function standHeute(): string {
@@ -15,6 +16,8 @@ export default function Nachschlagewerk() {
   const navigate = useNavigate()
   const { daten: glossar, fehler, laedt } = useDaten(ladeGlossar)
   const { daten: formeln } = useDaten(ladeFormeln)
+
+  useHellmodus()
 
   if (laedt || !glossar || !formeln)
     return <p className="p-6 text-slate-500">{fehler ?? 'Lade Nachschlagewerk …'}</p>

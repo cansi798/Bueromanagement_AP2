@@ -2,6 +2,7 @@ import { useNavigate, useParams } from 'react-router-dom'
 import Markdown from '../components/Markdown'
 import ThemaDiagramm from '../components/diagramme'
 import { ladeBereiche, ladeThemen, useDaten } from '../lib/data'
+import { useHellmodus } from '../lib/hellmodus'
 import type { BereichId } from '../types'
 
 // Einseitiges/kompaktes Themen-Handout für den Unterricht (Druck/PDF):
@@ -14,6 +15,8 @@ export default function Handout() {
   const bereich = bereiche?.find((b) => b.id === bereichId)
   const thema = themen?.find((t) => t.id === themaId)
   const sessionNr = themen ? themen.findIndex((t) => t.id === themaId) + 1 : 0
+
+  useHellmodus()
 
   if (laedt || !bereich) return <p className="p-6 text-slate-500">{fehler ?? 'Lade Handout …'}</p>
   if (!thema) return <p className="p-6 text-red-600">Thema nicht gefunden.</p>

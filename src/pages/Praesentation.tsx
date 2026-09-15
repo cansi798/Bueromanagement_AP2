@@ -6,6 +6,7 @@ import ZuordnungQuiz from '../components/ZuordnungQuiz'
 import ThemaDiagramm, { FolienDiagramm, hatDiagramm } from '../components/diagramme'
 import { ladeAufgaben, ladeBereiche, ladeLernpaare, ladeThemen, useDaten } from '../lib/data'
 import { folienAusThema, type Folie } from '../lib/folien'
+import { useHellmodus } from '../lib/hellmodus'
 import type { Aufgabe, BereichId, Lernpaar } from '../types'
 
 // Lernpaar als Aufgaben-Folie — unterstützt MC und Zuordnung.
@@ -41,16 +42,7 @@ export default function Praesentation() {
   const [aktiv, setAktiv] = useState(0)
   const touchStart = useRef<{ x: number; y: number } | null>(null)
 
-  // Präsentation hat bewusst helles Design (weiße Karten). Die dark:-Varianten
-  // der Kind-Komponenten würden auf den weißen Folien unleserlich — deshalb
-  // wird beim Mounten der Dark-Modus deaktiviert und beim Unmount wiederhergestellt.
-  useEffect(() => {
-    const hatDark = document.documentElement.classList.contains('dark')
-    document.documentElement.classList.remove('dark')
-    return () => {
-      if (hatDark) document.documentElement.classList.add('dark')
-    }
-  }, [])
+  useHellmodus()
 
   const bereich = bereiche?.find((b) => b.id === bereichId)
   const folien: Folie[] = useMemo(() => {
