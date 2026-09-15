@@ -3,9 +3,9 @@ import { terminAnzeige } from '../lib/termine'
 
 // Anzeige bewusst ohne echte Prüfungstermine (siehe lib/termine.ts).
 const STIL: Record<AufgabenQuelle, string> = {
-  original: 'bg-blue-100 text-blue-800',
-  abgeleitet: 'bg-teal-100 text-teal-800',
-  generiert: 'bg-slate-200 text-slate-700',
+  original: 'bg-blue-100 text-blue-800 dark:bg-blue-950/60 dark:text-blue-300',
+  abgeleitet: 'bg-teal-100 text-teal-800 dark:bg-teal-950/60 dark:text-teal-300',
+  generiert: 'bg-slate-200 text-slate-700 dark:bg-slate-700 dark:text-slate-300',
 }
 
 export default function QuelleBadge({

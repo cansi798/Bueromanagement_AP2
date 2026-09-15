@@ -35,8 +35,8 @@ export default function AnlagenDiagramm({ diagramm }: { diagramm: DiagrammSpec }
   const inhalt = useMemo(() => baueDiagramm(diagramm), [diagramm])
 
   return (
-    <div className="overflow-hidden rounded-xl border border-slate-300 bg-white shadow-sm">
-      <div className="flex items-center gap-2 border-b border-slate-200 bg-slate-50 px-3 py-1.5 text-xs font-semibold uppercase tracking-wide text-slate-500">
+    <div className="overflow-hidden rounded-xl border border-slate-300 bg-white shadow-sm dark:border-slate-700">
+      <div className="flex items-center gap-2 border-b border-slate-200 bg-slate-50 px-3 py-1.5 text-xs font-semibold uppercase tracking-wide text-slate-500 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-400">
         📊 {diagramm.titel}
       </div>
       <div className="p-2">
@@ -71,7 +71,7 @@ export default function AnlagenDiagramm({ diagramm }: { diagramm: DiagrammSpec }
           ))}
         </svg>
         {diagramm.serien && (diagramm.serien.length > 1 || diagramm.typ === 'kreis') && (
-          <div className="flex flex-wrap gap-x-4 gap-y-1 px-2 pb-1 text-xs text-slate-600">
+          <div className="flex flex-wrap gap-x-4 gap-y-1 px-2 pb-1 text-xs text-slate-600 dark:text-slate-400">
             {(diagramm.typ === 'kreis' ? diagramm.serien[0].punkte : diagramm.serien).map(
               (eintrag, i) => (
                 <span key={i} className="flex items-center gap-1.5">

@@ -49,7 +49,7 @@ export default function AufgabenKarte({
             <button
               type="button"
               onClick={() => setZeigeAnlage(!zeigeAnlage)}
-              className="mb-2 text-sm font-medium text-sky-700 lg:hidden"
+              className="mb-2 text-sm font-medium text-sky-700 dark:text-sky-400 lg:hidden"
             >
               {zeigeAnlage ? 'Anlage ausblenden ▲' : 'Anlage anzeigen ▼'}
             </button>

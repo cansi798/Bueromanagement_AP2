@@ -186,7 +186,7 @@ function Uebersicht({
                       return (
                         <span
                           key={i}
-                          className={`w-1.5 rounded-sm ${n > 0 ? f.balken : 'bg-slate-200'}`}
+                          className={`w-1.5 rounded-sm ${n > 0 ? f.balken : 'bg-slate-200 dark:bg-slate-700'}`}
                           style={{ height: `${4 + Math.round((n / max) * 10)}px` }}
                         />
                       )

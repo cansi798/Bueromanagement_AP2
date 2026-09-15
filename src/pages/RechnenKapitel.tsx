@@ -26,7 +26,7 @@ export default function RechnenKapitel() {
     return (
       <Layout titel="Kaufmännisches Rechnen">
         <p className="rounded-lg bg-red-50 p-4 text-red-700">Kapitel nicht gefunden.</p>
-        <Link to="/rechnen" className="mt-2 inline-block text-sm font-medium text-sky-700">← Zur Übersicht</Link>
+        <Link to="/rechnen" className="mt-2 inline-block text-sm font-medium text-sky-700 dark:text-sky-400">← Zur Übersicht</Link>
       </Layout>
     )
 
@@ -39,7 +39,7 @@ export default function RechnenKapitel() {
 
   return (
     <Layout titel={kapitel.titel}>
-      <Link to="/rechnen" className="-mt-2 mb-3 inline-block text-sm font-medium text-sky-700">
+      <Link to="/rechnen" className="-mt-2 mb-3 inline-block text-sm font-medium text-sky-700 dark:text-sky-400">
         ← Alle Rechenarten
       </Link>
       <div className="mb-4 flex gap-2">

@@ -58,7 +58,7 @@ export default function MedienSlot({
       {hatHandout && (
         <div className="flex items-center gap-2 rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm font-medium dark:border-slate-700 dark:bg-slate-800">
           <span>📄</span>
-          <Link to={`/handout/${bereichId}/${themaId}`} className="text-sky-700 hover:underline">
+          <Link to={`/handout/${bereichId}/${themaId}`} className="text-sky-700 hover:underline dark:text-sky-400">
             Handout ansehen
           </Link>
           <a

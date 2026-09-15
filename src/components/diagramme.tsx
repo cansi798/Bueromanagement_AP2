@@ -67,11 +67,11 @@ function T({ x, y, t, fs = 14, fill = '#475569', anchor = 'middle', fett = false
 
 function Dia({ titel, viewBox, children }: { titel: string; viewBox: string; children: ReactNode }) {
   return (
-    <figure className="my-4 rounded-2xl border-2 border-slate-200 bg-white p-3 print:break-inside-avoid">
+    <figure className="my-4 rounded-2xl border-2 border-slate-200 bg-white p-3 print:break-inside-avoid dark:border-slate-700">
       <svg viewBox={viewBox} className="h-auto w-full" role="img" aria-label={titel}>
         {children}
       </svg>
-      <figcaption className="mt-1 text-center text-xs text-slate-500">{titel}</figcaption>
+      <figcaption className="mt-1 text-center text-xs text-slate-500 dark:text-slate-400">{titel}</figcaption>
     </figure>
   )
 }
