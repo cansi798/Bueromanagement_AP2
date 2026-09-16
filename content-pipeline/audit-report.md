@@ -436,3 +436,40 @@ berufsausbildung-arbeitsrecht) — jeder Abschnitt wird sauber zu einer Folie.
 - **§-Verweise:** ausschließlich Kürzel aus der Task-6-Map verwendet (BGB, HGB, BBiG, BetrVG,
   JArbSchG). Grundgesetz durchgängig als „Art. 9 GG" (nicht „§ … GG"). SGB nicht verlinkt
   (im Sozialversicherungs-Abschnitt bewusst ohne §-Verweis ausformuliert).
+
+## Verbesserungsrunde 2 (2026-09-16) — Inhaltsausbau KBZ-Lernzettel
+
+Alle 6 KBZ-Themen (`public/data/themen/kbz.json`, nur Feld `lernzettel`) auf jeweils **7
+gehaltvolle `##`-Abschnitte** ausgebaut (Struktur je Abschnitt: Einordnung → Kernwissen als
+Liste/Tabelle → durchgerechnetes Beispiel → **Merke:**). Bestehende Abschnitte wurden vertieft
+und um KBZ-Schwerpunkte ergänzt, nicht gelöscht. `npm test` grün (257/257). Folienzerlegung an
+`/\n(?=## )/` stichprobenartig geprüft (rechnung-umsatzsteuer, buchfuehrung-kontierung) — je 7
+saubere Folien.
+
+Neu ergänzte, laut `aufgaben/kbz.json` stark geprüfte Schwerpunkte, die zuvor fehlten:
+- **Bezugskalkulation** (Einstandspreis-Schema) in buchfuehrung-kontierung.
+- **Skonto/USt-Korrektur** (§ 17 UStG) und **Kleinunternehmer** (§ 19 UStG) in rechnung-umsatzsteuer
+  (rechnung 313, skonto 82, vorsteuer 66 Aufgaben).
+- **Verzugszinsen** (§ 288 BGB, 9 %-Punkte B2B + 40 € Pauschale) und **Leistungsstörungs-Überblick**
+  in kaufvertrag-stoerungen.
+- **Vorwärts-/Rückwärtskalkulation** und **Zuschlagskalkulation mit Zahlen** in kostenrechnung.
+- **Personalbedarfs-/Beschaffungsplanung** und **Brutto-Netto** in personalwirtschaft.
+- **Kommunikationsmodell** und **DIN-5008-Schriftverkehr** in kundenkommunikation.
+
+### Fachliche Entscheidungen / Vorbehalte
+
+- **Geschützter Titel „Kaufvertrag und Leistungsstörungen":** liegt laut Grep in `wiso.json`,
+  NICHT in `kbz.json` (dortiger Titel: „Kaufvertrag & Kaufvertragsstörungen"). In kbz.json somit
+  kein Registry-Titel-Zwang; bestehende `##`-Titel wurden dennoch wörtlich beibehalten bzw. nur
+  ergänzt, um Registry-/Snapshot-Tests nicht zu brechen.
+- **Verzugszinssätze (§ 288 BGB):** 5 %-Punkte über Basiszins (Verbraucher) bzw. 9 %-Punkte (B2B)
+  + 40 € Pauschale sind gesetzlich fixiert und zeitlos; der Basiszins im Rechenbeispiel (3,62 %)
+  ist als Beispielwert gekennzeichnet, das Rechenverfahren gilt unabhängig davon.
+- **SV-Beitrag (personalwirtschaft):** RV 18,6 % genannt; Zahlenbeispiel (3.000 € × 9,3 % AN-Anteil)
+  ausdrücklich als „unabhängig vom exakten Satz" markiert. PV/KV-Zusatzbeitrag bewusst nicht beziffert.
+- **Aufbewahrungsfrist:** durchgängig **8 Jahre** (Rechtsstand 2026) für Rechnungen/Belege.
+- **Zeichenumfang:** 5 Themen liegen im/nahe am Korridor (3.493–4.415); kaufvertrag-stoerungen ~4.913,
+  bewusst leicht darüber — mit 187 Aufgaben und Präsenz in **jeder** Prüfungssaison das mit Abstand
+  häufigste KBZ-Thema. Schema kennt kein `maxLength`; ein Abschnitt = eine Folie bleibt lesbar.
+- **§-Verweise:** nur Kürzel aus der Map (BGB, HGB, UStG). KBZ-typisch verlinkt: §§ 433 ff. BGB,
+  § 145/437 BGB, § 377 HGB, § 286/288 BGB, § 14/17/19 UStG, § 195/212 BGB. SGB VII nur als Text.
