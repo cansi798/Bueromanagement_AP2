@@ -404,3 +404,35 @@ widerspruchsfrei; 32 von 42 Einträgen zusätzlich per Original-PDF verifiziert)
 - aufgaben/buchfuehrung.json, aufgaben/muendlich.json enthalten keine Zuordnungs-Einträge.
 - 10 Lernpaar-Einträge ohne quellTermin: fachliche Prüfung via erklaerung durchgeführt,
   kein PDF-Abgleich möglich (generierte Einträge ohne Originaltermin). Inhaltlich plausibel.
+
+## Verbesserungsrunde 2 (2026-09-16) — Inhaltsausbau WiSo-Lernzettel
+
+Alle 11 WiSo-Themen (`public/data/themen/wiso.json`, nur Feld `lernzettel`) auf 6–7
+gehaltvolle `##`-Abschnitte ausgebaut (Struktur je Abschnitt: Einordnung → Kernwissen
+als Liste/Tabelle → durchgerechnetes Beispiel → **Merke:**). Bestehende Inhalte wurden
+vertieft, nicht gelöscht; geschützte Registry-Titel wörtlich beibehalten. `npm test`
+grün (257/257), Folienzerlegung an `/\n(?=## )/` stichprobenartig geprüft (markt-preisbildung,
+berufsausbildung-arbeitsrecht) — jeder Abschnitt wird sauber zu einer Folie.
+
+### Fachliche Entscheidungen / Vorbehalte
+
+- **Sozialversicherungs-Beitragssätze (berufsausbildung-arbeitsrecht):** Tabelle mit
+  „(2026, ca.)" gekennzeichnet. RV 18,6 %, AV 2,6 %, KV 14,6 % + Zusatzbeitrag sind seit
+  Jahren stabil; **PV 3,6 %** und der kinderlosen-Zuschlag können sich ändern — bewusst als
+  „ca." markiert statt „(Stand: prüfen)". Zahlenbeispiel (3.000 € × 18,6 % → je 279 €) ist
+  rechnerisch unabhängig vom exakten Satz gültig.
+- **KSchG-Schwellenwert „mehr als 10 Arbeitnehmer":** gilt für Neueinstellungen ab 2004;
+  Alt-Betriebe haben teils die 5er-Grenze. Für Prüfungszwecke ist die 10er-Grenze der
+  Standard und wurde übernommen.
+- **Mindestlohn / konkrete Eurobeträge:** bewusst NICHT genannt (ändern sich), zeitlos
+  formuliert (Mindestlohn nur als Beispiel für „Mindestpreis / Preisuntergrenze" in
+  markt-preisbildung, ohne Betrag).
+- **Zeichenumfang über Zielkorridor (2500–4500):** Die inhaltlich dichtesten Rechtsthemen
+  liegen darüber — berufsausbildung-arbeitsrecht ~8.200, rechtsformen-vollmachten ~6.700,
+  konjunktur-indikatoren ~5.100, finanzierung-kreditsicherung ~5.100. Bewusst akzeptiert:
+  Diese Themen sind laut `aufgaben/wiso.json` mit Abstand am häufigsten geprüft (Arbeitsrecht
+  86, Rechtsformen 68, Finanzierung 49 Aufgaben) und tragen mehrere geschützte Registry-Titel.
+  Das Schema kennt kein `maxLength` für `lernzettel`; ein Abschnitt = eine Folie bleibt lesbar.
+- **§-Verweise:** ausschließlich Kürzel aus der Task-6-Map verwendet (BGB, HGB, BBiG, BetrVG,
+  JArbSchG). Grundgesetz durchgängig als „Art. 9 GG" (nicht „§ … GG"). SGB nicht verlinkt
+  (im Sozialversicherungs-Abschnitt bewusst ohne §-Verweis ausformuliert).
