@@ -521,3 +521,61 @@ geprüfte Schwerpunkte, die zuvor fehlten:
   Klartext belassen (UStDV ist nicht in der Kürzel-Map; wird nicht verlinkt, bleibt aber korrekt).
 - **Registry-Titel:** keine geschützten Titel in buchfuehrung.json (liegen laut Grep in wiso.json);
   bestehende `##`-Überschriften nur ergänzt/vertieft, das Feld `name` (Themen-Titel) unangetastet.
+
+## Verbesserungsrunde 2 — Mündlich-Lernzettel (Task 11)
+
+Alle **9 Themen** in `public/data/themen/muendlich.json` (Feld `lernzettel`) vertieft — Bestehendes
+ausgebaut, nichts gelöscht. Qualitätsmaßstab von Task 8, aber mit der Mündlich-Besonderheit: statt
+Rechenbeispielen **Formulierungshilfen, Beispiel-Dialoge (Prüfer/Du) und Report-Bausteine**. Struktur
+je `##`-Abschnitt: kurze Einordnung → Kernwissen (Liste/GFM-Tabelle) → konkretes Beispiel
+(Dialogauszug/Formulierungsbaustein/Mini-Fall) → **Merke:**-Satz.
+
+### Umfang vorher/nachher (Zeichen), Abschnitte, längster Abschnitt
+
+| Thema | vorher | nachher | Abschnitte | längster |
+|---|---|---|---|---|
+| ablauf-fachaufgabe | 3.008 | 3.639 | 6 | 672 |
+| report-schreiben | 2.794 | 3.666 | 7 | 642 |
+| gespraechstechnik | 2.397 | 4.289 | 7 | 746 |
+| wq-auftragssteuerung | 2.512 | 3.374 | 6 | 638 |
+| wq-kmu | 2.541 | 3.984 | 7 | 699 |
+| wq-einkauf-logistik | 2.566 | 3.521 | 7 | 662 |
+| wq-marketing-vertrieb | 2.401 | 4.080 | 7 | 785 |
+| wq-personalwirtschaft | 2.562 | 3.971 | 7 | 705 |
+| wq-assistenz-sekretariat | 2.803 | 3.712 | 7 | 639 |
+
+Alle 9 im Zielkorridor 2.500–4.500; jeder Einzelabschnitt deutlich unter 1.600 (Maximum 785);
+jeder Abschnitt trägt einen **Merke:**-Satz.
+
+### Prüfungsformat-Fakten (Quellen quergelesen)
+
+`Mundlich/Mundliche Prufung Hinweise.pdf` (3 S.) und `Mundlich/Report.pdf` (3 S., echtes
+Report-Beispiel Messestand/Oldtimertreffen) bestätigen die bereits vorhandenen Format-Fakten:
+fallbezogenes Fachgespräch, **3–5 Prüfer** (evtl. Berufsschullehrer), Phasen ca. 5 Min Begrüßung /
+max. 20 Min Vorbereitung / max. 20 Min Gespräch / 10–15 Min Nachbereitung, **bewertet wird nur das
+Gespräch** (nicht Notizen/Report), Berichtsheft zwingend mitbringen, klassische Aufgabe = 1 DIN-A4-
+Seite ohne Anlagen, 4 Schritte (Planung/Durchführung/Rahmenbedingungen/Kontrolle), deutschlandweit
+einheitlicher Report-Aufbau. Keine Format-Aussage erfunden; keine offenen Unsicherheiten.
+
+### Fachliche Entscheidungen / Vorbehalte
+
+- **§-Verweise sparsam:** nur Map-Kürzel verlinkt — **§ 433 BGB** (Kaufvertrag, 4×), **§ 257 HGB** +
+  **§ 147 AO** (Aufbewahrungsfristen, je 1×). **AGG** bewusst als Klartext (nicht in der Kürzel-Map);
+  ebenso **UWG / KSchG / BUrlG / EntgFG** nur als Textnennung ohne §-Nummer (werden dadurch korrekt
+  nicht verlinkt).
+- **Aufbewahrungsfristen (Rechtsstand 2026):** 6 Jahre Handelsbriefe, **8 Jahre Buchungsbelege**
+  (seit 2025), 10 Jahre Handelsbücher — konsistent zum BuFü-Teil des Reports.
+- **Registry-Titel:** Abgleich der neuen `##`-Überschriften gegen alle wiso.json-Registry-Titel →
+  **keine Kollision**; potenziell kollidierende Titel (z. B. „Eigentumsvorbehalt", „Stelle, Instanz
+  und Abteilung", „Weisungssysteme") bewusst umformuliert (z. B. „Eigentumsvorbehalt (Besitz vs.
+  Eigentum)", „Wie ein Unternehmen aufgebaut ist", „Organigramm und Leitungssysteme"). Feld `name`
+  unangetastet.
+- **Rechenlastige WQ (Einkauf/Logistik, Marketing):** Formeln als Kernwissen (GFM-Tabelle) belassen,
+  aber die Beispiele als Prüfer-Dialoge/Formulierungshilfen formuliert statt als reine Rechnung —
+  eine Meldebestand- und eine Wirtschaftlichkeitsrechnung als typische Prüferfrage im Dialog erhalten.
+- **GFM-Tabellen** „schwach vs. stark" / „intern vs. extern" / Verzugsarten / Haftung / Fristen neu
+  eingebaut (Wunsch aus dem Brief).
+- **Folienzerlegung:** Stichprobe `gespraechstechnik` und `wq-personalwirtschaft` über den
+  Produktions-Split `\n(?=##\s)` — je 10 Folien, alle Inhaltsfolien mit eigenem Titel (keine erbt den
+  Themennamen), längste Folie 746 Zeichen.
+- **Test:** `npm test` → 257/257 grün (unverändert).
