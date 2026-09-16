@@ -473,3 +473,51 @@ Neu ergänzte, laut `aufgaben/kbz.json` stark geprüfte Schwerpunkte, die zuvor 
   häufigste KBZ-Thema. Schema kennt kein `maxLength`; ein Abschnitt = eine Folie bleibt lesbar.
 - **§-Verweise:** nur Kürzel aus der Map (BGB, HGB, UStG). KBZ-typisch verlinkt: §§ 433 ff. BGB,
   § 145/437 BGB, § 377 HGB, § 286/288 BGB, § 14/17/19 UStG, § 195/212 BGB. SGB VII nur als Text.
+
+## Verbesserungsrunde 2 (2026-09-16) — Inhaltsausbau BuFü-Lernzettel
+
+Alle 6 Themen (`public/data/themen/buchfuehrung.json`, nur Feld `lernzettel`) auf **7–8
+gehaltvolle `##`-Abschnitte** ausgebaut (Struktur je Abschnitt: Einordnung → Kernwissen als
+Liste/Tabelle → durchgerechnetes Beispiel → **Merke:**). Jeder Abschnitt mit Rechenweg trägt
+einen Buchungssatz „Soll an Haben" mit Beträgen. Bestehende Abschnitte wurden vertieft und um
+Prüfungsschwerpunkte ergänzt, nicht gelöscht. `npm test` grün (257/257). Folienzerlegung an
+`/\n(?=## )/` stichprobenartig geprüft (buchungssaetze-kontierung 8 Folien, zuschlagskalkulation
+7 Folien) — alle Einzelfolien < 1.600 Zeichen, längste 1.102 Zeichen.
+
+Neu ergänzte, laut `aufgaben/buchfuehrung.json` + den 18 abgeleiteten 2025W-Übungen stark
+geprüfte Schwerpunkte, die zuvor fehlten:
+- **Anlagevermögen aktivieren + lineare AfA** (Fuhrpark 0840, Anschaffungsnebenkosten, GWG,
+  zeitanteilige AfA, Buchung 6520 an 0840) in buchungssaetze-kontierung — 2025W a9–a13.
+- **Belege & Aufbewahrungsfristen** (§ 238 ff./257 HGB, § 147 AO, Rechtsstand 2026) neu.
+- **Energie-Abschlag direkt gegen Bank** (6050, „noch nicht gebucht") in Standard-Buchungssätzen — 2025W a8.
+- **Vorsteuerabzug-Voraussetzungen** (§ 14/15 UStG, Rechnungspflichtangaben, Kleinbetrag § 33 UStDV)
+  und **Kleinunternehmerregelung** (§ 19 UStG) in umsatzsteuer.
+- **Rückwärtskalkulation** (Angebotspreis 5 % über Selbstkosten → × 100 ÷ 105) und **Angebots-/
+  Handelskalkulation** (Barverkaufs-/Ziel-/Listenverkaufspreis) in zuschlagskalkulation — 2025W a1–a4, a17/a18.
+- **Kostenauflösung per Differenzenquotient** und **Beschäftigungsgrad/Leerkosten/Kostenremanenz**
+  in stueckkosten-kostenrechnung.
+- **Preisuntergrenze/Zusatzauftrag** und **Gesamt-DB/Betriebsergebnis** in deckungsbeitrag-breakeven.
+- **Normalzuschlagssätze bilden** und **Nachkalkulation als Steuerungswert** in normalkosten-kostenabweichung.
+
+### Fachliche Entscheidungen / Vorbehalte
+
+- **Aufbewahrungsfristen (Rechtsstand 2026):** sauber differenziert — **Buchungsbelege 8 Jahre**
+  (seit 2025, 4. Bürokratieentlastungsgesetz), **Handelsbücher/Inventare/Jahresabschlüsse 10 Jahre**,
+  **Handels-/Geschäftsbriefe 6 Jahre** (§ 257 HGB, § 147 AO).
+- **AfA-Beispiel (2025W):** AK je E-Transporter 60.498 € (Listenpreis − 12 % Rabatt + Anschaffungs-
+  nebenkosten Kennzeichen/Zulassung), ND 6 Jahre → 10.083 €/Jahr, bei Kauf im November nur 2/12 =
+  1.680,50 €; Sammelabschreibung 3 × = 5.041,50 € (6520 an 0840). Zahlen aus den abgeleiteten
+  Übungen bufu-2025w-a9..a13 übernommen und rechnerisch nachvollzogen.
+- **GWG-Grenzen:** netto 800 € Sofortabschreibung, Sammelposten 250–1.000 € (zeitlos, ohne Jahres-
+  bezug genannt).
+- **Kleinunternehmerregelung (§ 19 UStG):** Umsatzgrenzen bewusst NICHT beziffert (wurden zuletzt
+  angehoben, änderungsanfällig) — sinngemäß „gesetzliche Grenze" formuliert.
+- **Zeichenumfang:** 5 Themen im/nahe am Korridor (3.640–4.331). **buchungssaetze-kontierung ~5.828**,
+  bewusst über 4.500 — mit 20 Basis- und 8 der 18 2025W-Aufgaben das mit Abstand am häufigsten
+  geprüfte BuFü-Thema; trägt zusätzlich die neuen Pflichtinhalte AfA/Anlagevermögen und Aufbewahrung.
+  Schema kennt kein `maxLength`; ein Abschnitt = eine Folie bleibt lesbar (längste 1.102 Zeichen).
+- **§-Verweise:** nur Kürzel aus der `paragraphen.ts`-Map verlinkt (HGB, UStG, EStG, AO). BuFü-typisch:
+  §§ 238 ff./253/257 HGB, § 147 AO, § 7 EStG, § 12/14/15/17/19 UStG. **§ 33 UStDV** bewusst als
+  Klartext belassen (UStDV ist nicht in der Kürzel-Map; wird nicht verlinkt, bleibt aber korrekt).
+- **Registry-Titel:** keine geschützten Titel in buchfuehrung.json (liegen laut Grep in wiso.json);
+  bestehende `##`-Überschriften nur ergänzt/vertieft, das Feld `name` (Themen-Titel) unangetastet.
