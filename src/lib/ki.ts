@@ -1,8 +1,9 @@
 // KI-Bewertung offener Antworten — läuft KOMPLETT im Browser (WebLLM/WebGPU).
 // Kein Server, keine API-Keys: Das gewählte Modell wird einmalig geladen und
 // im Browser-Cache gespeichert. Voraussetzung: WebGPU (aktuelles Chrome/Edge).
-import type { MLCEngine } from '@mlc-ai/web-llm'
+import type { WebWorkerMLCEngine } from '@mlc-ai/web-llm'
 import { getItem, setItem } from './storage'
+import { mitZeitlimit, neuerStillstandswaechter } from './zeitlimit'
 
 export interface KIModell {
   id: string
@@ -39,13 +40,27 @@ export function aktuellesModell(): KIModell {
   return KI_MODELLE.find((m) => m.id === gespeichert) ?? KI_MODELLE[1]
 }
 
-let enginePromise: Promise<MLCEngine> | null = null
+let enginePromise: Promise<WebWorkerMLCEngine> | null = null
 let geladenesModell: string | null = null
+let kiWorker: Worker | null = null
+
+// Bewertung darf pro Aufgabe lange dauern (großes Modell, schwache GPU),
+// aber niemals endlos hängen. Der Download-Wächter greift nur bei echtem
+// Stillstand — solange Fortschritts-Events kommen, läuft er nicht ab.
+const BEWERTUNGS_LIMIT_MS = 300_000
+const DOWNLOAD_STILLSTAND_MS = 120_000
+
+function workerAufraeumen(): void {
+  kiWorker?.terminate()
+  kiWorker = null
+}
 
 export function waehleModell(id: string): void {
   setItem(MODELL_KEY, id)
   if (geladenesModell !== id) {
-    // Nächste Bewertung lädt das neu gewählte Modell.
+    // Nächste Bewertung lädt das neu gewählte Modell; alter Worker gibt
+    // GPU-Speicher frei.
+    workerAufraeumen()
     enginePromise = null
     geladenesModell = null
   }
@@ -61,23 +76,41 @@ export function kiGeladen(): boolean {
 
 export function ladeEngine(
   onProgress?: (text: string, prozent: number) => void,
-): Promise<MLCEngine> {
+): Promise<WebWorkerMLCEngine> {
   const modell = aktuellesModell()
   if (!enginePromise || geladenesModell !== modell.id) {
     geladenesModell = modell.id
+    // Die Engine läuft in einem Web Worker: Modell-Laden und Inferenz
+    // blockieren so nicht den UI-Thread (sonst friert die Seite ein).
     // Dynamischer Import: WebLLM landet in einem eigenen Chunk und wird erst
     // geladen, wenn die KI-Bewertung wirklich benutzt wird.
-    enginePromise = import('@mlc-ai/web-llm')
-      .then(({ CreateMLCEngine }) =>
-        CreateMLCEngine(modell.id, {
-          initProgressCallback: (r) => onProgress?.(r.text, Math.round(r.progress * 100)),
-        }),
+    enginePromise = (async () => {
+      const { CreateWebWorkerMLCEngine } = await import('@mlc-ai/web-llm')
+      const worker = new Worker(new URL('./ki-worker.ts', import.meta.url), { type: 'module' })
+      kiWorker = worker
+      const waechter = neuerStillstandswaechter(
+        DOWNLOAD_STILLSTAND_MS,
+        'Der Modell-Download ist ins Stocken geraten. Prüfe deine Internetverbindung und versuche es erneut — der Download macht dort weiter, wo er aufgehört hat.',
       )
-      .catch((e) => {
-        enginePromise = null // nächster Versuch möglich
-        geladenesModell = null
-        throw e
-      })
+      try {
+        return await Promise.race([
+          CreateWebWorkerMLCEngine(worker, modell.id, {
+            initProgressCallback: (r) => {
+              waechter.melden()
+              onProgress?.(r.text, Math.round(r.progress * 100))
+            },
+          }),
+          waechter.abgelaufen,
+        ])
+      } finally {
+        waechter.fertig()
+      }
+    })().catch((e) => {
+      workerAufraeumen()
+      enginePromise = null // nächster Versuch möglich
+      geladenesModell = null
+      throw e
+    })
   }
   return enginePromise
 }
@@ -98,7 +131,8 @@ export async function bewertePruefungsAufgabe(
   onProgress?: (text: string, prozent: number) => void,
 ): Promise<AufgabenBewertung> {
   const engine = await ladeEngine(onProgress)
-  const res = await engine.chat.completions.create({
+  const res = await mitZeitlimit(
+    engine.chat.completions.create({
     messages: [
       {
         role: 'system',
@@ -123,7 +157,10 @@ export async function bewertePruefungsAufgabe(
     ],
     temperature: 0.2,
     max_tokens: 200,
-  })
+    }),
+    BEWERTUNGS_LIMIT_MS,
+    'Die KI-Bewertung hat zu lange gedauert und wurde abgebrochen. Tipp: ein kleineres Modell wählen oder es erneut versuchen.',
+  )
   const text = res.choices[0]?.message?.content ?? ''
   const m = text.match(/PUNKTE:\s*([\d.,]+)/i)
   let punkte = m ? parseFloat(m[1].replace(',', '.')) : NaN
@@ -141,7 +178,8 @@ export async function bewerteAntwort(
   onProgress?: (text: string, prozent: number) => void,
 ): Promise<string> {
   const engine = await ladeEngine(onProgress)
-  const res = await engine.chat.completions.create({
+  const res = await mitZeitlimit(
+    engine.chat.completions.create({
     messages: [
       {
         role: 'system',
@@ -165,6 +203,9 @@ export async function bewerteAntwort(
     ],
     temperature: 0.3,
     max_tokens: 350,
-  })
+    }),
+    BEWERTUNGS_LIMIT_MS,
+    'Die KI-Bewertung hat zu lange gedauert und wurde abgebrochen. Tipp: ein kleineres Modell wählen oder es erneut versuchen.',
+  )
   return res.choices[0]?.message?.content?.trim() || 'Keine Bewertung erhalten.'
 }

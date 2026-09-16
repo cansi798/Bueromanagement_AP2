@@ -41,6 +41,7 @@ export default function Simulation() {
   const [kiStatus, setKiStatus] = useState<KIStatus>('idle')
   const [statistikGezaehlt, setStatistikGezaehlt] = useState(false)
   const [kiFortschritt, setKiFortschritt] = useState('')
+  const [kiFehler, setKiFehler] = useState('')
   const [kiErgebnisse, setKiErgebnisse] = useState<Record<string, AufgabenBewertung>>({})
 
   const pruefung = pruefungen?.find((p) => p.termin === termin && p.bereich === bereichId)
@@ -184,7 +185,8 @@ export default function Simulation() {
           datum: heute,
         })
       }
-    } catch {
+    } catch (e) {
+      setKiFehler(e instanceof Error ? e.message : '')
       setKiStatus('fehler')
     }
   }
@@ -310,7 +312,7 @@ export default function Simulation() {
               )}
               {kiStatus === 'fehler' && (
                 <p className="text-sm text-red-700 dark:text-red-300">
-                  KI-Korrektur abgebrochen (Modell-Problem).{' '}
+                  {kiFehler || 'KI-Korrektur abgebrochen (Modell-Problem).'}{' '}
                   <button type="button" onClick={kiBerichtErstellen} className="font-semibold underline">
                     Nochmal versuchen
                   </button>

@@ -28,6 +28,7 @@ export default function KIBewertung({
   punkte?: number
 }) {
   const [status, setStatus] = useState<Status>('idle')
+  const [fehlerText, setFehlerText] = useState('')
   const [fortschritt, setFortschritt] = useState('')
   const [feedback, setFeedback] = useState('')
   const [erreicht, setErreicht] = useState<number | null>(null)
@@ -64,7 +65,8 @@ export default function KIBewertung({
         setFeedback(await bewerteAntwort(frage, loesung, antwort, fortschrittCb))
       }
       setStatus('fertig')
-    } catch {
+    } catch (e) {
+      setFehlerText(e instanceof Error ? e.message : '')
       setStatus('fehler')
     }
   }
@@ -137,8 +139,8 @@ export default function KIBewertung({
       )}
       {status === 'fehler' && (
         <div className="rounded-lg border border-red-200 bg-red-50 p-3 text-sm text-red-700 dark:border-red-900 dark:bg-red-950/40 dark:text-red-300">
-          Die KI-Bewertung hat nicht geklappt (Modell zu groß für dein Gerät oder Download
-          unterbrochen). Tipp: kleineres Modell wählen.
+          {fehlerText ||
+            'Die KI-Bewertung hat nicht geklappt (Modell zu groß für dein Gerät oder Download unterbrochen). Tipp: kleineres Modell wählen.'}
           <button
             type="button"
             onClick={() => setStatus('idle')}
