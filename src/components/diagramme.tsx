@@ -870,20 +870,50 @@ const AufbauorganisationSia = () => (
 // Mindestbestand (Beispiel 50×4+200 = 400) exakt aus dem Lernzettel.
 const LagerSaegezahn = () => {
   // SVG: kleinere y = weiter oben. Höchstbestand oben, Mindestbestand unten.
-  const ox = 90, oy = 300
-  const yH = 130 // Höchstbestand (oben)
-  const yMe = 200 // Meldebestand (mitte)
-  const yMi = 250 // Mindestbestand (unten, knapp über Zeitachse)
-  const xEnd = 690 // rechtes Ende der Zahnkurve (Labels rechts davon)
-  // Zahn: sinkt vom Höchst- auf den Meldebestand, springt (Lieferung) zurück hoch.
-  const zahn = `M ${ox} ${yH} L 250 ${yMe} L 250 ${yH} L 410 ${yMe} L 410 ${yH} L 570 ${yMe} L 570 ${yH} L ${xEnd} ${yMe}`
+  // Fachlich: Abstieg Höchst → kreuzt Meldebestand (Bestellung) → weiter bis Mindestbestand
+  // (Lieferzeit-Reserve) → senkrechter Anstieg (Lieferung eingetroffen) → Höchstbestand.
+  const ox = 90, oy = 310
+  const yH = 120  // Höchstbestand (oben)
+  const yMe = 195 // Meldebestand (mitte)
+  const yMi = 255 // Mindestbestand (unten, Reserve während Lieferzeit)
+  const xEnd = 650 // rechtes Ende der Zahnkurve
+
+  // Drei vollständige Zähne. Jeder Zahn:
+  //   Start bei Höchstbestand → lineare Abnahme → kreuzt Meldebestand (hier ↓ weiter) →
+  //   erreicht Mindestbestand → senkrechter Sprung (Lieferung) zurück auf Höchstbestand.
+  // x-Koordinaten: jeder Zahn 160 px breit; Kreuzungspunkt Meldebestand bei ~60% des Abstiegs.
+  // Zahnbreiten: ox→250 (Zahn 1), 250→410 (Zahn 2), 410→570 (Zahn 3), 570→xEnd (Teilzahn)
+  // Meldebestand-Kreuzung: proportional (yMe-yH)/(yMi-yH) = 75/135 ≈ 56% der Breite
+  // Zahn 1: 90→250 = 160 px; Kreuzung bei 90 + 160*56% ≈ 179; Bottom bei 250
+  // Zahn 2: 250→410;         Kreuzung bei 250 + 160*56% ≈ 340; Bottom bei 410
+  // Zahn 3: 410→570;         Kreuzung bei 410 + 160*56% ≈ 500; Bottom bei 570
+  // Teilzahn: 570→650 endet bei Meldebestand (nicht fertig — zeigt laufenden Verbrauch)
+  const xMe1 = 179, xMe2 = 339, xMe3 = 499 // Meldebestand-Kreuzungspunkte
+  const zahn = [
+    `M ${ox} ${yH}`,
+    // Zahn 1
+    `L ${xMe1} ${yMe}`, // kreuzt Meldebestand → Bestellung ausgelöst
+    `L 250 ${yMi}`,     // fällt weiter bis Mindestbestand
+    `L 250 ${yH}`,      // senkrechter Anstieg: Lieferung
+    // Zahn 2
+    `L ${xMe2} ${yMe}`,
+    `L 410 ${yMi}`,
+    `L 410 ${yH}`,
+    // Zahn 3
+    `L ${xMe3} ${yMe}`,
+    `L 570 ${yMi}`,
+    `L 570 ${yH}`,
+    // Teilzahn (rechter Rand, Verbrauch läuft)
+    `L ${xEnd} ${yMe}`,
+  ].join(' ')
+
   return (
-    <Dia titel="Lagerbestands-Sägezahn: Höchst-, Melde- und Mindestbestand" viewBox="0 0 800 400">
-      <line x1={ox} y1={oy} x2={760} y2={oy} stroke={INK} strokeWidth={2.4} />
-      <line x1={ox} y1={oy} x2={ox} y2={110} stroke={INK} strokeWidth={2.4} />
-      <T x={758} y={oy + 18} t="Zeit" fs={13} anchor="end" />
-      <T x={ox} y={102} t="Menge" fs={13} anchor="middle" />
-      {/* Bestandslinien (Labels links neben der y-Achse, um Clipping zu vermeiden) */}
+    <Dia titel="Lagerbestands-Sägezahn: Höchst-, Melde- und Mindestbestand" viewBox="0 0 800 420">
+      <line x1={ox} y1={oy} x2={720} y2={oy} stroke={INK} strokeWidth={2.4} />
+      <line x1={ox} y1={oy} x2={ox} y2={100} stroke={INK} strokeWidth={2.4} />
+      <T x={718} y={oy + 18} t="Zeit" fs={13} anchor="end" />
+      <T x={ox} y={92} t="Menge" fs={13} anchor="middle" />
+      {/* Bestandslinien */}
       <line x1={ox} y1={yH} x2={xEnd} y2={yH} stroke="#94a3b8" strokeWidth={1.6} strokeDasharray="6 5" />
       <T x={xEnd + 8} y={yH + 4} t="Höchstbestand" fs={12} anchor="start" fill="#64748b" />
       <line x1={ox} y1={yMe} x2={xEnd} y2={yMe} stroke="#0284c7" strokeWidth={1.8} strokeDasharray="6 5" />
@@ -892,11 +922,21 @@ const LagerSaegezahn = () => {
       <T x={xEnd + 8} y={yMi + 4} t="Mindestbestand" fs={12} anchor="start" fill="#dc2626" />
       {/* Sägezahn */}
       <path d={zahn} fill="none" stroke="#16a34a" strokeWidth={2.8} />
-      <T x={330} y={225} t="↑ Lieferung füllt auf, ↓ Verbrauch" fs={11.5} anchor="middle" fill="#0369a1" fett />
-      <T x={400} y={50} t="Meldebestand = Tagesabsatz × Lieferzeit + Mindestbestand" fs={13.5} fill={INK} fett />
-      <T x={400} y={74} t="Beispiel: 50 × 4 + 200 = 400 Stück → bei 400 Stück bestellen" fs={12.5} fill="#0369a1" fett />
-      <T x={400} y={368} t="hohe Umschlagshäufigkeit = kurze Lagerdauer = wenig gebundenes Kapital" fs={12.5} fill={INK} />
-      <T x={400} y={392} t="Merke: zu viel Lager kostet Geld, zu wenig kostet Kunden — die Balance ist das Ziel." fs={12.5} fill="#b45309" fett />
+      {/* Markierungen: Bestellung ausgelöst (Kreuzungspunkte Meldebestand) */}
+      <circle cx={xMe1} cy={yMe} r={5} fill="#0284c7" />
+      <circle cx={xMe2} cy={yMe} r={5} fill="#0284c7" />
+      <circle cx={xMe3} cy={yMe} r={5} fill="#0284c7" />
+      {/* Lieferzeit-Phasen-Label (zwischen Kreuzung und Lieferung, im Mindestbestand-Korridor) */}
+      <T x={214} y={yMi - 7} t="Lieferzeit" fs={10} anchor="middle" fill="#be123c" />
+      <T x={374} y={yMi - 7} t="Lieferzeit" fs={10} anchor="middle" fill="#be123c" />
+      <T x={534} y={yMi - 7} t="Lieferzeit" fs={10} anchor="middle" fill="#be123c" />
+      {/* Legende */}
+      <circle cx={ox + 10} cy={yMe - 30} r={5} fill="#0284c7" />
+      <T x={ox + 20} y={yMe - 26} t="= Bestellung ausgelöst" fs={11} anchor="start" fill="#0284c7" />
+      <T x={400} y={50} t="Meldebestand = Tagesabsatz × Lieferzeit + Mindestbestand" fs={13} fill={INK} fett />
+      <T x={400} y={73} t="Beispiel: 50 × 4 + 200 = 400 Stück → bei 400 Stück bestellen" fs={12} fill="#0369a1" fett />
+      <T x={400} y={385} t="hohe Umschlagshäufigkeit = kurze Lagerdauer = wenig gebundenes Kapital" fs={12} fill={INK} />
+      <T x={400} y={408} t="Merke: zu viel Lager kostet Geld, zu wenig kostet Kunden — die Balance ist das Ziel." fs={12} fill="#b45309" fett />
     </Dia>
   )
 }
