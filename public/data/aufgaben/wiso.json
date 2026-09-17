@@ -6070,9 +6070,9 @@
     "quelle": "original",
     "termin": "2024-winter",
     "typ": "mc",
-    "text": "Sie überprüfen die Sicherheitskennzeichnungen. In der neuen Großraumkantine soll ein Brandmelder installiert werden.\n\n**Geben Sie an, mit welchem der folgenden Schilder Sie den Brandmelder kennzeichnen müssen!** (Zur Auswahl stehen fünf abgebildete Schilder: 1 Schutzhelm-Gebotszeichen, 2 grünes Rettungszeichen Notausgang, 3 grünes Rettungszeichen Sammelstelle, 4 rotes Brandschutzzeichen Feuerlöscher, 5 rotes Brandschutzzeichen Brandmelder.)",
+    "text": "Sie überprüfen die Sicherheitskennzeichnungen. In der neuen Großraumkantine soll ein Brandmelder installiert werden.\n\n**Geben Sie an, mit welchem der folgenden Schilder Sie den Brandmelder kennzeichnen müssen!** (Zur Auswahl stehen fünf abgebildete Schilder: 1 rotes Brandschutzzeichen Schutzhelm mit Flammen, 2 grünes Rettungszeichen Notausgang, 3 grünes Rettungszeichen Sammelstelle, 4 rotes Brandschutzzeichen Feuerlöscher, 5 rotes Brandschutzzeichen Brandmelder.)",
     "optionen": [
-      "Schild 1 (Gebotszeichen Schutzhelm)",
+      "Schild 1 (Brandschutzzeichen Schutzhelm mit Flammen)",
       "Schild 2 (Rettungszeichen Notausgang)",
       "Schild 3 (Rettungszeichen Sammelstelle)",
       "Schild 4 (Brandschutzzeichen Feuerlöscher)",
