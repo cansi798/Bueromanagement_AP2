@@ -14,7 +14,7 @@ Nutzer-Report: „Es fehlen teilweise noch Grafiken, prüfe überall" — Hinwei
 - **WiSo-Organigramme (4 Aufgaben):** `anlagenDiagramm` vom Typ `organigramm` (Renderer existiert) aus den Original-PDFs der Termine (2019 Winter, 2020 Sommer, 2022 Winter) rekonstruieren. Gleiches Organigramm ggf. für mehrere Aufgaben desselben Termins wiederverwenden.
 - **WiSo-Sicherheitszeichen (2 Aufgaben):** `anlagenDiagramm` Typ `schilder` (Renderer existiert; Felder form/farbe/innen/text) gemäß PDF (2022 Winter, 2024 Winter).
 - **KBZ/BuFü 2025W-Belege (9 Aufgaben):** `anlagenText` (Markdown-Wiedergabe der Belege Nr. 2–4: Heizungsbau Meier, Stadtwerke Hamburg, Kfz-Kennzeichen) aus den 2025-Winter-PDFs; identische Belege werden zwischen kbz-2025w-a4-* und bufu-2025w-a* (abgeleitete Übungen) wortgleich geteilt.
-- Rollout über das bestehende Staging-Muster (`content-pipeline/`, merge-Skript analog `merge-anlagen-diagramme.mjs`), Befunde in `audit-report.md`.
+- Rollout: Bei diesem kleinen Umfang (15 gezielte Einträge) direkte Edits in den aufgaben-JSONs statt Staging-Merge — abgesichert durch JSON-Validierung, Schema-Tests und den neuen Audit-Test. Befunde in `audit-report.md`.
 - **Dauerhafter Audit-Test** `tests/anlagenVerweise.test.ts`: Kein Aufgaben-Text darf auf Anlage/Abbildung/Organigramm/Schaubild verweisen (Muster aus dem Audit-Skript), ohne dass `anlagenText` oder `anlagenDiagramm` gesetzt ist. Ausnahmen (falsche Treffer wie „Sortieranlage") über eine dokumentierte Allowlist im Test.
 
 ## Paket B — Übersichtsdiagramme für die 20 fehlenden Themen
