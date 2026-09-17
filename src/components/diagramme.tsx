@@ -623,6 +623,132 @@ const Projektphasen = () => (
   </Dia>
 )
 
+/* ---------- Task 5: Übersichtsdiagramme für KBZ + BuFü (4 Themen) ---------- */
+
+// KBZ – Kundenkommunikation: das Reklamationsgespräch als aufsteigende Treppe.
+// Vier Stufen laut Lernzettel: Zuhören → Verständnis/Entschuldigung → Lösung/
+// Kulanz → verbindliche Zusage + Wiedervorlage. Ziel: Kunde geht positiver.
+const BeschwerdeTreppe = () => (
+  <Dia titel="Beschwerde-Eskalationstreppe: den Kunden Stufe für Stufe zurückgewinnen" viewBox="0 0 960 400">
+    {/* aufsteigende Stufen von unten links nach oben rechts */}
+    <B x={40} y={296} w={230} h={64} t={'1. Aktiv zuhören\n(ausreden lassen)'} f="#e0f2fe" fs={13.5} rot={-1} />
+    <B x={280} y={228} w={230} h={64} t={'2. Verständnis zeigen\nEntschuldigung'} f="#dbeafe" fs={13.5} rot={1} />
+    <B x={510} y={160} w={230} h={64} t={'3. Lösung anbieten\nUmtausch · Kulanz'} f="#fde68a" fs={13.5} rot={-1} />
+    <B x={710} y={92} w={230} h={64} t={'4. Zusage +\nWiedervorlage'} f="#dcfce7" fs={13.5} rot={1} />
+    <Pfeil x1={270} y1={320} x2={296} y2={288} />
+    <Pfeil x1={510} y1={252} x2={536} y2={220} />
+    <Pfeil x1={740} y1={184} x2={766} y2={152} />
+    <T x={155} y={392} t="Beschwerdequote senken" fs={12.5} fill="#0369a1" fett />
+    <T x={395} y={392} t="Kundenzufriedenheit erhöhen" fs={12.5} fill="#0369a1" fett />
+    <T x={825} y={392} t="Kunden halten" fs={12.5} fill="#0369a1" fett />
+    <T x={480} y={40} t="Beschwerde = Chance: gut gelöst bindet den Kunden stärker als gar kein Problem" fs={14} fill={INK} fett />
+    <T x={480} y={66} t="Beispiel: verspätete Lieferung → Entschuldigung + 5 % Nachlass auf die nächste Bestellung (Kulanz)" fs={12.5} />
+    <T x={480} y={90} t="Merke: Der Kunde soll positiver gehen, als er gekommen ist." fs={13.5} fill="#b45309" fett />
+  </Dia>
+)
+
+// KBZ – Personalwirtschaft: die Personalprozess-Kette. Vom Nettobedarf über die
+// (interne/externe) Beschaffung und Auswahl bis zur Einstellung. Zahlenbeispiel
+// aus dem Lernzettel: Soll 25 − (Ist 22 − 3 Abgänge + 1 Zugang) = 5 Einstellungen.
+const Personalprozess = () => (
+  <Dia titel="Personalprozess-Kette: vom Bedarf zur Einstellung" viewBox="0 0 960 380">
+    <B x={30} y={60} w={200} h={80} t={'1. Bedarfsplanung\nNettobedarf ermitteln'} f="#e0f2fe" fs={13} />
+    <B x={265} y={60} w={200} h={80} t={'2. Beschaffung\nintern oder extern'} f="#e0f2fe" fs={13} />
+    <B x={500} y={60} w={200} h={80} t={'3. Auswahl\nBewerbung · Gespräch'} f="#e0f2fe" fs={13} />
+    <B x={735} y={60} w={195} h={80} t={'4. Einstellung\nArbeitsvertrag'} f="#dcfce7" fs={13} />
+    <Pfeil x1={230} y1={100} x2={263} y2={100} />
+    <Pfeil x1={465} y1={100} x2={498} y2={100} />
+    <Pfeil x1={700} y1={100} x2={733} y2={100} />
+    {/* Nettobedarf-Rechnung */}
+    <B x={30} y={185} w={200} h={92} t={'Nettobedarf =\nSoll − (Ist − Abgänge\n+ Zugänge)'} f="#fef9c3" fs={12.5} />
+    <T x={130} y={305} t="25 − (22 − 3 + 1)" fs={13} fill="#0369a1" fett />
+    <T x={130} y={325} t="= 5 Einstellungen" fs={13.5} fill="#0369a1" fett />
+    {/* intern / extern */}
+    <B x={225} y={185} w={125} h={92} t={'intern\nVersetzung\nBeförderung\ngünstig · bekannt'} f="#dcfce7" fs={11.5} />
+    <B x={355} y={185} w={125} h={92} t={'extern\nStellenanzeige\nArbeitsagentur\nmehr Auswahl'} f="#e0f2fe" fs={11.5} />
+    <Pfeil x1={330} y1={140} x2={300} y2={183} />
+    <Pfeil x1={400} y1={140} x2={418} y2={183} />
+    <T x={480} y={350} t="Merke: positiver Bedarf → Einstellung · Netto = Soll − (Ist − Abgänge + Zugänge) · intern schnell/günstig, extern mehr Auswahl" fs={12.5} fill="#b45309" fett />
+  </Dia>
+)
+
+// BuFü – Stückkosten: Fixkostendegression als fallende Hyperbel Kf/x. Kurve aus
+// dem Lernzettel-Beispiel Kf = 96.000 €: 4.000 Stk → 24 €, 8.000 Stk → 12 €.
+// Achse: x = Menge (0..12.000), y = Fixkosten je Stück (€). Rechnerisch geprüft:
+// 96000/2000=48, /4000=24, /6000=16, /8000=12, /10000=9,6, /12000=8.
+const Fixkostendegression = () => {
+  // Diagramm-Koordinaten: Ursprung (80,320), x bis 720 (=12.000 Stk), y-Höhe.
+  const ox = 80, oy = 320, plotW = 640, plotH = 260
+  const xMax = 12000, kf = 96000
+  const yMax = 48 // €/Stück bei kleinster gezeigter Menge (2.000)
+  const px = (menge: number) => ox + (menge / xMax) * plotW
+  const py = (euro: number) => oy - (euro / yMax) * plotH
+  const punkte: number[] = [2000, 3000, 4000, 5000, 6000, 8000, 10000, 12000]
+  const d = punkte
+    .map((m, i) => `${i === 0 ? 'M' : 'L'} ${px(m).toFixed(1)} ${py(kf / m).toFixed(1)}`)
+    .join(' ')
+  return (
+    <Dia titel="Fixkostendegression: Fixkosten je Stück fallen mit steigender Menge" viewBox="0 0 800 400">
+      <line x1={ox} y1={oy} x2={740} y2={oy} stroke={INK} strokeWidth={2.4} />
+      <line x1={ox} y1={oy} x2={ox} y2={40} stroke={INK} strokeWidth={2.4} />
+      <T x={745} y={oy + 18} t="Menge (Stück)" fs={13} anchor="end" />
+      <T x={ox - 20} y={48} t="€/Stk" fs={13} anchor="middle" />
+      {/* fallende Hyperbel Kf/x */}
+      <path d={d} fill="none" stroke="#dc2626" strokeWidth={3} />
+      <T x={px(11000)} y={py(96000 / 11000) - 14} t="Kf ÷ x" fs={14} fill="#dc2626" fett anchor="middle" />
+      {/* Beispielpunkte 4.000 → 24 € und 8.000 → 12 € */}
+      <circle cx={px(4000)} cy={py(24)} r={7} fill="#fbbf24" stroke={INK} strokeWidth={2} />
+      <line x1={ox} y1={py(24)} x2={px(4000)} y2={py(24)} stroke="#94a3b8" strokeWidth={1.6} strokeDasharray="6 5" />
+      <line x1={px(4000)} y1={oy} x2={px(4000)} y2={py(24)} stroke="#94a3b8" strokeWidth={1.6} strokeDasharray="6 5" />
+      <T x={px(4000) + 8} y={py(24) - 10} t="4.000 Stk → 24 €" fs={12.5} fill={INK} fett anchor="start" />
+      <circle cx={px(8000)} cy={py(12)} r={7} fill="#fbbf24" stroke={INK} strokeWidth={2} />
+      <line x1={ox} y1={py(12)} x2={px(8000)} y2={py(12)} stroke="#94a3b8" strokeWidth={1.6} strokeDasharray="6 5" />
+      <line x1={px(8000)} y1={oy} x2={px(8000)} y2={py(12)} stroke="#94a3b8" strokeWidth={1.6} strokeDasharray="6 5" />
+      <T x={px(8000) + 8} y={py(12) - 10} t="8.000 Stk → 12 €" fs={12.5} fill={INK} fett anchor="start" />
+      {/* Achsenmarken */}
+      <T x={ox - 8} y={py(24) + 4} t="24" fs={11.5} anchor="end" fill="#64748b" />
+      <T x={ox - 8} y={py(12) + 4} t="12" fs={11.5} anchor="end" fill="#64748b" />
+      <T x={px(4000)} y={oy + 18} t="4.000" fs={11.5} anchor="middle" fill="#64748b" />
+      <T x={px(8000)} y={oy + 18} t="8.000" fs={11.5} anchor="middle" fill="#64748b" />
+      <T x={400} y={28} t="Fixkosten 96.000 € — dieselbe Summe, auf mehr Stück verteilt: halbe Menge → doppelter Fixkostenanteil je Stück" fs={12.5} fill={INK} fett />
+      <T x={400} y={392} t="Merke: variable Stückkosten bleiben gleich — nur der Fixkostenanteil je Stück sinkt (Motiv für hohe Auslastung)." fs={12.5} fill="#b45309" fett />
+    </Dia>
+  )
+}
+
+// BuFü – Normalkosten: Über-/Unterdeckung als gegenübergestellte Balken.
+// Regel (Lernzettel): Abweichung = Ist − Normal. Normal > Ist → Überdeckung,
+// Ist > Normal → Unterdeckung. Beispiele: 500/465 → Überdeckung 35 €;
+// 771,95/810,00 → Unterdeckung 38,05 €. Balkenlängen skaliert (0,4 px je €).
+const Kostenabweichung = () => {
+  const sk = 0.4 // px je €
+  const bx = 300 // linke Kante der Balken
+  return (
+    <Dia titel="Kostenüber- und -unterdeckung: Abweichung = Ist − Normal" viewBox="0 0 800 400">
+      {/* Überdeckung: Normal 500 > Ist 465 */}
+      <T x={40} y={60} t="Kostenüberdeckung" fs={15} fill="#16a34a" fett anchor="start" />
+      <T x={40} y={82} t="Normal > Ist (günstig)" fs={12} anchor="start" />
+      <rect x={bx} y={48} width={500 * sk} height={26} fill="#bbf7d0" stroke={INK} strokeWidth={2} />
+      <T x={bx + 500 * sk + 8} y={66} t="Normalkosten 500 €" fs={12.5} anchor="start" fill={INK} />
+      <rect x={bx} y={80} width={465 * sk} height={26} fill="#dcfce7" stroke={INK} strokeWidth={2} />
+      <T x={bx + 465 * sk + 8} y={98} t="Istkosten 465 €" fs={12.5} anchor="start" fill={INK} />
+      <T x={bx} y={132} t="→ Überdeckung 35 € (Abweichung −35 €)" fs={12.5} anchor="start" fill="#16a34a" fett />
+      {/* Trennlinie */}
+      <line x1={40} y1={175} x2={760} y2={175} stroke="#cbd5e1" strokeWidth={1.6} strokeDasharray="6 5" />
+      {/* Unterdeckung: Ist 810 > Normal 771,95 */}
+      <T x={40} y={222} t="Kostenunterdeckung" fs={15} fill="#dc2626" fett anchor="start" />
+      <T x={40} y={244} t="Ist > Normal (Warnsignal)" fs={12} anchor="start" />
+      <rect x={bx} y={210} width={771.95 * sk} height={26} fill="#fecaca" stroke={INK} strokeWidth={2} />
+      <T x={bx + 771.95 * sk + 8} y={228} t="Normalkosten 771,95 €" fs={12.5} anchor="start" fill={INK} />
+      <rect x={bx} y={242} width={810 * sk} height={26} fill="#fee2e2" stroke={INK} strokeWidth={2} />
+      <T x={bx + 810 * sk + 8} y={260} t="Istkosten 810,00 €" fs={12.5} anchor="start" fill={INK} />
+      <T x={bx} y={294} t="→ Unterdeckung 38,05 € (Abweichung +38,05 €)" fs={12.5} anchor="start" fill="#dc2626" fett />
+      <T x={400} y={340} t="Normalkosten = geglättete Durchschnitts-Istkosten vergangener Perioden (Vergleichsmaßstab)" fs={12.5} fill={INK} fett />
+      <T x={400} y={372} t="Merke: positive Abweichung (Ist > Normal) = Unterdeckung · negative (Normal > Ist) = Überdeckung." fs={13} fill="#b45309" fett />
+    </Dia>
+  )
+}
+
 /* ---------- Registry: themaId → Diagramm ---------- */
 
 export const DIAGRAMME: Record<string, () => ReactNode> = {
@@ -631,11 +757,17 @@ export const DIAGRAMME: Record<string, () => ReactNode> = {
   'rechnung-umsatzsteuer': Umsatzsteuer,
   'buchfuehrung-kontierung': Buchungssatz,
   'kostenrechnung': Zuschlagskalkulation,
+  // KBZ – Task 5
+  'kundenkommunikation': BeschwerdeTreppe,
+  'personalwirtschaft': Personalprozess,
   // Buchführung
   'umsatzsteuer': Umsatzsteuer,
   'buchungssaetze-kontierung': Buchungssatz,
   'zuschlagskalkulation': Zuschlagskalkulation,
   'deckungsbeitrag-breakeven': BreakEven,
+  // Buchführung – Task 5
+  'stueckkosten-kostenrechnung': Fixkostendegression,
+  'normalkosten-kostenabweichung': Kostenabweichung,
   // WiSo
   'markt-preisbildung': MarktPreis,
   'berufsausbildung-arbeitsrecht': DualesSystem,

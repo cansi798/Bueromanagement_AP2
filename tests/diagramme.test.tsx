@@ -24,3 +24,12 @@ describe('WiSo-Abdeckung', () => {
     it(`${id} hat ein Diagramm`, () => expect(DIAGRAMME[id]).toBeDefined())
   }
 })
+
+describe('KBZ/BuFü-Abdeckung', () => {
+  for (const id of [
+    'kundenkommunikation', 'personalwirtschaft',
+    'stueckkosten-kostenrechnung', 'normalkosten-kostenabweichung',
+  ]) {
+    it(`${id} hat ein Diagramm`, () => expect(DIAGRAMME[id]).toBeDefined())
+  }
+})
