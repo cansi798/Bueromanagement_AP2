@@ -1,5 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import { renderToString } from 'react-dom/server'
+import { readFileSync } from 'node:fs'
+import { join } from 'node:path'
 import { DIAGRAMME } from '../src/components/diagramme'
 
 // Jedes Übersichtsdiagramm muss serverseitig fehlerfrei rendern und echte
@@ -43,4 +45,17 @@ describe('Mündlich-Abdeckung', () => {
   ]) {
     it(`${id} hat ein Diagramm`, () => expect(DIAGRAMME[id]).toBeDefined())
   }
+})
+
+describe('Vollständigkeit', () => {
+  it('JEDES Thema hat ein Übersichtsdiagramm', () => {
+    const fehlend: string[] = []
+    for (const b of ['wiso', 'kbz', 'buchfuehrung', 'muendlich']) {
+      const themen = JSON.parse(
+        readFileSync(join(__dirname, '..', 'public', 'data', 'themen', `${b}.json`), 'utf8'),
+      )
+      for (const t of themen) if (!DIAGRAMME[t.id]) fehlend.push(`${b}/${t.id}`)
+    }
+    expect(fehlend, `Themen ohne Diagramm: ${fehlend.join(', ')}`).toEqual([])
+  })
 })
