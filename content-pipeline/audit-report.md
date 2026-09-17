@@ -623,3 +623,46 @@ ergänzt (Renderer-Typen `organigramm`/`schilder` bestanden bereits).
   in späterer Runde an das Bild angleichen.
 
 - **Test:** `npm test` → 263/263 grün (unverändert); `npm test -- anlagenDiagramm` 4/4 als Render-Probe.
+
+## 2025 Winter KBZ/BuFü — Belege als anlagenText nachgetragen (2026-09-17)
+
+**Quelle: `2025 Winter/2025 Winter KBZ.pdf` (Anlagenteil).** Für 9 Aufgaben wurde je der
+zugehörige Beleg als GFM-Markdown-`anlagenText` ergänzt (Format übernommen aus den bereits
+vorhandenen Einträgen kbz-a4-4/a4-6/a4-9 bzw. bufu-a6/a9). Beträge-Quercheck gegen die
+Lösungen der Aufgaben (kaufmännisch gerundet):
+
+- **kbz-2025w-a4-3** — **Abbildung 1 (PDF-Seite 6A):** Wüland PC-Bedarf GmbH, Rechnung
+  Nr. 2025-53347-14. *Fehlerhafte* Eingangsrechnung — die im PDF ausgewiesenen Zahlen
+  (Rabatt 239,25 €; Netto 1.715,75 €; USt 325,99 €; Brutto 2.041,74 €) sind rechnerisch
+  falsch: 15 % von 1.950,00 € = 292,50 € (nicht 239,25 €). Genau dieser Fehler ist Gegenstand
+  der Aufgabe (Lösung: „Rechnung nicht buchbar, korrigierte anfordern"). Die falschen
+  PDF-Werte wurden bewusst 1:1 übernommen und im anlagenText mit einem Hinweis versehen.
+- **kbz-2025w-a4-7 + bufu-2025w-a7** — **Beleg 2 (PDF-Seite 9A):** Kontoauszug 72/2025
+  Hamburger Sparkasse. Wortgleich geteilt. Pos. 2 Heizungsbau Meyering 855,33 € stützt Lösung
+  4499/2800 855,33 €. ✓
+- **kbz-2025w-a4-8 + bufu-2025w-a8** — **Beleg 2 (PDF-Seite 9A):** derselbe Kontoauszug,
+  wortgleich geteilt. Pos. 3 Stadtwerke 1.511,33 € inkl. 19 % USt → netto 1.511,33 : 1,19 =
+  1.270,03 € (6050), USt 241,30 € (2600); 1.270,03 + 241,30 = 1.511,33 €. ✓
+- **kbz-2025w-a4-10 + bufu-2025w-a10** — **Beleg 4 (PDF-Seite 11A):** Carstens GmbH,
+  Rechnung 5549/2225. Kfz-Kennzeichen netto 144,00 € (48,00 € × 3 Sets), USt 27,36 €
+  (144,00 × 19 % = 27,36), brutto 171,36 €. Stützt Lösung 0840/2600 an 4499. ✓
+- **kbz-2025w-a4-11 + bufu-2025w-a11** — **Belege 3 + 4 (PDF-Seiten 10A + 11A):** Autohaus
+  Fresen KG (Beleg 3) + Carstens GmbH (Beleg 4), wortgleich geteilt. AK 1 Transporter:
+  68.500,00 × 88 : 100 = 60.280,00 € (bzw. 180.840,00 : 3 = 60.280,00 €) + 48,00 € (Kennzeichen)
+  + 170,00 € (Zulassung) = 60.498,00 €. ✓ Beleg-3-Rechnung: Summe 205.500,00 − 12 % (24.660,00)
+  = netto 180.840,00 + 19 % (34.359,60) = brutto 215.199,60 €. ✓
+
+Hinweis: Der Brief bezeichnete Beleg 2 als „Heizungsbau Meier" — laut PDF ist Beleg 2 der
+Sparkassen-Kontoauszug, der die Positionen Bürotec/Heizungsbau Meyering/Stadtwerke enthält.
+Inhalt gemäß Original-PDF eingetragen (nicht gemäß Brief-Kurzbezeichnung).
+
+**Test nach Nachtrag:** `npm test` → 263/263 grün. JSON-Parse beider Dateien OK.
+
+## wiso-2024w-a27 — Schild-1-Beschreibung an Original-Anlage angeglichen (2026-09-17)
+
+Follow-up zum oben dokumentierten Vorbehalt: Aufgabentext/Option zu Schild 1 beschrieb ein
+„Gebotszeichen Schutzhelm" (blaues Gebotszeichen), während Original-PDF und das in Task 1
+eingetragene `anlagenDiagramm` ein rotes Quadrat mit Helm + Flammen (Brandschutzzeichen-Familie)
+zeigen. **Nur** die Beschreibung von Schild 1 minimal-invasiv an das Bild angeglichen;
+`korrekt`, `loesung`, `erklaerung` und alle anderen Schilder unverändert. Korrekte Antwort
+(Schild 5, Brandmelder) bleibt unberührt.
