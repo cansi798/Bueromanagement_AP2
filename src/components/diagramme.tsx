@@ -412,6 +412,217 @@ const RechtsformenBaum = () => (
   </Dia>
 )
 
+/* ---------- Task 4: Übersichtsdiagramme für 8 weitere WiSo-Themen ---------- */
+
+const ProduktionsfaktorenZiele = () => (
+  <Dia titel="Zielbeziehungen: Konflikt, Harmonie, Neutralität" viewBox="0 0 960 340">
+    <T x={480} y={30} t="Unternehmensziele: ökonomisch · ökologisch · sozial" fs={15} fill={INK} fett />
+    <B x={355} y={55} w={250} h={50} t={'Ziel A  ↔  Ziel B'} f="#fef9c3" fs={15} />
+    <Pfeil x1={410} y1={105} x2={190} y2={150} />
+    <Pfeil x1={480} y1={105} x2={480} y2={150} />
+    <Pfeil x1={550} y1={105} x2={770} y2={150} />
+    <B x={40} y={152} w={280} h={90} t={'Zielkonflikt\n(konkurrierend)\nA besser → B schlechter'} f="#fee2e2" fs={13.5} />
+    <B x={340} y={152} w={280} h={90} t={'Zielharmonie\n(komplementär)\nA besser → B auch besser'} f="#dcfce7" fs={13.5} />
+    <B x={640} y={152} w={280} h={90} t={'Zielneutralität\nkein Einfluss\naufeinander'} f="#e0f2fe" fs={13.5} />
+    <T x={180} y={278} t="z. B. Kita schließen: ökonomisch ↑, sozial ↓" fs={12.5} />
+    <T x={480} y={278} t="z. B. Energie sparen: Kosten ↓ und Umwelt ↑" fs={12.5} />
+    <T x={780} y={278} t="Ziele beeinflussen sich nicht" fs={12.5} />
+    <T x={480} y={320} t="Merke: Konflikt = gegeneinander · Harmonie = miteinander · Neutralität = unabhängig" fs={13.5} fill="#b45309" fett />
+  </Dia>
+)
+
+const VollmachtenStufen = () => (
+  <Dia titel="Vollmachten-Stufen: Prokura und Handlungsvollmacht" viewBox="0 0 960 340">
+    <B x={330} y={30} w={300} h={48} t={'Vollmachten im Handelsbetrieb'} f="#fef9c3" fs={15} />
+    <Pfeil x1={420} y1={78} x2={230} y2={118} />
+    <Pfeil x1={540} y1={78} x2={730} y2={118} />
+    <B x={40} y={120} w={380} h={130} t={'Prokura (§§ 48 ff. HGB)\nfast alle Geschäfte des Handelsgewerbes\nnur vom Inhaber erteilt · Handelsregister\nnicht beschränkbar gegenüber Dritten'} f="#e0f2fe" fs={13} />
+    <B x={540} y={120} w={380} h={130} t={'Handlungsvollmacht (§ 54 HGB)\nnur gewöhnliche Geschäfte\nformfrei · auch vom Prokuristen\nkein Handelsregister · frei widerruflich'} f="#dcfce7" fs={13} />
+    <B x={40} y={262} w={380} h={54} t={'Tabu „GBS": Grundstücke, Bilanzen/\nSteuererklärungen, Sich-selbst-Prokura'} f="#fee2e2" fs={12.5} />
+    <T x={730} y={288} t="z. B. Waren einkaufen, Mitarbeiter einstellen" fs={12.5} />
+    <T x={730} y={308} t="Umfang = nur die üblichen Betriebsgeschäfte" fs={12.5} />
+  </Dia>
+)
+
+const FinanzierungBaum = () => (
+  <Dia titel="Finanzierungsarten: Herkunft und Rechtsstellung" viewBox="0 0 960 340">
+    <B x={370} y={22} w={220} h={46} t={'Finanzierung'} f="#fef9c3" fs={16} />
+    <Pfeil x1={430} y1={68} x2={250} y2={104} />
+    <Pfeil x1={530} y1={68} x2={710} y2={104} />
+    <B x={90} y={106} w={300} h={44} t={'Außenfinanzierung'} f="#e0f2fe" fs={14} />
+    <B x={570} y={106} w={300} h={44} t={'Innenfinanzierung'} f="#e0f2fe" fs={14} />
+    <Pfeil x1={180} y1={150} x2={140} y2={196} />
+    <Pfeil x1={300} y1={150} x2={340} y2={196} />
+    <Pfeil x1={660} y1={150} x2={620} y2={196} />
+    <Pfeil x1={780} y1={150} x2={820} y2={196} />
+    <B x={40} y={198} w={190} h={82} t={'Beteiligungs-\nfinanzierung\n(Eigenkapital)'} f="#dcfce7" fs={12.5} />
+    <B x={250} y={198} w={190} h={82} t={'Kreditfinanzierung\n(Fremdkapital,\nBankdarlehen)'} f="#fee2e2" fs={12.5} />
+    <B x={520} y={198} w={190} h={82} t={'Selbstfinanzierung\n(einbehaltener\nGewinn)'} f="#dcfce7" fs={12.5} />
+    <B x={730} y={198} w={190} h={82} t={'aus Rückstellungen\nund Abschreibungen\n(Fremdkapital)'} f="#fee2e2" fs={12.5} />
+    <T x={480} y={314} t="Eigenkapital haftet, zinsfrei · Fremdkapital wird verzinst und zurückgezahlt" fs={13.5} fill="#b45309" fett />
+  </Dia>
+)
+
+const ArbeitsschutzSchilder = () => (
+  <Dia titel="Sicherheitszeichen: Farbe und Form (ASR A1.3)" viewBox="0 0 960 340">
+    <T x={480} y={30} t="An Farbe und Form erkennt man die Bedeutung sofort" fs={15} fill={INK} fett />
+    {/* Rettungszeichen: grünes Quadrat */}
+    <rect x={70} y={70} width={110} height={110} rx={6} fill="#16a34a" stroke={INK} strokeWidth={2.2} />
+    <T x={125} y={210} t="Rettung" fs={14} fill={INK} fett />
+    <T x={125} y={230} t="grün, quadratisch" fs={12} />
+    {/* Brandschutzzeichen: rotes Quadrat */}
+    <rect x={250} y={70} width={110} height={110} rx={6} fill="#dc2626" stroke={INK} strokeWidth={2.2} />
+    <T x={305} y={210} t="Brandschutz" fs={14} fill={INK} fett />
+    <T x={305} y={230} t="rot, quadratisch" fs={12} />
+    {/* Verbotszeichen: roter Ring durchgestrichen */}
+    <circle cx={485} cy={125} r={55} fill="#ffffff" stroke="#dc2626" strokeWidth={7} />
+    <line x1={447} y1={163} x2={523} y2={87} stroke="#dc2626" strokeWidth={7} />
+    <T x={485} y={210} t="Verbot" fs={14} fill={INK} fett />
+    <T x={485} y={230} t="rund, rot durchgestrichen" fs={12} />
+    {/* Gebotszeichen: blauer Kreis */}
+    <circle cx={665} cy={125} r={55} fill="#2563eb" stroke={INK} strokeWidth={2.2} />
+    <T x={665} y={210} t="Gebot" fs={14} fill={INK} fett />
+    <T x={665} y={230} t="blau, rund" fs={12} />
+    {/* Warnzeichen: gelbes Dreieck */}
+    <polygon points="845,72 903,178 787,178" fill="#facc15" stroke={INK} strokeWidth={2.2} />
+    <T x={845} y={210} t="Warnung" fs={14} fill={INK} fett />
+    <T x={845} y={230} t="gelb, dreieckig" fs={12} />
+    <T x={480} y={310} t="Merke: Grün = Rettung · Rot = Brand/Verbot · Blau = Gebot · Gelb = Warnung" fs={13.5} fill="#b45309" fett />
+  </Dia>
+)
+
+const DatenschutzRollen = () => (
+  <Dia titel="Datenschutz vs. Datensicherheit – Rechte der Betroffenen" viewBox="0 0 960 340">
+    <B x={40} y={40} w={420} h={78} t={'Datenschutz\nschützt die PERSON vor Missbrauch\nihrer Daten · DSGVO + BDSG'} f="#e0f2fe" fs={13.5} />
+    <B x={500} y={40} w={420} h={78} t={'Datensicherheit\nschützt die DATEN selbst (technisch-\norganisatorisch) vor Verlust/Zugriff'} f="#dcfce7" fs={13.5} />
+    <B x={40} y={140} w={420} h={62} t={'Grundsätze: Rechtmäßigkeit · Zweckbindung\nDatenminimierung · Speicherbegrenzung'} f="#f1f5f9" fs={12.5} />
+    <B x={500} y={140} w={420} h={62} t={'TOM sichern: Vertraulichkeit ·\nIntegrität · Verfügbarkeit'} f="#f1f5f9" fs={12.5} />
+    <B x={230} y={224} w={500} h={48} t={'Rechte der Betroffenen'} f="#fef9c3" fs={15} />
+    <T x={480} y={296} t="Auskunft · Berichtigung · Löschung · Einschränkung · Übertragbarkeit · Widerspruch" fs={13} fill={INK} fett />
+    <T x={480} y={324} t="Merke: Datenschutz = Schutz der Person · Datensicherheit = Schutz der Daten" fs={13} fill="#b45309" fett />
+  </Dia>
+)
+
+// EPK-spezifische Formen (fehlten): Ereignis = Sechseck, XOR-Konnektor = Kreis
+// mit ×. Funktionen bleiben abgerundete Rechtecke über den vorhandenen Helfer B.
+function Ereignis({ x, y, w, h, t, f = '#fde68a', fs = 12.5 }: {
+  x: number; y: number; w: number; h: number; t: string; f?: string; fs?: number
+}) {
+  const k = 16 // Ecken-Einzug für die Sechseck-Form
+  const zeilen = t.split('\n')
+  return (
+    <g>
+      <polygon
+        points={`${x + k},${y} ${x + w - k},${y} ${x + w},${y + h / 2} ${x + w - k},${y + h} ${x + k},${y + h} ${x},${y + h / 2}`}
+        fill={f}
+        stroke={INK}
+        strokeWidth={2.2}
+      />
+      {zeilen.map((z, i) => (
+        <text
+          key={i}
+          x={x + w / 2}
+          y={y + h / 2 + (i - (zeilen.length - 1) / 2) * (fs + 3)}
+          textAnchor="middle"
+          dominantBaseline="middle"
+          fontSize={fs}
+          fontWeight={600}
+          fill={INK}
+        >
+          {z}
+        </text>
+      ))}
+    </g>
+  )
+}
+
+function XorKonnektor({ cx, cy, r = 22 }: { cx: number; cy: number; r?: number }) {
+  const d = r * 0.5
+  return (
+    <g>
+      <circle cx={cx} cy={cy} r={r} fill="#ffffff" stroke={INK} strokeWidth={2.2} />
+      <line x1={cx - d} y1={cy - d} x2={cx + d} y2={cy + d} stroke={INK} strokeWidth={2.6} />
+      <line x1={cx - d} y1={cy + d} x2={cx + d} y2={cy - d} stroke={INK} strokeWidth={2.6} />
+    </g>
+  )
+}
+
+const ProzesseEpk = () => (
+  <Dia titel="Mini-EPK: Ereignis → Funktion → XOR-Verzweigung" viewBox="0 0 960 340">
+    <Ereignis x={330} y={16} w={300} h={48} t={'Rechnung ist eingegangen'} />
+    <Pfeil x1={480} y1={64} x2={480} y2={82} />
+    <B x={370} y={84} w={220} h={46} t={'Betrag prüfen'} f="#e0f2fe" fs={14} />
+    <Pfeil x1={480} y1={130} x2={480} y2={146} />
+    <XorKonnektor cx={480} cy={168} />
+    <Pfeil x1={462} y1={183} x2={230} y2={220} />
+    <Pfeil x1={498} y1={183} x2={730} y2={220} />
+    <Ereignis x={70} y={222} w={300} h={46} t={'Betrag stimmt'} f="#dcfce7" />
+    <Ereignis x={590} y={222} w={300} h={46} t={'Betrag stimmt nicht'} f="#fee2e2" />
+    <Pfeil x1={220} y1={268} x2={220} y2={284} />
+    <Pfeil x1={740} y1={268} x2={740} y2={284} />
+    <B x={110} y={286} w={220} h={42} t={'Zahlung anweisen'} f="#e0f2fe" fs={13.5} />
+    <B x={630} y={286} w={220} h={42} t={'Reklamation erstellen'} f="#e0f2fe" fs={13.5} />
+    <T x={528} y={150} t="XOR (entweder – oder)" fs={12} fill={INK} fett anchor="start" />
+    <T x={20} y={130} t="Ereignisse und" fs={12} anchor="start" />
+    <T x={20} y={147} t="Funktionen wechseln" fs={12} anchor="start" />
+    <T x={20} y={164} t="sich ab" fs={12} anchor="start" />
+  </Dia>
+)
+
+const Unternehmensorganisation = () => (
+  <Dia titel="Weisungssysteme: Einlinien- und Stabliniensystem" viewBox="0 0 960 340">
+    <T x={240} y={28} t="Einliniensystem" fs={15} fill={INK} fett />
+    <T x={710} y={28} t="Stabliniensystem" fs={15} fill={INK} fett />
+    {/* Einliniensystem */}
+    <B x={165} y={48} w={150} h={44} t={'Leitung'} f="#fef9c3" fs={13.5} />
+    <Pfeil x1={210} y1={92} x2={130} y2={132} />
+    <Pfeil x1={270} y1={92} x2={350} y2={132} />
+    <B x={60} y={134} w={140} h={44} t={'Instanz A'} f="#e0f2fe" fs={13.5} />
+    <B x={290} y={134} w={140} h={44} t={'Instanz B'} f="#e0f2fe" fs={13.5} />
+    <Pfeil x1={130} y1={178} x2={130} y2={214} />
+    <Pfeil x1={360} y1={178} x2={360} y2={214} />
+    <B x={60} y={216} w={140} h={44} t={'Stelle'} f="#f1f5f9" fs={13.5} />
+    <B x={290} y={216} w={140} h={44} t={'Stelle'} f="#f1f5f9" fs={13.5} />
+    <T x={240} y={292} t="jede Stelle hat genau einen Vorgesetzten" fs={12.5} />
+    {/* Stabliniensystem */}
+    <B x={635} y={48} w={150} h={44} t={'Leitung'} f="#fef9c3" fs={13.5} />
+    <line x1={710} y1={92} x2={710} y2={216} stroke={INK} strokeWidth={2.4} />
+    <B x={820} y={112} w={130} h={44} t={'Stabstelle\n(nur beratend)'} f="#f3e8ff" fs={11.5} />
+    <line x1={710} y1={134} x2={818} y2={134} stroke={INK} strokeWidth={2.2} strokeDasharray="5 4" />
+    <Pfeil x1={710} y1={216} x2={560} y2={252} />
+    <Pfeil x1={710} y1={216} x2={710} y2={252} />
+    <Pfeil x1={710} y1={216} x2={860} y2={252} />
+    <B x={500} y={254} w={120} h={40} t={'Stelle'} f="#f1f5f9" fs={13} />
+    <B x={650} y={254} w={120} h={40} t={'Stelle'} f="#f1f5f9" fs={13} />
+    <B x={800} y={254} w={120} h={40} t={'Stelle'} f="#f1f5f9" fs={13} />
+    <T x={710} y={318} t="Stab berät die Instanz, hat aber keine Weisungsbefugnis" fs={12.5} fill="#b45309" fett />
+  </Dia>
+)
+
+const Projektphasen = () => (
+  <Dia titel="Die vier Projektphasen und das magische Dreieck" viewBox="0 0 960 340">
+    <B x={30} y={60} w={190} h={70} t={'1. Definition\nZiel formulieren'} f="#e0f2fe" fs={13} />
+    <B x={245} y={60} w={190} h={70} t={'2. Planung\nStruktur-/Ablaufplan'} f="#e0f2fe" fs={13} />
+    <B x={460} y={60} w={190} h={70} t={'3. Durchführung\nSoll-Ist-Vergleich'} f="#e0f2fe" fs={13} />
+    <B x={675} y={60} w={190} h={70} t={'4. Abschluss\nAbnahme + Reflexion'} f="#dcfce7" fs={13} />
+    <Pfeil x1={220} y1={95} x2={243} y2={95} />
+    <Pfeil x1={435} y1={95} x2={458} y2={95} />
+    <Pfeil x1={650} y1={95} x2={673} y2={95} />
+    <T x={447} y={40} t="Erst Ziel, dann Plan, dann Tun, zuletzt Rückblick" fs={13.5} fill={INK} fett />
+    {/* Magisches Dreieck */}
+    <polygon points="640,175 890,175 765,300" fill="#fef9c3" stroke={INK} strokeWidth={2.2} />
+    <T x={640} y={168} t="Zeit" fs={14} fill={INK} fett />
+    <T x={890} y={168} t="Kosten" fs={14} fill={INK} fett anchor="end" />
+    <T x={765} y={322} t="Qualität (Leistung)" fs={14} fill={INK} fett />
+    <T x={765} y={245} t="magisches" fs={12} />
+    <T x={765} y={262} t="Dreieck" fs={12} />
+    <T x={300} y={200} t="Ziel SMART: spezifisch · messbar · attraktiv" fs={13} anchor="middle" />
+    <T x={300} y={222} t="· realistisch · terminiert" fs={13} anchor="middle" />
+    <T x={300} y={270} t={'PSP = „Was?"'} fs={13} anchor="middle" fill="#0369a1" fett />
+    <T x={300} y={292} t={'Ablaufplan/Gantt = „Wann?"'} fs={13} anchor="middle" fill="#0369a1" fett />
+  </Dia>
+)
+
 /* ---------- Registry: themaId → Diagramm ---------- */
 
 export const DIAGRAMME: Record<string, () => ReactNode> = {
@@ -429,6 +640,15 @@ export const DIAGRAMME: Record<string, () => ReactNode> = {
   'markt-preisbildung': MarktPreis,
   'berufsausbildung-arbeitsrecht': DualesSystem,
   'konjunktur-indikatoren': Konjunktur,
+  // WiSo – Task 4: Übersichtsdiagramme für 8 weitere Themen
+  'produktionsfaktoren-unternehmensziele': ProduktionsfaktorenZiele,
+  'rechtsformen-vollmachten': VollmachtenStufen,
+  'finanzierung-kreditsicherung': FinanzierungBaum,
+  'arbeitsschutz-umwelt': ArbeitsschutzSchilder,
+  'datenschutz-digitales-arbeiten': DatenschutzRollen,
+  'prozesse-epk': ProzesseEpk,
+  'unternehmensorganisation': Unternehmensorganisation,
+  'projektmanagement': Projektphasen,
   // Mündlich
   'ablauf-fachaufgabe': MuendlichAblauf,
 }
