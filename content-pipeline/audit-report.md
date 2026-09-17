@@ -579,3 +579,47 @@ einheitlicher Report-Aufbau. Keine Format-Aussage erfunden; keine offenen Unsich
   Produktions-Split `\n(?=##\s)` — je 10 Folien, alle Inhaltsfolien mit eigenem Titel (keine erbt den
   Themennamen), längste Folie 746 Zeichen.
 - **Test:** `npm test` → 257/257 grün (unverändert).
+
+## Grafiken-Runde (2026-09-17)
+
+6 WiSo-Aufgaben verwiesen im Text auf ein „abgebildetes Organigramm" bzw. „abgebildete
+Sicherheitszeichen", hatten aber kein `anlagenDiagramm` (für Nutzer unlösbar). Feld je Aufgabe
+ergänzt (Renderer-Typen `organigramm`/`schilder` bestanden bereits).
+
+- **wiso-2019w-a19** (Organigramm) — **Quelle: Original-PDF `2019 Winter/KBM W 19_20 WiSo.pdf`, S. 8**
+  (Situation zur 18.–22. Aufgabe). Rekonstruiert 1:1: Geschäftsführung Christoph Beier; Stabstelle
+  Organisation/IT Jan Fischer (oval, seitlich); Linie: Einkauf Natalie Fröhlich, Online-Marketing
+  Saskia Clark, Online-Vertrieb Phillip Schwan. Konsistenz-Check: a19-Lösung „berät Herrn Beier"
+  (= Geschäftsführung) passt zur Stabstelle-Beratung; a20-Lösung nennt Fröhlich/Clark/Schwan — alle
+  enthalten. Hinweis: Aufgabentext sagt „Herr Fischer" (Vorname im PDF: Jan Fischer) — konsistent.
+
+- **wiso-2020s-a19 + wiso-2020s-a20** (Organigramm, identische Kopie) — **Quelle: Original-PDF
+  `2020 Sommer/AP2 WiSo.pdf`, S. 3** („Organigramm der Jana Loft KG"). Übernommen: Geschäftsleitung
+  Jana Loft; Stabstellen Public Relations Sabine Marx + Organisation/IT Klaus Klein; 7 Linienabteilungen
+  (Einkauf Bast, Produktion Obert, Verkauf Beier, Marketing Hausmann, Personal Ohlsen, Finanzen
+  Fitschen, Verwaltung Erler). Die im Original vorhandenen Sachbearbeiter-Unterebenen (3. Ebene)
+  bewusst weggelassen (Lesbarkeit; keine Aufgabe referenziert sie). Konsistenz: a19 nennt PR +
+  Organisation/IT als Stabstellen (enthalten); a20-Option nennt Klaus Klein (Org/IT) und Susanne
+  Hausmann (Marketing) — beide enthalten.
+
+- **wiso-2022w-a8** (Organigramm) — **Quelle: Original-PDF `2022 Winter/WiSo_W22.pdf`, S. 4** (Situation
+  zur 7.–12. Aufgabe). Struktur identisch zur bereits vorhandenen a7-Anlage: Geschäftsführung Max Wolf;
+  Stabstelle Marktanalyse Insa Bader; Linie Einkauf Ingo Waldeck, Verwaltung Arnold Roter, Vertrieb
+  Bettina Scholz. Alle in a8 genannten Personen enthalten.
+
+- **wiso-2022w-a28** (Schilder) — **Quelle: Original-PDF `2022 Winter/WiSo_W22.pdf`, S. 8** (28. Aufgabe).
+  5 Zeichen l→r: grün Notausgang (laufende Person/Tür), rot Feuerlöscher, rot Löschschlauch, grün
+  Rettungsausstieg (Person auf Hebebühne), grün Notruftelefon (Hörer+Kreuz). Deckt Lösungsreihenfolge
+  1;2;4;3;5 ab.
+
+- **wiso-2024w-a27** (Schilder) — **Quelle: Original-PDF `2024 Winter/AP Winter 2024 WiSo.pdf`, S. 8**
+  (27. Aufgabe). ANMERKUNG: Der Brief nahm an, dass kein 2024W-WiSo-PDF im Share liegt — es ist aber
+  vorhanden und wurde als Bildquelle genutzt (kein Text-Layer, visuell gelesen). 5 Schilder l→r:
+  Schild 1 rot Helm+Flammen, Schild 2 grün Notausgang, Schild 3 grün Sammelstelle, Schild 4 rot
+  Feuerlöscher, Schild 5 rot Brandmelder (Hand drückt Melder + Flamme = korrekte Antwort).
+  **Vorbehalt:** Der bestehende Aufgabentext beschreibt Schild 1 als „Schutzhelm-Gebotszeichen"
+  (=blaues Gebotszeichen); im PDF ist Schild 1 jedoch rot mit Flammen. Farbe/Form gemäß PDF-Bild
+  eingetragen; die korrekte Lösung (Schild 5 Brandmelder) ist davon unberührt. Aufgabentext ggf.
+  in späterer Runde an das Bild angleichen.
+
+- **Test:** `npm test` → 263/263 grün (unverändert); `npm test -- anlagenDiagramm` 4/4 als Render-Probe.

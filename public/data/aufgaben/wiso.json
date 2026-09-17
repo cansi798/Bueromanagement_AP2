@@ -3159,7 +3159,39 @@
     ],
     "punkte": 3,
     "loesung": "Antworten 3 und 5: Herr Wolf (Geschäftsführung) kann Herrn Roter anweisen, einen Mitarbeiter einzustellen; Frau Bader (Stabstelle) kann Herrn Wolf beraten.",
-    "erklaerung": "Die Geschäftsführung hat Weisungsbefugnis gegenüber den Abteilungsleitern; die Stabstelle hat nur beratende Funktion ohne Weisungsrecht."
+    "erklaerung": "Die Geschäftsführung hat Weisungsbefugnis gegenüber den Abteilungsleitern; die Stabstelle hat nur beratende Funktion ohne Weisungsrecht.",
+    "anlagenDiagramm": {
+      "typ": "organigramm",
+      "titel": "Geplante Tochtergesellschaft (Belgien)",
+      "quelle": "Original-Anlage 2022 Winter, WiSo S. 4",
+      "knoten": [
+        {
+          "id": "gf",
+          "text": "Geschäftsführung\nMax Wolf"
+        },
+        {
+          "id": "markt",
+          "text": "Marktanalyse\nInsa Bader",
+          "unter": "gf",
+          "stab": true
+        },
+        {
+          "id": "einkauf",
+          "text": "Einkauf\nIngo Waldeck",
+          "unter": "gf"
+        },
+        {
+          "id": "verwaltung",
+          "text": "Verwaltung\nArnold Roter",
+          "unter": "gf"
+        },
+        {
+          "id": "vertrieb",
+          "text": "Vertrieb\nBettina Scholz",
+          "unter": "gf"
+        }
+      ]
+    }
   },
   {
     "id": "wiso-2022w-a9",
@@ -3813,7 +3845,44 @@
     "text": "Ordnen Sie den 5 abgebildeten Sicherheitszeichen die passenden Bedeutungen zu! Bedeutungen: 1. Rettungsweg/Notausgang, 2. Feuerlöscher, 3. Rettungsausstieg, 4. Löschschlauch, 5. Notruftelefon. Sicherheitszeichen in Reihenfolge (Farbe): grün/weiß (laufende Person mit Pfeil), rot/weiß (Feuerlöscher), rot/weiß (Schlauch), grün/weiß (Hebebühne/Ausstieg), grün/weiß (Telefon mit Kreuz).",
     "punkte": 3,
     "loesung": "Reihenfolge (Zeichen 1 bis 5) = 1; 2; 4; 3; 5. Rettungsweg/Notausgang (grün); Feuerlöscher (rot); Löschschlauch (rot); Rettungsausstieg (grün); Notruftelefon (grün).",
-    "erklaerung": "Grüne Zeichen sind Rettungszeichen, rote sind Brandschutzzeichen; die Zuordnung folgt der jeweiligen Piktogramm-Bedeutung."
+    "erklaerung": "Grüne Zeichen sind Rettungszeichen, rote sind Brandschutzzeichen; die Zuordnung folgt der jeweiligen Piktogramm-Bedeutung.",
+    "anlagenDiagramm": {
+      "typ": "schilder",
+      "titel": "Sicherheitszeichen der Sicherheitseinweisung",
+      "quelle": "Original-Anlage 2022 Winter, WiSo S. 8",
+      "zeichen": [
+        {
+          "nr": "Zeichen 1",
+          "form": "quadrat",
+          "farbe": "gruen",
+          "text": "laufende Person\ndurch Tür, Pfeil"
+        },
+        {
+          "nr": "Zeichen 2",
+          "form": "quadrat",
+          "farbe": "rot",
+          "text": "Feuerlöscher\nmit Flamme"
+        },
+        {
+          "nr": "Zeichen 3",
+          "form": "quadrat",
+          "farbe": "rot",
+          "text": "Löschschlauch\nauf Haspel"
+        },
+        {
+          "nr": "Zeichen 4",
+          "form": "quadrat",
+          "farbe": "gruen",
+          "text": "Person auf\nRettungsausstieg"
+        },
+        {
+          "nr": "Zeichen 5",
+          "form": "quadrat",
+          "farbe": "gruen",
+          "text": "Telefonhörer\nmit Kreuz"
+        }
+      ]
+    }
   },
   {
     "id": "wiso-2022w-a29",
@@ -6012,7 +6081,44 @@
     "korrekt": [
       4
     ],
-    "loesung": "Richtig ist Schild 5: das rote Brandschutzzeichen für den Brandmelder."
+    "loesung": "Richtig ist Schild 5: das rote Brandschutzzeichen für den Brandmelder.",
+    "anlagenDiagramm": {
+      "typ": "schilder",
+      "titel": "Sicherheitskennzeichnungen zur Auswahl",
+      "quelle": "Original-Anlage 2024 Winter, WiSo S. 8",
+      "zeichen": [
+        {
+          "nr": "Schild 1",
+          "form": "quadrat",
+          "farbe": "rot",
+          "text": "Helm mit Flammen\n(Brandschutzhelm)"
+        },
+        {
+          "nr": "Schild 2",
+          "form": "quadrat",
+          "farbe": "gruen",
+          "text": "laufende Person\ndurch Tür (Notausgang)"
+        },
+        {
+          "nr": "Schild 3",
+          "form": "quadrat",
+          "farbe": "gruen",
+          "text": "Personen mit Pfeilen\n(Sammelstelle)"
+        },
+        {
+          "nr": "Schild 4",
+          "form": "quadrat",
+          "farbe": "rot",
+          "text": "Feuerlöscher\nmit Flamme"
+        },
+        {
+          "nr": "Schild 5",
+          "form": "quadrat",
+          "farbe": "rot",
+          "text": "Hand drückt Melder,\nmit Flamme (Brandmelder)"
+        }
+      ]
+    }
   },
   {
     "id": "wiso-2024w-a28",
@@ -7322,7 +7428,65 @@
       1
     ],
     "loesung": "Richtig ist Antwort 2: Stab-Liniensystem.",
-    "erklaerung": "Ein Einliniensystem, das durch beratende Stabstellen ohne Weisungsbefugnis ergänzt wird, ist ein Stab-Liniensystem."
+    "erklaerung": "Ein Einliniensystem, das durch beratende Stabstellen ohne Weisungsbefugnis ergänzt wird, ist ein Stab-Liniensystem.",
+    "anlagenDiagramm": {
+      "typ": "organigramm",
+      "titel": "Organigramm der Jana Loft KG",
+      "quelle": "Original-Anlage 2020 Sommer, WiSo S. 3",
+      "knoten": [
+        {
+          "id": "gl",
+          "text": "Geschäftsleitung\nJana Loft"
+        },
+        {
+          "id": "pr",
+          "text": "Public Relations\nSabine Marx",
+          "unter": "gl",
+          "stab": true
+        },
+        {
+          "id": "orgit",
+          "text": "Organisation/IT\nKlaus Klein",
+          "unter": "gl",
+          "stab": true
+        },
+        {
+          "id": "einkauf",
+          "text": "Einkauf\nManfred Bast",
+          "unter": "gl"
+        },
+        {
+          "id": "produktion",
+          "text": "Produktion\nRalf Obert",
+          "unter": "gl"
+        },
+        {
+          "id": "verkauf",
+          "text": "Verkauf\nSilke Beier",
+          "unter": "gl"
+        },
+        {
+          "id": "marketing",
+          "text": "Marketing\nSusanne Hausmann",
+          "unter": "gl"
+        },
+        {
+          "id": "personal",
+          "text": "Personal\nAnne Ohlsen",
+          "unter": "gl"
+        },
+        {
+          "id": "finanzen",
+          "text": "Finanzen\nWerner Fitschen",
+          "unter": "gl"
+        },
+        {
+          "id": "verwaltung",
+          "text": "Verwaltung\nMargot Erler",
+          "unter": "gl"
+        }
+      ]
+    }
   },
   {
     "id": "wiso-2020s-a20",
@@ -7344,7 +7508,65 @@
       0
     ],
     "loesung": "Richtig ist Antwort 1: Public Relations und Organisation/IT sind Stabstellen.",
-    "erklaerung": "Public Relations und Organisation/IT sind der Geschäftsleitung als beratende Stabstellen zugeordnet. Stabstellen haben keine Weisungsbefugnis und sind selbst an Weisungen gebunden."
+    "erklaerung": "Public Relations und Organisation/IT sind der Geschäftsleitung als beratende Stabstellen zugeordnet. Stabstellen haben keine Weisungsbefugnis und sind selbst an Weisungen gebunden.",
+    "anlagenDiagramm": {
+      "typ": "organigramm",
+      "titel": "Organigramm der Jana Loft KG",
+      "quelle": "Original-Anlage 2020 Sommer, WiSo S. 3",
+      "knoten": [
+        {
+          "id": "gl",
+          "text": "Geschäftsleitung\nJana Loft"
+        },
+        {
+          "id": "pr",
+          "text": "Public Relations\nSabine Marx",
+          "unter": "gl",
+          "stab": true
+        },
+        {
+          "id": "orgit",
+          "text": "Organisation/IT\nKlaus Klein",
+          "unter": "gl",
+          "stab": true
+        },
+        {
+          "id": "einkauf",
+          "text": "Einkauf\nManfred Bast",
+          "unter": "gl"
+        },
+        {
+          "id": "produktion",
+          "text": "Produktion\nRalf Obert",
+          "unter": "gl"
+        },
+        {
+          "id": "verkauf",
+          "text": "Verkauf\nSilke Beier",
+          "unter": "gl"
+        },
+        {
+          "id": "marketing",
+          "text": "Marketing\nSusanne Hausmann",
+          "unter": "gl"
+        },
+        {
+          "id": "personal",
+          "text": "Personal\nAnne Ohlsen",
+          "unter": "gl"
+        },
+        {
+          "id": "finanzen",
+          "text": "Finanzen\nWerner Fitschen",
+          "unter": "gl"
+        },
+        {
+          "id": "verwaltung",
+          "text": "Verwaltung\nMargot Erler",
+          "unter": "gl"
+        }
+      ]
+    }
   },
   {
     "id": "wiso-2020s-a21",
@@ -11952,7 +12174,39 @@
       4
     ],
     "loesung": "Er berät Herrn Beier, welche Plattform für den Online-Vertrieb der Büromöbel optimal ist.",
-    "erklaerung": "Als Stabstelle hat Herr Fischer nur eine beratende Funktion und keine Weisungsbefugnis gegenüber den Linienstellen. Er darf daher lediglich die Geschäftsführung beraten."
+    "erklaerung": "Als Stabstelle hat Herr Fischer nur eine beratende Funktion und keine Weisungsbefugnis gegenüber den Linienstellen. Er darf daher lediglich die Geschäftsführung beraten.",
+    "anlagenDiagramm": {
+      "typ": "organigramm",
+      "titel": "Organigramm des Tochterunternehmens (Online-Vertrieb) der Jana Loft KG",
+      "quelle": "Original-Anlage 2019 Winter, WiSo S. 8",
+      "knoten": [
+        {
+          "id": "gf",
+          "text": "Geschäftsführung\nChristoph Beier"
+        },
+        {
+          "id": "orgit",
+          "text": "Organisation/IT\nJan Fischer",
+          "unter": "gf",
+          "stab": true
+        },
+        {
+          "id": "einkauf",
+          "text": "Einkauf\nNatalie Fröhlich",
+          "unter": "gf"
+        },
+        {
+          "id": "marketing",
+          "text": "Online-Marketing\nSaskia Clark",
+          "unter": "gf"
+        },
+        {
+          "id": "vertrieb",
+          "text": "Online-Vertrieb\nPhillip Schwan",
+          "unter": "gf"
+        }
+      ]
+    }
   },
   {
     "id": "wiso-2019w-a20",
