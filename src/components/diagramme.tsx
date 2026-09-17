@@ -749,6 +749,237 @@ const Kostenabweichung = () => {
   )
 }
 
+/* ---------- Task 6: Übersichtsdiagramme Mündlich (8 Themen) ---------- */
+
+// Mündlich – Report schreiben: die vier APDA-Kapitel als roter Faden von oben
+// nach unten, plus die drei Auswahlkriterien und die harten Formalia
+// (max. 3 Seiten, nicht benotet) exakt aus dem Lernzettel.
+const ReportAufbau = () => (
+  <Dia titel="Report-Aufbau: die vier Kapitel nach APDA" viewBox="0 0 960 400">
+    <T x={480} y={28} t="Report-Variante: zwei Reports zu je einer Wahlqualifikation · je eine selbst durchgeführte Fachaufgabe" fs={13} fill={INK} fett />
+    <B x={330} y={48} w={300} h={44} t={'APDA — der rote Faden'} f="#fef9c3" fs={15} />
+    <B x={330} y={112} w={300} h={44} t={'A — Ausgangssituation'} f="#e0f2fe" fs={14} />
+    <B x={330} y={172} w={300} h={44} t={'P — Planung / Vorbereitung'} f="#e0f2fe" fs={14} />
+    <B x={330} y={232} w={300} h={44} t={'D — Durchführung'} f="#e0f2fe" fs={14} />
+    <B x={330} y={292} w={300} h={44} t={'A — Auswertung / Reflexion'} f="#dcfce7" fs={14} />
+    <Pfeil x1={480} y1={92} x2={480} y2={110} />
+    <Pfeil x1={480} y1={156} x2={480} y2={170} />
+    <Pfeil x1={480} y1={216} x2={480} y2={230} />
+    <Pfeil x1={480} y1={276} x2={480} y2={290} />
+    <T x={640} y={130} t="Betrieb, Anlass, welches Problem?" fs={12} anchor="start" />
+    <T x={640} y={190} t="Budget, Termine, Beteiligte klären" fs={12} anchor="start" />
+    <T x={640} y={250} t="Was in welcher Reihenfolge? Werkzeuge" fs={12} anchor="start" />
+    <T x={640} y={310} t="Ergebnis, Erfolgskontrolle, Reflexion" fs={12} anchor="start" />
+    {/* Drei Auswahlkriterien links */}
+    <B x={30} y={112} w={260} h={44} t={'Eigenleistung (Ich statt Wir)'} f="#f1f5f9" fs={12.5} />
+    <B x={30} y={172} w={260} h={44} t={'Entscheidungsspielraum'} f="#f1f5f9" fs={12.5} />
+    <B x={30} y={232} w={260} h={44} t={'eindeutiger WQ-Bezug'} f="#f1f5f9" fs={12.5} />
+    <T x={160} y={104} t="drei Kriterien der Fachaufgabe:" fs={12} fill="#0369a1" fett />
+    <T x={480} y={370} t="max. 3 Seiten DIN A4 · Ich-Form + Vergangenheit · Deckblatt · Frist der IHK einhalten" fs={12.5} fill="#b45309" fett />
+    <T x={480} y={392} t="Merke: Der Report wird NICHT benotet — er ist nur die Bühne für das Fachgespräch." fs={13} fill={INK} fett />
+  </Dia>
+)
+
+// Mündlich – Gesprächstechnik: die vier PDRK-Schritte als angekündigter roter
+// Faden (Einstieg = zusammenfassen, nicht vorlesen) + der Sprung von Aufzählung
+// zu Argumentation ("weil"), exakt nach Lernzettel.
+const Gespraechsphasen = () => (
+  <Dia titel="Fachgespräch strukturieren: Einstieg + die vier Schritte PDRK" viewBox="0 0 960 380">
+    <B x={40} y={50} w={220} h={80} t={'Einstieg\nAufgabe kurz in eigenen\nWorten zusammenfassen\n(nicht vorlesen!)'} f="#fef9c3" fs={12} />
+    <B x={290} y={62} w={150} h={58} t={'P — Planung'} f="#e0f2fe" fs={13.5} />
+    <B x={455} y={62} w={150} h={58} t={'D — Durchführung'} f="#e0f2fe" fs={13} />
+    <B x={620} y={62} w={150} h={58} t={'R — Rahmen-\nbedingungen'} f="#e0f2fe" fs={12.5} />
+    <B x={785} y={62} w={135} h={58} t={'K — Kontrolle'} f="#dcfce7" fs={13} />
+    <Pfeil x1={260} y1={91} x2={288} y2={91} />
+    <Pfeil x1={440} y1={91} x2={453} y2={91} />
+    <Pfeil x1={605} y1={91} x2={618} y2={91} />
+    <Pfeil x1={770} y1={91} x2={783} y2={91} />
+    <T x={605} y={155} t="angekündigter roter Faden: „zunächst … dann … zum Schluss“" fs={13} fill="#0369a1" fett />
+    {/* Aufzählung → Argumentation */}
+    <B x={40} y={196} w={410} h={54} t={'schwach: Aufzählung\n„Ich habe drei Angebote geholt.“'} f="#fee2e2" fs={12.5} />
+    <B x={510} y={196} w={410} h={54} t={'stark: Argumentation\n„… weil ein Vergleich Preis + Leistung objektiviert.“'} f="#dcfce7" fs={12} />
+    <Pfeil x1={452} y1={223} x2={508} y2={223} />
+    <T x={480} y={295} t="Nachfrage = Chance: „Eine Alternative wäre … gewesen, ich entschied mich dagegen, weil …“" fs={13} fill={INK} />
+    <T x={480} y={335} t="Notizen sind nur Stichwort-Gerüst — frei sprechen, ganze Sätze, Blickkontakt." fs={13} fill={INK} fett />
+    <T x={480} y={362} t="Merke: Nicht WAS du getan hast überzeugt, sondern dass du erklärst, WARUM (jedes „weil“ bringt Punkte)." fs={12.5} fill="#b45309" fett />
+  </Dia>
+)
+
+// WQ Auftragssteuerung – Kernprozess: die Auftragsabwicklungs-Kette chronologisch
+// exakt aus dem Lernzettel. Kaufvertrag (§ 433 BGB) am Punkt der Vereinbarung.
+const AuftragsKette = () => (
+  <Dia titel="Auftragsabwicklung: der Weg vom Anfrage bis After-Sales" viewBox="0 0 960 380">
+    <B x={30} y={60} w={135} h={54} t={'Anfrage'} f="#e0f2fe" fs={13} />
+    <B x={185} y={60} w={135} h={54} t={'Beratung /\ninterne Klärung'} f="#e0f2fe" fs={12} />
+    <B x={340} y={60} w={135} h={54} t={'Kalkulation'} f="#e0f2fe" fs={13} />
+    <B x={495} y={60} w={135} h={54} t={'Angebot'} f="#e0f2fe" fs={13} />
+    <B x={650} y={60} w={135} h={54} t={'Vereinbarung'} f="#fde68a" fs={12.5} />
+    <B x={805} y={60} w={125} h={54} t={'Auftrag /\nLieferung'} f="#e0f2fe" fs={12.5} />
+    <Pfeil x1={165} y1={87} x2={183} y2={87} />
+    <Pfeil x1={320} y1={87} x2={338} y2={87} />
+    <Pfeil x1={475} y1={87} x2={493} y2={87} />
+    <Pfeil x1={630} y1={87} x2={648} y2={87} />
+    <Pfeil x1={785} y1={87} x2={803} y2={87} />
+    {/* zweite Reihe */}
+    <B x={340} y={180} w={135} h={54} t={'Rechnung'} f="#e0f2fe" fs={13} />
+    <B x={495} y={180} w={135} h={54} t={'After-Sales'} f="#e0f2fe" fs={13} />
+    <B x={650} y={180} w={135} h={54} t={'Cross-Selling'} f="#dcfce7" fs={12.5} />
+    <Pfeil x1={867} y1={114} x2={867} y2={150} />
+    <Pfeil x1={867} y1={150} x2={410} y2={150} />
+    <Pfeil x1={410} y1={150} x2={410} y2={178} />
+    <Pfeil x1={475} y1={207} x2={493} y2={207} />
+    <Pfeil x1={630} y1={207} x2={648} y2={207} />
+    {/* Kaufvertrag-Hinweis bei Vereinbarung */}
+    <Pfeil x1={717} y1={114} x2={717} y2={150} />
+    <B x={640} y={150} w={300} h={24} t={'= Kaufvertrag § 433 BGB (Antrag + Annahme)'} f="#fef9c3" fs={11.5} />
+    <T x={480} y={300} t="Bei Neukunden: Auftragserfassung im DV-System + Bonitätsprüfung" fs={13} fill={INK} />
+    <T x={480} y={330} t="Störungen (LAZ): Liefer- · Annahme- · Zahlungsverzug — erst Art bestimmen, dann Rechte ableiten" fs={12.5} fill="#0369a1" fett />
+    <T x={480} y={360} t="Merke: Kein Vertrag ohne zwei übereinstimmende Willenserklärungen · Individualabrede schlägt AGB." fs={12.5} fill="#b45309" fett />
+  </Dia>
+)
+
+// WQ KMU – Kernprozess: Aufbauorganisation als SIA-Pyramide (Stelle → Instanz →
+// Abteilung) mit den drei Managementebenen. Fakten exakt aus dem Lernzettel.
+const AufbauorganisationSia = () => (
+  <Dia titel="Aufbauorganisation im KMU: Stelle → Instanz → Abteilung (SIA)" viewBox="0 0 960 380">
+    {/* Pyramide der Managementebenen */}
+    <polygon points="480,50 620,150 340,150" fill="#fde68a" stroke={INK} strokeWidth={2.2} />
+    <polygon points="620,150 700,230 260,230 340,150" fill="#e0f2fe" stroke={INK} strokeWidth={2.2} />
+    <polygon points="700,230 780,310 180,310 260,230" fill="#f1f5f9" stroke={INK} strokeWidth={2.2} />
+    <T x={480} y={130} t="Top-Management" fs={13} fill={INK} fett />
+    <T x={480} y={195} t="Middle-Management" fs={13} fill={INK} fett />
+    <T x={480} y={278} t="Lower-Management" fs={13} fill={INK} fett />
+    {/* SIA-Erklärung rechts */}
+    <B x={730} y={60} w={200} h={54} t={'Instanz\nleitet, weisungsbefugt'} f="#e0f2fe" fs={12} />
+    <B x={730} y={150} w={200} h={54} t={'Abteilung\nfasst Stellen zusammen'} f="#e0f2fe" fs={12} />
+    <B x={730} y={240} w={200} h={54} t={'Stelle\nkleinste Einheit,\nausführend'} f="#f1f5f9" fs={12} />
+    {/* SIA-Reihenfolge links */}
+    <T x={40} y={80} t="SIA — von klein zu groß:" fs={13} anchor="start" fill="#0369a1" fett />
+    <B x={40} y={95} w={110} h={40} t={'Stelle'} f="#f1f5f9" fs={13} />
+    <Pfeil x1={95} y1={135} x2={95} y2={153} />
+    <B x={40} y={155} w={110} h={40} t={'Instanz'} f="#e0f2fe" fs={13} />
+    <Pfeil x1={95} y1={195} x2={95} y2={213} />
+    <B x={40} y={215} w={110} h={40} t={'Abteilung'} f="#dcfce7" fs={13} />
+    <T x={480} y={340} t="horizontal = Aufgaben verteilen · vertikal = Hierarchie der Instanzen aufbauen" fs={12.5} fill={INK} />
+    <T x={480} y={366} t="Merke: Stelle führt aus (keine Weisung) · Instanz = Stelle mit Weisungsbefugnis." fs={13} fill="#b45309" fett />
+  </Dia>
+)
+
+// WQ Einkauf/Logistik – Kernprozess: der Lagerbestands-Sägezahn mit Höchst-,
+// Melde- und Mindestbestand. Meldebestand = Tagesabsatz × Lieferzeit +
+// Mindestbestand (Beispiel 50×4+200 = 400) exakt aus dem Lernzettel.
+const LagerSaegezahn = () => {
+  // SVG: kleinere y = weiter oben. Höchstbestand oben, Mindestbestand unten.
+  const ox = 90, oy = 300
+  const yH = 130 // Höchstbestand (oben)
+  const yMe = 200 // Meldebestand (mitte)
+  const yMi = 250 // Mindestbestand (unten, knapp über Zeitachse)
+  const xEnd = 690 // rechtes Ende der Zahnkurve (Labels rechts davon)
+  // Zahn: sinkt vom Höchst- auf den Meldebestand, springt (Lieferung) zurück hoch.
+  const zahn = `M ${ox} ${yH} L 250 ${yMe} L 250 ${yH} L 410 ${yMe} L 410 ${yH} L 570 ${yMe} L 570 ${yH} L ${xEnd} ${yMe}`
+  return (
+    <Dia titel="Lagerbestands-Sägezahn: Höchst-, Melde- und Mindestbestand" viewBox="0 0 800 400">
+      <line x1={ox} y1={oy} x2={760} y2={oy} stroke={INK} strokeWidth={2.4} />
+      <line x1={ox} y1={oy} x2={ox} y2={110} stroke={INK} strokeWidth={2.4} />
+      <T x={758} y={oy + 18} t="Zeit" fs={13} anchor="end" />
+      <T x={ox} y={102} t="Menge" fs={13} anchor="middle" />
+      {/* Bestandslinien (Labels links neben der y-Achse, um Clipping zu vermeiden) */}
+      <line x1={ox} y1={yH} x2={xEnd} y2={yH} stroke="#94a3b8" strokeWidth={1.6} strokeDasharray="6 5" />
+      <T x={xEnd + 8} y={yH + 4} t="Höchstbestand" fs={12} anchor="start" fill="#64748b" />
+      <line x1={ox} y1={yMe} x2={xEnd} y2={yMe} stroke="#0284c7" strokeWidth={1.8} strokeDasharray="6 5" />
+      <T x={xEnd + 8} y={yMe + 4} t="Meldebestand" fs={12} anchor="start" fill="#0284c7" />
+      <line x1={ox} y1={yMi} x2={xEnd} y2={yMi} stroke="#dc2626" strokeWidth={1.8} strokeDasharray="6 5" />
+      <T x={xEnd + 8} y={yMi + 4} t="Mindestbestand" fs={12} anchor="start" fill="#dc2626" />
+      {/* Sägezahn */}
+      <path d={zahn} fill="none" stroke="#16a34a" strokeWidth={2.8} />
+      <T x={330} y={225} t="↑ Lieferung füllt auf, ↓ Verbrauch" fs={11.5} anchor="middle" fill="#0369a1" fett />
+      <T x={400} y={50} t="Meldebestand = Tagesabsatz × Lieferzeit + Mindestbestand" fs={13.5} fill={INK} fett />
+      <T x={400} y={74} t="Beispiel: 50 × 4 + 200 = 400 Stück → bei 400 Stück bestellen" fs={12.5} fill="#0369a1" fett />
+      <T x={400} y={368} t="hohe Umschlagshäufigkeit = kurze Lagerdauer = wenig gebundenes Kapital" fs={12.5} fill={INK} />
+      <T x={400} y={392} t="Merke: zu viel Lager kostet Geld, zu wenig kostet Kunden — die Balance ist das Ziel." fs={12.5} fill="#b45309" fett />
+    </Dia>
+  )
+}
+
+// WQ Marketing/Vertrieb – Kernprozess: die Handelskalkulation als absteigende
+// Treppe mit dem Merkwort L-Z-B-B-S-B, exakt aus dem Lernzettel.
+const HandelskalkulationTreppe = () => (
+  <Dia titel="Handelskalkulation: die Stufen L-Z-B-B-S-B" viewBox="0 0 960 400">
+    <T x={480} y={28} t="Vorwärts- und Rückwärtskalkulation — jede Stufe benennen können" fs={13.5} fill={INK} fett />
+    <B x={40} y={52} w={300} h={40} t={'Listenpreis'} f="#f1f5f9" fs={13.5} />
+    <T x={355} y={78} t="− Rabatt" fs={12.5} anchor="start" fill="#be123c" />
+    <B x={110} y={104} w={300} h={40} t={'= Zieleinkaufspreis'} f="#e0f2fe" fs={13.5} />
+    <T x={425} y={130} t="− Skonto" fs={12.5} anchor="start" fill="#be123c" />
+    <B x={180} y={156} w={300} h={40} t={'= Bareinkaufspreis'} f="#e0f2fe" fs={13.5} />
+    <T x={495} y={182} t="+ Bezugskosten" fs={12.5} anchor="start" fill="#047857" />
+    <B x={250} y={208} w={300} h={40} t={'= Bezugspreis'} f="#dbeafe" fs={13.5} />
+    <T x={565} y={234} t="+ Handlungskosten" fs={12.5} anchor="start" fill="#047857" />
+    <B x={320} y={260} w={300} h={40} t={'= Selbstkostenpreis'} f="#fde68a" fs={13.5} />
+    <T x={635} y={286} t="+ Gewinnzuschlag" fs={12.5} anchor="start" fill="#047857" />
+    <B x={390} y={312} w={300} h={40} t={'= Barverkaufspreis'} f="#dcfce7" fs={13.5} />
+    <T x={480} y={378} t="Merke: L-Z-B-B-S-B — Listen-, Zieleinkaufs-, Bareinkaufs-, Bezugs-, Selbstkosten-, Barverkaufspreis." fs={12.5} fill="#b45309" fett />
+  </Dia>
+)
+
+// WQ Personalwirtschaft – Kernprozess: die Personalbeschaffungs-Kette mit dem
+// intern/extern-Fork und dem AGG-Filter, exakt aus dem Lernzettel (KRAP, AGG).
+const PersonalbeschaffungProzess = () => (
+  <Dia titel="Personalbeschaffung: intern/extern → Auswahl → Einstellung" viewBox="0 0 960 380">
+    <B x={30} y={70} w={180} h={64} t={'Bedarf +\nStellenanzeige\n(AGG-konform!)'} f="#fef9c3" fs={12.5} />
+    {/* intern / extern Fork */}
+    <B x={280} y={30} w={200} h={64} t={'intern\nkennt Betrieb, günstig'} f="#dcfce7" fs={12} />
+    <B x={280} y={110} w={200} h={64} t={'extern\nfrischer Wind,\ngrößere Auswahl'} f="#e0f2fe" fs={12} />
+    <Pfeil x1={210} y1={95} x2={278} y2={62} />
+    <Pfeil x1={210} y1={110} x2={278} y2={142} />
+    <B x={540} y={70} w={180} h={64} t={'Auswahl\nz. B. Assessment-\nCenter'} f="#e0f2fe" fs={12} />
+    <Pfeil x1={480} y1={62} x2={538} y2={95} />
+    <Pfeil x1={480} y1={142} x2={538} y2={109} />
+    <B x={760} y={70} w={175} h={64} t={'Einstellung\nArbeitsvertrag'} f="#dcfce7" fs={12.5} />
+    <Pfeil x1={720} y1={102} x2={758} y2={102} />
+    {/* AGG-Filter unten */}
+    <B x={30} y={210} w={905} h={40} t={'AGG = „Alle Gleich“: keine Benachteiligung wegen Alter · Geschlecht · Herkunft · Religion · Behinderung · sex. Identität'} f="#fee2e2" fs={12.5} />
+    <T x={480} y={295} t="Auch Stellenanzeige + Absage neutral formulieren (sonst AGG-Klage auf Entschädigung)" fs={13} fill={INK} />
+    <T x={480} y={330} t="Vertragsfreiheit begrenzt durch Mindestrechte: Mindestlohn · Urlaub · Kündigungsschutz · Entgeltfortzahlung" fs={12} fill="#0369a1" fett />
+    <T x={480} y={362} t="Merke (KRAP): Kranken-, Renten-, Arbeitslosen-, Pflegeversicherung — die vier vom Brutto abgezogenen SV." fs={12.5} fill="#b45309" fett />
+  </Dia>
+)
+
+// WQ Assistenz/Sekretariat – Kernprozess: die Poststelle als zwei parallele
+// Prozessketten (Ausgang / Eingang), Schritte exakt aus dem Lernzettel.
+const PoststelleProzess = () => (
+  <Dia titel="Poststelle: Postausgang und Posteingang Schritt für Schritt" viewBox="0 0 960 400">
+    {/* Postausgang */}
+    <B x={30} y={40} w={150} h={46} t={'POSTAUSGANG'} f="#fde68a" fs={14} />
+    <B x={30} y={104} w={135} h={40} t={'zusammentragen'} f="#e0f2fe" fs={12} />
+    <B x={175} y={104} w={110} h={40} t={'falzen'} f="#e0f2fe" fs={12.5} />
+    <B x={295} y={104} w={130} h={40} t={'kuvertieren'} f="#e0f2fe" fs={12} />
+    <B x={435} y={104} w={110} h={40} t={'wiegen'} f="#e0f2fe" fs={12.5} />
+    <B x={555} y={104} w={130} h={40} t={'frankieren'} f="#e0f2fe" fs={12} />
+    <B x={695} y={104} w={235} h={40} t={'an Dienstleister übergeben'} f="#dcfce7" fs={12} />
+    <Pfeil x1={165} y1={124} x2={174} y2={124} />
+    <Pfeil x1={285} y1={124} x2={294} y2={124} />
+    <Pfeil x1={425} y1={124} x2={434} y2={124} />
+    <Pfeil x1={545} y1={124} x2={554} y2={124} />
+    <Pfeil x1={685} y1={124} x2={694} y2={124} />
+    {/* Posteingang */}
+    <B x={30} y={190} w={150} h={46} t={'POSTEINGANG'} f="#fde68a" fs={14} />
+    <B x={30} y={254} w={130} h={40} t={'empfangen'} f="#e0f2fe" fs={12.5} />
+    <B x={170} y={254} w={120} h={40} t={'sortieren'} f="#e0f2fe" fs={12.5} />
+    <B x={300} y={254} w={110} h={40} t={'öffnen'} f="#e0f2fe" fs={12.5} />
+    <B x={420} y={254} w={130} h={40} t={'kontrollieren'} f="#e0f2fe" fs={12} />
+    <B x={560} y={254} w={120} h={40} t={'stempeln'} f="#e0f2fe" fs={12.5} />
+    <B x={690} y={254} w={130} h={40} t={'verteilen'} f="#dcfce7" fs={12.5} />
+    <Pfeil x1={160} y1={274} x2={169} y2={274} />
+    <Pfeil x1={290} y1={274} x2={299} y2={274} />
+    <Pfeil x1={410} y1={274} x2={419} y2={274} />
+    <Pfeil x1={550} y1={274} x2={559} y2={274} />
+    <Pfeil x1={680} y1={274} x2={689} y2={274} />
+    <T x={480} y={340} t="Aufbau = Struktur (Wer, Organigramm) · Ablauf = Prozess (Wann/Wie) · Stab berät, Linie befiehlt" fs={13} fill={INK} />
+    <T x={480} y={368} t="Merke: „persönlich/vertraulich“ adressierte Post bleibt zu — ungeöffnet weiterleiten (Briefgeheimnis)." fs={12.5} fill="#b45309" fett />
+    <T x={480} y={392} t="Aufbewahrung: 6 Briefe · 8 Belege · 10 Bücher (§ 257 HGB, § 147 AO)" fs={12} fill="#0369a1" fett />
+  </Dia>
+)
+
 /* ---------- Registry: themaId → Diagramm ---------- */
 
 export const DIAGRAMME: Record<string, () => ReactNode> = {
@@ -783,6 +1014,15 @@ export const DIAGRAMME: Record<string, () => ReactNode> = {
   'projektmanagement': Projektphasen,
   // Mündlich
   'ablauf-fachaufgabe': MuendlichAblauf,
+  // Mündlich – Task 6: Report, Gesprächstechnik + 6 WQ-Kernprozesse
+  'report-schreiben': ReportAufbau,
+  'gespraechstechnik': Gespraechsphasen,
+  'wq-auftragssteuerung': AuftragsKette,
+  'wq-kmu': AufbauorganisationSia,
+  'wq-einkauf-logistik': LagerSaegezahn,
+  'wq-marketing-vertrieb': HandelskalkulationTreppe,
+  'wq-personalwirtschaft': PersonalbeschaffungProzess,
+  'wq-assistenz-sekretariat': PoststelleProzess,
 }
 
 // Bearbeitbare Excalidraw-Versionen (public/downloads/excalidraw/, erzeugt von

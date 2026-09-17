@@ -33,3 +33,14 @@ describe('KBZ/BuFü-Abdeckung', () => {
     it(`${id} hat ein Diagramm`, () => expect(DIAGRAMME[id]).toBeDefined())
   }
 })
+
+describe('Mündlich-Abdeckung', () => {
+  for (const id of [
+    'report-schreiben', 'gespraechstechnik',
+    'wq-auftragssteuerung', 'wq-kmu',
+    'wq-einkauf-logistik', 'wq-marketing-vertrieb',
+    'wq-personalwirtschaft', 'wq-assistenz-sekretariat',
+  ]) {
+    it(`${id} hat ein Diagramm`, () => expect(DIAGRAMME[id]).toBeDefined())
+  }
+})
