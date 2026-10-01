@@ -1,0 +1,128 @@
+{
+  "thema": "rechnung-umsatzsteuer",
+  "geprueft": {
+    "aufgaben": 54,
+    "lernpaare": 37,
+    "lernzettel": true,
+    "zusatz": 0
+  },
+  "befunde": [
+    {
+      "id": "kbz-2025s-a2-3",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug „**Antwort 3** ist richtig:“ – Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Für den Warentransport wird ein **Lieferschein** erstellt.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-rechnung-umsatzsteuer-g1",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug „Richtig ist Antwort 3:“ – Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist „Bankverbindung des Kunden“: Die Bankverbindung des Kunden ist keine gesetzliche Pflichtangabe nach § 14 UStG.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-rechnung-umsatzsteuer-g2",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug „Richtig ist Antwort 2:“ – Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist „Umsatzsteuer minus Vorsteuer“: **Zahllast = Umsatzsteuer − Vorsteuer**. Ist die Vorsteuer größer, ergibt sich ein Vorsteuerüberhang.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-rechnung-umsatzsteuer-g3",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug „Richtig ist Antwort 3:“ – Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist „innerhalb von 6 Monaten“: Bei Leistungen an ein anderes Unternehmen ist die Rechnung **innerhalb von 6 Monaten** nach Ausführung der Leistung zu erstellen.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-rechnung-umsatzsteuer-g4",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug „Richtig ist Antwort 2:“ – Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist „Vorsteuer“: Die vom Lieferanten berechnete USt wird als **Vorsteuer** (Forderung ans Finanzamt) gebucht.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2019s-a4-11",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "erklaerung",
+      "befund": "Verweis auf Kennziffern [1;6] (Optionspositionen) – Optionen werden gemischt.",
+      "vorschlag": "Die Krankenkasse ist Einzugsstelle für den Gesamtsozialversicherungsbeitrag; darunter fallen u. a. Pflege- und Arbeitslosenversicherung. Die beiden richtigen Antworten (Pflegeversicherung, Arbeitslosenversicherung) sind untereinander beliebig austauschbar.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2019s-a4-11",
+      "datei": "aufgaben/kbz",
+      "kategorie": "zuordnung",
+      "feld": "themaId",
+      "befund": "Abführung von Lohnsteuer/Sozialversicherungsbeiträgen (Einzugsstelle Krankenkasse) ist Personalwirtschaft/Entgeltabrechnung, nicht Rechnung/Umsatzsteuer.",
+      "vorschlag": "personalwirtschaft",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2019s-a3-3",
+      "datei": "aufgaben/kbz",
+      "kategorie": "zuordnung",
+      "feld": "themaId",
+      "befund": "Lieferbedingungen/gesetzliche Versandkostenregelung beim Versendungskauf (§ 448 BGB, Klausel „unfrei“) gehört zum Kaufvertrag, nicht zu Rechnung/Umsatzsteuer.",
+      "vorschlag": "kaufvertrag-stoerungen",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2025s-a5-5",
+      "datei": "aufgaben/kbz",
+      "kategorie": "fachlich",
+      "feld": "loesung",
+      "befund": "Beträge passen nicht zu Aufgabe 5.4 und sind in sich widersprüchlich. Offene Forderung = 12.359,34 − 1.053,15 (Gutschrift) = 11.306,19 €, nicht 11.271,08 €. Skonto netto laut 5.4 = 2 % × 9.240,00 = 184,80 €, USt-Korrektur = 184,80 × 0,19 = 35,11 € (Brutto-Skonto 219,91 €). Probe: 11.086,28 + 184,80 + 35,11 = 11.306,19. Die Lösung behandelt 184,80 € fälschlich als Bruttobetrag (155,29 + 29,51 = 184,80). Außerdem widerspricht der Hinweis „Haben 5101“ der Buchung (Erlösberichtigung steht im Soll).",
+      "vorschlag": "Buchungssatz (Zahlungseingang mit Skontoabzug):\n\n**2800 (Hamburger Sparkasse) 11.086,28 €**\n**5101 (Erlösberichtigungen) 184,80 €** (Skonto netto: 2 % von 9.240,00 €)\n**4800 (Umsatzsteuer 19 %) 35,11 €** (USt-Korrektur auf Skonto)\nan **2404 (Westmoor KG) 11.306,19 €** (offene Forderung: 12.359,34 € − Gutschrift 1.053,15 €)\n\n(Soll: 2800, 5101 und 4800 – der Skontobetrag mindert Erlöse und USt; Haben: 2404 – die offene Forderung wird ausgeglichen.)",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-rechnung-umsatzsteuer-v1",
+      "datei": "aufgaben/kbz",
+      "kategorie": "fachlich",
+      "feld": "loesung",
+      "befund": "Endergebnis falsch: 8.040,00 × 1,19 = 9.567,60 € (so auch in der Erklärung), nicht 9.567,40 €.",
+      "vorschlag": "**Überweisungsbetrag: 9.567,60 €**",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2018w-a4-5",
+      "datei": "aufgaben/kbz",
+      "kategorie": "fachlich",
+      "feld": "loesung",
+      "befund": "Beträge für 4800 und 5101 vertauscht (aus dem amtlichen Schlüssel übernommen, die Erklärung weist selbst darauf hin): Erlösberichtigung 5101 = Skonto netto 205,80 €, Umsatzsteuer 4800 = USt-Korrektur 39,10 € (244,90 / 1,19 = 205,80; × 0,19 = 39,10). Summe Soll 7.918,50 + 205,80 + 39,10 = 8.163,40 = Haben.",
+      "vorschlag": "2800 Hamburger Sparkasse 7.918,50; 5101 Erlösberichtigung 205,80; 4800 Umsatzsteuer 39,10 an 2405 Büroausstatter Winter OHG 8.163,40.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-lp-rechnung-umsatzsteuer-16",
+      "datei": "lernpaare/kbz",
+      "kategorie": "zuordnung",
+      "feld": "themaId",
+      "befund": "Bezugskalkulation (Listeneinkaufspreis → Zieleinkaufspreis → Bareinkaufspreis → Bezugspreis) ist Handelskalkulation, kein Inhalt von Rechnung/Umsatzsteuer.",
+      "vorschlag": "kostenrechnung",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-lp-rechnung-umsatzsteuer-17",
+      "datei": "lernpaare/kbz",
+      "kategorie": "zuordnung",
+      "feld": "themaId",
+      "befund": "Bezugskalkulation (Listeneinkaufspreis → Zieleinkaufspreis → Bareinkaufspreis → Bezugspreis) ist Handelskalkulation, kein Inhalt von Rechnung/Umsatzsteuer.",
+      "vorschlag": "kostenrechnung",
+      "sicherheit": "sicher"
+    }
+  ]
+}

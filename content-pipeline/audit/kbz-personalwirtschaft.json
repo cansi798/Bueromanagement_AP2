@@ -1,0 +1,927 @@
+{
+  "thema": "personalwirtschaft",
+  "geprueft": {
+    "aufgaben": 197,
+    "lernpaare": 34,
+    "lernzettel": true,
+    "zusatz": 14
+  },
+  "befunde": [
+    {
+      "id": "kbz-2025s-a4-4",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Die **Taxiquittung Bahnhof – Hotel** ist ein betrieblich veranlasster, belegter Reisekostenbeleg und wird akzeptiert. Private Ausgaben (Minibar, Drogerieartikel) werden nicht anerkannt.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2025s-a4-5",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Herr Bast muss unverzüglich seinen **Arbeitgeber** über den Unfall informieren.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2025s-a4-7",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Nach § 193 SGB VII bezieht sich die Meldepflicht des Arbeitgebers nur auf Unfälle mit einer **Ausfallzeit von mehr als 3 Tagen**.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2025s-a4-9",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: **Betriebsvereinbarungen bedürfen der Schriftform** (§ 77 BetrVG). Sie werden zwischen Arbeitgeber und Betriebsrat geschlossen.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2025s-a4-10",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Die **Veröffentlichung im Intranet** stellt sicher, dass alle Mitarbeitenden (auch im Homeoffice) die Information erhalten können.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-personalwirtschaft-g1",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Nach § 193 SGB VII besteht Anzeigepflicht bei **mehr als 3 Tagen** Arbeitsunfähigkeit (oder Tod).",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-personalwirtschaft-g2",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Eine Betriebsvereinbarung wird zwischen **Arbeitgeber und Betriebsrat** geschlossen und bedarf der Schriftform.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-personalwirtschaft-g3",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Die werktägliche Arbeitszeit darf auf bis zu **10 Stunden** verlängert werden, sofern im Durchschnitt von 6 Monaten/24 Wochen 8 Stunden nicht überschritten werden.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-personalwirtschaft-g4",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Ein **Wegeunfall** ereignet sich auf dem direkten Weg zur oder von der Arbeit.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2024s-a4-3",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Es handelt sich um die **Schwerbehindertenvertretung**.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2024s-a4-6",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Bei der Erstellung der Fragebögen muss der **Betriebsrat** einbezogen werden.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2024s-a4-8",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: In der Abmahnung muss auf jeden Fall das **Fehlverhalten genannt** werden.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2024s-a4-10",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Vor der Kündigung muss der **Betriebsrat** beteiligt (angehört) werden (§ 102 BetrVG).",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2022s-a4-4",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist „Beurteilung der Leistung“. Ein qualifiziertes Arbeitszeugnis unterscheidet sich von einem einfachen Zeugnis darin, dass auch eine Beurteilung der Leistung stattfindet; die fachlichen und sozialen Kompetenzen werden dargelegt. Die übrigen Angaben finden sich auch in einem einfachen Zeugnis.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2022s-a4-5",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig sind „Bescheinigung über den bereits gewährten Urlaub“ und „Lohnsteuerbescheinigung“. Bei Beendigung des Arbeitsverhältnisses ist dem Arbeitnehmer eine Urlaubsbescheinigung auszuhändigen, in der der bereits gewährte Jahresurlaub vermerkt ist. Außerdem ist die Lohnsteuerbescheinigung zu übergeben, die die gezahlten Arbeitsentgelte, die einbehaltene Lohnsteuer sowie die abgeführten Sozialversicherungsbeiträge bescheinigt.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2022s-a4-8",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Die Benachteiligungsverbote des AGG erstrecken sich auf den beruflichen Aufstieg, die Beschäftigungs- und Arbeitsbedingungen und die Einstellung. Das entspricht dem Anwendungsbereich des AGG (§ 2 I AGG). Die übrigen Aussagen finden sich nicht im AGG.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2022s-a4-12",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Sie schicken die Unfallanzeige an die für das Unternehmen zuständige Berufsgenossenschaft. Die Unfallanzeige (Unfallmeldung) muss der zuständigen Berufsgenossenschaft als Träger der gesetzlichen Unfallversicherung zugestellt werden, da der Verletzte länger als drei Tage arbeitsunfähig ist (§ 193 SGB VII).",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2022w-a3-3",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Arbeitsstättenverordnung.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2022w-a3-5",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Betriebsverfassungsgesetz.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2022w-a3-6",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Sie ist ein Vertrag zwischen Arbeitgeber und Betriebsrat zu den Arbeitsbedingungen vor Ort.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2022w-a3-8",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Die tägliche Arbeitszeit kann 6 Stunden ohne Pause betragen.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2022w-a3-13",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig sind „wöchentliche Arbeitszeit 56 Stunden“ und „Entgeltfortzahlung bis zur Dauer von vier Wochen“: Eine wöchentliche Arbeitszeit von 56 Stunden verstößt gegen das Arbeitszeitgesetz; die Entgeltfortzahlung im Krankheitsfall beträgt gesetzlich 6 Wochen, nicht vier Wochen.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2023s-a4-9",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Die Befristung eines Arbeitsvertrages erfolgt schriftlich.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2023s-a4-10",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Befristete Arbeitsverträge benötigen bei Ablauf keine gesonderte Kündigung.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2023s-a4-11",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig sind „Nachweis der Sozialversicherungsnummer“ und „Steuer-Identifikationsnummer“.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2023w-a4-4",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: das Integrationsamt ueber die Beschaeftigung des Mitarbeiters zu informieren.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2023w-a4-5",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Allgemeines Gleichbehandlungsgesetz (AGG).",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2023w-a4-9",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Nicht zulaessig ist: In der Probezeit kann der Arbeitgeber jederzeit ohne Einhaltung einer Frist kuendigen.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2023w-a4-13",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Der Betriebsrat hat eine Anhoerungsfrist von 1 Woche, um Stellung zur Kuendigung zu nehmen.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2024w-a4-2",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Eine Betriebsvereinbarung wird zwischen Geschäftsleitung (Arbeitgeber) und Betriebsrat geschlossen.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2024w-a4-3",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Betriebsvereinbarungen können Regelungen zu Betriebsferien enthalten.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2024w-a4-5",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Der Betriebsrat muss einbezogen werden (Mitbestimmung bei technischen Einrichtungen zur Überwachung).",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2024w-a4-10",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Unzulässig ist die Frage „Wie sieht Ihre weitere Familienplanung aus?“: Fragen zur Familienplanung sind im Vorstellungsgespräch nicht zulässig und müssen nicht wahrheitsgemäß beantwortet werden.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2019s-a4-5",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "erklaerung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `erklaerung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "§ 99 gibt Vorlage- und Unterrichtungsrechte; die Verweigerung ist an gesetzliche Gründe gebunden. Die Reihenfolge der beiden richtigen Antworten ist beliebig.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2020s-a3-1",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Sie erstellen eine Unfallanzeige für die Berufsgenossenschaft.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2020s-a3-2",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Krankenkasse.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2020s-a3-8",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Sie können vom Entleihbetrieb in ein festes Arbeitsverhältnis übernommen werden.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2020s-a3-9",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Senkung des Solidaritätszuschlages.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2020s-a3-11",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Der Betriebsrat muss der neuen flexiblen Arbeitszeitregelung zustimmen.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2020s-a3-12",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Eine Betriebsvereinbarung muss schriftlich abgeschlossen werden.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2020w-a4-2",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig sind: Der Betriebsrat kann verlangen, dass eine interne Stellenausschreibung erstellt wird, und er darf alle Bewerbungsunterlagen einsehen.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2020w-a4-3",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Die Benachteiligungsverbote des AGG erstrecken sich auf die Ungleichbehandlungen beim beruflichen Aufstieg und die Beschäftigungs- und Arbeitsbedingungen und Einstellung.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2020w-a4-6",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Ja, weil sie in die Steuerklasse 3 wechseln kann.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2020w-a4-7",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig sind: Entgeltgruppe und Vertragsbeginn.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2020w-a4-10",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: melden, weil die Mitarbeiterin länger als 3 Tage arbeitsunfähig ist.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2020w-a4-11",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Entgeltfortzahlung.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2020w-a4-12",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Sie weisen die Mitarbeiterin darauf hin, dass sie einen Ersatzbeleg erstellen muss.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2021s-a3-1",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig sind „Änderung der Gleitzeitregelung“ und „Einstellung von neuen Mitarbeitern“.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2021s-a3-7",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Betriebsvereinbarung.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2021s-a3-10",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Unfallversicherung.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2021s-a3-11",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Fahrtkostenzuschuss.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2021s-a3-12",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig sind „Beiträge zur Pflegeversicherung“ und „Beiträge zur Arbeitslosenversicherung“.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2021w-a3-6",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Für die Anmeldung bei der Sozialversicherung benötigt der Arbeitgeber den Nachweis der Sozialversicherungsnummer und die Mitgliedsbescheinigung der Krankenkasse.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2021w-a3-9",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Die Personalakte kann den Arbeitsvertrag und Angaben zur Sozialversicherung enthalten und darf vom Mitarbeiter unter bestimmten Voraussetzungen eingesehen werden.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2021w-a3-14",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Der Betriebsrat kann die interne Ausschreibung der Stelle verlangen (§ 93 BetrVG) und hat ein Mitbestimmungsrecht bei der Einstellung, d. h. er muss zustimmen (§ 99 BetrVG).",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2017w-a4-10",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig sind: Das befristete Arbeitsverhältnis kann bis zu einer Gesamtdauer von 2 Jahren verlängert werden – und: Eine gesonderte Kündigung zur Beendigung zum 31.12.2017 muss nicht erfolgen.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2018s-a4-4",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig sind „Zustimmung des Betriebsrats vor Vertragsübergabe“ und „Recht auf Sichtung aller Bewerbungsunterlagen“.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2018s-a4-7",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig sind „Mitgliedsbestätigung der Krankenkasse“ und „Angabe der Steuer-Identifikationsnummer“.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2018s-a4-8",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig sind „Stellenbezeichnung“ und „Vertragsbeginn“.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2018s-a4-9",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Eine Probezeit von 6 Monaten ist gesetzlich zulässig.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2018s-a4-12",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Sie dürfen nicht länger als 6 Stunden hintereinander ohne Pause arbeiten.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2018w-a3-5",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig sind: Bescheinigung über den bereits gewährten Urlaub sowie Lohnsteuerbescheinigung.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2018w-a3-6",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Die Mitarbeiterin darf auf eigenen Wunsch auch während der Schutzfrist vor der Entbindung in der Verwaltung beschäftigt werden.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2018w-a3-8",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Auch die Einstellung von Arbeitnehmern eines Zeitarbeitsunternehmens bedarf gem. § 99 BetrVG der Zustimmung des Betriebsrats.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2018w-a3-9",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig sind: Fragen nach der Gewerkschaftszugehörigkeit und nach einem zukünftigen Kinderwunsch müssen nicht wahrheitsgemäß beantwortet werden.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2018w-a3-10",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Im Betriebsverfassungsgesetz (BetrVG) sind die Rechte des Betriebsrates bei Einstellungen festgelegt (§ 99 BetrVG regelt die Mitbestimmung bei personellen Einzelmaßnahmen).",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2018w-a3-12",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig sind: Das AGG verbietet Benachteiligungen aus den genannten Gründen beim Auswahlverfahren, und die Bekanntmachung über das Intranet genügt den gesetzlichen Vorschriften. Ziel des AGG ist es, Benachteiligungen aus den genannten Gründen zu verhindern (§ 1 AGG). Die Bekanntmachung des AGG (§ 12) kann durch Aushang, Auslegung oder die üblichen Informations- und Kommunikationsmittel erfolgen; dazu gehört auch das betriebliche Intranet.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2018w-a3-12",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "erklaerung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `erklaerung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Falsch ist die Aussage zur Drei-Monats-Frist: Nach § 15 AGG muss ein Anspruch innerhalb von zwei Monaten (nicht drei) nach Zugang der Ablehnung geltend gemacht werden.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2019w-a2-4",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "erklaerung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `erklaerung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Bei personellen Einzelmaßnahmen wie Einstellungen ist der Betriebsrat nach §§ 99 f. BetrVG zu beteiligen: Er ist zu unterrichten, kann die Unterlagen einsehen und muss der Maßnahme zustimmen.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2019w-a2-10",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "erklaerung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `erklaerung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Nach dem Nachweisgesetz müssen wesentliche Vertragsbedingungen wie die Bezeichnung/Beschreibung der Tätigkeit und der Beginn des Arbeitsverhältnisses schriftlich festgehalten werden.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2025w-a3-3",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Der Aushang am schwarzen Brett im eigenen Unternehmen ist interne Personalbeschaffung.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2025w-a3-7",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig sind: Der Betriebsrat kann verlangen, alle Bewerbungsunterlagen zu sichten, und er muss einer Einstellung zustimmen, bevor der Bewerber den Vertrag erhält.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2025w-a3-10",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Eine Probezeit von 6 Monaten ist gesetzlich zulässig.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2025w-a3-11",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig sind: Nachweis der Sozialversicherungsnummer und Mitgliedsbescheinigung der Krankenkasse.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2025w-a3-12",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig sind: Art der Tätigkeit und Vertragsbeginn.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2025w-a3-13",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Die Beiträge zur gesetzlichen Unfallversicherung trägt der Arbeitgeber allein (100 %).",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2022w-a3-9",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Mitarbeiter/-innen, die mit personenbezogenen Daten arbeiten, dürfen diese nur zu dienstlichen Zwecken nutzen und weitergeben.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2024w-a4-12",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `loesung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Dem Datenschutz widerspricht: Der Betriebsrat darf nicht regelmäßig die digitalen Personalakten aller Beschäftigten speichern.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2019s-a4-4",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "erklaerung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `erklaerung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "§ 2 erfasst auch den beruflichen Aufstieg; § 12 Abs. 5 erlaubt die Bekanntmachung über betriebsübliche IuK-Technik. Die Reihenfolge der beiden richtigen Antworten ist beliebig.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2019s-a4-7",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "erklaerung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `erklaerung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Für die Anmeldung zur Sozialversicherung werden Sozialversicherungsnummer und Krankenkassenzugehörigkeit benötigt. Die Reihenfolge der beiden richtigen Antworten ist beliebig.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2019s-a4-9",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "erklaerung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `erklaerung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Es besteht ein Einsichtsrecht des Beschäftigten; der Inhalt umfasst personalbezogene Unterlagen. Die Reihenfolge der beiden richtigen Antworten ist beliebig.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-lp-personalwirtschaft-33",
+      "datei": "lernpaare/kbz",
+      "kategorie": "position",
+      "feld": "erklaerung",
+      "befund": "Positionsbezug auf Optionsnummer(n) in `erklaerung`; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig sind die Übernahme-Vorteile „Betrieb und Abläufe bekannt“ und „Kosten der externen Beschaffung entfallen“: Der übernommene Auszubildende ist dem Unternehmen **bekannt und eingearbeitet**, und die **teure, zeitaufwendige externe Suche** (Anzeigen, Auswahlverfahren) entfällt; zudem steigt die Motivation der Auszubildenden, wenn Übernahmen üblich sind. Neue Impulse von außen und eine größere Bewerberauswahl sind gerade Vorteile der **externen** Beschaffung – bei der Übernahme treffen sie nicht zu. Und auch bei der Übernahme eines Auszubildenden in ein Arbeitsverhältnis ist der Betriebsrat nach § 99 BetrVG zu beteiligen.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2022w-a3-13",
+      "datei": "aufgaben/kbz",
+      "kategorie": "fachlich",
+      "feld": "erklaerung",
+      "befund": "Erklärung ungenau: Das ArbZG lässt vorübergehend bis zu 60 Std./Woche zu (6 Werktage × 10 Std.), die Grenze liegt also nicht „deutlich unter 56 Stunden“. Unzulässig ist die *regelmäßige* 56-Std.-Woche, weil im Durchschnitt (6 Kalendermonate/24 Wochen) 8 Std. werktäglich = 48 Std./Woche nicht überschritten werden dürfen (§ 3 ArbZG).",
+      "vorschlag": "Eine regelmäßige wöchentliche Arbeitszeit von 56 Stunden ist unzulässig: Nach § 3 ArbZG darf die werktägliche Arbeitszeit im Durchschnitt von 6 Kalendermonaten bzw. 24 Wochen 8 Stunden nicht überschreiten – bei 6 Werktagen also höchstens 48 Stunden pro Woche im Durchschnitt. Die Entgeltfortzahlung bei Krankheit beträgt nach § 3 EntgFG bis zu 6 Wochen, nicht vier Wochen.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2024w-a4-6-2",
+      "datei": "aufgaben/kbz",
+      "kategorie": "fachlich",
+      "feld": "loesung",
+      "befund": "In der Korrekturliste steht „11.10.: − 15 Minuten“. Laut Arbeitszeitnachweis (Aufgabe 4.6.1) ist der 11.10. korrekt (07:38–16:43, 30 Min. Pause, Ist 8:35 h). Der Fehltag mit zu kurzer Pause (mehr als 9 Std., nur 30 statt 45 Min.) ist der 10.10. (08:00–17:40). Die Summe −55 Min. stimmt; nur das Datum ist falsch und die verwirrende Anmerkung entfällt.",
+      "vorschlag": "Korrektur:\n- 04.10.: − 30 Minuten\n- 08.10.: − 10 Minuten\n- 10.10.: − 15 Minuten\n= Zeitabzug gesamt: − 55 Minuten",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2020s-a3-2",
+      "datei": "aufgaben/kbz",
+      "kategorie": "fachlich",
+      "feld": "erklaerung",
+      "befund": "Im Sachverhalt geht es um einen Arbeitsunfall. Nach Ablauf der Entgeltfortzahlung gibt es dann kein Krankengeld, sondern Verletztengeld der Unfallversicherung (§§ 45 ff. SGB VII). Die Krankenkasse zahlt es im Auftrag der Berufsgenossenschaft aus (§ 189 SGB VII). Deshalb bleibt die Option „Krankenkasse“ richtig, die Erklärung muss aber korrigiert werden.",
+      "vorschlag": "Nach Ablauf der sechswöchigen Entgeltfortzahlung durch den Arbeitgeber erhält der Arbeitnehmer bei einem Arbeitsunfall Verletztengeld aus der gesetzlichen Unfallversicherung (§§ 45 ff. SGB VII). Ausgezahlt wird es im Auftrag der Berufsgenossenschaft von seiner Krankenkasse (§ 189 SGB VII) – die Krankenkasse ist daher die Stelle, von der er das Geld erhält. (Bei einer Krankheit ohne Arbeitsunfall zahlt die Krankenkasse Krankengeld.)",
+      "sicherheit": "sicher",
+      "quelle": "https://www.krankenkasseninfo.de/zahlen-fakten/lexikon/verletztengeld"
+    },
+    {
+      "id": "kbz-2018w-a3-2",
+      "datei": "aufgaben/kbz",
+      "kategorie": "sonstiges",
+      "feld": "erklaerung",
+      "befund": "Die Erklärung widerspricht sich selbst: „vier Wochen reichen nicht mehr bis zum 31.12., wohl aber bis zum … 31.12.“. Gemeint ist: Ab dem 22.11. ist der Kündigungstermin 15.12. nicht mehr erreichbar (4 Wochen enden erst am 20.12.), der 31.12. dagegen schon.",
+      "vorschlag": "Ab dem 22.11. laufen vier Wochen (28 Tage) bis zum 20.12. Der Kündigungstermin 15.12. ist damit nicht mehr erreichbar; nächster möglicher Endtermin ist das Monatsende, also der 31.12.2018.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2019w-a2-2",
+      "datei": "aufgaben/kbz",
+      "kategorie": "fachlich",
+      "feld": "korrekt",
+      "befund": "Als richtig markiert sind „3 und 3“ und „3 und 5“. Die Kombination III/III gibt es für Ehegatten nicht (§ 38b EStG: entweder IV/IV, IV/IV mit Faktor oder III/V). Richtig sind „4 und 4“ und „3 und 5“. Das passt auch zum Hinweis aus dem Original-Lösungsschlüssel in der Erklärung („[3;4]“ = 3. und 4. Option in Originalreihenfolge). Die Indizes sind offenbar um eins verrutscht.",
+      "vorschlag": [
+        2,
+        3
+      ],
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2019w-a2-2",
+      "datei": "aufgaben/kbz",
+      "kategorie": "fachlich",
+      "feld": "loesung",
+      "befund": "Die Lösung nennt die falsche Kombination 3/3 (siehe Befund zu korrekt).",
+      "vorschlag": "Steuerklassen 4 und 4 sowie Steuerklassen 3 und 5.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2019w-a2-2",
+      "datei": "aufgaben/kbz",
+      "kategorie": "fachlich",
+      "feld": "erklaerung",
+      "befund": "Die Erklärung erwähnt eine „einheitliche Wahl von Klasse 3“, die es nicht gibt, und enthält Positionsbezüge („Kennziffern 2 und 4“, „[3;4]“). Beide Punkte sind hier zusammengefasst.",
+      "vorschlag": "Verheiratete Arbeitnehmer können zwischen der Kombination 4/4 (beide verdienen ähnlich viel) und 3/5 (ein Partner verdient deutlich mehr) wählen (§ 38b EStG). Eine Kombination 3/3, 1/2, 1/6 oder 2/3 ist für Ehegatten nicht möglich.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2019w-a2-11",
+      "datei": "aufgaben/kbz",
+      "kategorie": "fachlich",
+      "feld": "erklaerung",
+      "befund": "Der Rechenweg ist falsch: Do (8:00–16:30, 60 Min. Pause) = 7,5 h, nicht 8,0 h. Fr (8:00 h Anwesenheit ohne Pause, Mindestpause 30 Min. abgezogen) = 7,5 h, nicht 8,0 h. Die Summe ist 40,5 h, nicht 41,5 h. Der Satz „abzüglich der bereits berücksichtigten Pausenabweichungen“ ist nicht nachvollziehbar. Das Ergebnis +30 Min. stimmt.",
+      "vorschlag": "Nettoarbeitszeit je Tag (Anwesenheit minus Pause, mindestens 30 Min.): Mo 8:00–16:30 = 8,5 h − 0,5 h = 8,0 h (±0); Di 7:00–16:30 = 9,5 h − 0,5 h = 9,0 h (+60 Min.); Mi 8:00–17:00 = 9,0 h − 0,5 h = 8,5 h (+30 Min.); Do 8:00–16:30 = 8,5 h − 1,0 h = 7,5 h (−30 Min.); Fr 8:30–16:30 = 8,0 h − 0,5 h Mindestpause (keine Pause gemacht) = 7,5 h (−30 Min.). Summe 40,5 h gegenüber Soll 40 h (5 × 8 h) = **30 Minuten Guthaben**.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2021w-a3-4",
+      "datei": "aufgaben/kbz",
+      "kategorie": "fachlich",
+      "feld": "loesung",
+      "befund": "Die Musterlösung ist falsch. (1) Laut Tabelle hat Herr Sommer nur KW 29 angekreuzt, nicht KW 29–31. (2) Der Vorschlag „Sommer auf KW 30–32“ verletzt die Regel „mindestens drei anwesend“ bei 5 Beschäftigten: In KW 30–31 wären Wegner, Lehmann und Sommer abwesend (nur 2 anwesend), in KW 32 zusätzlich Öztürk (nur 1 anwesend). (3) Schon die Wünsche verletzen die Regel in KW 32 (Wegner, Öztürk und Lehmann abwesend). Eine regelkonforme Lösung ist: Öztürk auf KW 33–35 verschieben, Sommer auf KW 33–35 legen.",
+      "vorschlag": "Keine amtliche Lösung im IHK-Lösungs-PDF vorhanden (nur MC-Schlüssel). Musterlösung (5 Beschäftigte, d. h. höchstens 2 gleichzeitig im Urlaub):\n\n- **Frau Ohlsen:** KW 27–29 (bleibt unverändert).\n- **Frau Wegner:** KW 30–32 (Schulferien laut Betriebsvereinbarung, bleibt).\n- **Frau Lehmann:** KW 30–32 (Wunsch, bleibt).\n- **Herr Öztürk:** Wunsch KW 32–34 ist nicht möglich, weil in KW 32 sonst Wegner, Lehmann und Öztürk fehlen (nur 2 anwesend) → Verschiebung auf **KW 33–35**.\n- **Herr Sommer:** Wunsch KW 29 überschneidet sich mit Frau Ohlsen und umfasst keine drei Wochen. KW 30–32 geht nicht (dann wären höchstens 2 anwesend) → **KW 33–35**.\n\nKontrolle: In jeder KW 27–35 sind höchstens 2 Personen im Urlaub, also mindestens 3 anwesend. Jede/r hat drei zusammenhängende Wochen, und Ohlsen/Sommer überschneiden sich nicht. (Andere regelkonforme Verteilungen sind möglich, z. B. Lehmann KW 27–29, Öztürk KW 32–34, Sommer KW 33–35.)",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2021w-a3-3",
+      "datei": "aufgaben/kbz",
+      "kategorie": "fachlich",
+      "feld": "loesung",
+      "befund": "Die Musterlösung lässt den Wert für Bente Lehmann offen („anteiliger Anspruch … unter Vorbehalt“). Wenn eine Auszubildende unmittelbar in ein Arbeitsverhältnis beim selben Arbeitgeber übernommen wird, entsteht keine Unterbrechung: Die Wartezeit nach § 4 BUrlG ist erfüllt, und für das Urlaubsjahr 2022 gilt der volle tarifliche Anspruch (in der Ausbildungszeit Januar genommener Urlaub würde angerechnet). Erwartbar sind 30 Tage Anspruch 2022 und 30 Tage gesamt. Ohne amtlichen Schlüssel bleibt das unsicher.",
+      "vorschlag": "Keine amtliche Lösung im IHK-Lösungs-PDF vorhanden (nur MC-Schlüssel). Musterlösung: Voller Jahresurlaub laut MTV = 30 Arbeitstage. Anne Ohlsen: 30 (Anspruch 2022) + 8 = 38 Gesamt. Sarah Wegner: 30 + 12 = 42. Yilmaz Öztürk: 30 + 5 (Zusatzurlaub Schwerbehinderung, § 208 SGB IX) = 35 Anspruch 2022, + 0 = 35. Stefan Dahlmann (Ausscheiden 30.04.2022, 4/12): 30 × 4/12 = 10 Anspruch 2022 + 5 = 15. Bastian Sommer (Eintritt 01.01.2022, volles Jahr): 30 + 0 = 30. Bente Lehmann (unmittelbare Übernahme nach der Ausbildung beim selben Arbeitgeber, keine Unterbrechung des Beschäftigungsverhältnisses): 30 (voller Jahresanspruch 2022) + 0 = 30. Hinweis: ohne amtlichen Lösungsschlüssel unter Vorbehalt.",
+      "sicherheit": "unsicher"
+    },
+    {
+      "id": "kbz-2018s-a4-5",
+      "datei": "aufgaben/kbz",
+      "kategorie": "fachlich",
+      "feld": "text",
+      "befund": "Die Steuerwerte 185,50 / 16,69 / 4,70 können nicht zur Steuerklasse I gehören. Bei 185,50 € Lohnsteuer läge der Soli 2018 in StKl I (Freigrenze 81 €/Monat) bei 10,20 €. 4,70 € ergibt sich nur mit der StKl-III-Freigrenze (162 €): 20 % × (185,50 − 162) = 4,70. Für die ledige Mitarbeiterin (StKl I) gelten laut amtlicher Musterlösung 421,41 / 37,92 (9 %, abgerundet) / 23,17 (5,5 %, abgerundet). Das ergibt das amtliche Netto von 1.834,70 €. Vermutlich wurde beim Übertragen die falsche Tabellenzeile übernommen. (Dieselbe Korrektur betrifft `anlagenText`, eigener Befund.)",
+      "vorschlag": "Eine Mitarbeiterin hat ihr Nettogehalt selbst ausgerechnet und bittet um Prüfung. Angaben: geb. 22.04.1989, ledig, keine Kinder, evangelisch, Krankenkassen-Zusatzbeitrag 1,10 %. Bruttoentgelt 2.923,00 €. Beitragssätze (AN-Anteil): Rentenversicherung 9,3 %, Arbeitslosenversicherung 1,5 %, Krankenversicherung 7,3 % + Zusatzbeitrag 1,10 %, Pflegeversicherung 1,275 % zzgl. 0,25 % Zuschlag für Kinderlose. Laut Lohnsteuertabelle (StK I, 2.922,00): Lohnsteuer 421,41; Kirchensteuer 37,92; Solidaritätszuschlag 23,17. Ermitteln Sie die korrekten Abzüge und das Nettoentgelt!",
+      "sicherheit": "unsicher"
+    },
+    {
+      "id": "kbz-2018s-a4-5",
+      "datei": "aufgaben/kbz",
+      "kategorie": "fachlich",
+      "feld": "anlagenText",
+      "befund": "Die Steuerwerte 185,50 / 16,69 / 4,70 können nicht zur Steuerklasse I gehören. Bei 185,50 € Lohnsteuer läge der Soli 2018 in StKl I (Freigrenze 81 €/Monat) bei 10,20 €. 4,70 € ergibt sich nur mit der StKl-III-Freigrenze (162 €): 20 % × (185,50 − 162) = 4,70. Für die ledige Mitarbeiterin (StKl I) gelten laut amtlicher Musterlösung 421,41 / 37,92 (9 %, abgerundet) / 23,17 (5,5 %, abgerundet). Das ergibt das amtliche Netto von 1.834,70 €. Vermutlich wurde beim Übertragen die falsche Tabellenzeile übernommen.",
+      "vorschlag": "Sozialversicherung (AN-Anteile): Rentenversicherung 9,3 %; Arbeitslosenversicherung 1,5 %; Krankenversicherung 7,3 % zzgl. Zusatzbeitrag 1,10 %; Pflegeversicherung 1,275 %; Zusatz-Pflegeversicherung für Kinderlose über 23 Jahre 0,25 % (AN). Lohnsteuertabelle StK I ab 2.922,00 €: Steuer 421,41; SolZ 23,17; KiSt 37,92.",
+      "sicherheit": "unsicher"
+    },
+    {
+      "id": "kbz-2018s-a4-5",
+      "datei": "aufgaben/kbz",
+      "kategorie": "fachlich",
+      "feld": "loesung",
+      "befund": "Die Lösung ist widersprüchlich: Sie rechnet mit 185,50 € Lohnsteuer (Netto 2.110,31 €) und nennt im Klammerzusatz das amtliche Netto 1.834,70 € mit 421,41 € Lohnsteuer. Nachrechnung mit den StKl-I-Werten: SV = 245,53 + 271,84 + 43,85 + 44,58 = 605,80 €; Steuern = 421,41 + 37,92 + 23,17 = 482,50 €; Netto = 2.923,00 − 482,50 − 605,80 = 1.834,70 €. Die SV-Werte stimmen.",
+      "vorschlag": "Bruttoentgelt 2.923,00 €. Lohnsteuer (StKl I) 421,41 €; Kirchensteuer (9 %) 37,92 €; Solidaritätszuschlag (5,5 %) 23,17 €. Krankenversicherung (7,3 % + 1,10 %) = 8,4 % von 2.923,00 = 245,53 €; Rentenversicherung 9,3 % = 271,84 €; Arbeitslosenversicherung 1,5 % = 43,85 €; Pflegeversicherung (1,275 % + 0,25 %) = 1,525 % = 44,58 €. Nettoentgelt = 2.923,00 − 421,41 − 37,92 − 23,17 − 245,53 − 271,84 − 43,85 − 44,58 = **1.834,70 €**.",
+      "sicherheit": "unsicher"
+    },
+    {
+      "id": "kbz-2024w-a4-13",
+      "datei": "aufgaben/kbz",
+      "kategorie": "zuordnung",
+      "feld": "themaId",
+      "befund": "Inhalt ist die organisatorische Vorbereitung des ersten Arbeitstags einer neuen Mitarbeiterin (Onboarding: Zugänge, Büroausstattung, Willkommensmappe). Das ist Personalwirtschaft, kein Datenschutz-Thema; die Rolle „Datenschutzbeauftragte“ ist nur Kulisse. Vergleiche das gleichartige kbz-2021w-a3-10 (personalwirtschaft).",
+      "vorschlag": "personalwirtschaft",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2019s-a4-7",
+      "datei": "aufgaben/kbz",
+      "kategorie": "zuordnung",
+      "feld": "themaId",
+      "befund": "„Welche Unterlagen benötigen Sie zwingend für die Einstellung?“ ist Personalverwaltung/Einstellung. Die identischen Aufgaben kbz-2023s-a4-11 und kbz-2025w-a3-11 sind personalwirtschaft zugeordnet.",
+      "vorschlag": "personalwirtschaft",
+      "sicherheit": "unsicher"
+    },
+    {
+      "id": "kbz-2019s-a4-9",
+      "datei": "aufgaben/kbz",
+      "kategorie": "zuordnung",
+      "feld": "themaId",
+      "befund": "Anlage und Inhalt der Personalakte ist Personalverwaltung. Die gleichartige Aufgabe kbz-2021w-a3-9 ist personalwirtschaft zugeordnet.",
+      "vorschlag": "personalwirtschaft",
+      "sicherheit": "unsicher"
+    },
+    {
+      "id": "kbz-2017w-a4-11",
+      "datei": "aufgaben/kbz",
+      "kategorie": "rechtsstand",
+      "feld": "text",
+      "befund": "Seit 25.05.2018 ergeben sich die Betroffenenrechte aus der DSGVO (Art. 15–21), nicht mehr aus dem BDSG a. F.",
+      "vorschlag": "Mitarbeiter, die eine Fortbildung absolviert haben, sollen im Intranet darüber berichten; dabei sollen personenbezogene Daten der Teilnehmer veröffentlicht werden. Eine Person widerspricht der Weiterleitung ihrer Daten. Geben Sie neben dem Recht auf Widerspruch drei weitere Rechte an, die betroffene Personen im Rahmen der Datenschutz-Grundverordnung (DSGVO) haben, und erläutern Sie diese jeweils anhand eines betrieblichen Beispiels.",
+      "sicherheit": "sicher",
+      "quelle": "https://dsgvo-gesetz.de/kapitel-3/"
+    },
+    {
+      "id": "kbz-2017w-a4-11",
+      "datei": "aufgaben/kbz",
+      "kategorie": "rechtsstand",
+      "feld": "loesung",
+      "befund": "„Recht auf Sperrung“ und „Recht auf Benachrichtigung (vor Übermittlung)“ stammen aus dem BDSG a. F. Seit der DSGVO (25.05.2018) gibt es stattdessen das Recht auf Einschränkung der Verarbeitung (Art. 18) und das Recht auf Datenübertragbarkeit (Art. 20); Auskunft (Art. 15), Berichtigung (Art. 16) und Löschung (Art. 17) bestehen weiter.",
+      "vorschlag": "Drei Rechte mit Beispiel, z. B.: Recht auf Auskunft (der Mitarbeiter möchte wissen, welche Daten von ihm/ihr gespeichert sind und warum). Recht auf Sperrung (der Mitarbeiter bezweifelt die Richtigkeit der Angaben über die geleistete Arbeitszeit). Recht auf Berichtigung (der Mitarbeiter verlangt, dass fehlerhafte Angaben eines Steuerfreibetrags berichtigt werden). Recht auf Löschung (der Mitarbeiter verlangt, dass die Speicherung seiner/ihrer Zugehörigkeit zur Gewerkschaft gelöscht wird). Recht auf Benachrichtigung (der Mitarbeiter muss vor Übermittlung seiner/ihrer personenbezogenen Daten an das Finanzamt benachrichtigt werden).\n\n> **Rechtsstand 2026:** Die Betroffenenrechte ergeben sich aus der DSGVO: Auskunft (Art. 15), Berichtigung (Art. 16), Löschung (Art. 17), Einschränkung der Verarbeitung (Art. 18, ersetzt die frühere „Sperrung“), Datenübertragbarkeit (Art. 20), Widerspruch (Art. 21). Zum Prüfungszeitpunkt (Winter 2017) galt noch das BDSG a. F. mit den Rechten auf Sperrung und Benachrichtigung.",
+      "sicherheit": "sicher",
+      "quelle": "https://dsgvo-gesetz.de/kapitel-3/"
+    },
+    {
+      "id": "kbz-2017w-a4-11",
+      "datei": "aufgaben/kbz",
+      "kategorie": "rechtsstand",
+      "feld": "erklaerung",
+      "befund": "Die Erklärung nennt die Rechte nach BDSG a. F. (Sperrung, Benachrichtigung); seit 2018 gilt die DSGVO.",
+      "vorschlag": "Neben dem Widerspruchsrecht (Art. 21 DSGVO) bestehen u. a. die Rechte auf Auskunft (Art. 15), Berichtigung (Art. 16), Löschung (Art. 17), Einschränkung der Verarbeitung (Art. 18, früher „Sperrung“) und Datenübertragbarkeit (Art. 20). Jedes lässt sich an einem betrieblichen Fall zeigen (Rechtsstand 2026).",
+      "sicherheit": "sicher",
+      "quelle": "https://dsgvo-gesetz.de/kapitel-3/"
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "thema": "buchfuehrung-kontierung",
+  "geprueft": {
+    "aufgaben": 121,
+    "lernpaare": 34,
+    "lernzettel": true,
+    "zusatz": 0
+  },
+  "befunde": [
+    {
+      "id": "kbz-2023w-a5-7",
+      "datei": "aufgaben/kbz",
+      "kategorie": "rechtsstand",
+      "feld": "optionen",
+      "befund": "Buchungsbelege (Rechnung/Quittung) sind seit dem BEG IV (ab 01.01.2025, gilt für alle am 01.01.2025 noch nicht abgelaufenen Fristen) nur noch 8 Jahre aufzubewahren (§ 147 Abs. 3 AO, § 257 Abs. 4 HGB). Beleg vom 28.11.2023 → Frist endet 31.12.2031; diese Option fehlt. Die als richtig markierte Option „31.12.2029“ (6 Jahre = Handels-/Geschäftsbriefe) war schon zum Prüfungszeitpunkt falsch (damals 10 J. → 31.12.2033). Vorschlag: „Bis zum 27.11.2029“ durch „Bis zum 31.12.2031“ ersetzen.",
+      "vorschlag": [
+        "Bis zum 27.11.2026",
+        "Bis zum 31.12.2029",
+        "Bis zum 31.12.2031",
+        "Bis zum 27.11.2033",
+        "Bis zum 31.12.2033"
+      ],
+      "sicherheit": "sicher",
+      "quelle": "https://www.bundesfinanzministerium.de/Content/DE/FAQ/Steuern/BEG-IV/faq-beg-iv.html"
+    },
+    {
+      "id": "kbz-2023w-a5-7",
+      "datei": "aufgaben/kbz",
+      "kategorie": "rechtsstand",
+      "feld": "korrekt",
+      "befund": "Mit den neuen Optionen ist „Bis zum 31.12.2031“ (8 Jahre ab Ende 2023, BEG IV) richtig; bisher war „Bis zum 31.12.2029“ markiert (6 Jahre, falsch für Buchungsbelege; zum Prüfungszeitpunkt richtig wäre 31.12.2033 gewesen).",
+      "vorschlag": [
+        2
+      ],
+      "sicherheit": "sicher",
+      "quelle": "https://www.bundesfinanzministerium.de/Content/DE/FAQ/Steuern/BEG-IV/faq-beg-iv.html"
+    },
+    {
+      "id": "kbz-2023w-a5-7",
+      "datei": "aufgaben/kbz",
+      "kategorie": "rechtsstand",
+      "feld": "loesung",
+      "befund": "Positionsbezug („Option 3“) + falsches Datum 31.12.2029 (6 Jahre gelten nur für Handels-/Geschäftsbriefe; Buchungsbelege: zum Prüfungszeitpunkt 10 J. → 31.12.2033, Rechtsstand 2026: 8 J. → 31.12.2031).",
+      "vorschlag": "Richtig ist: Bis zum 31.12.2031.\n\n> **Rechtsstand 2026:** Buchungsbelege (Rechnungen, Quittungen) sind 8 Jahre aufzubewahren; die Frist beginnt mit Ablauf des Kalenderjahres, in dem der Beleg entstanden ist (§ 147 Abs. 3 AO, § 257 Abs. 4 HGB i. d. F. des BEG IV). Zum Prüfungszeitpunkt (Winter 2023) galten noch 10 Jahre, also bis zum 31.12.2033.",
+      "sicherheit": "sicher",
+      "quelle": "https://www.bundesfinanzministerium.de/Content/DE/FAQ/Steuern/BEG-IV/faq-beg-iv.html"
+    },
+    {
+      "id": "kbz-2023w-a5-7",
+      "datei": "aufgaben/kbz",
+      "kategorie": "rechtsstand",
+      "feld": "erklaerung",
+      "befund": "Erklärung nennt für Buchungsbelege das Fristende 31.12.2029 (= 6 Jahre, gilt nur für Handels-/Geschäftsbriefe). Richtig: damals 10 J. (31.12.2033), heute 8 J. (31.12.2031).",
+      "vorschlag": "Buchungsbelege sind gemäß Paragraf 257 HGB / Paragraf 147 AO aufzubewahren; die Frist beginnt mit dem Ende des Kalenderjahres der Ausstellung. Seit dem BEG IV beträgt die Frist für Buchungsbelege 8 Jahre (Rechtsstand 2026): Bei einem Beleg von 2023 endet die Aufbewahrungsfrist zum 31.12.2031 (bis 2024 galten 10 Jahre, also 31.12.2033). 6 Jahre gelten nur für empfangene und abgesandte Handels- und Geschäftsbriefe.",
+      "sicherheit": "sicher",
+      "quelle": "https://www.bundesfinanzministerium.de/Content/DE/FAQ/Steuern/BEG-IV/faq-beg-iv.html"
+    },
+    {
+      "id": "kbz-2018s-a5-15",
+      "datei": "aufgaben/kbz",
+      "kategorie": "rechtsstand",
+      "feld": "optionen",
+      "befund": "Buchungsbelege: seit BEG IV 8 statt 10 Jahre (§ 147 Abs. 3 AO, § 257 Abs. 4 HGB). Keine Option ist nach Rechtsstand 2026 richtig. Vorschlag: „Der Beleg muss bis zum 18.04.2028 aufbewahrt werden.“ durch die 8-Jahres-Aussage ersetzen (die 10-Jahres-Aussage bleibt als Distraktor).",
+      "vorschlag": [
+        "Der Beleg muss bis zum 18.04.2024 aufbewahrt werden.",
+        "Der Beleg muss 6 Jahre aufbewahrt werden.",
+        "Der Beleg muss 10 Jahre aufbewahrt werden. Die Aufbewahrungsfrist beginnt mit Ablauf des Jahres der Rechnungsstellung.",
+        "Der Beleg muss 8 Jahre aufbewahrt werden. Die Aufbewahrungsfrist beginnt mit Ablauf des Jahres der Rechnungsstellung.",
+        "Der Beleg kann nach der Buchung vernichtet werden."
+      ],
+      "sicherheit": "sicher",
+      "quelle": "https://www.bundesfinanzministerium.de/Content/DE/FAQ/Steuern/BEG-IV/faq-beg-iv.html"
+    },
+    {
+      "id": "kbz-2018s-a5-15",
+      "datei": "aufgaben/kbz",
+      "kategorie": "rechtsstand",
+      "feld": "korrekt",
+      "befund": "Nach Rechtsstand 2026 ist die 8-Jahres-Aussage richtig (BEG IV); bisher 10-Jahres-Aussage markiert.",
+      "vorschlag": [
+        3
+      ],
+      "sicherheit": "sicher",
+      "quelle": "https://www.bundesfinanzministerium.de/Content/DE/FAQ/Steuern/BEG-IV/faq-beg-iv.html"
+    },
+    {
+      "id": "kbz-2018s-a5-15",
+      "datei": "aufgaben/kbz",
+      "kategorie": "rechtsstand",
+      "feld": "loesung",
+      "befund": "Positionsbezug („Aussage 3“ = Optionsposition) + veraltete 10-Jahres-Frist (seit BEG IV 8 Jahre).",
+      "vorschlag": "Richtig ist: Der Beleg muss 8 Jahre aufbewahrt werden; die Aufbewahrungsfrist beginnt mit Ablauf des Jahres der Rechnungsstellung.\n\n> **Rechtsstand 2026:** Buchungsbelege sind 8 Jahre aufzubewahren (§ 147 Abs. 3 AO, § 257 Abs. 4 HGB i. d. F. des BEG IV). Zum Prüfungszeitpunkt (Sommer 2018) galten noch 10 Jahre.",
+      "sicherheit": "sicher",
+      "quelle": "https://www.bundesfinanzministerium.de/Content/DE/FAQ/Steuern/BEG-IV/faq-beg-iv.html"
+    },
+    {
+      "id": "kbz-2018s-a5-15",
+      "datei": "aufgaben/kbz",
+      "kategorie": "rechtsstand",
+      "feld": "erklaerung",
+      "befund": "10-Jahres-Frist für Buchungsbelege veraltet (BEG IV: 8 Jahre).",
+      "vorschlag": "Buchungsbelege sind nach § 257 HGB / § 147 AO 8 Jahre aufzubewahren (Rechtsstand 2026; bis 2024: 10 Jahre); die Frist beginnt mit dem Ende des Kalenderjahres, in dem der Beleg entstanden ist.",
+      "sicherheit": "sicher",
+      "quelle": "https://www.bundesfinanzministerium.de/Content/DE/FAQ/Steuern/BEG-IV/faq-beg-iv.html"
+    },
+    {
+      "id": "kbz-2023s-a5-9",
+      "datei": "aufgaben/kbz",
+      "kategorie": "fachlich",
+      "feld": "loesung",
+      "befund": "Widersprüchlicher Zwischenschritt: „Netto-Warenwert (skontopflichtig): 76.853,00 € + 836,00 € = 77.689,00 €“ – die Fracht (Blitz-Spedition, eigene Rechnung) ist NICHT skontierbar, skontierbar ist der Voth-Rechnungsbetrag 76.853,00 + 510,00 = 77.363,00 €, mit dem anschließend auch gerechnet wird. Endergebnis 76.651,74 € ist korrekt (77.363 × 0,98 = 75.815,74; + 836 = 76.651,74).",
+      "vorschlag": "Zu den Anschaffungskosten zählen der Netto-Kaufpreis der Sägeanlage sowie die Anschaffungsnebenkosten (Montage und Fracht), jeweils netto und um den gewährten Skonto vermindert.\n\nSkontierfähiger Rechnungsbetrag Voth (netto): 76.853,00 € (Sägeanlage) + 510,00 € (Monteurstunden) = 77.363,00 €\n(Die Fracht der Blitz-Spedition, 836,00 €, ist eine eigene Rechnung ohne Skonto.)\n\nRechenweg laut Lösung:\n77.363,00 € × 98 : 100 = 75.815,74 €\n75.815,74 € + 836,00 € = **76.651,74 €**\n\nDie Anschaffungskosten der Sägeanlage betragen **76.651,74 €**.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2019s-a5-12-1",
+      "datei": "aufgaben/kbz",
+      "kategorie": "fachlich",
+      "feld": "loesung",
+      "befund": "Skonto ist Anschaffungspreisminderung (§ 255 Abs. 1 HGB); laut Folgeaufgabe 5.11 wird die Maschine mit 2 % Skonto (nur auf den Maschinenpreis) bezahlt: 14.800 × 0,98 + 350 + 480 = 15.334,00 €. Die offizielle AfA 766,70 € (Folgeaufgabe) beruht genau auf 15.334,00 € (15.334 : 15 × 9/12 = 766,70); mit 15.630 € ergäben sich 781,50 €.",
+      "vorschlag": "Anschaffungskosten = 14.800,00 (netto) − 296,00 (2 % Skonto auf die Maschine) + 350,00 (Transport) + 480,00 (Montage/Inbetriebnahme) = 15.334,00 €. (Ohne Berücksichtigung des Skontos: 15.630,00 €.)",
+      "sicherheit": "unsicher"
+    },
+    {
+      "id": "kbz-2019s-a5-12-2",
+      "datei": "aufgaben/kbz",
+      "kategorie": "fachlich",
+      "feld": "loesung",
+      "befund": "Rechenweg arithmetisch falsch: 15.630,00 : 15 × 9 : 12 = 781,50 €, nicht 766,70 €. 766,70 € ergibt sich nur mit Anschaffungskosten nach Skonto 15.334,00 € (15.334 : 15 = 1.022,27; × 9/12 = 766,70).",
+      "vorschlag": "Anschaffungskosten nach Skonto = 14.800,00 € × 98 : 100 + 350,00 € + 480,00 € = 15.334,00 €.\nAbschreibungsbetrag = 15.334,00 € : 15 × 9 : 12 = 766,70 €. (Ohne Skontoabzug: 15.630,00 € : 15 × 9 : 12 = 781,50 €.)",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2018s-a5-3",
+      "datei": "aufgaben/kbz",
+      "kategorie": "fachlich",
+      "feld": "loesung",
+      "befund": "Skontoaufteilung falsch: 2 % von 19.872,51 = 397,45 € brutto → netto 397,45 : 1,19 = 333,99 € (= 2 % von 16.699,59) und Vorsteuer 63,46 € (= 2 % von 3.172,92). Angegeben sind 334,03 € / 63,42 € (Summe stimmt, Aufteilung nicht).",
+      "vorschlag": "4404 Voth Maschinenbau OHG 19.872,51 € an 2800 Hamburger Sparkasse 19.475,06 €, an 0700 Technische Anlagen und Maschinen 333,99 € und an 2600 Vorsteuer 63,46 €. (Amtlicher Schlüssel: 4404 an [2800;0700;2600].)",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2018s-a5-6-1",
+      "datei": "aufgaben/kbz",
+      "kategorie": "fachlich",
+      "feld": "loesung",
+      "befund": "Laut Beleg-Hinweis wurde mit 2 % Skonto bezahlt (Kontoauszug 19.475,06 €); Skonto mindert die Anschaffungskosten (§ 255 Abs. 1 HGB) und wird in 5.3 auch von 0700 abgebucht: 16.699,59 − 333,99 = 16.365,60 €. Die in der Folgeaufgabe genannte Musterlösungs-AfA 2.045,70 € beruht auf 16.365,60 € (16.365,60 : 6 × 9/12).",
+      "vorschlag": "16.365,60 € (= 15.730,00 € Maschine + 359,00 € Absauganlage + 610,59 € Anlieferung und Aufstellung = 16.699,59 € netto, abzüglich 2 % Skonto 333,99 €). Ohne Berücksichtigung des Skontos: 16.699,59 €.",
+      "sicherheit": "unsicher"
+    },
+    {
+      "id": "kbz-2018s-a5-6-2",
+      "datei": "aufgaben/kbz",
+      "kategorie": "fachlich",
+      "feld": "loesung",
+      "befund": "Rechenweg arithmetisch falsch: 16.699,59 : 6 × 9/12 = 2.087,45 €, nicht 2.045,70 €. 2.045,70 € ergibt sich aus den Anschaffungskosten nach Skonto 16.365,60 € (: 6 = 2.727,60; × 9/12 = 2.045,70). Der Wert 2.046,11 € ist nicht nachvollziehbar.",
+      "vorschlag": "Anschaffungskosten nach Skonto: 16.699,59 € − 2 % Skonto 333,99 € = 16.365,60 €.\nJahres-AfA: 16.365,60 € : 6 Jahre = 2.727,60 €; zeitanteilig ab April (9 Monate): 2.727,60 € × 9 : 12 = **2.045,70 €** (laut Musterlösung). (Ohne Skontoabzug ergäben sich 16.699,59 € : 6 × 9 : 12 = 2.087,45 €; andere Rechenwege sind möglich.)",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2020w-a5-9",
+      "datei": "aufgaben/kbz",
+      "kategorie": "rechtsstand",
+      "feld": "loesung",
+      "befund": "Beleg weist 16 % USt aus (befristete Senkung 01.07.–31.12.2020, Zweites Corona-Steuerhilfegesetz). Buchung für den Beleg korrekt, aber Lernende sollten wissen, dass der Regelsteuersatz 2026 19 % beträgt (§ 12 Abs. 1 UStG). Hinweis an die Lösung anhängen; optionen/korrekt unverändert. (Sachverhaltsbezogener Satz – ggf. verzichtbar.)",
+      "vorschlag": "6080 (Aufwendungen für Handelswaren) 9.120,00 und 2600 (Vorsteuer) 1.459,20 an 4401 (Bernhard Müller OHG) 10.579,20. Kurzform: 6080 / 2600 an 4401.\n\n> **Rechtsstand 2026:** Der Regelsteuersatz beträgt 19 % (§ 12 Abs. 1 UStG). Zum Prüfungszeitpunkt (Winter 2020) galten noch befristet 16 % (01.07.–31.12.2020).",
+      "sicherheit": "unsicher"
+    },
+    {
+      "id": "kbz-2020w-a5-10",
+      "datei": "aufgaben/kbz",
+      "kategorie": "rechtsstand",
+      "feld": "loesung",
+      "befund": "Beleg weist 16 % USt aus (befristete Senkung 01.07.–31.12.2020, Zweites Corona-Steuerhilfegesetz). Buchung für den Beleg korrekt, aber Lernende sollten wissen, dass der Regelsteuersatz 2026 19 % beträgt (§ 12 Abs. 1 UStG). Hinweis an die Lösung anhängen; optionen/korrekt unverändert. (Sachverhaltsbezogener Satz – ggf. verzichtbar.)",
+      "vorschlag": "4401 (Bernhard Müller OHG) 1.322,40 an 6080 (Aufwendungen für Handelswaren) 1.140,00 und 2600 (Vorsteuer) 182,40. Kurzform: 4401 an 6080 / 2600.\n\n> **Rechtsstand 2026:** Der Regelsteuersatz beträgt 19 % (§ 12 Abs. 1 UStG). Zum Prüfungszeitpunkt (Winter 2020) galten noch befristet 16 % (01.07.–31.12.2020).",
+      "sicherheit": "unsicher"
+    },
+    {
+      "id": "kbz-2020w-a5-14",
+      "datei": "aufgaben/kbz",
+      "kategorie": "rechtsstand",
+      "feld": "loesung",
+      "befund": "Beleg weist 16 % USt aus (befristete Senkung 01.07.–31.12.2020, Zweites Corona-Steuerhilfegesetz). Buchung für den Beleg korrekt, aber Lernende sollten wissen, dass der Regelsteuersatz 2026 19 % beträgt (§ 12 Abs. 1 UStG). Hinweis an die Lösung anhängen; optionen/korrekt unverändert. (Sachverhaltsbezogener Satz – ggf. verzichtbar.)",
+      "vorschlag": "0700 (Technische Anlagen und Maschinen) 45.600,00 und 2600 (Vorsteuer) 7.296,00 an 4404 (Voth Maschinenbau OHG) 52.896,00. Kurzform: 0700 / 2600 an 4404.\n\n> **Rechtsstand 2026:** Der Regelsteuersatz beträgt 19 % (§ 12 Abs. 1 UStG). Zum Prüfungszeitpunkt (Winter 2020) galten noch befristet 16 % (01.07.–31.12.2020).",
+      "sicherheit": "unsicher"
+    },
+    {
+      "id": "kbz-2020w-a5-16",
+      "datei": "aufgaben/kbz",
+      "kategorie": "rechtsstand",
+      "feld": "loesung",
+      "befund": "Beleg weist 16 % USt aus (befristete Senkung 01.07.–31.12.2020, Zweites Corona-Steuerhilfegesetz). Buchung für den Beleg korrekt, aber Lernende sollten wissen, dass der Regelsteuersatz 2026 19 % beträgt (§ 12 Abs. 1 UStG). Hinweis an die Lösung anhängen; optionen/korrekt unverändert. (Sachverhaltsbezogener Satz – ggf. verzichtbar.)",
+      "vorschlag": "0700 (Technische Anlagen und Maschinen) 1.340,00 und 2600 (Vorsteuer) 214,40 an 4407 (Blitz-Spedition GmbH) 1.554,40. Kurzform: 0700 / 2600 an 4407.\n\n> **Rechtsstand 2026:** Der Regelsteuersatz beträgt 19 % (§ 12 Abs. 1 UStG). Zum Prüfungszeitpunkt (Winter 2020) galten noch befristet 16 % (01.07.–31.12.2020).",
+      "sicherheit": "unsicher"
+    },
+    {
+      "id": "kbz-lp-buchfuehrung-kontierung-29",
+      "datei": "lernpaare/kbz",
+      "kategorie": "position",
+      "feld": "erklaerung",
+      "befund": "Positionsbezug „Richtig sind die ersten beiden Aussagen“ – Optionen werden gemischt.",
+      "vorschlag": "Richtig sind die Aussagen zur Zahlung gegen das Verbindlichkeitskonto und zur direkten Buchung von Aufwand und Vorsteuer gegen die Bank: Bei **bereits gebuchter** Rechnung stehen Aufwand und Vorsteuer schon in den Büchern; die Zahlung tilgt nur noch die **Verbindlichkeit**. Bei **noch nicht gebuchter** Rechnung werden Aufwand (netto) und Vorsteuer direkt mit der Zahlung gegen die Bank erfasst. Falsch: Eine erneute Aufwandsbuchung würde den Aufwand verdoppeln, die Vorsteuer wird bereits mit der **Rechnungsbuchung** (nicht erst bei Zahlung) erfasst, und selbstverständlich dürfen auch noch nicht gebuchte Rechnungen bezahlt werden – die Buchung erfolgt dann eben in einem Schritt.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "buchfuehrung-kontierung",
+      "datei": "themen/kbz",
+      "kategorie": "sonstiges",
+      "feld": "lernzettel",
+      "befund": "Abschnitt „Buchungssatz und Belegprinzip“: Kassenkonto „1600“ passt nicht zum IHK-Kontenplan der Aufgaben (Kasse = 2880, 1600 ist SKR04); Kontenbezeichnung 6800 heißt im Kontenplan „Büromaterial“. Rest des Lernzettels nachgerechnet (44.800; 8.512; 53.312; 3.200 × 9/12 = 2.400; 1.098,80 €; 31.089; 106.515; 43.485; 912) – korrekt.",
+      "vorschlag": "## Anschaffungskosten und Kontierung\nDie **Anschaffungskosten** einer Anlage = Kaufpreis (netto) + alle Nebenkosten, die nötig sind, um sie **betriebsbereit** zu machen (Transport, Montage, Kleinmaterial) − Anschaffungspreisminderungen (Rabatt, Skonto).\n\n**Kontieren** heißt: den Buchungssatz **Soll an Haben** mit vierstelligen Kontonummern bilden. Aufwendungen werden **netto** gebucht, die **Vorsteuer (2600)** getrennt.\n\nBeispiel Sägemaschine: 41.600 € + 2.400 € Montage + 800 € Kleinmaterial = **44.800 €**. Buchung: 0700 Maschinen 44.800 + 2600 Vorsteuer 8.512 an 4400 Verbindlichkeiten 53.312.\n\n**Merke:** Anschaffungskosten = Kaufpreis + betriebsbereit-machende Nebenkosten − Minderungen; netto buchen, Vorsteuer trennen.\n\n## Buchungssatz und Belegprinzip\nGrundsatz: **\"Keine Buchung ohne Beleg.\"** Jeder Geschäftsvorfall berührt mindestens zwei Konten (Soll = Haben).\n\n- **Aktivkonten**: Zugang im Soll, Abgang im Haben.\n- **Passivkonten**: Zugang im Haben, Abgang im Soll.\n- Aufwand im Soll, Ertrag im Haben.\n\nBeispiel: Barkauf Büromaterial 100 € netto: 6800 Büromaterial 100 + 2600 Vorsteuer 19 an 2880 Kasse 119.\n\n**Merke:** Soll an Haben, immer betragsgleich, immer mit Beleg.\n\n## Lineare Abschreibung (AfA)\n$\\text{AfA/Jahr} = \\frac{\\text{Anschaffungskosten}}{\\text{Nutzungsdauer}}$\n\nBei unterjähriger Anschaffung wird **zeitanteilig (pro rata temporis)** monatsgenau abgeschrieben.\n\nBeispiel: 44.800 € / 14 Jahre = 3.200 €/Jahr. Anschaffung im April → 9 Monate: $3.200 \\cdot \\frac{9}{12} = 2.400$ €. Buchung: **6520 Abschreibungen an 0700 Maschinen**.\n\n**Merke:** Lineare AfA = gleichmäßig über Nutzungsdauer; im Anschaffungsjahr zeitanteilig ab dem Anschaffungsmonat.\n\n## Darlehen und Zinsrechnung\nEin Bankdarlehen ist eine **langfristige Verbindlichkeit (4250)**; Auszahlung: **2800 Bank an 4250**. Zinsen (Methode **30/360**):\n$Z = \\frac{\\text{Kapital} \\cdot \\text{Zinssatz} \\cdot \\text{Tage}}{100 \\cdot 360}$\n\nBeispiel: $\\frac{36.500 \\cdot 4{,}25 \\cdot 255}{100 \\cdot 360} = 1.098{,}80$ € (Auszahlung 15.04. → 255 Tage bis Jahresende). Zinsaufwand: **7510 an 2800**.\n\n**Merke:** Zinsformel 30/360 – jeder Monat 30 Tage, Jahr 360 Tage.\n\n## Warenkonten und Bestandsveränderung\n$\\text{Bestandsveränderung} = \\text{Endbestand (Inventur)} - \\text{Anfangsbestand}$\n\n- Endbestand höher → **Bestandsmehrung** (mehr eingekauft als verkauft).\n- Endbestand niedriger → **Bestandsminderung**.\n\nBeispiel: 158.475 € − 127.386 € = **31.089 € Bestandsmehrung**.\n\n**Merke:** Endbestand > Anfangsbestand = Mehrung; die Differenz korrigiert den Wareneinsatz.\n\n## Wareneinsatz und Warenrohgewinn\n$\\text{Wareneinsatz} = \\text{Wareneinkäufe} - \\text{Bestandsmehrung} - \\text{Nachlässe}$ (bzw. + Bestandsminderung).\nDer Wareneinsatz ist der Wert der verkauften Waren zum **Bezugspreis**.\n\n$\\text{Warenrohgewinn} = \\text{Umsatzerlöse} - \\text{Wareneinsatz}$\n\nBeispiel: Wareneinsatz = 142.881 − 31.089 − 5.277 = **106.515 €**; bei 150.000 € Umsatz → Rohgewinn = 43.485 €.\n\n**Merke:** Wareneinsatz = Einkäufe − Bestandsmehrung − Nachlässe; Umsatz − Wareneinsatz = Rohgewinn.\n\n## Bezugskalkulation (Einkauf)\nVom Listeneinkaufspreis zum **Bezugspreis (Einstandspreis)**:\n\n```\n  Listeneinkaufspreis\n- Liefererrabatt\n= Zieleinkaufspreis\n- Liefererskonto\n= Bareinkaufspreis\n+ Bezugskosten (Fracht, Verpackung)\n= Bezugspreis (Einstandspreis)\n```\n\nBeispiel: 1.000 € − 10 % Rabatt = 900 €; − 2 % Skonto = 882 €; + 30 € Fracht = **912 € Bezugspreis**.\n\n**Merke:** Rabatt und Skonto mindern den Einkaufspreis, Bezugskosten erhöhen ihn – Ergebnis = Einstandspreis.",
+      "sicherheit": "sicher"
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "thema": "kostenrechnung",
+  "geprueft": {
+    "aufgaben": 132,
+    "lernpaare": 34,
+    "lernzettel": true,
+    "zusatz": 0
+  },
+  "befunde": [
+    {
+      "id": "kbz-2025s-a6-6",
+      "datei": "aufgaben/kbz",
+      "kategorie": "fachlich",
+      "feld": "loesung",
+      "befund": "Nachrechnung: MGK 210,00 × 62 % = 130,20; FGK 135,50 × 122,5 % = 165,9875 ≈ 165,99; HK = 210,00 + 130,20 + 135,50 + 165,99 = 641,69; VwGK 641,69 × 10,8 % = 69,30; VtGK 641,69 × 9,5 % = 60,96; Selbstkosten = 771,95 € (ungerundet ebenfalls 771,95). Die Tabelle stimmt also, der Hinweis erklärt aber den nicht nachrechenbaren Lösungsbogenwert 777,17 € für maßgeblich (dessen MGK 130,62 entspräche 62,2 %, FGK 169,99 entspräche 125,45 %) und enthält einen internen Verweis „Siehe Auffälligkeit im Audit“. Lösungsbogen 777,17 € vs. Nachrechnung 771,95 €.",
+      "vorschlag": "| Bezeichnung | Zuschlagssatz | Kosten in € |\n|---|---|---|\n| Fertigungsmaterial | | 210,00 |\n| Materialgemeinkosten | 62,0 % | 130,20 |\n| **Fertigungslöhne** | | 135,50 |\n| Fertigungsgemeinkosten | 122,5 % | 165,99 |\n| **Herstellkosten** | | 641,69 |\n| Verwaltungsgemeinkosten | 10,8 % | 69,30 |\n| **Vertriebsgemeinkosten** | 9,5 % | 60,96 |\n| **Selbstkosten** | | 771,95 |\n\n**Hinweis:** Der IHK-Lösungsbogen weist abweichend Materialgemeinkosten 130,62 €, Fertigungsgemeinkosten 169,99 €, Herstellkosten 646,11 €, Verwaltungsgemeinkosten 69,68 €, Vertriebsgemeinkosten 61,38 € und **Selbstkosten 777,17 €** aus. Diese Werte lassen sich aus den angegebenen Zuschlagssätzen nicht nachrechnen (z. B. 62 % von 210,00 € = 130,20 €, nicht 130,62 €; 122,5 % von 135,50 € = 165,99 €, nicht 169,99 €). Rechnerisch richtig sind **Selbstkosten 771,95 €**.",
+      "sicherheit": "unsicher"
+    },
+    {
+      "id": "kbz-2025s-a6-6",
+      "datei": "aufgaben/kbz",
+      "kategorie": "fachlich",
+      "feld": "erklaerung",
+      "befund": "Erklärung nennt als Ergebnis nur den Lösungsbogenwert 777,17 €, nachgerechnet ergeben sich 771,95 € (Rechnung siehe Befund zu loesung). Zusätzlich (sonstiges): Zeilen beginnen mit „+ “ und werden von Markdown zu Listenpunkten, das Plus verschwindet → als Tabelle.",
+      "vorschlag": "Kalkulationsschema:\n\n| Position | Betrag |\n|---|---|\n| Fertigungsmaterial | 210,00 € |\n| + Materialgemeinkosten (62 % von 210,00) | 130,20 € |\n| + Fertigungslöhne | 135,50 € |\n| + Fertigungsgemeinkosten (122,5 % von 135,50) | 165,99 € |\n| = Herstellkosten | 641,69 € |\n| + Verwaltungsgemeinkosten (10,8 % der Herstellkosten) | 69,30 € |\n| + Vertriebsgemeinkosten (9,5 % der Herstellkosten) | 60,96 € |\n| = Selbstkosten | 771,95 € |\n\nDer offizielle Lösungsbogen nennt Selbstkosten von 777,17 €; dieser Wert lässt sich aus den angegebenen Zuschlagssätzen nicht nachrechnen.",
+      "sicherheit": "unsicher"
+    },
+    {
+      "id": "kbz-2025s-a6-7-3",
+      "datei": "aufgaben/kbz",
+      "kategorie": "fachlich",
+      "feld": "erklaerung",
+      "befund": "Rechnet mit den Plan-Selbstkosten 777,17 € laut Lösungsbogen (810,00 − 777,17 = 32,83 €). Mit den nachgerechneten Selbstkosten aus 6.6 (771,95 €) ergibt sich 810,00 − 771,95 = 38,05 €. Lösungsbogen 32,83 € vs. Nachrechnung 38,05 €.",
+      "vorschlag": "Kostenunterdeckung = Istkosten − Normal-(Plan-)Selbstkosten = 810,00 − 771,95 = **38,05 €** je Konferenztisch (nachgerechnete Selbstkosten aus Aufgabe 6.6). Der offizielle Lösungsbogen geht von Selbstkosten 777,17 € aus und kommt auf 810,00 − 777,17 = 32,83 €. Die Istkosten liegen über den kalkulierten Selbstkosten, daher Unterdeckung.",
+      "sicherheit": "unsicher"
+    },
+    {
+      "id": "kbz-2025s-a6-8",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („**Antwort 3** ist richtig:“); Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Kosten sind der **Wert aller zur Erreichung des Betriebszwecks verbrauchten Güter und Dienstleistungen pro Periode**.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-kostenrechnung-g1",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Richtig ist Antwort 2:“); Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: **Break-even-Point = Fixkosten / Deckungsbeitrag pro Stück**.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-kostenrechnung-g2",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Richtig ist Antwort 2:“); Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Durch die **Fixkostendegression** verteilen sich die Fixkosten auf mehr Stück, wodurch die Stückkosten sinken.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-kostenrechnung-g3",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Richtig ist Antwort 2:“); Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Normalkosten sind die **durchschnittlichen Istkosten vergangener Perioden**.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-kostenrechnung-g4",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Richtig ist Antwort 2:“); Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist „Kostenunterdeckung“: Sind die Istkosten höher als die kalkulierten Kosten, liegt eine **Kostenunterdeckung** vor.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2024s-a6-6",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („**Antwort 3** ist richtig:“); Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Der BAB wird zur **Ermittlung der Gemeinkostenzuschlagssätze** erstellt.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2022s-a5-12",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Richtig ist Aussage 2.“); Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist „Vertriebsgemeinkosten x 100 : Herstellkosten des Umsatzes“. Die Vertriebsgemeinkosten haben als Bezugsgrundlage die Herstellkosten des Umsatzes. Alle anderen Aussagen sind falsch.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2020w-a5-8",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Antworten 1 und 5:“); Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig sind: Kosten für Fertigungslöhne und Aufwendungen für Fertigungsmaterial.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2021s-a4-4",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Richtig ist Antwort 1:“); Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Abschreibung des Lieferfahrzeuges, Müllgebühren, Miete für die Lagerhalle.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2018s-a5-17",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Richtig sind Aussage 2 (variable Kosten pro Stück sind konstant) und Aussage 5 (variable Kosten sind abhängig von der Produktionsmenge).“); Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig sind: Die variablen Kosten pro Stück sind konstant, und die variablen Kosten sind abhängig von der Produktionsmenge.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2025w-a1-8",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Richtig ist Aussage 2:“); Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Die Selbstkosten sind alle Kosten, die für Material, Fertigung, Verwaltung und Vertrieb anfallen.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2025w-a5-3",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Richtig ist Aussage 2:“); Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Die variablen Kosten pro Stück sind konstant.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2024w-a6-1",
+      "datei": "aufgaben/kbz",
+      "kategorie": "sonstiges",
+      "feld": "loesung",
+      "befund": "Listenpunkte der Form „- + …“ werden von Markdown als verschachtelte Liste gerendert, das Plus verschwindet → als Tabelle. Werte nachgerechnet und korrekt (13.455,00 / 0,97 = 13.871,13; / 0,90 = 15.412,37).",
+      "vorschlag": "Handelskalkulation (Werte in Euro):\n\n| Position | Betrag |\n|---|---|\n| Bezugspreis | 9.750,00 |\n| + Handlungskosten (20,0 %) | 1.950,00 |\n| = Selbstkosten | 11.700,00 |\n| + Gewinn (15,0 %) | 1.755,00 |\n| = Barverkaufspreis | 13.455,00 |\n| + Kundenskonto (3,0 %) | 416,13 |\n| = Zielverkaufspreis | 13.871,13 |\n| + Kundenrabatt (10,0 %) | 1.541,24 |\n| = Listenverkaufspreis | 15.412,37 |",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2024w-a6-2",
+      "datei": "aufgaben/kbz",
+      "kategorie": "sonstiges",
+      "feld": "loesung",
+      "befund": "Listenpunkte der Form „- + …“ werden von Markdown als verschachtelte Liste gerendert, das Plus verschwindet → als Tabelle. Werte nachgerechnet und korrekt (Selbstkosten 408,76 €).",
+      "vorschlag": "Zuschlagskalkulation (Kosten in Euro):\n\n| Position | Betrag |\n|---|---|\n| Fertigungsmaterial | 110,00 |\n| + Materialgemeinkosten (72,0 %) | 79,20 |\n| Fertigungslöhne | 90,80 |\n| + Fertigungsgemeinkosten (92,50 %) | 83,99 |\n| = Herstellkosten | 363,99 |\n| + Verwaltungsgemeinkosten (5,80 %) | 21,11 |\n| + Vertriebsgemeinkosten (6,50 %) | 23,66 |\n| = Selbstkosten | 408,76 |",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2020s-a1-4",
+      "datei": "aufgaben/kbz",
+      "kategorie": "fachlich",
+      "feld": "erklaerung",
+      "befund": "Begriffe vertauscht: Der Gewinn wird „vom Hundert“ (auf die Selbstkosten als 100 %) aufgeschlagen, nicht „im Hundert“; Kundenskonto und Rabatt werden „im Hundert“ gerechnet (nicht „auf hundert“ – das wäre der Fall, wenn der Ausgangswert 100 % + x ist). Rechnung selbst korrekt (960,86 €).",
+      "vorschlag": "Gewinn wird auf den Selbstkostenpreis aufgeschlagen (vom Hundert). Kundenskonto und Wiederverkäuferrabatt werden 'im Hundert' gerechnet, da der Barverkaufspreis 98 % bzw. der Zielverkaufspreis 85 % des jeweils höheren Wertes ist.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2018s-a5-14",
+      "datei": "aufgaben/kbz",
+      "kategorie": "fachlich",
+      "feld": "loesung",
+      "befund": "„Bestandskonto der GuV“ ist fachlich falsch: Die Leasingrate wird auf einem Aufwandskonto (Erfolgskonto) gebucht, das über die GuV abgeschlossen wird; Bestandskonten gehen in die Bilanz.",
+      "vorschlag": "6 Einträge, je 1 Punkt: Beleg 1 – Anlagevermögen: steigt, weil die Personal-Computer den Bestand an Büromaschinen/Büromöbeln erhöhen und zum Anlagevermögen gehören. Beleg 3 Position 2 (Leasing) – Anlagevermögen: keine Auswirkung, weil die Leasingrate Aufwand darstellt und sich auf ein Erfolgskonto (Aufwandskonto) auswirkt, das über die GuV abgeschlossen wird, nicht auf das Anlagevermögen. Beleg 3 Position 3 – Umlaufvermögen: bleibt gleich, weil die Überweisung der Innovation AG das Bankkonto erhöht und gleichzeitig die Forderungen abnehmen (Aktivtausch).",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2018s-a5-16-1",
+      "datei": "aufgaben/kbz",
+      "kategorie": "sonstiges",
+      "feld": "loesung",
+      "befund": "Lösung deckt die auszufüllenden Felder der Anlage nicht ab: Es fehlen Umsatzerlöse bei 100 Stück (595 € × 100 = 59.500,00) und Gesamtkosten bei 700 Stück (147.000 + 154.000 = 301.000,00); stattdessen werden bereits vorgegebene Werte genannt (Gesamtkosten 300 Stück 217.000, Ergebnis 200 Stück −77.000). Nachgerechnet: 59.500 − 175.000 = −115.500 ✓; 416.500 − 301.000 = 115.500 ✓.",
+      "vorschlag": "Fehlende Werte: 100 Stück: Umsatzerlöse 59.500,00 (595,00 € × 100). 200 Stück: variable Kosten 42.000,00 (210,00 € × 200). 300 Stück: Ergebnis −38.500,00 (178.500,00 − 217.000,00). 400 Stück: Ergebnis 0,00 (238.000,00 − 238.000,00). 700 Stück: Gesamtkosten 301.000,00 (147.000,00 + 154.000,00). Gewinnschwelle: 400 Stück (dort Umsatzerlöse = Gesamtkosten, Ergebnis 0).",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2018w-a4-14",
+      "datei": "aufgaben/kbz",
+      "kategorie": "sonstiges",
+      "feld": "loesung",
+      "befund": "Klammererläuterung irreführend: Die Kosten 289.582,00 € ergeben sich als 283.982,00 (alle Aufwendungen sind betrieblich) + 5.600,00 kalkulatorischer Unternehmerlohn; eine Korrektur „um neutrale Erträge“ findet bei den Kosten nicht statt (neutrale Erträge betreffen nur die Leistungsseite). 283.982 + 5.600 = 289.582; 340.000 − 289.582 = 50.418 ✓.",
+      "vorschlag": "Betriebsergebnis = 50.418,00 EUR. Leistungen (Umsatzerlöse eig. Erzeugnisse) 340.000,00 − Kosten 289.582,00 (283.982,00 betriebliche Aufwendungen laut GuV als Grundkosten zzgl. verrechneter kalkulatorischer Unternehmerlohn 5.600,00; die neutralen Erträge aus Vermietung und Zinsen zählen nicht zu den Leistungen) = 50.418,00 EUR.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2018s-a5-11",
+      "datei": "aufgaben/kbz",
+      "kategorie": "zuordnung",
+      "feld": "themaId",
+      "befund": "Inhalt ist keine Kosten- und Leistungsrechnung, sondern Bilanz/Buchführung: Bilanzkennzahl (Anteil Umlaufvermögen am Gesamtvermögen) aus aufbereiteter Bilanz.",
+      "vorschlag": "buchfuehrung-kontierung",
+      "sicherheit": "unsicher"
+    },
+    {
+      "id": "kbz-2018s-a5-12",
+      "datei": "aufgaben/kbz",
+      "kategorie": "zuordnung",
+      "feld": "themaId",
+      "befund": "Inhalt ist keine Kosten- und Leistungsrechnung, sondern Bilanz/Buchführung: Beurteilung einer Bilanzkennzahl (Vermögensstruktur).",
+      "vorschlag": "buchfuehrung-kontierung",
+      "sicherheit": "unsicher"
+    },
+    {
+      "id": "kbz-2018s-a5-13",
+      "datei": "aufgaben/kbz",
+      "kategorie": "zuordnung",
+      "feld": "themaId",
+      "befund": "Inhalt ist keine Kosten- und Leistungsrechnung, sondern Bilanz/Buchführung: Auswirkung eines Zahlungseingangs auf die Liquidität (Kontoauszug).",
+      "vorschlag": "buchfuehrung-kontierung",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2018s-a5-14",
+      "datei": "aufgaben/kbz",
+      "kategorie": "zuordnung",
+      "feld": "themaId",
+      "befund": "Inhalt ist keine Kosten- und Leistungsrechnung, sondern Bilanz/Buchführung: Auswirkung von Geschäftsfällen auf Bilanzpositionen (Aktivtausch, Aktivierung, Aufwand).",
+      "vorschlag": "buchfuehrung-kontierung",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-lp-kostenrechnung-23",
+      "datei": "lernpaare/kbz",
+      "kategorie": "fachlich",
+      "feld": "erklaerung",
+      "befund": "„null ist die Summe aus Deckungsbeitrag und Fixkosten“ ist falsch: Am BEP ist die Differenz Gesamtdeckungsbeitrag − Fixkosten (= Gewinn) null.",
+      "vorschlag": "Am Break-even-Point gilt: **Erlöse = Gesamtkosten**, also Gewinn = 0; der gesamte Deckungsbeitrag deckt hier genau die Fixkosten. Falsch: Würden die Erlöse nur die Fixkosten oder nur die variablen Kosten decken, läge man noch unter der Gewinnschwelle. Der Deckungsbeitrag **je Stück** (Preis − variable Stückkosten) ist am BEP nicht null – null ist die Differenz aus Gesamtdeckungsbeitrag und Fixkosten (= Gewinn). Und der Gewinn ist am BEP nicht maximal, sondern beginnt dort erst zu entstehen.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kostenrechnung",
+      "datei": "themen/kbz",
+      "kategorie": "fachlich",
+      "feld": "lernzettel",
+      "befund": "1) Abschnitt Vorwärts-/Rückwärtskalkulation, Beispiel: 120 / 0,98 / 0,95 = 128,8937 → 128,89 € (nicht 128,85 €). 2) Merke-Satz: Der Gewinnzuschlag wird „vom Hundert“ auf die Selbstkosten gerechnet, nicht „im Hundert“ (nur Skonto/Rabatt im Hundert). Alle übrigen Lernzettel-Rechnungen nachgerechnet und korrekt (BEP 3.700; 44.200; 77,58/71,29; 32.010; 3.000 Unterdeckung).",
+      "vorschlag": "## Grundbegriffe\nDie Kosten- und Leistungsrechnung (KLR) erfasst den betrieblichen Werteverzehr zur Preiskalkulation und Erfolgskontrolle.\n\n- **Kosten** = bewerteter Verbrauch von Gütern/Leistungen für den Betriebszweck pro Periode.\n- **Fixkosten**: fallen unabhängig von der Menge an (Miete, Gehälter).\n- **Variable Kosten**: steigen mit der Ausbringungsmenge (Material, Akkordlohn).\n- **Deckungsbeitrag (DB)** = Verkaufspreis − variable Kosten (pro Stück).\n\nBeispiel: Preis 99 €, variable Kosten 65 € → DB = **34 €/Stück**.\n\n**Merke:** Fixkosten bleiben, variable Kosten wachsen mit der Menge; DB = Preis − variable Stückkosten.\n\n## Deckungsbeitragsrechnung\nDer Deckungsbeitrag \"deckt\" zuerst die Fixkosten; was darüber bleibt, ist Gewinn.\n\n- **Gesamt-DB** = DB/Stück × Menge\n- **Betriebsergebnis** = Gesamt-DB − Fixkosten\n\nBeispiel: 5.000 Stück × 34 € DB = 170.000 € Gesamt-DB; − 125.800 € Fixkosten = **44.200 € Gewinn**.\n\n**Merke:** Zuerst Fixkosten decken – erst der DB darüber ist Gewinn.\n\n## Break-even-Point (Gewinnschwelle)\nAn der Gewinnschwelle deckt der Umsatz genau die Gesamtkosten (Gewinn = 0):\n$\\text{BEP} = \\frac{\\text{Fixkosten}}{\\text{DB pro Stück}}$\n\nBeispiel: $\\frac{125.800}{34} = 3.700$ Stück. Ab dem 3.701. Stück entsteht Gewinn.\n\n**Merke:** BEP = Fixkosten / DB je Stück; darunter Verlust, darüber Gewinn.\n\n## Stückkosten und Fixkostendegression\n$\\text{Stückkosten} = \\frac{\\text{Fixkosten}}{\\text{Menge}} + \\text{variable Stückkosten}$\n\nMit steigender Menge sinken die Stückkosten, weil sich die Fixkosten auf mehr Stück verteilen → **Fixkostendegression**.\n\nBeispiel: bei 10.000 Stück: $\\frac{125.800}{10.000} + 65 = 12{,}58 + 65 = 77{,}58$ €; bei 20.000 Stück nur 6,29 + 65 = 71,29 €.\n\n**Merke:** Mehr Menge = geringere Fixkosten je Stück (Fixkostendegression).\n\n## Zuschlagskalkulation (Selbstkosten)\nFür Einzel- und Serienfertigung; Gemeinkosten werden per Zuschlagssatz auf Einzelkosten verteilt.\n\n```\n  Fertigungsmaterial\n+ Materialgemeinkosten (Zuschlag auf Material)\n= Materialkosten\n  Fertigungslöhne\n+ Fertigungsgemeinkosten (Zuschlag auf Löhne)\n= Fertigungskosten\n= Herstellkosten\n+ Verwaltungsgemeinkosten\n+ Vertriebsgemeinkosten\n= Selbstkosten\n```\n\nBeispiel: Material 10.000 € + 15 % MGK (1.500) = 11.500; Löhne 8.000 + 120 % FGK (9.600) = 17.600 → HK 29.100; + 10 % Verw./Vertrieb (2.910) = **32.010 € Selbstkosten**.\n\n**Merke:** Herstellkosten + Verwaltung + Vertrieb = Selbstkosten.\n\n## Vorwärts- und Rückwärtskalkulation (Angebotspreis)\nVom Selbstkostenpreis zum Verkaufspreis (Vorwärtskalkulation):\n$\\text{Selbstkosten} \\to + \\text{Gewinn} \\to \\text{Barverkaufspreis} \\to + \\text{Skonto/Rabatt} \\to \\text{Listenverkaufspreis}$\n\nRückwärtskalkulation: vom marktgegebenen Listenpreis zurück zum maximal tragbaren Einkaufspreis.\n\nBeispiel: Selbstkosten 100 € + 20 % Gewinn = 120 € Barverkaufspreis; + 2 % Skonto (i. H.) + 5 % Rabatt (i. H.) → Zielverkaufspreis 120 / 0,98 = 122,45 €; Listenpreis 122,45 / 0,95 ≈ 128,89 € netto.\n\n**Merke:** Gewinnzuschlag \"vom Hundert\" (auf die Selbstkosten), Skonto/Rabatt \"im Hundert\" – vorwärts vom Selbstkostenpreis.\n\n## Normalkosten und Kostenabweichung\n**Normalkosten** = durchschnittliche Istkosten vergangener Perioden, dienen als Kalkulationsgrundlage.\n\n- Istkosten **höher** als kalkuliert → **Kostenunterdeckung** (zu niedrig kalkuliert).\n- Istkosten **niedriger** → **Kostenüberdeckung**.\n\nBeispiel: kalkuliert (Normal) 50.000 €, tatsächlich (Ist) 53.000 € durch Materialpreiserhöhung → 3.000 € **Kostenunterdeckung**.\n\n**Merke:** Ist > Normal = Unterdeckung; Ist < Normal = Überdeckung.",
+      "sicherheit": "sicher"
+    }
+  ]
+}

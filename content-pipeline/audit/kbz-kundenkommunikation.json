@@ -1,0 +1,272 @@
+{
+  "thema": "kundenkommunikation",
+  "geprueft": {
+    "aufgaben": 100,
+    "lernpaare": 34,
+    "lernzettel": true,
+    "zusatz": 0
+  },
+  "befunde": [
+    {
+      "id": "kbz-2025s-a1-6",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug „Antwort 5“ auf eine Option; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: \"Sind Sie mit den ergriffenen Maßnahmen jetzt zufrieden?\" ist eine **geschlossene Frage** (nur mit Ja/Nein zu beantworten), nicht – wie behauptet – eine offene Frage. Fragetechnik und Frage stimmen hier nicht überein.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-kundenkommunikation-g1",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug „Antwort 2“ auf eine Option; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist „Möchten Sie die Ware abholen oder sollen wir liefern?“: Eine **Alternativfrage** bietet dem Gesprächspartner zwei Optionen zur Auswahl an.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-kundenkommunikation-g2",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug „Antwort 4“ auf eine Option; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist „Lieblingsfarbe des Kunden“: Die Lieblingsfarbe ist keine wesentliche Information. Datum/Uhrzeit, Teilnehmer und getroffene Entscheidungen gehören dagegen in jede Gesprächsnotiz.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-kundenkommunikation-g3",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug „Antwort 2“ auf eine Option; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist „Versand von Newslettern und Bonusaktionen“: **Newsletter und Bonus-/Rabattaktionen** binden Kunden an das Unternehmen.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-kundenkommunikation-g4",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug „Antwort 2“ auf eine Option; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist „schnelle und kundenfreundliche Reaktion“: Eine **schnelle und kundenfreundliche Reaktion** zeichnet gutes Beschwerdemanagement aus.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2024s-a3-3",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug „Antwort 3“ auf eine Option; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist „Die Fragetechniken sind zwingender Bestandteil einer jeden Kommunikation.“ (trifft NICHT zu): Fragetechniken sind **kein zwingender Bestandteil** einer jeden Kommunikation.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2022s-a1-1",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug „Aussage 5“ auf eine Option; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: „Bei Fragebögen per E-Mail besteht die Gefahr, dass diese als SPAM-Nachricht ignoriert werden.“ Es besteht die Gefahr, dass die E-Mail im SPAM-Ordner landet; zudem sind Nutzer von zeitraubenden Kundenbefragungen übersättigt und entsorgen die Mails ungelesen. Die übrigen Argumente sprechen nicht gegen, sondern für die Aktion.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2022w-a1-8",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug „Antwort 2“ auf eine Option; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Mit den Fragetechniken möchte man mehr Vertrauen schaffen und Gesprächsebenen öffnen.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2023s-a1-4",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug „Antwort 3“ auf eine Option; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Beziehungsebene, Appell, Selbstoffenbarung, Sachebene.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2023s-a1-5",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug „Antwort 2“ auf eine Option; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Offene Fragen sind gerade zu Beginn der Bedarfsermittlung wichtig.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2023w-a2-3",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug „Option 4“ auf eine Option; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: 'Sie lassen den Kunden ausreden und zeigen Verstaendnis.'",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2023w-a2-4",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug „Option 1“ auf eine Option; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Einwandvorwegnahme verfolgt das Ziel, die Bedenken des Gespraechspartners fruehzeitig auszuraeumen.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2024w-a1-5",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug „Aussage 4“ auf eine Option; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Ein Meilenstein ist die Fertigstellung eines Projektabschnitts oder Teilprojekts.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2024w-a1-7",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug „Aussage 2“ auf eine Option; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Die Aussage „Feedback soll auf Befindlichkeiten des Gegenübers keine Rücksicht nehmen …“ widerspricht einer wertschätzenden Feedbackregel: Feedback soll auf Befindlichkeiten des Gegenübers durchaus Rücksicht nehmen.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2024w-a1-8",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug „Aussage 4“ auf eine Option; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Am Ende des Gesprächs wichtige Vereinbarungen mit dem Kunden zusammenfassen.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2020s-a1-11",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug „Antwort 3“ auf eine Option; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Sie belohnen langjährige Kunden mit Sonderrabatten.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2020w-a2-9",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug „Antwort 4“ auf eine Option; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Sie lassen die Kundin ausreden und zeigen Verständnis.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2021s-a1-10",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug „Antwort 5“ auf eine Option; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Den Schuldigen für den Ärger klar benennen.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2025w-a1-1",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug „Aussage 2“ auf eine Option; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Bei der Primärforschung führt die Jana Loft KG selbst eine Befragung bei den Kunden durch.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2025w-a1-3",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug „Aussage 4“ auf eine Option; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Die Brandes GmbH & Co. KG zählt zu den wenigen Kunden mit einem sehr hohen Umsatzanteil.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2025w-a1-5",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Positionsbezug „Aussage 3“ auf eine Option; die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Beim 4-Ohren-Modell betrachtet man Beziehungsebene, Sachebene, Selbstoffenbarung und Appell.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2024w-a1-1",
+      "datei": "aufgaben/kbz",
+      "kategorie": "zuordnung",
+      "feld": "themaId",
+      "befund": "Frage nach den Merkmalen eines Projekts (fester Endtermin, Einmaligkeit, Komplexität, begrenzte Ressourcen) – reiner Projektmanagement-Inhalt.",
+      "vorschlag": "projektmanagement",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2024w-a1-2",
+      "datei": "aufgaben/kbz",
+      "kategorie": "zuordnung",
+      "feld": "themaId",
+      "befund": "Zusammenstellung eines Projektteams aus Abteilungen (Organigramm) – Projektmanagement/Projektorganisation, kein Kundenkommunikations-Inhalt.",
+      "vorschlag": "projektmanagement",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2024w-a1-3",
+      "datei": "aufgaben/kbz",
+      "kategorie": "zuordnung",
+      "feld": "themaId",
+      "befund": "Regeln guter Teamarbeit im Projektteam (erste Projektsitzung) – gehört eher zu Projektmanagement (Teamarbeit im Projekt) als zur Kundenkommunikation.",
+      "vorschlag": "projektmanagement",
+      "sicherheit": "unsicher"
+    },
+    {
+      "id": "kbz-2024w-a1-4",
+      "datei": "aufgaben/kbz",
+      "kategorie": "zuordnung",
+      "feld": "themaId",
+      "befund": "Fragen vor Auftragsannahme (Kapazität, Material, Bonität, Vorfinanzierung) im Projektkontext – Projektplanung/Machbarkeitsprüfung, keine Kundenkommunikation.",
+      "vorschlag": "projektmanagement",
+      "sicherheit": "unsicher"
+    },
+    {
+      "id": "kbz-2024w-a1-5",
+      "datei": "aufgaben/kbz",
+      "kategorie": "zuordnung",
+      "feld": "themaId",
+      "befund": "Definition eines Meilensteins – eindeutig Projektmanagement.",
+      "vorschlag": "projektmanagement",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2024w-a1-6",
+      "datei": "aufgaben/kbz",
+      "kategorie": "zuordnung",
+      "feld": "themaId",
+      "befund": "Maßnahmen für erfolgreiche Projektarbeit (Moderator, Vereinbarungen, Dokumentation, Meilensteine) – eindeutig Projektmanagement.",
+      "vorschlag": "projektmanagement",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2022s-a4-61",
+      "datei": "aufgaben/kbz",
+      "kategorie": "zuordnung",
+      "feld": "themaId",
+      "befund": "Ergänzung einer Stellenbeschreibung um Anforderungen (Qualifikationen) ist ein Personalwirtschafts-Inhalt (Stellenbeschreibung/Anforderungsprofil); der Hotline-Bezug ist nur Sachverhalt.",
+      "vorschlag": "personalwirtschaft",
+      "sicherheit": "unsicher"
+    },
+    {
+      "id": "kbz-2023s-a1-5",
+      "datei": "aufgaben/kbz",
+      "kategorie": "sonstiges",
+      "feld": "text",
+      "befund": "Übertragungsfehler im Aufgabentext mit Sinnverlust: „Geben Sie möglichst offene Fragen ein, in welcher Gesprächsphase …“ ist grammatisch kaputt (offenbar doppelt eingefügte Phrase). Gemeint ist laut Optionen „Geben Sie an, in welcher Gesprächsphase …“ (vgl. gleichlautende Aufgabe kbz-2020w-a1-3). Kein inhaltlicher Eingriff in den Originaltext, nur Korrektur des Transkriptionsfehlers.",
+      "vorschlag": "Im Workshop geht es auch um Beratungsgespräche. Sie gliedern sich in die Gesprächsphasen Begrüßung, Bedarfsermittlung, Beratung/Lösung und Gesprächsabschluss. Geben Sie an, in welcher Gesprächsphase Sie möglichst offene Fragen einsetzen sollten!",
+      "sicherheit": "unsicher"
+    }
+  ]
+}

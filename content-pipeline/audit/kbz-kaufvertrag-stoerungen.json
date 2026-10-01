@@ -1,0 +1,637 @@
+{
+  "thema": "kaufvertrag-stoerungen",
+  "geprueft": {
+    "aufgaben": 185,
+    "lernpaare": 36,
+    "lernzettel": true,
+    "zusatz": 0
+  },
+  "befunde": [
+    {
+      "id": "kbz-2025s-a1-1",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Antwort 4 ist richtig“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Es handelt sich um ein zweiseitiges Handelsgeschäft, weil beide Kaufvertragspartner (Jana Loft KG und Müller Objekteinrichtungs KG) Kaufleute sind und ein Handelsgeschäft betreiben.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2025s-a1-2",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Antwort 3 ist richtig“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Nach der kaufmännischen Untersuchungs- und Rügepflicht (§ 377 HGB) muss die Müller Objekteinrichtungs KG die Ware unverzüglich prüfen und offene (direkt erkennbare) Mängel sofort rügen.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2025s-a3-1",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Antwort 4 ist richtig“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Das befristete Angebot ohne Freizeichnungsklausel ist der **verbindliche Antrag** zu einem möglichen Kaufvertrag.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2025s-a3-4",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Antwort 3 ist richtig“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Die Auftragsbestätigung ist die **Annahme des Antrags** zum Abschluss des Kaufvertrages (da der Kunde mit der Bestellung den Antrag gestellt hat).",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2025s-a3-7",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Antwort 4 ist richtig“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Die Abschlagszahlung ist ein Anerkenntnis der Schuld; dadurch **beginnt die Verjährungsfrist neu zu laufen** (Neubeginn der Verjährung).",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-kaufvertrag-stoerungen-g1",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Richtig ist Antwort 2“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Die Bestellung ist die **Annahme** des verbindlichen Antrags; der Kaufvertrag kommt zustande.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-kaufvertrag-stoerungen-g2",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Richtig ist Antwort 2“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Die regelmäßige Verjährungsfrist beträgt **3 Jahre** und beginnt zum **Jahresende** (31.12.) des Entstehungsjahres.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-kaufvertrag-stoerungen-g3",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Richtig ist Antwort 3“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Ein sofort erkennbarer Schaden ist ein **offener Mangel** und muss unverzüglich gerügt werden.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-kaufvertrag-stoerungen-g4",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Richtig ist Antwort 2“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Ohne Reaktion des Schuldners erhält der Gläubiger einen **vollstreckbaren Titel** und kann die **Zwangsvollstreckung** einleiten.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2024s-a1-2",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Antwort 3 ist richtig“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Da der gesetzliche Gerichtsstand gilt, muss die Jana Loft KG **am Ort des Schuldners (Beklagten) klagen**.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2024s-a1-4",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Antwort 3 ist richtig“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Ein schneller Zahlungseingang unter Skontoabzug **erhöht die Liquidität** der Jana Loft KG.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2024s-a2-4",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Antwort 4 ist richtig“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Bei einem langjährigen, zuverlässigen Kunden ist zunächst eine **Zahlungserinnerung** angemessen.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2024s-a2-7",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Antwort 1 ist richtig“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Der **Vollstreckungsbescheid ist ein vollstreckbarer Titel**, der es dem Gläubiger gestattet, beim Schuldner pfänden zu lassen.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2022w-a1-4",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Antwort 3“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Der Käufer wird erst Eigentümer der Ware, wenn diese vollständig bezahlt wurde.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2022w-a1-5",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Antwort 5“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Ein schneller Zahlungseingang unter Skontoabzug erhöht die Liquidität des Verkäufers.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2022w-a2-1",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Antwort 4“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Es ist ein verbindlicher Antrag zum Abschluss eines Kaufvertrages.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2022w-a2-3",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Antwort 1“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Kalendermäßig nicht bestimmbarer oder bestimmter Termin.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2022w-a2-4",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Antwort 3“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Mahnung und Nachfristsetzung waren in diesem Fall erforderlich, damit der Käufer vom Kaufvertrag zurücktreten kann.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2023s-a2-4",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Richtig ist Antwort 4“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Die Jana Loft KG bleibt so lange Eigentümerin der Ware, bis alle offenen Rechnungen des Kunden bezahlt sind.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2023s-a2-5",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Richtig ist Antwort 1“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Die Jana Loft KG müsste sich ansonsten zum Einklagen einer offenen Forderung an das Gericht am Geschäftssitz ihres Kunden wenden.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2023s-a2-7",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Richtig ist Antwort 3“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: 30 Tage nach Rechnungseingang.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2023s-a3-1",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Richtig ist Antwort 4“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Es ist die Annahme des Angebots, die zu einem Kaufvertrag führt.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2023s-a3-2",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Richtig ist Antwort 5“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Mit der Anfechtung wird ein bestehender Kaufvertrag unwirksam.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2023w-a1-2",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Richtig ist Option 5“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: '25.11.2023 fest'.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2023w-a3-3",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Richtig ist Option 4“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Der Anbieter ist in allen Punkten an das Angebot gebunden.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2023w-a3-4",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Richtig ist Option 2“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Beim Zahlungsverzug kann der Verkaeufer die Herausgabe anderer, von ihm an den Kaeufer gelieferter Waren, verlangen.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2023w-a3-5",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Richtig ist Option 5“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Der Gerichtsstand ist immer da, wo der jeweilige Schuldner seinen Geschaeftssitz hat.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2023w-a3-9",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Richtig ist Option 2“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Der Kaeufer erhaelt einen finanziellen Vorteil.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2024w-a3-1",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Richtig ist Aussage 5“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Die telefonische Einigung am 17.10. führt zum Kaufvertrag, da hier übereinstimmende Willenserklärungen (Antrag und Annahme) über den geänderten Rabatt vorliegen.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2024w-a3-3",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Richtig ist Aussage 3“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Der Käufer wird erst Eigentümer der Ware, wenn diese vollständig bezahlt wurde.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2024w-a3-5",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Richtig ist Aussage 1“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Es liegt ein zweiseitiger Handelskauf vor, da beide Vertragspartner Kaufleute sind.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2020s-a1-5",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Richtig ist Antwort 4“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Ja, weil zwei übereinstimmende Willenserklärungen vorliegen.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2020s-a2-1",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Richtig ist Antwort 5“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Sie dient der Anbahnung eines Kaufvertrags, der dann mit einem anschließenden Antrag und dessen Annahme zustande kommt.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2020s-a2-3",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Richtig ist Antwort 2“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Der Skontoabzug war nicht berechtigt und das Unternehmen hat sich aus Kulanz gegen eine Nachforderung entschieden.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2020w-a2-7",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Antwort 5“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Um einen offenen Mangel: Falschlieferung.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2020w-a2-8",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Antwort 2“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Ersatzlieferung.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2020w-a3-1",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Antwort 1“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Es ist ein verbindlicher Antrag zum Kaufvertrag.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2020w-a3-2",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Antwort 3“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Die Bestellung des Kunden ist ein neuer Antrag.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2021s-a1-2",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Richtig ist Antwort 4“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Nach Ablauf der Verjährungsfrist verliert das Unternehmen die Möglichkeit, seine Ansprüche an die Kunden gerichtlich durchzusetzen.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2021s-a1-5",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Richtig ist Antwort 2“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Ab 11.03.2021.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2021s-a2-1",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Richtig ist Antwort 5“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Es ist der verbindliche Antrag zu einem Kaufvertrag.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2021s-a2-2",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Richtig ist Antwort 3“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Die Bestellung des Kunden ist ein neuer Antrag.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2018s-a3-1",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Richtig ist Aussage 3“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Die Anfrage dient der Anbahnung eines Kaufvertrages, der erst mit einem anschließenden Antrag und dessen Annahme zustande kommt.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2018s-a3-2",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Richtig ist Aussage 3“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Die Bestellung ist ein neuer Antrag.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2018w-a1-2",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Richtig ist Aussage 4“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Die Lieferung der Rollcontainer ist ein Mangel in der Art (Falschlieferung), der beschädigte Konferenztisch ein Mangel in der Beschaffenheit.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2018w-a1-4",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Richtig ist Aussage 4“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Das Recht auf Rücktritt steht dem Kunden nicht vorrangig zu, sondern erst, wenn die Nacherfüllung scheitert.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2018w-a2-1",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Richtig ist Aussage 2“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Das Angebot vom 28.09.2018 ist ein verbindlicher Antrag für einen Kaufvertrag.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2018w-a2-3",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Richtig ist Aussage 5“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Der Kunde wird mit Eingang des Rechnungsbetrages beim Verkäufer am 19.11.2018 Eigentümer der Aktenschränke.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2018w-a2-4",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Richtig ist Aussage 1“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Ein schneller Zahlungseingang unter Skontoabzug erhöht die Liquidität des Verkäufers.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2018w-a2-5",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Richtig ist Aussage 3“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Der Preisnachlass war die richtige Entscheidung. Er beruhigt einen verärgerten Kunden, unabhängig davon, ob wirklich eine handelsübliche Abweichung vorliegt.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2025w-a2-1",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Richtig ist Aussage 3“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Die Feder GmbH kann die Mehrkosten erst in Rechnung stellen, wenn sie eine angemessene Nachfrist gesetzt hat und die Jana Loft KG in dieser Zeit nicht liefert.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2025w-a2-4",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Richtig ist Aussage 4“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Die Auftragsbestätigung ist die Annahme des Antrags der Feder GmbH.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2025w-a2-6",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Richtig ist Aussage 2“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Die Jana Loft KG muss bei Zahlungsstreitigkeiten bei dem für Korbach zuständigen Gericht klagen.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2022s-a2-4",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Richtig ist Aussage 1.“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Da es sich um einen offenen Mangel handelt, muss unverzüglich gerügt werden. Da der Mangel im Rahmen der Eingangsprüfung entdeckt wurde, liegt in beiden Fällen ein offener Mangel bei einem zweiseitigen Handelskauf vor, der unverzüglich gerügt werden muss (§ 377 HGB).",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2022s-a2-5",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Richtig ist Aussage 3.“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Nachbesserung oder Ersatzlieferung. Vorrangiges Gewährleistungsrecht ist die Nacherfüllung durch Ersatzlieferung oder Mängelbeseitigung (Nachbesserung). Alle anderen Aussagen enthalten ein nachrangiges Gewährleistungsrecht.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2022s-a3-1",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Richtig ist Aussage 4.“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Sie dient der Anbahnung eines Kaufvertrages, der dann mit einem anschließenden Antrag und dessen Annahme zustande kommt. Die Werbeanzeige dient lediglich der Anbahnung eines Kaufvertrages. Dieser kommt erst durch die zwei übereinstimmenden Willenserklärungen Antrag und Annahme zustande. Eine Werbeanzeige ist keine bindende Willenserklärung.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2022s-a3-2",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Richtig ist Aussage 2.“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Die Auftragsbestätigung ist die Annahme des Antrags und führt zum Abschluss des Kaufvertrages. Die Bestellung des Kunden ist die erste Willenserklärung zum Abschluss des Kaufvertrages (Antrag). Mit der Auftragsbestätigung nimmt der Verkäufer den Antrag an – zu den Konditionen der Bestellung. Damit liegen zwei übereinstimmende Willenserklärungen vor und der Kaufvertrag ist geschlossen.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2022s-a3-6",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Richtig ist Aussage 5.“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig ist: Durch die Teilzahlung beginnt die Verjährungsfrist neu zu laufen. Die Teilzahlung bedeutet ein Anerkenntnis des Anspruchs. Die bereits abgelaufene Verjährungsfrist wird nicht beachtet; die Verjährungsfrist beginnt vom Zeitpunkt des Neubeginns an in voller Länge erneut zu laufen.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2023w-a1-3",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Richtig sind Option 2 und Option 5.“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig sind: „Der Kaeufer kann einen konkreten und abstrakten Schadensersatz verlangen.“ und „Eine Vertragsstrafe bei Nicht-Rechtzeitig-Lieferung wird haeufig vereinbart, um Streitigkeiten bei der Schadenshoehe zu vermeiden.“",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2024w-a2-2",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Terminkauf (Antwort 2):“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Es handelt sich um einen Terminkauf: Die Lieferung soll zu einem bestimmten Termin erfolgen.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2021s-a2-5",
+      "datei": "aufgaben/kbz",
+      "kategorie": "position",
+      "feld": "loesung",
+      "befund": "Lösung verweist auf Optionsposition („Richtig sind Antwort 2 (Da es sich um einen offenen Mangel handelt, muss unverzüglich gerügt werden) und Antwort 4 (Die Prüfung der Konferenztische muss unverzüglich nach Lieferung erfolgen).“); die Optionen werden zur Laufzeit gemischt.",
+      "vorschlag": "Richtig sind: „Da es sich um einen offenen Mangel handelt, muss unverzüglich gerügt werden“ und „Die Prüfung der Konferenztische muss unverzüglich nach Lieferung erfolgen“.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2025s-a3-3",
+      "datei": "aufgaben/kbz",
+      "kategorie": "fachlich",
+      "feld": "loesung",
+      "befund": "Laut Anlage war das Angebot vom 06.11.2024 befristet bis 15.11.2024; die Bestellung kam erst am 18.11.2024, also nach Fristablauf. Die verspätete Annahme gilt als neuer Antrag (§§ 148, 150 Abs. 1 BGB) – sie ist keine Annahme und lässt keinen Vertrag entstehen. Die Musterlösung widerspricht damit auch Aufgabe 3.4 (kbz-2025s-a3-4), wo die Auftragsbestätigung vom 19.11.2024 korrekt als Annahme gilt.",
+      "vorschlag": "Die Bestellung vom 18.11.2024 ist ein **neuer Antrag**. Begründung: Das Angebot war nur bis zum 15.11.2024 befristet; die Bestellung ging erst nach Ablauf dieser Frist ein. Eine verspätete Annahme gilt als neuer Antrag (§ 150 Abs. 1 BGB). Der Kaufvertrag kommt erst mit der Annahme dieses Antrags durch die Auftragsbestätigung der Jana Loft KG am 19.11.2024 zustande.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2025s-a3-5",
+      "datei": "aufgaben/kbz",
+      "kategorie": "fachlich",
+      "feld": "loesung",
+      "befund": "Die Zahlungsfrist (26.11.2024 + 30 Tage) endet am 26.12.2024, dem 2. Weihnachtsfeiertag (gesetzlicher Feiertag). Nach § 193 BGB tritt bei Leistungsfristen an die Stelle eines Sonn- oder Feiertags der nächste Werktag, hier Freitag, 27.12.2024. Rechtlich beginnt der Verzug damit erst am 28.12.2024 (Musterlösung: 27.12.2024). Möglicherweise hat der IHK-Lösungsbogen 27.12.2024 angesetzt, deshalb unsicher. Der Kalenderauszug in der Aufgabe deutet jedoch darauf hin, dass Wochen- und Feiertage beachtet werden sollen.",
+      "vorschlag": "Die Bürowelt Ökoline GmbH befindet sich ab dem **28.12.2024** im Zahlungsverzug. Rechnungsdatum 26.11.2024 + 30 Tage Zahlungsziel = 26.12.2024. Dieser Tag ist ein gesetzlicher Feiertag (2. Weihnachtstag), daher verschiebt sich das Fristende auf den nächsten Werktag, Freitag, 27.12.2024 (§ 193 BGB). Verzug tritt ab dem Folgetag ein. (Hinweis: Ohne Berücksichtigung des Feiertags ergäbe sich der 27.12.2024.)",
+      "sicherheit": "unsicher"
+    },
+    {
+      "id": "kbz-2025s-a3-8",
+      "datei": "aufgaben/kbz",
+      "kategorie": "fachlich",
+      "feld": "loesung",
+      "befund": "Beim Neubeginn der Verjährung (§ 212 BGB) läuft die 3-Jahres-Frist taggenau ab dem Anerkenntnis neu. Die Jahresend-Regel (§ 199 BGB) gilt nur für den erstmaligen Beginn der regelmäßigen Verjährung, nicht für einen Neubeginn. Abschlagszahlung am 22.04.2025, also endet die Verjährung mit Ablauf des 22.04.2028 (nicht 31.12.2028). Die Aufgaben kbz-2024s-a2-5 (Westmoor KG: verjährt ab 23.04.2027) und kbz-2021s-a1-1 (Kunde C: 20.04.2024) rechnen bereits korrekt taggenau.",
+      "vorschlag": "Das neue Ende der Verjährung tritt mit Ablauf des **22.04.2028** ein. Die Abschlagszahlung am 22.04.2025 ist ein Anerkenntnis; dadurch beginnt die 3-jährige Verjährungsfrist neu zu laufen (§ 212 BGB), und zwar taggenau ab dem Anerkenntnis und nicht erst zum Jahresende. Ende somit mit Ablauf des 22.04.2028.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-kaufvertrag-stoerungen-v2",
+      "datei": "aufgaben/kbz",
+      "kategorie": "fachlich",
+      "feld": "loesung",
+      "befund": "Gleicher Fehler wie in kbz-2025s-a3-8: Der Neubeginn nach § 212 BGB läuft taggenau ab dem Anerkenntnis (15.05.2026), nicht ab dem Jahresende. Die Verjährung endet also mit Ablauf des 15.05.2029 (nicht 31.12.2029).",
+      "vorschlag": "Das neue Ende der Verjährung tritt mit Ablauf des **15.05.2029** ein. Die Abschlagszahlung ist ein Anerkenntnis, wodurch die 3-jährige Verjährungsfrist neu beginnt (§ 212 BGB), und zwar taggenau ab dem 15.05.2026, nicht erst zum Jahresende. Ende somit mit Ablauf des 15.05.2029.",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2024w-a3-4",
+      "datei": "aufgaben/kbz",
+      "kategorie": "fachlich",
+      "feld": "korrekt",
+      "befund": "Als richtig markiert ist „versteckter Mangel, Rügefrist 1 Jahr“. Das ist falsch: Ein 10 cm langer und 2 cm tiefer Kratzer, der bei der Wareneingangskontrolle festgestellt wurde, ist ein offener Mangel. Beim zweiseitigen Handelskauf muss er unverzüglich gerügt werden (§ 377 Abs. 1 HGB). Eine Rügefrist von 1 Jahr gibt es nicht. Richtig ist die Option „offener Mangel, der unverzüglich gerügt werden muss“ (Index 3). Wahrscheinlich hat der Lösungshinweis „Antwort 3“ eine andere Optionsreihenfolge gemeint.",
+      "vorschlag": [
+        3
+      ],
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2024w-a3-4",
+      "datei": "aufgaben/kbz",
+      "kategorie": "fachlich",
+      "feld": "loesung",
+      "befund": "Die Lösung enthält nur einen Positionsverweis („Aussage 3“, „Antwort 3“) und keine inhaltliche Antwort. Sie passt nicht zur fachlich richtigen Option (offener Mangel, unverzügliche Rüge).",
+      "vorschlag": "Richtig ist: Es handelt sich um einen offenen Mangel, der unverzüglich gerügt werden muss. Der Kratzer wurde bei der Wareneingangskontrolle festgestellt und war damit bei ordnungsgemäßer Prüfung sofort erkennbar. Beim zweiseitigen Handelskauf muss ein offener Mangel unverzüglich gerügt werden, sonst gilt die Ware als genehmigt (§ 377 HGB).",
+      "sicherheit": "sicher"
+    },
+    {
+      "id": "kbz-2024s-a2-6",
+      "datei": "aufgaben/kbz",
+      "kategorie": "fachlich",
+      "feld": "korrekt",
+      "befund": "Als richtig markiert ist nur „Mit Ablauf der Verjährungsfrist hat die Jana Loft KG keine Ansprüche mehr auf die Zahlung der Kunden“ (laut Lösung offizieller Schlüssel). Rechtlich erlischt der Anspruch aber nicht. Der Schuldner erhält nur ein Leistungsverweigerungsrecht (Einrede, § 214 BGB). Die Option „… kann der Schuldner die Einrede der Verjährung geltend machen und die Jana Loft KG verliert dann die Möglichkeit, ihre Ansprüche gerichtlich durchzusetzen“ (Index 4) ist rechtlich zutreffend. Bei kbz-2021s-a1-2 und kbz-2017w-a3-7 ist auch genau diese Formulierung als richtig markiert. Vorschlag: beide Optionen als richtig werten, damit sowohl der IHK-Schlüssel als auch die Rechtslage abgedeckt sind. Unsicher, weil der offizielle Schlüssel abweicht.",
+      "vorschlag": [
+        3,
+        4
+      ],
+      "sicherheit": "unsicher"
+    },
+    {
+      "id": "kbz-2024s-a2-6",
+      "datei": "aufgaben/kbz",
+      "kategorie": "fachlich",
+      "feld": "loesung",
+      "befund": "Positionsverweis („**Antwort 4** ist richtig“); die Optionen werden zur Laufzeit gemischt. Zusätzlich ist die Aussage fachlich ungenau: Die Verjährung lässt den Anspruch nicht erlöschen, sondern gibt dem Schuldner eine Einrede (§ 214 BGB). Die Lösung wird passend zum Korrekt-Befund ergänzt.",
+      "vorschlag": "Richtig ist (laut offizieller Musterlösung): Mit Ablauf der Verjährungsfrist hat die Jana Loft KG **keine (durchsetzbaren) Ansprüche mehr** auf die Zahlung der Kunden. Rechtlich präziser: Der Anspruch erlischt nicht, aber der Schuldner kann die **Einrede der Verjährung** erheben (§ 214 BGB). Die Jana Loft KG kann ihre Forderung dann nicht mehr gerichtlich durchsetzen. Zahlt der Schuldner trotzdem, darf sie das Geld behalten.",
+      "sicherheit": "unsicher"
+    }
+  ]
+}
