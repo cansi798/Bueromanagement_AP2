@@ -5,7 +5,8 @@ import { join } from 'node:path'
 // Optionen werden zur Laufzeit gemischt (mischeOptionen) — Lösungs-/Erklärungs-
 // texte dürfen deshalb nie auf Positionen verweisen. Vorerst nur KBZ;
 // WiSo hat noch 153 Altfälle (audit-report, eigene Runde).
-const MUSTER = /\b(Antwort|Option)\s*\d|\b(erste|zweite|dritte|vierte|fünfte|letzte)n?\s+(Option|Antwort)/i
+const MUSTER =
+  /\b(Antwort|Option)\s*\d|\b(erste|zweite|dritte|vierte|fünfte|letzte)n?\s+(Option|Antwort)|\bAussage\s*\d|\bKennziffern?\s*\[/i
 
 function eintraege(datei: string) {
   return JSON.parse(readFileSync(join(__dirname, '..', 'public', 'data', datei), 'utf8')) as {

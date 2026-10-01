@@ -993,7 +993,7 @@
   },
   {
     "id": "kbz-lp-rechnung-umsatzsteuer-16",
-    "themaId": "rechnung-umsatzsteuer",
+    "themaId": "kostenrechnung",
     "bereich": "kbz",
     "frage": "In welcher Reihenfolge wird der Bezugspreis (Einstandspreis) einer Ware korrekt ermittelt?",
     "optionen": [
@@ -1010,7 +1010,7 @@
   },
   {
     "id": "kbz-lp-rechnung-umsatzsteuer-17",
-    "themaId": "rechnung-umsatzsteuer",
+    "themaId": "kostenrechnung",
     "bereich": "kbz",
     "frage": "Die Möbelwerk KG kauft Rohholz: Listeneinkaufspreis 2.500,00 €, Liefererrabatt 20 %, Liefererskonto 2 %, Bezugskosten (Fracht) 65,00 €. Berechnen Sie den Bezugspreis!",
     "optionen": [
@@ -3318,7 +3318,7 @@
     "korrekt": [
       0
     ],
-    "erklaerung": "Am Break-even-Point gilt: **Erlöse = Gesamtkosten**, also Gewinn = 0; der gesamte Deckungsbeitrag deckt hier genau die Fixkosten. Falsch: Würden die Erlöse nur die Fixkosten oder nur die variablen Kosten decken, läge man noch unter der Gewinnschwelle. Der Deckungsbeitrag **je Stück** (Preis − variable Stückkosten) ist am BEP nicht null – null ist die Summe aus Deckungsbeitrag und Fixkosten. Und der Gewinn ist am BEP nicht maximal, sondern beginnt dort erst zu entstehen.",
+    "erklaerung": "Am Break-even-Point gilt: **Erlöse = Gesamtkosten**, also Gewinn = 0; der gesamte Deckungsbeitrag deckt hier genau die Fixkosten. Falsch: Würden die Erlöse nur die Fixkosten oder nur die variablen Kosten decken, läge man noch unter der Gewinnschwelle. Der Deckungsbeitrag **je Stück** (Preis − variable Stückkosten) ist am BEP nicht null – null ist die Differenz aus Gesamtdeckungsbeitrag und Fixkosten (= Gewinn). Und der Gewinn ist am BEP nicht maximal, sondern beginnt dort erst zu entstehen.",
     "schwierigkeit": 1,
     "quellTermin": "2025-winter"
   },

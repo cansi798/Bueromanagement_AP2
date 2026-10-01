@@ -26,6 +26,13 @@ function alleTexte(): Text[] {
   return raus
 }
 
+// KBZ-Texte (ohne Optionen) — für Regeln, deren Altfälle nur im KBZ-Audit geprüft sind.
+const KBZ = /^(aufgaben|lernpaare|themen)\/kbz\.json$/
+const kbzTexte = () => alleTexte().filter((t) => KBZ.test(t.quelle) && !t.istOption)
+
+// Satzweise Zerlegung (Satzende oder Zeilenumbruch).
+const saetze = (text: string) => text.split(/(?<=[.!?])\s+|\n+/)
+
 // Betrag 5.000 € ohne führende Ziffer (nicht 15.000 / 25.000).
 const FUENFTAUSEND = /(?<![\d.])5\.000(,00)?\s*€/
 
@@ -36,7 +43,7 @@ describe('Rechtsstand 2026', () => {
         !t.istOption &&
         /(Amts|Land)gericht|Streitwert/i.test(t.text) &&
         FUENFTAUSEND.test(t.text) &&
-        !/Zum Prüfungszeitpunkt/.test(t.text),
+        !/Zum Prüfungszeitpunkt|Bis 31\.12\.2025/.test(t.text),
     )
     expect(veraltet.map((t) => `${t.quelle}:${t.id}`)).toEqual([])
   })
@@ -55,5 +62,32 @@ describe('Rechtsstand 2026', () => {
         }
     }
     expect(falsch).toEqual([])
+  })
+
+  it('Buchungsbelege/Rechnungen: 8 Jahre Aufbewahrung (BEG IV, seit 01.01.2025)', () => {
+    // Satzweise: Beleg/Rechnung + „10 Jahre" im selben Satz ist veraltet —
+    // außer der Satz nennt zugleich die 8 Jahre bzw. ist ein Prüfungszeitpunkt-Vermerk.
+    // (10 Jahre bleiben richtig für Handelsbücher, Inventare, Jahresabschlüsse.)
+    const veraltet: string[] = []
+    for (const t of kbzTexte())
+      for (const s of saetze(t.text))
+        if (
+          /Beleg|Rechnung|(Eingangs|Ausgangs)rechnung/.test(s) &&
+          /\b(10|zehn)\s*Jahre/i.test(s) &&
+          !/\b(8|acht)\s*(Jahre|Belege)/i.test(s) &&
+          !/Zum Prüfungszeitpunkt/.test(s)
+        )
+          veraltet.push(`${t.quelle}:${t.id}`)
+    expect(veraltet).toEqual([])
+  })
+
+  it('Betroffenenrechte: DSGVO statt BDSG a. F. (seit 25.05.2018)', () => {
+    const veraltet = kbzTexte().filter(
+      (t) =>
+        /BDSG|Bundesdatenschutzgesetz/.test(t.text) &&
+        /Auskunft|Berichtigung|Löschung|Sperrung|Rechte/.test(t.text) &&
+        !/DSGVO|Datenschutz-Grundverordnung/.test(t.text),
+    )
+    expect(veraltet.map((t) => `${t.quelle}:${t.id}`)).toEqual([])
   })
 })

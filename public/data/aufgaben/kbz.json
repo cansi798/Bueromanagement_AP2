@@ -262,7 +262,7 @@
     "typ": "offen",
     "text": "**Aufgabe 3.3** — Stellen Sie fest, welche rechtliche Bedeutung die Bestellung der Bürowelt Ökoline GmbH vom 18.11.2024 hat! Begründen Sie Ihre Antwort!",
     "punkte": 2,
-    "loesung": "Mit der Bestellung vom 18.11.2024 **entsteht ein neuer Kaufvertrag**, da das befristete (verbindliche) Angebot innerhalb der Frist angenommen wurde. Die Bestellung ist die **Annahme** des verbindlichen Antrags."
+    "loesung": "Die Bestellung vom 18.11.2024 ist ein **neuer Antrag**. Begründung: Das Angebot war nur bis zum 15.11.2024 befristet; die Bestellung ging erst nach Ablauf dieser Frist ein. Eine verspätete Annahme gilt als neuer Antrag (§ 150 Abs. 1 BGB). Der Kaufvertrag kommt erst mit der Annahme dieses Antrags durch die Auftragsbestätigung der Jana Loft KG am 19.11.2024 zustande."
   },
   {
     "id": "kbz-2025s-a3-4",
@@ -295,7 +295,7 @@
     "text": "**Aufgabe 3.5** — Geben Sie mithilfe des Kalenderauszugs an, an welchem Tag sich die Bürowelt Ökoline GmbH im Zahlungsverzug befindet! Tragen Sie das Datum (TT.MM.JJJJ) ein!",
     "anlagenText": "**Kalenderauszug November/Dezember 2024:**\n\n| KW | Mo | Di | Mi | Do | Fr | Sa | So |\n|---|---|---|---|---|---|---|---|\n| 44 | | | | | 1.11. | 2.11. | 3.11. |\n| 45 | 4.11. | 5.11. | 6.11. | 7.11. | 8.11. | 9.11. | 10.11. |\n| 46 | 11.11. | 12.11. | 13.11. | 14.11. | 15.11. | 16.11. | 17.11. |\n| 47 | 18.11. | 19.11. | 20.11. | 21.11. | 22.11. | 23.11. | 24.11. |\n| 48 | 25.11. | 26.11. | 27.11. | 28.11. | 29.11. | 30.11. | 1.12. |\n| 49 | 2.12. | 3.12. | 4.12. | 5.12. | 6.12. | 7.12. | 8.12. |\n| 50 | 9.12. | 10.12. | 11.12. | 12.12. | 13.12. | 14.12. | 15.12. |\n| 51 | 16.12. | 17.12. | 18.12. | 19.12. | 20.12. | 21.12. | 22.12. |\n| 52 | 23.12. | 24.12. | 25.12. | 26.12. | 27.12. | 28.12. | 29.12. |\n| 1 | 30.12. | 31.12. | | | | | |\n\nRechnung vom 26.11.2024, Zahlungsziel 30 Tage ab Rechnungsdatum.",
     "punkte": 2.17391,
-    "loesung": "Die Bürowelt Ökoline GmbH befindet sich ab dem **27.12.2024** im Zahlungsverzug (Rechnungsdatum 26.11.2024 + 30 Tage Zahlungsziel = 26.12.2024; Verzug ab dem Folgetag)."
+    "loesung": "Die Bürowelt Ökoline GmbH befindet sich ab dem **28.12.2024** im Zahlungsverzug. Rechnungsdatum 26.11.2024 + 30 Tage Zahlungsziel = 26.12.2024. Dieser Tag ist ein gesetzlicher Feiertag (2. Weihnachtstag), daher verschiebt sich das Fristende auf den nächsten Werktag, Freitag, 27.12.2024 (§ 193 BGB). Verzug tritt ab dem Folgetag ein. (Hinweis: Der offizielle Lösungsbogen nennt den 27.12.2024; dabei ist der Feiertag nicht berücksichtigt.)"
   },
   {
     "id": "kbz-2025s-a3-6",
@@ -339,7 +339,7 @@
     "typ": "offen",
     "text": "**Aufgabe 3.8** — Geben Sie an, mit Ablauf welchen Datums (TT.MM.JJJJ) das neue Ende der Verjährung aufgrund der Abschlagszahlung eintritt!",
     "punkte": 2,
-    "loesung": "Das neue Ende der Verjährung tritt mit Ablauf des **31.12.2028** ein. Die Abschlagszahlung am 22.04.2025 lässt die 3-jährige Verjährungsfrist neu beginnen (Beginn zum Jahresende 31.12.2025), Ende somit 31.12.2028."
+    "loesung": "Das neue Ende der Verjährung tritt mit Ablauf des **22.04.2028** ein. Die Abschlagszahlung am 22.04.2025 ist ein Anerkenntnis; dadurch beginnt die 3-jährige Verjährungsfrist neu zu laufen (§ 212 BGB), und zwar taggenau ab dem Anerkenntnis und nicht erst zum Jahresende. Ende somit mit Ablauf des 22.04.2028."
   },
   {
     "id": "kbz-2025s-a3-9",
@@ -608,7 +608,7 @@
     "text": "**Aufgabe 5.5** — Kontieren Sie den Eingang des in Aufgabe 5.4 berechneten Überweisungsbetrags auf dem Konto der Jana Loft KG bei der Hamburger Sparkasse!",
     "anlagenText": "Überweisungsbetrag 11.086,28 €. Skontoabzug des Kunden mindert Umsatzerlöse (Erlösberichtigung 5101) und Umsatzsteuer (4800). Konten: 2800 Hamburger Sparkasse, 4800 Umsatzsteuer, 5101 Erlösberichtigungen, 2404 Westmoor KG.",
     "punkte": 2.17391,
-    "loesung": "Buchungssatz (Zahlungseingang mit Skontoabzug):\n\n**2800 (Hamburger Sparkasse) 11.086,28 €**\n**5101 (Erlösberichtigungen) 155,29 €** (Skonto-Netto)\n**4800 (Umsatzsteuer 19 %) 29,51 €** (USt auf Skonto)\nan **2404 (Westmoor KG) 11.271,08 €**\n\n(Hinweis der Musterlösung: Soll 2800 und 4800, Haben 5101 – der Skontobetrag mindert Erlöse und USt; der offene Forderungsbetrag wird ausgeglichen.)"
+    "loesung": "Buchungssatz (Zahlungseingang mit Skontoabzug):\n\n**2800 (Hamburger Sparkasse) 11.086,28 €**\n**5101 (Erlösberichtigungen) 184,80 €** (Skonto netto: 2 % von 9.240,00 €)\n**4800 (Umsatzsteuer 19 %) 35,11 €** (USt-Korrektur auf Skonto)\nan **2404 (Westmoor KG) 11.306,19 €** (offene Forderung: 12.359,34 € − Gutschrift 1.053,15 €)\n\n(Soll: 2800, 5101 und 4800 – der Skontobetrag mindert Erlöse und USt; Haben: 2404 – die offene Forderung wird ausgeglichen.)"
   },
   {
     "id": "kbz-2025s-a5-6",
@@ -989,7 +989,7 @@
     "typ": "offen",
     "text": "Eine Forderung ist zum 31.12.2025 auf der Offenen-Posten-Liste vermerkt. Am 15.05.2026 leistet der Schuldner eine Abschlagszahlung. Mit Ablauf welchen Datums endet die Verjährung nun? Begründen Sie kurz.",
     "punkte": 2,
-    "loesung": "Das neue Ende der Verjährung tritt mit Ablauf des **31.12.2029** ein. Die Abschlagszahlung ist ein Anerkenntnis, wodurch die 3-jährige Verjährungsfrist neu beginnt (Beginn zum Jahresende 31.12.2026), Ende somit 31.12.2029."
+    "loesung": "Das neue Ende der Verjährung tritt mit Ablauf des **15.05.2029** ein. Die Abschlagszahlung ist ein Anerkenntnis, wodurch die 3-jährige Verjährungsfrist neu beginnt (§ 212 BGB), und zwar taggenau ab dem 15.05.2026, nicht erst zum Jahresende. Ende somit mit Ablauf des 15.05.2029."
   },
   {
     "id": "kbz-kundenkommunikation-g1",
@@ -1172,7 +1172,7 @@
     "typ": "rechnen",
     "text": "Ein Kunde begleicht eine Rechnung fristgerecht mit 2 % Skonto. Der skontofähige Warenwert netto beträgt 8.000,00 €, zusätzlich fallen 200,00 € Versandkosten netto an. Ermitteln Sie den Überweisungsbetrag (brutto, 19 % USt), kaufmännisch auf 2 Nachkommastellen gerundet!",
     "punkte": 4,
-    "loesung": "**Überweisungsbetrag: 9.567,40 €**",
+    "loesung": "**Überweisungsbetrag: 9.567,60 €**",
     "erklaerung": "Skonto 2 % von 8.000,00 € = 160,00 €. Warenwert nach Skonto = 8.000,00 − 160,00 = 7.840,00 €. + Versandkosten netto 200,00 € = 8.040,00 €. + 19 % USt (8.040,00 × 0,19 = 1.527,60 €) = **9.567,60 €**. (Rundung: exakt 9.567,60 €.)"
   },
   {
@@ -2468,7 +2468,7 @@
   },
   {
     "id": "kbz-2022s-a4-61",
-    "themaId": "kundenkommunikation",
+    "themaId": "personalwirtschaft",
     "bereich": "kbz",
     "quelle": "original",
     "termin": "2022-sommer",
@@ -3307,7 +3307,7 @@
     ],
     "punkte": 2,
     "loesung": "Richtig sind „wöchentliche Arbeitszeit 56 Stunden“ und „Entgeltfortzahlung bis zur Dauer von vier Wochen“: Eine wöchentliche Arbeitszeit von 56 Stunden verstößt gegen das Arbeitszeitgesetz; die Entgeltfortzahlung im Krankheitsfall beträgt gesetzlich 6 Wochen, nicht vier Wochen.",
-    "erklaerung": "Die zulässige Höchstarbeitszeit liegt nach ArbZG deutlich unter 56 Stunden/Woche; die Entgeltfortzahlung bei Krankheit beträgt nach EntgFG bis zu 6 Wochen."
+    "erklaerung": "Eine regelmäßige wöchentliche Arbeitszeit von 56 Stunden ist unzulässig: Nach § 3 ArbZG darf die werktägliche Arbeitszeit im Durchschnitt von 6 Kalendermonaten bzw. 24 Wochen 8 Stunden nicht überschreiten – bei 6 Werktagen also höchstens 48 Stunden pro Woche im Durchschnitt. Die Entgeltfortzahlung bei Krankheit beträgt nach § 3 EntgFG bis zu 6 Wochen, nicht vier Wochen."
   },
   {
     "id": "kbz-2022w-a3-14-1",
@@ -3558,7 +3558,7 @@
     "quelle": "original",
     "termin": "2023-sommer",
     "typ": "mc",
-    "text": "Im Workshop geht es auch um Beratungsgespräche. Sie gliedern sich in die Gesprächsphasen Begrüßung, Bedarfsermittlung, Beratung/Lösung und Gesprächsabschluss. Geben Sie möglichst offene Fragen ein, in welcher Gesprächsphase Sie möglichst offene Fragen einsetzen sollten!",
+    "text": "Im Workshop geht es auch um Beratungsgespräche. Sie gliedern sich in die Gesprächsphasen Begrüßung, Bedarfsermittlung, Beratung/Lösung und Gesprächsabschluss. Geben Sie an, in welcher Gesprächsphase Sie möglichst offene Fragen einsetzen sollten!",
     "punkte": 2.5,
     "optionen": [
       "Offene Fragen sind für den Gesprächsabschluss unerlässlich.",
@@ -3822,7 +3822,7 @@
     "text": "Ermitteln Sie unter Angabe des Rechenweges die Anschaffungskosten der neuen Sägeanlage in Euro! Beachten Sie die Belege 1, 2 und 3!",
     "anlagenText": "Beleg 1 (Voth Maschinenbau OHG, Rechnung): Pos. 1 Sägeanlage DY 3098, netto 76.853,00 €; Pos. 2 Monteurstunden (6 × 85,00) 510,00 €. Beleg 2 (Blitz-Spedition GmbH): Fracht für den Transport der Sägeanlage von Altdorf nach Hamburg, netto 836,00 €. Beleg 3 (Kontoauszug): Überweisung an Voth Maschinenbau OHG, Rech. Nr. 24825042023, abzgl. 2 % Skonto.",
     "punkte": 3,
-    "loesung": "Zu den Anschaffungskosten zählen der Netto-Kaufpreis der Sägeanlage sowie die Anschaffungsnebenkosten (Montage und Fracht), jeweils netto und um den gewährten Skonto vermindert.\n\nNetto-Warenwert (skontopflichtig): 76.853,00 € + 836,00 € = 77.689,00 €\n(Monteurstunden 510,00 € sind Montagekosten, ebenfalls Nebenkosten.)\n\nRechenweg laut Lösung:\n77.363,00 € × 98 : 100 = 75.815,74 €\n75.815,74 € + 836,00 € = **76.651,74 €**\n\nDie Anschaffungskosten der Sägeanlage betragen **76.651,74 €**.",
+    "loesung": "Zu den Anschaffungskosten zählen der Netto-Kaufpreis der Sägeanlage sowie die Anschaffungsnebenkosten (Montage und Fracht), jeweils netto und um den gewährten Skonto vermindert.\n\nSkontierfähiger Rechnungsbetrag Voth (netto): 76.853,00 € (Sägeanlage) + 510,00 € (Monteurstunden) = 77.363,00 €\n(Die Fracht der Blitz-Spedition, 836,00 €, ist eine eigene Rechnung ohne Skonto.)\n\nRechenweg laut Lösung:\n77.363,00 € × 98 : 100 = 75.815,74 €\n75.815,74 € + 836,00 € = **76.651,74 €**\n\nDie Anschaffungskosten der Sägeanlage betragen **76.651,74 €**.",
     "erklaerung": "Anschaffungskosten = Kaufpreis + Anschaffungsnebenkosten (Montage, Fracht), abzüglich Anschaffungspreisminderungen (Skonto). Der Rechnungsbetrag der Voth-Rechnung (netto 77.363,00 €, inkl. Montage) wird um 2 % Skonto gemindert (× 0,98 = 75.815,74 €) und um die Frachtkosten (836,00 €, ohne Skonto) erhöht."
   },
   {
@@ -4622,7 +4622,7 @@
   },
   {
     "id": "kbz-2024w-a1-1",
-    "themaId": "kundenkommunikation",
+    "themaId": "projektmanagement",
     "bereich": "kbz",
     "quelle": "original",
     "termin": "2024-winter",
@@ -4633,7 +4633,7 @@
   },
   {
     "id": "kbz-2024w-a1-2",
-    "themaId": "kundenkommunikation",
+    "themaId": "projektmanagement",
     "bereich": "kbz",
     "quelle": "original",
     "termin": "2024-winter",
@@ -4645,7 +4645,7 @@
   },
   {
     "id": "kbz-2024w-a1-3",
-    "themaId": "kundenkommunikation",
+    "themaId": "projektmanagement",
     "bereich": "kbz",
     "quelle": "original",
     "termin": "2024-winter",
@@ -4656,7 +4656,7 @@
   },
   {
     "id": "kbz-2024w-a1-4",
-    "themaId": "kundenkommunikation",
+    "themaId": "projektmanagement",
     "bereich": "kbz",
     "quelle": "original",
     "termin": "2024-winter",
@@ -4667,7 +4667,7 @@
   },
   {
     "id": "kbz-2024w-a1-5",
-    "themaId": "kundenkommunikation",
+    "themaId": "projektmanagement",
     "bereich": "kbz",
     "quelle": "original",
     "termin": "2024-winter",
@@ -4687,7 +4687,7 @@
   },
   {
     "id": "kbz-2024w-a1-6",
-    "themaId": "kundenkommunikation",
+    "themaId": "projektmanagement",
     "bereich": "kbz",
     "quelle": "original",
     "termin": "2024-winter",
@@ -4995,7 +4995,7 @@
     "typ": "rechnen",
     "text": "**Berechnen Sie anhand Ihres Ergebnisses aus Aufgabe 4.6.1 die Korrektur der Arbeitszeit entsprechend der gesetzlichen Vorgaben! Geben Sie an, ob es sich um einen Zeitabzug (−) oder eine Zeitgutschrift (+) handelt!**",
     "punkte": 3,
-    "loesung": "Korrektur:\n- 04.10.: − 30 Minuten\n- 08.10.: − 10 Minuten\n- 11.10.: − 15 Minuten (Anm.: gemäß Lösungshinweis; die zu kurze Pause am 10.10. wirkt sich auf die Korrektur aus)\n= Zeitabzug gesamt: − 55 Minuten",
+    "loesung": "Korrektur:\n- 04.10.: − 30 Minuten\n- 08.10.: − 10 Minuten\n- 10.10.: − 15 Minuten\n= Zeitabzug gesamt: − 55 Minuten",
     "erklaerung": "Fehlende Pausenzeit wird von der Arbeitszeit abgezogen: 04.10. fehlen 30 Min, 08.10. fehlen 10 Min (30 − 20), zzgl. 15 Min (45 − 30) für den Tag mit über 9 Std. Summe der Zeitabzüge: 30 + 10 + 15 = 55 Minuten. Es handelt sich um einen Zeitabzug (−). 1 Punkt für „Zeitabzug\" bzw. „−\" vor dem Endergebnis, 2 Punkte für das richtige Endergebnis. Folgefehler aus 4.6.1 führen nicht zum Punktabzug."
   },
   {
@@ -5084,7 +5084,7 @@
   },
   {
     "id": "kbz-2024w-a4-13",
-    "themaId": "datenschutz-digitales-arbeiten",
+    "themaId": "personalwirtschaft",
     "bereich": "kbz",
     "quelle": "original",
     "termin": "2024-winter",
@@ -5174,7 +5174,7 @@
     "text": "Einem Neukunden soll ein Angebot für 50 Deckenleuchten „Daylight\" erstellt werden. Folgende Daten liegen vor: Gewinnzuschlag 15,0 %, Bezugspreis 195,00 € (je Stück), Kundenrabatt 10,0 %, Handlungskosten 20,0 %, Kundenskonto 3,0 %.\n\n**Ermitteln Sie mithilfe des vorgegebenen Schemas den Angebotspreis bzw. den Listenverkaufspreis für die 50 Deckenleuchten! Runden Sie kaufmännisch auf 2 Nachkommastellen!**",
     "anlagenText": "Bezugspreis gesamt für 50 Stück: 9.750,00 € (= 50 × 195,00 €).",
     "punkte": 8,
-    "loesung": "Handelskalkulation (Werte in Euro):\n- Bezugspreis: 9.750,00\n- + Handlungskosten (20,0 %): 1.950,00\n- = Selbstkosten: 11.700,00\n- + Gewinn (15,0 %): 1.755,00\n- = Barverkaufspreis: 13.455,00\n- + Kundenskonto (3,0 %): 416,13\n- = Zielverkaufspreis: 13.871,13\n- + Kundenrabatt (10,0 %): 1.541,24\n- = Listenverkaufspreis: 15.412,37",
+    "loesung": "Handelskalkulation (Werte in Euro):\n\n| Position | Betrag |\n|---|---|\n| Bezugspreis | 9.750,00 |\n| + Handlungskosten (20,0 %) | 1.950,00 |\n| = Selbstkosten | 11.700,00 |\n| + Gewinn (15,0 %) | 1.755,00 |\n| = Barverkaufspreis | 13.455,00 |\n| + Kundenskonto (3,0 %) | 416,13 |\n| = Zielverkaufspreis | 13.871,13 |\n| + Kundenrabatt (10,0 %) | 1.541,24 |\n| = Listenverkaufspreis | 15.412,37 |",
     "erklaerung": "Kundenskonto (3 %) und Kundenrabatt (10 %) werden „im Hundert\" gerechnet: Barverkaufspreis = 97 % des Zielverkaufspreises → Kundenskonto = 13.455,00 / 97 × 3 = 416,13; Zielverkaufspreis = 90 % des Listenverkaufspreises → Kundenrabatt = 13.871,13 / 90 × 10 = 1.541,24. Folgefehler führen nicht zum Punktabzug."
   },
   {
@@ -5186,7 +5186,7 @@
     "typ": "rechnen",
     "text": "**Ermitteln Sie die Selbstkosten je Schreibtisch „Smart Office\"! Runden Sie kaufmännisch auf 2 Nachkommastellen!**\n\nEinzelkosten und Gemeinkostenzuschlagssätze: Fertigungsmaterial 110,00 €/Stück, Fertigungslöhne 90,80 €/Stück, Materialgemeinkostenzuschlagssatz 72,0 %, Fertigungsgemeinkostenzuschlagssatz 92,50 %, Verwaltungsgemeinkostenzuschlagssatz 5,80 %, Vertriebsgemeinkostenzuschlagssatz 6,50 %.",
     "punkte": 7,
-    "loesung": "Zuschlagskalkulation (Kosten in Euro):\n- Fertigungsmaterial: 110,00\n- + Materialgemeinkosten (72,0 %): 79,20\n- Fertigungslöhne: 90,80\n- + Fertigungsgemeinkosten (92,50 %): 83,99\n- = Herstellkosten: 363,99\n- + Verwaltungsgemeinkosten (5,80 %): 21,11\n- + Vertriebsgemeinkosten (6,50 %): 23,66\n- = Selbstkosten: 408,76",
+    "loesung": "Zuschlagskalkulation (Kosten in Euro):\n\n| Position | Betrag |\n|---|---|\n| Fertigungsmaterial | 110,00 |\n| + Materialgemeinkosten (72,0 %) | 79,20 |\n| Fertigungslöhne | 90,80 |\n| + Fertigungsgemeinkosten (92,50 %) | 83,99 |\n| = Herstellkosten | 363,99 |\n| + Verwaltungsgemeinkosten (5,80 %) | 21,11 |\n| + Vertriebsgemeinkosten (6,50 %) | 23,66 |\n| = Selbstkosten | 408,76 |",
     "erklaerung": "Materialkosten = 110,00 + 79,20 = 189,20; Fertigungskosten = 90,80 + 83,99 = 174,79; Herstellkosten = 189,20 + 174,79 = 363,99. Verwaltungsgemeinkosten = 363,99 × 5,80 % = 21,11; Vertriebsgemeinkosten = 363,99 × 6,50 % = 23,66. Selbstkosten = 363,99 + 21,11 + 23,66 = 408,76. Vollständiges Schema: 1 Punkt, Berechnung pro Wert 1 Punkt. Folgefehler führen nicht zum Punktabzug."
   },
   {
@@ -5365,7 +5365,7 @@
   },
   {
     "id": "kbz-2019s-a3-3",
-    "themaId": "rechnung-umsatzsteuer",
+    "themaId": "kaufvertrag-stoerungen",
     "bereich": "kbz",
     "quelle": "original",
     "termin": "2019-sommer",
@@ -5580,7 +5580,7 @@
   },
   {
     "id": "kbz-2019s-a4-7",
-    "themaId": "berufsausbildung-arbeitsrecht",
+    "themaId": "personalwirtschaft",
     "bereich": "kbz",
     "quelle": "original",
     "termin": "2019-sommer",
@@ -5649,7 +5649,7 @@
   },
   {
     "id": "kbz-2019s-a4-9",
-    "themaId": "berufsausbildung-arbeitsrecht",
+    "themaId": "personalwirtschaft",
     "bereich": "kbz",
     "quelle": "original",
     "termin": "2019-sommer",
@@ -5695,7 +5695,7 @@
   },
   {
     "id": "kbz-2019s-a4-11",
-    "themaId": "rechnung-umsatzsteuer",
+    "themaId": "personalwirtschaft",
     "bereich": "kbz",
     "quelle": "original",
     "termin": "2019-sommer",
@@ -5898,7 +5898,7 @@
     "typ": "rechnen",
     "text": "Die Nutzungsdauer der Maschine laut AfA-Tabelle beträgt 15 Jahre. Berechnen Sie die Anschaffungskosten der Maschine!",
     "punkte": 2,
-    "loesung": "Anschaffungskosten = 14.800,00 (netto) + 350,00 (Transport) + 480,00 (Montage/Inbetriebnahme) = 15.630,00 €.",
+    "loesung": "Anschaffungskosten = 14.800,00 (netto) − 296,00 (2 % Skonto auf die Maschine) + 350,00 (Transport) + 480,00 (Montage/Inbetriebnahme) = 15.334,00 €. (Ohne Berücksichtigung des Skontos: 15.630,00 €.)",
     "erklaerung": "Zu den Anschaffungskosten gehören der Nettokaufpreis sowie alle Nebenkosten, um die Maschine betriebsbereit zu machen.",
     "anlagenText": "### Beleg 4 – Eingangsrechnung Maschine\n\n**Holz-Fer Maschinen AG – Holzbearbeitungsmaschinen**, Kilianstr. 45, 90451 Bamberg\nAn: Jana Loft KG, Büromöbel und Bürozubehör, Volksdorfer Damm 46, 22359 Hamburg\n\n- Rechnungs-Nr. 2178/2019, Kunden-Nr. 23432, Auftrags-Nr. 872019 (15.04.2019), Bestell-Nr. B5649\n- Rechnungsdatum: 30.04.2019 (Eingangsstempel: 06.05.2019), Lieferdatum: 30.04.2019\n\n| Pos. | Art.-Nr. | Bezeichnung | Menge | Einzelpreis | Gesamtpreis (EUR) |\n|---|---|---|---|---|---|\n| 1 | K1350 | Kanten-Anleimmaschine Lumina 1350XL inkl. Kleberauftragssystem und Lasereinheit LTRONIC | 1 Stück | 14.800,00 EUR | 14.800,00 |\n| 2 | | Transport pauschal | | 350,00 EUR | 350,00 |\n| 3 | | Montage und Inbetriebnahme | 4 Std. | 120,00 EUR | 480,00 |\n\n| | EUR |\n|---|---|\n| Nettobetrag | 15.630,00 |\n| USt 19 % | 2.969,70 |\n| **Rechnungsbetrag** | **18.599,70** |\n\nZahlungsvereinbarung: \"10 Tage 2 % Skonto – Montage und Fracht sind nicht skontierbar! – 30 Tage ab Rechnungsdatum netto Kasse.\""
   },
@@ -5911,7 +5911,7 @@
     "typ": "rechnen",
     "text": "Berechnen Sie den Abschreibungsbetrag in Euro für das Jahr 2019. Der Rechenweg muss nachvollziehbar sein! (Anschaffung/Lieferung 30.04.2019, Nutzungsdauer 15 Jahre)",
     "punkte": 3,
-    "loesung": "Abschreibungsbetrag = 15.630,00 € : 15 × 9 : 12 = 766,70 €.",
+    "loesung": "Anschaffungskosten nach Skonto = 14.800,00 € × 98 : 100 + 350,00 € + 480,00 € = 15.334,00 €.\nAbschreibungsbetrag = 15.334,00 € : 15 × 9 : 12 = 766,70 €. (Ohne Skontoabzug: 15.630,00 € : 15 × 9 : 12 = 781,50 €.)",
     "erklaerung": "Lineare AfA (Anschaffungskosten : Nutzungsdauer), zeitanteilig für 9 Monate (Anschaffung im April) mit 9/12."
   },
   {
@@ -5974,7 +5974,7 @@
     "text": "Sie kalkulieren den Verkaufspreis für einen Besprechungstisch. Die Selbstkosten betragen 690,00 €. Sie kalkulieren mit einem Gewinn von 16 %, einem Kundenskonto von 2 % und einem Wiederverkäuferrabatt von 15 %. Berechnen Sie den Listenverkaufspreis im Schema: Selbstkostenpreis, + Gewinn, = Barverkaufspreis, + Kundenskonto, = Zielverkaufspreis, + Wiederverkäuferrabatt, = Listenverkaufspreis!",
     "punkte": 6,
     "loesung": "Selbstkostenpreis 690,00 € + Gewinn 110,40 € = Barverkaufspreis 800,40 €. Barverkaufspreis 800,40 € entspricht 98 % (100 % - 2 % Skonto), also Zielverkaufspreis = 800,40 / 98 × 100 = 816,73 €. + Kundenskonto 16,33 €. Zielverkaufspreis 816,73 € entspricht 85 % (100 % - 15 % Rabatt), also Listenverkaufspreis = 816,73 / 85 × 100 = 960,86 €. + Wiederverkäuferrabatt 144,13 €. Listenverkaufspreis = 960,86 €.",
-    "erklaerung": "Gewinn wird auf den Selbstkostenpreis aufgeschlagen (im Hundert). Kundenskonto und Wiederverkäuferrabatt werden 'auf hundert' gerechnet, da der Barverkaufspreis 98 % bzw. der Zielverkaufspreis 85 % des jeweils höheren Wertes ist."
+    "erklaerung": "Gewinn wird auf den Selbstkostenpreis aufgeschlagen (vom Hundert). Kundenskonto und Wiederverkäuferrabatt werden 'im Hundert' gerechnet, da der Barverkaufspreis 98 % bzw. der Zielverkaufspreis 85 % des jeweils höheren Wertes ist."
   },
   {
     "id": "kbz-2020s-a1-5",
@@ -6226,7 +6226,7 @@
       0
     ],
     "loesung": "Richtig ist: Krankenkasse.",
-    "erklaerung": "Nach Ablauf der sechswöchigen Entgeltfortzahlung durch den Arbeitgeber zahlt die gesetzliche Krankenkasse Krankengeld an den Arbeitnehmer."
+    "erklaerung": "Nach Ablauf der sechswöchigen Entgeltfortzahlung durch den Arbeitgeber erhält der Arbeitnehmer bei einem Arbeitsunfall Verletztengeld aus der gesetzlichen Unfallversicherung (§§ 45 ff. SGB VII). Ausgezahlt wird es im Auftrag der Berufsgenossenschaft von seiner Krankenkasse (§ 189 SGB VII) – die Krankenkasse ist daher die Stelle, von der er das Geld erhält. (Bei einer Krankheit ohne Arbeitsunfall zahlt die Krankenkasse Krankengeld.)"
   },
   {
     "id": "kbz-2020s-a3-4-1",
@@ -7031,7 +7031,7 @@
     "text": "Das Unternehmen erweitert sein Sortiment um Pinnwände (Handelsware). Kontieren Sie den abgebildeten Beleg Nr. 1 (Eingangsrechnung)! Verwenden Sie ausschließlich die vierstelligen Kontonummern des Kontenplans und buchen Sie netto zzgl. Vorsteuer.",
     "anlagenText": "Beleg Nr. 1 - Eingangsrechnung Bernhard Müller OHG (Konto 4401): Pinnwand marineblau 40 Stück à 114,00 = 4.560,00; Pinnwand limettengrün 40 Stück à 114,00 = 4.560,00; Warenwert 9.120,00; zzgl. 16 % USt 1.459,20; Gesamt 10.579,20 EUR. Kontenplan: 6080 Aufwendungen für Handelswaren, 2600 Vorsteuer, 4401 Bernhard Müller OHG.",
     "punkte": 2,
-    "loesung": "6080 (Aufwendungen für Handelswaren) 9.120,00 und 2600 (Vorsteuer) 1.459,20 an 4401 (Bernhard Müller OHG) 10.579,20. Kurzform: 6080 / 2600 an 4401."
+    "loesung": "6080 (Aufwendungen für Handelswaren) 9.120,00 und 2600 (Vorsteuer) 1.459,20 an 4401 (Bernhard Müller OHG) 10.579,20. Kurzform: 6080 / 2600 an 4401.\n\n> **Rechtsstand 2026:** Der Regelsteuersatz beträgt 19 % (§ 12 Abs. 1 UStG). Zum Prüfungszeitpunkt (Winter 2020) galten noch 16 % (befristete Senkung vom 01.07. bis 31.12.2020)."
   },
   {
     "id": "kbz-2020w-a5-10",
@@ -7043,7 +7043,7 @@
     "text": "Das Unternehmen sendet 10 Pinnwände, die in hellblau statt in marineblau geliefert wurden, an den Lieferanten zurück. Da kurzfristig keine marineblauen Pinnwände lieferbar sind, erhält das Unternehmen eine Gutschrift für die zurückgesendeten Pinnwände. Kontieren Sie den abgebildeten Beleg Nr. 2 (Gutschrift)!",
     "anlagenText": "Beleg Nr. 2 - Gutschrift Bernhard Müller OHG: Pinnwand marineblau 10 Stück à 114,00 = 1.140,00; zzgl. 16 % USt 182,40; Gesamt 1.322,40 EUR. Kontenplan: 4401 Bernhard Müller OHG, 6080 Aufwendungen für Handelswaren, 2600 Vorsteuer.",
     "punkte": 2,
-    "loesung": "4401 (Bernhard Müller OHG) 1.322,40 an 6080 (Aufwendungen für Handelswaren) 1.140,00 und 2600 (Vorsteuer) 182,40. Kurzform: 4401 an 6080 / 2600."
+    "loesung": "4401 (Bernhard Müller OHG) 1.322,40 an 6080 (Aufwendungen für Handelswaren) 1.140,00 und 2600 (Vorsteuer) 182,40. Kurzform: 4401 an 6080 / 2600.\n\n> **Rechtsstand 2026:** Der Regelsteuersatz beträgt 19 % (§ 12 Abs. 1 UStG). Zum Prüfungszeitpunkt (Winter 2020) galten noch 16 % (befristete Senkung vom 01.07. bis 31.12.2020)."
   },
   {
     "id": "kbz-2020w-a5-11",
@@ -7090,7 +7090,7 @@
     "text": "Das Unternehmen kauft eine Lackiermaschine für Holzmöbel. Kontieren Sie Beleg Nr. 4 (Eingangsrechnung über die Maschine)!",
     "anlagenText": "Beleg Nr. 4 - Rechnung Voth Maschinenbau OHG (Konto 4404): Lackiermaschine 45.600,00; Umsatzsteuer 16 % 7.296,00; Rechnungsbetrag 52.896,00 EUR. Kontenplan: 0700 Technische Anlagen und Maschinen, 2600 Vorsteuer, 4404 Voth Maschinenbau OHG.",
     "punkte": 2,
-    "loesung": "0700 (Technische Anlagen und Maschinen) 45.600,00 und 2600 (Vorsteuer) 7.296,00 an 4404 (Voth Maschinenbau OHG) 52.896,00. Kurzform: 0700 / 2600 an 4404."
+    "loesung": "0700 (Technische Anlagen und Maschinen) 45.600,00 und 2600 (Vorsteuer) 7.296,00 an 4404 (Voth Maschinenbau OHG) 52.896,00. Kurzform: 0700 / 2600 an 4404.\n\n> **Rechtsstand 2026:** Der Regelsteuersatz beträgt 19 % (§ 12 Abs. 1 UStG). Zum Prüfungszeitpunkt (Winter 2020) galten noch 16 % (befristete Senkung vom 01.07. bis 31.12.2020)."
   },
   {
     "id": "kbz-2020w-a5-15",
@@ -7114,7 +7114,7 @@
     "text": "Für den Transport der Lackiermaschine liegt eine Speditionsrechnung vor. Kontieren Sie Beleg Nr. 5! Die Transportkosten zählen zu den Anschaffungsnebenkosten der Maschine.",
     "anlagenText": "Beleg Nr. 5 - Rechnung Blitz-Spedition GmbH (Konto 4407): Fracht 1.340,00; zzgl. 16 % USt 214,40; Gesamt 1.554,40 EUR. Da die Transportkosten Anschaffungsnebenkosten sind, werden sie auf das Maschinenkonto aktiviert. Kontenplan: 0700 Technische Anlagen und Maschinen, 2600 Vorsteuer, 4407 Blitz-Spedition GmbH.",
     "punkte": 2,
-    "loesung": "0700 (Technische Anlagen und Maschinen) 1.340,00 und 2600 (Vorsteuer) 214,40 an 4407 (Blitz-Spedition GmbH) 1.554,40. Kurzform: 0700 / 2600 an 4407."
+    "loesung": "0700 (Technische Anlagen und Maschinen) 1.340,00 und 2600 (Vorsteuer) 214,40 an 4407 (Blitz-Spedition GmbH) 1.554,40. Kurzform: 0700 / 2600 an 4407.\n\n> **Rechtsstand 2026:** Der Regelsteuersatz beträgt 19 % (§ 12 Abs. 1 UStG). Zum Prüfungszeitpunkt (Winter 2020) galten noch 16 % (befristete Senkung vom 01.07. bis 31.12.2020)."
   },
   {
     "id": "kbz-2020w-a5-17",
@@ -7878,7 +7878,7 @@
     "typ": "rechnen",
     "text": "Ergänzen Sie die Tabelle mit dem Urlaubsanspruch. Die Arbeitswoche dauert Montag bis Freitag (5 Tage). Grundlagen: Manteltarifvertrag § 10 (30 Arbeitstage jährlich), SGB IX § 208 (5 Arbeitstage Zusatzurlaub für Schwerbehinderte). Berechnen Sie für die Beschäftigten den Urlaubsanspruch 2022 und den Gesamt-Urlaub (Resturlaub 2021 + Anspruch 2022). Resturlaub 2021: Anne Ohlsen 8, Sarah Wegner 12, Yilmaz Öztürk (schwerbehindert, Vollzeit) 0, Stefan Dahlmann (zum 30.04.2022 gekündigt) 5, Bente Lehmann (bis 18.01.2022 Azubi, danach unbefristete Übernahme) 0, Bastian Sommer (ab 01.01.2022 Personalreferent, volle Übernahme der Urlaubstage 2021 bescheinigt) 0.",
     "punkte": 6,
-    "loesung": "Keine amtliche Lösung im IHK-Lösungs-PDF vorhanden (nur MC-Schlüssel). Musterlösung: Voller Jahresurlaub laut MTV = 30 Arbeitstage. Anne Ohlsen: 30 (Anspruch 2022) + 8 = 38 Gesamt. Sarah Wegner: 30 + 12 = 42. Yilmaz Öztürk: 30 + 5 (Zusatzurlaub Schwerbehinderung, § 208 SGB IX) = 35 Anspruch 2022, + 0 = 35. Stefan Dahlmann (Ausscheiden 30.04.2022, 4/12): 30 × 4/12 = 10 Anspruch 2022 + 5 = 15. Bastian Sommer (Eintritt 01.01.2022, volles Jahr): 30 + 0 = 30. Bente Lehmann (Übernahme nach Ausbildung im laufenden Jahr): anteiliger Anspruch 2022 zzgl. 0 Resturlaub. Hinweis: Werte für Bente Lehmann von der exakten Monatszahl der Übernahme abhängig; ohne amtlichen Lösungsschlüssel unter Vorbehalt.",
+    "loesung": "Keine amtliche Lösung im IHK-Lösungs-PDF vorhanden (nur MC-Schlüssel). Musterlösung: Voller Jahresurlaub laut MTV = 30 Arbeitstage. Anne Ohlsen: 30 (Anspruch 2022) + 8 = 38 Gesamt. Sarah Wegner: 30 + 12 = 42. Yilmaz Öztürk: 30 + 5 (Zusatzurlaub Schwerbehinderung, § 208 SGB IX) = 35 Anspruch 2022, + 0 = 35. Stefan Dahlmann (Ausscheiden 30.04.2022, 4/12): 30 × 4/12 = 10 Anspruch 2022 + 5 = 15. Bastian Sommer (Eintritt 01.01.2022, volles Jahr): 30 + 0 = 30. Bente Lehmann (unmittelbare Übernahme nach der Ausbildung beim selben Arbeitgeber, keine Unterbrechung des Beschäftigungsverhältnisses): 30 (voller Jahresanspruch 2022) + 0 = 30. Hinweis: ohne amtlichen Lösungsschlüssel unter Vorbehalt.",
     "erklaerung": "Bei unterjährigem Ein- oder Austritt wird der Jahresurlaub zeitanteilig (Zwölftel je vollem Beschäftigungsmonat) berechnet; Schwerbehinderte erhalten 5 zusätzliche Arbeitstage.",
     "anlagenText": "### Gesetzes- und Tarifauszüge\n\n> **Bundesurlaubsgesetz, § 3 Dauer des Urlaubs**\n> (1) Der Urlaub beträgt jährlich mindestens 24 Werktage.\n> (2) Als Werktage gelten alle Kalendertage, die nicht Sonn- oder gesetzliche Feiertage sind.\n\n> **Manteltarifvertrag, § 10 Erholungsurlaub**\n> 1.1 Der Beschäftigte hat in jedem Kalenderjahr einen unabdingbaren Anspruch auf bezahlten Erholungsurlaub.\n> 1.2 Das Urlaubsjahr ist das Kalenderjahr.\n> 2.1 Der Urlaub beträgt jährlich 30 Arbeitstage.\n\n> **Sozialgesetzbuch IX, § 208 Zusatzurlaub**\n> (1) Schwerbehinderte Menschen haben Anspruch auf einen bezahlten zusätzlichen Urlaub von fünf Arbeitstagen im Urlaubsjahr; verteilt sich die regelmäßige Arbeitszeit des schwerbehinderten Menschen auf mehr oder weniger als fünf Arbeitstage in der Kalenderwoche, erhöht oder vermindert sich der Zusatzurlaub entsprechend.\n\n### Tabelle \"Urlaubsansprüche bei der Jana Loft KG\" (graue Felder = auszufüllen)\n\nDie Arbeitswoche der Jana Loft KG dauert von Montag bis Freitag.\n\n| Name | Resturlaub 2021 (Arbeitstage) | Urlaubsanspruch 2022 (Arbeitstage) | Gesamt-Urlaub (Arbeitstage) |\n|---|---|---|---|\n| Anne Ohlsen (Prokuristin) | 8 | *(leer)* | *(leer)* |\n| Sarah Wegner (Personalverwaltung) | 12 | *(leer)* | *(leer)* |\n| Yilmaz Öztürk (Entgeltabrechnung), schwerbehindert, vollzeitbeschäftigt | 0 | *(leer)* | *(leer)* |\n| Stefan Dahlmann (Aus- und Fortbildung), hat zum 30.04.2022 gekündigt | 5 | *(leer)* | *(leer)* |\n| Bente Lehmann (Personalverwaltung), bis 18. Januar 2022 Auszubildende, danach Übernahme in ein unbefristetes Arbeitsverhältnis | 0 | *(leer)* | *(leer)* |\n| Bastian Sommer (ab 1. Januar 2022 Personalreferent), Bescheinigung über vollständig genommene Urlaubstage von 2021 liegt vor | 0 | *(leer)* | *(leer)* |"
   },
@@ -7891,7 +7891,7 @@
     "typ": "offen",
     "text": "Prüfen Sie die Urlaubsplanungstabelle (Kalenderwochen 27-35) unter folgenden Regeln und nehmen Sie Änderungen vor: Frau Ohlsen und Herr Sommer dürfen nicht gleichzeitig Urlaub nehmen; der Urlaub von Frau Ohlsen bleibt unverändert; mindestens drei Mitarbeiter/-innen müssen anwesend sein; Frau Wegner muss aufgrund einer Betriebsvereinbarung ihren Urlaub in den Schulferien (KW 28-32) planen können; alle sollen mindestens drei Wochen zusammenhängend nehmen; die eingetragenen Kreuze zeigen die Wünsche.",
     "punkte": 5,
-    "loesung": "Keine amtliche Lösung im IHK-Lösungs-PDF vorhanden (nur MC-Schlüssel). Musterlösung: Konflikt: Frau Ohlsen (KW 27-29) und Herr Sommer (KW 29-31) überschneiden sich in KW 29 - Herrn Sommers Urlaub ist zu verschieben (z. B. auf KW 30-32), da Frau Ohlsens Urlaub unverändert bleibt. Frau Wegner (KW 30-32) liegt in den Schulferien und bleibt. Es ist sicherzustellen, dass in jeder Woche mindestens drei Mitarbeiter/-innen anwesend sind und jede/r drei zusammenhängende Wochen erhält; ggf. wird die Reserve eingesetzt. (Genaue Verteilung ohne amtlichen Lösungsschlüssel unter Vorbehalt.)",
+    "loesung": "Keine amtliche Lösung im IHK-Lösungs-PDF vorhanden (nur MC-Schlüssel). Musterlösung (5 Beschäftigte, d. h. höchstens 2 gleichzeitig im Urlaub):\n\n- **Frau Ohlsen:** KW 27–29 (bleibt unverändert).\n- **Frau Wegner:** KW 30–32 (Schulferien laut Betriebsvereinbarung, bleibt).\n- **Frau Lehmann:** KW 30–32 (Wunsch, bleibt).\n- **Herr Öztürk:** Wunsch KW 32–34 ist nicht möglich, weil in KW 32 sonst Wegner, Lehmann und Öztürk fehlen (nur 2 anwesend) → Verschiebung auf **KW 33–35**.\n- **Herr Sommer:** Wunsch KW 29 überschneidet sich mit Frau Ohlsen und umfasst keine drei Wochen. KW 30–32 geht nicht (dann wären höchstens 2 anwesend) → **KW 33–35**.\n\nKontrolle: In jeder KW 27–35 sind höchstens 2 Personen im Urlaub, also mindestens 3 anwesend. Jede/r hat drei zusammenhängende Wochen, und Ohlsen/Sommer überschneiden sich nicht. (Andere regelkonforme Verteilungen sind möglich, z. B. Lehmann KW 27–29, Öztürk KW 32–34, Sommer KW 33–35.)",
     "anlagenText": "### Urlaubsplanungstabelle (eingetragene Kreuze = Wünsche der Mitarbeiter/-innen)\n\n| Kalenderwoche | 27 | 28 | 29 | 30 | 31 | 32 | 33 | 34 | 35 |\n|---|---|---|---|---|---|---|---|---|---|\n| Anne Ohlsen | x | x | x | | | | | | |\n| Sarah Wegner | | | | x | x | x | | | |\n| Yilmaz Öztürk | | | | | | x | x | x | |\n| Bente Lehmann | | | | x | x | x | | | |\n| Bastian Sommer | | | x | | | | | | |\n\nSchulferien: 28. bis 32. Kalenderwoche."
   },
   {
@@ -8795,10 +8795,10 @@
     "quelle": "original",
     "termin": "2017-winter",
     "typ": "offen",
-    "text": "Mitarbeiter, die eine Fortbildung absolviert haben, sollen im Intranet darüber berichten; dabei sollen personenbezogene Daten der Teilnehmer veröffentlicht werden. Eine Person widerspricht der Weiterleitung ihrer Daten. Geben Sie neben dem Recht auf Widerspruch drei weitere Rechte an, die betroffene Personen im Rahmen des Bundesdatenschutzgesetzes haben, und erläutern Sie diese jeweils anhand eines betrieblichen Beispiels.",
+    "text": "Mitarbeiter, die eine Fortbildung absolviert haben, sollen im Intranet darüber berichten; dabei sollen personenbezogene Daten der Teilnehmer veröffentlicht werden. Eine Person widerspricht der Weiterleitung ihrer Daten. Geben Sie neben dem Recht auf Widerspruch drei weitere Rechte an, die betroffene Personen im Rahmen der Datenschutz-Grundverordnung (DSGVO) haben, und erläutern Sie diese jeweils anhand eines betrieblichen Beispiels.",
     "punkte": 6,
-    "loesung": "Drei Rechte mit Beispiel, z. B.: Recht auf Auskunft (der Mitarbeiter möchte wissen, welche Daten von ihm/ihr gespeichert sind und warum). Recht auf Sperrung (der Mitarbeiter bezweifelt die Richtigkeit der Angaben über die geleistete Arbeitszeit). Recht auf Berichtigung (der Mitarbeiter verlangt, dass fehlerhafte Angaben eines Steuerfreibetrags berichtigt werden). Recht auf Löschung (der Mitarbeiter verlangt, dass die Speicherung seiner/ihrer Zugehörigkeit zur Gewerkschaft gelöscht wird). Recht auf Benachrichtigung (der Mitarbeiter muss vor Übermittlung seiner/ihrer personenbezogenen Daten an das Finanzamt benachrichtigt werden).",
-    "erklaerung": "Neben dem Widerspruchsrecht bestehen Rechte auf Auskunft, Berichtigung, Sperrung/Löschung und Benachrichtigung; jedes lässt sich durch einen betrieblichen Fall veranschaulichen."
+    "loesung": "Drei Rechte mit Beispiel, z. B.: Recht auf Auskunft (der Mitarbeiter möchte wissen, welche Daten von ihm/ihr gespeichert sind und warum). Recht auf Sperrung (der Mitarbeiter bezweifelt die Richtigkeit der Angaben über die geleistete Arbeitszeit). Recht auf Berichtigung (der Mitarbeiter verlangt, dass fehlerhafte Angaben eines Steuerfreibetrags berichtigt werden). Recht auf Löschung (der Mitarbeiter verlangt, dass die Speicherung seiner/ihrer Zugehörigkeit zur Gewerkschaft gelöscht wird). Recht auf Benachrichtigung (der Mitarbeiter muss vor Übermittlung seiner/ihrer personenbezogenen Daten an das Finanzamt benachrichtigt werden).\n\n> **Rechtsstand 2026:** Die Betroffenenrechte ergeben sich aus der DSGVO: Auskunft (Art. 15), Berichtigung (Art. 16), Löschung (Art. 17), Einschränkung der Verarbeitung (Art. 18, ersetzt die frühere „Sperrung“), Datenübertragbarkeit (Art. 20), Widerspruch (Art. 21). Zum Prüfungszeitpunkt (Winter 2017) galt noch das BDSG a. F. mit den Rechten auf Sperrung und Benachrichtigung.",
+    "erklaerung": "Neben dem Widerspruchsrecht (Art. 21 DSGVO) bestehen u. a. die Rechte auf Auskunft (Art. 15), Berichtigung (Art. 16), Löschung (Art. 17), Einschränkung der Verarbeitung (Art. 18, früher „Sperrung“) und Datenübertragbarkeit (Art. 20). Jedes lässt sich an einem betrieblichen Fall zeigen (Rechtsstand 2026)."
   },
   {
     "id": "kbz-2017w-a4-12",
@@ -9386,10 +9386,10 @@
     "quelle": "original",
     "termin": "2018-sommer",
     "typ": "rechnen",
-    "text": "Eine Mitarbeiterin hat ihr Nettogehalt selbst ausgerechnet und bittet um Prüfung. Angaben: geb. 22.04.1989, ledig, keine Kinder, evangelisch, Krankenkassen-Zusatzbeitrag 1,10 %. Bruttoentgelt 2.923,00 €. Beitragssätze (AN-Anteil): Rentenversicherung 9,3 %, Arbeitslosenversicherung 1,5 %, Krankenversicherung 7,3 % + Zusatzbeitrag 1,10 %, Pflegeversicherung 1,275 % zzgl. 0,25 % Zuschlag für Kinderlose. Laut Lohnsteuertabelle (StK I, 2.922,00): Lohnsteuer 185,50; Kirchensteuer 16,69; Solidaritätszuschlag 4,70. Ermitteln Sie die korrekten Abzüge und das Nettoentgelt!",
-    "anlagenText": "Sozialversicherung (AN-Anteile): Rentenversicherung 9,3 %; Arbeitslosenversicherung 1,5 %; Krankenversicherung 7,3 % zzgl. Zusatzbeitrag 1,10 %; Pflegeversicherung 1,275 %; Zusatz-Pflegeversicherung für Kinderlose über 23 Jahre 0,25 % (AN). Lohnsteuertabelle StK I ab 2.922,00 €: Steuer 185,50; SolZ 4,70; KiSt 16,69.",
+    "text": "Eine Mitarbeiterin hat ihr Nettogehalt selbst ausgerechnet und bittet um Prüfung. Angaben: geb. 22.04.1989, ledig, keine Kinder, evangelisch, Krankenkassen-Zusatzbeitrag 1,10 %. Bruttoentgelt 2.923,00 €. Beitragssätze (AN-Anteil): Rentenversicherung 9,3 %, Arbeitslosenversicherung 1,5 %, Krankenversicherung 7,3 % + Zusatzbeitrag 1,10 %, Pflegeversicherung 1,275 % zzgl. 0,25 % Zuschlag für Kinderlose. Laut Lohnsteuertabelle (StK I, 2.922,00): Lohnsteuer 421,41; Kirchensteuer 37,92; Solidaritätszuschlag 23,17. Ermitteln Sie die korrekten Abzüge und das Nettoentgelt!",
+    "anlagenText": "Sozialversicherung (AN-Anteile): Rentenversicherung 9,3 %; Arbeitslosenversicherung 1,5 %; Krankenversicherung 7,3 % zzgl. Zusatzbeitrag 1,10 %; Pflegeversicherung 1,275 %; Zusatz-Pflegeversicherung für Kinderlose über 23 Jahre 0,25 % (AN). Lohnsteuertabelle StK I ab 2.922,00 €: Steuer 421,41; SolZ 23,17; KiSt 37,92.",
     "punkte": 13,
-    "loesung": "Bruttoentgelt 2.923,00 €. Lohnsteuer 185,50; Kirchensteuer 16,69; Solidaritätszuschlag 4,70 (Werte laut Tabelle korrekt). Krankenversicherung (7,3 % + 1,10 %) = 8,4 % von 2.923,00 = 245,53; Rentenversicherung 9,3 % = 271,84; Arbeitslosenversicherung 1,5 % = 43,85; Pflegeversicherung (1,275 % + 0,25 %) = 1,525 % = 44,58. Nettoentgelt = 2.923,00 − 185,50 − 16,69 − 4,70 − 245,53 − 271,84 − 43,85 − 44,58 = 2.110,31 €. (Korrekturschlüssel: Lohnsteuer 421,41 gemäß amtlichem Musterbogen für StK I mit abweichendem Bezug; maßgeblich sind die im Aufgabensatz vorgegebenen Steuertabellenwerte 185,50 / 16,69 / 4,70. KV 245,53; RV 271,84; ALV 43,85; PV 44,58; Netto 1.834,70 € gemäß Musterlösung bei Ansatz der Tabellenwerte 421,41/37,92/23,17.)",
+    "loesung": "Bruttoentgelt 2.923,00 €. Lohnsteuer (StKl I) 421,41 €; Kirchensteuer (9 %) 37,92 €; Solidaritätszuschlag (5,5 %) 23,17 €. Krankenversicherung (7,3 % + 1,10 %) = 8,4 % von 2.923,00 = 245,53 €; Rentenversicherung 9,3 % = 271,84 €; Arbeitslosenversicherung 1,5 % = 43,85 €; Pflegeversicherung (1,275 % + 0,25 %) = 1,525 % = 44,58 €. Nettoentgelt = 2.923,00 − 421,41 − 37,92 − 23,17 − 245,53 − 271,84 − 43,85 − 44,58 = **1.834,70 €**.\n\nHinweis: In einer früheren Fassung dieser Aufgabe standen als Tabellenwerte die Steuerwerte der Steuerklasse III (185,50 / 16,69 / 4,70 €), mit denen die Mitarbeiterin fälschlich gerechnet hatte; korrigiert gemäß Lohnsteuertabelle der Prüfungsanlage und amtlichem Lösungsschlüssel (Netto 1.834,70 €).",
     "erklaerung": "Die Krankenversicherung enthält den Zusatzbeitrag (7,3 % + 1,10 %), die Pflegeversicherung für kinderlose Arbeitnehmer über 23 Jahre den Zuschlag von 0,25 % (1,275 % + 0,25 %). Amtliche Musterwerte: KV 245,53; RV 271,84; ALV 43,85; PV 44,58."
   },
   {
@@ -9567,7 +9567,7 @@
     "text": "Kontieren Sie Position 1 aus Beleg Nr. 3 (Kontoauszug): 'Voth Maschinenbau OHG, Rech. Nr. 237, abzügl. 2 % Skonto', Betrag 19.475,06 € (−).",
     "anlagenText": "Kontenplan (Auszug): 4404 Voth Maschinenbau OHG; 2800 Hamburger Sparkasse; 0700 Technische Anlagen und Maschinen; 2600 Vorsteuer (19 %). Rechnungsbetrag Beleg 2: 19.872,51 €; 2 % Skonto vom Bruttobetrag.",
     "punkte": 2.1739,
-    "loesung": "4404 Voth Maschinenbau OHG 19.872,51 € an 2800 Hamburger Sparkasse 19.475,06 €, an 0700 Technische Anlagen und Maschinen 334,03 € und an 2600 Vorsteuer 63,42 €. (Amtlicher Schlüssel: 4404 an [2800;0700;2600].)",
+    "loesung": "4404 Voth Maschinenbau OHG 19.872,51 € an 2800 Hamburger Sparkasse 19.475,06 €, an 0700 Technische Anlagen und Maschinen 333,99 € und an 2600 Vorsteuer 63,46 €. (Amtlicher Schlüssel: 4404 an [2800;0700;2600].)",
     "erklaerung": "Bei Skonto auf den Kauf einer Anlage mindert der Skontobetrag die Anschaffungskosten (0700) und die Vorsteuer (2600); die Verbindlichkeit (4404) wird in voller Höhe ausgebucht, die Bank (2800) mit dem tatsächlich gezahlten Betrag."
   },
   {
@@ -9605,7 +9605,7 @@
     "typ": "rechnen",
     "text": "Berechnen Sie die Anschaffungskosten der neuen Bandschleifmaschine in Euro (siehe Beleg Nr. 2)!",
     "punkte": 2,
-    "loesung": "16.699,59 € (= 15.730,00 € Maschine + 359,00 € Absauganlage + 610,59 € Anlieferung und Aufstellung, jeweils netto).",
+    "loesung": "16.365,60 € (= 15.730,00 € Maschine + 359,00 € Absauganlage + 610,59 € Anlieferung und Aufstellung = 16.699,59 € netto, abzüglich 2 % Skonto 333,99 €). Ohne Berücksichtigung des Skontos: 16.699,59 €.",
     "erklaerung": "Zu den Anschaffungskosten zählen der Kaufpreis und alle Nebenkosten, die nötig sind, um die Maschine betriebsbereit zu machen (Absauganlage, Anlieferung, Aufstellung) – netto.",
     "anlagenText": "### Beleg 2 – Eingangsrechnung Bandschleifmaschine\n\n**Voth Maschinenbau OHG**, Lavendelstraße 17, 84032 Altdorf\nAn: Jana Loft KG, Volksdorfer Damm 46, 22359 Hamburg\n\n- Rechnung Nr. 237, Kunden-Nr. 3601, Lieferschein-Nr. 1043\n- Rechnungsdatum: 13.04.2018 (Eingangsstempel: 16.04.2018), Lieferung vom 12.04.2018\n\n| Position | Gesamtpreis (EUR) |\n|---|---|\n| Tirex Breit-Bandschleifmaschine | 15.730,00 |\n| mit Tirex Absauganlage | 359,00 |\n| Anlieferung und Aufstellung | 610,59 |\n| **Gesamt netto** | **16.699,59** |\n| Umsatzsteuer 19 % | 3.172,92 |\n| **Rechnungsbetrag** | **19.872,51** |\n\nZahlungsbedingung: \"Zahlung ab Rechnungsdatum 10 Tage 2 % Skonto, 30 Tage netto\"\n\nHinweis: Laut Beleg 3 (Kontoauszug) wurde die Rechnung unter Abzug von 2 % Skonto bezahlt (Überweisung 19.475,06 EUR)."
   },
@@ -9618,7 +9618,7 @@
     "typ": "rechnen",
     "text": "Die Bandschleifmaschine hat laut AfA-Tabelle eine betriebsgewöhnliche Nutzungsdauer von 6 Jahren. Berechnen Sie die zeitanteilige Abschreibung in Euro für die neue Maschine im Jahr der Anschaffung (Lieferung 12.04.2018)!",
     "punkte": 3,
-    "loesung": "16.699,59 € : 6 Jahre = 2.783,27 € Jahres-AfA; zeitanteilig ab April (9 Monate): 16.699,59 : 6 x 9/12 = 2.045,70 €. (Amtlicher Weg: 16.699,59 : 6 = 2.783,27; 2.783,27 : 12 x 9 = 2.087,45 bzw. laut Musterlösung 2.045,70 € / 2.046,11 €; andere Rechenwege sind möglich.)",
+    "loesung": "Anschaffungskosten nach Skonto: 16.699,59 € − 2 % Skonto 333,99 € = 16.365,60 €.\nJahres-AfA: 16.365,60 € : 6 Jahre = 2.727,60 €; zeitanteilig ab April (9 Monate): 2.727,60 € × 9 : 12 = **2.045,70 €** (laut Musterlösung). (Ohne Skontoabzug ergäben sich 16.699,59 € : 6 × 9 : 12 = 2.087,45 €; andere Rechenwege sind möglich.)",
     "erklaerung": "Lineare AfA = Anschaffungskosten / Nutzungsdauer; da die Maschine im April angeschafft wurde, wird pro rata temporis für 9 Monate abgeschrieben (Faktor 9/12).",
     "anlagenText": "### Beleg 2 – Eingangsrechnung Bandschleifmaschine\n\n**Voth Maschinenbau OHG**, Lavendelstraße 17, 84032 Altdorf\nAn: Jana Loft KG, Volksdorfer Damm 46, 22359 Hamburg\n\n- Rechnung Nr. 237, Kunden-Nr. 3601, Lieferschein-Nr. 1043\n- Rechnungsdatum: 13.04.2018 (Eingangsstempel: 16.04.2018), Lieferung vom 12.04.2018\n\n| Position | Gesamtpreis (EUR) |\n|---|---|\n| Tirex Breit-Bandschleifmaschine | 15.730,00 |\n| mit Tirex Absauganlage | 359,00 |\n| Anlieferung und Aufstellung | 610,59 |\n| **Gesamt netto** | **16.699,59** |\n| Umsatzsteuer 19 % | 3.172,92 |\n| **Rechnungsbetrag** | **19.872,51** |\n\nZahlungsbedingung: \"Zahlung ab Rechnungsdatum 10 Tage 2 % Skonto, 30 Tage netto\"\n\nHinweis: Laut Beleg 3 (Kontoauszug) wurde die Rechnung unter Abzug von 2 % Skonto bezahlt (Überweisung 19.475,06 EUR)."
   },
@@ -9674,7 +9674,7 @@
   },
   {
     "id": "kbz-2018s-a5-11",
-    "themaId": "kostenrechnung",
+    "themaId": "buchfuehrung-kontierung",
     "bereich": "kbz",
     "quelle": "original",
     "termin": "2018-sommer",
@@ -9687,7 +9687,7 @@
   },
   {
     "id": "kbz-2018s-a5-12",
-    "themaId": "kostenrechnung",
+    "themaId": "buchfuehrung-kontierung",
     "bereich": "kbz",
     "quelle": "original",
     "termin": "2018-sommer",
@@ -9699,7 +9699,7 @@
   },
   {
     "id": "kbz-2018s-a5-13",
-    "themaId": "kostenrechnung",
+    "themaId": "buchfuehrung-kontierung",
     "bereich": "kbz",
     "quelle": "original",
     "termin": "2018-sommer",
@@ -9712,14 +9712,14 @@
   },
   {
     "id": "kbz-2018s-a5-14",
-    "themaId": "kostenrechnung",
+    "themaId": "buchfuehrung-kontierung",
     "bereich": "kbz",
     "quelle": "original",
     "termin": "2018-sommer",
     "typ": "offen",
     "text": "Die Geschäftsfälle aus den Belegen 1 und 3 wirken sich unterschiedlich auf die Positionen der aufbereiteten Bilanz aus. Geben Sie Auswirkung (sinkt/steigt/keine) und Begründung an für: Beleg Nr. 1 (Kauf PC auf Ziel) – Anlagevermögen; Beleg Nr. 3 Position 2 (Leasingrate) – Anlagevermögen; Beleg Nr. 3 Position 3 (Zahlungseingang) – Umlaufvermögen.",
     "punkte": 6,
-    "loesung": "6 Einträge, je 1 Punkt: Beleg 1 – Anlagevermögen: steigt, weil die Personal-Computer den Bestand an Büromaschinen/Büromöbeln erhöhen und zum Anlagevermögen gehören. Beleg 3 Position 2 (Leasing) – Anlagevermögen: keine Auswirkung, weil die Leasingrate Aufwand darstellt und sich auf ein Bestandskonto der GuV auswirkt, nicht auf das Anlagevermögen. Beleg 3 Position 3 – Umlaufvermögen: bleibt gleich, weil die Überweisung der Innovation AG das Bankkonto erhöht und gleichzeitig die Forderungen abnehmen (Aktivtausch).",
+    "loesung": "6 Einträge, je 1 Punkt: Beleg 1 – Anlagevermögen: steigt, weil die Personal-Computer den Bestand an Büromaschinen/Büromöbeln erhöhen und zum Anlagevermögen gehören. Beleg 3 Position 2 (Leasing) – Anlagevermögen: keine Auswirkung, weil die Leasingrate Aufwand darstellt und sich auf ein Erfolgskonto (Aufwandskonto) auswirkt, das über die GuV abgeschlossen wird, nicht auf das Anlagevermögen. Beleg 3 Position 3 – Umlaufvermögen: bleibt gleich, weil die Überweisung der Innovation AG das Bankkonto erhöht und gleichzeitig die Forderungen abnehmen (Aktivtausch).",
     "erklaerung": "Beleg 1 aktiviert die PCs (Anlagevermögen steigt); die Leasingrate ist reiner Aufwand ohne Aktivierung; der Zahlungseingang ist ein Aktivtausch innerhalb des Umlaufvermögens (Bank steigt, Forderung sinkt), das Umlaufvermögen bleibt in Summe gleich.",
     "anlagenText": "### Beleg 1 – Eingangsrechnung (Kauf PC auf Ziel)\n\n**Schneider Computech GmbH** · Lüneburger Landstr. 86 · 22613 Hamburg\nAn: Jana Loft KG, Büromöbel und Bürozubehör, Volksdorfer Damm 46, 22359 Hamburg\n\n- Rechnungs-Nr. 301/2018, Kunden-Nr. 5103\n- Rechnungsdatum: 18.04.2018 (Eingangsstempel: 19.04.2018), Lieferdatum: 17.04.2018\n\n| Artikel | Menge | Einzelpreis (EUR) | Gesamtpreis (EUR) |\n|---|---|---|---|\n| Personal-Computer, 4 x 4 000 MHz Prozessor, 8 GB DDR4 Arbeitsspeicher, 1 000 GB Festplatte inkl. Monitor 27 Zoll | 4 | 1.500,00 | 6.000,00 |\n| zzgl. 19 % Umsatzsteuer | | | 1.140,00 |\n| **Gesamt** | | | **7.140,00** |\n\nAuf dem Beleg sind keine Zahlungsbedingungen abgedruckt (Kauf auf Ziel).\n\n### Beleg 3 – Kontoauszug Hamburger Sparkasse\n\n- IBAN: DE07 2005 0550 1120 2399 02 | BIC: HASPDEHHXXX\n- Kontoauszug vom 25.04.2018, Auszug Nr. 58, Blatt 1\n- Kontoinhaber: Jana Loft KG, Volksdorfer Damm 46, 22359 Hamburg\n\n| Pos. | Text | Wert | Umsatz in EUR | −/+ |\n|---|---|---|---|---|\n| 1 | Voth Maschinenbau OHG, Rech. Nr. 237, abzügl. 2 % Skonto | 23.04.2018 | 19.475,06 | − |\n| 2 | SEPA-Lastschrift, Leasingrate April 2018 für Kopiergeräte X-Pro 60 und X-Pro 150, inkl. 19 % USt. | 24.04.2018 | 214,20 | − |\n| 3 | Innovation AG, Rechnung für PC-Möbel Nr. 324/18 | 25.04.2018 | 24.859,10 | + |\n\n| | Betrag (EUR) | −/+ |\n|---|---|---|\n| ALTER SALDO | 53.692,81 | + |\n| NEUER SALDO | 58.862,65 | + |"
   },
@@ -9736,14 +9736,14 @@
       "Der Beleg muss bis zum 18.04.2024 aufbewahrt werden.",
       "Der Beleg muss 6 Jahre aufbewahrt werden.",
       "Der Beleg muss 10 Jahre aufbewahrt werden. Die Aufbewahrungsfrist beginnt mit Ablauf des Jahres der Rechnungsstellung.",
-      "Der Beleg muss bis zum 18.04.2028 aufbewahrt werden.",
+      "Der Beleg muss 8 Jahre aufbewahrt werden. Die Aufbewahrungsfrist beginnt mit Ablauf des Jahres der Rechnungsstellung.",
       "Der Beleg kann nach der Buchung vernichtet werden."
     ],
     "korrekt": [
-      2
+      3
     ],
-    "loesung": "Richtig ist Aussage 3: Der Beleg muss 10 Jahre aufbewahrt werden; die Aufbewahrungsfrist beginnt mit Ablauf des Jahres der Rechnungsstellung.",
-    "erklaerung": "Buchungsbelege sind nach § 257 HGB / § 147 AO 10 Jahre aufzubewahren; die Frist beginnt mit dem Ende des Kalenderjahres, in dem der Beleg entstanden ist.",
+    "loesung": "Richtig ist: Der Beleg muss 8 Jahre aufbewahrt werden; die Aufbewahrungsfrist beginnt mit Ablauf des Jahres der Rechnungsstellung.\n\n> **Rechtsstand 2026:** Buchungsbelege sind 8 Jahre aufzubewahren (§ 147 Abs. 3 AO, § 257 Abs. 4 HGB i. d. F. des BEG IV). Zum Prüfungszeitpunkt (Sommer 2018) galten noch 10 Jahre.",
+    "erklaerung": "Buchungsbelege sind nach § 257 HGB / § 147 AO 8 Jahre aufzubewahren (Rechtsstand 2026; bis 2024: 10 Jahre); die Frist beginnt mit dem Ende des Kalenderjahres, in dem der Beleg entstanden ist.",
     "anlagenText": "### Beleg 1 – Eingangsrechnung (Kauf PC auf Ziel)\n\n**Schneider Computech GmbH** · Lüneburger Landstr. 86 · 22613 Hamburg\nAn: Jana Loft KG, Büromöbel und Bürozubehör, Volksdorfer Damm 46, 22359 Hamburg\n\n- Rechnungs-Nr. 301/2018, Kunden-Nr. 5103\n- Rechnungsdatum: 18.04.2018 (Eingangsstempel: 19.04.2018), Lieferdatum: 17.04.2018\n\n| Artikel | Menge | Einzelpreis (EUR) | Gesamtpreis (EUR) |\n|---|---|---|---|\n| Personal-Computer, 4 x 4 000 MHz Prozessor, 8 GB DDR4 Arbeitsspeicher, 1 000 GB Festplatte inkl. Monitor 27 Zoll | 4 | 1.500,00 | 6.000,00 |\n| zzgl. 19 % Umsatzsteuer | | | 1.140,00 |\n| **Gesamt** | | | **7.140,00** |\n\nAuf dem Beleg sind keine Zahlungsbedingungen abgedruckt (Kauf auf Ziel)."
   },
   {
@@ -9755,7 +9755,7 @@
     "typ": "rechnen",
     "text": "Durch Investitionen zur Erhöhung der Produktionskapazität hat sich der Anteil der Fixkosten erhöht. Ergänzen Sie die fehlenden Beträge der Tabelle und geben Sie die Gewinnschwelle in Stück an. Auszug: bei 300 Stück Umsatzerlöse 178.500,00; variable Kosten 63.000,00; Fixkosten 154.000,00; bei 400 Stück Umsatzerlöse 238.000,00; variable Kosten 84.000,00; Fixkosten 154.000,00; bei 500 Stück Ergebnis 38.500,00.",
     "punkte": 6,
-    "loesung": "Fehlende Werte u. a.: 300 Stück: Gesamtkosten 217.000,00; Ergebnis −38.500,00. 400 Stück: Gesamtkosten 238.000,00; Ergebnis 0,00. 200 Stück: variable Kosten 42.000,00; Ergebnis −77.000,00. Gewinnschwelle: 400 Stück (dort Umsatzerlöse = Gesamtkosten, Ergebnis 0).",
+    "loesung": "Fehlende Werte: 100 Stück: Umsatzerlöse 59.500,00 (595,00 € × 100). 200 Stück: variable Kosten 42.000,00 (210,00 € × 200). 300 Stück: Ergebnis −38.500,00 (178.500,00 − 217.000,00). 400 Stück: Ergebnis 0,00 (238.000,00 − 238.000,00). 700 Stück: Gesamtkosten 301.000,00 (147.000,00 + 154.000,00). Gewinnschwelle: 400 Stück (dort Umsatzerlöse = Gesamtkosten, Ergebnis 0).",
     "erklaerung": "Gesamtkosten = variable Kosten + Fixkosten; Ergebnis = Umsatzerlöse − Gesamtkosten. An der Gewinnschwelle (Break-even) ist das Ergebnis 0 – hier bei 400 Stück.",
     "anlagenText": "### Tabelle zu Aufgabe 5.16.1 – Gewinnschwelle Konferenztisch \"Oratio\"\n\nGraue Felder = auszufüllen, hier als *(leer)* gekennzeichnet.\n\n| Stück | Umsatzerlöse (EUR) | variable Kosten (EUR) | Fixkosten (EUR) | Gesamtkosten (EUR) | Ergebnis (EUR) |\n|---|---|---|---|---|---|\n| 100 | *(leer)* | 21.000,00 | 154.000,00 | 175.000,00 | −115.500,00 |\n| 200 | 119.000,00 | *(leer)* | 154.000,00 | 196.000,00 | −77.000,00 |\n| 300 | 178.500,00 | 63.000,00 | 154.000,00 | 217.000,00 | *(leer)* |\n| 400 | 238.000,00 | 84.000,00 | 154.000,00 | 238.000,00 | *(leer)* |\n| 500 | 297.500,00 | 105.000,00 | 154.000,00 | 259.000,00 | 38.500,00 |\n| 600 | 357.000,00 | 126.000,00 | 154.000,00 | 280.000,00 | 77.000,00 |\n| 700 | 416.500,00 | 147.000,00 | 154.000,00 | *(leer)* | 115.500,00 |\n| 800 | 476.000,00 | 168.000,00 | 154.000,00 | 322.000,00 | 154.000,00 |\n\nGewinnschwelle: ______ Stück"
   },
@@ -10074,7 +10074,7 @@
     "text": "Eine Mitarbeiterin hat am 22. November 2018 ihre Kündigung eingereicht. Der zustehende Urlaub ist bereits genommen. Ermitteln Sie anhand des Gesetzesauszugs, wann sie ihren letzten Arbeitstag haben wird! (§ 622 Abs. 1 BGB: Das Arbeitsverhältnis kann mit einer Frist von vier Wochen zum Fünfzehnten oder zum Ende eines Kalendermonats gekündigt werden.)",
     "punkte": 2.2727,
     "loesung": "Letzter Arbeitstag: 31.12.2018. Gemäß § 622 Abs. 1 BGB kann mit einer Frist von vier Wochen zum Fünfzehnten oder zum Ende eines Kalendermonats gekündigt werden. Bei Kündigung am 22. November 2018 ist der nächste wirksame Kündigungstermin mit vier Wochen Vorlaufzeit der 31.12.2018.",
-    "erklaerung": "Von der Kündigung am 22.11. reichen vier Wochen nicht mehr bis zum 31.12., wohl aber bis zum nächsten möglichen Endtermin (Monatsende) 31.12.2018."
+    "erklaerung": "Ab dem 22.11. laufen vier Wochen (28 Tage) bis zum 20.12. Der Kündigungstermin 15.12. ist damit nicht mehr erreichbar; nächster möglicher Endtermin ist das Monatsende, also der 31.12.2018."
   },
   {
     "id": "kbz-2018w-a3-3",
@@ -10347,7 +10347,7 @@
     "text": "Kontieren Sie den Zahlungseingang (des Kunden) auf dem Konto des Verkäufers! (Überweisungsbetrag 7.918,50 €, Skonto netto 205,80 €, USt-Korrektur 39,10 €, offene Forderung 8.163,40 €)",
     "anlagenText": "Kontenplan-Auszug: 2800 Hamburger Sparkasse, 4800 Umsatzsteuer (19 %), 5101 Erlösberichtigungen, 2405 Büroausstatter Winter OHG.",
     "punkte": 2.2727,
-    "loesung": "2800 Hamburger Sparkasse 7.918,50; 4800 Umsatzsteuer 205,80; 5101 Erlösberichtigung 39,10 an 2405 Büroausstatter Winter OHG 8.163,40.",
+    "loesung": "2800 Hamburger Sparkasse 7.918,50; 5101 Erlösberichtigung 205,80; 4800 Umsatzsteuer 39,10 an 2405 Büroausstatter Winter OHG 8.163,40.",
     "erklaerung": "Der Zahlungseingang (2800), die Erlösberichtigung (5101) für den Netto-Skonto und die USt-Korrektur (4800) werden im Soll gebucht, der Ausgleich der Forderung (2405) im Haben. Hinweis: In der amtlichen Lösung sind die Beträge für 4800 und 5101 vertauscht dargestellt; sachlich ist 5101 der Nettoskonto (205,80) und 4800 die USt-Korrektur (39,10)."
   },
   {
@@ -10462,7 +10462,7 @@
     "typ": "rechnen",
     "text": "Berechnen Sie das Betriebsergebnis! (Die Spalten Kosten und Leistungen müssen nicht ausgefüllt sein.)",
     "punkte": 2,
-    "loesung": "Betriebsergebnis = 50.418,00 EUR. Leistungen (Umsatzerlöse eig. Erzeugnisse) 340.000,00 − Kosten 289.582,00 (283.982,00 betriebliche Aufwendungen laut GuV, korrigiert um neutrale Erträge, zzgl. verrechneter Unternehmerlohn 5.600,00) = 50.418,00 EUR.",
+    "loesung": "Betriebsergebnis = 50.418,00 EUR. Leistungen (Umsatzerlöse eig. Erzeugnisse) 340.000,00 − Kosten 289.582,00 (283.982,00 betriebliche Aufwendungen laut GuV als Grundkosten zzgl. verrechneter kalkulatorischer Unternehmerlohn 5.600,00; die neutralen Erträge aus Vermietung und Zinsen zählen nicht zu den Leistungen) = 50.418,00 EUR.",
     "erklaerung": "Das Betriebsergebnis der Betriebsergebnisrechnung ergibt sich aus den betrieblichen Leistungen (340.000,00) abzüglich der betrieblichen Kosten (289.582,00)."
   },
   {
@@ -10824,11 +10824,11 @@
       "Steuerklassen 2 und 3"
     ],
     "korrekt": [
-      1,
+      2,
       3
     ],
-    "loesung": "Steuerklassen 3 und 3 sowie Steuerklassen 3 und 5.",
-    "erklaerung": "Verheiratete können zwischen den Kombinationen 4/4 und 3/5 (bzw. der einheitlichen Wahl von Klasse 3) wählen. Von den angebotenen Optionen sind die Kombinationen mit den Kennziffern 2 und 4 zutreffend; die Kennziffern in den Klammern [3;4] sind untereinander austauschbar."
+    "loesung": "Steuerklassen 4 und 4 sowie Steuerklassen 3 und 5.",
+    "erklaerung": "Verheiratete Arbeitnehmer können zwischen der Kombination 4/4 (beide verdienen ähnlich viel) und 3/5 (ein Partner verdient deutlich mehr) wählen (§ 38b EStG). Eine Kombination 3/3, 1/2, 1/6 oder 2/3 ist für Ehegatten nicht möglich."
   },
   {
     "id": "kbz-2019w-a2-3",
@@ -10972,7 +10972,7 @@
     "text": "Die Mitarbeiterin nimmt am Gleitzeitverfahren teil. Die tägliche Arbeitszeit beträgt 8 Stunden, die Mittagspause muss mindestens 30 Minuten betragen. Ermitteln Sie, wie viele Minuten Guthaben sie auf ihrem Gleitzeitkonto hat! Mo 08:00–16:30, Pause 30 Min; Di 07:00–16:30, Pause 30 Min; Mi 08:00–17:00, Pause 30 Min; Do 08:00–16:30, Pause 60 Min; Fr 08:30–16:30, Pause keine.",
     "punkte": 2,
     "loesung": "30 Minuten Guthaben.",
-    "erklaerung": "Nettoarbeitszeit je Tag (Anwesenheit minus Mindestpause 30 Min): Mo 8:00 h, Di 9:00 h, Mi 8:30 h, Do 8:00 h (bei 60 Min tatsächlicher Pause), Fr 8:00 h (bei fehlender Pause wird die Mindestpause von 30 Min abgezogen). Summe 41,5 h gegenüber Soll 40 h; abzüglich der bereits berücksichtigten Pausenabweichungen ergibt sich ein Guthaben von 30 Minuten."
+    "erklaerung": "Nettoarbeitszeit je Tag (Anwesenheit minus Pause, mindestens 30 Min.): Mo 8:00–16:30 = 8,5 h − 0,5 h = 8,0 h (±0); Di 7:00–16:30 = 9,5 h − 0,5 h = 9,0 h (+60 Min.); Mi 8:00–17:00 = 9,0 h − 0,5 h = 8,5 h (+30 Min.); Do 8:00–16:30 = 8,5 h − 1,0 h = 7,5 h (−30 Min.); Fr 8:30–16:30 = 8,0 h − 0,5 h Mindestpause (keine Pause gemacht) = 7,5 h (−30 Min.). Summe 40,5 h gegenüber Soll 40 h (5 × 8 h) = **30 Minuten Guthaben**."
   },
   {
     "id": "kbz-2019w-a2-12",
