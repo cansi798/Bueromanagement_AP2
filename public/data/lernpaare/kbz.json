@@ -359,14 +359,14 @@
     "frage": "Die Loft KG (Sitz in Dresden) will eine offene Forderung von 3.800,00 € gegen die Bürobedarf GmbH (Sitz in Hamburg) einklagen. Es gilt der gesetzliche Gerichtsstand. Welches Gericht ist zuständig?",
     "optionen": [
       "Das Amtsgericht Dresden, weil der Kläger dort seinen Sitz hat.",
-      "Das Amtsgericht Hamburg, weil bei Streitwerten bis 5.000,00 € das Amtsgericht am Sitz des Beklagten zuständig ist.",
+      "Das Amtsgericht Hamburg, weil bei Streitwerten bis 10.000,00 € das Amtsgericht am Sitz des Beklagten zuständig ist.",
       "Das Landgericht Hamburg, weil Handelssachen immer vor das Landgericht gehören.",
       "Das Landgericht Dresden, weil der Streitwert über 3.000,00 € liegt."
     ],
     "korrekt": [
       1
     ],
-    "erklaerung": "Sachlich ist bei Streitwerten bis 5.000,00 € das Amtsgericht zuständig (§ 23 GVG), darüber das Landgericht; örtlich gilt der gesetzliche Gerichtsstand am (Wohn-)Sitz des Beklagten. Geklagt wird also beim Amtsgericht Hamburg. Der Sitz des Klägers ist ohne besondere Vereinbarung unerheblich, und eine Grenze von 3.000,00 € existiert nicht.",
+    "erklaerung": "Sachlich ist bei Streitwerten bis 10.000,00 € das Amtsgericht zuständig (§ 23 GVG, Rechtsstand 2026), darüber das Landgericht; örtlich gilt der gesetzliche Gerichtsstand am (Wohn-)Sitz des Beklagten. Geklagt wird also beim Amtsgericht Hamburg. Der Sitz des Klägers ist ohne besondere Vereinbarung unerheblich, und eine Grenze von 3.000,00 € existiert nicht.",
     "schwierigkeit": 2,
     "quellTermin": "2019-sommer"
   },

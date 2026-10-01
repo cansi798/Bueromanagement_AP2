@@ -1431,9 +1431,9 @@
       "… 10.000,00 € ist das Amtsgericht zuständig."
     ],
     "korrekt": [
-      1
+      2
     ],
-    "loesung": "**Antwort 2** ist richtig: Erst ab einem Streitwert über **5.000,00 €** ist das **Landgericht** zuständig (darunter das Amtsgericht)."
+    "loesung": "Richtig ist: Erst ab einem Streitwert über **10.000,00 €** ist das **Landgericht** zuständig, darunter das Amtsgericht.\n\n> **Rechtsstand 2026:** Seit 01.01.2026 liegt die Grenze bei 10.000 € (§ 23 GVG). Zum Prüfungszeitpunkt (Sommer 2024) galten noch 5.000 €."
   },
   {
     "id": "kbz-2024s-a1-4",
@@ -5428,7 +5428,7 @@
       2
     ],
     "loesung": "Dem Amtsgericht Dresden.",
-    "erklaerung": "Der gesetzliche Gerichtsstand ist der Wohn-/Geschäftssitz des Schuldners (Dresden); bei Streitwerten bis 5.000 € ist das Amtsgericht sachlich zuständig."
+    "erklaerung": "Der gesetzliche Gerichtsstand ist der Wohn-/Geschäftssitz des Schuldners (Dresden); bei Streitwerten bis 10.000 € ist das Amtsgericht sachlich zuständig (Rechtsstand 2026, § 23 GVG)."
   },
   {
     "id": "kbz-2019s-a3-7",
