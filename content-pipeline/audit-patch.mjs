@@ -5,7 +5,14 @@ const gleich = (a, b) => JSON.stringify(a) === JSON.stringify(b)
 
 export function wendePatchesAn(liste, patches) {
   const fehler = []
+  const gesehen = new Set()
   for (const p of patches) {
+    const schluessel = JSON.stringify([p.id, p.feld])
+    if (gesehen.has(schluessel)) {
+      fehler.push(`${p.datei}: ${p.id}.${p.feld} mehrfach gepatcht`)
+      continue
+    }
+    gesehen.add(schluessel)
     const e = liste.find((x) => x.id === p.id)
     if (!e) fehler.push(`${p.datei}: id ${p.id} nicht gefunden`)
     else if (!gleich(e[p.feld], p.alt))

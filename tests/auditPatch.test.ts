@@ -39,4 +39,26 @@ describe('wendePatchesAn', () => {
     expect('loesung' in l[0]).toBe(false)
     expect(l[1]).toMatchObject({ erklaerung: 'E' })
   })
+
+  it('meldet doppelt gepatchte id+feld und ändert nichts', () => {
+    const l = basis()
+    const r = wendePatchesAn(l, [
+      { datei: 'd', id: 'a', feld: 'loesung', alt: 'alt', neu: 'x', grund: 't' },
+      { datei: 'd', id: 'a', feld: 'loesung', alt: 'alt', neu: 'y', grund: 't' },
+    ])
+    expect(r.geaendert).toBe(0)
+    expect(r.fehler).toEqual(['d: a.loesung mehrfach gepatcht'])
+    expect(l).toEqual(basis())
+  })
+
+  it('wendet bei gemischter Liste (gültig + ungültig) nichts an', () => {
+    const l = basis()
+    const r = wendePatchesAn(l, [
+      { datei: 'd', id: 'a', feld: 'korrekt', alt: [1], neu: [2], grund: 't' },
+      { datei: 'd', id: 'b', feld: 'themaId', alt: 'falsch', neu: 'y', grund: 't' },
+    ])
+    expect(r.geaendert).toBe(0)
+    expect(r.fehler).toHaveLength(1)
+    expect(l).toEqual(basis())
+  })
 })

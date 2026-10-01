@@ -21,28 +21,34 @@ if (dateien.length === 0) {
 
 let fehlerGesamt = 0
 for (const f of dateien) {
-  const { patches } = JSON.parse(fs.readFileSync(path.join(stagingDir, f), 'utf8'))
-  const proDatei = new Map()
-  for (const p of patches) proDatei.set(p.datei, [...(proDatei.get(p.datei) ?? []), p])
-  let ok = true
-  const schreiben = []
-  for (const [datei, ps] of proDatei) {
-    const pfad = `${dataDir}/${datei}.json`
-    const liste = JSON.parse(fs.readFileSync(pfad, 'utf8'))
-    const r = wendePatchesAn(liste, ps)
-    r.fehler.forEach((e) => console.error(`${f}: ${e}`))
-    if (r.fehler.length) ok = false
-    else schreiben.push([pfad, liste, r.geaendert])
-  }
-  if (!ok) {
+  try {
+    const { patches } = JSON.parse(fs.readFileSync(path.join(stagingDir, f), 'utf8'))
+    if (!Array.isArray(patches)) throw new Error('Feld "patches" fehlt oder ist kein Array')
+    const proDatei = new Map()
+    for (const p of patches) proDatei.set(p.datei, [...(proDatei.get(p.datei) ?? []), p])
+    let ok = true
+    const schreiben = []
+    for (const [datei, ps] of proDatei) {
+      const pfad = `${dataDir}/${datei}.json`
+      const liste = JSON.parse(fs.readFileSync(pfad, 'utf8'))
+      const r = wendePatchesAn(liste, ps)
+      r.fehler.forEach((e) => console.error(`${f}: ${e}`))
+      if (r.fehler.length) ok = false
+      else schreiben.push([pfad, liste, r.geaendert])
+    }
+    if (!ok) {
+      fehlerGesamt++
+      console.error(`${f}: NICHT eingespielt (Fehler oben)`)
+      continue
+    }
+    for (const [pfad, liste, n] of schreiben) {
+      fs.writeFileSync(pfad, JSON.stringify(liste, null, 2) + '\n')
+      console.log(`${f}: ${n} Patches in ${pfad}`)
+    }
+    fs.renameSync(path.join(stagingDir, f), path.join(stagingDir, f + '.done'))
+  } catch (err) {
     fehlerGesamt++
-    console.error(`${f}: NICHT eingespielt (Fehler oben)`)
-    continue
+    console.error(`${f}: NICHT eingespielt (${err.message})`)
   }
-  for (const [pfad, liste, n] of schreiben) {
-    fs.writeFileSync(pfad, JSON.stringify(liste, null, 2) + '\n')
-    console.log(`${f}: ${n} Patches in ${pfad}`)
-  }
-  fs.renameSync(path.join(stagingDir, f), path.join(stagingDir, f + '.done'))
 }
 process.exit(fehlerGesamt ? 1 : 0)
