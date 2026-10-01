@@ -17,7 +17,7 @@ Automatisch (sicher, ohne Wertungs-/Zuordnungsänderung): 195 · zur Entscheidun
 | kbz-2020w-a5-16 | loesung | rechtsstand | unsicher | Beleg weist 16 % USt aus (befristete Senkung 01.07.–31.12.2020, Zweites Corona-Steuerhilfegesetz). Buchung für den Beleg korrekt, aber Lernende sollten wissen, dass der Regelsteuersatz 2026 19 % beträgt (§ 12 Abs. 1 UStG |
 | kbz-2017w-a4-11 | text | rechtsstand | sicher | Seit 25.05.2018 ergeben sich die Betroffenenrechte aus der DSGVO (Art. 15–21), nicht mehr aus dem BDSG a. F. |
 
-**Entscheidung:** _offen_
+**Entscheidung:** übernehmen (Nutzer 2026-10-01)
 
 ## G2 Eindeutige Fach-/Rechenfehler (24)
 
@@ -48,7 +48,7 @@ Automatisch (sicher, ohne Wertungs-/Zuordnungsänderung): 195 · zur Entscheidun
 | kbz-rechnung-umsatzsteuer-v1 | loesung | fachlich | sicher | Endergebnis falsch: 8.040,00 × 1,19 = 9.567,60 € (so auch in der Erklärung), nicht 9.567,40 €. |
 | kbz-2018w-a4-5 | loesung | fachlich | sicher | Beträge für 4800 und 5101 vertauscht (aus dem amtlichen Schlüssel übernommen, die Erklärung weist selbst darauf hin): Erlösberichtigung 5101 = Skonto netto 205,80 €, Umsatzsteuer 4800 = USt-Korrektur 39,10 € (244,90 / 1, |
 
-**Entscheidung:** _offen_
+**Entscheidung:** übernehmen (Nutzer 2026-10-01)
 
 ## G3 Lösungsbogen vs. Nachrechnung (5)
 
@@ -60,7 +60,7 @@ Automatisch (sicher, ohne Wertungs-/Zuordnungsänderung): 195 · zur Entscheidun
 | kbz-2025s-a6-6 | erklaerung | fachlich | unsicher | Erklärung nennt als Ergebnis nur den Lösungsbogenwert 777,17 €, nachgerechnet ergeben sich 771,95 € (Rechnung siehe Befund zu loesung). Zusätzlich (sonstiges): Zeilen beginnen mit „+ “ und werden von Markdown zu Listenpu |
 | kbz-2025s-a6-7-3 | erklaerung | fachlich | unsicher | Rechnet mit den Plan-Selbstkosten 777,17 € laut Lösungsbogen (810,00 − 777,17 = 32,83 €). Mit den nachgerechneten Selbstkosten aus 6.6 (771,95 €) ergibt sich 810,00 − 771,95 = 38,05 €. Lösungsbogen 32,83 € vs. Nachrechnu |
 
-**Entscheidung:** _offen_
+**Entscheidung:** nachgerechneter Wert gilt + Vermerk „Der offizielle Lösungsbogen nennt …" (Nutzer 2026-10-01)
 
 ## G4 Strittige Rechtsauslegung / fehlender Schlüssel (7)
 
@@ -74,7 +74,7 @@ Automatisch (sicher, ohne Wertungs-/Zuordnungsänderung): 195 · zur Entscheidun
 | kbz-2018s-a4-5 | anlagenText | fachlich | unsicher | Die Steuerwerte 185,50 / 16,69 / 4,70 können nicht zur Steuerklasse I gehören. Bei 185,50 € Lohnsteuer läge der Soli 2018 in StKl I (Freigrenze 81 €/Monat) bei 10,20 €. 4,70 € ergibt sich nur mit der StKl-III-Freigrenze  |
 | kbz-2018s-a4-5 | loesung | fachlich | unsicher | Die Lösung ist widersprüchlich: Sie rechnet mit 185,50 € Lohnsteuer (Netto 2.110,31 €) und nennt im Klammerzusatz das amtliche Netto 1.834,70 € mit 421,41 € Lohnsteuer. Nachrechnung mit den StKl-I-Werten: SV = 245,53 + 2 |
 
-**Entscheidung:** _offen_
+**Entscheidung:** rechtlich korrekte Fassung übernehmen + Hinweis auf abweichende Prüfungsbogen-Lösung, wo vorhanden (Nutzer 2026-10-01)
 
 ## G5 Zuordnung (18)
 
@@ -99,7 +99,7 @@ Automatisch (sicher, ohne Wertungs-/Zuordnungsänderung): 195 · zur Entscheidun
 | kbz-lp-rechnung-umsatzsteuer-16 | themaId | zuordnung | sicher | Bezugskalkulation (Listeneinkaufspreis → Zieleinkaufspreis → Bareinkaufspreis → Bezugspreis) ist Handelskalkulation, kein Inhalt von Rechnung/Umsatzsteuer. |
 | kbz-lp-rechnung-umsatzsteuer-17 | themaId | zuordnung | sicher | Bezugskalkulation (Listeneinkaufspreis → Zieleinkaufspreis → Bareinkaufspreis → Bezugspreis) ist Handelskalkulation, kein Inhalt von Rechnung/Umsatzsteuer. |
 
-**Entscheidung:** _offen_
+**Entscheidung:** übernehmen (Nutzer 2026-10-01)
 
 ## G6 Textfehler Original (1)
 
@@ -107,5 +107,5 @@ Automatisch (sicher, ohne Wertungs-/Zuordnungsänderung): 195 · zur Entscheidun
 |---|---|---|---|---|
 | kbz-2023s-a1-5 | text | sonstiges | unsicher | Übertragungsfehler im Aufgabentext mit Sinnverlust: „Geben Sie möglichst offene Fragen ein, in welcher Gesprächsphase …“ ist grammatisch kaputt (offenbar doppelt eingefügte Phrase). Gemeint ist laut Optionen „Geben Sie a |
 
-**Entscheidung:** _offen_
+**Entscheidung:** übernehmen (Nutzer 2026-10-01)
 
