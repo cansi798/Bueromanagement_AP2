@@ -596,7 +596,7 @@
     "anlagenText": "Beleg 1: Warenwert netto 10.125,00 €, Versandkosten netto 261,00 €. Beleg 3 (Gutschrift): 885,00 € netto. Skonto 2 % auf den Warenwert. USt 19 %.",
     "punkte": 4,
     "loesung": "**Überweisungsbetrag: 11.086,28 €**",
-    "erklaerung": "Warenwert netto 10.125,00 € − Gutschrift 885,00 € = 9.240,00 € skontofähiger Warenwert.\nSkonto 2 % von 9.240,00 € = 184,80 €.\n9.240,00 € − 184,80 € = 9.055,20 € (Warenwert nach Skonto).\n+ Versandkosten netto 261,00 € = 9.316,20 €.\n+ 19 % USt (9.316,20 × 0,19 = 1.770,08 €) = **11.086,28 €**."
+    "erklaerung": "| Position | Betrag |\n|---|---|\n| Warenwert netto | 10.125,00 € |\n| − Gutschrift | 885,00 € |\n| = skontofähiger Warenwert | 9.240,00 € |\n| − 2 % Skonto | 184,80 € |\n| = Warenwert nach Skonto | 9.055,20 € |\n| + Versandkosten netto | 261,00 € |\n| = Zwischensumme netto | 9.316,20 € |\n| + 19 % USt | 1.770,08 € |\n| = **Überweisungsbetrag** | **11.086,28 €** |"
   },
   {
     "id": "kbz-2025s-a5-5",
@@ -836,8 +836,8 @@
     "text": "**Aufgabe 6.6** — Berechnen Sie auf Basis der folgenden Werte die Selbstkosten für einen Konferenztisch! Füllen Sie das Kalkulationsschema aus und runden Sie kaufmännisch auf 2 Nachkommastellen.",
     "anlagenText": "Fertigungsmaterial 210,00 €/Stück; Fertigungslöhne 135,50 €/Stück; Materialgemeinkostenzuschlagssatz 62,00 %; Fertigungsgemeinkostenzuschlagssatz 122,50 %; Verwaltungsgemeinkostenzuschlagssatz 10,80 %; Vertriebsgemeinkostenzuschlagssatz 9,50 %.",
     "punkte": 7,
-    "loesung": "| Bezeichnung | Zuschlagssatz | Kosten in € |\n|---|---|---|\n| Fertigungsmaterial | | 210,00 |\n| Materialgemeinkosten | 62,0 % | 130,20 |\n| **Fertigungslöhne** | | 135,50 |\n| Fertigungsgemeinkosten | 122,5 % | 165,99 |\n| **Herstellkosten** | | 641,69 |\n| Verwaltungsgemeinkosten | 10,8 % | 69,30 |\n| **Vertriebsgemeinkosten** | 9,5 % | 60,96 |\n| **Selbstkosten** | | 771,95 |\n\n**Hinweis (offizielle Musterlösung):** Der IHK-Lösungsbogen weist folgende Werte aus – Materialgemeinkosten 130,62 €, Fertigungsgemeinkosten 169,99 €, Herstellkosten 646,11 €, Verwaltungsgemeinkosten 69,68 €, Vertriebsgemeinkosten 61,38 €, **Selbstkosten 777,17 €**. (Siehe Auffälligkeit im Audit – die Beträge der Musterlösung sind bei Nachrechnung nicht durchgängig konsistent; maßgeblich ist der offizielle Lösungswert 777,17 €.)",
-    "erklaerung": "Kalkulationsschema:\nFertigungsmaterial 210,00\n+ Materialgemeinkosten (62 % von 210,00 = 130,20)\n+ Fertigungslöhne 135,50\n+ Fertigungsgemeinkosten (122,5 % von 135,50 = 165,99)\n= Herstellkosten\n+ Verwaltungsgemeinkosten (10,8 % der Herstellkosten)\n+ Vertriebsgemeinkosten (9,5 % der Herstellkosten)\n= Selbstkosten. Laut offiziellem Lösungsbogen ergeben sich Selbstkosten von 777,17 €."
+    "loesung": "| Bezeichnung | Zuschlagssatz | Kosten in € |\n|---|---|---|\n| Fertigungsmaterial | | 210,00 |\n| Materialgemeinkosten | 62,0 % | 130,20 |\n| **Fertigungslöhne** | | 135,50 |\n| Fertigungsgemeinkosten | 122,5 % | 165,99 |\n| **Herstellkosten** | | 641,69 |\n| Verwaltungsgemeinkosten | 10,8 % | 69,30 |\n| **Vertriebsgemeinkosten** | 9,5 % | 60,96 |\n| **Selbstkosten** | | 771,95 |\n\n**Hinweis:** Der IHK-Lösungsbogen weist abweichend Materialgemeinkosten 130,62 €, Fertigungsgemeinkosten 169,99 €, Herstellkosten 646,11 €, Verwaltungsgemeinkosten 69,68 €, Vertriebsgemeinkosten 61,38 € und **Selbstkosten 777,17 €** aus. Diese Werte lassen sich aus den angegebenen Zuschlagssätzen nicht nachrechnen (z. B. 62 % von 210,00 € = 130,20 €, nicht 130,62 €; 122,5 % von 135,50 € = 165,99 €, nicht 169,99 €). Rechnerisch richtig sind **Selbstkosten 771,95 €**.",
+    "erklaerung": "Kalkulationsschema:\n\n| Position | Betrag |\n|---|---|\n| Fertigungsmaterial | 210,00 € |\n| + Materialgemeinkosten (62 % von 210,00) | 130,20 € |\n| + Fertigungslöhne | 135,50 € |\n| + Fertigungsgemeinkosten (122,5 % von 135,50) | 165,99 € |\n| = Herstellkosten | 641,69 € |\n| + Verwaltungsgemeinkosten (10,8 % der Herstellkosten) | 69,30 € |\n| + Vertriebsgemeinkosten (9,5 % der Herstellkosten) | 60,96 € |\n| = Selbstkosten | 771,95 € |\n\nDer offizielle Lösungsbogen nennt Selbstkosten von 777,17 €; dieser Wert lässt sich aus den angegebenen Zuschlagssätzen nicht nachrechnen."
   },
   {
     "id": "kbz-2025s-a6-7-1",
@@ -871,7 +871,7 @@
     "text": "**Aufgabe 6.7.3** — Bei der Nachkalkulation haben sich Ist-Selbstkosten von 810,00 €/Konferenztisch ergeben. Geben Sie an, ob eine Kostenüberdeckung oder Kostenunterdeckung vorliegt, und ermitteln Sie unter Angabe des Rechenwegs die Höhe in €!",
     "punkte": 3,
     "loesung": "Es liegt eine **Kostenunterdeckung** vor.",
-    "erklaerung": "Kostenunterdeckung = Istkosten − Normal-(Plan-)Selbstkosten = 810,00 − 777,17 = **32,83 €** je Konferenztisch. Die Istkosten liegen über den kalkulierten Selbstkosten, daher Unterdeckung."
+    "erklaerung": "Kostenunterdeckung = Istkosten − Normal-(Plan-)Selbstkosten = 810,00 − 771,95 = **38,05 €** je Konferenztisch (nachgerechnete Selbstkosten aus Aufgabe 6.6). Der offizielle Lösungsbogen geht von Selbstkosten 777,17 € aus und kommt auf 810,00 − 777,17 = 32,83 €. Die Istkosten liegen über den kalkulierten Selbstkosten, daher Unterdeckung."
   },
   {
     "id": "kbz-2025s-a6-8",
