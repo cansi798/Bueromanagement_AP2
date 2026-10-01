@@ -3245,7 +3245,7 @@
       0,
       1
     ],
-    "erklaerung": "Richtig sind die ersten beiden Aussagen: Der übernommene Auszubildende ist dem Unternehmen **bekannt und eingearbeitet**, und die **teure, zeitaufwendige externe Suche** (Anzeigen, Auswahlverfahren) entfällt; zudem steigt die Motivation der Auszubildenden, wenn Übernahmen üblich sind. Neue Impulse von außen und eine größere Bewerberauswahl sind gerade Vorteile der **externen** Beschaffung – bei der Übernahme treffen sie nicht zu. Und auch bei der Übernahme eines Auszubildenden in ein Arbeitsverhältnis ist der Betriebsrat nach § 99 BetrVG zu beteiligen.",
+    "erklaerung": "Richtig sind die Übernahme-Vorteile „Betrieb und Abläufe bekannt“ und „Kosten der externen Beschaffung entfallen“: Der übernommene Auszubildende ist dem Unternehmen **bekannt und eingearbeitet**, und die **teure, zeitaufwendige externe Suche** (Anzeigen, Auswahlverfahren) entfällt; zudem steigt die Motivation der Auszubildenden, wenn Übernahmen üblich sind. Neue Impulse von außen und eine größere Bewerberauswahl sind gerade Vorteile der **externen** Beschaffung – bei der Übernahme treffen sie nicht zu. Und auch bei der Übernahme eines Auszubildenden in ein Arbeitsverhältnis ist der Betriebsrat nach § 99 BetrVG zu beteiligen.",
     "schwierigkeit": 2,
     "quellTermin": "2025-winter"
   },
@@ -3680,7 +3680,7 @@
       0,
       1
     ],
-    "erklaerung": "Richtig sind die ersten beiden Aussagen: Bei **bereits gebuchter** Rechnung stehen Aufwand und Vorsteuer schon in den Büchern; die Zahlung tilgt nur noch die **Verbindlichkeit**. Bei **noch nicht gebuchter** Rechnung werden Aufwand (netto) und Vorsteuer direkt mit der Zahlung gegen die Bank erfasst. Falsch: Eine erneute Aufwandsbuchung würde den Aufwand verdoppeln, die Vorsteuer wird bereits mit der **Rechnungsbuchung** (nicht erst bei Zahlung) erfasst, und selbstverständlich dürfen auch noch nicht gebuchte Rechnungen bezahlt werden – die Buchung erfolgt dann eben in einem Schritt.",
+    "erklaerung": "Richtig sind die Aussagen zur Zahlung gegen das Verbindlichkeitskonto und zur direkten Buchung von Aufwand und Vorsteuer gegen die Bank: Bei **bereits gebuchter** Rechnung stehen Aufwand und Vorsteuer schon in den Büchern; die Zahlung tilgt nur noch die **Verbindlichkeit**. Bei **noch nicht gebuchter** Rechnung werden Aufwand (netto) und Vorsteuer direkt mit der Zahlung gegen die Bank erfasst. Falsch: Eine erneute Aufwandsbuchung würde den Aufwand verdoppeln, die Vorsteuer wird bereits mit der **Rechnungsbuchung** (nicht erst bei Zahlung) erfasst, und selbstverständlich dürfen auch noch nicht gebuchte Rechnungen bezahlt werden – die Buchung erfolgt dann eben in einem Schritt.",
     "schwierigkeit": 2,
     "quellTermin": "2025-winter"
   },
