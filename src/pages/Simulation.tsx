@@ -7,7 +7,7 @@ import KIBewertung from '../components/KIBewertung'
 import Anlage from '../components/Anlage'
 import AnlagenDiagramm from '../components/AnlagenDiagramm'
 import { ladeAufgaben, ladePruefungen, useDaten } from '../lib/data'
-import { wertungMC } from '../lib/quiz'
+import { begruendungMC, wertungMC } from '../lib/quiz'
 import { wertungZuordnung } from '../lib/zuordnung'
 import { mischeOptionen } from '../lib/lernquiz'
 import ZuordnungFelder from '../components/ZuordnungFelder'
@@ -361,6 +361,14 @@ export default function Simulation() {
                         </button>
                       )
                     })}
+                    {abgegeben && begruendungMC(a) && (
+                      <div className="rounded-lg border border-green-200 bg-green-50 p-3 dark:border-green-900 dark:bg-green-950/40">
+                        <p className="mb-1 text-xs font-semibold uppercase text-green-700 dark:text-green-300">
+                          Begründung
+                        </p>
+                        <Markdown text={begruendungMC(a)!} />
+                      </div>
+                    )}
                   </div>
                 ) : a.typ === 'zuordnung' && a.zuordnung ? (
                   <ZuordnungFelder

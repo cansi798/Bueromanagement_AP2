@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { wertungMC } from '../src/lib/quiz'
+import { begruendungMC, wertungMC } from '../src/lib/quiz'
 
 describe('wertungMC', () => {
   it('exakte Menge ⇒ richtig, Reihenfolge egal', () => {
@@ -17,5 +17,20 @@ describe('wertungMC', () => {
 
   it('leere Auswahl ⇒ falsch', () => {
     expect(wertungMC([0], [])).toBe(false)
+  })
+})
+
+describe('begruendungMC', () => {
+  it('bevorzugt die Erklärung', () => {
+    expect(begruendungMC({ erklaerung: 'E', loesung: 'L' })).toBe('E')
+  })
+
+  it('fällt auf die Lösung zurück, wenn keine Erklärung existiert', () => {
+    expect(begruendungMC({ loesung: 'L' })).toBe('L')
+    expect(begruendungMC({ erklaerung: '  ', loesung: 'L' })).toBe('L')
+  })
+
+  it('liefert undefined ohne beides', () => {
+    expect(begruendungMC({})).toBeUndefined()
   })
 })

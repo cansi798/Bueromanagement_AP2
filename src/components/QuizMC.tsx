@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react'
 import type { Aufgabe } from '../types'
-import { wertungMC } from '../lib/quiz'
+import { begruendungMC, wertungMC } from '../lib/quiz'
 import { mischeOptionen } from '../lib/lernquiz'
 import Markdown from './Markdown'
 import OptionText from './OptionText'
@@ -21,6 +21,7 @@ export default function QuizMC({
     [aufgabe],
   )
   const mehrfach = korrekt.length > 1
+  const begruendung = begruendungMC(aufgabe)
 
   function toggle(i: number) {
     if (abgegeben) return
@@ -78,9 +79,9 @@ export default function QuizMC({
           >
             {wertungMC(korrekt, gewaehlt) ? '✔ Richtig!' : '✘ Leider falsch.'}
           </p>
-          {aufgabe.erklaerung && (
+          {begruendung && (
             <div className="mt-2 rounded-lg bg-slate-50 p-3 dark:bg-slate-800/60">
-              <Markdown text={aufgabe.erklaerung} />
+              <Markdown text={begruendung} />
             </div>
           )}
         </div>
