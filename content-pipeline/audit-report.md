@@ -666,3 +666,60 @@ eingetragene `anlagenDiagramm` ein rotes Quadrat mit Helm + Flammen (Brandschutz
 zeigen. **Nur** die Beschreibung von Schild 1 minimal-invasiv an das Bild angeglichen;
 `korrekt`, `loesung`, `erklaerung` und alle anderen Schilder unverändert. Korrekte Antwort
 (Schild 5, Brandmelder) bleibt unberührt.
+
+## KBZ-Audit (2026-10-01)
+
+**Anlass:** Nutzer-Hinweis, dass die Amtsgericht-Streitwertgrenze seit 01.01.2026 bei
+10.000 € liegt; daraus vollständige Prüfung aller KBZ-Inhalte (Aufgaben, 209 Lernpaare,
+6 Lernzettel) auf Rechtsstand 2026, fachliche Korrektheit, Positionsbezüge, Themenzuordnung
+und Darstellung von Rechenwegen. Spec/Plan: `docs/superpowers/{specs,plans}/2026-10-01-kbz-audit*`.
+Rohbefunde je Thema: `content-pipeline/audit/kbz-*.json`; Rulings:
+`content-pipeline/audit/kbz-entscheidungen.md`. Eingespielt als Feld-Patches mit
+Altwert-Prüfung über `merge-audit.mjs` (`staging/audit-01…08-*.json.done`).
+
+### Rechtsstand-Änderungen
+
+| Regel | alt | neu | gültig ab | Quelle | betroffene IDs |
+|---|---|---|---|---|---|
+| Sachliche Zuständigkeit Amtsgericht | bis 5.000 € | bis 10.000 € (Berufung ab 1.000 €) | 01.01.2026 | § 23 Nr. 1 GVG n. F.; DATEV Magazin 04.12.2025 | kbz-2024s-a1-3 u. a. (audit-01, 4 IDs inkl. Lernzettel kaufvertrag-stoerungen) |
+| Aufbewahrung Buchungsbelege | 10 Jahre | 8 Jahre | 01.01.2025 (BEG IV) | § 147 Abs. 3 AO, § 257 Abs. 4 HGB | kbz-2023w-a5-7, kbz-2018s-a5-15 |
+| Betroffenenrechte | BDSG a. F. | DSGVO Art. 15–21 | 25.05.2018 | DSGVO | kbz-2017w-a4-11 |
+| Umsatzsteuer 16 % (Belege Winter 2020) | — (Hinweis) | Regelsatz wieder 19 % | 01.01.2021 | § 12 Abs. 1 UStG | kbz-2020w-a5-9/-10/-14/-16 |
+
+Lösungen von Original-Aufgaben tragen den Vermerk `> **Rechtsstand 2026:** … Zum
+Prüfungszeitpunkt (…) galt noch …`. Dauertests: `tests/rechtsstand.test.ts`
+(Streitwert, Optionen ohne Altgrenze, Belegfrist 8 J., DSGVO).
+
+### Statistik
+
+| Kategorie | gefunden | umgesetzt | abgelehnt |
+|---|---|---|---|
+| Positionsbezug | 183 | 183 (190 Patches, 185 IDs) | 0 |
+| Fachlich | 36 | 36 | 0 |
+| Zuordnung | 18 | 18 (`themaId`) | 0 |
+| Rechtsstand | 15 | 15 (+ Amtsgericht-Sofortfix) | 0 |
+| Sonstiges | 7 | 7 | 0 |
+| **Summe** | **259** | **259** | **0** |
+
+195 Befunde waren automatisch übernehmbar, 64 gingen in die Entscheidungsgruppen G1–G6
+(alle vom Nutzer am 2026-10-01 freigegeben). G3 (Lösungsbogen vs. Nachrechnung, 5): es gilt
+der nachgerechnete Wert mit Vermerk „Der offizielle Lösungsbogen nennt …" (z. B.
+kbz-2025s-a6-6: 771,95 € statt 777,17 €). G4 (strittige Auslegung, 7): rechtlich korrekte
+Fassung + Hinweis auf die abweichende Prüfungsbogen-Lösung. Nachtrag audit-08: Lernzettel
+kaufvertrag-stoerungen (Verjährungs-Neubeginn taggenau, § 212 BGB).
+
+### Darstellung
+
+- `remark-breaks` im Markdown-Renderer: einfache Zeilenumbrüche in Rechenwegen werden
+  sichtbar (vorher zu einer Zeile zusammengezogen) — wirkt bereichsübergreifend.
+- Kalkulationsschemata als GFM-Tabellen statt „+"-Listen (Pluszeichen wurden als
+  Listenpunkte verschluckt); Dauertest gegen „+"-Listen.
+
+### Offen / bewusst unverändert
+
+- **WiSo: 153 Aufgaben mit Positionsbezug in `loesung`** — nicht Teil dieser Runde,
+  eigene Runde nötig (Optionen werden gemischt, Bezüge wie „Antwort 3" sind dort falsch).
+- Original-Aufgabentexte/-optionen wurden nur bei Rechtsstand-Änderungen angefasst
+  (Ausnahmen: G6 Übertragungsfehler mit Sinnverlust in kbz-2023s-a1-5; G4 widersprüchliche
+  Steuerwerte in kbz-2018s-a4-5 Text/Anlage, mit Hinweis auf den Prüfungsbogen).
+- Lernzettel-`##`-Titel unverändert (Schlüssel für FOLIEN_DIAGRAMME).
