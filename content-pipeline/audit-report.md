@@ -717,9 +717,36 @@ kaufvertrag-stoerungen (Verjährungs-Neubeginn taggenau, § 212 BGB).
 
 ### Offen / bewusst unverändert
 
-- **WiSo: 153 Aufgaben mit Positionsbezug in `loesung`** — nicht Teil dieser Runde,
-  eigene Runde nötig (Optionen werden gemischt, Bezüge wie „Antwort 3" sind dort falsch).
+- **WiSo: Positionsbezüge in `loesung`** — 43 davon im Nachtrag (s. u.) behoben, weil sie
+  seit dem MC-Begründungs-Fix angezeigt werden. Die übrigen ~110 betreffen MC-Aufgaben mit
+  eigener `erklaerung` (die `loesung` wird dort nicht angezeigt) bzw. offene Aufgaben —
+  eigene Runde.
 - Original-Aufgabentexte/-optionen wurden nur bei Rechtsstand-Änderungen angefasst
   (Ausnahmen: G6 Übertragungsfehler mit Sinnverlust in kbz-2023s-a1-5; G4 widersprüchliche
   Steuerwerte in kbz-2018s-a4-5 Text/Anlage, mit Hinweis auf den Prüfungsbogen).
 - Lernzettel-`##`-Titel unverändert (Schlüssel für FOLIEN_DIAGRAMME).
+
+### Nachtrag: MC-Begründungen sichtbar (2026-10-02)
+
+Bei der Sichtprüfung fiel auf, dass der Amtsgericht-Vermerk in `kbz-2024s-a1-3` nie
+angezeigt wurde: `QuizMC` zeigte nur `erklaerung`, die Simulation `loesung` nur bei offenen
+Aufgaben. 152 MC-Originalaufgaben (83 KBZ, 69 WiSo) hatten ihre Begründung nur in `loesung`.
+
+- `begruendungMC()` (src/lib/quiz.ts): `erklaerung`, sonst `loesung`; genutzt in QuizMC und
+  (nach Abgabe, Kasten „Begründung") in der Simulation.
+- Blockquotes im Markdown-Renderer als Hinweiskasten (amber, Darkmode) — betrifft die
+  Rechtsstand-/Korrektur-Vermerke und Zitate in den Mündlich-Lernzetteln.
+- `staging/audit-09-wiso-mc-begruendung.json`: 43 angezeigte WiSo-Lösungen mit
+  „Richtig ist Aussage N" inhaltlich umformuliert (N gegen `korrekt` geprüft; 2022s-a10
+  zusätzlich Restbezüge manuell).
+- **wiso-2024w-a13 (Wertungsfehler):** Option 3 war falsch übertragen („vom Markt" statt
+  Original „auf den Markt kommen"), und als richtig war 3 markiert. IHK-Lösungshinweis
+  Winter 2024/25 (Musterlösung S. 1, WiSo Nr. 13) nennt **2**. `korrekt` 2 → 1 (0-basiert),
+  Lösung mit Korrektur-Vermerk. Übrige 2024W-Aufgaben dieser Liste gegen denselben Schlüssel
+  geprüft: übereinstimmend.
+- Dauertests (tests/positionsbezug.test.ts): angezeigte MC-Begründungen aller Bereiche ohne
+  Positionsbezug; jede MC-Aufgabe hat eine anzeigbare Begründung; a13-Wertung.
+
+**Weitere Beobachtungen (nicht behoben):** Simulations-Zwischenstand zeigt ungerundete
+Punkte (z. B. „28.571399999999993"); in `kbz-2025s-a6-6` sind Fertigungslöhne/
+Vertriebsgemeinkosten fett statt der Summenzeilen.
